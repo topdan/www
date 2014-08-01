@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Technology - topdan.com</title>
+    <link>http://www.topdan.com/technology/index.rss</link>
+    <description>Dan Cunning's thoughts on technology.</description>
+    <item>
+      <title>The Past, Present, and Future of Computers</title>
+      <description>Computers have made an undeniably permanent mark on the world, but their success wasn't gained overnight. They slowly improved what they could do, leading to advancements that led to new advancements. Let's look at how they progressed to what they are today and try to predict what they might do in the future.</description>
+      <link>http://www.topdan.com/technology/past-present-and-future-of-computers.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/technology/past-present-and-future-of-computers.html</guid>
+      <pubDate>2014-07-10 16:00:00 UTC</pubDate>
+    </item>
+  </channel>
+</rss>

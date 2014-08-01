@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 (experimental) for Mac OS X https://github.com/w3c/tidy-html5/tree/c63cc39">
+
+  <title>Easy Ajax Toggle Buttons - topdan.com</title>
+  <meta charset="UTF-8">
+  <meta content="How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it." name="description">
+  <meta name="author" content="Dan Cunning">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@itopdan">
+  <meta name="twitter:url" content="http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html">
+  <meta content="Easy Ajax Toggle Buttons" name="twitter:title">
+  <meta content="How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it." name="twitter:description">
+  <link rel="shortcut icon" href="/assets/favicon-0908da29aa499222bb570a239cf87dbf.png">
+  <link href="/assets/site-9d5151cfb68135d3500794fe5fb51c67.css" media="all" rel="stylesheet"><!--[if lt IE 9]>
+  <script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script>
+  <![endif]-->
+
+  <script type="text/javascript">
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12957077-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+</head>
+
+<body id="ajax-toggle-buttons" class="navigatable">
+  <a id="top"></a>
+
+  <ul class="navigation">
+    <li class="prev">
+      <a href="/ruby-on-rails/working-with-web-apis.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">The Tricky World of Using Web APIs</span><span class="less">Previous</span></a>
+    </li>
+
+    <li>
+      <a href="/" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="/technology/">Technology</a></span><span class="less"><a href="/technology/"><i class="icon white icon-folder-open">&nbsp;</i></a></span>&nbsp;»&nbsp;<span class="title more"><a href="/ruby-on-rails/">Ruby on Rails</a></span><span class="less"><a href="/ruby-on-rails/"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
+    </li>
+
+    <li class="next">
+      <a href="/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html"><span class="more">Finding Your Most Active Users with Google Analytics</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
+    </li>
+  </ul>
+
+  <div class="content">
+    <div class="container post">
+      <p class="byline">Dan wrote this on Apr 16</p>
+
+      <h1><a href="/ruby-on-rails/ajax-toggle-buttons.html">Easy Ajax Toggle Buttons</a></h1>
+
+      <div class="alert alert-definition post-description">
+        <p>How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it.</p>
+      </div>
+
+      <ul>
+        <li>
+          <a href="#introduction">Introduction</a>
+        </li>
+
+        <li>
+          <a href="#demo">Demo</a>
+        </li>
+
+        <li>
+          <a href="#how-it-works">How it Works</a>
+        </li>
+
+        <li>
+          <a href="#the-code">The Code</a>
+        </li>
+
+        <li>
+          <a href="#wrapup">Wrap-up</a>
+        </li>
+      </ul>
+
+      <h2 id="introduction"><a href="#introduction">Introduction</a></h2>
+
+      <p>Toggle buttons are useful for communicating and changing state. Here's what the user sees:</p>
+
+      <ul class="user-experience">
+        <li>Clicks on <a href="#" class="btn"><i class="icon-star">&nbsp;</i> Favorite</a>
+        </li>
+
+        <li>An ajax request is started and the button becomes <a href="#" class="btn"><i class="icon-refresh">&nbsp;</i> Favorite</a>
+        </li>
+
+        <li>When the request succeeds the button becomes <a href="#" class="btn btn-warning"><i class="icon-star">&nbsp;</i> Favorite</a>
+        </li>
+      </ul>
+
+      <p>This pattern presents itself in every one of my applications, so I wanted to document how I implement it in Ruby on Rails, as it is a good introduction to ajax, unobtrusive javascript, and Rails handling javascript requests.</p>
+
+      <h2 id="demo"><a href="#demo">Demo</a></h2>
+
+      <p class="alert alert-info">Click the buttons below and look at your web-developer tools for the ajax responses and <code>class</code> attribute changes, but note this site runs on a static webserver, so the state is not saved, and the paths and HTTP methods don't mirror an actual Ruby on Rails application.</p>
+
+      <div id="post-1" class="my-post">
+        <p class="actions"><a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/put-5f80824d6a1218606feeed13c99c9f9e.js" data-method="GET" data-remote="true" data-type="script" class="btn favorite"><i class="icon-star">&nbsp;</i> Favorite</a> <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/delete-bc5633500068b5b3cf8a496e049d6f75.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-warning unfavorite"><i class="icon-star">&nbsp;</i> Favorite</a> <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/lock/put-06c2b5512c6cfc3635832db847839437.js" data-method="GET" data-remote="true" data-type="script" class="btn lock"><i class="icon-lock">&nbsp;</i> Locked</a> <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/lock/delete-7e2de31741b8d9e2d79559a2632e15cc.js" data-method="GET" data-remote="true" data-type="script"
+        class="btn btn-danger unlock"><i class="icon-lock">&nbsp;</i> Locked</a></p>
+      </div>
+
+      <h2 id="how-it-works"><a href="#how-it-works">How it Works</a></h2>
+
+      <ol>
+        <li>Each toggle button is actually <a href="#erb">two buttons</a> ("on" and "off") with a parent <a href="#stylesheet">CSS class</a> determining which is visible.
+        </li>
+
+        <li>Each button has an <code>href</code> along with <code>data-method</code>, <code>data-type=script</code>, and <code>data-remote=true</code> attributes, which instruct <code>jquery_ujs.js</code> to perform an ajax request and evaluate the result as javascript.</li>
+
+        <li>When the user clicks either button, <a href="#loading-js">a jQuery listener</a> switches to the loading icon while another listener switches it back on completion.
+        </li>
+
+        <li>In Rails, <a href="#routes">the main resource has a child</a> which provides <code>#update</code> and <code>#destroy</code> actions for <a href="#controller">toggling on and off</a> respectively.
+        </li>
+
+        <li>After saving the change, Rails responds with one line of javascript that <a href="#update-js">adds</a> or <a href="#destroy-js">removes</a> the parent element's class switching the visible button.
+        </li>
+      </ol>
+
+      <h2 id="the-code"><a href="#the-code">The Code</a></h2>
+
+      <h3 id="model"><a href="#model"></a></h3>
+
+      <div class="highlight">
+        <pre>
+<span class="c1"># models/post.rb</span>
+<span class="k">class</span> <span class="nc">Post</span> <span class="o">&lt;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+
+  <span class="k">def</span> <span class="nf">favorited?</span>
+    <span class="n">favorited_at</span> <span class="o">!=</span> <span class="kp">nil</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">favorite</span>
+    <span class="nb">self</span><span class="o">.</span><span class="n">favorited_at</span> <span class="o">=</span> <span class="no">Time</span><span class="o">.</span><span class="n">now</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">favorite!</span>
+    <span class="n">favorite</span>
+    <span class="n">save!</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">unfavorite</span>
+    <span class="nb">self</span><span class="o">.</span><span class="n">favorited_at</span> <span class="o">=</span> <span class="kp">nil</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">unfavorite!</span>
+    <span class="n">unfavorite</span>
+    <span class="n">save!</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+</pre>
+      </div>
+
+      <h3 id="routes"><a href="#routes"></a></h3>
+
+      <div class="highlight">
+        <pre>
+<span class="c1"># config/routes.rb</span>
+<span class="n">resources</span> <span class="ss">:posts</span> <span class="k">do</span>
+  <span class="n">resource</span> <span class="ss">:favorite</span><span class="p">,</span> <span class="ss">only</span><span class="p">:</span> <span class="sx">%w(update destroy)</span>
+<span class="k">end</span>
+</pre>
+      </div>
+
+      <h3 id="controller"><a href="#controller"></a></h3>
+
+      <div class="highlight">
+        <pre>
+<span class="c1"># controllers/posts/favorites_controller.rb</span>
+<span class="k">class</span> <span class="nc">Posts</span><span class="o">::</span><span class="no">FavoritesController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
+
+  <span class="n">before_action</span> <span class="ss">:load_post</span>
+
+  <span class="k">def</span> <span class="nf">update</span>
+    <span class="vi">@post</span><span class="o">.</span><span class="n">favorite!</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">destroy</span>
+    <span class="vi">@post</span><span class="o">.</span><span class="n">unfavorite!</span>
+  <span class="k">end</span>
+
+  <span class="kp">protected</span>
+
+    <span class="k">def</span> <span class="nf">load_post</span>
+      <span class="vi">@post</span> <span class="o">=</span> <span class="no">Post</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:post_id</span><span class="o">]</span><span class="p">)</span>
+    <span class="k">end</span>
+
+<span class="k">end</span>
+</pre>
+      </div>
+
+      <h3 id="application-helper"><a href="#application-helper"></a></h3>
+
+      <div class="highlight">
+        <pre>
+<span class="c1"># helpers/application_helper.rb</span>
+<span class="k">module</span> <span class="nn">ApplicationHelper</span>
+
+  <span class="k">def</span> <span class="nf">link_to_with_icon</span><span class="p">(</span><span class="n">icon_css</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">options</span> <span class="o">=</span> <span class="p">{})</span>
+    <span class="n">icon</span> <span class="o">=</span> <span class="n">content_tag</span><span class="p">(</span><span class="ss">:i</span><span class="p">,</span> <span class="kp">nil</span><span class="p">,</span> <span class="ss">class</span><span class="p">:</span> <span class="n">icon_css</span><span class="p">)</span>
+    <span class="n">title_with_icon</span> <span class="o">=</span> <span class="n">icon_css</span> <span class="o">&lt;&lt;</span> <span class="s1">' '</span> <span class="o">&lt;&lt;</span> <span class="n">title</span>
+    <span class="n">link_to</span><span class="p">(</span><span class="n">title_with_icon</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">options</span><span class="p">)</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">toggle_button_to</span><span class="p">(</span><span class="n">icon_css</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">options</span> <span class="o">=</span> <span class="p">{})</span>
+    <span class="n">on_options</span> <span class="o">=</span> <span class="p">{</span>
+      <span class="s1">'data-remote'</span> <span class="o">=&gt;</span> <span class="kp">true</span><span class="p">,</span>
+      <span class="s1">'data-type'</span> <span class="o">=&gt;</span> <span class="s1">'script'</span><span class="p">,</span>
+      <span class="s1">'data-method'</span> <span class="o">=&gt;</span> <span class="s1">'PUT'</span><span class="p">,</span>
+      <span class="ss">class</span><span class="p">:</span> <span class="n">options</span><span class="o">[</span><span class="ss">:on</span><span class="o">]</span>
+    <span class="p">}</span>
+
+    <span class="n">off_options</span> <span class="o">=</span> <span class="p">{</span>
+      <span class="s1">'data-remote'</span> <span class="o">=&gt;</span> <span class="kp">true</span><span class="p">,</span>
+      <span class="s1">'data-type'</span> <span class="o">=&gt;</span> <span class="s1">'script'</span><span class="p">,</span>
+      <span class="s1">'data-method'</span> <span class="o">=&gt;</span> <span class="s1">'DELETE'</span><span class="p">,</span>
+      <span class="ss">class</span><span class="p">:</span> <span class="n">options</span><span class="o">[</span><span class="ss">:off</span><span class="o">]</span>
+    <span class="p">}</span>
+
+    <span class="n">on_link</span> <span class="o">=</span> <span class="n">link_to_with_icon</span><span class="p">(</span><span class="n">icon_css</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">on_options</span><span class="p">)</span>
+    <span class="n">off_link</span> <span class="o">=</span> <span class="n">link_to_with_icon</span><span class="p">(</span><span class="n">icon_css</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">off_options</span><span class="p">)</span>
+
+    <span class="n">on_link</span> <span class="o">&lt;&lt;</span> <span class="n">off_link</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+</pre>
+      </div>
+
+      <h3 id="helper"><a href="#helper"></a></h3>
+
+      <div class="highlight">
+        <pre>
+<span class="c1"># helpers/posts_helper.rb</span>
+<span class="k">module</span> <span class="nn">PostsHelper</span>
+
+  <span class="k">def</span> <span class="nf">post_css</span><span class="p">(</span><span class="n">post</span><span class="p">)</span>
+    <span class="s1">'favorite'</span> <span class="k">if</span> <span class="n">post</span><span class="o">.</span><span class="n">favorited?</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+</pre>
+      </div>
+
+      <h3 id="gemfile"><a href="#gemfile"></a></h3>
+
+      <div class="highlight">
+        <pre>
+<span class="c1"># Gemfile</span>
+<span class="n">gem</span> <span class="s1">'jquery-rails'</span>
+<span class="n">gem</span> <span class="s1">'jquery-ui-rails'</span>
+</pre>
+      </div>
+
+      <h3 id="application-js"><a href="#application-js"></a></h3>
+
+      <div class="highlight">
+        <pre>
+<span class="c1">// assets/javascript/application.js</span>
+<span class="c1">//</span>
+<span class="c1">// jquery_ujs allows us to use 'data-remote',</span>
+<span class="c1">// 'data-type', and 'data-method' attributes</span>
+<span class="c1">//</span>
+<span class="c1">//= require jquery</span>
+<span class="c1">//= require jquery_ujs</span>
+<span class="c1">//= require_tree .</span>
+</pre>
+      </div>
+
+      <h3 id="stylesheet"><a href="#stylesheet"></a></h3>
+
+      <div class="highlight">
+        <pre>
+<span class="cm">/* assets/stylesheets/posts.css.scss */</span>
+<span class="p">.</span><span class="n">post</span> <span class="p">{</span>
+  <span class="cm">/* off by default */</span>
+  <span class="p">.</span><span class="n">unfavorite</span> <span class="p">{</span> <span class="nl">display:</span> <span class="n">none</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="cm">/* when the post is favorited show the unfavorite button instead */</span>
+<span class="p">.</span><span class="n">post</span><span class="p">.</span><span class="n">favorited</span> <span class="p">{</span>
+  <span class="p">.</span><span class="n">favorite</span> <span class="p">{</span> <span class="nl">display:</span> <span class="n">none</span><span class="p">;</span> <span class="p">}</span>
+  <span class="p">.</span><span class="n">unfavorite</span> <span class="p">{</span> <span class="nl">display:</span> <span class="n">inline</span><span class="o">-</span><span class="n">block</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">}</span>
+</pre>
+      </div>
+
+      <h3 id="loading-js"><a href="#loading-js"></a></h3>
+
+      <div class="highlight">
+        <pre>
+<span class="cm">/* assets/javascripts/loading.js */</span>
+
+<span class="c1">// This isn't necessarily specific to toggle buttons</span>
+<span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+
+  <span class="c1">// Change the link's icon while the request is performing</span>
+  <span class="nx">$</span><span class="p">(</span><span class="s1">'a[data-remote]'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="s1">'click'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">,</span> <span class="nx">b</span><span class="p">,</span> <span class="nx">c</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">icon</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">find</span><span class="p">(</span><span class="s1">'i'</span><span class="p">);</span>
+    <span class="nx">icon</span><span class="p">.</span><span class="nx">data</span><span class="p">(</span><span class="s1">'old-class'</span><span class="p">,</span> <span class="nx">icon</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s1">'class'</span><span class="p">));</span>
+    <span class="nx">icon</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s1">'class'</span><span class="p">,</span> <span class="s1">'icon-refresh'</span><span class="p">);</span>
+  <span class="p">});</span>
+
+  <span class="c1">// Change the link's icon back after it's finished.</span>
+  <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ajaxComplete</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">,</span> <span class="nx">request</span><span class="p">,</span> <span class="nx">options</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">url</span> <span class="o">=</span> <span class="nx">options</span><span class="p">.</span><span class="nx">url</span><span class="p">;</span>
+    <span class="nx">url</span> <span class="o">=</span> <span class="nx">url</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="s1">'?'</span><span class="p">)[</span><span class="mi">0</span><span class="p">];</span> <span class="c1">// dataType="script" adds a timestamp to the URL</span>
+
+    <span class="c1">// find the link that generated the ajax call.</span>
+    <span class="c1">// This could be cleaner if more information was passed</span>
+    <span class="c1">// from jquery_ujs to the ajax callbacks.</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s1">'a[href="'</span> <span class="o">+</span> <span class="nx">url</span> <span class="o">+</span> <span class="s1">'"]'</span><span class="p">).</span><span class="nx">each</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="kd">var</span> <span class="nx">icon</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">find</span><span class="p">(</span><span class="s1">'i'</span><span class="p">);</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nx">icon</span><span class="p">.</span><span class="nx">data</span><span class="p">(</span><span class="s1">'old-class'</span><span class="p">))</span> <span class="p">{</span>
+        <span class="nx">icon</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s1">'class'</span><span class="p">,</span> <span class="nx">icon</span><span class="p">.</span><span class="nx">data</span><span class="p">(</span><span class="s1">'old-class'</span><span class="p">));</span>
+        <span class="nx">icon</span><span class="p">.</span><span class="nx">data</span><span class="p">(</span><span class="s1">'old-class'</span><span class="p">,</span> <span class="kc">null</span><span class="p">);</span>
+      <span class="p">}</span>
+    <span class="p">})</span>
+  <span class="p">});</span>
+
+  <span class="c1">// Don't fail silently</span>
+  <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ajaxError</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span> <span class="nx">event</span><span class="p">,</span> <span class="nx">jqxhr</span><span class="p">,</span> <span class="nx">settings</span><span class="p">,</span> <span class="nx">exception</span> <span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">jqxhr</span><span class="p">.</span><span class="nx">status</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">alert</span><span class="p">(</span><span class="s2">"We're sorry, but something went wrong ("</span> <span class="o">+</span> <span class="nx">jqxhr</span><span class="p">.</span><span class="nx">status</span> <span class="o">+</span> <span class="s1">')'</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">});</span>
+
+<span class="p">})</span>
+</pre>
+      </div>
+
+      <h3 id="erb"><a href="#erb"></a></h3>
+
+      <div class="highlight">
+        <pre>
+<span class="cp">&lt;%#</span><span class="c"> views/posts/show.html.erb </span><span class="cp">%&gt;</span><span class="x"> </span>
+<span class="cp">&lt;%=</span> <span class="n">div_for</span><span class="p">(</span><span class="vi">@post</span><span class="p">,</span> <span class="ss">class</span><span class="p">:</span> <span class="n">post_css</span><span class="p">(</span><span class="vi">@post</span><span class="p">))</span> <span class="k">do</span> <span class="cp">%&gt;</span><span class="x"> </span>
+
+<span class="x">  </span><span class="cp">&lt;%#</span><span class="c"> This outputs two buttons which CSS rules make </span>
+<span class="c">      sure only one is visible at a time </span><span class="cp">%&gt;</span><span class="x"> </span>
+<span class="x">  </span><span class="cp">&lt;%=</span> <span class="n">toggle_button_to</span> <span class="s1">'icon-star'</span><span class="p">,</span> <span class="s1">'Favorite'</span><span class="p">,</span> <span class="n">post_favorite_path</span><span class="p">(</span><span class="vi">@post</span><span class="p">),</span> 
+       <span class="ss">on</span><span class="p">:</span> <span class="s1">'favorite btn'</span><span class="p">,</span> 
+       <span class="ss">off</span><span class="p">:</span> <span class="s1">'unfavorite btn btn-primary'</span> <span class="cp">%&gt;</span><span class="x"> </span>
+
+<span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span><span class="x"> </span>
+</pre>
+      </div>
+
+      <h3 id="update-js"><a href="#update-js"></a></h3>
+
+      <div class="highlight">
+        <pre>
+<span class="cm">/* views/posts/favorites/update.js.erb */</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">'#post-&lt;%= @post.id %&gt;'</span><span class="p">).</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">'favorited'</span><span class="p">);</span>
+</pre>
+      </div>
+
+      <h3 id="destroy-js"><a href="#destroy-js"></a></h3>
+
+      <div class="highlight">
+        <pre>
+<span class="cm">/* views/posts/favorites/destroy.js.erb */</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">'#post-&lt;%= @post.id %&gt;'</span><span class="p">).</span><span class="nx">removeClass</span><span class="p">(</span><span class="s1">'favorited'</span><span class="p">);</span>
+</pre>
+      </div>
+
+      <h2 id="wrapup"><a href="#wrapup">Wrap-up</a></h2>
+
+      <p>The only thing changing on the client-side is the loading icon and adding/removing the <code>class=favorited</code>.</p>
+
+      <p>We follow "The Rails' Way" to <code>#update</code> and <code>#destroy</code> in the controller, which will help the application gracefully grow when we add more functionality to posts like additional toggles, fields, or a public RESTful API.</p>
+
+      <p>If your application doesn't require javascript, then you'll want to change <code>#toggle_button_to</code> to output inline forms instead of links, and make the Rails controller redirect when <code>!request.xhr?</code>.</p>
+
+      <p>Let me know what else you think could be improved.</p>
+    </div>
+  </div>
+
+  <div id="footer">
+    <ul class="navigation">
+      <li class="prev">
+        <a href="/ruby-on-rails/working-with-web-apis.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">The Tricky World of Using Web APIs</span><span class="less">Previous</span></a>
+      </li>
+
+      <li>
+        <a href="/" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="/technology/">Technology</a></span><span class="less"><a href="/technology/"><i class="icon white icon-folder-open">&nbsp;</i></a></span>&nbsp;»&nbsp;<span class="title more"><a href="/ruby-on-rails/">Ruby on Rails</a></span><span class="less"><a href="/ruby-on-rails/"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
+      </li>
+
+      <li class="next">
+        <a href="/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html"><span class="more">Finding Your Most Active Users with Google Analytics</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
+      </li>
+    </ul>
+
+    <div class="introduction row-fluid">
+      <div class="title span6">
+        <h1><a href="/" title="Dan Cunning">Dan Cunning</a></h1>
+
+        <ul>
+          <li>
+            <a href="http://twitter.com/itopdan" title="Twitter"><span class="about-twitter">&nbsp;</span> twitter</a>
+          </li>
+
+          <li>
+            <a href="https://github.com/topdan" title="github"><span class="about-github">&nbsp;</span> github</a>
+          </li>
+
+          <li>
+            <a href="mailto:dan@topdan.com" title="Email"><span class="about-email">&nbsp;</span> email</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="profile span6">
+        <img alt="Dan" height="75" src="/assets/dan-42c943bc366d944393575004c9b58cfc.jpg" width="75">
+
+        <p>I'm a <a href="/ruby-on-rails/">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="/dan-cunning.html">Read more »</a></p>
+      </div>
+    </div>
+
+    <div id="copyright">
+      <p>© 2012-2014 Dan Cunning. All rights reserved.</p>
+    </div>
+  </div><script src="/assets/site-7a9ac97ae5a2412bd54ad4c91b96b816.js">
+</script>
+</body>
+</html>

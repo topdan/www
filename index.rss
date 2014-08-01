@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Dan Cunning - topdan.com</title>
+    <link>http://www.topdan.com/index.rss</link>
+    <description>A Ruby on Rails contractor's writes about his meandering thoughts</description>
+    <item>
+      <title>Fantasy Sportsbook</title>
+      <description>Creating a new type of game by combining my favorite elements of sportsbooks and fantasy sports.</description>
+      <link>http://www.topdan.com/projects/fantasy-sportsbook.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/projects/fantasy-sportsbook.html</guid>
+      <pubDate>2014-07-27 20:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>My Least Favorite ActiveRecord Feature</title>
+      <description>ActiveRecord is a fantastically well-made ORM that makes working with databases a breeze, but one feature in the callback structure is incredibly bug-prone.</description>
+      <link>http://www.topdan.com/ruby-on-rails/my-least-favorite-activerecord-feature.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/my-least-favorite-activerecord-feature.html</guid>
+      <pubDate>2014-07-17 12:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>The Past, Present, and Future of Computers</title>
+      <description>Computers have made an undeniably permanent mark on the world, but their success wasn't gained overnight. They slowly improved what they could do, leading to advancements that led to new advancements. Let's look at how they progressed to what they are today and try to predict what they might do in the future.</description>
+      <link>http://www.topdan.com/technology/past-present-and-future-of-computers.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/technology/past-present-and-future-of-computers.html</guid>
+      <pubDate>2014-07-10 12:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Soccer is Aggravating</title>
+      <description>Soccer is a world-wide phenomenon, but here's why I find it really hard to watch.</description>
+      <link>http://www.topdan.com/sports/soccer-is-aggravating.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/sports/soccer-is-aggravating.html</guid>
+      <pubDate>2014-06-22 17:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Simple Infinite Scrolling with AJAX and Rails</title>
+      <description>Ruby on Rails and jQuery team up to allow your visitors to scroll through all your content without initially loading them all.</description>
+      <link>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html</guid>
+      <pubDate>2014-06-16 12:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Why the Thrashers left Atlanta</title>
+      <description>Atlanta has become a hockey punchline. We've lost two NHL franchises: the Flames in 1980 and the Thrashers in 2011. Here's why the Thrashers leaving had more to do with America Online than with the city or its hockey fans.</description>
+      <link>http://www.topdan.com/sports/why-the-thrashers-left-atlanta.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/sports/why-the-thrashers-left-atlanta.html</guid>
+      <pubDate>2014-06-01 17:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Finding Your Most Active Users with Google Analytics</title>
+      <description>Google Analytics is normally used to track a website's visitors and pageviews, but it can also track specific users, which can be invaluable information as you develop your customer base. Who is the most active? What are they using? Whose usage is fading?</description>
+      <link>http://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html</guid>
+      <pubDate>2014-05-29 12:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Easy Ajax Toggle Buttons</title>
+      <description>How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it.</description>
+      <link>http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html</guid>
+      <pubDate>2014-04-16 16:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Fixing Craigslist</title>
+      <description>Fixing Craigslist search by filtering posts, aggregating multiple searches, grouping together and emailing important posts.</description>
+      <link>http://www.topdan.com/projects/fixing-craigslist.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/projects/fixing-craigslist.html</guid>
+      <pubDate>2014-04-15 18:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>NFL Player Salaries by College</title>
+      <description>Ranking each college conferences and school on how much their players make in the NFL during the 2013 season.</description>
+      <link>http://www.topdan.com/sports/nfl-by-college/?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/sports/nfl-by-college/</guid>
+      <pubDate>2013-12-30 16:30:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>BCS Conference Records</title>
+      <description>Complete list of inter-conference games during the BCS era. There is no "better conference" just better teams and better schedules. Everything else is inconclusive.</description>
+      <link>http://www.topdan.com/sports/conference-records/?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/sports/conference-records/</guid>
+      <pubDate>2013-12-26 15:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>NFL Survivor League Pick Helper</title>
+      <description>NFL Survivor is a game within the games. The rules are simple: pick one team each week, but you can only pick each team once all season. If your team doesn't win, you're out. This page aims to help you plan your picks during the final half of the season.</description>
+      <link>http://www.topdan.com/sports/nfl-survivor-league-pick-helper.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/sports/nfl-survivor-league-pick-helper.html</guid>
+      <pubDate>2013-10-20 17:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Enjoyable Music Videos</title>
+      <description>List of music videos that I enjoyed over the years and don't want to forget for some reason. Maybe you'll find a couple to enjoy?</description>
+      <link>http://www.topdan.com/entertainment/music-videos.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/entertainment/music-videos.html</guid>
+      <pubDate>2013-01-02 03:55:59 UTC</pubDate>
+    </item>
+    <item>
+      <title>SEC 2012: Season Review</title>
+      <description>With the 2012 SEC regular season now complete, let's explore how the two-team expansion gave scheduling a major role in each team's success or failure.</description>
+      <link>http://www.topdan.com/sports/sec-2012-season-review.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/sports/sec-2012-season-review.html</guid>
+      <pubDate>2012-11-28 16:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Don't hate the SEC</title>
+      <description>If you're a college football fan from outside the SEC, you may think the SEC is ruining college football, but let me tell you how it could be the opposite.</description>
+      <link>http://www.topdan.com/sports/dont-hate-the-sec.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/sports/dont-hate-the-sec.html</guid>
+      <pubDate>2012-09-03 16:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Tim Tebow is better than you</title>
+      <description>I'm a Broncos fan and people can't stop talking to me about Tim Tebow. Now that his fate as a Bronco is sealed, here's my opinion.</description>
+      <link>http://www.topdan.com/sports/tim-tebow-is-better-than-you.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/sports/tim-tebow-is-better-than-you.html</guid>
+      <pubDate>2012-03-20 12:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Smart is Overrated</title>
+      <description>Being smart is better than being stupid, but smart shouldn't be the first word you want applied to you. How did smart get so important? How can it work against you? What other traits are more important?</description>
+      <link>http://www.topdan.com/living/smart-is-overrated.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/living/smart-is-overrated.html</guid>
+      <pubDate>2012-03-18 23:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Television I'm currently watching</title>
+      <description>A list of the television shows I'm currently watching. Americans can stream each one. Let me know what I'm missing.</description>
+      <link>http://www.topdan.com/entertainment/current-tv-shows.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/entertainment/current-tv-shows.html</guid>
+      <pubDate>2012-03-18 18:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>Television I used to watch</title>
+      <description>A list of notable television shows I have watched. Try some of them and let me know ones I should try.</description>
+      <link>http://www.topdan.com/entertainment/previous-tv-shows.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/entertainment/previous-tv-shows.html</guid>
+      <pubDate>2012-03-18 16:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>The Tricky World of Using Web APIs</title>
+      <description>When your application interacts with the web a lot can go wrong. Working with Ruby on Rails over the last five years, I've seen a lot of them first hand, and with this article I hope to share some of that experience and help you write more reliable, efficient and friendly code.</description>
+      <link>http://www.topdan.com/ruby-on-rails/working-with-web-apis.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/working-with-web-apis.html</guid>
+      <pubDate>2012-03-15 14:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Protecting Yourself from Malicious params</title>
+      <description>Ruby on Rails does not offer a complete solution to protect your application from destructive user parameters. Let me try to fill in some gaps.</description>
+      <link>http://www.topdan.com/ruby-on-rails/param-accessible.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/param-accessible.html</guid>
+      <pubDate>2012-03-14 14:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Speaking outside yourself</title>
+      <description>Examples of how people commonly avoid personal responsibility in discussions by implying facts or universal truths.</description>
+      <link>http://www.topdan.com/politics/speaking-outside-yourself.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/politics/speaking-outside-yourself.html</guid>
+      <pubDate>2012-03-10 16:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Get Inspired</title>
+      <description>A collection of videos, songs and articles with so much heart and insight they affect me every time I watch. Maybe they'll do the same for you.</description>
+      <link>http://www.topdan.com/living/get-inspired.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/living/get-inspired.html</guid>
+      <pubDate>2012-03-09 20:00:00 -0500</pubDate>
+    </item>
+  </channel>
+</rss>

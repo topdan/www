@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Ruby on Rails - topdan.com</title>
+    <link>http://www.topdan.com/ruby-on-rails/index.rss</link>
+    <description>Dan Cunning's thoughts on Ruby on Rails.</description>
+    <item>
+      <title>My Least Favorite ActiveRecord Feature</title>
+      <description>ActiveRecord is a fantastically well-made ORM that makes working with databases a breeze, but one feature in the callback structure is incredibly bug-prone.</description>
+      <link>http://www.topdan.com/ruby-on-rails/my-least-favorite-activerecord-feature.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/my-least-favorite-activerecord-feature.html</guid>
+      <pubDate>2014-07-17 16:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>Simple Infinite Scrolling with AJAX and Rails</title>
+      <description>Ruby on Rails and jQuery team up to allow your visitors to scroll through all your content without initially loading them all.</description>
+      <link>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html</guid>
+      <pubDate>2014-06-16 16:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>Finding Your Most Active Users with Google Analytics</title>
+      <description>Google Analytics is normally used to track a website's visitors and pageviews, but it can also track specific users, which can be invaluable information as you develop your customer base. Who is the most active? What are they using? Whose usage is fading?</description>
+      <link>http://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html</guid>
+      <pubDate>2014-05-29 16:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>Easy Ajax Toggle Buttons</title>
+      <description>How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it.</description>
+      <link>http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html</guid>
+      <pubDate>2014-04-16 20:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>The Tricky World of Using Web APIs</title>
+      <description>When your application interacts with the web a lot can go wrong. Working with Ruby on Rails over the last five years, I've seen a lot of them first hand, and with this article I hope to share some of that experience and help you write more reliable, efficient and friendly code.</description>
+      <link>http://www.topdan.com/ruby-on-rails/working-with-web-apis.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/working-with-web-apis.html</guid>
+      <pubDate>2012-03-15 18:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>Protecting Yourself from Malicious params</title>
+      <description>Ruby on Rails does not offer a complete solution to protect your application from destructive user parameters. Let me try to fill in some gaps.</description>
+      <link>http://www.topdan.com/ruby-on-rails/param-accessible.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/param-accessible.html</guid>
+      <pubDate>2012-03-14 18:00:00 UTC</pubDate>
+    </item>
+  </channel>
+</rss>

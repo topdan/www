@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 (experimental) for Mac OS X https://github.com/w3c/tidy-html5/tree/c63cc39">
+
+  <title>Fixing Craigslist - topdan.com</title>
+  <meta charset="UTF-8">
+  <meta content="Fixing Craigslist search by filtering posts, aggregating multiple searches, grouping together and emailing important posts." name="description">
+  <meta name="author" content="Dan Cunning">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@itopdan">
+  <meta name="twitter:url" content="http://www.topdan.com/projects/fixing-craigslist.html">
+  <meta content="Fixing Craigslist" name="twitter:title">
+  <meta content="Fixing Craigslist search by filtering posts, aggregating multiple searches, grouping together and emailing important posts." name="twitter:description">
+  <link rel="shortcut icon" href="/assets/favicon-0908da29aa499222bb570a239cf87dbf.png">
+  <link href="/assets/site-9d5151cfb68135d3500794fe5fb51c67.css" media="all" rel="stylesheet"><!--[if lt IE 9]>
+  <script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script>
+  <![endif]-->
+
+  <script type="text/javascript">
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12957077-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+</head>
+
+<body id="fixing-craigslist" class="navigatable">
+  <a id="top"></a>
+
+  <ul class="navigation">
+    <li class="prev">&nbsp;</li>
+
+    <li>
+      <a href="/" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="/projects/">Projects</a></span><span class="less"><a href="/projects/"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
+    </li>
+
+    <li class="next">
+      <a href="/projects/fantasy-sportsbook.html"><span class="more">Fantasy Sportsbook</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
+    </li>
+  </ul>
+
+  <div class="content">
+    <div class="container post">
+      <p class="byline">Dan wrote this on Apr 15</p>
+
+      <h1><a href="/projects/fixing-craigslist.html">Fixing Craigslist</a></h1>
+
+      <div class="alert alert-definition post-description">
+        <p>Fixing Craigslist search by filtering posts, aggregating multiple searches, grouping together and emailing important posts.</p>
+      </div>
+
+      <ul>
+        <li>
+          <a href="#introduction">Introduction</a>
+        </li>
+
+        <li>
+          <a href="#the-problem">The Problem</a>
+        </li>
+
+        <li>
+          <a href="#the-solution">The Solution</a>
+        </li>
+
+        <li>
+          <a href="#the-implementation">The Implementation</a>
+        </li>
+
+        <li>
+          <a href="#conclusion">Conclusion</a>
+        </li>
+      </ul>
+
+      <h2 id="introduction"><a href="#introduction">Introduction</a></h2>
+
+      <p>Craigslist is the best place to find houses and apartments rented by individual owners or small-time real estate agents, which tend to be the places I prefer. I create two or three Craigslist searches for the area and price range I'm looking for and use <a href="http://feedly.com">feedly.com</a> to follow new posts within them.</p>
+
+      <h2 id="the-problem"><a href="#the-problem">The Problem</a></h2>
+
+      <ol>
+        <li>
+          <p>About half of the posts are for the same large complexes. While they aren't technically "spam" since they are advertising different apartments inside the same complex, they are noise, and <strong>I do not want to see them</strong>.</p>
+        </li>
+
+        <li>
+          <p>Posters also know to include the names of popular areas even though they are no where near them by using the phrase "drivable to X", which adds a bunch of junk in my search results.</p>
+        </li>
+
+        <li>
+          <p>If I do not immediately respond to a post, I will likely never return to it, even if I bookmark it or flag it with feedly.</p>
+        </li>
+
+        <li>
+          <p>Searching is <strong>an active process</strong>: I need to visit craigslist or feedly.com. It doesn't fit into my routine during the weekends or evenings, when I'm less likely to be at my computer.</p>
+        </li>
+      </ol>
+
+      <h2 id="the-solution"><a href="#the-solution">The Solution</a></h2>
+
+      <ol>
+        <li>
+          <p>Allow me to filter posts. Does the title contain a certain phrase ("Roommate")? Does the body contain a certain property manager or phone number? Does it use that same photo I've seen dozens of times before? Does it have that same address or GPS coordinates? Let's remove all the posts I don't want to see anymore.</p>
+        </li>
+
+        <li>
+          <p>Allow me to filter posts that are outside of a certain area.</p>
+        </li>
+
+        <li>
+          <p>Allow me to "remember" posts and view all remembered posts in one page.</p>
+        </li>
+
+        <li>
+          <p>Send me an email with the most recent posts and remembered posts, so I can quickly review them without having to routinely visit a website.</p>
+        </li>
+      </ol>
+
+      <h2 id="the-implementation"><a href="#the-implementation">The Implementation</a></h2>
+
+      <h3 id="posts-view"><a href="#posts-view">Posts View</a></h3>
+
+      <p><img src="/assets/projects/fixing-craigslist/posts-8737e10878bbad339fc74ce68a90d9d6.png" alt="Posts View"></p>
+
+      <h3 id="post-view"><a href="#post-view">Single Post View</a></h3>
+
+      <p><img src="/assets/projects/fixing-craigslist/post-c193279f17feb4e2bedd8eb6dbf7d52e.png" alt="Single Post View"></p>
+
+      <h3 id="filter-rules"><a href="#filter-rules">Filter Rules</a></h3>
+
+      <p><img src="/assets/projects/fixing-craigslist/rules-7aec2b26bfa986148d97a620050f858b.png" alt="Filter Rules"></p>
+
+      <h3 id="email-update"><a href="#email-update">Email Update</a></h3>
+
+      <p><img src="/assets/projects/fixing-craigslist/email-4f9d83b7347086c0a67272b198b534f7.png" alt="Email Update"></p>
+
+      <h2 id="conclusion"><a href="#conclusion">Conclusion</a></h2>
+
+      <p>It should be general enough to apply to item-for-sale and job postings too, though I'm not sure if I'll open it up to other people, but it was worth a couple weekend afternoons of work to alleviate some of my pressure points of using Craigslist to find apartments.</p>
+
+      <p>Let me know if you think the Craigslist filtering/email application is useful for you, and I'll give you access.</p>
+    </div>
+  </div>
+
+  <div id="footer">
+    <ul class="navigation">
+      <li class="prev">&nbsp;</li>
+
+      <li>
+        <a href="/" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="/projects/">Projects</a></span><span class="less"><a href="/projects/"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
+      </li>
+
+      <li class="next">
+        <a href="/projects/fantasy-sportsbook.html"><span class="more">Fantasy Sportsbook</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
+      </li>
+    </ul>
+
+    <div class="introduction row-fluid">
+      <div class="title span6">
+        <h1><a href="/" title="Dan Cunning">Dan Cunning</a></h1>
+
+        <ul>
+          <li>
+            <a href="http://twitter.com/itopdan" title="Twitter"><span class="about-twitter">&nbsp;</span> twitter</a>
+          </li>
+
+          <li>
+            <a href="https://github.com/topdan" title="github"><span class="about-github">&nbsp;</span> github</a>
+          </li>
+
+          <li>
+            <a href="mailto:dan@topdan.com" title="Email"><span class="about-email">&nbsp;</span> email</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="profile span6">
+        <img alt="Dan" height="75" src="/assets/dan-42c943bc366d944393575004c9b58cfc.jpg" width="75">
+
+        <p>I'm a <a href="/ruby-on-rails/">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="/dan-cunning.html">Read more »</a></p>
+      </div>
+    </div>
+
+    <div id="copyright">
+      <p>© 2012-2014 Dan Cunning. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>

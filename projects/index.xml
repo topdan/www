@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:www.topdan.com,2005:/projects/index</id>
+  <link rel="alternate" type="text/html" href="http://www.topdan.com/"/>
+  <link rel="self" type="application/atom+xml" href="http://www.topdan.com/projects/index.rss"/>
+  <title>Projects - topdan.com</title>
+  <subtitle>Dan Cunning's personal projects, mostly centered around improving an annoyance or routinely performed online activity. These are sometimes weekend projects, but sometimes longer.</subtitle>
+  <updated>2014-07-28 00:00:00 UTC</updated>
+  <entry>
+    <id>http://www.topdan.com/projects/fantasy-sportsbook.html</id>
+    <published>2014-07-27T20:00:00-04:00</published>
+    <updated>2014-07-27T20:00:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/fantasy-sportsbook.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>Fantasy Sportsbook</title>
+    <content>Creating a new type of game by combining my favorite elements of sportsbooks and fantasy sports.</content>
+    <updated>2014-07-28 00:00:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/projects/fixing-craigslist.html</id>
+    <published>2014-04-15T18:00:00-04:00</published>
+    <updated>2014-04-15T18:00:00-04:00</updated>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/fixing-craigslist.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>Fixing Craigslist</title>
+    <content>Fixing Craigslist search by filtering posts, aggregating multiple searches, grouping together and emailing important posts.</content>
+    <updated>2014-04-15 22:00:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+</feed>

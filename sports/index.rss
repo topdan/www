@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Sports - topdan.com</title>
+    <link>http://www.topdan.com/sports/index.rss</link>
+    <description>Dan Cunning's thoughts on sports.</description>
+    <item>
+      <title>Soccer is Aggravating</title>
+      <description>Soccer is a world-wide phenomenon, but here's why I find it really hard to watch.</description>
+      <link>http://www.topdan.com/sports/soccer-is-aggravating.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/sports/soccer-is-aggravating.html</guid>
+      <pubDate>2014-06-22 21:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>Why the Thrashers left Atlanta</title>
+      <description>Atlanta has become a hockey punchline. We've lost two NHL franchises: the Flames in 1980 and the Thrashers in 2011. Here's why the Thrashers leaving had more to do with America Online than with the city or its hockey fans.</description>
+      <link>http://www.topdan.com/sports/why-the-thrashers-left-atlanta.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/sports/why-the-thrashers-left-atlanta.html</guid>
+      <pubDate>2014-06-01 21:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>NFL Player Salaries by College</title>
+      <description>Ranking each college conferences and school on how much their players make in the NFL during the 2013 season.</description>
+      <link>http://www.topdan.com/sports/nfl-by-college/?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/sports/nfl-by-college/</guid>
+      <pubDate>2013-12-30 21:30:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>BCS Conference Records</title>
+      <description>Complete list of inter-conference games during the BCS era. There is no "better conference" just better teams and better schedules. Everything else is inconclusive.</description>
+      <link>http://www.topdan.com/sports/conference-records/?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/sports/conference-records/</guid>
+      <pubDate>2013-12-26 20:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>NFL Survivor League Pick Helper</title>
+      <description>NFL Survivor is a game within the games. The rules are simple: pick one team each week, but you can only pick each team once all season. If your team doesn't win, you're out. This page aims to help you plan your picks during the final half of the season.</description>
+      <link>http://www.topdan.com/sports/nfl-survivor-league-pick-helper.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/sports/nfl-survivor-league-pick-helper.html</guid>
+      <pubDate>2013-10-20 21:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>SEC 2012: Season Review</title>
+      <description>With the 2012 SEC regular season now complete, let's explore how the two-team expansion gave scheduling a major role in each team's success or failure.</description>
+      <link>http://www.topdan.com/sports/sec-2012-season-review.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/sports/sec-2012-season-review.html</guid>
+      <pubDate>2012-11-28 21:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>Don't hate the SEC</title>
+      <description>If you're a college football fan from outside the SEC, you may think the SEC is ruining college football, but let me tell you how it could be the opposite.</description>
+      <link>http://www.topdan.com/sports/dont-hate-the-sec.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/sports/dont-hate-the-sec.html</guid>
+      <pubDate>2012-09-03 20:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>Tim Tebow is better than you</title>
+      <description>I'm a Broncos fan and people can't stop talking to me about Tim Tebow. Now that his fate as a Bronco is sealed, here's my opinion.</description>
+      <link>http://www.topdan.com/sports/tim-tebow-is-better-than-you.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/sports/tim-tebow-is-better-than-you.html</guid>
+      <pubDate>2012-03-20 16:00:00 UTC</pubDate>
+    </item>
+  </channel>
+</rss>

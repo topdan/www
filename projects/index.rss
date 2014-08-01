@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Projects - topdan.com</title>
+    <link>http://www.topdan.com/projects/index.rss</link>
+    <description>Dan Cunning's personal projects, mostly centered around improving an annoyance or routinely performed online activity. These are sometimes weekend projects, but sometimes longer.</description>
+    <item>
+      <title>Fantasy Sportsbook</title>
+      <description>Creating a new type of game by combining my favorite elements of sportsbooks and fantasy sports.</description>
+      <link>http://www.topdan.com/projects/fantasy-sportsbook.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/projects/fantasy-sportsbook.html</guid>
+      <pubDate>2014-07-28 00:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>Fixing Craigslist</title>
+      <description>Fixing Craigslist search by filtering posts, aggregating multiple searches, grouping together and emailing important posts.</description>
+      <link>http://www.topdan.com/projects/fixing-craigslist.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/projects/fixing-craigslist.html</guid>
+      <pubDate>2014-04-15 22:00:00 UTC</pubDate>
+    </item>
+  </channel>
+</rss>
