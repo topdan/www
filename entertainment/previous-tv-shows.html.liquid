@@ -6,12 +6,12 @@
     </p>
 
     <p class="media-links">
-      {% if show.netflix_url and show.on_netflix_instant %}<a href="{{ show.netflix_url }}"><img src="/assets/entertainment/16x16/netflix.png" alt="netflix"/></a>{% endif %}
-      {% if show.hulu_url %}<a href="{{ show.hulu_url }}"><img src="/assets/entertainment/16x16/hulu.png" alt="hulu"/></a>{% endif %}
-      {% if show.amazon_url %}<a href="{{ show.amazon_url }}"><img src="/assets/entertainment/16x16/amazon.png" alt="amazon"/></a>{% endif %}
-      {% if show.showtime_url %}<a href="{{ show.showtime_url }}"><img src="/assets/entertainment/16x16/showtime.png" alt="showtime"/></a>{% endif %}
-      {% if show.hbogo_url %}<a href="{{ show.hbogo_url }}">HBOgo</a>{% endif %}
-      {% if show.maxgo_url %}<a href="{{ show.maxgo_url }}">MAXgo</a>{% endif %}
+      {% if show.netflix_url and show.on_netflix_instant %}<a href="{{ show.netflix_url | escape }}"><img src="/assets/entertainment/16x16/netflix.png" alt="netflix"/></a>{% endif %}
+      {% if show.hulu_url %}<a href="{{ show.hulu_url | escape }}"><img src="/assets/entertainment/16x16/hulu.png" alt="hulu"/></a>{% endif %}
+      {% if show.amazon_url %}<a href="{{ show.amazon_url | escape }}"><img src="/assets/entertainment/16x16/amazon.png" alt="amazon"/></a>{% endif %}
+      {% if show.showtime_url %}<a href="{{ show.showtime_url | escape }}"><img src="/assets/entertainment/16x16/showtime.png" alt="showtime"/></a>{% endif %}
+      {% if show.hbogo_url %}<a href="{{ show.hbogo_url | escape }}">HBOgo</a>{% endif %}
+      {% if show.maxgo_url %}<a href="{{ show.maxgo_url | escape }}">MAXgo</a>{% endif %}
     </p>
 
     <p class="title">
