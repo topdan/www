@@ -6,11 +6,11 @@
     </p>
 
     <p class="media-links">
-      {% if movie.netflix_url and movie.on_netflix_instant %}<a href="{{ movie.netflix_url }}"><img src="/assets/entertainment/16x16/netflix.png" alt="netflix"/></a>{% endif %}
-      {% if movie.amazon_url %}<a href="{{ movie.amazon_url }}"><img src="/assets/entertainment/16x16/amazon.png" alt="amazon"/></a>{% endif %}
-      {% if movie.showtime_url %}<a href="{{ movie.showtime_url }}"><img src="/assets/entertainment/16x16/showtime.png" alt="showtime"/></a>{% endif %}
-      {% if movie.hbogo_url %}<a href="{{ movie.hbogo_url }}">HBOgo</a>{% endif %}
-      {% if movie.maxgo_url %}<a href="{{ movie.maxgo_url }}">MAXgo</a>{% endif %}
+      {% if movie.netflix_url and movie.on_netflix_instant %}<a href="{{ movie.netflix_url | escape }}"><img src="/assets/entertainment/16x16/netflix.png" alt="netflix"/></a>{% endif %}
+      {% if movie.amazon_url %}<a href="{{ movie.amazon_url | escape }}"><img src="/assets/entertainment/16x16/amazon.png" alt="amazon"/></a>{% endif %}
+      {% if movie.showtime_url %}<a href="{{ movie.showtime_url | escape }}"><img src="/assets/entertainment/16x16/showtime.png" alt="showtime"/></a>{% endif %}
+      {% if movie.hbogo_url %}<a href="{{ movie.hbogo_url | escape }}">HBOgo</a>{% endif %}
+      {% if movie.maxgo_url %}<a href="{{ movie.maxgo_url | escape }}">MAXgo</a>{% endif %}
     </p>
 
     <p class="title">
