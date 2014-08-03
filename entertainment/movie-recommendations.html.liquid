@@ -2,7 +2,11 @@
 {% for movie in movies %}
   <li class="{{ movie.permalink }}">
     <p class="poster">
+      {% if movie.rotten_tomatoes_url %}
       <a href="{{ movie.rotten_tomatoes_url }}"><img src="{{ movie.poster_url }}" alt="{{ movie.title | escape }}"/></a>
+      {% else %}
+      <img src="{{ movie.poster_url }}" alt="{{ movie.title | escape }}"/>
+      {% endif %}
     </p>
 
     <p class="media-links">
@@ -14,7 +18,11 @@
     </p>
 
     <p class="title">
-      <a href="{{ movie.rotten_tomatoes_url }}">{{ movie.title | escape }}</a>
+      {% if movie.rotten_tomatoes_url %}
+        <a href="{{ movie.rotten_tomatoes_url }}">{{ movie.title | escape }}</a>
+      {% else %}
+        {{ movie.title | escape }}
+      {% endif %}
     </p>
   </li>
 {% endfor %}
