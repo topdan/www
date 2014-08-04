@@ -13,7 +13,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1706620/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/snowpiercer/",
     "amazon_url": "http://www.amazon.com/gp/product/B00LP9E79U",
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Edge of Tomorrow",
@@ -29,7 +30,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1631867/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/edge_of_tomorrow/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Journey to the West",
@@ -45,7 +47,8 @@
     "imdb_url": "http://www.imdb.com/title/tt2017561/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/journey_to_the_west_2014/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Don Jon",
@@ -61,7 +64,8 @@
     "imdb_url": "http://www.imdb.com/title/tt2229499/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/don_jon/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "The Spectacular Now",
@@ -77,7 +81,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1714206/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_spectacular_now/",
     "amazon_url": "http://www.amazon.com/gp/product/B00H8AXJR6",
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": true
   },
   {
     "title": "About Time",
@@ -93,7 +98,8 @@
     "imdb_url": "http://www.imdb.com/title/tt2194499/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/about_time/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "Prisoners",
@@ -109,7 +115,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1392214/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/prisoners_2013/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "The Lifeguard",
@@ -125,7 +132,8 @@
     "imdb_url": "http://www.imdb.com/title/tt2265534/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_lifeguard/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "The World's End",
@@ -141,7 +149,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1213663/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_worlds_end/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "Drinking Buddies",
@@ -157,7 +166,8 @@
     "imdb_url": "http://www.imdb.com/title/tt2265398/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/drinking_buddies_2013/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "The Conjuring",
@@ -173,7 +183,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1457767/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_conjuring/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "The Way Way Back",
@@ -189,7 +200,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1727388/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_way_way_back/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Pain and Gain",
@@ -205,7 +217,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1980209/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/pain_and_gain/",
     "amazon_url": "http://www.amazon.com/gp/product/B00ESY863M",
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": true
   },
   {
     "title": "Upstream Color",
@@ -221,7 +234,8 @@
     "imdb_url": "http://www.imdb.com/title/tt2084989/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/upstream_color/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "The Place Beyond the Pines",
@@ -237,7 +251,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1817273/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_place_beyond_the_pines_2012/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Upside Down",
@@ -253,7 +268,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1374992/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/upside_down_2012/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Stoker",
@@ -269,7 +285,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1682180/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/stoker_2013/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Warm Bodies",
@@ -285,7 +302,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1588173/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/warm_bodies/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Grabbers",
@@ -301,7 +319,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1525366/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/grabbers/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "The Brass Teapot",
@@ -317,7 +336,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1935902/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_brass_teapot/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Anna Karenina",
@@ -333,7 +353,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1781769/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/anna_karenina_2012/",
     "amazon_url": "http://www.amazon.com/gp/product/B00BHU9BV6",
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Cloud Atlas",
@@ -349,7 +370,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1371111/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/cloud_atlas_2012/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "The Perks Of Being A Wallflower",
@@ -365,7 +387,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1659337/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_perks_of_being_a_wallflower/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Dredd",
@@ -381,7 +404,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1343727/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/dredd/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Killer Joe",
@@ -397,7 +421,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1726669/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/killer_joe/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Ruby Sparks",
@@ -413,7 +438,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1839492/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/ruby_sparks/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Take This Waltz",
@@ -429,7 +455,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1592281/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/take_this_waltz/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Seeking a Friend for the End of the World",
@@ -445,7 +472,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1307068/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/seeking_a_friend_for_the_end_of_the_world/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Safety Not Guaranteed",
@@ -461,7 +489,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1862079/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/safety_not_guaranteed/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Moonrise Kingdom",
@@ -477,7 +506,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1748122/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/moonrise_kingdom/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Butter",
@@ -493,7 +523,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1349451/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/butter_2011/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "Bernie",
@@ -509,7 +540,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1704573/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/bernie_2011/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Goon",
@@ -525,7 +557,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1456635/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/goon/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Friends with Kids",
@@ -541,7 +574,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1720616/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/friends_with_kids/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Sleeping Beauty",
@@ -557,7 +591,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1588398/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/771239978/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "The Descendants",
@@ -573,7 +608,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1033575/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_descendants_2011/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Another Earth",
@@ -589,7 +625,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1549572/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/another_earth/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Super",
@@ -605,7 +642,8 @@
     "imdb_url": null,
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/771240018/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Monsters",
@@ -621,7 +659,8 @@
     "imdb_url": null,
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/monsters-2010/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Hereafter",
@@ -637,7 +676,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1212419/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/hereafter/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Inception",
@@ -653,7 +693,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1375666/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/inception/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Frequently Asked Questions About Time Travel",
@@ -669,7 +710,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0910554/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/frequently_asked_questions_about_time_travel/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Mr. Nobody",
@@ -685,7 +727,8 @@
     "imdb_url": null,
     "rotten_tomatoes_url": null,
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "The Secret of Kells",
@@ -701,7 +744,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0485601/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the-secret-of-kells/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "The Vicious Kind",
@@ -717,7 +761,8 @@
     "imdb_url": "http://www.imdb.com/title/tt1183921/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/vicious_kind/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "Watchmen",
@@ -733,7 +778,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0409459/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/watchmen/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Burn After Reading",
@@ -749,7 +795,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0887883/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/burn_after_reading/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Purple Violets",
@@ -765,7 +812,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0491109/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/1197251-purple_violets/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Sunshine",
@@ -781,7 +829,8 @@
     "imdb_url": null,
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/sunshine/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Waitress",
@@ -797,7 +846,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0473308/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/waitress/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Hot Fuzz",
@@ -813,7 +863,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0425112/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/hot_fuzz/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Reign Over Me",
@@ -829,7 +880,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0490204/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/reign_over_me/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Black Snake Moan",
@@ -845,7 +897,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0462200/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/black_snake_moan/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "The Illusionist",
@@ -861,7 +914,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0443543/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/illusionist/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Lady in the Water",
@@ -877,7 +931,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0452637/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/lady_in_the_water/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Brick",
@@ -893,7 +948,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0393109/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/brick/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "The Family Stone",
@@ -909,7 +965,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0356680/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/family_stone/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Jarhead",
@@ -925,7 +982,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0418763/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/1152567-jarhead/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "Stay",
@@ -941,7 +999,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0371257/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/stay/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Serenity",
@@ -957,7 +1016,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0379786/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/serenity/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Closer",
@@ -973,7 +1033,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0376541/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/closer/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "I Heart Huckabees",
@@ -989,7 +1050,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0356721/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/i_heart_huckabees/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Garden State",
@@ -1005,7 +1067,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0333766/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/garden_state/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Saved!",
@@ -1021,7 +1084,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0332375/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/saved/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Mean Girls",
@@ -1037,7 +1101,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0377092/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/mean_girls/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Eternal Sunshine of the Spotless Mind",
@@ -1053,7 +1118,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0338013/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/eternal_sunshine_of_the_spotless_mind/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Big Fish",
@@ -1069,7 +1135,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0319061/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/1127787-big_fish/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "The Triplets of Belleville",
@@ -1085,7 +1152,8 @@
     "imdb_url": null,
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_triplets_of_belleville/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Lost in Translation",
@@ -1101,7 +1169,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0335266/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/lost_in_translation/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "The Matrix Reloaded",
@@ -1117,7 +1186,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0234215/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/matrix_reloaded/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Laurel Canyon",
@@ -1133,7 +1203,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0298408/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/laurel_canyon/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Punch-Drunk Love",
@@ -1149,7 +1220,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0272338/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/punchdrunk_love/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Igby Goes Down",
@@ -1165,7 +1237,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0280760/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/igby_goes_down/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "Road to Perdition",
@@ -1181,7 +1254,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0257044/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/road_to_perdition/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "The Dangerous Lives of Altar Boys",
@@ -1197,7 +1271,8 @@
     "imdb_url": null,
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/dangerous_lives_of_altar_boys/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Super Troopers",
@@ -1213,7 +1288,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0247745/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/super_troopers/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "Kissing Jessica Stein",
@@ -1229,7 +1305,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0264761/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/kissing_jessica_stein/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "Amelie",
@@ -1245,7 +1322,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0211915/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/amelie/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Wet Hot American Summer",
@@ -1261,7 +1339,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0243655/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/wet_hot_american_summer/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "Donnie Darko",
@@ -1277,7 +1356,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0246578/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/donnie_darko/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Snatch",
@@ -1293,7 +1373,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0208092/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/snatch/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "Requiem For A Dream",
@@ -1309,7 +1390,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0180093/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/requiem_for_a_dream/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "The Way of the Gun",
@@ -1325,7 +1407,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0202677/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/way_of_the_gun/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Memento",
@@ -1341,7 +1424,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0209144/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/memento/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "The Virgin Suicides",
@@ -1357,7 +1441,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0159097/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/virgin_suicides/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "The Cider House Rules",
@@ -1373,7 +1458,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0124315/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/cider_house_rules/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "American Beauty",
@@ -1389,7 +1475,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0169547/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/american_beauty/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "South Park: Bigger, Longer & Uncut",
@@ -1405,7 +1492,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0158983/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/south_park_bigger_longer_and_uncut/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "The Matrix",
@@ -1421,7 +1509,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0133093/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/matrix/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Office Space",
@@ -1437,7 +1526,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0151804/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/office_space/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Varsity Blues",
@@ -1453,7 +1543,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0139699/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/varsity_blues/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Rounders",
@@ -1469,7 +1560,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0128442/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/1083659-rounders/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Wild Things",
@@ -1485,7 +1577,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0120890/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/wild_things/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "The Castle",
@@ -1501,7 +1594,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0118826/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the-castle/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Good Will Hunting",
@@ -1517,7 +1611,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0119217/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/good_will_hunting/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "Gattaca",
@@ -1533,7 +1628,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0119177/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/gattaca/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "The City of Lost Children",
@@ -1549,7 +1645,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0112682/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/city_of_lost_children/",
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "Planes, Trains and Automobiles",
@@ -1565,7 +1662,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0093748/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/planes_trains_and_automobiles/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": true,
+    "on_amazon_prime": null
   },
   {
     "title": "Caddyshack",
@@ -1581,7 +1679,8 @@
     "imdb_url": "http://www.imdb.com/title/tt0080487/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/caddyshack/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
   },
   {
     "title": "Dr. Strangelove",
@@ -1597,6 +1696,7 @@
     "imdb_url": null,
     "rotten_tomatoes_url": null,
     "amazon_url": null,
-    "on_netflix_instant": false
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   }
 ]

@@ -12,6 +12,7 @@
     "amazon_url": null,
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3153/thumb_the-leftovers.jpg",
     "on_netflix_instant": null,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2014-08-04"
   },
   {
@@ -27,6 +28,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00L83T4NC",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/39/thumb_continuum.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2014-06-27"
   },
   {
@@ -42,6 +44,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00HXK5RNK",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/70/thumb_game-of-thrones.jpg",
     "on_netflix_instant": null,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2014-06-16"
   },
   {
@@ -57,6 +60,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00KFN4A6W",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle.jpg",
     "on_netflix_instant": false,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2014-05-21"
   },
   {
@@ -72,6 +76,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00K67TUUS",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2014-05-18"
   },
   {
@@ -87,6 +92,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00JRDZHYK",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/9/thumb_archer.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2014-04-21"
   },
   {
@@ -102,6 +108,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00JRU9N2K",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/38/thumb_community.jpg",
     "on_netflix_instant": false,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2014-04-17"
   },
   {
@@ -117,6 +124,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00IOY9JGU",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2014-03-30"
   },
   {
@@ -132,6 +140,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00J7U9QHM",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2060/thumb_brooklyn-nine-nine.jpg",
     "on_netflix_instant": null,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2014-03-25"
   },
   {
@@ -147,6 +156,7 @@
     "amazon_url": null,
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/15/thumb_banshee.jpg",
     "on_netflix_instant": false,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2014-03-15"
   },
   {
@@ -162,6 +172,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00KV8FQOQ",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2600/thumb_true-detective.jpg",
     "on_netflix_instant": null,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2014-03-10"
   },
   {
@@ -177,6 +188,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00HAFKA8A",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park.jpg",
     "on_netflix_instant": false,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2013-12-11"
   },
   {
@@ -192,6 +204,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00L8P5P7E",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/89/thumb_jack-taylor.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2013-03-10"
   }
 ]

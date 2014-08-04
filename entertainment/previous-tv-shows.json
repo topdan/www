@@ -12,6 +12,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00JKW9BU4",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/293/thumb_the-neighbors.jpg",
     "on_netflix_instant": false,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2014-04-11"
   },
   {
@@ -27,6 +28,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00J5SH15K",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/127/thumb_psych.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2014-03-26"
   },
   {
@@ -42,6 +44,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00FIZJ0Y4",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/29/thumb_breaking-bad.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2013-09-29"
   },
   {
@@ -57,6 +60,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00CKKHH0O",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/46/thumb_dexter.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2013-09-22"
   },
   {
@@ -72,6 +76,7 @@
     "amazon_url": null,
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/10/thumb_arrested-development.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2013-05-26"
   },
   {
@@ -87,6 +92,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00BLGIZX6",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/32/thumb_bunheads.jpg",
     "on_netflix_instant": false,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2013-02-25"
   },
   {
@@ -102,6 +108,7 @@
     "amazon_url": null,
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/146/thumb_spy.jpg",
     "on_netflix_instant": null,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2012-12-26"
   },
   {
@@ -117,6 +124,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B006J48W7O",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/56/thumb_eureka.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": true,
     "latest_episode_aired_on": "2012-07-16"
   },
   {
@@ -132,6 +140,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B0086219PO",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/12/thumb_awake.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2012-05-24"
   },
   {
@@ -147,22 +156,8 @@
     "amazon_url": "http://www.amazon.com/gp/product/B005CZM06K",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/66/thumb_friday-night-lights.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": true,
     "latest_episode_aired_on": "2011-07-15"
-  },
-  {
-    "title": "The Wire",
-    "network": "hbo",
-    "imdb_url": "http://www.imdb.com/title/tt0306414/",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/The_Wire",
-    "hulu_url": null,
-    "hbogo_url": "http://www.hbogo.com/#series/browse&assetID=GORO1D596?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/",
-    "maxgo_url": null,
-    "showtime_url": null,
-    "netflix_url": null,
-    "amazon_url": "http://www.amazon.com/gp/product/B006GM1B36",
-    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/177/thumb_the-wire.jpg",
-    "on_netflix_instant": null,
-    "latest_episode_aired_on": "2011-03-01"
   },
   {
     "title": "Rome",
@@ -177,6 +172,7 @@
     "amazon_url": null,
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/136/thumb_rome.jpg",
     "on_netflix_instant": false,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2011-03-01"
   },
   {
@@ -192,6 +188,23 @@
     "amazon_url": null,
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/14/thumb_band-of-brothers.jpg",
     "on_netflix_instant": null,
+    "on_amazon_prime": false,
+    "latest_episode_aired_on": "2011-03-01"
+  },
+  {
+    "title": "The Wire",
+    "network": "hbo",
+    "imdb_url": "http://www.imdb.com/title/tt0306414/",
+    "wikipedia_url": "http://en.wikipedia.org/wiki/The_Wire",
+    "hulu_url": null,
+    "hbogo_url": "http://www.hbogo.com/#series/browse&assetID=GORO1D596?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/",
+    "maxgo_url": null,
+    "showtime_url": null,
+    "netflix_url": null,
+    "amazon_url": "http://www.amazon.com/gp/product/B006GM1B36",
+    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/177/thumb_the-wire.jpg",
+    "on_netflix_instant": null,
+    "on_amazon_prime": true,
     "latest_episode_aired_on": "2011-03-01"
   },
   {
@@ -207,6 +220,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B0041JY5XE",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/19/thumb_better-off-ted.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": true,
     "latest_episode_aired_on": "2010-09-01"
   },
   {
@@ -222,6 +236,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B003U55J9Y",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/100/thumb_lost.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2010-05-23"
   },
   {
@@ -237,6 +252,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B003THEHR8",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/138/thumb_scrubs.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2010-03-17"
   },
   {
@@ -252,6 +268,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B002A0OOFU",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/112/thumb_my-name-is-earl.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": true,
     "latest_episode_aired_on": "2009-05-14"
   },
   {
@@ -267,6 +284,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B0076MFEEM",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/11/thumb_avatar-the-last-airbender.jpg",
     "on_netflix_instant": null,
+    "on_amazon_prime": true,
     "latest_episode_aired_on": "2008-07-19"
   },
   {
@@ -282,6 +300,7 @@
     "amazon_url": null,
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/90/thumb_jericho.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2008-03-25"
   },
   {
@@ -297,6 +316,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00HI0RYQS",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2211/thumb_veronica-mars.jpg",
     "on_netflix_instant": null,
+    "on_amazon_prime": true,
     "latest_episode_aired_on": "2007-05-22"
   },
   {
@@ -312,6 +332,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B003JAB372",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2197/thumb_gilmore-girls.jpg",
     "on_netflix_instant": null,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2007-05-15"
   },
   {
@@ -327,6 +348,7 @@
     "amazon_url": null,
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/107/thumb_malcolm-in-the-middle.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2006-05-14"
   },
   {
@@ -342,6 +364,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00KGS4W4G",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/35/thumb_carnivale.jpg",
     "on_netflix_instant": null,
+    "on_amazon_prime": true,
     "latest_episode_aired_on": "2005-03-27"
   },
   {
@@ -357,6 +380,7 @@
     "amazon_url": null,
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/62/thumb_firefly.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2002-12-20"
   },
   {
@@ -372,6 +396,7 @@
     "amazon_url": null,
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/65/thumb_freaks-and-geeks.jpg",
     "on_netflix_instant": true,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "2000-07-08"
   },
   {
@@ -387,6 +412,7 @@
     "amazon_url": "http://www.amazon.com/gp/product/B004GNCOR4",
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/204/thumb_my-so-called-life.jpg",
     "on_netflix_instant": false,
+    "on_amazon_prime": false,
     "latest_episode_aired_on": "1995-01-25"
   }
 ]
