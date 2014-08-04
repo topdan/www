@@ -80,22 +80,6 @@
     "on_netflix_instant": null
   },
   {
-    "title": "Schooled: The Price of College Sports",
-    "year": 2013,
-    "release_date": null,
-    "netflix_url": "http://movies.netflix.com/WiMovie/70291153",
-    "hbogo_url": null,
-    "maxgo_url": null,
-    "showtime_url": null,
-    "apple_trailers_url": null,
-    "redbox_url": null,
-    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/10296/thumb_schooled-the-price-of-college-sports-2013.jpg",
-    "imdb_url": "http://www.imdb.com/title/tt3057718/",
-    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/schooled_the_price_of_college_sports/",
-    "amazon_url": null,
-    "on_netflix_instant": true
-  },
-  {
     "title": "About Time",
     "year": 2013,
     "release_date": "2013-11-01",
@@ -144,22 +128,6 @@
     "on_netflix_instant": true
   },
   {
-    "title": "Drinking Buddies",
-    "year": 2013,
-    "release_date": "2013-08-23",
-    "netflix_url": "http://movies.netflix.com/WiMovie/70272917",
-    "hbogo_url": null,
-    "maxgo_url": null,
-    "showtime_url": null,
-    "apple_trailers_url": "http://trailers.apple.com/trailers/magnolia/drinkingbuddies/",
-    "redbox_url": "http://www.redbox.com/movies/drinking-buddies",
-    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/8944/thumb_drinking-buddies-2013.jpg",
-    "imdb_url": "http://www.imdb.com/title/tt2265398/",
-    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/drinking_buddies_2013/",
-    "amazon_url": null,
-    "on_netflix_instant": true
-  },
-  {
     "title": "The World's End",
     "year": 2013,
     "release_date": "2013-08-23",
@@ -174,6 +142,22 @@
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_worlds_end/",
     "amazon_url": null,
     "on_netflix_instant": false
+  },
+  {
+    "title": "Drinking Buddies",
+    "year": 2013,
+    "release_date": "2013-08-23",
+    "netflix_url": "http://movies.netflix.com/WiMovie/70272917",
+    "hbogo_url": null,
+    "maxgo_url": null,
+    "showtime_url": null,
+    "apple_trailers_url": "http://trailers.apple.com/trailers/magnolia/drinkingbuddies/",
+    "redbox_url": "http://www.redbox.com/movies/drinking-buddies",
+    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/8944/thumb_drinking-buddies-2013.jpg",
+    "imdb_url": "http://www.imdb.com/title/tt2265398/",
+    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/drinking_buddies_2013/",
+    "amazon_url": null,
+    "on_netflix_instant": true
   },
   {
     "title": "The Conjuring",
@@ -368,22 +352,6 @@
     "on_netflix_instant": null
   },
   {
-    "title": "Dredd",
-    "year": 2012,
-    "release_date": "2012-09-21",
-    "netflix_url": "http://movies.netflix.com/WiMovie/70242801",
-    "hbogo_url": null,
-    "maxgo_url": null,
-    "showtime_url": null,
-    "apple_trailers_url": null,
-    "redbox_url": null,
-    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/5933/thumb_dredd-2012.jpg",
-    "imdb_url": "http://www.imdb.com/title/tt1343727/",
-    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/dredd/",
-    "amazon_url": null,
-    "on_netflix_instant": true
-  },
-  {
     "title": "The Perks Of Being A Wallflower",
     "year": 2012,
     "release_date": "2012-09-21",
@@ -398,6 +366,22 @@
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_perks_of_being_a_wallflower/",
     "amazon_url": null,
     "on_netflix_instant": null
+  },
+  {
+    "title": "Dredd",
+    "year": 2012,
+    "release_date": "2012-09-21",
+    "netflix_url": "http://movies.netflix.com/WiMovie/70242801",
+    "hbogo_url": null,
+    "maxgo_url": null,
+    "showtime_url": null,
+    "apple_trailers_url": null,
+    "redbox_url": null,
+    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/5933/thumb_dredd-2012.jpg",
+    "imdb_url": "http://www.imdb.com/title/tt1343727/",
+    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/dredd/",
+    "amazon_url": null,
+    "on_netflix_instant": true
   },
   {
     "title": "Killer Joe",
@@ -861,7 +845,7 @@
     "imdb_url": "http://www.imdb.com/title/tt0462200/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/black_snake_moan/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": false
   },
   {
     "title": "The Illusionist",
@@ -1117,7 +1101,7 @@
     "imdb_url": "http://www.imdb.com/title/tt0335266/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/lost_in_translation/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": false
   },
   {
     "title": "The Matrix Reloaded",
@@ -1277,7 +1261,7 @@
     "imdb_url": "http://www.imdb.com/title/tt0243655/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/wet_hot_american_summer/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": false
   },
   {
     "title": "Donnie Darko",
@@ -1326,6 +1310,22 @@
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/requiem_for_a_dream/",
     "amazon_url": null,
     "on_netflix_instant": false
+  },
+  {
+    "title": "The Way of the Gun",
+    "year": 2000,
+    "release_date": "2000-09-08",
+    "netflix_url": null,
+    "hbogo_url": null,
+    "maxgo_url": null,
+    "showtime_url": null,
+    "apple_trailers_url": null,
+    "redbox_url": null,
+    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/13116/thumb_the-way-of-the-gun-2000.jpg",
+    "imdb_url": "http://www.imdb.com/title/tt0202677/",
+    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/way_of_the_gun/",
+    "amazon_url": null,
+    "on_netflix_instant": null
   },
   {
     "title": "Memento",
@@ -1405,7 +1405,7 @@
     "imdb_url": "http://www.imdb.com/title/tt0158983/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/south_park_bigger_longer_and_uncut/",
     "amazon_url": null,
-    "on_netflix_instant": true
+    "on_netflix_instant": false
   },
   {
     "title": "The Matrix",
@@ -1459,7 +1459,7 @@
     "title": "Rounders",
     "year": 1998,
     "release_date": "1998-09-11",
-    "netflix_url": null,
+    "netflix_url": "http://movies.netflix.com/WiMovie/17236920",
     "hbogo_url": null,
     "maxgo_url": null,
     "showtime_url": null,
@@ -1469,7 +1469,7 @@
     "imdb_url": "http://www.imdb.com/title/tt0128442/",
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/1083659-rounders/",
     "amazon_url": null,
-    "on_netflix_instant": null
+    "on_netflix_instant": true
   },
   {
     "title": "Wild Things",
@@ -1538,7 +1538,7 @@
   {
     "title": "The City of Lost Children",
     "year": 1995,
-    "release_date": null,
+    "release_date": "1995-12-15",
     "netflix_url": "http://movies.netflix.com/WiMovie/379713",
     "hbogo_url": null,
     "maxgo_url": null,
@@ -1546,8 +1546,8 @@
     "apple_trailers_url": null,
     "redbox_url": null,
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/11548/thumb_the-city-of-lost-children-1995.jpg",
-    "imdb_url": null,
-    "rotten_tomatoes_url": null,
+    "imdb_url": "http://www.imdb.com/title/tt0112682/",
+    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/city_of_lost_children/",
     "amazon_url": null,
     "on_netflix_instant": false
   },
