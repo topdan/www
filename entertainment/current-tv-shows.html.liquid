@@ -1,23 +1,36 @@
+<ul id="poster-filters">
+  <li><span class="label label-inverse">Filters</span></li>
+  <li><a href="#" class="btn btn-primary">All</a></li>
+  <li><a href="#" class="btn" data-filter="netflix"><img src="/assets/entertainment/16x16/netflix-8bde6efce34442376d049b211ba09d79.png" alt="netflix"/></a></li>
+  <li><a href="#" class="btn" data-filter="hulu"><img src="/assets/entertainment/16x16/hulu-860330773b34921347625bf0744336ee.png" alt="hulu"/></a></li>
+  <li><a href="#" class="btn" data-filter="amazon"><img src="/assets/entertainment/16x16/amazon-ce50ceee80d4df50e61fe60d2375db12.png" alt="netflix"/></a></li>
+  <li><a href="#" class="btn amazon-prime" data-filter="amazon-prime"><img src="/assets/entertainment/amazon-prime-8633df038bcf381ad35c08b34b25dce4.png" alt="netflix"/></a></li>
+  <li><a href="#" class="btn" data-filter="hbogo"><img src="/assets/entertainment/hbo-ea4b03f563f64935b2ab95d36484bb4b.png" alt="netflix"/></a></li>
+  <li><a href="#" class="btn" data-filter="maxgo"><img src="/assets/entertainment/cinemax-622c2bd98de87f7b0a2872236dec4bfc.png" alt="netflix"/></a></li>
+  <li><a href="#" class="btn" data-filter="showtime"><img src="/assets/entertainment/16x16/showtime-689bdf48f3c6585fced9b1ea61f32f1a.png" alt="netflix"/></a></li>
+</ul>
+
+
 <ul id="posters">
 {% for show in shows %}
-  <li class="{{ show.permalink }}">
+  <li>
     <p class="poster">
       <a href="{{ show.wikipedia_url }}"><img src="{{ show.poster_url }}" alt="{{ show.title | escape }}"/></a>
     </p>
 
     <p class="media-links">
-      {% if show.netflix_url and show.on_netflix_instant %}<a href="{{ show.netflix_url | escape }}"><img src="/assets/entertainment/16x16/netflix-8bde6efce34442376d049b211ba09d79.png" alt="netflix"/></a>{% endif %}
-      {% if show.hulu_url %}<a href="{{ show.hulu_url | escape }}"><img src="/assets/entertainment/16x16/hulu-860330773b34921347625bf0744336ee.png" alt="hulu"/></a>{% endif %}
+      {% if show.netflix_url and show.on_netflix_instant %}<a href="{{ show.netflix_url | escape }}" class="netflix"><img src="/assets/entertainment/16x16/netflix-8bde6efce34442376d049b211ba09d79.png" alt="netflix"/></a>{% endif %}
+      {% if show.hulu_url %}<a href="{{ show.hulu_url | escape }}" class="hulu"><img src="/assets/entertainment/16x16/hulu-860330773b34921347625bf0744336ee.png" alt="hulu"/></a>{% endif %}
       {% if show.amazon_url %}
         {% if show.on_amazon_prime %}
-          <a href="{{ show.amazon_url | escape }}"><img src="/assets/entertainment/amazon-prime-5ebc65569210920094fb68189a6ea4ed.png" alt="amazon"/></a>
+          <a href="{{ show.amazon_url | escape }}" class="amazon-prime"><img src="/assets/entertainment/amazon-prime-8633df038bcf381ad35c08b34b25dce4.png" alt="amazon"/></a>
         {% else %}
-          <a href="{{ show.amazon_url | escape }}"><img src="/assets/entertainment/16x16/amazon-ce50ceee80d4df50e61fe60d2375db12.png" alt="amazon"/></a>
+          <a href="{{ show.amazon_url | escape }}" class="amazon"><img src="/assets/entertainment/16x16/amazon-ce50ceee80d4df50e61fe60d2375db12.png" alt="amazon"/></a>
         {% endif %}
       {% endif %}
-      {% if show.showtime_url %}<a href="{{ show.showtime_url | escape }}"><img src="/assets/entertainment/16x16/showtime-689bdf48f3c6585fced9b1ea61f32f1a.png" alt="showtime"/></a>{% endif %}
-      {% if show.hbogo_url %}<a href="{{ show.hbogo_url | escape }}"><img src="/assets/entertainment/hbo-a6d69d21da481aad3fcf6187e5ef2365.png" alt="HBOgo"/></a>{% endif %}
-      {% if show.maxgo_url %}<a href="{{ show.maxgo_url | escape }}"><img src="/assets/entertainment/cinemax-e988a0df11bca746327ff85038e3c9ef.png" alt="MAXgo"/></a>{% endif %}
+      {% if show.hbogo_url %}<a href="{{ show.hbogo_url | escape }}" class="hbogo"><img src="/assets/entertainment/hbo-ea4b03f563f64935b2ab95d36484bb4b.png" alt="HBOgo"/></a>{% endif %}
+      {% if show.maxgo_url %}<a href="{{ show.maxgo_url | escape }}" class="maxgo"><img src="/assets/entertainment/cinemax-622c2bd98de87f7b0a2872236dec4bfc.png" alt="MAXgo"/></a>{% endif %}
+      {% if show.showtime_url %}<a href="{{ show.showtime_url | escape }}" class="showtime"><img src="/assets/entertainment/16x16/showtime-689bdf48f3c6585fced9b1ea61f32f1a.png" alt="showtime"/></a>{% endif %}
     </p>
 
     <p class="title">

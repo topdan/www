@@ -2068,41 +2068,14 @@ ul.navigation {
   border: none;
   border-radius: none;
 }
-#current-tv-shows h2, #previous-tv-shows h2 {
-  margin-top: 0; }
-#current-tv-shows .boxart, #previous-tv-shows .boxart {
-  float: left;
-  clear: both;
-  margin-right: 1em;
-  text-align: center; }
-#current-tv-shows .row-fluid, #previous-tv-shows .row-fluid {
-  margin-bottom: 1em;
-  padding-bottom: 2em;
-  border-bottom: 1px solid #CCC; }
-#current-tv-shows .row-fluid.last, #previous-tv-shows .row-fluid.last {
-  border-bottom: 0;
-  margin-bottom: 0;
-  padding-bottom: 0; }
-#current-tv-shows .span6, #previous-tv-shows .span6 {
-  margin-top: 2em; }
-#current-tv-shows .hulu, #previous-tv-shows .hulu {
-  border: 1px solid #CCCCCC;
-  display: block;
-  height: 125px;
-  padding-top: 15px; }
-#current-tv-shows .hbo, #previous-tv-shows .hbo {
-  border: 1px solid #CCCCCC;
-  display: block;
-  height: 135px;
-  padding-top: 25px; }
-#current-tv-shows .netflix-instant, #previous-tv-shows .netflix-instant {
-  display: block;
-  margin-top: 5px; }
-#current-tv-shows .the-wb, #previous-tv-shows .the-wb {
-  display: block;
-  padding-top: 30px;
-  height: 130px;
-  border: 1px solid #cccccc; }
+#movie-recommendations h1, #current-tv-shows h1, #previous-tv-shows h1 {
+  text-align: center;
+  overflow-x: hidden; }
+#movie-recommendations .post, #current-tv-shows .post, #previous-tv-shows .post {
+  max-width: none; }
+#movie-recommendations .post-description, #current-tv-shows .post-description, #previous-tv-shows .post-description {
+  margin: 0 auto 1em auto;
+  max-width: 640px; }
 
 #music-videos .buttons {
   text-align: center; }
@@ -2127,7 +2100,8 @@ ul.navigation {
 
 #posters {
   list-style: none;
-  margin: 0; }
+  margin: 0;
+  clear: left; }
   #posters li {
     float: left;
     text-align: center;
@@ -2136,7 +2110,8 @@ ul.navigation {
   #posters p.poster {
     margin: 0 0 0.5em; }
     #posters p.poster img {
-      height: 180px; }
+      height: 180px;
+      border: 1px solid #CCC; }
   #posters p.title {
     height: 40px;
     margin: 0 0 0.5em; }
@@ -2144,6 +2119,21 @@ ul.navigation {
     margin: 0;
     height: 21px;
     padding: 0 0 5px; }
+
+#poster-filters {
+  list-style: none;
+  max-width: 640px;
+  margin: auto; }
+  #poster-filters li {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 0.5em; }
+  #poster-filters .amazon-prime img {
+    background-color: white; }
+  #poster-filters .label-inverse {
+    margin-top: 6px; }
+  #poster-filters .btn {
+    text-decoration: none; }
 #get-inspired h2 {
   margin-top: 0; }
 #get-inspired ul.videos {
