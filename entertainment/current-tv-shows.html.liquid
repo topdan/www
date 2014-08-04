@@ -8,10 +8,16 @@
     <p class="media-links">
       {% if show.netflix_url and show.on_netflix_instant %}<a href="{{ show.netflix_url | escape }}"><img src="/assets/entertainment/16x16/netflix-8bde6efce34442376d049b211ba09d79.png" alt="netflix"/></a>{% endif %}
       {% if show.hulu_url %}<a href="{{ show.hulu_url | escape }}"><img src="/assets/entertainment/16x16/hulu-860330773b34921347625bf0744336ee.png" alt="hulu"/></a>{% endif %}
-      {% if show.amazon_url %}<a href="{{ show.amazon_url | escape }}"><img src="/assets/entertainment/16x16/amazon-ce50ceee80d4df50e61fe60d2375db12.png" alt="amazon"/></a>{% endif %}
+      {% if show.amazon_url %}
+        {% if show.on_amazon_prime %}
+          <a href="{{ show.amazon_url | escape }}"><img src="/assets/entertainment/amazon-prime-5ebc65569210920094fb68189a6ea4ed.png" alt="amazon"/></a>
+        {% else %}
+          <a href="{{ show.amazon_url | escape }}"><img src="/assets/entertainment/16x16/amazon-ce50ceee80d4df50e61fe60d2375db12.png" alt="amazon"/></a>
+        {% endif %}
+      {% endif %}
       {% if show.showtime_url %}<a href="{{ show.showtime_url | escape }}"><img src="/assets/entertainment/16x16/showtime-689bdf48f3c6585fced9b1ea61f32f1a.png" alt="showtime"/></a>{% endif %}
-      {% if show.hbogo_url %}<a href="{{ show.hbogo_url | escape }}">HBOgo</a>{% endif %}
-      {% if show.maxgo_url %}<a href="{{ show.maxgo_url | escape }}">MAXgo</a>{% endif %}
+      {% if show.hbogo_url %}<a href="{{ show.hbogo_url | escape }}"><img src="/assets/entertainment/hbo-a6d69d21da481aad3fcf6187e5ef2365.png" alt="HBOgo"/></a>{% endif %}
+      {% if show.maxgo_url %}<a href="{{ show.maxgo_url | escape }}"><img src="/assets/entertainment/cinemax-e988a0df11bca746327ff85038e3c9ef.png" alt="MAXgo"/></a>{% endif %}
     </p>
 
     <p class="title">
