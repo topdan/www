@@ -136,23 +136,6 @@
     "on_amazon_prime": null
   },
   {
-    "title": "The World's End",
-    "year": 2013,
-    "release_date": "2013-08-23",
-    "netflix_url": "http://movies.netflix.com/WiMovie/70273234",
-    "hbogo_url": null,
-    "maxgo_url": null,
-    "showtime_url": null,
-    "apple_trailers_url": "http://trailers.apple.com/trailers/focus_features/theworldsend/",
-    "redbox_url": "http://www.redbox.com/movies/the-worlds-end",
-    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/8744/thumb_the-worlds-end-2013.jpg",
-    "imdb_url": "http://www.imdb.com/title/tt1213663/",
-    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_worlds_end/",
-    "amazon_url": null,
-    "on_netflix_instant": false,
-    "on_amazon_prime": null
-  },
-  {
     "title": "Drinking Buddies",
     "year": 2013,
     "release_date": "2013-08-23",
@@ -167,6 +150,23 @@
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/drinking_buddies_2013/",
     "amazon_url": null,
     "on_netflix_instant": true,
+    "on_amazon_prime": null
+  },
+  {
+    "title": "The World's End",
+    "year": 2013,
+    "release_date": "2013-08-23",
+    "netflix_url": "http://movies.netflix.com/WiMovie/70273234",
+    "hbogo_url": null,
+    "maxgo_url": null,
+    "showtime_url": null,
+    "apple_trailers_url": "http://trailers.apple.com/trailers/focus_features/theworldsend/",
+    "redbox_url": "http://www.redbox.com/movies/the-worlds-end",
+    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/8744/thumb_the-worlds-end-2013.jpg",
+    "imdb_url": "http://www.imdb.com/title/tt1213663/",
+    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_worlds_end/",
+    "amazon_url": null,
+    "on_netflix_instant": false,
     "on_amazon_prime": null
   },
   {
@@ -643,6 +643,23 @@
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/771240018/",
     "amazon_url": null,
     "on_netflix_instant": true,
+    "on_amazon_prime": null
+  },
+  {
+    "title": "Love and Other Drugs",
+    "year": 2010,
+    "release_date": "2010-11-24",
+    "netflix_url": null,
+    "hbogo_url": null,
+    "maxgo_url": null,
+    "showtime_url": null,
+    "apple_trailers_url": null,
+    "redbox_url": null,
+    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/13145/thumb_love-and-other-drugs-2010.jpg",
+    "imdb_url": "http://www.imdb.com/title/tt0758752/",
+    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/love-and-other-drugs/",
+    "amazon_url": null,
+    "on_netflix_instant": null,
     "on_amazon_prime": null
   },
   {
