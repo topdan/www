@@ -63,80 +63,10 @@
     "added_at": "2014-08-02 13:50:21 -0400"
   },
   {
-    "artist": "Modest Mouse",
-    "song": "The View",
-    "video_url": "http://www.youtube.com/watch?v=EHOpmF3glak",
-    "thumbnail_url": "http://img.youtube.com/vi/EHOpmF3glak/0.jpg",
-    "added_at": "2013-10-24 16:44:58 -0400"
-  },
-  {
-    "artist": "Fiona Apple",
-    "song": "Criminal",
-    "video_url": "http://www.youtube.com/watch?v=FFOzayDpWoI",
-    "thumbnail_url": "http://img.youtube.com/vi/FFOzayDpWoI/0.jpg",
-    "added_at": "2013-10-24 16:44:58 -0400"
-  },
-  {
-    "artist": "Robert Plant and Alison Krauss",
-    "song": "Gone Gone Gone",
-    "video_url": "http://www.youtube.com/watch?v=9YVRxAX6fwg",
-    "thumbnail_url": "http://img.youtube.com/vi/9YVRxAX6fwg/0.jpg",
-    "added_at": "2013-10-24 16:44:58 -0400"
-  },
-  {
-    "artist": "Melanie C",
-    "song": "Never be the same again",
-    "video_url": "http://www.youtube.com/watch?v=klCXBkn0VGs",
-    "thumbnail_url": "http://img.youtube.com/vi/klCXBkn0VGs/0.jpg",
-    "added_at": "2013-10-24 16:44:58 -0400"
-  },
-  {
-    "artist": "Lipps Inc.",
-    "song": "Funky Town",
-    "video_url": "http://www.youtube.com/watch?v=06ZXiiicnLU",
-    "thumbnail_url": "http://img.youtube.com/vi/06ZXiiicnLU/0.jpg",
-    "added_at": "2013-10-24 16:44:58 -0400"
-  },
-  {
-    "artist": "Eric Clapton",
-    "song": "Lay Down Sally",
-    "video_url": "http://www.youtube.com/watch?v=EivR78mrRFE",
-    "thumbnail_url": "http://img.youtube.com/vi/EivR78mrRFE/0.jpg",
-    "added_at": "2013-10-24 16:44:58 -0400"
-  },
-  {
-    "artist": "Telepopmusik",
-    "song": "Breathe",
-    "video_url": "http://www.youtube.com/watch?v=vyut3GyQtn0",
-    "thumbnail_url": "http://img.youtube.com/vi/vyut3GyQtn0/0.jpg",
-    "added_at": "2013-10-24 16:44:58 -0400"
-  },
-  {
     "artist": "Atlas Genius",
     "song": "Trojans",
     "video_url": "http://www.youtube.com/watch?v=Sd2yr12abg8",
     "thumbnail_url": "http://img.youtube.com/vi/Sd2yr12abg8/0.jpg",
-    "added_at": "2013-10-24 16:44:58 -0400"
-  },
-  {
-    "artist": "Robin Thicke",
-    "song": "Blurred Lines",
-    "video_url": "http://www.youtube.com/watch?v=yyDUC1LUXSU",
-    "thumbnail_url": "http://img.youtube.com/vi/yyDUC1LUXSU/0.jpg",
-    "added_at": "2013-10-24 16:44:58 -0400"
-  },
-  {
-    "artist": "Capital Cities",
-    "song": "Safe and Sound",
-    "video_url": "http://www.youtube.com/watch?v=47dtFZ8CFo8",
-    "thumbnail_url": "http://img.youtube.com/vi/47dtFZ8CFo8/0.jpg",
-    "added_at": "2013-10-24 16:44:58 -0400"
-  },
-  {
-    "artist": "Calvin Harris ft Florence Welch",
-    "song": "Sweet Nothing",
-    "video_url": "http://www.youtube.com/watch?v=17ozSeGw-fY",
-    "thumbnail_url": "http://img.youtube.com/vi/17ozSeGw-fY/0.jpg",
     "added_at": "2013-10-24 16:44:58 -0400"
   },
   {
@@ -147,34 +77,6 @@
     "added_at": "2013-10-24 16:44:58 -0400"
   },
   {
-    "artist": "White Town",
-    "song": "Your Woman",
-    "video_url": "http://www.youtube.com/watch?v=cIQWt3oMids",
-    "thumbnail_url": "http://img.youtube.com/vi/cIQWt3oMids/0.jpg",
-    "added_at": "2013-10-24 16:44:58 -0400"
-  },
-  {
-    "artist": "Explosions in the Sky",
-    "song": "Your Hand in Mine",
-    "video_url": "http://www.youtube.com/watch?v=JzIK5FaC38w",
-    "thumbnail_url": "http://img.youtube.com/vi/JzIK5FaC38w/0.jpg",
-    "added_at": "2013-10-24 16:44:58 -0400"
-  },
-  {
-    "artist": "Tiesto ft Calvin Harris",
-    "song": "Century",
-    "video_url": "http://www.youtube.com/watch?v=0Hr7oC6yuXk",
-    "thumbnail_url": "http://img.youtube.com/vi/0Hr7oC6yuXk/0.jpg",
-    "added_at": "2013-10-24 16:44:58 -0400"
-  },
-  {
-    "artist": "Paul Oakenfold",
-    "song": "Starry Eyed Surprise",
-    "video_url": "http://www.youtube.com/watch?v=nInYkDW3XSE",
-    "thumbnail_url": "http://img.youtube.com/vi/nInYkDW3XSE/0.jpg",
-    "added_at": "2013-10-24 16:44:58 -0400"
-  },
-  {
     "artist": "Buddy Holly",
     "song": "Oh Boy!",
     "video_url": "http://www.youtube.com/watch?v=K6lyYIurcCk",
@@ -182,31 +84,17 @@
     "added_at": "2013-10-24 16:44:58 -0400"
   },
   {
-    "artist": "Warren Zevon",
-    "song": "Keep me in your Heart for a while",
-    "video_url": "http://www.youtube.com/watch?v=RMTKb-pgxGI",
-    "thumbnail_url": "http://img.youtube.com/vi/RMTKb-pgxGI/0.jpg",
+    "artist": "Calvin Harris ft Florence Welch",
+    "song": "Sweet Nothing",
+    "video_url": "http://www.youtube.com/watch?v=17ozSeGw-fY",
+    "thumbnail_url": "http://img.youtube.com/vi/17ozSeGw-fY/0.jpg",
     "added_at": "2013-10-24 16:44:58 -0400"
   },
   {
-    "artist": "Nick Drake",
-    "song": "Pink Moon",
-    "video_url": "http://www.youtube.com/watch?v=aXnfhnCoOyo",
-    "thumbnail_url": "http://img.youtube.com/vi/aXnfhnCoOyo/0.jpg",
-    "added_at": "2013-10-24 16:44:58 -0400"
-  },
-  {
-    "artist": "Zero 7",
-    "song": "Red Dust",
-    "video_url": "http://www.youtube.com/watch?v=KZObnSiajFc",
-    "thumbnail_url": "http://img.youtube.com/vi/KZObnSiajFc/0.jpg",
-    "added_at": "2013-10-24 16:44:58 -0400"
-  },
-  {
-    "artist": "Puddle of MUDD",
-    "song": "Psycho",
-    "video_url": "http://www.youtube.com/watch?v=pDdeOncpD5E",
-    "thumbnail_url": "http://img.youtube.com/vi/pDdeOncpD5E/0.jpg",
+    "artist": "Capital Cities",
+    "song": "Safe and Sound",
+    "video_url": "http://www.youtube.com/watch?v=47dtFZ8CFo8",
+    "thumbnail_url": "http://img.youtube.com/vi/47dtFZ8CFo8/0.jpg",
     "added_at": "2013-10-24 16:44:58 -0400"
   },
   {
@@ -217,24 +105,31 @@
     "added_at": "2013-10-24 16:44:58 -0400"
   },
   {
-    "artist": "Steppenwolf",
-    "song": "Magic Carpet Ride",
-    "video_url": "http://www.youtube.com/watch?v=EEEzbFxEbB8",
-    "thumbnail_url": "http://img.youtube.com/vi/EEEzbFxEbB8/0.jpg",
+    "artist": "Eric Clapton",
+    "song": "Lay Down Sally",
+    "video_url": "http://www.youtube.com/watch?v=EivR78mrRFE",
+    "thumbnail_url": "http://img.youtube.com/vi/EivR78mrRFE/0.jpg",
     "added_at": "2013-10-24 16:44:58 -0400"
   },
   {
-    "artist": "Yeah Yeah Yeahs",
-    "song": "Maps",
-    "video_url": "http://www.youtube.com/watch?v=oIIxlgcuQRU",
-    "thumbnail_url": "http://img.youtube.com/vi/oIIxlgcuQRU/0.jpg",
+    "artist": "Explosions in the Sky",
+    "song": "Your Hand in Mine",
+    "video_url": "http://www.youtube.com/watch?v=JzIK5FaC38w",
+    "thumbnail_url": "http://img.youtube.com/vi/JzIK5FaC38w/0.jpg",
     "added_at": "2013-10-24 16:44:58 -0400"
   },
   {
-    "artist": "Silversun Pickups",
-    "song": "Lazy Eye",
-    "video_url": "http://www.youtube.com/watch?v=z-mxBDuRaZ8",
-    "thumbnail_url": "http://img.youtube.com/vi/z-mxBDuRaZ8/0.jpg",
+    "artist": "Fiona Apple",
+    "song": "Criminal",
+    "video_url": "http://www.youtube.com/watch?v=FFOzayDpWoI",
+    "thumbnail_url": "http://img.youtube.com/vi/FFOzayDpWoI/0.jpg",
+    "added_at": "2013-10-24 16:44:58 -0400"
+  },
+  {
+    "artist": "Lipps Inc.",
+    "song": "Funky Town",
+    "video_url": "http://www.youtube.com/watch?v=06ZXiiicnLU",
+    "thumbnail_url": "http://img.youtube.com/vi/06ZXiiicnLU/0.jpg",
     "added_at": "2013-10-24 16:44:58 -0400"
   },
   {
@@ -245,10 +140,115 @@
     "added_at": "2013-10-24 16:44:58 -0400"
   },
   {
-    "artist": "Heart",
-    "song": "Magic Man",
-    "video_url": "http://www.youtube.com/watch?v=mXOO7QVHgXs",
-    "thumbnail_url": "http://img.youtube.com/vi/mXOO7QVHgXs/0.jpg",
+    "artist": "Melanie C",
+    "song": "Never be the same again",
+    "video_url": "http://www.youtube.com/watch?v=klCXBkn0VGs",
+    "thumbnail_url": "http://img.youtube.com/vi/klCXBkn0VGs/0.jpg",
+    "added_at": "2013-10-24 16:44:58 -0400"
+  },
+  {
+    "artist": "Modest Mouse",
+    "song": "The View",
+    "video_url": "http://www.youtube.com/watch?v=EHOpmF3glak",
+    "thumbnail_url": "http://img.youtube.com/vi/EHOpmF3glak/0.jpg",
+    "added_at": "2013-10-24 16:44:58 -0400"
+  },
+  {
+    "artist": "Nick Drake",
+    "song": "Pink Moon",
+    "video_url": "http://www.youtube.com/watch?v=aXnfhnCoOyo",
+    "thumbnail_url": "http://img.youtube.com/vi/aXnfhnCoOyo/0.jpg",
+    "added_at": "2013-10-24 16:44:58 -0400"
+  },
+  {
+    "artist": "Paul Oakenfold",
+    "song": "Starry Eyed Surprise",
+    "video_url": "http://www.youtube.com/watch?v=nInYkDW3XSE",
+    "thumbnail_url": "http://img.youtube.com/vi/nInYkDW3XSE/0.jpg",
+    "added_at": "2013-10-24 16:44:58 -0400"
+  },
+  {
+    "artist": "Puddle of MUDD",
+    "song": "Psycho",
+    "video_url": "http://www.youtube.com/watch?v=pDdeOncpD5E",
+    "thumbnail_url": "http://img.youtube.com/vi/pDdeOncpD5E/0.jpg",
+    "added_at": "2013-10-24 16:44:58 -0400"
+  },
+  {
+    "artist": "Robert Plant and Alison Krauss",
+    "song": "Gone Gone Gone",
+    "video_url": "http://www.youtube.com/watch?v=9YVRxAX6fwg",
+    "thumbnail_url": "http://img.youtube.com/vi/9YVRxAX6fwg/0.jpg",
+    "added_at": "2013-10-24 16:44:58 -0400"
+  },
+  {
+    "artist": "Robin Thicke",
+    "song": "Blurred Lines",
+    "video_url": "http://www.youtube.com/watch?v=yyDUC1LUXSU",
+    "thumbnail_url": "http://img.youtube.com/vi/yyDUC1LUXSU/0.jpg",
+    "added_at": "2013-10-24 16:44:58 -0400"
+  },
+  {
+    "artist": "Silversun Pickups",
+    "song": "Lazy Eye",
+    "video_url": "http://www.youtube.com/watch?v=z-mxBDuRaZ8",
+    "thumbnail_url": "http://img.youtube.com/vi/z-mxBDuRaZ8/0.jpg",
+    "added_at": "2013-10-24 16:44:58 -0400"
+  },
+  {
+    "artist": "Steppenwolf",
+    "song": "Magic Carpet Ride",
+    "video_url": "http://www.youtube.com/watch?v=EEEzbFxEbB8",
+    "thumbnail_url": "http://img.youtube.com/vi/EEEzbFxEbB8/0.jpg",
+    "added_at": "2013-10-24 16:44:58 -0400"
+  },
+  {
+    "artist": "Telepopmusik",
+    "song": "Breathe",
+    "video_url": "http://www.youtube.com/watch?v=vyut3GyQtn0",
+    "thumbnail_url": "http://img.youtube.com/vi/vyut3GyQtn0/0.jpg",
+    "added_at": "2013-10-24 16:44:58 -0400"
+  },
+  {
+    "artist": "Tiesto ft Calvin Harris",
+    "song": "Century",
+    "video_url": "http://www.youtube.com/watch?v=0Hr7oC6yuXk",
+    "thumbnail_url": "http://img.youtube.com/vi/0Hr7oC6yuXk/0.jpg",
+    "added_at": "2013-10-24 16:44:58 -0400"
+  },
+  {
+    "artist": "Warren Zevon",
+    "song": "Keep me in your Heart for a while",
+    "video_url": "http://www.youtube.com/watch?v=RMTKb-pgxGI",
+    "thumbnail_url": "http://img.youtube.com/vi/RMTKb-pgxGI/0.jpg",
+    "added_at": "2013-10-24 16:44:58 -0400"
+  },
+  {
+    "artist": "White Town",
+    "song": "Your Woman",
+    "video_url": "http://www.youtube.com/watch?v=cIQWt3oMids",
+    "thumbnail_url": "http://img.youtube.com/vi/cIQWt3oMids/0.jpg",
+    "added_at": "2013-10-24 16:44:58 -0400"
+  },
+  {
+    "artist": "Yeah Yeah Yeahs",
+    "song": "Maps",
+    "video_url": "http://www.youtube.com/watch?v=oIIxlgcuQRU",
+    "thumbnail_url": "http://img.youtube.com/vi/oIIxlgcuQRU/0.jpg",
+    "added_at": "2013-10-24 16:44:58 -0400"
+  },
+  {
+    "artist": "Zero 7",
+    "song": "Red Dust",
+    "video_url": "http://www.youtube.com/watch?v=KZObnSiajFc",
+    "thumbnail_url": "http://img.youtube.com/vi/KZObnSiajFc/0.jpg",
+    "added_at": "2013-10-24 16:44:58 -0400"
+  },
+  {
+    "artist": "Cake",
+    "song": "The Distance",
+    "video_url": "http://www.youtube.com/watch?v=__PU5CVSegg",
+    "thumbnail_url": "http://img.youtube.com/vi/__PU5CVSegg/0.jpg",
     "added_at": "2013-01-02 15:44:58 -0500"
   },
   {
@@ -259,10 +259,17 @@
     "added_at": "2013-01-02 15:44:58 -0500"
   },
   {
-    "artist": "Steve Miller Band",
-    "song": "Abracadabra",
-    "video_url": "http://www.youtube.com/watch?v=fH850qp85Zk",
-    "thumbnail_url": "http://img.youtube.com/vi/fH850qp85Zk/0.jpg",
+    "artist": "Heart",
+    "song": "Magic Man",
+    "video_url": "http://www.youtube.com/watch?v=mXOO7QVHgXs",
+    "thumbnail_url": "http://img.youtube.com/vi/mXOO7QVHgXs/0.jpg",
+    "added_at": "2013-01-02 15:44:58 -0500"
+  },
+  {
+    "artist": "Johnny Cash",
+    "song": "Hurt",
+    "video_url": "http://www.youtube.com/watch?v=SmVAWKfJ4Go",
+    "thumbnail_url": "http://img.youtube.com/vi/SmVAWKfJ4Go/0.jpg",
     "added_at": "2013-01-02 15:44:58 -0500"
   },
   {
@@ -273,10 +280,10 @@
     "added_at": "2013-01-02 15:44:58 -0500"
   },
   {
-    "artist": "Cake",
-    "song": "The Distance",
-    "video_url": "http://www.youtube.com/watch?v=__PU5CVSegg",
-    "thumbnail_url": "http://img.youtube.com/vi/__PU5CVSegg/0.jpg",
+    "artist": "Steve Miller Band",
+    "song": "Abracadabra",
+    "video_url": "http://www.youtube.com/watch?v=fH850qp85Zk",
+    "thumbnail_url": "http://img.youtube.com/vi/fH850qp85Zk/0.jpg",
     "added_at": "2013-01-02 15:44:58 -0500"
   },
   {
@@ -284,13 +291,6 @@
     "song": "Cannonball",
     "video_url": "http://www.youtube.com/watch?v=Qpoqzt2EHaA",
     "thumbnail_url": "http://img.youtube.com/vi/Qpoqzt2EHaA/0.jpg",
-    "added_at": "2013-01-02 15:44:58 -0500"
-  },
-  {
-    "artist": "Johnny Cash",
-    "song": "Hurt",
-    "video_url": "http://www.youtube.com/watch?v=SmVAWKfJ4Go",
-    "thumbnail_url": "http://img.youtube.com/vi/SmVAWKfJ4Go/0.jpg",
     "added_at": "2013-01-02 15:44:58 -0500"
   },
   {
