@@ -221,6 +221,23 @@
     "on_amazon_prime": null
   },
   {
+    "title": "The Kings of Summer",
+    "year": 2013,
+    "release_date": "2013-05-31",
+    "netflix_url": null,
+    "hbogo_url": null,
+    "maxgo_url": null,
+    "showtime_url": "http://www.showtimeanytime.com/#/movie/3376808",
+    "apple_trailers_url": null,
+    "redbox_url": "http://www.redbox.com/movies/the-kings-of-summer",
+    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/9745/thumb_the-kings-of-summer-2013.jpg",
+    "imdb_url": "http://www.imdb.com/title/tt2179116/",
+    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_kings_of_summer/",
+    "amazon_url": null,
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
+  },
+  {
     "title": "Pain and Gain",
     "year": 2013,
     "release_date": "2013-04-26",
@@ -391,23 +408,6 @@
     "on_amazon_prime": null
   },
   {
-    "title": "The Perks Of Being A Wallflower",
-    "year": 2012,
-    "release_date": "2012-09-21",
-    "netflix_url": null,
-    "hbogo_url": null,
-    "maxgo_url": null,
-    "showtime_url": null,
-    "apple_trailers_url": null,
-    "redbox_url": null,
-    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/9057/thumb_the-perks-of-being-a-wallflower-2012.jpg",
-    "imdb_url": "http://www.imdb.com/title/tt1659337/",
-    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_perks_of_being_a_wallflower/",
-    "amazon_url": null,
-    "on_netflix_instant": null,
-    "on_amazon_prime": null
-  },
-  {
     "title": "Dredd",
     "year": 2012,
     "release_date": "2012-09-21",
@@ -422,6 +422,23 @@
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/dredd/",
     "amazon_url": null,
     "on_netflix_instant": true,
+    "on_amazon_prime": null
+  },
+  {
+    "title": "The Perks Of Being A Wallflower",
+    "year": 2012,
+    "release_date": "2012-09-21",
+    "netflix_url": null,
+    "hbogo_url": null,
+    "maxgo_url": null,
+    "showtime_url": null,
+    "apple_trailers_url": null,
+    "redbox_url": null,
+    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/9057/thumb_the-perks-of-being-a-wallflower-2012.jpg",
+    "imdb_url": "http://www.imdb.com/title/tt1659337/",
+    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_perks_of_being_a_wallflower/",
+    "amazon_url": null,
+    "on_netflix_instant": null,
     "on_amazon_prime": null
   },
   {
@@ -1086,6 +1103,23 @@
     "amazon_url": null,
     "on_netflix_instant": true,
     "on_amazon_prime": null
+  },
+  {
+    "title": "Layer Cake",
+    "year": 2005,
+    "release_date": "2005-05-13",
+    "netflix_url": null,
+    "hbogo_url": null,
+    "maxgo_url": null,
+    "showtime_url": null,
+    "apple_trailers_url": null,
+    "redbox_url": null,
+    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/13206/thumb_layer-cake-2005.jpg",
+    "imdb_url": "http://www.imdb.com/title/tt0375912/",
+    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/layer_cake/",
+    "amazon_url": "http://www.amazon.com/gp/product/B00AVIQAIM",
+    "on_netflix_instant": null,
+    "on_amazon_prime": true
   },
   {
     "title": "Closer",

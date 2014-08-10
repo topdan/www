@@ -160,22 +160,6 @@
     "latest_episode_aired_on": "2011-07-15"
   },
   {
-    "title": "Rome",
-    "network": "hbo",
-    "imdb_url": "http://www.imdb.com/title/tt0384766/",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Rome_(TV_series)",
-    "hulu_url": null,
-    "hbogo_url": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP25057?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/",
-    "maxgo_url": null,
-    "showtime_url": null,
-    "netflix_url": "http://movies.netflix.com/WiMovie/Rome/70157273",
-    "amazon_url": null,
-    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/136/thumb_rome.jpg",
-    "on_netflix_instant": false,
-    "on_amazon_prime": false,
-    "latest_episode_aired_on": "2011-03-01"
-  },
-  {
     "title": "Band of Brothers",
     "network": "hbo",
     "imdb_url": "http://www.imdb.com/title/tt0185906/",
@@ -188,6 +172,22 @@
     "amazon_url": null,
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/14/thumb_band-of-brothers.jpg",
     "on_netflix_instant": null,
+    "on_amazon_prime": false,
+    "latest_episode_aired_on": "2011-03-01"
+  },
+  {
+    "title": "Rome",
+    "network": "hbo",
+    "imdb_url": "http://www.imdb.com/title/tt0384766/",
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Rome_(TV_series)",
+    "hulu_url": null,
+    "hbogo_url": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP25057?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/",
+    "maxgo_url": null,
+    "showtime_url": null,
+    "netflix_url": "http://movies.netflix.com/WiMovie/Rome/70157273",
+    "amazon_url": null,
+    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/136/thumb_rome.jpg",
+    "on_netflix_instant": false,
     "on_amazon_prime": false,
     "latest_episode_aired_on": "2011-03-01"
   },
