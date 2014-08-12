@@ -1,5 +1,12 @@
 [
   {
+    "artist": "Britney Spears",
+    "song": "'til the world ends",
+    "video_url": "http://www.youtube.com/watch?v=qzU9OrZlKb8",
+    "thumbnail_url": "http://img.youtube.com/vi/qzU9OrZlKb8/0.jpg",
+    "added_at": "2014-08-11 21:36:39 -0400"
+  },
+  {
     "artist": "Miley Cyrus",
     "song": "Party in the USA",
     "video_url": "http://www.youtube.com/watch?v=M11SvDtPBhA",
