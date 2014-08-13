@@ -68,6 +68,23 @@
     "on_amazon_prime": null
   },
   {
+    "title": "Inside Llewyn Davis",
+    "year": 2014,
+    "release_date": "2013-12-06",
+    "netflix_url": "http://movies.netflix.com/WiMovie/70275369",
+    "hbogo_url": null,
+    "maxgo_url": null,
+    "showtime_url": null,
+    "apple_trailers_url": "http://trailers.apple.com/trailers/independent/insidellewyndavis/",
+    "redbox_url": "http://www.redbox.com/movies/inside-llewyn-davis",
+    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/8842/thumb_inside-llewyn-davis-2014.jpg",
+    "imdb_url": "http://www.imdb.com/title/tt2042568/",
+    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/inside_llewyn_davis_2013/",
+    "amazon_url": null,
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
+  },
+  {
     "title": "Don Jon",
     "year": 2014,
     "release_date": "2013-09-27",
