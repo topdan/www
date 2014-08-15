@@ -935,6 +935,23 @@
     "on_amazon_prime": null
   },
   {
+    "title": "Speed Racer",
+    "year": 2008,
+    "release_date": "2008-04-28",
+    "netflix_url": null,
+    "hbogo_url": null,
+    "maxgo_url": null,
+    "showtime_url": null,
+    "apple_trailers_url": null,
+    "redbox_url": null,
+    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/12133/thumb_speed-racer-2008.jpg",
+    "imdb_url": "http://www.imdb.com/title/tt0811080/",
+    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/speed_racer/",
+    "amazon_url": null,
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
+  },
+  {
     "title": "Purple Violets",
     "year": 2008,
     "release_date": "2007-04-30",
@@ -1171,6 +1188,23 @@
     "amazon_url": "http://www.amazon.com/gp/product/B00AVIQAIM",
     "on_netflix_instant": null,
     "on_amazon_prime": true
+  },
+  {
+    "title": "Spanglish",
+    "year": 2004,
+    "release_date": "2004-12-17",
+    "netflix_url": "http://movies.netflix.com/WiMovie/70011214",
+    "hbogo_url": null,
+    "maxgo_url": null,
+    "showtime_url": null,
+    "apple_trailers_url": null,
+    "redbox_url": null,
+    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/8593/thumb_spanglish-2004.jpg",
+    "imdb_url": "http://www.imdb.com/title/tt0371246/",
+    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/spanglish/",
+    "amazon_url": null,
+    "on_netflix_instant": false,
+    "on_amazon_prime": null
   },
   {
     "title": "Closer",
