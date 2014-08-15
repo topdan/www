@@ -1,5 +1,12 @@
 [
   {
+    "artist": "Justin Timberlake, Carey Mulligan",
+    "song": "500 Miles",
+    "video_url": "http://www.youtube.com/watch?v=W7eYaJr1j-0",
+    "thumbnail_url": "http://img.youtube.com/vi/W7eYaJr1j-0/0.jpg",
+    "added_at": "2014-08-15 02:50:12 -0400"
+  },
+  {
     "artist": "Britney Spears",
     "song": "'til the world ends",
     "video_url": "http://www.youtube.com/watch?v=qzU9OrZlKb8",
