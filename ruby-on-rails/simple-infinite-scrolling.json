@@ -1,0 +1,11 @@
+{
+  "title": "Simple Infinite Scrolling with AJAX and Rails",
+  "description": "Ruby on Rails and jQuery team up to allow your visitors to scroll through all your content without initially loading them all.",
+  "editor": "md",
+  "published_at": "2014-06-16T12:00:00-04:00",
+  "created_at": "2014-06-16T16:00:00-04:00",
+  "updated_at": "2014-06-16T12:00:00-04:00",
+  "author_id": "dan",
+  "post_category_id": "ruby-on-rails",
+  "featured": true
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Get Inspired",
+  "description": "A collection of videos, songs and articles with so much heart and insight they affect me every time I watch. Maybe they'll do the same for you.",
+  "editor": "erb",
+  "featured": true,
+  "published_at": "2012-03-09T20:00:00-05:00",
+  "created_at": "2012-03-09T20:00:00-05:00",
+  "updated_at": "2012-03-09T20:00:00-05:00",
+  "author_id": "dan",
+  "post_category_id": "living"
+}
