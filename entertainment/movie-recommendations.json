@@ -516,7 +516,7 @@
     "netflix_url": "http://movies.netflix.com/WiMovie/70209166",
     "hbogo_url": null,
     "maxgo_url": null,
-    "showtime_url": "http://www.showtimeanytime.com/#/movie/3373547",
+    "showtime_url": null,
     "apple_trailers_url": null,
     "redbox_url": null,
     "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/5691/thumb_take-this-waltz-2012.jpg",
@@ -677,6 +677,23 @@
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/771239978/",
     "amazon_url": null,
     "on_netflix_instant": true,
+    "on_amazon_prime": null
+  },
+  {
+    "title": "The Muppets",
+    "year": 2011,
+    "release_date": "2011-11-23",
+    "netflix_url": null,
+    "hbogo_url": null,
+    "maxgo_url": null,
+    "showtime_url": null,
+    "apple_trailers_url": null,
+    "redbox_url": "http://www.redbox.com/movies/the-muppets-2011",
+    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/10967/thumb_the-muppets-2011.jpg",
+    "imdb_url": "http://www.imdb.com/title/tt1204342/",
+    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_muppets/",
+    "amazon_url": null,
+    "on_netflix_instant": null,
     "on_amazon_prime": null
   },
   {
@@ -1085,6 +1102,23 @@
     "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/speed_racer/",
     "amazon_url": null,
     "on_netflix_instant": null,
+    "on_amazon_prime": null
+  },
+  {
+    "title": "In Bruges",
+    "year": 2008,
+    "release_date": "2008-01-17",
+    "netflix_url": "http://movies.netflix.com/WiMovie/70083111",
+    "hbogo_url": null,
+    "maxgo_url": null,
+    "showtime_url": null,
+    "apple_trailers_url": null,
+    "redbox_url": null,
+    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/9107/thumb_in-bruges-2008.jpg",
+    "imdb_url": "http://www.imdb.com/title/tt0780536/",
+    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/in_bruges/",
+    "amazon_url": null,
+    "on_netflix_instant": true,
     "on_amazon_prime": null
   },
   {
