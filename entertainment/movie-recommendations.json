@@ -34,6 +34,23 @@
     "on_amazon_prime": null
   },
   {
+    "title": "Muppets Most Wanted",
+    "year": 2014,
+    "release_date": "2014-03-21",
+    "netflix_url": null,
+    "hbogo_url": null,
+    "maxgo_url": null,
+    "showtime_url": null,
+    "apple_trailers_url": "http://trailers.apple.com/trailers/disney/muppetsmostwanted/",
+    "redbox_url": "http://www.redbox.com/movies/muppets-most-wanted",
+    "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/11320/thumb_muppets-most-wanted-2014.jpg",
+    "imdb_url": "http://www.imdb.com/title/tt2281587/",
+    "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/muppets_most_wanted/",
+    "amazon_url": "http://www.amazon.com/gp/product/B00J59ZNL8",
+    "on_netflix_instant": null,
+    "on_amazon_prime": null
+  },
+  {
     "title": "Enemy",
     "year": 2014,
     "release_date": "2014-03-14",
