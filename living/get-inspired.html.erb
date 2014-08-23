@@ -1,0 +1,22 @@
+<ul class="videos">
+  <% @videos.each do |video| %>
+  <li>
+    <div class="row-fluid">
+      <div class="span6">
+        <h2 id="<%= video.id %>"><%= link_to(video.title, "##{video.id}") %></h2>
+
+        <%= video.description_html.html_safe %>
+
+        <% if video.youtube2_key %>
+          <p>Visit on YouTube: <%= link_to('Video 1', video.youtube1_url) %>, <%= link_to('Video 2', video.youtube2_url) %></p>
+        <% else %>
+          <p>Visit on YouTube: <%= link_to('Full Video', video.youtube1_url) %></p>
+        <% end %>
+      </div>
+      <div class="video span6">
+        <%= embed_youtube_video(video.youtube1_key) %>
+      </div>
+    </div>
+  </li>
+  <% end %>
+</ul>
