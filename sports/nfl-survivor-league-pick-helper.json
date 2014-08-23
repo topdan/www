@@ -1,11 +1,9 @@
 {
   "title": "NFL Survivor League Pick Helper",
   "description": "NFL Survivor is a game within the games. The rules are simple: pick one team each week, but you can only pick each team once all season. If your team doesn't win, you're out. This page aims to help you plan your picks during the final half of the season.",
-  "editor": "erb",
-  "published_at": "2013-10-20T16:00:00-05:00",
-  "created_at": "2013-10-20T16:00:00-05:00",
-  "updated_at": "2013-10-20T14:11:28-05:00",
+  "format": "erb",
   "author_id": "dan",
-  "post_category_id": "sports",
-  "featured": false
+  "published_at": "2013-10-20 21:00:00 UTC",
+  "created_at": "2013-10-20 21:00:00 UTC",
+  "updated_at": "2013-10-20 19:11:28 UTC"
 }

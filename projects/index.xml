@@ -8,8 +8,8 @@
   <updated>2014-07-28 00:00:00 UTC</updated>
   <entry>
     <id>http://www.topdan.com/projects/fantasy-sportsbook.html</id>
-    <published>2014-07-27T20:00:00-04:00</published>
-    <updated>2014-07-27T20:00:00-04:00</updated>
+    <published>2014-07-28T00:00:00Z</published>
+    <updated>2014-07-28T00:00:00Z</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/fantasy-sportsbook.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Fantasy Sportsbook</title>
     <content>Creating a new type of game by combining my favorite elements of sportsbooks and fantasy sports.</content>
@@ -20,8 +20,8 @@
   </entry>
   <entry>
     <id>http://www.topdan.com/projects/fixing-craigslist.html</id>
-    <published>2014-04-15T18:00:00-04:00</published>
-    <updated>2014-04-15T18:00:00-04:00</updated>
+    <published>2014-04-15T22:00:00Z</published>
+    <updated>2014-04-15T22:00:00Z</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/fixing-craigslist.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Fixing Craigslist</title>
     <content>Fixing Craigslist search by filtering posts, aggregating multiple searches, grouping together and emailing important posts.</content>
