@@ -1,0 +1,44 @@
+<ul id="poster-filters">
+  <li><span class="label label-inverse">Filters</span></li>
+  <li><a href="#" class="btn btn-primary">All</a></li>
+  <li><a href="#" class="btn" data-filter="netflix"><%= image_tag('entertainment/16x16/netflix.png') %></a></li>
+  <li><a href="#" class="btn" data-filter="amazon"><%= image_tag('entertainment/16x16/amazon.png') %></a></li>
+  <li><a href="#" class="btn amazon-prime" data-filter="amazon-prime"><%= image_tag('entertainment/amazon-prime.png') %></a></li>
+  <li><a href="#" class="btn" data-filter="hbogo"><%= image_tag('entertainment/hbo.png') %></a></li>
+  <li><a href="#" class="btn" data-filter="maxgo"><%= image_tag('entertainment/cinemax.png') %></a></li>
+  <li><a href="#" class="btn" data-filter="showtime"><%= image_tag('entertainment/16x16/showtime.png') %></a></li>
+</ul>
+
+<ul id="posters">
+<% @current_post.data.each do |movie| %>
+  <li>
+    <p class="poster">
+      <% if movie.rotten_tomatoes? %>
+        <%= link_to(image_tag(movie.poster_url, alt: movie.title), movie.rotten_tomatoes_url) %>
+      <% else %>
+        <%= image_tag(movie.poster_url, alt: movie.title) %>
+      <% end %>
+    </p>
+
+    <p class="media-links">
+      <%= link_to(image_tag('entertainment/16x16/netflix.png', alt: 'netflix'), movie.netflix_url, class: 'netflix') if movie.netflix_instant? %>
+      <% if movie.amazon? && movie.amazon_prime? %>
+        <%= link_to(image_tag('entertainment/amazon-prime.png', alt: 'amazon-prime'), movie.amazon_url, class: 'amazon-prime') %>
+      <% elsif movie.amazon? %>
+        <%= link_to(image_tag('entertainment/16x16/amazon.png', alt: 'amazon'), movie.amazon_url, class: 'amazon') %>
+      <% end %>
+      <%= link_to(image_tag('entertainment/hbo.png', alt: 'HBOgo'), movie.hbogo_url, class: 'hbogo') if movie.hbogo? %>
+      <%= link_to(image_tag('entertainment/cinemax.png', alt: 'MAXgo'), movie.maxgo_url, class: 'maxgo') if movie.maxgo? %>
+      <%= link_to(image_tag('entertainment/16x16/showtime.png', alt: 'showtime'), movie.showtime_url, class: 'showtime') if movie.showtime? %>
+    </p>
+
+    <p class="title">
+      <% if movie.rotten_tomatoes? %>
+        <%= link_to(movie.title, movie.rotten_tomatoes_url) %>
+      <% else %>
+        <%= movie.title %>
+      <% end %>
+    </p>
+  </li>
+<% end %>
+</ul>
