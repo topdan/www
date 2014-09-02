@@ -10,20 +10,6 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
-      "artist": "Miles Fisher",
-      "song": "Don't Let Go",
-      "video_url": "http://www.youtube.com/watch?v=NOP_x9gnDUs",
-      "thumbnail_url": "http://img.youtube.com/vi/NOP_x9gnDUs/0.jpg",
-      "added_at": "2014-09-01 03:09:15 -0400"
-    },
-    {
-      "artist": "Björk",
-      "song": "It's Oh So Quiet",
-      "video_url": "http://www.youtube.com/watch?v=BF9TjbdJyUE",
-      "thumbnail_url": "http://img.youtube.com/vi/BF9TjbdJyUE/0.jpg",
-      "added_at": "2014-09-01 02:33:58 -0400"
-    },
-    {
       "artist": "The Guild",
       "song": "Do You Want To Date My Avatar",
       "video_url": "http://www.youtube.com/watch?v=urNyg1ftMIU",
