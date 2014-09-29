@@ -10,6 +10,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Kiesza",
+      "song": "Hideaway",
+      "video_url": "http://www.youtube.com/watch?v=ESXgJ9-H-2U",
+      "thumbnail_url": "http://img.youtube.com/vi/ESXgJ9-H-2U/0.jpg",
+      "added_at": "2014-09-23 04:17:51 -0400"
+    },
+    {
       "artist": "Miles Fisher",
       "song": "Don't Let Go",
       "video_url": "http://www.youtube.com/watch?v=NOP_x9gnDUs",
