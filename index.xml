@@ -5,7 +5,19 @@
   <link rel="self" type="application/atom+xml" href="http://www.topdan.com/index.rss"/>
   <title>Dan Cunning - topdan.com</title>
   <subtitle>A Ruby on Rails contractor's writes about his meandering thoughts</subtitle>
-  <updated>2014-07-28 00:00:00 UTC</updated>
+  <updated>2014-10-30 12:00:00 UTC</updated>
+  <entry>
+    <id>http://www.topdan.com/projects/now-streaming-email.html</id>
+    <published>2014-10-30T12:00:00Z</published>
+    <updated>2014-10-30T12:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/now-streaming-email.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>"Now Streaming" Email</title>
+    <content>Find out what's now streaming online with a bi-weekly email digest.</content>
+    <updated>2014-10-30 12:00:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
   <entry>
     <id>http://www.topdan.com/projects/fantasy-sportsbook.html</id>
     <published>2014-07-28T00:00:00Z</published>

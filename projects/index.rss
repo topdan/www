@@ -5,6 +5,13 @@
     <link>http://www.topdan.com/projects/index.rss</link>
     <description>Dan Cunning's personal projects, mostly centered around improving an annoyance or routinely performed online activity. These are sometimes weekend projects, but sometimes longer.</description>
     <item>
+      <title>"Now Streaming" Email</title>
+      <description>Find out what's now streaming online with a bi-weekly email digest.</description>
+      <link>http://www.topdan.com/projects/now-streaming-email.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/projects/now-streaming-email.html</guid>
+      <pubDate>2014-10-30 12:00:00 UTC</pubDate>
+    </item>
+    <item>
       <title>Fantasy Sportsbook</title>
       <description>Creating a new type of game by combining my favorite elements of sportsbooks and fantasy sports.</description>
       <link>http://www.topdan.com/projects/fantasy-sportsbook.html?utm_medium=rss&amp;utm_source=feed</link>
