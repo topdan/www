@@ -5,6 +5,13 @@
     <link>http://www.topdan.com/index.rss</link>
     <description>A Ruby on Rails contractor's writes about his meandering thoughts</description>
     <item>
+      <title>Firefox Remote Control</title>
+      <description>Controlling your TV with your iPhone via OSX, Firefox, and an HDMI cable</description>
+      <link>http://www.topdan.com/projects/remifi-remote-controlled-browser.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/projects/remifi-remote-controlled-browser.html</guid>
+      <pubDate>2014-10-31 14:00:00 UTC</pubDate>
+    </item>
+    <item>
       <title>"Now Streaming" Email</title>
       <description>Find out what's now streaming online with a bi-weekly email digest.</description>
       <link>http://www.topdan.com/projects/now-streaming-email.html?utm_medium=rss&amp;utm_source=feed</link>
