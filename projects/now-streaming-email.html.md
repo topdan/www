@@ -1,20 +1,20 @@
-* Introduction
-* The Problem
-* The Solution
-* The Implementation
-* Conclusion
+* [Introduction](#introduction)
+* [The Problem](#the-problem)
+* [The Solution](#the-solution)
+* [The Implementation](#the-implementation)
+* [Conclusion](#conclusion)
 
-## Introduction
+## [Introduction](#introduction)
 
 When I moved back into Atlanta six years ago, I didn't get cable TV. Not because of any deep philosophical or financial reasons: I was just indifferent about it and curious how far streaming had come. Since then streaming  has exploded into our phones, game consoles, and TVs but it still has a major problem.
 
-## The Problem
+## [The Problem](#the-problem)
 
 __How do I know when new episodes and movies are available without regularly visiting multiple places?__
 
 The solution won't come from one of the service providers. They want their website to be your starting-point so they can push their new content and more easily direct you to mutually beneficial places.
 
-## The Solution
+## [The Solution](#the-solution)
 
 I already check my email regularly, so __I created a bi-weekly email detailing now streaming content online__. It's simple, takes very little time to scroll through, and most importantly I don't need to go anywhere: it comes to me.
 
@@ -44,7 +44,7 @@ Here's what it supports:
 
 New emails arrive every Tuesday and Friday evenings.
 
-## The Implementation
+## [The Implementation](#the-implementation)
 
 ![Sample Email](email-2014-10-14.png)
 
@@ -60,7 +60,7 @@ Here's what I got from this email:
 
 __All that in about 15 seconds of scrolling.__
 
-## Conclusion
+## [Conclusion](#conclusion)
 
 I've been getting these emails for about a year, and it really helps keep me up-to-date on what's new, with minimal effort. The implementation wasn't easy, but the result (while not perfect) is simple.
 
