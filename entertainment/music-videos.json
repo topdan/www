@@ -10,6 +10,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Klingande",
+      "song": "Jubel",
+      "video_url": "http://www.youtube.com/watch?v=b6vSf0cA9qY",
+      "thumbnail_url": "http://img.youtube.com/vi/b6vSf0cA9qY/0.jpg",
+      "added_at": "2014-11-04 00:23:09 -0500"
+    },
+    {
       "artist": "Mr. Probz",
       "song": "Waves",
       "video_url": "http://www.youtube.com/watch?v=pUjE9H8QlA4",
