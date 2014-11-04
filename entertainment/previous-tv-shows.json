@@ -338,10 +338,10 @@
       "hbogo_url": null,
       "maxgo_url": null,
       "showtime_url": null,
-      "netflix_url": null,
+      "netflix_url": "http://movies.netflix.com/WiMovie/70155618",
       "amazon_url": "http://www.amazon.com/gp/product/B003JAB372",
       "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2197/thumb_gilmore-girls.jpg",
-      "on_netflix_instant": null,
+      "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2007-05-15"
     },
