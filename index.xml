@@ -5,7 +5,19 @@
   <link rel="self" type="application/atom+xml" href="http://www.topdan.com/index.rss"/>
   <title>Dan Cunning - topdan.com</title>
   <subtitle>A Ruby on Rails contractor's writes about his meandering thoughts</subtitle>
-  <updated>2014-10-31 14:00:00 UTC</updated>
+  <updated>2014-11-04 12:00:00 UTC</updated>
+  <entry>
+    <id>http://www.topdan.com/living/the-communication-age.html</id>
+    <published>2014-09-03T01:00:00Z</published>
+    <updated>2014-11-04T01:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/living/the-communication-age.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>The Communication Age</title>
+    <content>The explosion of the Internet and mobile devices shaped a new age where people across the globe are always connected and always communicating, irreversibly changing the way we meet, work, govern, and socialize.</content>
+    <updated>2014-11-04 12:00:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
   <entry>
     <id>http://www.topdan.com/projects/remifi-remote-controlled-browser.html</id>
     <published>2014-10-31T14:00:00Z</published>

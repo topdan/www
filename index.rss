@@ -5,6 +5,13 @@
     <link>http://www.topdan.com/index.rss</link>
     <description>A Ruby on Rails contractor's writes about his meandering thoughts</description>
     <item>
+      <title>The Communication Age</title>
+      <description>The explosion of the Internet and mobile devices shaped a new age where people across the globe are always connected and always communicating, irreversibly changing the way we meet, work, govern, and socialize.</description>
+      <link>http://www.topdan.com/living/the-communication-age.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/living/the-communication-age.html</guid>
+      <pubDate>2014-11-04 12:00:00 UTC</pubDate>
+    </item>
+    <item>
       <title>Firefox Remote Control</title>
       <description>Controlling your TV with your iPhone via OSX, Firefox, and an HDMI cable</description>
       <link>http://www.topdan.com/projects/remifi-remote-controlled-browser.html?utm_medium=rss&amp;utm_source=feed</link>
