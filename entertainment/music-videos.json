@@ -10,6 +10,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Andy McKee",
+      "song": "Rylynn",
+      "video_url": "http://www.youtube.com/watch?v=JsD6uEZsIsU",
+      "thumbnail_url": "http://img.youtube.com/vi/JsD6uEZsIsU/0.jpg",
+      "added_at": "2014-11-04 00:37:38 -0500"
+    },
+    {
       "artist": "Kongos",
       "song": "Come with me now",
       "video_url": "http://www.youtube.com/watch?v=Gz2GVlQkn4Q",
