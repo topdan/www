@@ -202,22 +202,6 @@
       "latest_episode_aired_on": "2014-06-29"
     },
     {
-      "title": "Continuum",
-      "network": "syfy",
-      "imdb_url": "http://www.imdb.com/title/tt1954347/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Continuum_(TV_series)",
-      "hulu_url": "http://www.hulu.com/continuum",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": "http://movies.netflix.com/WiMovie/Continuum/70266352",
-      "amazon_url": "http://www.amazon.com/gp/product/B00L83T4NC",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/39/thumb_continuum.jpg",
-      "on_netflix_instant": true,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2014-06-27"
-    },
-    {
       "title": "Game of Thrones",
       "network": "hbo",
       "imdb_url": "http://www.imdb.com/title/tt0944947/",
