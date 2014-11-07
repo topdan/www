@@ -10,6 +10,38 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "Red Band Society",
+      "network": "fox",
+      "imdb_url": "http://www.imdb.com/title/tt3576794/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Red_Band_Society",
+      "hulu_url": "http://www.hulu.com/red-band-society",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": null,
+      "amazon_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3354/thumb_red-band-society.jpg",
+      "on_netflix_instant": null,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2014-11-05"
+    },
+    {
+      "title": "South Park",
+      "network": "comedy-central",
+      "imdb_url": "http://www.imdb.com/title/tt0121955/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/South_Park",
+      "hulu_url": "http://www.hulu.com/south-park",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": "http://movies.netflix.com/WiMovie/70136107",
+      "amazon_url": "http://www.amazon.com/gp/product/B00HAFKA8A",
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park.jpg",
+      "on_netflix_instant": false,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2014-11-05"
+    },
+    {
       "title": "Marry Me",
       "network": "nbc",
       "imdb_url": "http://www.imdb.com/title/tt3460454/",
@@ -90,22 +122,6 @@
       "latest_episode_aired_on": "2014-11-02"
     },
     {
-      "title": "South Park",
-      "network": "comedy-central",
-      "imdb_url": "http://www.imdb.com/title/tt0121955/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/South_Park",
-      "hulu_url": "http://www.hulu.com/south-park",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": "http://movies.netflix.com/WiMovie/70136107",
-      "amazon_url": "http://www.amazon.com/gp/product/B00HAFKA8A",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park.jpg",
-      "on_netflix_instant": false,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2014-10-29"
-    },
-    {
       "title": "The Middle",
       "network": "abc",
       "imdb_url": "http://www.imdb.com/title/tt1442464/",
@@ -136,22 +152,6 @@
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-10-26"
-    },
-    {
-      "title": "Red Band Society",
-      "network": "fox",
-      "imdb_url": "http://www.imdb.com/title/tt3576794/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Red_Band_Society",
-      "hulu_url": "http://www.hulu.com/red-band-society",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": null,
-      "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3354/thumb_red-band-society.jpg",
-      "on_netflix_instant": null,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2014-10-15"
     },
     {
       "title": "Quick Draw",
