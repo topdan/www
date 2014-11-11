@@ -10,6 +10,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Dead or Alive",
+      "song": "You Spin Me Round",
+      "video_url": "http://www.youtube.com/watch?v=PGNiXGX2nLU",
+      "thumbnail_url": "http://img.youtube.com/vi/PGNiXGX2nLU/0.jpg",
+      "added_at": "2014-11-11 12:32:31 -0500"
+    },
+    {
       "artist": "Andy McKee",
       "song": "Rylynn",
       "video_url": "http://www.youtube.com/watch?v=JsD6uEZsIsU",
