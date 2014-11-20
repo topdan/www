@@ -10,6 +10,54 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "South Park",
+      "network": "comedy-central",
+      "imdb_url": "http://www.imdb.com/title/tt0121955/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/South_Park",
+      "hulu_url": "http://www.hulu.com/south-park",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": "http://movies.netflix.com/WiMovie/70136107",
+      "amazon_url": "http://www.amazon.com/gp/product/B00HAFKA8A",
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park.jpg",
+      "on_netflix_instant": false,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2014-11-19"
+    },
+    {
+      "title": "Forever",
+      "network": "abc",
+      "imdb_url": "http://www.imdb.com/title/tt3487382/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Forever_%28U.S._TV_series%29",
+      "hulu_url": "http://www.hulu.com/forever",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": null,
+      "amazon_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3424/thumb_forever.jpg",
+      "on_netflix_instant": null,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2014-11-18"
+    },
+    {
+      "title": "Marry Me",
+      "network": "nbc",
+      "imdb_url": "http://www.imdb.com/title/tt3460454/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Marry_Me_(U.S._TV_series)",
+      "hulu_url": "http://www.hulu.com/marry-me",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": null,
+      "amazon_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3504/thumb_marry-me.jpg",
+      "on_netflix_instant": null,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2014-11-18"
+    },
+    {
       "title": "Bob's Burgers",
       "network": "fox",
       "imdb_url": "http://www.imdb.com/title/tt1561755/",
@@ -122,22 +170,6 @@
       "latest_episode_aired_on": "2014-11-12"
     },
     {
-      "title": "South Park",
-      "network": "comedy-central",
-      "imdb_url": "http://www.imdb.com/title/tt0121955/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/South_Park",
-      "hulu_url": "http://www.hulu.com/south-park",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": "http://movies.netflix.com/WiMovie/70136107",
-      "amazon_url": "http://www.amazon.com/gp/product/B00HAFKA8A",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park.jpg",
-      "on_netflix_instant": false,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2014-11-12"
-    },
-    {
       "title": "The Middle",
       "network": "abc",
       "imdb_url": "http://www.imdb.com/title/tt1442464/",
@@ -154,22 +186,6 @@
       "latest_episode_aired_on": "2014-11-12"
     },
     {
-      "title": "Forever",
-      "network": "abc",
-      "imdb_url": "http://www.imdb.com/title/tt3487382/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Forever_%28U.S._TV_series%29",
-      "hulu_url": "http://www.hulu.com/forever",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": null,
-      "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3424/thumb_forever.jpg",
-      "on_netflix_instant": null,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2014-11-11"
-    },
-    {
       "title": "Selfie",
       "network": "abc",
       "imdb_url": "http://www.imdb.com/title/tt3549044/",
@@ -184,22 +200,6 @@
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-11-11"
-    },
-    {
-      "title": "Marry Me",
-      "network": "nbc",
-      "imdb_url": "http://www.imdb.com/title/tt3460454/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Marry_Me_(U.S._TV_series)",
-      "hulu_url": "http://www.hulu.com/marry-me",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": null,
-      "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3504/thumb_marry-me.jpg",
-      "on_netflix_instant": null,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2014-11-04"
     },
     {
       "title": "Quick Draw",
