@@ -10,6 +10,22 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "The Legend of Korra",
+      "network": "nickelodeon",
+      "imdb_url": "http://www.imdb.com/title/tt1695360/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/The_Legend_of_Korra",
+      "hulu_url": null,
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": null,
+      "amazon_url": "http://www.amazon.com/gp/product/B00PWZ504E",
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2038/thumb_the-legend-of-korra.jpg",
+      "on_netflix_instant": null,
+      "on_amazon_prime": true,
+      "latest_episode_aired_on": "2014-11-21"
+    },
+    {
       "title": "Gracepoint",
       "network": "fox",
       "imdb_url": "http://www.imdb.com/title/tt3435532/",
@@ -168,22 +184,6 @@
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-11-16"
-    },
-    {
-      "title": "The Legend of Korra",
-      "network": "nickelodeon",
-      "imdb_url": "http://www.imdb.com/title/tt1695360/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/The_Legend_of_Korra",
-      "hulu_url": null,
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": null,
-      "amazon_url": "http://www.amazon.com/gp/product/B00PLB0LY8",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2038/thumb_the-legend-of-korra.jpg",
-      "on_netflix_instant": null,
-      "on_amazon_prime": true,
-      "latest_episode_aired_on": "2014-11-14"
     },
     {
       "title": "Selfie",
