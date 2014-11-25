@@ -656,6 +656,23 @@
       "on_amazon_prime": null
     },
     {
+      "title": "Robot & Frank",
+      "year": 2012,
+      "release_date": "2012-08-17",
+      "netflix_url": "http://movies.netflix.com/WiMovie/70227654",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/9384/thumb_robot-and-frank-2012.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt1990314/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/robot_and_frank/",
+      "amazon_url": null,
+      "on_netflix_instant": true,
+      "on_amazon_prime": null
+    },
+    {
       "title": "Killer Joe",
       "year": 2012,
       "release_date": "2012-07-27",
@@ -1076,7 +1093,7 @@
       "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/13287/thumb_scott-pilgrim-vs-the-world-2010.jpg",
       "imdb_url": "http://www.imdb.com/title/tt0446029/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/scott_pilgrims_vs_the_world/",
-      "amazon_url": null,
+      "amazon_url": "http://www.amazon.com/gp/product/B00448SE4S",
       "on_netflix_instant": null,
       "on_amazon_prime": null
     },
@@ -2268,6 +2285,23 @@
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/varsity_blues/",
       "amazon_url": null,
       "on_netflix_instant": true,
+      "on_amazon_prime": null
+    },
+    {
+      "title": "What Dreams May Come",
+      "year": 1998,
+      "release_date": "1998-10-02",
+      "netflix_url": "http://movies.netflix.com/WiMovie/18164546",
+      "hbogo_url": null,
+      "maxgo_url": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP36709?videoMode=embeddedVideo?showSpecialFeatures=false/",
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/7494/thumb_what-dreams-may-come-1998.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt0120889/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/what_dreams_may_come/",
+      "amazon_url": null,
+      "on_netflix_instant": false,
       "on_amazon_prime": null
     },
     {
