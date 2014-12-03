@@ -10,6 +10,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "The Stranglers",
+      "song": "Golden Brown",
+      "video_url": "http://www.youtube.com/watch?v=d7R7q1lSZfs",
+      "thumbnail_url": "http://img.youtube.com/vi/d7R7q1lSZfs/0.jpg",
+      "added_at": "2014-12-03 18:35:48 -0500"
+    },
+    {
       "artist": "Dead or Alive",
       "song": "You Spin Me Round",
       "video_url": "http://www.youtube.com/watch?v=PGNiXGX2nLU",
