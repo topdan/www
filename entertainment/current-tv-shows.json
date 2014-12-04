@@ -10,6 +10,38 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "Forever",
+      "network": "abc",
+      "imdb_url": "http://www.imdb.com/title/tt3487382/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Forever_%28U.S._TV_series%29",
+      "hulu_url": "http://www.hulu.com/forever",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": null,
+      "amazon_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3424/thumb_forever.jpg",
+      "on_netflix_instant": null,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2014-12-02"
+    },
+    {
+      "title": "Marry Me",
+      "network": "nbc",
+      "imdb_url": "http://www.imdb.com/title/tt3460454/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Marry_Me_(U.S._TV_series)",
+      "hulu_url": "http://www.hulu.com/marry-me",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": null,
+      "amazon_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3504/thumb_marry-me.jpg",
+      "on_netflix_instant": null,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2014-12-02"
+    },
+    {
       "title": "Selfie",
       "network": "abc",
       "imdb_url": "http://www.imdb.com/title/tt3549044/",
@@ -90,22 +122,6 @@
       "latest_episode_aired_on": "2014-11-26"
     },
     {
-      "title": "Marry Me",
-      "network": "nbc",
-      "imdb_url": "http://www.imdb.com/title/tt3460454/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Marry_Me_(U.S._TV_series)",
-      "hulu_url": "http://www.hulu.com/marry-me",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": null,
-      "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3504/thumb_marry-me.jpg",
-      "on_netflix_instant": null,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2014-11-25"
-    },
-    {
       "title": "The Affair",
       "network": "showtime",
       "imdb_url": "http://www.imdb.com/title/tt3007820/",
@@ -184,22 +200,6 @@
       "on_netflix_instant": false,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-11-19"
-    },
-    {
-      "title": "Forever",
-      "network": "abc",
-      "imdb_url": "http://www.imdb.com/title/tt3487382/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Forever_%28U.S._TV_series%29",
-      "hulu_url": "http://www.hulu.com/forever",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": null,
-      "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3424/thumb_forever.jpg",
-      "on_netflix_instant": null,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2014-11-18"
     },
     {
       "title": "Quick Draw",
