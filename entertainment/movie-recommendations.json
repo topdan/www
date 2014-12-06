@@ -90,7 +90,7 @@
       "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/11323/thumb_edge-of-tomorrow-2014.jpg",
       "imdb_url": "http://www.imdb.com/title/tt1631867/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/live_die_repeat_edge_of_tomorrow/",
-      "amazon_url": "http://www.amazon.com/gp/product/B00KW25MFY",
+      "amazon_url": "http://www.amazon.com/gp/product/B00O8NPCA8",
       "on_netflix_instant": false,
       "on_amazon_prime": null
     },
@@ -1868,7 +1868,7 @@
       "release_date": "2003-09-26",
       "netflix_url": "http://movies.netflix.com/WiMovie/60031214",
       "hbogo_url": null,
-      "maxgo_url": null,
+      "maxgo_url": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP36701?videoMode=embeddedVideo?showSpecialFeatures=false/",
       "showtime_url": null,
       "apple_trailers_url": null,
       "redbox_url": null,
