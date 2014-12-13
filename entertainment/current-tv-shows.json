@@ -10,6 +10,22 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "Gracepoint",
+      "network": "fox",
+      "imdb_url": "http://www.imdb.com/title/tt3435532/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Gracepoint",
+      "hulu_url": "http://www.hulu.com/gracepoint",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": null,
+      "amazon_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3450/thumb_gracepoint.jpg",
+      "on_netflix_instant": null,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2014-12-11"
+    },
+    {
       "title": "South Park",
       "network": "comedy-central",
       "imdb_url": "http://www.imdb.com/title/tt0121955/",
@@ -152,22 +168,6 @@
       "on_netflix_instant": null,
       "on_amazon_prime": true,
       "latest_episode_aired_on": "2014-12-05"
-    },
-    {
-      "title": "Gracepoint",
-      "network": "fox",
-      "imdb_url": "http://www.imdb.com/title/tt3435532/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Gracepoint",
-      "hulu_url": "http://www.hulu.com/gracepoint",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": null,
-      "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3450/thumb_gracepoint.jpg",
-      "on_netflix_instant": null,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2014-12-04"
     },
     {
       "title": "Red Band Society",
