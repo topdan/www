@@ -10,6 +10,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "RJD2",
+      "song": "Ghostwriter",
+      "video_url": "http://www.youtube.com/watch?v=rVqAdIMQZlk",
+      "thumbnail_url": "http://img.youtube.com/vi/rVqAdIMQZlk/0.jpg",
+      "added_at": "2014-12-13 19:32:45 -0500"
+    },
+    {
       "artist": "The Stranglers",
       "song": "Golden Brown",
       "video_url": "http://www.youtube.com/watch?v=d7R7q1lSZfs",
