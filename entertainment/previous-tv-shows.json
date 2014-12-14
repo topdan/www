@@ -10,6 +10,22 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "Californication",
+      "network": "showtime",
+      "imdb_url": "http://www.imdb.com/title/tt0904208/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Californication_(TV_series)",
+      "hulu_url": null,
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": "http://www.showtimeanytime.com/#/series/411",
+      "netflix_url": "http://movies.netflix.com/WiMovie/Californication/70140366",
+      "amazon_url": "http://www.amazon.com/gp/product/B00IZ246VY",
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/34/thumb_californication.jpg",
+      "on_netflix_instant": true,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2014-06-29"
+    },
+    {
       "title": "The Neighbors",
       "network": "abc",
       "imdb_url": "http://www.imdb.com/title/tt2182229/",
