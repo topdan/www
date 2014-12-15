@@ -10,6 +10,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Friday Night Lights",
+      "song": "Your Hand in Mine",
+      "video_url": "http://www.youtube.com/watch?v=sU-VvIbh7Os",
+      "thumbnail_url": "http://img.youtube.com/vi/sU-VvIbh7Os/0.jpg",
+      "added_at": "2014-12-15 00:35:54 -0500"
+    },
+    {
       "artist": "RJD2",
       "song": "Ghostwriter",
       "video_url": "http://www.youtube.com/watch?v=rVqAdIMQZlk",
