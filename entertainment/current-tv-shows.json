@@ -10,6 +10,38 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "Bob's Burgers",
+      "network": "fox",
+      "imdb_url": "http://www.imdb.com/title/tt1561755/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Bob's_Burgers",
+      "hulu_url": "http://www.hulu.com/bobs-burgers",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": "http://movies.netflix.com/WiMovie/Bob_s_Burgers/70175658",
+      "amazon_url": "http://www.amazon.com/gp/product/B00QMXLEPO",
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers.jpg",
+      "on_netflix_instant": true,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2014-12-14"
+    },
+    {
+      "title": "Brooklyn Nine-Nine",
+      "network": "fox",
+      "imdb_url": "http://www.imdb.com/title/tt2467372/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Brooklyn_Nine-Nine",
+      "hulu_url": "http://www.hulu.com/brooklyn-nine-nine",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": null,
+      "amazon_url": "http://www.amazon.com/gp/product/B00QMKUCJQ",
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2060/thumb_brooklyn-nine-nine.jpg",
+      "on_netflix_instant": null,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2014-12-14"
+    },
+    {
       "title": "The Affair",
       "network": "showtime",
       "imdb_url": "http://www.imdb.com/title/tt3007820/",
@@ -138,38 +170,6 @@
       "latest_episode_aired_on": "2014-12-09"
     },
     {
-      "title": "Bob's Burgers",
-      "network": "fox",
-      "imdb_url": "http://www.imdb.com/title/tt1561755/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Bob's_Burgers",
-      "hulu_url": "http://www.hulu.com/bobs-burgers",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": "http://movies.netflix.com/WiMovie/Bob_s_Burgers/70175658",
-      "amazon_url": "http://www.amazon.com/gp/product/B00QMXLEPO",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers.jpg",
-      "on_netflix_instant": true,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2014-12-07"
-    },
-    {
-      "title": "Brooklyn Nine-Nine",
-      "network": "fox",
-      "imdb_url": "http://www.imdb.com/title/tt2467372/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Brooklyn_Nine-Nine",
-      "hulu_url": "http://www.hulu.com/brooklyn-nine-nine",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": null,
-      "amazon_url": "http://www.amazon.com/gp/product/B00QMKUCJQ",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2060/thumb_brooklyn-nine-nine.jpg",
-      "on_netflix_instant": null,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2014-12-07"
-    },
-    {
       "title": "Red Band Society",
       "network": "fox",
       "imdb_url": "http://www.imdb.com/title/tt3576794/",
@@ -195,11 +195,11 @@
       "maxgo_url": null,
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/The-Walking-Dead/70177057",
-      "amazon_url": "http://www.amazon.com/gp/product/B00P1SLFG4",
+      "amazon_url": "http://www.amazon.com/gp/product/B00P1RX70M",
       "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
-      "latest_episode_aired_on": "2014-11-23"
+      "latest_episode_aired_on": "2014-11-30"
     },
     {
       "title": "Quick Draw",
