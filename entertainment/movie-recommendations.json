@@ -745,7 +745,7 @@
       "year": 2012,
       "release_date": "2012-06-22",
       "netflix_url": null,
-      "hbogo_url": "http://www.hbogo.com/#home/video&assetID=GOROSTGP39991?videoMode=embeddedVideo?showSpecialFeatures=false/",
+      "hbogo_url": null,
       "maxgo_url": null,
       "showtime_url": null,
       "apple_trailers_url": null,
@@ -779,7 +779,7 @@
       "year": 2012,
       "release_date": "2012-05-25",
       "netflix_url": null,
-      "hbogo_url": "http://www.hbogo.com/#home/video&assetID=GOROSTGP40092?videoMode=embeddedVideo?showSpecialFeatures=false/",
+      "hbogo_url": null,
       "maxgo_url": null,
       "showtime_url": null,
       "apple_trailers_url": null,
@@ -1391,7 +1391,7 @@
       "year": 2007,
       "release_date": "2007-07-27",
       "netflix_url": null,
-      "hbogo_url": "http://www.hbogo.com/#home/video&assetID=GORO1B20134?videoMode=embeddedVideo?showSpecialFeatures=false/",
+      "hbogo_url": null,
       "maxgo_url": null,
       "showtime_url": null,
       "apple_trailers_url": null,
@@ -1552,9 +1552,9 @@
       "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/13286/thumb_lucky-number-slevin-2006.jpg",
       "imdb_url": null,
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/lucky_number_slevin/",
-      "amazon_url": "http://www.amazon.com/gp/product/B0026Y88SE",
+      "amazon_url": "http://www.amazon.com/gp/product/B0026Y88RU",
       "on_netflix_instant": null,
-      "on_amazon_prime": null
+      "on_amazon_prime": true
     },
     {
       "title": "Brick",
