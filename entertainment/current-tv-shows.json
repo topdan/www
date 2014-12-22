@@ -10,6 +10,22 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "The Affair",
+      "network": "showtime",
+      "imdb_url": "http://www.imdb.com/title/tt3007820/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/The_Affair_%28TV_series%29",
+      "hulu_url": "http://www.hulu.com/the-affair",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": "http://www.showtimeanytime.com/#/series/1031103",
+      "netflix_url": null,
+      "amazon_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3487/thumb_the-affair.jpg",
+      "on_netflix_instant": null,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2014-12-21"
+    },
+    {
       "title": "The Legend of Korra",
       "network": "nickelodeon",
       "imdb_url": "http://www.imdb.com/title/tt1695360/",
@@ -69,22 +85,6 @@
       "netflix_url": null,
       "amazon_url": "http://www.amazon.com/gp/product/B00QXW1X1Y",
       "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2060/thumb_brooklyn-nine-nine.jpg",
-      "on_netflix_instant": null,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2014-12-14"
-    },
-    {
-      "title": "The Affair",
-      "network": "showtime",
-      "imdb_url": "http://www.imdb.com/title/tt3007820/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/The_Affair_%28TV_series%29",
-      "hulu_url": "http://www.hulu.com/the-affair",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": "http://www.showtimeanytime.com/#/series/1031103",
-      "netflix_url": null,
-      "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3487/thumb_the-affair.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-12-14"
