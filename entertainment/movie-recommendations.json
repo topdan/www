@@ -1387,6 +1387,23 @@
       "on_amazon_prime": null
     },
     {
+      "title": "Stardust",
+      "year": 2007,
+      "release_date": "2007-08-10",
+      "netflix_url": "http://movies.netflix.com/WiMovie/70054920",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/13606/thumb_stardust-2007.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt0486655/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/stardust/",
+      "amazon_url": null,
+      "on_netflix_instant": true,
+      "on_amazon_prime": null
+    },
+    {
       "title": "Sunshine",
       "year": 2007,
       "release_date": "2007-07-27",
@@ -1487,6 +1504,23 @@
       "amazon_url": "http://www.amazon.com/gp/product/B0040B1IUQ",
       "on_netflix_instant": true,
       "on_amazon_prime": true
+    },
+    {
+      "title": "The Fountain",
+      "year": 2006,
+      "release_date": "2006-11-22",
+      "netflix_url": null,
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/13299/thumb_the-fountain-2006.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt0414993/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_fountain/",
+      "amazon_url": null,
+      "on_netflix_instant": null,
+      "on_amazon_prime": null
     },
     {
       "title": "Stranger Than Fiction",
