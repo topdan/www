@@ -10,6 +10,22 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "Selfie",
+      "network": "abc",
+      "imdb_url": "http://www.imdb.com/title/tt3549044/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Selfie_(TV_series)",
+      "hulu_url": "http://www.hulu.com/selfie",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": null,
+      "amazon_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3436/thumb_selfie.jpg",
+      "on_netflix_instant": null,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2014-12-22"
+    },
+    {
       "title": "The Affair",
       "network": "showtime",
       "imdb_url": "http://www.imdb.com/title/tt3007820/",
@@ -40,22 +56,6 @@
       "on_netflix_instant": null,
       "on_amazon_prime": true,
       "latest_episode_aired_on": "2014-12-19"
-    },
-    {
-      "title": "Selfie",
-      "network": "abc",
-      "imdb_url": "http://www.imdb.com/title/tt3549044/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Selfie_(TV_series)",
-      "hulu_url": "http://www.hulu.com/selfie",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": null,
-      "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3436/thumb_selfie.jpg",
-      "on_netflix_instant": null,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2014-12-16"
     },
     {
       "title": "Bob's Burgers",
