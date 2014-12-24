@@ -10,6 +10,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Phoenix",
+      "song": "Lisztomania",
+      "video_url": "http://www.youtube.com/watch?v=_3ICyyzDiXY",
+      "thumbnail_url": "http://img.youtube.com/vi/_3ICyyzDiXY/0.jpg",
+      "added_at": "2014-12-24 02:14:52 -0500"
+    },
+    {
       "artist": "Friday Night Lights",
       "song": "Your Hand in Mine",
       "video_url": "http://www.youtube.com/watch?v=sU-VvIbh7Os",
