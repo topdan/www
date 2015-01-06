@@ -839,7 +839,7 @@
       "imdb_url": "http://www.imdb.com/title/tt1259521/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_cabin_in_the_woods/",
       "amazon_url": null,
-      "on_netflix_instant": true,
+      "on_netflix_instant": false,
       "on_amazon_prime": null
     },
     {
@@ -1026,7 +1026,7 @@
       "imdb_url": "http://www.imdb.com/title/tt1181795/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/bunraku/",
       "amazon_url": null,
-      "on_netflix_instant": true,
+      "on_netflix_instant": false,
       "on_amazon_prime": null
     },
     {
@@ -1672,7 +1672,7 @@
       "imdb_url": "http://www.imdb.com/title/tt0379786/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/serenity/",
       "amazon_url": null,
-      "on_netflix_instant": true,
+      "on_netflix_instant": false,
       "on_amazon_prime": null
     },
     {
@@ -1690,7 +1690,7 @@
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/layer_cake/",
       "amazon_url": "http://www.amazon.com/gp/product/B00AVIQAIM",
       "on_netflix_instant": null,
-      "on_amazon_prime": true
+      "on_amazon_prime": false
     },
     {
       "title": "Sin City",
@@ -1842,7 +1842,7 @@
       "imdb_url": "http://www.imdb.com/title/tt0332375/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/saved/",
       "amazon_url": null,
-      "on_netflix_instant": true,
+      "on_netflix_instant": false,
       "on_amazon_prime": null
     },
     {
@@ -2165,7 +2165,7 @@
       "imdb_url": "http://www.imdb.com/title/tt0246578/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/donnie_darko/",
       "amazon_url": null,
-      "on_netflix_instant": true,
+      "on_netflix_instant": false,
       "on_amazon_prime": null
     },
     {
@@ -2522,7 +2522,7 @@
       "imdb_url": "http://www.imdb.com/title/tt0114814/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/usual_suspects/",
       "amazon_url": null,
-      "on_netflix_instant": true,
+      "on_netflix_instant": false,
       "on_amazon_prime": null
     },
     {
@@ -2539,8 +2539,8 @@
       "imdb_url": "http://www.imdb.com/title/tt0104694/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/league_of_their_own/",
       "amazon_url": "http://www.amazon.com/gp/product/B003EYBO18",
-      "on_netflix_instant": true,
-      "on_amazon_prime": true
+      "on_netflix_instant": false,
+      "on_amazon_prime": null
     },
     {
       "title": "Barton Fink",
