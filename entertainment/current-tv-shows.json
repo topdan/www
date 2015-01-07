@@ -19,7 +19,7 @@
       "maxgo_url": null,
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Bob_s_Burgers/70175658",
-      "amazon_url": "http://www.amazon.com/gp/product/B00QMXL274",
+      "amazon_url": "http://www.amazon.com/gp/product/B00RM4NJW8",
       "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
@@ -35,7 +35,7 @@
       "maxgo_url": null,
       "showtime_url": null,
       "netflix_url": null,
-      "amazon_url": "http://www.amazon.com/gp/product/B00QXW1X1Y",
+      "amazon_url": "http://www.amazon.com/gp/product/B00RPLEOYU",
       "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2060/thumb_brooklyn-nine-nine.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
@@ -88,22 +88,6 @@
       "on_netflix_instant": null,
       "on_amazon_prime": true,
       "latest_episode_aired_on": "2014-12-19"
-    },
-    {
-      "title": "Gracepoint",
-      "network": "fox",
-      "imdb_url": "http://www.imdb.com/title/tt3435532/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Gracepoint",
-      "hulu_url": "http://www.hulu.com/gracepoint",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": null,
-      "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3450/thumb_gracepoint.jpg",
-      "on_netflix_instant": null,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2014-12-11"
     },
     {
       "title": "South Park",
@@ -248,6 +232,22 @@
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-06-16"
+    },
+    {
+      "title": "From Dusk Till Dawn: The Series",
+      "network": "el-ray",
+      "imdb_url": "http://www.imdb.com/title/tt3337194/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/From_Dusk_till_Dawn:_The_Series",
+      "hulu_url": null,
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": "http://movies.netflix.com/WiMovie/70304245",
+      "amazon_url": "http://www.amazon.com/gp/product/B00JLQBG2A",
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2815/thumb_from-dusk-till-dawn-the-series.jpg",
+      "on_netflix_instant": true,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2014-05-20"
     },
     {
       "title": "Archer",
