@@ -1,3 +1,7 @@
+```raw
+<img src="thumbs/preview.jpg" alt="Preview" id="preview"/>
+```
+
 * [Why?](#why)
 * [How?](#how)
 * [Gallery](#gallery)
