@@ -26,6 +26,22 @@
       "latest_episode_aired_on": "2015-01-10"
     },
     {
+      "title": "Archer",
+      "network": "fx",
+      "imdb_url": "http://www.imdb.com/title/tt1486217/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Archer_(TV_series)",
+      "hulu_url": "http://www.hulu.com/archer",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": "http://movies.netflix.com/WiMovie/Archer/70171942",
+      "amazon_url": "http://www.amazon.com/gp/product/B00R3NXJFA",
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/9/thumb_archer.jpg",
+      "on_netflix_instant": true,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2015-01-08"
+    },
+    {
       "title": "The Middle",
       "network": "abc",
       "imdb_url": "http://www.imdb.com/title/tt1442464/",
@@ -35,7 +51,7 @@
       "maxgo_url": null,
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/The-Middle/70143859",
-      "amazon_url": "http://www.amazon.com/gp/product/B00QR0H2LC",
+      "amazon_url": "http://www.amazon.com/gp/product/B00R5873P0",
       "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle.jpg",
       "on_netflix_instant": false,
       "on_amazon_prime": false,
@@ -264,22 +280,6 @@
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-05-20"
-    },
-    {
-      "title": "Archer",
-      "network": "fx",
-      "imdb_url": "http://www.imdb.com/title/tt1486217/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Archer_(TV_series)",
-      "hulu_url": "http://www.hulu.com/archer",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": "http://movies.netflix.com/WiMovie/Archer/70171942",
-      "amazon_url": "http://www.amazon.com/gp/product/B00JRDZHYK",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/9/thumb_archer.jpg",
-      "on_netflix_instant": true,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2014-04-21"
     },
     {
       "title": "Community",
