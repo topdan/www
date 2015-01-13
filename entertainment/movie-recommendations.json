@@ -47,7 +47,7 @@
       "title": "Men, Women & Children",
       "year": 2014,
       "release_date": "2014-10-01",
-      "netflix_url": null,
+      "netflix_url": "http://movies.netflix.com/WiMovie/80014906",
       "hbogo_url": null,
       "maxgo_url": null,
       "showtime_url": null,
@@ -57,7 +57,7 @@
       "imdb_url": "http://www.imdb.com/title/tt3179568/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/men_women_and_children/",
       "amazon_url": null,
-      "on_netflix_instant": null,
+      "on_netflix_instant": false,
       "on_amazon_prime": null
     },
     {
@@ -679,7 +679,7 @@
       "netflix_url": null,
       "hbogo_url": null,
       "maxgo_url": null,
-      "showtime_url": "http://www.showtimeanytime.com/#/movie/3358261",
+      "showtime_url": null,
       "apple_trailers_url": null,
       "redbox_url": null,
       "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/9057/thumb_the-perks-of-being-a-wallflower-2012.jpg",
