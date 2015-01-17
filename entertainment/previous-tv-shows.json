@@ -3,6 +3,7 @@
   "description": "TV shows I watched every episode and enjoyed enough that I added them to this list.",
   "format": "erb",
   "featured": true,
+  "uses_javascript": true,
   "author_id": "dan",
   "published_at": "2012-03-18 16:00:00 UTC",
   "created_at": "2012-03-18 16:00:00 UTC",

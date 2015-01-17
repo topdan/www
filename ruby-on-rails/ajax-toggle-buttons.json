@@ -3,6 +3,7 @@
   "description": "How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it.",
   "format": "md",
   "featured": true,
+  "uses_javascript": true,
   "author_id": "dan",
   "published_at": "2014-04-16 20:00:00 UTC",
   "created_at": "2014-04-16 20:00:00 UTC",

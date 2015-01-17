@@ -3,6 +3,7 @@
   "description": "Movies that I enjoyed enough that I think you should look into them. They tend to be unique, covering perspectives and topics I've never seen on screen before.",
   "format": "erb",
   "featured": true,
+  "uses_javascript": true,
   "author_id": "dan",
   "published_at": "2012-08-03 16:00:00 UTC",
   "created_at": "2012-08-03 16:00:00 UTC",

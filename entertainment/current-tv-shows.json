@@ -3,6 +3,7 @@
   "description": "TV shows I'm currently watching. They may be new ones or just catching up with older ones.",
   "format": "erb",
   "featured": true,
+  "uses_javascript": true,
   "author_id": "dan",
   "published_at": "2012-03-18 18:00:00 UTC",
   "created_at": "2012-03-18 18:00:00 UTC",
