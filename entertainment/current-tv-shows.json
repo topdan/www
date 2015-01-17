@@ -10,6 +10,22 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "Banshee",
+      "network": "cinemax",
+      "imdb_url": "http://www.imdb.com/title/tt2017109/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Banshee_(TV_series)",
+      "hulu_url": null,
+      "hbogo_url": null,
+      "maxgo_url": "http://www.maxgo.com/#series/browse&browseMode=browseGrid?browseID=category.MGOROSTGP33919/",
+      "showtime_url": null,
+      "netflix_url": "http://movies.netflix.com/WiMovie/Banshee/70241302",
+      "amazon_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/15/thumb_banshee.jpg",
+      "on_netflix_instant": false,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2015-01-17"
+    },
+    {
       "title": "The Middle",
       "network": "abc",
       "imdb_url": "http://www.imdb.com/title/tt1442464/",
@@ -88,22 +104,6 @@
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2015-01-11"
-    },
-    {
-      "title": "Banshee",
-      "network": "cinemax",
-      "imdb_url": "http://www.imdb.com/title/tt2017109/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Banshee_(TV_series)",
-      "hulu_url": null,
-      "hbogo_url": null,
-      "maxgo_url": "http://www.maxgo.com/#series/browse&browseMode=browseGrid?browseID=category.MGOROSTGP33919/",
-      "showtime_url": null,
-      "netflix_url": "http://movies.netflix.com/WiMovie/Banshee/70241302",
-      "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/15/thumb_banshee.jpg",
-      "on_netflix_instant": false,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2015-01-10"
     },
     {
       "title": "Archer",
