@@ -25,7 +25,7 @@ I would make an interface for controlling my computer's web browser with my iPho
 
 The first step was establishing how my iPhone would communicate with my web browser. Being a web developer, HTTP seemed like the obvious answer, and I found [POW (Plain Old Webserver)](https://addons.mozilla.org/en-US/firefox/addon/pow-plain-old-webserver/) which embedded a javascript-based HTTP server inside a Firefox plugin, so it was possible!
 
-I pulled what I needed out of POW and [wrote a simpler version in Coffee-script](https://github.com/topdan/remifi-firefox/blob/master/content.coffee/remifi/firefox/server.coffee) that responded to HTML requests and served static images, scripts, and stylesheets. [Apple's Bonjour](http://en.wikipedia.org/wiki/Bonjour_%28software%29) made it possible to avoid exposing IP addresses: my web browser would now respond to http://samuel.local:4000
+I pulled what I needed out of POW and [wrote a simpler version in Coffee-script](https://github.com/topdan/remifi-firefox/blob/master/content.coffee/remifi/firefox/server.coffee) that responded to HTML requests and served static images, scripts, and stylesheets. [Apple's Bonjour](http://en.wikipedia.org/wiki/Bonjour_%28software%29) made it possible to avoid exposing IP addresses: my web browser would now respond to samuel.local:4000
 
 ### [Dashboard](#dashboard)
 

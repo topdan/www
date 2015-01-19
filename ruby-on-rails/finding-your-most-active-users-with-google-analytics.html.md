@@ -1,6 +1,6 @@
 * [Introduction](#the-introduction)
 * [Tracking User IDs](#tracking-user-ids)
-* [Querying Google Analytics](#querying-the-google-api)
+* [Querying Google Analytics](#querying-google-analytics)
 * [Generating an Email](#generating-an-email)
 * [Scheduling the Email](#scheduling-the-email)
 * [Conclusion](#conclusion)
