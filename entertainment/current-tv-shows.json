@@ -119,7 +119,7 @@
       "amazon_url": "http://www.amazon.com/gp/product/B00R3NXJFA",
       "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/9/thumb_archer.jpg",
       "on_netflix_instant": true,
-      "on_amazon_prime": false,
+      "on_amazon_prime": true,
       "latest_episode_aired_on": "2015-01-08"
     },
     {
@@ -143,7 +143,7 @@
       "network": "showtime",
       "imdb_url": "http://www.imdb.com/title/tt3007820/",
       "wikipedia_url": "http://en.wikipedia.org/wiki/The_Affair_%28TV_series%29",
-      "hulu_url": "http://www.hulu.com/the-affair",
+      "hulu_url": null,
       "hbogo_url": null,
       "maxgo_url": null,
       "showtime_url": "http://www.showtimeanytime.com/#/series/1031103",
