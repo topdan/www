@@ -657,6 +657,23 @@
       "on_amazon_prime": null
     },
     {
+      "title": "Looper",
+      "year": 2012,
+      "release_date": "2012-09-28",
+      "netflix_url": "http://movies.netflix.com/WiMovie/Looper/70199724",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/12211/thumb_looper-2012.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt1276104/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/looper/",
+      "amazon_url": "http://www.amazon.com/gp/product/B00A9X9VAI",
+      "on_netflix_instant": false,
+      "on_amazon_prime": null
+    },
+    {
       "title": "Dredd",
       "year": 2012,
       "release_date": "2012-09-21",
