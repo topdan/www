@@ -4,7 +4,7 @@
 <head>
   <title>Protecting Yourself from Malicious params - topdan.com</title>
   <meta charset="UTF-8">
-  <meta content="Ruby on Rails does not offer a complete solution to protect your application from destructive user parameters. Let me try to fill in some gaps." name="description">
+  <meta content="The issues and solutions to making your application's handling of user parameters secure by default, before Ruby on Rails offered an out-of-the-box solution.." name="description">
   <meta name="author" content="Dan Cunning">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -12,7 +12,7 @@
   <meta name="twitter:site" content="@itopdan">
   <meta name="twitter:url" content="http://www.topdan.com/ruby-on-rails/param-accessible.html">
   <meta content="Protecting Yourself from Malicious params" name="twitter:title">
-  <meta content="Ruby on Rails does not offer a complete solution to protect your application from destructive user parameters. Let me try to fill in some gaps." name="twitter:description">
+  <meta content="The issues and solutions to making your application's handling of user parameters secure by default, before Ruby on Rails offered an out-of-the-box solution.." name="twitter:description">
   <link rel="shortcut icon" href="../assets/favicon-66cadfcf1b17a3b1fa156a0ca99f973c.png">
   <link href="../assets/site-b0cb1d71d98cbde97bc4411d9c3871af.css" media="all" rel="stylesheet"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
 
@@ -50,11 +50,9 @@ var _gaq = _gaq || [];
     <div class="container post">
       <p class="byline">Dan wrote this on Mar 14, 2012</p>
 
-      <h1><a href="param-accessible.html">Protecting Yourself from Malicious params</a></h1>
+      <h1><a href="param-accessible.html">Protecting Yourself from Malicious params</a></h1><!-- post:content:start -->
 
-      <div class="alert alert-definition post-description">
-        <p>Ruby on Rails does not offer a complete solution to protect your application from destructive user parameters. Let me try to fill in some gaps.</p>
-      </div><!-- post:content:start -->
+      <p class="alert alert-danger"><span class="label label-important">Update</span> This article was written prior to DHH releasing the <a href="https://github.com/rails/strong_parameters">strong_parameters</a> gem, which also moves the responsibility from the model to controller, though it doesn't use a <code>*_filter</code> approach. I suggest you use <code>strong_parameters</code>.</p>
 
       <h2 id="homakov"><a href="#homakov">homakov starts a firestorm</a></h2>
 
@@ -151,7 +149,7 @@ var _gaq = _gaq || [];
 <span class="c1">#</span>
 <span class="k">class</span> <span class="nc">DemoController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
 
-  <span class="c1"># rescue_from ParamAccessible::Error and respond with a 406 Not Acceptable status </span>
+  <span class="c1"># rescue_from ParamAccessible::Error and respond with a 406 Not Acceptable status</span>
   <span class="c1"># and HTML, JSON, XML, or JS compatible explanation of which parameters were invalid</span>
   <span class="kp">include</span> <span class="ss">ParamAccessible</span><span class="p">:</span><span class="ss">:NotAcceptableHelper</span>
 

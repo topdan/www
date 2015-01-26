@@ -1,8 +1,9 @@
 {
   "title": "Protecting Yourself from Malicious params",
-  "description": "Ruby on Rails does not offer a complete solution to protect your application from destructive user parameters. Let me try to fill in some gaps.",
+  "description": "The issues and solutions to making your application's handling of user parameters secure by default, before Ruby on Rails offered an out-of-the-box solution..",
   "format": "md",
   "featured": true,
+  "skips_description": true,
   "author_id": "dan",
   "published_at": "2012-03-14 18:00:00 UTC",
   "created_at": "2012-03-14 18:00:00 UTC",

@@ -181,7 +181,7 @@
     </item>
     <item>
       <title>Protecting Yourself from Malicious params</title>
-      <description>Ruby on Rails does not offer a complete solution to protect your application from destructive user parameters. Let me try to fill in some gaps.</description>
+      <description>The issues and solutions to making your application's handling of user parameters secure by default, before Ruby on Rails offered an out-of-the-box solution..</description>
       <link>http://www.topdan.com/ruby-on-rails/param-accessible.html?utm_medium=rss&amp;utm_source=feed</link>
       <guid>http://www.topdan.com/ruby-on-rails/param-accessible.html</guid>
       <pubDate>2012-03-14 18:00:00 UTC</pubDate>
