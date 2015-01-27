@@ -27,6 +27,22 @@
       "latest_episode_aired_on": "2014-12-30"
     },
     {
+      "title": "Red Band Society",
+      "network": "fox",
+      "imdb_url": "http://www.imdb.com/title/tt3576794/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Red_Band_Society",
+      "hulu_url": "http://www.hulu.com/red-band-society",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": null,
+      "amazon_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3354/thumb_red-band-society.jpg",
+      "on_netflix_instant": null,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2014-12-03"
+    },
+    {
       "title": "Californication",
       "network": "showtime",
       "imdb_url": "http://www.imdb.com/title/tt0904208/",
