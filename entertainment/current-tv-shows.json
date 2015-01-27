@@ -6,8 +6,6 @@
   "uses_javascript": true,
   "author_id": "dan",
   "published_at": "2012-03-18 18:00:00 UTC",
-  "created_at": "2012-03-18 18:00:00 UTC",
-  "updated_at": "2012-03-18 18:00:00 UTC",
   "data_type": "Entertainment::TvShow",
   "data": [
     {
@@ -314,5 +312,8 @@
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2013-03-10"
     }
-  ]
+  ],
+  "created_at": "2013-10-22 17:42:25 -0400",
+  "updated_at": "2015-01-27 18:19:10 -0500"
 }
+
