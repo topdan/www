@@ -4,9 +4,28 @@
   "format": "erb",
   "featured": true,
   "uses_javascript": true,
+  "author_id": "dan",
   "published_at": "2012-03-18 18:00:00 UTC",
+  "created_at": "2012-03-18 18:00:00 UTC",
+  "updated_at": "2012-03-18 18:00:00 UTC",
   "data_type": "Entertainment::TvShow",
   "data": [
+    {
+      "title": "Gotham",
+      "network": "fox",
+      "imdb_url": "http://www.imdb.com/title/tt3749900/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Gotham_%28TV_series%29",
+      "hulu_url": "http://www.hulu.com/gotham",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": null,
+      "amazon_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3423/thumb_gotham.jpg",
+      "on_netflix_instant": null,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2015-01-26"
+    },
     {
       "title": "Bob's Burgers",
       "network": "fox",
@@ -33,7 +52,7 @@
       "maxgo_url": null,
       "showtime_url": null,
       "netflix_url": null,
-      "amazon_url": "http://www.amazon.com/gp/product/B00S5F7ZZ0",
+      "amazon_url": "http://www.amazon.com/gp/product/B00SG1L1AI",
       "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2060/thumb_brooklyn-nine-nine.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
@@ -56,22 +75,6 @@
       "latest_episode_aired_on": "2015-01-24"
     },
     {
-      "title": "Gotham",
-      "network": "fox",
-      "imdb_url": "http://www.imdb.com/title/tt3749900/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Gotham_%28TV_series%29",
-      "hulu_url": "http://www.hulu.com/gotham",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": null,
-      "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3423/thumb_gotham.jpg",
-      "on_netflix_instant": null,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2015-01-19"
-    },
-    {
       "title": "Archer",
       "network": "fx",
       "imdb_url": "http://www.imdb.com/title/tt1486217/",
@@ -81,11 +84,11 @@
       "maxgo_url": null,
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Archer/70171942",
-      "amazon_url": "http://www.amazon.com/gp/product/B00S8KXID0",
+      "amazon_url": "http://www.amazon.com/gp/product/B00S8KX8UI",
       "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/9/thumb_archer.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": true,
-      "latest_episode_aired_on": "2015-01-15"
+      "latest_episode_aired_on": "2015-01-22"
     },
     {
       "title": "The Middle",
@@ -311,9 +314,5 @@
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2013-03-10"
     }
-  ],
-  "author": "Dan Cunning",
-  "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-01-27 19:06:46 -0500"
+  ]
 }
-
