@@ -3,9 +3,9 @@
   "description": "I'm a Broncos fan and people can't stop talking to me about Tim Tebow. Now that his fate as a Bronco is sealed, here's my opinion.",
   "format": "erb",
   "featured": true,
-  "author_id": "dan",
   "published_at": "2012-03-20 16:00:00 UTC",
+  "author": "Dan Cunning",
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-01-27 18:19:10 -0500"
+  "updated_at": "2015-01-27 19:06:46 -0500"
 }
 

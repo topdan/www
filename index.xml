@@ -9,7 +9,7 @@
   <entry>
     <id>http://www.topdan.com/living/learning-to-draw.html</id>
     <published>2015-01-09T16:01:57-05:00</published>
-    <updated>2015-01-27T18:19:10-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/living/learning-to-draw.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Learning to Draw</title>
     <content>After college I found myself with more free time than I needed, so I decided to learn to draw. Here's how I went about it along with a small gallery.</content>
@@ -21,7 +21,7 @@
   <entry>
     <id>http://www.topdan.com/living/the-communication-age.html</id>
     <published>2014-11-04T15:13:29-05:00</published>
-    <updated>2015-01-27T18:19:10-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/living/the-communication-age.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>The Communication Age</title>
     <content>The explosion of the Internet and mobile devices shaped a new age where people across the globe are always connected and always communicating, irreversibly changing the way we meet, work, govern, and socialize.</content>
@@ -69,7 +69,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/my-least-favorite-activerecord-feature.html</id>
     <published>2014-07-17T14:30:07-04:00</published>
-    <updated>2015-01-17T12:58:37-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/my-least-favorite-activerecord-feature.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>My Least Favorite ActiveRecord Feature</title>
     <content>ActiveRecord is a fantastically well-made ORM that makes working with databases a breeze, but one feature in the callback structure is incredibly bug-prone.</content>
@@ -81,7 +81,7 @@
   <entry>
     <id>http://www.topdan.com/technology/past-present-and-future-of-computers.html</id>
     <published>2014-07-02T19:34:16-04:00</published>
-    <updated>2015-01-27T18:19:10-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/technology/past-present-and-future-of-computers.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>The Past, Present, and Future of Computers</title>
     <content>Computers have made an undeniably permanent mark on the world, but their success wasn't gained overnight. They slowly improved what they could do, leading to advancements that led to new advancements. Let's look at how they progressed to what they are today and try to predict what they might do in the future.</content>
@@ -93,7 +93,7 @@
   <entry>
     <id>http://www.topdan.com/sports/soccer-is-aggravating.html</id>
     <published>2014-06-22T15:34:14-04:00</published>
-    <updated>2015-01-27T18:19:10-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/soccer-is-aggravating.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Soccer is Aggravating</title>
     <content>Soccer is a world-wide phenomenon, but here's why I find it really hard to watch.</content>
@@ -105,7 +105,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html</id>
     <published>2014-06-18T12:53:38-04:00</published>
-    <updated>2015-01-17T12:58:37-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Simple Infinite Scrolling with AJAX and Rails</title>
     <content>Ruby on Rails and jQuery team up to allow your visitors to scroll through all your content without initially loading them all.</content>
@@ -117,7 +117,7 @@
   <entry>
     <id>http://www.topdan.com/sports/why-the-thrashers-left-atlanta.html</id>
     <published>2014-06-01T18:00:03-04:00</published>
-    <updated>2015-01-27T18:19:10-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/why-the-thrashers-left-atlanta.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Why the Thrashers left Atlanta</title>
     <content>Atlanta has become a hockey punchline. We've lost two NHL franchises: the Flames in 1980 and the Thrashers in 2011. Here's why the Thrashers leaving had more to do with America Online than with the city or its hockey fans.</content>
@@ -129,7 +129,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html</id>
     <published>2014-05-21T19:12:31-04:00</published>
-    <updated>2015-01-18T15:23:53-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Finding Your Most Active Users with Google Analytics</title>
     <content>Google Analytics is normally used to track a website's visitors and pageviews, but it can also track specific users, which can be invaluable information as you develop your customer base. Who is the most active? What are they using? Whose usage is fading?</content>
@@ -141,7 +141,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html</id>
     <published>2014-04-16T16:22:32-04:00</published>
-    <updated>2015-01-17T12:58:37-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Easy Ajax Toggle Buttons</title>
     <content>How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it.</content>
@@ -165,7 +165,7 @@
   <entry>
     <id>http://www.topdan.com/sports/nfl-salaries-by-college/</id>
     <published>2013-10-22T16:46:22-04:00</published>
-    <updated>2015-01-27T18:30:49-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/?utm_medium=atom&amp;utm_source=feed"/>
     <title>NFL Player Salaries by College</title>
     <content>Ranking each college conferences and school on how much their players make in the NFL during the 2013 season.</content>
@@ -177,7 +177,7 @@
   <entry>
     <id>http://www.topdan.com/sports/college-football-conference-records/</id>
     <published>2013-10-22T16:46:22-04:00</published>
-    <updated>2015-01-27T18:30:49-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/college-football-conference-records/?utm_medium=atom&amp;utm_source=feed"/>
     <title>College Football Conference Records</title>
     <content>Complete list of inter-conference games since 1998 (the BCS and playoff eras). Browse the conferences, teams, and years to decide whether there's enough evidence for a "better conference".</content>
@@ -189,7 +189,7 @@
   <entry>
     <id>http://www.topdan.com/sports/nfl-survivor-league-pick-helper.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2015-01-27T18:19:10-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-survivor-league-pick-helper.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>NFL Survivor League Pick Helper</title>
     <content>NFL Survivor is a game within the games. The rules are simple: pick one team each week, but you can only pick each team once all season. If your team doesn't win, you're out. This page aims to help you plan your picks during the final half of the season.</content>
@@ -201,7 +201,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/music-videos.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2015-01-27T18:19:10-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/music-videos.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Enjoyable Music Videos</title>
     <content>List of music videos that I enjoyed over the years and don't want to forget for some reason. Maybe you'll find a couple to enjoy?</content>
@@ -213,7 +213,7 @@
   <entry>
     <id>http://www.topdan.com/sports/sec-2012-season-review.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2015-01-27T18:19:10-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/sec-2012-season-review.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>SEC 2012: Season Review</title>
     <content>With the 2012 SEC regular season now complete, let's explore how the two-team expansion gave scheduling a major role in each team's success or failure.</content>
@@ -225,7 +225,7 @@
   <entry>
     <id>http://www.topdan.com/sports/dont-hate-the-sec.html</id>
     <published>2014-08-19T17:10:01-04:00</published>
-    <updated>2015-01-27T18:19:10-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/dont-hate-the-sec.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Don't hate the SEC</title>
     <content>If you're a college football fan from outside the SEC, you may think the SEC is ruining college football, but let me tell you how it could be the opposite.</content>
@@ -237,7 +237,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/movie-recommendations.html</id>
     <published>2014-08-19T17:10:01-04:00</published>
-    <updated>2015-01-27T18:19:10-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/movie-recommendations.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Movie Recommendations</title>
     <content>Movies that I enjoyed enough that I think you should look into them. They tend to be unique, covering perspectives and topics I've never seen on screen before.</content>
@@ -249,7 +249,7 @@
   <entry>
     <id>http://www.topdan.com/sports/tim-tebow-is-better-than-you.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2015-01-27T18:19:10-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/tim-tebow-is-better-than-you.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Tim Tebow is better than you</title>
     <content>I'm a Broncos fan and people can't stop talking to me about Tim Tebow. Now that his fate as a Bronco is sealed, here's my opinion.</content>
@@ -261,7 +261,7 @@
   <entry>
     <id>http://www.topdan.com/living/smart-is-overrated.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2015-01-27T18:19:10-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/living/smart-is-overrated.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Smart is Overrated</title>
     <content>Being smart is better than being stupid, but smart shouldn't be the first word you want applied to you. How did smart get so important? How can it work against you? What other traits are more important?</content>
@@ -273,7 +273,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/current-tv-shows.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2015-01-27T18:19:10-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/current-tv-shows.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>My Current TV Shows</title>
     <content>TV shows I'm currently watching. They may be new ones or just catching up with older ones.</content>
@@ -285,7 +285,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/previous-tv-shows.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2015-01-27T18:19:10-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/previous-tv-shows.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>My Completed TV Shows</title>
     <content>TV shows I watched every episode and enjoyed enough that I added them to this list.</content>
@@ -297,7 +297,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/working-with-web-apis.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2014-08-23T14:35:25-04:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/working-with-web-apis.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>The Tricky World of Using Web APIs</title>
     <content>When your application interacts with the web a lot can go wrong. Working with Ruby on Rails over the last five years, I've seen a lot of them first hand, and with this article I hope to share some of that experience and help you write more reliable, efficient and friendly code.</content>
@@ -309,7 +309,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/param-accessible.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2015-01-26T17:13:17-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/param-accessible.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Protecting Yourself from Malicious params</title>
     <content>The issues and solutions to making your application's handling of user parameters secure by default, before Ruby on Rails offered an out-of-the-box solution..</content>
@@ -321,7 +321,7 @@
   <entry>
     <id>http://www.topdan.com/politics/speaking-outside-yourself.html</id>
     <published>2014-08-19T17:10:01-04:00</published>
-    <updated>2015-01-27T18:19:10-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/politics/speaking-outside-yourself.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Speaking outside yourself</title>
     <content>Examples of how people commonly avoid personal responsibility in discussions by implying facts or universal truths.</content>
@@ -333,7 +333,7 @@
   <entry>
     <id>http://www.topdan.com/living/get-inspired.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2015-01-27T18:19:10-05:00</updated>
+    <updated>2015-01-27T19:06:46-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/living/get-inspired.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Get Inspired</title>
     <content>A collection of videos, songs and articles with so much heart and insight they affect me every time I watch. Maybe they'll do the same for you.</content>

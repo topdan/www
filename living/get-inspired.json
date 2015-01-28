@@ -3,7 +3,6 @@
   "description": "A collection of videos, songs and articles with so much heart and insight they affect me every time I watch. Maybe they'll do the same for you.",
   "format": "erb",
   "featured": true,
-  "author_id": "dan",
   "published_at": "2012-03-10 01:00:00 UTC",
   "data_type": "Living::InspiringVideos",
   "data": [
@@ -40,7 +39,8 @@
       "youtube1_key": "ji5_MqicxSo"
     }
   ],
+  "author": "Dan Cunning",
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-01-27 18:19:10 -0500"
+  "updated_at": "2015-01-27 19:06:46 -0500"
 }
 
