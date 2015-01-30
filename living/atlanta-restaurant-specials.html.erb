@@ -1,0 +1,41 @@
+<div class="row-fluid">
+  <div class="span12">
+    <%= map_listing_filters(@filters) %>
+
+    <p id="rainy">
+      Is it raining?
+      <label><input type="radio" name="rainy" value="yes"/> Yes</label>
+      <label><input type="radio" name="rainy" value="no" checked="checked"/> No</label>
+    </p>
+  </div>
+</div>
+
+<div class="row-fluid">
+  <div class="span6">
+    <%= map_listings(@listings, empty: content_tag(:h3, 'There are no specials today.')) do |listing| %>
+      <% restaurant = listing.parent %>
+      <h3><%= link_to restaurant.place, '#map', class: 'open-on-map' %></h3>
+
+      <p class="address">
+        <a href="#map" class="open-on-map">
+          <%= restaurant.address.street %><br/>
+          <%= restaurant.address.city %>, <%= restaurant.address.state %> <%= restaurant.address.zip %>
+        </a>
+      </p>
+
+      <ul class="specials">
+        <% restaurant.specials.each do |type, description| %>
+        <li class="filter-<%= type %>">
+          <span class="map-listing-filter"><%= type %>:</span><span class="description"><%= description %></span>
+        </li>
+        <% end %>
+      </ul>
+    <% end %>
+  </div>
+
+  <div id="map" class="span6">
+    <%= map_listing_canvas(@canvas) %>
+  </div>
+</div>
+
+<%= map_listing_javascript %>

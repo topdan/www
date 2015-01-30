@@ -5,6 +5,13 @@
     <link>http://www.topdan.com/index.rss</link>
     <description>A Ruby on Rails contractor's writes about his meandering thoughts</description>
     <item>
+      <title>Atlanta Restaurant Specials</title>
+      <description>Food and Drink deals in the parts of Atlanta I follow.</description>
+      <link>http://www.topdan.com/living/atlanta-restaurant-specials.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/living/atlanta-restaurant-specials.html</guid>
+      <pubDate>2015-01-15 00:00:00 UTC</pubDate>
+    </item>
+    <item>
       <title>Learning to Draw</title>
       <description>After college I found myself with more free time than I needed, so I decided to learn to draw. Here's how I went about it along with a small gallery.</description>
       <link>http://www.topdan.com/living/learning-to-draw.html?utm_medium=rss&amp;utm_source=feed</link>

@@ -1,0 +1,216 @@
+{
+  "title": "Atlanta Restaurant Specials",
+  "description": "Food and Drink deals in the parts of Atlanta I follow.",
+  "format": "erb",
+  "featured": true,
+  "skips_description": true,
+  "published_at": "2015-01-15 00:00:00 UTC",
+  "data_type": "Living::Restaurant",
+  "data": [
+    {
+      "place": "Cafe 640",
+      "address": {
+        "street": "640 North Highland Ave NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30306"
+      },
+      "coordinates": {
+        "latitude": 33.771799,
+        "longitude": -84.352744
+      },
+      "specials": {
+        "Mon": "Buy-One Get-One Burgers",
+        "Wed": "Half priced bottles of wine"
+      }
+    },
+    {
+      "place": "DBA BBQ",
+      "address": {
+        "street": "1190 North Highland Ave NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30306"
+      },
+      "coordinates": {
+        "latitude": 33.78724,
+        "longitude": -84.355615
+      },
+      "specials": {
+        "Mon": "$2 Southern Pint Night"
+      }
+    },
+    {
+      "place": "Fontaine's Oyster House",
+      "address": {
+        "street": "1026 1/2 North Highland Ave NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30306"
+      },
+      "coordinates": {
+        "latitude": 33.782653,
+        "longitude": -84.35455
+      },
+      "specials": {
+        "Tue": "Half price oysters"
+      }
+    },
+    {
+      "place": "Hand in Hand",
+      "address": {
+        "street": "752 North Highland Ave NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30306"
+      },
+      "coordinates": {
+        "latitude": 33.775021,
+        "longitude": -84.352902
+      },
+      "specials": {
+        "Sun": "$1 fish tacos, $2 pork tacos, $1 PRB Pints",
+        "Mon": "Half price food?",
+        "Tue": "Cheap burgers?",
+        "Wed": "$1 hot dogs"
+      }
+    },
+    {
+      "place": "The Independent",
+      "address": {
+        "street": "931 Monroe Dr NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30308"
+      },
+      "coordinates": {
+        "latitude": 33.779172,
+        "longitude": -84.367189
+      },
+      "specials": {
+        "Wed": "$3 Well Drinks"
+      }
+    },
+    {
+      "place": "Highland Tap",
+      "address": {
+        "street": "1026 North Highland Ave NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30306"
+      },
+      "coordinates": {
+        "latitude": 33.782518,
+        "longitude": -84.354564
+      },
+      "specials": {
+        "Tue": "Half price steak burgers"
+      }
+    },
+    {
+      "place": "Moes & Joes",
+      "address": {
+        "street": "1033 North Highland Ave NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30306"
+      },
+      "coordinates": {
+        "latitude": 33.782869,
+        "longitude": -84.354157
+      },
+      "specials": {
+        "Tue": "$3.50 PBR pitchers",
+        "Thu": "$5 select pitchers",
+        "Sun": "$5 PBR pitchers"
+      }
+    },
+    {
+      "place": "Noche",
+      "address": {
+        "street": "1000 Virginia Avenue",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30306"
+      },
+      "coordinates": {
+        "latitude": 33.782484,
+        "longitude": -84.354697
+      },
+      "specials": {
+        "Sun": "$2 Dos Equis",
+        "Mon": "$2 Tacos"
+      }
+    },
+    {
+      "place": "Park Tavern",
+      "address": {
+        "street": "500 10th Street NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30309"
+      },
+      "coordinates": {
+        "latitude": 33.782045,
+        "longitude": -84.369174
+      },
+      "specials": {
+        "Rainy": "$1 Pints on rainy days"
+      }
+    },
+    {
+      "place": "Red Pepper Taqueria",
+      "address": {
+        "street": "2149 Briarcliff Rd NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30329"
+      },
+      "coordinates": {
+        "latitude": 33.816354,
+        "longitude": -84.334255
+      },
+      "specials": {
+        "Sun": "Unlimited Mimosas until 3pm"
+      }
+    },
+    {
+      "place": "Tin Lizzy's Cantina",
+      "address": {
+        "street": "1540 Avenue Pl",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30329"
+      },
+      "coordinates": {
+        "latitude": 33.801226,
+        "longitude": -84.327804
+      },
+      "specials": {
+        "Sat": "$2 Dos Equis, Tacos, and Chips+Salsa"
+      }
+    },
+    {
+      "place": "Surin of Thailand",
+      "address": {
+        "street": "810 North Highland",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30306"
+      },
+      "coordinates": {
+        "latitude": 33.776547,
+        "longitude": -84.352692
+      },
+      "specials": {
+        "Mon": "5-7pm: Half price appetizers",
+        "Tue": "5-7pm: Half price appetizers",
+        "Wed": "5-7pm: Half price appetizers"
+      }
+    }
+  ],
+  "author": "Dan Cunning",
+  "created_at": "2015-01-30 15:13:49 -0500",
+  "updated_at": "2015-01-30 17:26:35 -0500"
+}
+
