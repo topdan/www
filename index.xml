@@ -5,15 +5,15 @@
   <link rel="self" type="application/atom+xml" href="http://www.topdan.com/index.rss"/>
   <title>Dan Cunning - topdan.com</title>
   <subtitle>A Ruby on Rails contractor's writes about his meandering thoughts</subtitle>
-  <updated>2015-01-15 00:00:00 UTC</updated>
+  <updated>2015-01-30 00:00:00 UTC</updated>
   <entry>
-    <id>http://www.topdan.com/living/atlanta-restaurant-specials.html</id>
-    <published>2015-01-30T15:13:49-05:00</published>
-    <updated>2015-01-30T17:26:35-05:00</updated>
-    <link rel="alternate" type="text/html" href="http://www.topdan.com/living/atlanta-restaurant-specials.html?utm_medium=atom&amp;utm_source=feed"/>
-    <title>Atlanta Restaurant Specials</title>
+    <id>http://www.topdan.com/living/atlanta-food-and-drink-specials.html</id>
+    <published>2015-01-31T15:26:59-05:00</published>
+    <updated>2015-01-31T15:26:59-05:00</updated>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/living/atlanta-food-and-drink-specials.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>Atlanta Food &amp; Drink Specials</title>
     <content>Food and Drink deals in the parts of Atlanta I follow.</content>
-    <updated>2015-01-15 00:00:00 UTC</updated>
+    <updated>2015-01-30 00:00:00 UTC</updated>
     <author>
       <name>Dan Cunning</name>
     </author>
@@ -177,7 +177,7 @@
   <entry>
     <id>http://www.topdan.com/sports/nfl-salaries-by-college/</id>
     <published>2013-10-22T16:46:22-04:00</published>
-    <updated>2015-01-30T17:26:35-05:00</updated>
+    <updated>2015-01-31T15:37:28-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/?utm_medium=atom&amp;utm_source=feed"/>
     <title>NFL Player Salaries by College</title>
     <content>Ranking each college conferences and school on how much their players make in the NFL during the 2013 season.</content>
@@ -189,7 +189,7 @@
   <entry>
     <id>http://www.topdan.com/sports/college-football-conference-records/</id>
     <published>2013-10-22T16:46:22-04:00</published>
-    <updated>2015-01-30T17:26:35-05:00</updated>
+    <updated>2015-01-31T15:37:28-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/college-football-conference-records/?utm_medium=atom&amp;utm_source=feed"/>
     <title>College Football Conference Records</title>
     <content>Complete list of inter-conference games since 1998 (the BCS and playoff eras). Browse the conferences, teams, and years to decide whether there's enough evidence for a "better conference".</content>

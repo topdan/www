@@ -5,15 +5,15 @@
   <link rel="self" type="application/atom+xml" href="http://www.topdan.com/living/index.rss"/>
   <title>Living - topdan.com</title>
   <subtitle>Dan Cunning's thoughts on life in general.</subtitle>
-  <updated>2015-01-15 00:00:00 UTC</updated>
+  <updated>2015-01-30 00:00:00 UTC</updated>
   <entry>
-    <id>http://www.topdan.com/living/atlanta-restaurant-specials.html</id>
-    <published>2015-01-30T15:13:49-05:00</published>
-    <updated>2015-01-30T17:26:35-05:00</updated>
-    <link rel="alternate" type="text/html" href="http://www.topdan.com/living/atlanta-restaurant-specials.html?utm_medium=atom&amp;utm_source=feed"/>
-    <title>Atlanta Restaurant Specials</title>
+    <id>http://www.topdan.com/living/atlanta-food-and-drink-specials.html</id>
+    <published>2015-01-31T15:26:59-05:00</published>
+    <updated>2015-01-31T15:26:59-05:00</updated>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/living/atlanta-food-and-drink-specials.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>Atlanta Food &amp; Drink Specials</title>
     <content>Food and Drink deals in the parts of Atlanta I follow.</content>
-    <updated>2015-01-15 00:00:00 UTC</updated>
+    <updated>2015-01-30 00:00:00 UTC</updated>
     <author>
       <name>Dan Cunning</name>
     </author>

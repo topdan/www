@@ -1,10 +1,10 @@
 {
-  "title": "Atlanta Restaurant Specials",
+  "title": "Atlanta Food & Drink Specials",
   "description": "Food and Drink deals in the parts of Atlanta I follow.",
   "format": "erb",
   "featured": true,
   "skips_description": true,
-  "published_at": "2015-01-15 00:00:00 UTC",
+  "published_at": "2015-01-30 00:00:00 UTC",
   "data_type": "Living::Restaurant",
   "data": [
     {
@@ -20,8 +20,8 @@
         "longitude": -84.352744
       },
       "specials": {
-        "Mon": "Buy-One Get-One Burgers",
-        "Wed": "Half priced bottles of wine"
+        "mon": "Buy-One Get-One Burgers",
+        "wed": "Half priced bottles of wine"
       }
     },
     {
@@ -37,7 +37,7 @@
         "longitude": -84.355615
       },
       "specials": {
-        "Mon": "$2 Southern Pint Night"
+        "mon": "$2 Southern Pint Night"
       }
     },
     {
@@ -53,7 +53,7 @@
         "longitude": -84.35455
       },
       "specials": {
-        "Tue": "Half price oysters"
+        "tue": "Half price oysters"
       }
     },
     {
@@ -69,10 +69,10 @@
         "longitude": -84.352902
       },
       "specials": {
-        "Sun": "$1 fish tacos, $2 pork tacos, $1 PRB Pints",
-        "Mon": "Half price food?",
-        "Tue": "Cheap burgers?",
-        "Wed": "$1 hot dogs"
+        "sun": "$1 fish tacos, $2 pork tacos, $1 PRB Pints",
+        "mon": "Half price food?",
+        "tue": "Cheap burgers?",
+        "wed": "$1 hot dogs"
       }
     },
     {
@@ -88,7 +88,7 @@
         "longitude": -84.367189
       },
       "specials": {
-        "Wed": "$3 Well Drinks"
+        "wed": "$3 Well Drinks"
       }
     },
     {
@@ -104,7 +104,7 @@
         "longitude": -84.354564
       },
       "specials": {
-        "Tue": "Half price steak burgers"
+        "tue": "Half price steak burgers"
       }
     },
     {
@@ -120,9 +120,9 @@
         "longitude": -84.354157
       },
       "specials": {
-        "Tue": "$3.50 PBR pitchers",
-        "Thu": "$5 select pitchers",
-        "Sun": "$5 PBR pitchers"
+        "tue": "$3.50 PBR pitchers",
+        "thu": "$5 select pitchers",
+        "sun": "$5 PBR pitchers"
       }
     },
     {
@@ -138,8 +138,8 @@
         "longitude": -84.354697
       },
       "specials": {
-        "Sun": "$2 Dos Equis",
-        "Mon": "$2 Tacos"
+        "sun": "$2 Dos Equis",
+        "mon": "$2 Tacos"
       }
     },
     {
@@ -155,7 +155,7 @@
         "longitude": -84.369174
       },
       "specials": {
-        "Rainy": "$1 Pints on rainy days"
+        "rainy": "$1 Pints on rainy days"
       }
     },
     {
@@ -171,7 +171,7 @@
         "longitude": -84.334255
       },
       "specials": {
-        "Sun": "Unlimited Mimosas until 3pm"
+        "sun": "Unlimited Mimosas until 3pm"
       }
     },
     {
@@ -187,7 +187,7 @@
         "longitude": -84.327804
       },
       "specials": {
-        "Sat": "$2 Dos Equis, Tacos, and Chips+Salsa"
+        "sat": "$2 Dos Equis, Tacos, and Chips+Salsa"
       }
     },
     {
@@ -203,14 +203,14 @@
         "longitude": -84.352692
       },
       "specials": {
-        "Mon": "5-7pm: Half price appetizers",
-        "Tue": "5-7pm: Half price appetizers",
-        "Wed": "5-7pm: Half price appetizers"
+        "mon": "5-7pm: Half price appetizers",
+        "tue": "5-7pm: Half price appetizers",
+        "wed": "5-7pm: Half price appetizers"
       }
     }
   ],
   "author": "Dan Cunning",
-  "created_at": "2015-01-30 15:13:49 -0500",
-  "updated_at": "2015-01-30 17:26:35 -0500"
+  "created_at": "2015-01-31 15:26:59 -0500",
+  "updated_at": "2015-01-31 15:26:59 -0500"
 }
 

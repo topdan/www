@@ -13,15 +13,8 @@ module Living
     embeds_one :address
     embeds_one :coordinates, class_name: 'GeoLocation'
 
-    def to_map_listing
-      MapListing.new({
-        title: place,
-        latitude: coordinates.latitude,
-        longitude: coordinates.longitude,
-        filters: specials.keys,
-        parent: self,
-      })
-    end
+    delegate :latitude, to: :coordinates
+    delegate :longitude, to: :coordinates
 
   end
 
