@@ -108,6 +108,22 @@
       }
     },
     {
+      "place": "Jack's Pizza & Wings",
+      "address": {
+        "street": "676 Highland Avenue NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30312"
+      },
+      "coordinates": {
+        "latitude": 33.761477,
+        "longitude": -84.365172
+      },
+      "specials": {
+        "fri": "40 oz High Life $1 with food"
+      }
+    },
+    {
       "place": "Moes & Joes",
       "address": {
         "street": "1033 North Highland Ave NE",
@@ -175,6 +191,22 @@
       }
     },
     {
+      "place": "The Square Pub",
+      "address": {
+        "street": "115 Sycamore Street",
+        "city": "Decatur",
+        "state": "GA",
+        "zip": "30030"
+      },
+      "coordinates": {
+        "latitude": 33.77459,
+        "longitude": -84.295682
+      },
+      "specials": {
+        "wed": "$3 Well Drinks"
+      }
+    },
+    {
       "place": "Tin Lizzy's Cantina",
       "address": {
         "street": "1540 Avenue Pl",
@@ -211,6 +243,6 @@
   ],
   "author": "Dan Cunning",
   "created_at": "2015-01-31 15:26:59 -0500",
-  "updated_at": "2015-01-31 15:26:59 -0500"
+  "updated_at": "2015-01-31 23:33:27 -0500"
 }
 
