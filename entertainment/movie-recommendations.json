@@ -8,6 +8,23 @@
   "data_type": "Entertainment::Movie",
   "data": [
     {
+      "title": "In Your Eyes",
+      "year": 2014,
+      "release_date": null,
+      "netflix_url": "http://movies.netflix.com/WiMovie/70309685",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/14605/thumb_in-your-eyes-2014.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt2101569/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/in_your_eyes_2012/",
+      "amazon_url": null,
+      "on_netflix_instant": true,
+      "on_amazon_prime": null
+    },
+    {
       "title": "Interstellar",
       "year": 2014,
       "release_date": "2014-11-07",
@@ -2832,6 +2849,6 @@
   ],
   "author": "Dan Cunning",
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-02-05 07:01:27 -0500"
+  "updated_at": "2015-02-06 07:00:53 -0500"
 }
 
