@@ -8,6 +8,22 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "Bob's Burgers",
+      "network": "fox",
+      "imdb_url": "http://www.imdb.com/title/tt1561755/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Bob's_Burgers",
+      "hulu_url": "http://www.hulu.com/bobs-burgers",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": "http://movies.netflix.com/WiMovie/Bob_s_Burgers/70175658",
+      "amazon_url": "http://www.amazon.com/gp/product/B00SNI5R0Y",
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers.jpg",
+      "on_netflix_instant": true,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2015-02-08"
+    },
+    {
       "title": "Banshee",
       "network": "cinemax",
       "imdb_url": "http://www.imdb.com/title/tt2017109/",
@@ -20,6 +36,22 @@
       "amazon_url": null,
       "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/15/thumb_banshee.jpg",
       "on_netflix_instant": false,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2015-02-07"
+    },
+    {
+      "title": "Red Band Society",
+      "network": "fox",
+      "imdb_url": "http://www.imdb.com/title/tt3576794/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Red_Band_Society",
+      "hulu_url": "http://www.hulu.com/red-band-society",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": null,
+      "amazon_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3354/thumb_red-band-society.jpg",
+      "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2015-02-07"
     },
@@ -88,22 +120,6 @@
       "latest_episode_aired_on": "2015-02-02"
     },
     {
-      "title": "Red Band Society",
-      "network": "fox",
-      "imdb_url": "http://www.imdb.com/title/tt3576794/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Red_Band_Society",
-      "hulu_url": "http://www.hulu.com/red-band-society",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": null,
-      "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3354/thumb_red-band-society.jpg",
-      "on_netflix_instant": null,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2015-01-31"
-    },
-    {
       "title": "Archer",
       "network": "fx",
       "imdb_url": "http://www.imdb.com/title/tt1486217/",
@@ -118,22 +134,6 @@
       "on_netflix_instant": true,
       "on_amazon_prime": true,
       "latest_episode_aired_on": "2015-01-29"
-    },
-    {
-      "title": "Bob's Burgers",
-      "network": "fox",
-      "imdb_url": "http://www.imdb.com/title/tt1561755/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Bob's_Burgers",
-      "hulu_url": "http://www.hulu.com/bobs-burgers",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": "http://movies.netflix.com/WiMovie/Bob_s_Burgers/70175658",
-      "amazon_url": "http://www.amazon.com/gp/product/B00SNI5R0Y",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers.jpg",
-      "on_netflix_instant": true,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2015-01-25"
     },
     {
       "title": "Brooklyn Nine-Nine",
@@ -330,6 +330,6 @@
   ],
   "author": "Dan Cunning",
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-02-07 07:00:59 -0500"
+  "updated_at": "2015-02-09 07:00:53 -0500"
 }
 
