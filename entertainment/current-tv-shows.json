@@ -17,8 +17,40 @@
       "maxgo_url": null,
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Bob_s_Burgers/70175658",
-      "amazon_url": "http://www.amazon.com/gp/product/B00SNI5R0Y",
+      "amazon_url": "http://www.amazon.com/gp/product/B00T8MDXU0",
       "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers.jpg",
+      "on_netflix_instant": true,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2015-02-08"
+    },
+    {
+      "title": "Brooklyn Nine-Nine",
+      "network": "fox",
+      "imdb_url": "http://www.imdb.com/title/tt2467372/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Brooklyn_Nine-Nine",
+      "hulu_url": "http://www.hulu.com/brooklyn-nine-nine",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": null,
+      "amazon_url": "http://www.amazon.com/gp/product/B00SG1L1AI",
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2060/thumb_brooklyn-nine-nine.jpg",
+      "on_netflix_instant": null,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2015-02-08"
+    },
+    {
+      "title": "The Walking Dead",
+      "network": "amc",
+      "imdb_url": "http://www.imdb.com/title/tt1520211/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
+      "hulu_url": null,
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": "http://movies.netflix.com/WiMovie/The-Walking-Dead/70177057",
+      "amazon_url": "http://www.amazon.com/gp/product/B00SKK4882",
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2015-02-08"
@@ -136,22 +168,6 @@
       "latest_episode_aired_on": "2015-01-29"
     },
     {
-      "title": "Brooklyn Nine-Nine",
-      "network": "fox",
-      "imdb_url": "http://www.imdb.com/title/tt2467372/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Brooklyn_Nine-Nine",
-      "hulu_url": "http://www.hulu.com/brooklyn-nine-nine",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": null,
-      "amazon_url": "http://www.amazon.com/gp/product/B00SG1L1AI",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2060/thumb_brooklyn-nine-nine.jpg",
-      "on_netflix_instant": null,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2015-01-25"
-    },
-    {
       "title": "The Affair",
       "network": "showtime",
       "imdb_url": "http://www.imdb.com/title/tt3007820/",
@@ -198,22 +214,6 @@
       "on_netflix_instant": false,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-12-10"
-    },
-    {
-      "title": "The Walking Dead",
-      "network": "amc",
-      "imdb_url": "http://www.imdb.com/title/tt1520211/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
-      "hulu_url": null,
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": "http://movies.netflix.com/WiMovie/The-Walking-Dead/70177057",
-      "amazon_url": "http://www.amazon.com/gp/product/B00P1RX70M",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead.jpg",
-      "on_netflix_instant": true,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2014-11-30"
     },
     {
       "title": "Quick Draw",
@@ -330,6 +330,6 @@
   ],
   "author": "Dan Cunning",
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-02-09 07:00:53 -0500"
+  "updated_at": "2015-02-10 07:01:32 -0500"
 }
 
