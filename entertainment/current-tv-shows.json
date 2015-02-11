@@ -8,6 +8,22 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "Gotham",
+      "network": "fox",
+      "imdb_url": "http://www.imdb.com/title/tt3749900/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Gotham_%28TV_series%29",
+      "hulu_url": "http://www.hulu.com/gotham",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": null,
+      "amazon_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3423/thumb_gotham.jpg",
+      "on_netflix_instant": null,
+      "on_amazon_prime": false,
+      "latest_episode_aired_on": "2015-02-09"
+    },
+    {
       "title": "Bob's Burgers",
       "network": "fox",
       "imdb_url": "http://www.imdb.com/title/tt1561755/",
@@ -33,7 +49,7 @@
       "maxgo_url": null,
       "showtime_url": null,
       "netflix_url": null,
-      "amazon_url": "http://www.amazon.com/gp/product/B00SG1L1AI",
+      "amazon_url": "http://www.amazon.com/gp/product/B00T9XA4AK",
       "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2060/thumb_brooklyn-nine-nine.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
@@ -88,6 +104,22 @@
       "latest_episode_aired_on": "2015-02-07"
     },
     {
+      "title": "Archer",
+      "network": "fx",
+      "imdb_url": "http://www.imdb.com/title/tt1486217/",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Archer_(TV_series)",
+      "hulu_url": "http://www.hulu.com/archer",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "netflix_url": "http://movies.netflix.com/WiMovie/Archer/70171942",
+      "amazon_url": "http://www.amazon.com/gp/product/B00T8LP8GI",
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/9/thumb_archer.jpg",
+      "on_netflix_instant": true,
+      "on_amazon_prime": true,
+      "latest_episode_aired_on": "2015-02-05"
+    },
+    {
       "title": "The Middle",
       "network": "abc",
       "imdb_url": "http://www.imdb.com/title/tt1442464/",
@@ -134,38 +166,6 @@
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2015-02-03"
-    },
-    {
-      "title": "Gotham",
-      "network": "fox",
-      "imdb_url": "http://www.imdb.com/title/tt3749900/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Gotham_%28TV_series%29",
-      "hulu_url": "http://www.hulu.com/gotham",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": null,
-      "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3423/thumb_gotham.jpg",
-      "on_netflix_instant": null,
-      "on_amazon_prime": false,
-      "latest_episode_aired_on": "2015-02-02"
-    },
-    {
-      "title": "Archer",
-      "network": "fx",
-      "imdb_url": "http://www.imdb.com/title/tt1486217/",
-      "wikipedia_url": "http://en.wikipedia.org/wiki/Archer_(TV_series)",
-      "hulu_url": "http://www.hulu.com/archer",
-      "hbogo_url": null,
-      "maxgo_url": null,
-      "showtime_url": null,
-      "netflix_url": "http://movies.netflix.com/WiMovie/Archer/70171942",
-      "amazon_url": "http://www.amazon.com/gp/product/B00S8KXLIM",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/9/thumb_archer.jpg",
-      "on_netflix_instant": true,
-      "on_amazon_prime": true,
-      "latest_episode_aired_on": "2015-01-29"
     },
     {
       "title": "The Affair",
@@ -330,6 +330,6 @@
   ],
   "author": "Dan Cunning",
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-02-10 07:01:32 -0500"
+  "updated_at": "2015-02-11 07:01:19 -0500"
 }
 

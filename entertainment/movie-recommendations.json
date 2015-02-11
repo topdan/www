@@ -45,7 +45,7 @@
       "title": "Gone Girl",
       "year": 2014,
       "release_date": "2014-10-03",
-      "netflix_url": null,
+      "netflix_url": "http://movies.netflix.com/WiMovie/70305893",
       "hbogo_url": null,
       "maxgo_url": null,
       "showtime_url": null,
@@ -55,7 +55,7 @@
       "imdb_url": "http://www.imdb.com/title/tt2267998/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/gone_girl/",
       "amazon_url": null,
-      "on_netflix_instant": null,
+      "on_netflix_instant": false,
       "on_amazon_prime": null
     },
     {
@@ -2849,6 +2849,6 @@
   ],
   "author": "Dan Cunning",
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-02-09 07:00:53 -0500"
+  "updated_at": "2015-02-11 07:01:19 -0500"
 }
 
