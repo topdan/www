@@ -404,7 +404,7 @@
       "release_date": "2013-10-04",
       "netflix_url": "http://movies.netflix.com/WiMovie/70274337",
       "hbogo_url": null,
-      "maxgo_url": null,
+      "maxgo_url": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP36930?videoMode=embeddedVideo?showSpecialFeatures=false/",
       "showtime_url": null,
       "apple_trailers_url": "http://trailers.apple.com/trailers/wb/gravity/",
       "redbox_url": "http://www.redbox.com/movies/gravity",
@@ -2968,6 +2968,6 @@
   ],
   "author": "Dan Cunning",
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-02-19 07:01:25 -0500"
+  "updated_at": "2015-02-21 07:01:09 -0500"
 }
 
