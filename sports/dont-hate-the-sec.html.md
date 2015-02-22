@@ -9,5 +9,5 @@ However, winning streaks only fuel the competition. The 2010 season saw Oregon n
 Don't be influenced by articles written by the author of [Better Off Without 'Em: A Northern Manifesto for Southern Secession](http://chuckthompson.com/), because no matter how many numbers he uses, he can't tell the story of college football. He will only tell the story his customers want to hear. And don't blame the SEC for ruining college football: credit its major role reforming it.
 
 ```raw
-<p class="alert alert-info centered"><a href="/sports/conference-records/">Explore the conference records for yourself</a></p>
+<p class="alert alert-info centered"><a href="/sports/college-football-conference-records/">Explore the conference records for yourself</a></p>
 ```

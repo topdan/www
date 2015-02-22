@@ -5,11 +5,23 @@
   <link rel="self" type="application/atom+xml" href="http://www.topdan.com/index.rss"/>
   <title>Dan Cunning - topdan.com</title>
   <subtitle>A Ruby on Rails contractor's writes about his meandering thoughts</subtitle>
-  <updated>2015-01-30 00:00:00 UTC</updated>
+  <updated>2015-02-21 16:00:00 UTC</updated>
+  <entry>
+    <id>http://www.topdan.com/ruby-on-rails/custom-mailing-lists.html</id>
+    <published>2015-02-21T19:47:18-05:00</published>
+    <updated>2015-02-22T12:17:41-05:00</updated>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/custom-mailing-lists.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>Custom Mailing Lists</title>
+    <content>Mailing lists remain an effective way for groups to communicate. We'll explore how to implement them in your Rails application to improve its overall user-experience.</content>
+    <updated>2015-02-21 16:00:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
   <entry>
     <id>http://www.topdan.com/living/atlanta-food-and-drink-specials.html</id>
     <published>2015-01-31T15:26:59-05:00</published>
-    <updated>2015-01-31T23:33:27-05:00</updated>
+    <updated>2015-02-18T15:57:54-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/living/atlanta-food-and-drink-specials.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Atlanta Food &amp; Drink Specials</title>
     <content>Food and Drink deals in the parts of Atlanta I follow.</content>
@@ -177,7 +189,7 @@
   <entry>
     <id>http://www.topdan.com/sports/nfl-salaries-by-college/</id>
     <published>2013-10-22T16:46:22-04:00</published>
-    <updated>2015-01-31T23:33:27-05:00</updated>
+    <updated>2015-02-22T12:17:41-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/?utm_medium=atom&amp;utm_source=feed"/>
     <title>NFL Player Salaries by College</title>
     <content>Ranking each college conferences and school on how much their players make in the NFL during the 2013 season.</content>
@@ -189,7 +201,7 @@
   <entry>
     <id>http://www.topdan.com/sports/college-football-conference-records/</id>
     <published>2013-10-22T16:46:22-04:00</published>
-    <updated>2015-01-31T23:33:27-05:00</updated>
+    <updated>2015-02-22T12:17:41-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/college-football-conference-records/?utm_medium=atom&amp;utm_source=feed"/>
     <title>College Football Conference Records</title>
     <content>Complete list of inter-conference games since 1998 (the BCS and playoff eras). Browse the conferences, teams, and years to decide whether there's enough evidence for a "better conference".</content>
@@ -237,7 +249,7 @@
   <entry>
     <id>http://www.topdan.com/sports/dont-hate-the-sec.html</id>
     <published>2014-08-19T17:10:01-04:00</published>
-    <updated>2015-01-27T19:06:46-05:00</updated>
+    <updated>2015-02-18T14:35:11-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/dont-hate-the-sec.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Don't hate the SEC</title>
     <content>If you're a college football fan from outside the SEC, you may think the SEC is ruining college football, but let me tell you how it could be the opposite.</content>
@@ -249,7 +261,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/movie-recommendations.html</id>
     <published>2014-08-19T17:10:01-04:00</published>
-    <updated>2015-01-27T19:06:46-05:00</updated>
+    <updated>2015-02-22T07:00:56-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/movie-recommendations.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Movie Recommendations</title>
     <content>Movies that I enjoyed enough that I think you should look into them. They tend to be unique, covering perspectives and topics I've never seen on screen before.</content>
@@ -285,7 +297,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/current-tv-shows.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2015-01-27T19:06:46-05:00</updated>
+    <updated>2015-02-21T07:01:09-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/current-tv-shows.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>My Current TV Shows</title>
     <content>TV shows I'm currently watching. They may be new ones or just catching up with older ones.</content>
@@ -297,7 +309,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/previous-tv-shows.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2015-01-27T19:06:46-05:00</updated>
+    <updated>2015-02-17T07:01:57-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/previous-tv-shows.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>My Completed TV Shows</title>
     <content>TV shows I watched every episode and enjoyed enough that I added them to this list.</content>

@@ -5,6 +5,13 @@
     <link>http://www.topdan.com/ruby-on-rails/index.rss</link>
     <description>Dan Cunning's thoughts on Ruby on Rails.</description>
     <item>
+      <title>Custom Mailing Lists</title>
+      <description>Mailing lists remain an effective way for groups to communicate. We'll explore how to implement them in your Rails application to improve its overall user-experience.</description>
+      <link>http://www.topdan.com/ruby-on-rails/custom-mailing-lists.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/custom-mailing-lists.html</guid>
+      <pubDate>2015-02-21 16:00:00 UTC</pubDate>
+    </item>
+    <item>
       <title>My Least Favorite ActiveRecord Feature</title>
       <description>ActiveRecord is a fantastically well-made ORM that makes working with databases a breeze, but one feature in the callback structure is incredibly bug-prone.</description>
       <link>http://www.topdan.com/ruby-on-rails/my-least-favorite-activerecord-feature.html?utm_medium=rss&amp;utm_source=feed</link>
