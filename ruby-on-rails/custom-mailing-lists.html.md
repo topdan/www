@@ -34,7 +34,7 @@ Only the largest companies run email servers, while others send and receive emai
 
 Your application probably already separates users into groups, whether by admins, accounts, trial users, or long-term customers, but for this tutorial we'll use a more general design.
 
-[Users](#user) have [memberships](#membership) to [groups](#group). Group members generate [discussions](#discussion) by sending [messages](#message). Five models total, here's the schema we'll use:
+[Users](#user) have [memberships](#membership) to [groups](#group). Group members generate [discussions](#discussion) by sending [messages](#message). Five models total, here's the database schema:
 
 #### [](#the-schema)
 
@@ -189,7 +189,7 @@ end
 
 ### [Griddler Setup](#griddler)
 
-[The griddler gem](https://github.com/thoughtbot/griddler) smooths the process of receiving emails from third-party services such as Mandrill, SendGrid, Mailgun, and Postmark. I prefer Mandrill since its interface is simple yet powerful, and it's based in my home of Atlanta, GA.
+[The griddler gem](https://github.com/thoughtbot/griddler) smooths the process of receiving emails from third-party services such as Mandrill, SendGrid, Mailgun, and Postmark. I prefer Mandrill's simple but powerful interface, and MailChimp being my neighbor in Atlanta doesn't hurt.
 
 First, add griddler and [griddler's mandrill adapter](https://github.com/wingrunr21/griddler-mandrill) to your Gemfile and run `bundle install`
 
@@ -360,8 +360,8 @@ Your top-level domain is probably already using an email service like gmail, so 
 
 The end result should be:
 
-* `app.your-domain.com` as a `DKIM valid` and `SPF valid` sending domain
-* `*@app.your-domain.com` as a `MX valid` inbound domain containing a verified route with a webhook of `https://your-app.com/mandrill`
+* Sending domain `app.your-domain.com` marked `DKIM valid` and `SPF valid`
+* Inbound domain `app.your-domain.com` marked `MX valid` with a verified route `*@app.your-domain.com` with a webhook URL of `https://your-app.com/mandrill`
 
 ```raw
 <p class="alert alert-info">Your production environment is now setup to run mailing lists from <code>*@app.your-domain.com</code></p>
@@ -572,6 +572,7 @@ Now we've wrapped up the basic mailing list functionality, though there's plenty
 
 * How are groups managed?
 * How do users enable the daily digest?
+* Should we support attachments?
 * Can users be deleted?
 * Can non-members view an archive?
 * Can users create messages inside the archive?
@@ -591,7 +592,7 @@ Here's what we made:
 Essentially we have the most important parts of Google Groups, but the real possibilities come to light when you think beyond generic groups and messages. __You can send and receive emails in your existing application:__
 
 * How are your users grouped?
-* How can email help your groups communicate?
+* How can email help these groups communicate?
 * What could have an email address?
 * What would be convenient for your users to post from their inbox?
 

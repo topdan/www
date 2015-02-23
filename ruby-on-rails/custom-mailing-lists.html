@@ -134,7 +134,7 @@ var _gaq = _gaq || [];
 
       <p>Your application probably already separates users into groups, whether by admins, accounts, trial users, or long-term customers, but for this tutorial we'll use a more general design.</p>
 
-      <p><a href="#user">Users</a> have <a href="#membership">memberships</a> to <a href="#group">groups</a>. Group members generate <a href="#discussion">discussions</a> by sending <a href="#message">messages</a>. Five models total, here's the schema we'll use:</p>
+      <p><a href="#user">Users</a> have <a href="#membership">memberships</a> to <a href="#group">groups</a>. Group members generate <a href="#discussion">discussions</a> by sending <a href="#message">messages</a>. Five models total, here's the database schema:</p>
 
       <h4 id="the-schema"><a href="#the-schema"></a></h4>
 
@@ -301,7 +301,7 @@ var _gaq = _gaq || [];
 
       <h3 id="griddler"><a href="#griddler">Griddler Setup</a></h3>
 
-      <p><a href="https://github.com/thoughtbot/griddler">The griddler gem</a> smooths the process of receiving emails from third-party services such as Mandrill, SendGrid, Mailgun, and Postmark. I prefer Mandrill since its interface is simple yet powerful, and it's based in my home of Atlanta, GA.</p>
+      <p><a href="https://github.com/thoughtbot/griddler">The griddler gem</a> smooths the process of receiving emails from third-party services such as Mandrill, SendGrid, Mailgun, and Postmark. I prefer Mandrill's simple but powerful interface, and MailChimp being my neighbor in Atlanta doesn't hurt.</p>
 
       <p>First, add griddler and <a href="https://github.com/wingrunr21/griddler-mandrill">griddler's mandrill adapter</a> to your Gemfile and run <code>bundle install</code></p>
 
@@ -506,9 +506,9 @@ var _gaq = _gaq || [];
       <p>The end result should be:</p>
 
       <ul>
-        <li><code>app.your-domain.com</code> as a <code>DKIM valid</code> and <code>SPF valid</code> sending domain</li>
+        <li>Sending domain <code>app.your-domain.com</code> marked <code>DKIM valid</code> and <code>SPF valid</code></li>
 
-        <li><code>*@app.your-domain.com</code> as a <code>MX valid</code> inbound domain containing a verified route with a webhook of <code>https://your-app.com/mandrill</code></li>
+        <li>Inbound domain <code>app.your-domain.com</code> marked <code>MX valid</code> with a verified route <code>*@app.your-domain.com</code> with a webhook URL of <code>https://your-app.com/mandrill</code></li>
       </ul>
 
       <p class="alert alert-info">Your production environment is now setup to run mailing lists from <code>*@app.your-domain.com</code></p>
@@ -759,6 +759,8 @@ var _gaq = _gaq || [];
 
         <li>How do users enable the daily digest?</li>
 
+        <li>Should we support attachments?</li>
+
         <li>Can users be deleted?</li>
 
         <li>Can non-members view an archive?</li>
@@ -789,7 +791,7 @@ var _gaq = _gaq || [];
       <ul>
         <li>How are your users grouped?</li>
 
-        <li>How can email help your groups communicate?</li>
+        <li>How can email help these groups communicate?</li>
 
         <li>What could have an email address?</li>
 
