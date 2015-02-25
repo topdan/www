@@ -37,7 +37,7 @@ Can the ref really see what each player's feet were doing in realtime? Reviews o
 
 ### [Lack of Scoring Opportunities](#lack-of-scoring-opportunities)
 
-Most sports have scoring opportunities at every turn: any football snap could be a touchdown, any pitch could be a home run, and [hockey players are rarely more than one good pass from the opposing net.](http://www.youtube.com/watch?v=73rRzaF1t4Q) In contract, soccer seems to take three or more great touches to create an opportunity and only one rather standard play to disrupt it. Soccer is a low scoring game but that doesn't mean it's inherently boring.
+Most sports have scoring opportunities at every turn: any football snap could be a touchdown, any pitch could be a home run, and [hockey players are rarely more than one good pass from the opposing net.](https://www.youtube.com/watch?v=vIpxDE8SLYU) In contrast, soccer seems to take three or more great touches to create an opportunity and only one rather standard play to disrupt it. Soccer is a low scoring game but that doesn't mean it's inherently boring.
 
 If a team [has little incentive to win (versus tie)](http://en.wikipedia.org/wiki/2014_FIFA_World_Cup_Group_A#Brazil_vs_Mexico), [is playing a man down](http://en.wikipedia.org/wiki/2014_FIFA_World_Cup_Group_C#Japan_vs_Greece), or [is simply over-matched](http://en.wikipedia.org/wiki/2010_FIFA_World_Cup_Final), they drop into a defense-first strategy and hope for a lucky break in the offensive half, possibly provided by the referee. This is when soccer lacks scoring opportunities and thus becomes boring.
 
@@ -45,7 +45,7 @@ If a team [has little incentive to win (versus tie)](http://en.wikipedia.org/wik
 
 Soccer is quite fun to watch when both teams are trying their hardest to score and the referees aren't blowing calls, but in the World Cup this seems limited to the beginning of matches, then one or both teams digress into risk-adverse play. They are fine with the current score and just want to keep the other team from scoring.
 
-One play often determines the positive or negative outcome. Mistakes become exponential, and risk becomes too risky. [Andrés Escobar's own goal may have been a contributing factor in his murder ten days later.](http://en.wikipedia.org/wiki/Andr%C3%A9s_Escobar#Death) [Robert Green failed to stop an easy shot on goal and "may never be forgiven".](http://www.thedailybeast.com/articles/2010/06/13/robert-greens-world-cup-error-may-never-be-forgiven.html) __Both these plays occurred in the first half__, but because a defense-first strategy is easier to achieve in soccer, the team could not redeem their teammate, and he became the goat. No one wants to be the goat, so players stop taking risks. The game becomes full of smart, safe plays and thus is boring.
+One play often determines the positive or negative outcome. Mistakes become exponential, and risk becomes too risky. [Andres Escobar's own goal may have been a contributing factor in his murder ten days later.](http://en.wikipedia.org/wiki/Andr%C3%A9s_Escobar#Death) [Robert Green failed to stop an easy shot on goal and "may never be forgiven".](http://www.thedailybeast.com/articles/2010/06/13/robert-greens-world-cup-error-may-never-be-forgiven.html) __Both these plays occurred in the first half__, but because a defense-first strategy is easier to achieve in soccer, the team could not redeem their teammate, and he became the goat. No one wants to be the goat, so players stop taking risks. The game becomes full of smart, safe plays and thus is boring.
 
 ### [Wrap-up](#wrap-up)
 

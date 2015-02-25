@@ -97,7 +97,7 @@ end
 
 #### [Group](#group)
 
-Groups have an email address and users that are allowed create discussions by emailing it.
+Groups have an email address and users that are allowed to create discussions by emailing it.
 
 ```ruby
 class Group < ActiveRecord::Base
@@ -131,6 +131,8 @@ class Membership < ActiveRecord::Base
 
   private
 
+  # tokens uniquely identify a membership for
+  # the purposes of unsubscribing through an email's link
   def generate_token
     loop do
       self.token = SecureRandom.hex(64)
@@ -333,11 +335,12 @@ class GroupsMailer < ApplicationMailer
     @membership = member
     @message = message
     @discussion = @message.discussion
+    @group = @discussion.group
 
     mail({
       to: @membership.user.email,
       from: %("#{@message.from.name}" <#{@discussion.email}>),
-      subject: @discussion.subject
+      subject: "[#{@group.name}] #{@discussion.subject}"
     })
   end
 
@@ -536,7 +539,7 @@ end
 
 <ul>
 <% @groups.each do |group| %>
-  <li><%= link_to group.name, discussions_path(group) %></li>
+  <li><%= link_to group.name, group_discussions_path(group) %></li>
 <% end %>
 </ul>
 ```
@@ -548,7 +551,7 @@ end
 
 <ul>
 <% @discussions.each do |discussion| %>
-  <li><%= link_to discussion.subject, discussion_path(@group, discussion) %></li>
+  <li><%= link_to discussion.subject, group_discussion_path(@group, discussion) %></li>
 <% end %>
 </ul>
 ```
@@ -596,4 +599,4 @@ Essentially we have the most important parts of Google Groups, but the real poss
 * What could have an email address?
 * What would be convenient for your users to post from their inbox?
 
-Start working the respond button into your application's workflow. `no-reply@your-app.com` is no longer a viable option. __Support the reply button__ if you actually care about what your customers have to say, or at the very least use `please-reply@your-app.com` and forward it to an intern.
+__Work the reply button into your application's workflow.__ `no-reply@your-app.com` is no longer a viable option. At the very least use `please-reply@your-app.com` and forward it to an intern.

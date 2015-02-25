@@ -14,7 +14,7 @@
   <meta name="twitter:title" content="Custom Mailing Lists">
   <meta name="twitter:description" content="Mailing lists remain an effective way for groups to communicate. We'll explore how to implement them in your Rails application to improve its overall user-experience.">
   <link rel="shortcut icon" href="../assets/favicon-a5b290c132149b7a44260c16213fb6e2.png">
-  <link rel="stylesheet" media="all" href="../assets/site-a51976be7fd6c252df4076b73cf50884.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+  <link rel="stylesheet" media="all" href="../assets/site-6001ac7914003b6506d9e6266dc37f5a.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
 
   <script type="text/javascript">
 var _gaq = _gaq || [];
@@ -201,7 +201,7 @@ var _gaq = _gaq || [];
 
       <h4 id="group"><a href="#group">Group</a></h4>
 
-      <p>Groups have an email address and users that are allowed create discussions by emailing it.</p>
+      <p>Groups have an email address and users that are allowed to create discussions by emailing it.</p>
 
       <div class="highlight">
         <pre>
@@ -238,6 +238,8 @@ var _gaq = _gaq || [];
 
   <span class="kp">private</span>
 
+  <span class="c1"># tokens uniquely identify a membership for</span>
+  <span class="c1"># the purposes of unsubscribing through an email's link</span>
   <span class="k">def</span> <span class="nf">generate_token</span>
     <span class="kp">loop</span> <span class="k">do</span>
       <span class="nb">self</span><span class="o">.</span><span class="n">token</span> <span class="o">=</span> <span class="no">SecureRandom</span><span class="o">.</span><span class="n">hex</span><span class="p">(</span><span class="mi">64</span><span class="p">)</span>
@@ -462,11 +464,12 @@ var _gaq = _gaq || [];
     <span class="vi">@membership</span> <span class="o">=</span> <span class="n">member</span>
     <span class="vi">@message</span> <span class="o">=</span> <span class="n">message</span>
     <span class="vi">@discussion</span> <span class="o">=</span> <span class="vi">@message</span><span class="o">.</span><span class="n">discussion</span>
+    <span class="vi">@group</span> <span class="o">=</span> <span class="vi">@discussion</span><span class="o">.</span><span class="n">group</span>
 
     <span class="n">mail</span><span class="p">({</span>
       <span class="ss">to</span><span class="p">:</span> <span class="vi">@membership</span><span class="o">.</span><span class="n">user</span><span class="o">.</span><span class="n">email</span><span class="p">,</span>
       <span class="ss">from</span><span class="p">:</span> <span class="sx">%("</span><span class="si">#{</span><span class="vi">@message</span><span class="o">.</span><span class="n">from</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="sx">" &lt;</span><span class="si">#{</span><span class="vi">@discussion</span><span class="o">.</span><span class="n">email</span><span class="si">}</span><span class="sx">&gt;)</span><span class="p">,</span>
-      <span class="ss">subject</span><span class="p">:</span> <span class="vi">@discussion</span><span class="o">.</span><span class="n">subject</span>
+      <span class="ss">subject</span><span class="p">:</span> <span class="s2">"[</span><span class="si">#{</span><span class="vi">@group</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">] </span><span class="si">#{</span><span class="vi">@discussion</span><span class="o">.</span><span class="n">subject</span><span class="si">}</span><span class="s2">"</span>
     <span class="p">})</span>
   <span class="k">end</span>
 
@@ -715,7 +718,7 @@ var _gaq = _gaq || [];
 
 <span class="nt">&lt;ul&gt;</span>
 <span class="cp">&lt;%</span> <span class="vi">@groups</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">group</span><span class="o">|</span> <span class="cp">%&gt;</span> 
-  <span class="nt">&lt;li&gt;</span><span class="cp">&lt;%=</span> <span class="n">link_to</span> <span class="n">group</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">discussions_path</span><span class="p">(</span><span class="n">group</span><span class="p">)</span> <span class="cp">%&gt;</span><span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span><span class="cp">&lt;%=</span> <span class="n">link_to</span> <span class="n">group</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">group_discussions_path</span><span class="p">(</span><span class="n">group</span><span class="p">)</span> <span class="cp">%&gt;</span><span class="nt">&lt;/li&gt;</span>
 <span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span> 
 <span class="nt">&lt;/ul&gt;</span>
 </pre>
@@ -729,7 +732,7 @@ var _gaq = _gaq || [];
 
 <span class="nt">&lt;ul&gt;</span>
 <span class="cp">&lt;%</span> <span class="vi">@discussions</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">discussion</span><span class="o">|</span> <span class="cp">%&gt;</span> 
-  <span class="nt">&lt;li&gt;</span><span class="cp">&lt;%=</span> <span class="n">link_to</span> <span class="n">discussion</span><span class="o">.</span><span class="n">subject</span><span class="p">,</span> <span class="n">discussion_path</span><span class="p">(</span><span class="vi">@group</span><span class="p">,</span> <span class="n">discussion</span><span class="p">)</span> <span class="cp">%&gt;</span><span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span><span class="cp">&lt;%=</span> <span class="n">link_to</span> <span class="n">discussion</span><span class="o">.</span><span class="n">subject</span><span class="p">,</span> <span class="n">group_discussion_path</span><span class="p">(</span><span class="vi">@group</span><span class="p">,</span> <span class="n">discussion</span><span class="p">)</span> <span class="cp">%&gt;</span><span class="nt">&lt;/li&gt;</span>
 <span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span> 
 <span class="nt">&lt;/ul&gt;</span>
 </pre>
@@ -798,7 +801,7 @@ var _gaq = _gaq || [];
         <li>What would be convenient for your users to post from their inbox?</li>
       </ul>
 
-      <p>Start working the respond button into your application's workflow. <code>no-reply@your-app.com</code> is no longer a viable option. <strong>Support the reply button</strong> if you actually care about what your customers have to say, or at the very least use <code>please-reply@your-app.com</code> and forward it to an intern.</p><!-- post:content:end -->
+      <p><strong>Work the reply button into your application's workflow.</strong> <code>no-reply@your-app.com</code> is no longer a viable option. At the very least use <code>please-reply@your-app.com</code> and forward it to an intern.</p><!-- post:content:end -->
     </div>
   </div>
 
