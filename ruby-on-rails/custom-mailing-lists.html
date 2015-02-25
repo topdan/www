@@ -596,7 +596,7 @@ var _gaq = _gaq || [];
     <span class="n">mail</span><span class="p">({</span>
       <span class="ss">to</span><span class="p">:</span> <span class="vi">@membership</span><span class="o">.</span><span class="n">user</span><span class="o">.</span><span class="n">email</span><span class="p">,</span>
       <span class="ss">from</span><span class="p">:</span> <span class="sx">%("</span><span class="si">#{</span><span class="vi">@group</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="sx">" &lt;</span><span class="si">#{</span><span class="vi">@group</span><span class="o">.</span><span class="n">email</span><span class="si">}</span><span class="sx">&gt;)</span><span class="p">,</span>
-      <span class="ss">subject</span><span class="p">:</span> <span class="s2">"Message Digest"</span>
+      <span class="ss">subject</span><span class="p">:</span> <span class="s2">"[</span><span class="si">#{</span><span class="vi">@group</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">] Message Digest"</span>
     <span class="p">})</span>
   <span class="k">end</span>
 
@@ -702,7 +702,7 @@ var _gaq = _gaq || [];
   <span class="kp">private</span>
 
   <span class="k">def</span> <span class="nf">load_group</span>
-    <span class="vi">@group</span> <span class="o">=</span> <span class="no">Group</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:id</span><span class="o">]</span><span class="p">)</span>
+    <span class="vi">@group</span> <span class="o">=</span> <span class="no">Group</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:group_id</span><span class="o">]</span><span class="p">)</span>
   <span class="k">end</span>
 
 <span class="k">end</span>

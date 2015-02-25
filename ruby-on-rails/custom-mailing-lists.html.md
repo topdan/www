@@ -431,7 +431,7 @@ class GroupsMailer < ApplicationMailer
     mail({
       to: @membership.user.email,
       from: %("#{@group.name}" <#{@group.email}>),
-      subject: "Message Digest"
+      subject: "[#{@group.name}] Message Digest"
     })
   end
 
@@ -525,7 +525,7 @@ class DiscussionsController < ApplicationController
   private
 
   def load_group
-    @group = Group.find(params[:id])
+    @group = Group.find(params[:group_id])
   end
 
 end
