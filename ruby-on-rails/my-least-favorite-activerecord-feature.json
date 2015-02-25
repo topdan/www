@@ -7,6 +7,8 @@
   "published_at": "2014-07-17 16:00:00 UTC",
   "created_at": "2014-07-17 14:30:07 -0400",
   "updated_at": "2015-01-27 19:06:46 -0500",
-  "author": "Dan Cunning"
+  "author": {
+    "name": "Dan Cunning"
+  }
 }
 

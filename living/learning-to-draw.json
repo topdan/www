@@ -4,7 +4,9 @@
   "format": "md",
   "featured": true,
   "published_at": "2015-01-08 00:00:00 UTC",
-  "author": "Dan Cunning",
+  "author": {
+    "name": "Dan Cunning"
+  },
   "created_at": "2015-01-09 16:01:57 -0500",
   "updated_at": "2015-01-27 19:06:46 -0500"
 }

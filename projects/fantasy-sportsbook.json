@@ -5,7 +5,9 @@
   "featured": true,
   "author_id": "dan",
   "published_at": "2014-07-28 00:00:00 UTC",
-  "author": "Dan Cunning",
+  "author": {
+    "name": "Dan Cunning"
+  },
   "created_at": "2014-07-27 22:12:03 -0400",
   "updated_at": "2015-01-27 18:19:10 -0500"
 }
