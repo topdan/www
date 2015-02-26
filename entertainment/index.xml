@@ -2,7 +2,7 @@
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
   <id>tag:www.topdan.com,2005:/entertainment/index</id>
   <link rel="alternate" type="text/html" href="http://www.topdan.com/"/>
-  <link rel="self" type="application/atom+xml" href="http://www.topdan.com/entertainment/index.rss"/>
+  <link rel="self" type="application/atom+xml" href="http://www.topdan.com/entertainment/index.xml"/>
   <title>Entertainment - topdan.com</title>
   <subtitle>Dan Cunning's thoughts on entertainment.</subtitle>
   <updated>2013-01-02 03:55:59 UTC</updated>
