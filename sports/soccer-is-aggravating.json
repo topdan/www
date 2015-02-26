@@ -2,7 +2,7 @@
   "title": "Soccer is Aggravating",
   "description": "Soccer is a world-wide phenomenon, but here's why I find it really hard to watch.",
   "format": "md",
-  "featured": true,
+  "featured": 1,
   "skips_description": true,
   "published_at": "2014-06-22 21:00:00 UTC",
   "author": {

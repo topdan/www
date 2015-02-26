@@ -2,7 +2,7 @@
   "title": "Custom Mailing Lists",
   "description": "Mailing lists remain an effective way for groups to communicate. We'll explore how to implement them in your Rails application to improve its overall user-experience.",
   "format": "md",
-  "featured": true,
+  "featured": 1,
   "skips_description": true,
   "published_at": "2015-02-21 16:00:00 UTC",
   "created_at": "2015-02-21 19:47:18 -0500",

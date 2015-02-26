@@ -2,7 +2,7 @@
   "title": "Smart is Overrated",
   "description": "Being smart is better than being stupid, but smart shouldn't be the first word you want applied to you. How did smart get so important? How can it work against you? What other traits are more important?",
   "format": "erb",
-  "featured": true,
+  "featured": 5,
   "published_at": "2012-03-19 03:00:00 UTC",
   "author": {
     "name": "Dan Cunning"

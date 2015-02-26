@@ -2,7 +2,7 @@
   "title": "Learning to Draw",
   "description": "After college I found myself with more free time than I needed, so I decided to learn to draw. Here's how I went about it along with a small gallery.",
   "format": "md",
-  "featured": true,
+  "featured": 2,
   "published_at": "2015-01-08 00:00:00 UTC",
   "author": {
     "name": "Dan Cunning"

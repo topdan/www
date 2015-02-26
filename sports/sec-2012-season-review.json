@@ -2,7 +2,7 @@
   "title": "SEC 2012: Season Review",
   "description": "With the 2012 SEC regular season now complete, let's explore how the two-team expansion gave scheduling a major role in each team's success or failure.",
   "format": "erb",
-  "featured": true,
+  "featured": 5,
   "published_at": "2012-11-28 21:00:00 UTC",
   "author": {
     "name": "Dan Cunning"

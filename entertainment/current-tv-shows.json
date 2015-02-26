@@ -2,7 +2,7 @@
   "title": "My Current TV Shows",
   "description": "TV shows I'm currently watching. They may be new ones or just catching up with older ones.",
   "format": "erb",
-  "featured": true,
+  "featured": 3,
   "uses_javascript": true,
   "published_at": "2012-03-18 18:00:00 UTC",
   "data_type": "Entertainment::TvShow",

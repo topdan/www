@@ -2,7 +2,7 @@
   "title": "Enjoyable Music Videos",
   "description": "List of music videos that I enjoyed over the years and don't want to forget for some reason. Maybe you'll find a couple to enjoy?",
   "format": "erb",
-  "featured": true,
+  "featured": 1,
   "uses_javascript": true,
   "published_at": "2013-01-02 03:55:59 UTC",
   "data_type": "Entertainment::MusicVideo",

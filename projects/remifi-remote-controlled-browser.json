@@ -2,7 +2,7 @@
   "title": "Firefox Remote Control",
   "description": "Controlling your TV with your iPhone via OSX, Firefox, and an HDMI cable",
   "format": "md",
-  "featured": true,
+  "featured": 1,
   "author_id": "dan",
   "published_at": "2014-10-31 14:00:00 UTC",
   "author": {

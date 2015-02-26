@@ -2,7 +2,7 @@
   "title": "Fixing Craigslist",
   "description": "Fixing Craigslist search by filtering posts, aggregating multiple searches, grouping together and emailing important posts.",
   "format": "md",
-  "featured": true,
+  "featured": 4,
   "author_id": "dan",
   "published_at": "2014-04-15 22:00:00 UTC",
   "author": {

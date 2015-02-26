@@ -2,7 +2,7 @@
   "title": "Fantasy Sportsbook",
   "description": "Creating a new type of game by combining my favorite elements of sportsbooks and fantasy sports.",
   "format": "md",
-  "featured": true,
+  "featured": 3,
   "author_id": "dan",
   "published_at": "2014-07-28 00:00:00 UTC",
   "author": {

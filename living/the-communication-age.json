@@ -2,7 +2,7 @@
   "title": "The Communication Age",
   "description": "The explosion of the Internet and mobile devices shaped a new age where people across the globe are always connected and always communicating, irreversibly changing the way we meet, work, govern, and socialize.",
   "format": "md",
-  "featured": true,
+  "featured": 3,
   "published_at": "2014-11-04 12:00:00 UTC",
   "author": {
     "name": "Dan Cunning"

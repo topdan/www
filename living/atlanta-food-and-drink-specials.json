@@ -2,7 +2,7 @@
   "title": "Atlanta Food & Drink Specials",
   "description": "Food and Drink deals in the parts of Atlanta I follow.",
   "format": "erb",
-  "featured": true,
+  "featured": 1,
   "skips_description": true,
   "published_at": "2015-01-30 00:00:00 UTC",
   "data_type": "Living::Restaurant",

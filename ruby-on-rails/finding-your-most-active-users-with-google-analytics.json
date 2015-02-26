@@ -2,7 +2,7 @@
   "title": "Finding Your Most Active Users with Google Analytics",
   "description": "Google Analytics is normally used to track a website's visitors and pageviews, but it can also track specific users, which can be invaluable information as you develop your customer base. Who is the most active? What are they using? Whose usage is fading?",
   "format": "md",
-  "featured": true,
+  "featured": 4,
   "skips_description": true,
   "published_at": "2014-05-29 16:00:00 UTC",
   "created_at": "2014-05-21 19:12:31 -0400",

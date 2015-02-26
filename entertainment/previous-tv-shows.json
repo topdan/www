@@ -2,7 +2,7 @@
   "title": "My Completed TV Shows",
   "description": "TV shows I watched every episode and enjoyed enough that I added them to this list.",
   "format": "erb",
-  "featured": true,
+  "featured": 4,
   "uses_javascript": true,
   "published_at": "2012-03-18 16:00:00 UTC",
   "data_type": "Entertainment::TvShow",
