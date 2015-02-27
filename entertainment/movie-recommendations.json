@@ -114,7 +114,7 @@
       "year": 2014,
       "release_date": "2014-06-06",
       "netflix_url": "http://movies.netflix.com/WiMovie/70298735",
-      "hbogo_url": "http://www.hbogo.com/#home/video&assetID=GOROSTGP44820?videoMode=embeddedVideo?showSpecialFeatures=false/",
+      "hbogo_url": "http://www.hbogo.com/#home/video&assetID=GOROSTGP45367?videoMode=embeddedVideo?showSpecialFeatures=false/",
       "maxgo_url": null,
       "showtime_url": null,
       "apple_trailers_url": "http://trailers.apple.com/trailers/wb/edgeoftomorrow/",
@@ -1725,6 +1725,23 @@
       "on_amazon_prime": null
     },
     {
+      "title": "Idiocracy",
+      "year": 2006,
+      "release_date": "2006-09-01",
+      "netflix_url": null,
+      "hbogo_url": null,
+      "maxgo_url": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37312?videoMode=embeddedVideo?showSpecialFeatures=false/",
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/15041/thumb_idiocracy-2006.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt0387808/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/idiocracy/",
+      "amazon_url": null,
+      "on_netflix_instant": null,
+      "on_amazon_prime": null
+    },
+    {
       "title": "The Illusionist",
       "year": 2006,
       "release_date": "2006-08-18",
@@ -1774,6 +1791,23 @@
       "amazon_url": "http://www.amazon.com/gp/product/B0026Y88RU",
       "on_netflix_instant": null,
       "on_amazon_prime": true
+    },
+    {
+      "title": "V for Vendetta",
+      "year": 2006,
+      "release_date": "2006-03-17",
+      "netflix_url": null,
+      "hbogo_url": null,
+      "maxgo_url": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37318?videoMode=embeddedVideo?showSpecialFeatures=false/",
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/movies/posters/15229/thumb_v-for-vendetta-2006.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt0434409/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/v_for_vendetta/",
+      "amazon_url": null,
+      "on_netflix_instant": null,
+      "on_amazon_prime": null
     },
     {
       "title": "Brick",
@@ -3004,6 +3038,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-02-26 07:01:23 -0500"
+  "updated_at": "2015-02-27 07:01:19 -0500"
 }
 
