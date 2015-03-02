@@ -773,8 +773,8 @@
     {
       "artist": "Harry Chapin",
       "song": "Cats in the Cradle",
-      "video_url": "https://www.youtube.com/watch?v=-s5r2spPJ8g",
-      "thumbnail_url": "https://img.youtube.com/vi/-s5r2spPJ8g/0.jpg",
+      "video_url": "https://www.youtube.com/watch?v=etundhQa724",
+      "thumbnail_url": "https://img.youtube.com/vi/etundhQa724/0.jpg",
       "added_at": "2013-01-01 15:35:06 -0500"
     },
     {
@@ -817,6 +817,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-03-01 21:58:49 -0500"
+  "updated_at": "2015-03-01 22:04:42 -0500"
 }
 
