@@ -10,8 +10,8 @@
     {
       "artist": "Phoenix",
       "song": "Lisztomania",
-      "video_url": "https://www.youtube.com/watch?v=_3ICyyzDiXY",
-      "thumbnail_url": "https://img.youtube.com/vi/_3ICyyzDiXY/0.jpg",
+      "video_url": "https://www.youtube.com/watch?v=4BJDNw7o6so",
+      "thumbnail_url": "https://img.youtube.com/vi/4BJDNw7o6so/0.jpg",
       "added_at": "2014-12-24 02:14:52 -0500"
     },
     {
@@ -521,8 +521,8 @@
     {
       "artist": "Cameron Michael",
       "song": "The Manhattan Project",
-      "video_url": "https://vimeo.com/43580167",
-      "thumbnail_url": "https://b.vimeocdn.com/ts/302/675/302675962_150.jpg",
+      "video_url": "http://vimeo.com/43580167",
+      "thumbnail_url": "http://b.vimeocdn.com/ts/302/675/302675962_150.jpg",
       "added_at": "2013-01-01 15:35:43 -0500"
     },
     {
@@ -817,6 +817,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-02-25 22:32:58 -0500"
+  "updated_at": "2015-03-01 21:55:56 -0500"
 }
 
