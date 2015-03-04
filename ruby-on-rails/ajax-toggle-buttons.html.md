@@ -160,7 +160,6 @@ end
 ```ruby
 # Gemfile
 gem 'jquery-rails'
-gem 'jquery-ui-rails'
 ```
 
 ### [](#application-js)
@@ -237,10 +236,10 @@ $(function() {
 <%# views/posts/show.html.erb %>
 <%= div_for(@post, class: post_css(@post)) do %>
 
-  <%# This outputs two buttons which CSS rules make 
+  <%# This outputs two buttons which CSS rules make
       sure only one is visible at a time %>
-  <%= toggle_button_to 'icon-star', 'Favorite', post_favorite_path(@post), 
-       on: 'favorite btn', 
+  <%= toggle_button_to 'icon-star', 'Favorite', post_favorite_path(@post),
+       on: 'favorite btn',
        off: 'unfavorite btn btn-primary' %>
 
 <% end %>
@@ -264,6 +263,6 @@ The only thing changing on the client-side is the loading icon and adding/removi
 
 We follow "The Rails' Way" to `#update` and `#destroy` in the controller, which will help the application gracefully grow when we add more functionality to posts like additional toggles, fields, or a public RESTful API.
 
-If your application doesn't require javascript, then you'll want to change `#toggle_button_to` to output inline forms instead of links, and make the Rails controller redirect when `!request.xhr?`.
+If your application doesn't require javascript, then you'll want to change `#toggle_button_to` to output inline forms instead of links, and make the Rails controller redirect inside `format.html`.
 
 Let me know what else you think could be improved.

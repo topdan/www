@@ -5,6 +5,13 @@
     <link>http://www.topdan.com/ruby-on-rails/index.rss</link>
     <description>Dan Cunning's thoughts on Ruby on Rails.</description>
     <item>
+      <title>views/mailers directory</title>
+      <description>Avoid cluttering up app/views by moving mailer directories underneath a single parent.</description>
+      <link>http://www.topdan.com/ruby-on-rails/views-mailers-directory.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/views-mailers-directory.html</guid>
+      <pubDate>2015-03-04 13:00:00 UTC</pubDate>
+    </item>
+    <item>
       <title>Custom Mailing Lists</title>
       <description>Mailing lists remain an effective way for groups to communicate. We'll explore how to implement them in your Rails application to improve its overall user-experience.</description>
       <link>http://www.topdan.com/ruby-on-rails/custom-mailing-lists.html?utm_medium=rss&amp;utm_source=feed</link>
