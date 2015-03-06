@@ -18,7 +18,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Archer/70171942",
       "amazon_url": "http://www.amazon.com/gp/product/B00TGIAWXM",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/9/thumb_archer.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/9/thumb_archer.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": true,
       "latest_episode_aired_on": "2015-02-26"
@@ -34,7 +34,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Banshee/70241302",
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/15/thumb_banshee.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/15/thumb_banshee.jpg",
       "on_netflix_instant": false,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2015-02-28"
@@ -50,7 +50,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Bob_s_Burgers/70175658",
       "amazon_url": "http://www.amazon.com/gp/product/B00U26MLXG",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2015-03-01"
@@ -66,7 +66,7 @@
       "showtime_url": null,
       "netflix_url": null,
       "amazon_url": "http://www.amazon.com/gp/product/B00U374WIQ",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2060/thumb_brooklyn-nine-nine.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/2060/thumb_brooklyn-nine-nine.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2015-03-01"
@@ -82,7 +82,7 @@
       "showtime_url": null,
       "netflix_url": null,
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3424/thumb_forever.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/3424/thumb_forever.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2015-03-03"
@@ -98,7 +98,7 @@
       "showtime_url": null,
       "netflix_url": null,
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3695/thumb_galavant.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/3695/thumb_galavant.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2015-01-25"
@@ -114,7 +114,7 @@
       "showtime_url": null,
       "netflix_url": null,
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3423/thumb_gotham.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/3423/thumb_gotham.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2015-03-02"
@@ -130,7 +130,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Justified/70166092",
       "amazon_url": "http://www.amazon.com/gp/product/B00TZ045WK",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/93/thumb_justified.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/93/thumb_justified.jpg",
       "on_netflix_instant": false,
       "on_amazon_prime": true,
       "latest_episode_aired_on": "2015-03-03"
@@ -146,7 +146,7 @@
       "showtime_url": null,
       "netflix_url": null,
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3504/thumb_marry-me.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/3504/thumb_marry-me.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2015-02-17"
@@ -162,7 +162,7 @@
       "showtime_url": null,
       "netflix_url": null,
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3354/thumb_red-band-society.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/3354/thumb_red-band-society.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2015-02-07"
@@ -178,7 +178,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/The-Middle/70143859",
       "amazon_url": "http://www.amazon.com/gp/product/B00U6AUWK2",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle.jpg",
       "on_netflix_instant": false,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2015-03-04"
@@ -194,7 +194,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/The-Walking-Dead/70177057",
       "amazon_url": "http://www.amazon.com/gp/product/B00TT3LG1G",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2015-03-01"
@@ -210,7 +210,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Community/70155589",
       "amazon_url": "http://www.amazon.com/gp/product/B00JRU9N2K",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/38/thumb_community.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/38/thumb_community.jpg",
       "on_netflix_instant": false,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-04-17"
@@ -226,7 +226,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/70304245",
       "amazon_url": "http://www.amazon.com/gp/product/B00JLQBG2A",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2815/thumb_from-dusk-till-dawn-the-series.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/2815/thumb_from-dusk-till-dawn-the-series.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-05-20"
@@ -242,7 +242,7 @@
       "showtime_url": null,
       "netflix_url": null,
       "amazon_url": "http://www.amazon.com/gp/product/B00HXK5RNK",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/70/thumb_game-of-thrones.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/70/thumb_game-of-thrones.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-06-16"
@@ -258,7 +258,7 @@
       "showtime_url": null,
       "netflix_url": null,
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/1743/thumb_quick-draw.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/1743/thumb_quick-draw.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-10-02"
@@ -274,7 +274,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/70136107",
       "amazon_url": "http://www.amazon.com/gp/product/B00HAFKA8A",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park.jpg",
       "on_netflix_instant": false,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-12-10"
@@ -290,7 +290,7 @@
       "showtime_url": "http://www.showtimeanytime.com/#/series/1031103",
       "netflix_url": null,
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3487/thumb_the-affair.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/3487/thumb_the-affair.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-12-21"
@@ -306,7 +306,7 @@
       "showtime_url": null,
       "netflix_url": null,
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3153/thumb_the-leftovers.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/3153/thumb_the-leftovers.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-09-08"
@@ -322,7 +322,7 @@
       "showtime_url": null,
       "netflix_url": null,
       "amazon_url": "http://www.amazon.com/gp/product/B00R796FYC",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2038/thumb_the-legend-of-korra.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/2038/thumb_the-legend-of-korra.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": true,
       "latest_episode_aired_on": "2014-12-19"
@@ -338,7 +338,7 @@
       "showtime_url": null,
       "netflix_url": null,
       "amazon_url": "http://www.amazon.com/gp/product/B00KV8FQOQ",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2600/thumb_true-detective.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/2600/thumb_true-detective.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-03-10"
@@ -354,7 +354,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Jack_Taylor/70259177",
       "amazon_url": "http://www.amazon.com/gp/product/B00L8P5P7E",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/89/thumb_jack-taylor.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/89/thumb_jack-taylor.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2013-03-10"
@@ -364,6 +364,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-03-06 07:01:13 -0500"
+  "updated_at": "2015-03-06 15:14:03 -0500"
 }
 

@@ -18,7 +18,7 @@
       "showtime_url": null,
       "netflix_url": null,
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/3436/thumb_selfie.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/3436/thumb_selfie.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-12-30"
@@ -34,7 +34,7 @@
       "showtime_url": "http://www.showtimeanytime.com/#/series/411",
       "netflix_url": "http://movies.netflix.com/WiMovie/Californication/70140366",
       "amazon_url": "http://www.amazon.com/gp/product/B00IZ246VY",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/34/thumb_californication.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/34/thumb_californication.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-06-29"
@@ -50,7 +50,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/The_Neighbors/70242084",
       "amazon_url": "http://www.amazon.com/gp/product/B00JKW9BU4",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/293/thumb_the-neighbors.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/293/thumb_the-neighbors.jpg",
       "on_netflix_instant": false,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-04-11"
@@ -66,7 +66,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Psych/70153394",
       "amazon_url": "http://www.amazon.com/gp/product/B00J5SH15K",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/127/thumb_psych.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/127/thumb_psych.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2014-03-26"
@@ -82,7 +82,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Breaking_Bad/70143836",
       "amazon_url": "http://www.amazon.com/gp/product/B00FIZJ0Y4",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/29/thumb_breaking-bad.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/29/thumb_breaking-bad.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2013-09-29"
@@ -98,7 +98,7 @@
       "showtime_url": "http://www.showtimeanytime.com/#/series/323",
       "netflix_url": "http://movies.netflix.com/WiMovie/Dexter/70136126",
       "amazon_url": "http://www.amazon.com/gp/product/B00CKKHH0O",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/46/thumb_dexter.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/46/thumb_dexter.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2013-09-22"
@@ -114,7 +114,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Bunheads/70242617",
       "amazon_url": "http://www.amazon.com/gp/product/B00BLGIZX6",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/32/thumb_bunheads.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/32/thumb_bunheads.jpg",
       "on_netflix_instant": false,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2013-02-25"
@@ -130,7 +130,7 @@
       "showtime_url": null,
       "netflix_url": null,
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/146/thumb_spy.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/146/thumb_spy.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2012-12-26"
@@ -146,7 +146,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Eureka/70143827",
       "amazon_url": "http://www.amazon.com/gp/product/B006J48W7O",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/56/thumb_eureka.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/56/thumb_eureka.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": true,
       "latest_episode_aired_on": "2012-07-16"
@@ -162,7 +162,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Awake/70197063",
       "amazon_url": "http://www.amazon.com/gp/product/B0086219PO",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/12/thumb_awake.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/12/thumb_awake.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2012-05-24"
@@ -178,7 +178,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Friday-Night-Lights/70136125",
       "amazon_url": "http://www.amazon.com/gp/product/B005CZM06K",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/66/thumb_friday-night-lights.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/66/thumb_friday-night-lights.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": true,
       "latest_episode_aired_on": "2011-07-15"
@@ -194,7 +194,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Lost/70136118",
       "amazon_url": "http://www.amazon.com/gp/product/B003U55J9Y",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/100/thumb_lost.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/100/thumb_lost.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2010-05-23"
@@ -210,7 +210,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Scrubs/70153393",
       "amazon_url": "http://www.amazon.com/gp/product/B003THEHR8",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/138/thumb_scrubs.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/138/thumb_scrubs.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2010-03-17"
@@ -226,7 +226,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/70140361",
       "amazon_url": "http://www.amazon.com/gp/product/B0041JY5XE",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/19/thumb_better-off-ted.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/19/thumb_better-off-ted.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": true,
       "latest_episode_aired_on": "2010-09-01"
@@ -242,7 +242,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/My-Name-Is-Earl/70140418",
       "amazon_url": "http://www.amazon.com/gp/product/B002A0OOFU",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/112/thumb_my-name-is-earl.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/112/thumb_my-name-is-earl.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": true,
       "latest_episode_aired_on": "2009-05-14"
@@ -258,7 +258,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/70142405",
       "amazon_url": "http://www.amazon.com/gp/product/B0076MFEEM",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/11/thumb_avatar-the-last-airbender.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/11/thumb_avatar-the-last-airbender.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": true,
       "latest_episode_aired_on": "2008-07-19"
@@ -274,7 +274,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Jericho/70142437",
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/90/thumb_jericho.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/90/thumb_jericho.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2008-03-25"
@@ -290,7 +290,7 @@
       "showtime_url": null,
       "netflix_url": null,
       "amazon_url": "http://www.amazon.com/gp/product/B006GM1B36",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/177/thumb_the-wire.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/177/thumb_the-wire.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": true,
       "latest_episode_aired_on": "2011-03-01"
@@ -306,7 +306,7 @@
       "showtime_url": null,
       "netflix_url": null,
       "amazon_url": "http://www.amazon.com/gp/product/B00HI0RYQS",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2211/thumb_veronica-mars.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/2211/thumb_veronica-mars.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": true,
       "latest_episode_aired_on": "2007-05-22"
@@ -322,7 +322,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/70155618",
       "amazon_url": "http://www.amazon.com/gp/product/B003JAB372",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/2197/thumb_gilmore-girls.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/2197/thumb_gilmore-girls.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2007-05-15"
@@ -338,7 +338,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Rome/70157273",
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/136/thumb_rome.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/136/thumb_rome.jpg",
       "on_netflix_instant": false,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2011-03-01"
@@ -354,7 +354,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Malcolm_in_the_Middle/70155569",
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/107/thumb_malcolm-in-the-middle.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/107/thumb_malcolm-in-the-middle.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2006-05-14"
@@ -370,7 +370,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Arrested_Development/70140358",
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/10/thumb_arrested-development.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/10/thumb_arrested-development.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2013-05-26"
@@ -386,7 +386,7 @@
       "showtime_url": null,
       "netflix_url": null,
       "amazon_url": "http://www.amazon.com/gp/product/B00KGS4W4G",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/35/thumb_carnivale.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/35/thumb_carnivale.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": true,
       "latest_episode_aired_on": "2005-03-27"
@@ -402,7 +402,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Firefly/70202753",
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/62/thumb_firefly.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/62/thumb_firefly.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2002-12-20"
@@ -418,7 +418,7 @@
       "showtime_url": null,
       "netflix_url": null,
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/14/thumb_band-of-brothers.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/14/thumb_band-of-brothers.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2011-03-01"
@@ -434,7 +434,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Freaks_and_Geeks/70253797",
       "amazon_url": null,
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/65/thumb_freaks-and-geeks.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/65/thumb_freaks-and-geeks.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "2000-07-08"
@@ -450,7 +450,7 @@
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/My_So-Called_Life/70202879",
       "amazon_url": "http://www.amazon.com/gp/product/B004GNCOR4",
-      "poster_url": "http://s3.amazonaws.com/cdn.topdan.com/shows/posters/204/thumb_my-so-called-life.jpg",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/204/thumb_my-so-called-life.jpg",
       "on_netflix_instant": false,
       "on_amazon_prime": false,
       "latest_episode_aired_on": "1995-01-25"
@@ -460,6 +460,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-02-25 22:32:58 -0500"
+  "updated_at": "2015-03-06 15:14:03 -0500"
 }
 
