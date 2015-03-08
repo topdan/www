@@ -4,14 +4,11 @@ module Living
 
     columns do |t|
       t.string :place
-      t.hash :coordinates
-      t.hash :address
+      t.hash :coordinates, class_name: 'GeoLocation'
+      t.hash :address, class_name: true
       t.hash :specials
       t.timestamps
     end
-
-    embeds_one :address
-    embeds_one :coordinates, class_name: 'GeoLocation'
 
     delegate :latitude, to: :coordinates
     delegate :longitude, to: :coordinates

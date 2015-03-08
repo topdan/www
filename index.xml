@@ -9,7 +9,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/views-mailers-directory.html</id>
     <published>2015-03-04T13:33:58-05:00</published>
-    <updated>2015-03-04T13:33:58-05:00</updated>
+    <updated>2015-03-08T13:47:09-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/views-mailers-directory.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>views/mailers directory</title>
     <content>Avoid cluttering up app/views by moving mailer directories underneath a single parent.</content>
@@ -21,7 +21,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/custom-mailing-lists.html</id>
     <published>2015-02-21T19:47:18-05:00</published>
-    <updated>2015-02-25T22:32:58-05:00</updated>
+    <updated>2015-03-08T13:47:09-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/custom-mailing-lists.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Custom Mailing Lists</title>
     <content>Mailing lists remain an effective way for groups to communicate. We'll explore how to implement them in your Rails application to improve its overall user-experience.</content>
@@ -69,7 +69,7 @@
   <entry>
     <id>http://www.topdan.com/projects/remifi-remote-controlled-browser.html</id>
     <published>2014-10-31T15:34:25-04:00</published>
-    <updated>2015-02-25T22:32:58-05:00</updated>
+    <updated>2015-03-08T12:53:19-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/remifi-remote-controlled-browser.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Firefox Remote Control</title>
     <content>Controlling your TV with your iPhone via OSX, Firefox, and an HDMI cable</content>
@@ -81,7 +81,7 @@
   <entry>
     <id>http://www.topdan.com/projects/now-streaming-email.html</id>
     <published>2014-10-30T15:50:53-04:00</published>
-    <updated>2015-02-25T22:32:58-05:00</updated>
+    <updated>2015-03-08T12:53:19-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/now-streaming-email.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>"Now Streaming" Email</title>
     <content>Find out what's now streaming online with a bi-weekly email digest.</content>
@@ -93,7 +93,7 @@
   <entry>
     <id>http://www.topdan.com/projects/fantasy-sportsbook.html</id>
     <published>2014-07-27T22:12:03-04:00</published>
-    <updated>2015-02-25T22:32:58-05:00</updated>
+    <updated>2015-03-08T12:53:19-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/fantasy-sportsbook.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Fantasy Sportsbook</title>
     <content>Creating a new type of game by combining my favorite elements of sportsbooks and fantasy sports.</content>
@@ -105,7 +105,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/my-least-favorite-activerecord-feature.html</id>
     <published>2014-07-17T14:30:07-04:00</published>
-    <updated>2015-02-25T22:32:58-05:00</updated>
+    <updated>2015-03-08T13:47:09-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/my-least-favorite-activerecord-feature.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>My Least Favorite ActiveRecord Feature</title>
     <content>ActiveRecord is a fantastically well-made ORM that makes working with databases a breeze, but one feature in the callback structure is incredibly bug-prone.</content>
@@ -141,7 +141,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html</id>
     <published>2014-06-18T12:53:38-04:00</published>
-    <updated>2015-02-25T22:32:58-05:00</updated>
+    <updated>2015-03-08T13:47:09-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Simple Infinite Scrolling with AJAX and Rails</title>
     <content>Ruby on Rails and jQuery team up to allow your visitors to scroll through all your content without initially loading them all.</content>
@@ -165,7 +165,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html</id>
     <published>2014-05-21T19:12:31-04:00</published>
-    <updated>2015-02-25T22:32:58-05:00</updated>
+    <updated>2015-03-08T13:47:09-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Finding Your Most Active Users with Google Analytics</title>
     <content>Google Analytics is normally used to track a website's visitors and pageviews, but it can also track specific users, which can be invaluable information as you develop your customer base. Who is the most active? What are they using? Whose usage is fading?</content>
@@ -177,7 +177,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html</id>
     <published>2014-04-16T16:22:32-04:00</published>
-    <updated>2015-03-04T12:43:55-05:00</updated>
+    <updated>2015-03-08T13:47:09-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Easy Ajax Toggle Buttons</title>
     <content>How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it.</content>
@@ -189,7 +189,7 @@
   <entry>
     <id>http://www.topdan.com/projects/fixing-craigslist.html</id>
     <published>2014-04-15T18:41:33-04:00</published>
-    <updated>2015-02-25T22:32:58-05:00</updated>
+    <updated>2015-03-08T12:53:19-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/fixing-craigslist.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Fixing Craigslist</title>
     <content>Fixing Craigslist search by filtering posts, aggregating multiple searches, grouping together and emailing important posts.</content>
@@ -333,7 +333,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/working-with-web-apis.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2015-02-25T22:32:58-05:00</updated>
+    <updated>2015-03-08T13:47:09-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/working-with-web-apis.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>The Tricky World of Using Web APIs</title>
     <content>When your application interacts with the web a lot can go wrong. Working with Ruby on Rails over the last five years, I've seen a lot of them first hand, and with this article I hope to share some of that experience and help you write more reliable, efficient and friendly code.</content>
@@ -345,7 +345,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/param-accessible.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2015-02-25T22:32:58-05:00</updated>
+    <updated>2015-03-08T13:47:09-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/param-accessible.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Protecting Yourself from Malicious params</title>
     <content>The issues and solutions to making your application's handling of user parameters secure by default, before Ruby on Rails offered an out-of-the-box solution..</content>
