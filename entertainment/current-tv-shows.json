@@ -17,11 +17,11 @@
       "maxgo_url": null,
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Archer/70171942",
-      "amazon_url": "http://www.amazon.com/gp/product/B00TGIAWXM",
+      "amazon_url": "http://www.amazon.com/gp/product/B00U26MEJC",
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/9/thumb_archer.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": true,
-      "latest_episode_aired_on": "2015-02-26"
+      "latest_episode_aired_on": "2015-03-05"
     },
     {
       "title": "Banshee",
@@ -364,6 +364,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-03-07 07:01:07 -0500"
+  "updated_at": "2015-03-08 07:00:54 -0400"
 }
 
