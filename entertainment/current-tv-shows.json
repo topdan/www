@@ -21,7 +21,7 @@
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/9/thumb_archer.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": true,
-      "latest_episode_aired_on": "2015-03-05"
+      "latest_episode_aired_on": "2015-03-12"
     },
     {
       "title": "Banshee",
@@ -37,7 +37,7 @@
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/15/thumb_banshee.jpg",
       "on_netflix_instant": false,
       "on_amazon_prime": false,
-      "latest_episode_aired_on": "2015-03-07"
+      "latest_episode_aired_on": "2015-03-14"
     },
     {
       "title": "Bob's Burgers",
@@ -49,11 +49,11 @@
       "maxgo_url": null,
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Bob_s_Burgers/70175658",
-      "amazon_url": "http://www.amazon.com/gp/product/B00U26MLXG",
+      "amazon_url": "http://www.amazon.com/gp/product/B00U26M1ZE",
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
-      "latest_episode_aired_on": "2015-03-08"
+      "latest_episode_aired_on": "2015-03-15"
     },
     {
       "title": "Brooklyn Nine-Nine",
@@ -65,11 +65,11 @@
       "maxgo_url": null,
       "showtime_url": null,
       "netflix_url": null,
-      "amazon_url": "http://www.amazon.com/gp/product/B00U374WIQ",
+      "amazon_url": "http://www.amazon.com/gp/product/B00UCD70JO",
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/2060/thumb_brooklyn-nine-nine.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
-      "latest_episode_aired_on": "2015-03-08"
+      "latest_episode_aired_on": "2015-03-15"
     },
     {
       "title": "Forever",
@@ -129,11 +129,11 @@
       "maxgo_url": null,
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Justified/70166092",
-      "amazon_url": "http://www.amazon.com/gp/product/B00TZ045WK",
+      "amazon_url": "http://www.amazon.com/gp/product/B00U7PZZN0",
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/93/thumb_justified.jpg",
       "on_netflix_instant": false,
       "on_amazon_prime": true,
-      "latest_episode_aired_on": "2015-03-03"
+      "latest_episode_aired_on": "2015-03-17"
     },
     {
       "title": "Marry Me",
@@ -193,11 +193,11 @@
       "maxgo_url": null,
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/The-Walking-Dead/70177057",
-      "amazon_url": "http://www.amazon.com/gp/product/B00TT3IFIS",
+      "amazon_url": "http://www.amazon.com/gp/product/B00TT3KMKC",
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": false,
-      "latest_episode_aired_on": "2015-03-08"
+      "latest_episode_aired_on": "2015-03-15"
     },
     {
       "title": "Community",
@@ -364,6 +364,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-03-10 07:00:54 -0400"
+  "updated_at": "2015-03-19 06:52:42 -0400"
 }
 
