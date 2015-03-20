@@ -17,7 +17,7 @@
       "maxgo_url": null,
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Archer/70171942",
-      "amazon_url": "http://www.amazon.com/gp/product/B00U26MEJC",
+      "amazon_url": "http://www.amazon.com/gp/product/B00U26N4JG",
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/9/thumb_archer.jpg",
       "on_netflix_instant": true,
       "on_amazon_prime": true,
@@ -364,6 +364,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-03-19 06:52:42 -0400"
+  "updated_at": "2015-03-20 06:53:13 -0400"
 }
 
