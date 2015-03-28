@@ -149,7 +149,7 @@
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/93/thumb_justified.jpg",
       "on_netflix_instant": false,
       "on_amazon_prime": true,
-      "latest_episode_aired_on": "2015-03-17"
+      "latest_episode_aired_on": "2015-03-24"
     },
     {
       "title": "Marry Me",
@@ -197,7 +197,7 @@
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle.jpg",
       "on_netflix_instant": false,
       "on_amazon_prime": false,
-      "latest_episode_aired_on": "2015-03-04"
+      "latest_episode_aired_on": "2015-03-25"
     },
     {
       "title": "The Walking Dead",
@@ -380,6 +380,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-03-25 06:52:39 -0400"
+  "updated_at": "2015-03-28 06:53:14 -0400"
 }
 
