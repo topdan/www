@@ -216,7 +216,7 @@
       "year": 2014,
       "release_date": "2014-05-09",
       "netflix_url": "http://movies.netflix.com/WiMovie/70297085",
-      "hbogo_url": "http://www.hbogo.com/#home/video&assetID=GOROSTGP44977?videoMode=embeddedVideo?showSpecialFeatures=false/",
+      "hbogo_url": "http://www.hbogo.com/#home/video&assetID=GOROSTGP45854?videoMode=embeddedVideo?showSpecialFeatures=false/",
       "maxgo_url": null,
       "showtime_url": null,
       "apple_trailers_url": "http://trailers.apple.com/trailers/universal/neighbors/",
@@ -3293,6 +3293,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-03-24 06:53:09 -0400"
+  "updated_at": "2015-03-29 06:52:30 -0400"
 }
 
