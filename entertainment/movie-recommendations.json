@@ -420,7 +420,7 @@
       "year": 2013,
       "release_date": "2013-12-25",
       "netflix_url": "http://movies.netflix.com/WiMovie/70243458",
-      "hbogo_url": "http://www.hbogo.com/#home/video&assetID=GOROSTGP44001?videoMode=embeddedVideo?showSpecialFeatures=false/",
+      "hbogo_url": "",
       "maxgo_url": "",
       "showtime_url": "",
       "apple_trailers_url": "",
@@ -3293,6 +3293,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-03-31 06:52:42 -0400"
+  "updated_at": "2015-04-01 06:52:37 -0400"
 }
 
