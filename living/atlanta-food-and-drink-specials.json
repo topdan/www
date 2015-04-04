@@ -69,10 +69,27 @@
         "longitude": -84.352902
       },
       "specials": {
-        "sun": "$1 fish tacos, $2 pork tacos, $1 PRB Pints",
-        "mon": "Half price food?",
-        "tue": "Cheap burgers?",
+        "sun": "$1 fish tacos, $2 pork tacos, $1 PRB Pints (no longer)",
+        "mon": "Half price menu",
         "wed": "$1 hot dogs"
+      }
+    },
+    {
+      "place": "Harry & Sons",
+      "address": {
+        "street": "820 North Highland Ave NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30306"
+      },
+      "coordinates": {
+        "latitude": 33.776933,
+        "longitude": -84.352703
+      },
+      "specials": {
+        "mon": "5:30-7pm: $1 Sushi",
+        "tue": "5:30-7pm: $1 Sushi",
+        "wed": "5:30-7pm: $1 Sushi"
       }
     },
     {
@@ -245,6 +262,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2015-01-31 15:26:59 -0500",
-  "updated_at": "2015-02-25 22:32:58 -0500"
+  "updated_at": "2015-04-04 13:41:17 -0400"
 }
 

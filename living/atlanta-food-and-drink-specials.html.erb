@@ -43,6 +43,9 @@
               </li>
               <% end %>
             </ul>
+
+            <a href="#" class="view-on-map btn btn-primary">View on map</a>
+            <a href="#" class="back-to-listing">Back to Listing</a>
           </li>
         <% end %>
         <li class="no-listings last">
@@ -51,7 +54,7 @@
       </ul>
     </div>
 
-    <div class="span8 wrapper">
+    <div class="span8 map">
       <%= map_listing_canvas(latitude: 33.782869, longitude: -84.354157, zoom: 15) %>
     </div>
   </div>
