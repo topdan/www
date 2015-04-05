@@ -101,7 +101,7 @@
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/3424/thumb_forever.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
-      "latest_episode_aired_on": "2015-03-03"
+      "latest_episode_aired_on": "2015-03-31"
     },
     {
       "title": "Galavant",
@@ -380,6 +380,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-04-04 06:53:08 -0400"
+  "updated_at": "2015-04-05 06:52:28 -0400"
 }
 
