@@ -116,7 +116,7 @@ module ApplicationHelper
 
   def link_to_with_icon(icon_css, title, url, options = {})
     icon = content_tag(:i, nil, class: icon_css)
-    title_with_icon = icon_css << ' ' << title
+    title_with_icon = icon << ' ' << title
     link_to(title_with_icon, url, options)
   end
 
