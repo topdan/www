@@ -110,6 +110,23 @@
       "on_amazon_prime": true
     },
     {
+      "title": "The One I Love",
+      "year": 2014,
+      "release_date": "2014-08-22",
+      "netflix_url": "http://movies.netflix.com/WiMovie/70299863",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": "http://trailers.apple.com/trailers/independent/theoneilove/",
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/12804/thumb_the-one-i-love-2014.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt2756032/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_one_i_love/",
+      "amazon_url": "http://www.amazon.com/gp/product/B00MB6KDHG",
+      "on_netflix_instant": true,
+      "on_amazon_prime": null
+    },
+    {
       "title": "I Origins",
       "year": 2014,
       "release_date": "2014-07-18",
@@ -1657,6 +1674,23 @@
       "on_amazon_prime": null
     },
     {
+      "title": "Juno",
+      "year": 2007,
+      "release_date": "2007-12-05",
+      "netflix_url": null,
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/15741/thumb_juno-2007.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt0467406/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/juno/",
+      "amazon_url": null,
+      "on_netflix_instant": null,
+      "on_amazon_prime": null
+    },
+    {
       "title": "The Darjeeling Limited",
       "year": 2007,
       "release_date": "2007-10-26",
@@ -2269,6 +2303,23 @@
       "on_amazon_prime": true
     },
     {
+      "title": "The Last Samurai",
+      "year": 2003,
+      "release_date": "2003-12-05",
+      "netflix_url": "http://movies.netflix.com/WiMovie/60031274",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/15703/thumb_the-last-samurai-2003.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt0325710/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/last_samurai/",
+      "amazon_url": null,
+      "on_netflix_instant": true,
+      "on_amazon_prime": null
+    },
+    {
       "title": "The Triplets of Belleville",
       "year": 2003,
       "release_date": "2003-11-26",
@@ -2641,6 +2692,40 @@
       "amazon_url": "http://www.amazon.com/gp/product/B0094M6A18",
       "on_netflix_instant": false,
       "on_amazon_prime": true
+    },
+    {
+      "title": "O Brother, Where Art Thou?",
+      "year": 2000,
+      "release_date": "2000-12-22",
+      "netflix_url": null,
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/15722/thumb_o-brother-where-art-thou-2000.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt0190590/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/o_brother_where_art_thou/",
+      "amazon_url": null,
+      "on_netflix_instant": null,
+      "on_amazon_prime": null
+    },
+    {
+      "title": "Unbreakable",
+      "year": 2000,
+      "release_date": "2000-11-22",
+      "netflix_url": "http://movies.netflix.com/WiMovie/60002319",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/15720/thumb_unbreakable-2000.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt0217869/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/unbreakable/",
+      "amazon_url": null,
+      "on_netflix_instant": true,
+      "on_amazon_prime": null
     },
     {
       "title": "Requiem For A Dream",
@@ -3293,6 +3378,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-04-03 06:53:06 -0400"
+  "updated_at": "2015-04-09 06:52:26 -0400"
 }
 
