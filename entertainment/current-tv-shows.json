@@ -145,7 +145,7 @@
       "maxgo_url": null,
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/Justified/70166092",
-      "amazon_url": "http://www.amazon.com/gp/product/B00UUD8KE0",
+      "amazon_url": "http://www.amazon.com/gp/product/B00VGOJ4WY",
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/93/thumb_justified.jpg",
       "on_netflix_instant": false,
       "on_amazon_prime": true,
@@ -177,7 +177,7 @@
       "maxgo_url": null,
       "showtime_url": null,
       "netflix_url": "http://movies.netflix.com/WiMovie/The-Middle/70143859",
-      "amazon_url": "http://www.amazon.com/gp/product/B00VB7Z3E4",
+      "amazon_url": "http://www.amazon.com/gp/product/B00VMVL6PO",
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle.jpg",
       "on_netflix_instant": false,
       "on_amazon_prime": false,
@@ -380,6 +380,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-04-11 06:52:56 -0400"
+  "updated_at": "2015-04-12 06:53:09 -0400"
 }
 
