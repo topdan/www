@@ -81,11 +81,11 @@
       "maxgo_url": null,
       "showtime_url": null,
       "netflix_url": null,
-      "amazon_url": "http://www.amazon.com/gp/product/B00UO4KHNW",
+      "amazon_url": "http://www.amazon.com/gp/product/B00WNAHLF2",
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/2060/thumb_brooklyn-nine-nine.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
-      "latest_episode_aired_on": "2015-03-15"
+      "latest_episode_aired_on": "2015-04-26"
     },
     {
       "title": "Forever",
@@ -133,7 +133,7 @@
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/70/thumb_game-of-thrones.jpg",
       "on_netflix_instant": null,
       "on_amazon_prime": false,
-      "latest_episode_aired_on": "2015-04-27"
+      "latest_episode_aired_on": "2015-05-04"
     },
     {
       "title": "Gotham",
@@ -213,7 +213,7 @@
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle.jpg",
       "on_netflix_instant": false,
       "on_amazon_prime": false,
-      "latest_episode_aired_on": "2015-04-22"
+      "latest_episode_aired_on": "2015-04-29"
     },
     {
       "title": "The Walking Dead",
@@ -412,6 +412,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-04-29 06:52:40 -0400"
+  "updated_at": "2015-05-04 06:53:15 -0400"
 }
 
