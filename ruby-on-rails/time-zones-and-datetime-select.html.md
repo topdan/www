@@ -81,7 +81,7 @@ end
 
 ## Wrap-up
 
-Ideally, `datetime_select` would support timezone as a piece of the datetime like it does for hours, minutes, and seconds, but it doesn't. The next step is overriding `timestamp=` but will the timezone attribute be set before or after the timestamp attribute? And what determines that timestamp's embedded timezone?
+Ideally, `datetime_select` would support timezone as a piece of the datetime like it does for hours, minutes, and seconds, but it doesn't. The next step is overriding `timestamp=` but will the timezone attribute be set before or after the timestamp attribute? And what determines the timestamp's internal timezone?
 
 `Time.use_zone` makes the most sense: the model can't guarantee what the `Time.zone` value or the timestamp's timezone mean, but the controller can.
 

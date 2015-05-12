@@ -149,7 +149,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 
       <h2>Wrap-up</h2>
 
-      <p>Ideally, <code>datetime_select</code> would support timezone as a piece of the datetime like it does for hours, minutes, and seconds, but it doesn't. The next step is overriding <code>timestamp=</code> but will the timezone attribute be set before or after the timestamp attribute? And what determines that timestamp's embedded timezone?</p>
+      <p>Ideally, <code>datetime_select</code> would support timezone as a piece of the datetime like it does for hours, minutes, and seconds, but it doesn't. The next step is overriding <code>timestamp=</code> but will the timezone attribute be set before or after the timestamp attribute? And what determines the timestamp's internal timezone?</p>
 
       <p><code>Time.use_zone</code> makes the most sense: the model can't guarantee what the <code>Time.zone</code> value or the timestamp's timezone mean, but the controller can.</p>
 
