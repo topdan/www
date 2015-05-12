@@ -246,7 +246,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
   <span class="k">def</span> <span class="nf">generate_token</span>
     <span class="kp">loop</span> <span class="k">do</span>
       <span class="nb">self</span><span class="o">.</span><span class="n">token</span> <span class="o">=</span> <span class="no">SecureRandom</span><span class="o">.</span><span class="n">hex</span><span class="p">(</span><span class="mi">64</span><span class="p">)</span>
-      <span class="k">break</span> <span class="k">if</span> <span class="no">Membership</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">token</span><span class="p">:</span> <span class="n">token</span><span class="p">)</span><span class="o">.</span><span class="n">any?</span>
+      <span class="k">break</span> <span class="k">if</span> <span class="no">Membership</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">token</span><span class="p">:</span> <span class="n">token</span><span class="p">)</span><span class="o">.</span><span class="n">empty?</span>
     <span class="k">end</span>
   <span class="k">end</span>
 
@@ -278,7 +278,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
   <span class="k">def</span> <span class="nf">generate_unique_email</span>
     <span class="kp">loop</span> <span class="k">do</span>
       <span class="nb">self</span><span class="o">.</span><span class="n">email</span> <span class="o">=</span> <span class="n">group</span><span class="o">.</span><span class="n">email</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s1">'@'</span><span class="p">,</span> <span class="s2">"-</span><span class="si">#{</span><span class="no">SecureRandom</span><span class="o">.</span><span class="n">hex</span><span class="p">(</span><span class="mi">32</span><span class="p">)</span><span class="si">}</span><span class="s2">@"</span><span class="p">)</span>
-      <span class="k">break</span> <span class="k">if</span> <span class="no">Discussion</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">email</span><span class="p">:</span> <span class="n">email</span><span class="p">)</span><span class="o">.</span><span class="n">any?</span>
+      <span class="k">break</span> <span class="k">if</span> <span class="no">Discussion</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">email</span><span class="p">:</span> <span class="n">email</span><span class="p">)</span><span class="o">.</span><span class="n">empty?</span>
     <span class="k">end</span> <span class="k">if</span> <span class="n">group</span>
   <span class="k">end</span>
 

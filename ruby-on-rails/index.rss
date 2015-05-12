@@ -5,6 +5,13 @@
     <link>http://www.topdan.com/ruby-on-rails/index.rss</link>
     <description>Dan Cunning's thoughts on Ruby on Rails.</description>
     <item>
+      <title>Time Zones and datetime_select</title>
+      <description>A simple fix for using datetime_select and time_zone_select together.</description>
+      <link>http://www.topdan.com/ruby-on-rails/time-zones-and-datetime-select.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/time-zones-and-datetime-select.html</guid>
+      <pubDate>2015-05-12 16:00:00 UTC</pubDate>
+    </item>
+    <item>
       <title>views/mailers directory</title>
       <description>Avoid cluttering up app/views by moving mailer directories underneath a single parent.</description>
       <link>http://www.topdan.com/ruby-on-rails/views-mailers-directory.html?utm_medium=rss&amp;utm_source=feed</link>

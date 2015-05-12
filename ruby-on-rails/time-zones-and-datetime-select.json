@@ -1,0 +1,14 @@
+{
+  "title": "Time Zones and datetime_select",
+  "description": "A simple fix for using datetime_select and time_zone_select together.",
+  "format": "md",
+  "featured": 1,
+  "skips_description": true,
+  "published_at": "2015-05-12 16:00:00 UTC",
+  "author": {
+    "name": "Dan Cunning"
+  },
+  "created_at": "2015-05-12 13:51:31 -0400",
+  "updated_at": "2015-05-12 13:55:05 -0400"
+}
+

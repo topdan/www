@@ -136,7 +136,7 @@ class Membership < ActiveRecord::Base
   def generate_token
     loop do
       self.token = SecureRandom.hex(64)
-      break if Membership.where(token: token).any?
+      break if Membership.where(token: token).empty?
     end
   end
 
@@ -166,7 +166,7 @@ class Discussion < ActiveRecord::Base
   def generate_unique_email
     loop do
       self.email = group.email.sub('@', "-#{SecureRandom.hex(32)}@")
-      break if Discussion.where(email: email).any?
+      break if Discussion.where(email: email).empty?
     end if group
   end
 
