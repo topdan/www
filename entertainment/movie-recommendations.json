@@ -8,6 +8,23 @@
   "data_type": "Entertainment::Movie",
   "data": [
     {
+      "title": "Ex Machina",
+      "year": 2015,
+      "release_date": "2015-04-24",
+      "netflix_url": null,
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": "http://trailers.apple.com/trailers/independent/exmachina/",
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/15348/thumb_ex-machina-2015.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt0470752/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/ex_machina/",
+      "amazon_url": null,
+      "on_netflix_instant": null,
+      "on_amazon_prime": null
+    },
+    {
       "title": "In Your Eyes",
       "year": 2014,
       "release_date": null,
@@ -3514,6 +3531,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-05-12 06:53:01 -0400"
+  "updated_at": "2015-05-13 06:52:50 -0400"
 }
 
