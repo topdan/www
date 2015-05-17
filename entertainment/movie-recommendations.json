@@ -8,6 +8,23 @@
   "data_type": "Entertainment::Movie",
   "data": [
     {
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "release_date": "2015-05-15",
+      "netflix_url": null,
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": "http://trailers.apple.com/trailers/wb/madmaxfuryroad/",
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/13163/thumb_mad-max-fury-road-2015.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt1392190/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/mad_max_fury_road/",
+      "amazon_url": null,
+      "on_netflix_instant": null,
+      "on_amazon_prime": null
+    },
+    {
       "title": "Ex Machina",
       "year": 2015,
       "release_date": "2015-04-24",
@@ -246,7 +263,7 @@
       "on_amazon_prime": true
     },
     {
-      "title": "The SIgnal",
+      "title": "The Signal",
       "year": 2014,
       "release_date": "2014-06-13",
       "netflix_url": null,
@@ -3531,6 +3548,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-05-15 06:52:32 -0400"
+  "updated_at": "2015-05-17 06:52:36 -0400"
 }
 
