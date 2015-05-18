@@ -263,7 +263,7 @@
       "on_amazon_prime": true
     },
     {
-      "title": "The Signal",
+      "title": "The SIgnal",
       "year": 2014,
       "release_date": "2014-06-13",
       "netflix_url": null,
@@ -3548,6 +3548,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-05-17 06:52:36 -0400"
+  "updated_at": "2015-05-18 06:53:07 -0400"
 }
 
