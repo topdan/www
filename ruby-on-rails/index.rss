@@ -5,6 +5,13 @@
     <link>http://www.topdan.com/ruby-on-rails/index.rss</link>
     <description>Dan Cunning's thoughts on Ruby on Rails.</description>
     <item>
+      <title>f.label and errors.full_messages</title>
+      <description>Why you should never use the explicit "content" parameter of label_tag or the form builder's label method.</description>
+      <link>http://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html</guid>
+      <pubDate>2015-05-18 18:00:00 UTC</pubDate>
+    </item>
+    <item>
       <title>Time Zones and datetime_select</title>
       <description>A simple fix for using datetime_select and time_zone_select together.</description>
       <link>http://www.topdan.com/ruby-on-rails/time-zones-and-datetime-select.html?utm_medium=rss&amp;utm_source=feed</link>
@@ -26,10 +33,10 @@
       <pubDate>2015-02-21 16:00:00 UTC</pubDate>
     </item>
     <item>
-      <title>My Least Favorite ActiveRecord Feature</title>
+      <title>Beware ActiveRecord callbacks</title>
       <description>ActiveRecord is a fantastically well-made ORM that makes working with databases a breeze, but one feature in the callback structure is incredibly bug-prone.</description>
-      <link>http://www.topdan.com/ruby-on-rails/my-least-favorite-activerecord-feature.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/ruby-on-rails/my-least-favorite-activerecord-feature.html</guid>
+      <link>http://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html</guid>
       <pubDate>2014-07-17 16:00:00 UTC</pubDate>
     </item>
     <item>

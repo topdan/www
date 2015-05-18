@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>f.label and errors.full_messages - topdan.com</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Why you should never use the explicit &quot;content&quot; parameter of label_tag or the form builder's label method.">
+  <meta name="author" content="Dan Cunning">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@itopdan">
+  <meta name="twitter:url" content="http://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html">
+  <meta name="twitter:title" content="f.label and errors.full_messages">
+  <meta name="twitter:description" content="Why you should never use the explicit &quot;content&quot; parameter of label_tag or the form builder's label method.">
+  <link rel="shortcut icon" href="../assets/favicon-a5b290c132149b7a44260c16213fb6e2.png">
+  <link rel="stylesheet" media="all" href="../assets/site-fde1f912e42142eb36aac0fa0fc0314c.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+
+  <script type="text/javascript">
+if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
+    var _gaq = _gaq || [];
+
+    _gaq.push(['_setAccount', 'UA-12957077-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  }
+  </script>
+</head>
+
+<body id="form-builder-label-and-full-error-messages" class="navigatable">
+  <a id="top"></a>
+
+  <ul class="navigation">
+    <li class="prev">
+      <a href="time-zones-and-datetime-select.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Time Zones and datetime_select</span><span class="less">Previous</span></a>
+    </li>
+
+    <li>
+      <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
+    </li>
+
+    <li class="next">
+      <a href="param-accessible.html"><span class="more">Protecting Yourself from Malicious params</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
+    </li>
+  </ul>
+
+  <div class="content">
+    <div class="container post">
+      <p class="byline">Published by Dan on May 18, 2015</p>
+
+      <h1><a href="form-builder-label-and-full-error-messages.html">f.label and errors.full_messages</a></h1><!-- post:content:start -->
+
+      <h2>Common Mistake</h2>
+
+      <p class="alert alert-danger centered"><strong>Can you spot the bug?</strong></p>
+
+      <div class="highlight">
+        <pre>
+<span class="cp">&lt;%=</span> <span class="n">form_for</span> <span class="vi">@post</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span> <span class="cp">%&gt;</span>
+
+  <span class="cp">&lt;%=</span> <span class="vi">@post</span><span class="o">.</span><span class="n">errors</span><span class="o">.</span><span class="n">full_messages</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">', '</span><span class="p">)</span> <span class="cp">%&gt;</span>
+
+  <span class="nt">&lt;p&gt;</span>
+    <span class="cp">&lt;%=</span> <span class="n">f</span><span class="o">.</span><span class="n">label</span> <span class="ss">:user_name</span><span class="p">,</span> <span class="s1">'Author'</span> <span class="cp">%&gt;</span>
+    <span class="cp">&lt;%=</span> <span class="n">f</span><span class="o">.</span><span class="n">text_field</span> <span class="ss">:user_name</span> <span class="cp">%&gt;</span>
+  <span class="nt">&lt;/p&gt;</span>
+
+  <span class="nt">&lt;p&gt;</span>
+    <span class="cp">&lt;%=</span> <span class="n">f</span><span class="o">.</span><span class="n">submit</span> <span class="cp">%&gt;</span>
+  <span class="nt">&lt;/p&gt;</span>
+
+<span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span>
+</pre>
+      </div>
+
+      <p><code>full_messages</code> will display "User name can't be blank" while the text field is labeled "Author" which will likely cause confusion.</p>
+
+      <h2>Proper Implementation</h2>
+
+      <p>While the <a href="http://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-label">FormBuilder's label method</a> accepts <code>content_or_options</code>, <strong>I consider "content" deprecated</strong> due to error message display and localization concerns. Here's the proper implementation:</p>
+
+      <div class="highlight">
+        <pre>
+<span class="c1"># config/locales/en.yml</span>
+<span class="l-Scalar-Plain">activerecord</span><span class="p-Indicator">:</span>
+  <span class="l-Scalar-Plain">attributes</span><span class="p-Indicator">:</span>
+    <span class="l-Scalar-Plain">post</span><span class="p-Indicator">:</span>
+      <span class="l-Scalar-Plain">user_name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Author</span>
+</pre>
+      </div>
+
+      <div class="highlight">
+        <pre>
+<span class="cp">&lt;%=</span> <span class="n">form_for</span> <span class="vi">@post</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span> <span class="cp">%&gt;</span>
+
+  <span class="cp">&lt;%=</span> <span class="vi">@post</span><span class="o">.</span><span class="n">errors</span><span class="o">.</span><span class="n">full_messages</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">', '</span><span class="p">)</span> <span class="cp">%&gt;</span>
+
+  <span class="nt">&lt;p&gt;</span>
+    <span class="cp">&lt;%=</span> <span class="n">f</span><span class="o">.</span><span class="n">label</span> <span class="ss">:user_name</span> <span class="cp">%&gt;</span>
+    <span class="cp">&lt;%=</span> <span class="n">f</span><span class="o">.</span><span class="n">text_field</span> <span class="ss">:user_name</span> <span class="cp">%&gt;</span>
+  <span class="nt">&lt;/p&gt;</span>
+
+  <span class="nt">&lt;p&gt;</span>
+    <span class="cp">&lt;%=</span> <span class="n">f</span><span class="o">.</span><span class="n">submit</span> <span class="cp">%&gt;</span>
+  <span class="nt">&lt;/p&gt;</span>
+
+<span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span>
+</pre>
+      </div>
+
+      <p>With that change you're properly set up for new language support and the field names in the error messages will match your labels.</p><!-- post:content:end -->
+    </div>
+  </div>
+
+  <div id="footer">
+    <ul class="navigation">
+      <li class="prev">
+        <a href="time-zones-and-datetime-select.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Time Zones and datetime_select</span><span class="less">Previous</span></a>
+      </li>
+
+      <li>
+        <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
+      </li>
+
+      <li class="next">
+        <a href="param-accessible.html"><span class="more">Protecting Yourself from Malicious params</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
+      </li>
+    </ul>
+
+    <div class="introduction row-fluid">
+      <div class="title span6">
+        <h1><a title="Dan Cunning" href="../">Dan Cunning</a></h1>
+
+        <ul>
+          <li>
+            <a title="Twitter" href="https://twitter.com/itopdan"><span class="about-twitter">&nbsp;</span> twitter</a>
+          </li>
+
+          <li>
+            <a title="github" href="https://github.com/topdan"><span class="about-github">&nbsp;</span> github</a>
+          </li>
+
+          <li>
+            <a title="Email" href="mailto:dan@topdan.com"><span class="about-email">&nbsp;</span> email</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="profile span6">
+        <img width="75" height="75" src="../assets/dan-5c0db9866c0c42f56063b91a4107d1da.jpg" alt="Dan">
+
+        <p>I'm a <a href="./">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="../dan-cunning.html">Read more »</a></p>
+      </div>
+    </div>
+
+    <p id="view-source"><span class="view">View Source:</span> <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/form-builder-label-and-full-error-messages.html">HTML</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/form-builder-label-and-full-error-messages.json">JSON</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/form-builder-label-and-full-error-messages.html.md">View</a></p>
+
+    <div id="copyright">
+      <p>© 2012-2015 Dan Cunning. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>

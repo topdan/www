@@ -45,7 +45,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
     </li>
 
     <li class="next">
-      <a href="my-least-favorite-activerecord-feature.html"><span class="more">My Least Favorite ActiveRecord Feature</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
+      <a href="beware-active-record-callbacks.html"><span class="more">Beware ActiveRecord callbacks</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
     </li>
   </ul>
 
@@ -164,62 +164,52 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 
       <div class="highlight">
         <pre>
-<span class="c1">// assets/javascripts/infinite-scroll.js</span>
-<span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-  <span class="kd">var</span> <span class="nx">content</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">'#content'</span><span class="p">);</span>    <span class="c1">// where to load new content</span>
-  <span class="kd">var</span> <span class="nx">viewMore</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">'#view-more'</span><span class="p">);</span> <span class="c1">// tag containing the "View More" link</span>
+<span class="c1"># assets/javascripts/infinite-scroll.js.coffee</span>
+<span class="nx">$</span> <span class="nf">-&gt;</span>
+  <span class="nv">content = </span><span class="nx">$</span><span class="p">(</span><span class="s">'#content'</span><span class="p">)</span>    <span class="c1"># where to load new content</span>
+  <span class="nv">viewMore = </span><span class="nx">$</span><span class="p">(</span><span class="s">'#view-more'</span><span class="p">)</span> <span class="c1"># tag containing the "View More" link</span>
 
-  <span class="kd">var</span> <span class="nx">isLoadingNextPage</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>  <span class="c1">// keep from loading two pages at once</span>
-  <span class="kd">var</span> <span class="nx">lastLoadAt</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>          <span class="c1">// when you loaded the last page</span>
-  <span class="kd">var</span> <span class="nx">minTimeBetweenPages</span> <span class="o">=</span> <span class="mi">5000</span><span class="p">;</span> <span class="c1">// milliseconds to wait between loading pages</span>
-  <span class="kd">var</span> <span class="nx">loadNextPageAt</span> <span class="o">=</span> <span class="mi">1000</span><span class="p">;</span>      <span class="c1">// pixels above the bottom</span>
+  <span class="nv">isLoadingNextPage = </span><span class="kc">false</span>  <span class="c1"># keep from loading two pages at once</span>
+  <span class="nv">lastLoadAt = </span><span class="kc">null</span>          <span class="c1"># when you loaded the last page</span>
+  <span class="nv">minTimeBetweenPages = </span><span class="mi">5000</span> <span class="c1"># milliseconds to wait between loading pages</span>
+  <span class="nv">loadNextPageAt = </span><span class="mi">1000</span>      <span class="c1"># pixels above the bottom</span>
 
-  <span class="kd">var</span> <span class="nx">waitedLongEnoughBetweenPages</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="nx">lastLoadAt</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">||</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">()</span> <span class="o">-</span> <span class="nx">lastLoadAt</span> <span class="o">&gt;</span> <span class="nx">minTimeBetweenPages</span><span class="p">;</span>
-  <span class="p">}</span>
+  <span class="nv">waitedLongEnoughBetweenPages = </span><span class="nf">-&gt;</span>
+    <span class="k">return</span> <span class="nx">lastLoadAt</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">||</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">()</span> <span class="o">-</span> <span class="nx">lastLoadAt</span> <span class="o">&gt;</span> <span class="nx">minTimeBetweenPages</span>
 
-  <span class="kd">var</span> <span class="nx">approachingBottomOfPage</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nv">approachingBottomOfPage = </span><span class="nf">-&gt;</span>
     <span class="k">return</span> <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">clientHeight</span> <span class="o">+</span>
-        <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">scrollTop</span><span class="p">()</span> <span class="o">&lt;</span> <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">offsetHeight</span> <span class="o">-</span> <span class="nx">loadNextPageAt</span><span class="p">;</span>
-  <span class="p">}</span>
+        <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">scrollTop</span><span class="p">()</span> <span class="o">&lt;</span> <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">offsetHeight</span> <span class="o">-</span> <span class="nx">loadNextPageAt</span>
 
-  <span class="kd">var</span> <span class="nx">nextPage</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-    <span class="kd">var</span> <span class="nx">url</span> <span class="o">=</span> <span class="nx">viewMore</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="s1">'a'</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">'href'</span><span class="p">);</span>
+  <span class="nv">nextPage = </span><span class="nf">-&gt;</span>
+    <span class="nv">url = </span><span class="nx">viewMore</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="s">'a'</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s">'href'</span><span class="p">)</span>
 
-    <span class="k">if</span> <span class="p">(</span><span class="nx">isLoadingNextPage</span> <span class="o">||</span> <span class="o">!</span><span class="nx">url</span><span class="p">)</span>
-      <span class="k">return</span><span class="p">;</span>
+    <span class="k">return</span> <span class="k">if</span> <span class="nx">isLoadingNextPage</span> <span class="o">||</span> <span class="o">!</span><span class="nx">url</span>
 
-    <span class="nx">viewMore</span><span class="p">.</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">'loading'</span><span class="p">);</span>
-    <span class="nx">isLoadingNextPage</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
-    <span class="nx">lastLoadAt</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">();</span>
+    <span class="nx">viewMore</span><span class="p">.</span><span class="nx">addClass</span><span class="p">(</span><span class="s">'loading'</span><span class="p">)</span>
+    <span class="nv">isLoadingNextPage = </span><span class="kc">true</span>
+    <span class="nv">lastLoadAt = </span><span class="k">new</span> <span class="nb">Date</span><span class="p">()</span>
 
     <span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
-      <span class="nx">url</span><span class="o">:</span> <span class="nx">url</span><span class="p">,</span>
-      <span class="nx">method</span><span class="o">:</span> <span class="s1">'GET'</span><span class="p">,</span>
-      <span class="nx">dataType</span><span class="o">:</span> <span class="s1">'script'</span><span class="p">,</span>
-      <span class="nx">success</span><span class="o">:</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-        <span class="nx">viewMore</span><span class="p">.</span><span class="nx">removeClass</span><span class="p">(</span><span class="s1">'loading'</span><span class="p">);</span>
-        <span class="nx">isLoadingNextPage</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
-        <span class="nx">lastLoadAt</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">();</span>
-      <span class="p">}</span>
+      <span class="nv">url: </span><span class="nx">url</span><span class="p">,</span>
+      <span class="nv">method: </span><span class="s">'GET'</span><span class="p">,</span>
+      <span class="nv">dataType: </span><span class="s">'script'</span><span class="p">,</span>
+      <span class="nv">success: </span><span class="nf">-&gt;</span>
+        <span class="nx">viewMore</span><span class="p">.</span><span class="nx">removeClass</span><span class="p">(</span><span class="s">'loading'</span><span class="p">);</span>
+        <span class="nv">isLoadingNextPage = </span><span class="kc">false</span><span class="p">;</span>
+        <span class="nv">lastLoadAt = </span><span class="k">new</span> <span class="nb">Date</span><span class="p">();</span>
     <span class="p">})</span>
-  <span class="p">};</span>
 
-  <span class="c1">// watch the scrollbar</span>
-  <span class="nx">$</span><span class="p">(</span><span class="nb">window</span><span class="p">).</span><span class="nx">scroll</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">if</span> <span class="p">(</span><span class="nx">approachingBottomOfPage</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="nx">waitedLongEnoughBetweenPages</span><span class="p">())</span> <span class="p">{</span>
-      <span class="nx">nextPage</span><span class="p">();</span>
-    <span class="p">}</span>
-  <span class="p">});</span>
+  <span class="c1"># watch the scrollbar</span>
+  <span class="nx">$</span><span class="p">(</span><span class="nb">window</span><span class="p">).</span><span class="nx">scroll</span> <span class="nf">-&gt;</span>
+    <span class="k">if</span> <span class="nx">approachingBottomOfPage</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="nx">waitedLongEnoughBetweenPages</span><span class="p">()</span>
+      <span class="nx">nextPage</span><span class="p">()</span>
 
-  <span class="c1">// failsafe in case the user gets to the bottom</span>
-  <span class="c1">// without infinite scrolling taking affect.</span>
-  <span class="nx">viewMore</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="s1">'a'</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">nextPage</span><span class="p">();</span>
-    <span class="nx">e</span><span class="p">.</span><span class="nx">preventDefaults</span><span class="p">();</span>
-  <span class="p">})</span>
-
-<span class="p">});</span>
+  <span class="c1"># failsafe in case the user gets to the bottom</span>
+  <span class="c1"># without infinite scrolling taking affect.</span>
+  <span class="nx">viewMore</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="s">'a'</span><span class="p">).</span><span class="nx">click</span> <span class="nf">(e) -&gt;</span>
+    <span class="nx">nextPage</span><span class="p">()</span>
+    <span class="nx">e</span><span class="p">.</span><span class="nx">preventDefaults</span><span class="p">()</span>
 </pre>
       </div>
 
@@ -257,7 +247,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
       </li>
 
       <li class="next">
-        <a href="my-least-favorite-activerecord-feature.html"><span class="more">My Least Favorite ActiveRecord Feature</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
+        <a href="beware-active-record-callbacks.html"><span class="more">Beware ActiveRecord callbacks</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
       </li>
     </ul>
 

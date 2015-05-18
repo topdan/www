@@ -1,0 +1,13 @@
+{
+  "title": "f.label and errors.full_messages",
+  "description": "Why you should never use the explicit \"content\" parameter of label_tag or the form builder's label method.",
+  "format": "md",
+  "skips_description": true,
+  "published_at": "2015-05-18 18:00:00 UTC",
+  "author": {
+    "name": "Dan Cunning"
+  },
+  "created_at": "2015-05-18 15:10:02 -0400",
+  "updated_at": "2015-05-18 15:10:02 -0400"
+}
+

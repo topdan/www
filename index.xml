@@ -5,11 +5,23 @@
   <link rel="self" type="application/atom+xml" href="http://www.topdan.com/index.xml"/>
   <title>Dan Cunning - topdan.com</title>
   <subtitle>A Ruby on Rails contractor's writes about his meandering thoughts</subtitle>
-  <updated>2015-05-12 16:00:00 UTC</updated>
+  <updated>2015-05-18 18:00:00 UTC</updated>
+  <entry>
+    <id>http://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html</id>
+    <published>2015-05-18T15:10:02-04:00</published>
+    <updated>2015-05-18T15:10:02-04:00</updated>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>f.label and errors.full_messages</title>
+    <content>Why you should never use the explicit "content" parameter of label_tag or the form builder's label method.</content>
+    <updated>2015-05-18 18:00:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/time-zones-and-datetime-select.html</id>
     <published>2015-05-12T13:51:31-04:00</published>
-    <updated>2015-05-12T13:55:05-04:00</updated>
+    <updated>2015-05-12T14:01:30-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/time-zones-and-datetime-select.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Time Zones and datetime_select</title>
     <content>A simple fix for using datetime_select and time_zone_select together.</content>
@@ -115,11 +127,11 @@
     </author>
   </entry>
   <entry>
-    <id>http://www.topdan.com/ruby-on-rails/my-least-favorite-activerecord-feature.html</id>
-    <published>2014-07-17T14:30:07-04:00</published>
-    <updated>2015-03-08T13:47:09-04:00</updated>
-    <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/my-least-favorite-activerecord-feature.html?utm_medium=atom&amp;utm_source=feed"/>
-    <title>My Least Favorite ActiveRecord Feature</title>
+    <id>http://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html</id>
+    <published>2015-05-18T14:45:04-04:00</published>
+    <updated>2015-05-18T14:45:04-04:00</updated>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>Beware ActiveRecord callbacks</title>
     <content>ActiveRecord is a fantastically well-made ORM that makes working with databases a breeze, but one feature in the callback structure is incredibly bug-prone.</content>
     <updated>2014-07-17 16:00:00 UTC</updated>
     <author>
@@ -153,7 +165,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html</id>
     <published>2014-06-18T12:53:38-04:00</published>
-    <updated>2015-03-08T13:47:09-04:00</updated>
+    <updated>2015-05-18T14:42:41-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Simple Infinite Scrolling with AJAX and Rails</title>
     <content>Ruby on Rails and jQuery team up to allow your visitors to scroll through all your content without initially loading them all.</content>
@@ -285,7 +297,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/movie-recommendations.html</id>
     <published>2014-08-19T17:10:01-04:00</published>
-    <updated>2015-05-12T06:53:01-04:00</updated>
+    <updated>2015-05-18T06:53:07-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/movie-recommendations.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Movie Recommendations</title>
     <content>Movies that I enjoyed enough that I think you should look into them. They tend to be unique, covering perspectives and topics I've never seen on screen before.</content>
@@ -321,7 +333,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/current-tv-shows.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2015-05-12T06:53:01-04:00</updated>
+    <updated>2015-05-18T06:53:07-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/current-tv-shows.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>My Current TV Shows</title>
     <content>TV shows I'm currently watching. They may be new ones or just catching up with older ones.</content>
@@ -333,7 +345,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/previous-tv-shows.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2015-04-11T06:52:56-04:00</updated>
+    <updated>2015-05-13T06:52:50-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/previous-tv-shows.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>My Completed TV Shows</title>
     <content>TV shows I watched every episode and enjoyed enough that I added them to this list.</content>

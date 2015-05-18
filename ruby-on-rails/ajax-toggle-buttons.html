@@ -132,7 +132,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
       <div class="highlight">
         <pre>
 <span class="c1"># models/post.rb</span>
-<span class="k">class</span> <span class="nc">Post</span> <span class="o">&lt;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+<span class="k">class</span> <span class="nc">Post</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
 
   <span class="k">def</span> <span class="nf">favorited?</span>
     <span class="n">favorited_at</span> <span class="o">!=</span> <span class="kp">nil</span>

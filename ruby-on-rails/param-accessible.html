@@ -37,7 +37,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 
   <ul class="navigation">
     <li class="prev">
-      <a href="time-zones-and-datetime-select.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Time Zones and datetime_select</span><span class="less">Previous</span></a>
+      <a href="form-builder-label-and-full-error-messages.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">f.label and errors.full_messages</span><span class="less">Previous</span></a>
     </li>
 
     <li>
@@ -96,7 +96,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 <span class="c1">#</span>
 <span class="c1"># app/controllers/application_controller.rb</span>
 <span class="c1">#</span>
-<span class="k">class</span> <span class="nc">ApplicationController</span> <span class="o">&lt;</span> <span class="ss">ActionController</span><span class="p">:</span><span class="ss">:Base</span>
+<span class="k">class</span> <span class="nc">ApplicationController</span> <span class="o">&lt;</span> <span class="no">ActionController</span><span class="o">::</span><span class="no">Base</span>
 
   <span class="c1"># make create and update actions across your application secure by default</span>
   <span class="n">before_filter</span> <span class="ss">:ensure_params_are_accessible</span><span class="p">,</span> <span class="ss">:only</span> <span class="o">=&gt;</span> <span class="o">[</span><span class="ss">:create</span><span class="p">,</span> <span class="ss">:update</span><span class="o">]</span>
@@ -105,7 +105,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
   <span class="n">param_accessible</span> <span class="ss">:page</span><span class="p">,</span> <span class="ss">:sort</span>
 
   <span class="c1"># this error is thrown when the user submits an inaccessible param</span>
-  <span class="n">rescue_from</span> <span class="ss">ParamAccessible</span><span class="p">:</span><span class="ss">:Error</span><span class="p">,</span> <span class="ss">:with</span> <span class="o">=&gt;</span> <span class="ss">:handle_param_not_accessible</span>
+  <span class="n">rescue_from</span> <span class="no">ParamAccessible</span><span class="o">::</span><span class="no">Error</span><span class="p">,</span> <span class="ss">:with</span> <span class="o">=&gt;</span> <span class="ss">:handle_param_not_accessible</span>
 
   <span class="kp">protected</span>
 
@@ -154,7 +154,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 
   <span class="c1"># rescue_from ParamAccessible::Error and respond with a 406 Not Acceptable status</span>
   <span class="c1"># and HTML, JSON, XML, or JS compatible explanation of which parameters were invalid</span>
-  <span class="kp">include</span> <span class="ss">ParamAccessible</span><span class="p">:</span><span class="ss">:NotAcceptableHelper</span>
+  <span class="kp">include</span> <span class="no">ParamAccessible</span><span class="o">::</span><span class="no">NotAcceptableHelper</span>
 
   <span class="n">param_accessible</span> <span class="ss">:foo</span><span class="p">,</span> <span class="ss">:if</span> <span class="o">=&gt;</span> <span class="ss">:is_admin</span>
   <span class="n">param_accessible</span> <span class="ss">:bar</span><span class="p">,</span> <span class="ss">:unless</span> <span class="o">=&gt;</span> <span class="ss">:logged_in?</span>
@@ -184,7 +184,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
   <div id="footer">
     <ul class="navigation">
       <li class="prev">
-        <a href="time-zones-and-datetime-select.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Time Zones and datetime_select</span><span class="less">Previous</span></a>
+        <a href="form-builder-label-and-full-error-messages.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">f.label and errors.full_messages</span><span class="less">Previous</span></a>
       </li>
 
       <li>

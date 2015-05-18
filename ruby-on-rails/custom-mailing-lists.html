@@ -37,7 +37,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 
   <ul class="navigation">
     <li class="prev">
-      <a href="my-least-favorite-activerecord-feature.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">My Least Favorite ActiveRecord Feature</span><span class="less">Previous</span></a>
+      <a href="beware-active-record-callbacks.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Beware ActiveRecord callbacks</span><span class="less">Previous</span></a>
     </li>
 
     <li>
@@ -189,11 +189,11 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 
       <div class="highlight">
         <pre>
-<span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+<span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
 
   <span class="n">has_many</span> <span class="ss">:memberships</span>
   <span class="n">has_many</span> <span class="ss">:groups</span><span class="p">,</span>        <span class="ss">through</span><span class="p">:</span> <span class="ss">:memberships</span>
-  <span class="n">has_many</span> <span class="ss">:sent_messages</span><span class="p">,</span> <span class="n">foreign_key</span><span class="p">:</span> <span class="s1">'from_id'</span>
+  <span class="n">has_many</span> <span class="ss">:sent_messages</span><span class="p">,</span> <span class="ss">foreign_key</span><span class="p">:</span> <span class="s1">'from_id'</span>
 
   <span class="n">validates</span> <span class="ss">:name</span><span class="p">,</span>  <span class="ss">presence</span><span class="p">:</span> <span class="kp">true</span><span class="p">,</span> <span class="nb">format</span><span class="p">:</span> <span class="p">{</span><span class="ss">with</span><span class="p">:</span> <span class="sr">%r(^[\w\ ]+$)</span><span class="p">}</span>
   <span class="n">validates</span> <span class="ss">:email</span><span class="p">,</span> <span class="ss">presence</span><span class="p">:</span> <span class="kp">true</span><span class="p">,</span> <span class="ss">uniqueness</span><span class="p">:</span> <span class="kp">true</span>
@@ -208,7 +208,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 
       <div class="highlight">
         <pre>
-<span class="k">class</span> <span class="nc">Group</span> <span class="o">&lt;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+<span class="k">class</span> <span class="nc">Group</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
 
   <span class="n">has_many</span> <span class="ss">:memberships</span><span class="p">,</span> <span class="ss">dependent</span><span class="p">:</span> <span class="ss">:destroy</span>
   <span class="n">has_many</span> <span class="ss">:users</span><span class="p">,</span>       <span class="ss">through</span><span class="p">:</span> <span class="ss">:memberships</span>
@@ -228,7 +228,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 
       <div class="highlight">
         <pre>
-<span class="k">class</span> <span class="nc">Membership</span> <span class="o">&lt;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+<span class="k">class</span> <span class="nc">Membership</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
 
   <span class="n">belongs_to</span> <span class="ss">:user</span>
   <span class="n">belongs_to</span> <span class="ss">:group</span>
@@ -260,7 +260,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 
       <div class="highlight">
         <pre>
-<span class="k">class</span> <span class="nc">Discussion</span> <span class="o">&lt;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+<span class="k">class</span> <span class="nc">Discussion</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
 
   <span class="n">belongs_to</span> <span class="ss">:group</span>
 
@@ -292,10 +292,10 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 
       <div class="highlight">
         <pre>
-<span class="k">class</span> <span class="nc">Message</span> <span class="o">&lt;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+<span class="k">class</span> <span class="nc">Message</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
 
   <span class="n">belongs_to</span> <span class="ss">:discussion</span>
-  <span class="n">belongs_to</span> <span class="ss">:from</span><span class="p">,</span> <span class="n">class_name</span><span class="p">:</span> <span class="s1">'User'</span>
+  <span class="n">belongs_to</span> <span class="ss">:from</span><span class="p">,</span> <span class="ss">class_name</span><span class="p">:</span> <span class="s1">'User'</span>
 
   <span class="n">validates</span> <span class="ss">:from_id</span><span class="p">,</span> <span class="ss">presence</span><span class="p">:</span> <span class="kp">true</span>
   <span class="n">validates</span> <span class="ss">:content</span><span class="p">,</span> <span class="ss">presence</span><span class="p">:</span> <span class="kp">true</span>
@@ -356,7 +356,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 
 <span class="no">Griddler</span><span class="o">.</span><span class="n">configure</span> <span class="k">do</span> <span class="o">|</span><span class="n">config</span><span class="o">|</span>
   <span class="n">config</span><span class="o">.</span><span class="n">email_service</span> <span class="o">=</span> <span class="ss">:mandrill</span>
-  <span class="n">config</span><span class="o">.</span><span class="n">processor_class</span> <span class="o">=</span> <span class="ss">Griddler</span><span class="p">:</span><span class="ss">:EmailProcessor</span>
+  <span class="n">config</span><span class="o">.</span><span class="n">processor_class</span> <span class="o">=</span> <span class="no">Griddler</span><span class="o">::</span><span class="no">EmailProcessor</span>
 <span class="k">end</span>
 </pre>
       </div>
@@ -381,7 +381,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 
       <div class="highlight">
         <pre>
-<span class="k">class</span> <span class="nc">ReceiveEmailJob</span> <span class="o">&lt;</span> <span class="ss">ActiveJob</span><span class="p">:</span><span class="ss">:Base</span>
+<span class="k">class</span> <span class="nc">ReceiveEmailJob</span> <span class="o">&lt;</span> <span class="no">ActiveJob</span><span class="o">::</span><span class="no">Base</span>
   <span class="n">queue_as</span> <span class="ss">:default</span>
 
   <span class="k">def</span> <span class="nf">perform</span><span class="p">(</span><span class="n">email</span><span class="p">)</span>
@@ -419,7 +419,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
   <span class="k">end</span>
 
   <span class="k">def</span> <span class="nf">allow_messages_to?</span><span class="p">(</span><span class="n">group</span><span class="p">)</span>
-    <span class="n">group</span> <span class="o">&amp;&amp;</span> <span class="n">group</span><span class="o">.</span><span class="n">memberships</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">user_id</span><span class="p">:</span> <span class="vi">@from</span><span class="p">)</span><span class="o">.</span><span class="n">any?</span>
+    <span class="n">group</span> <span class="o">&amp;&amp;</span> <span class="n">group</span><span class="o">.</span><span class="n">memberships</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">user_id</span><span class="p">:</span> <span class="vi">@from</span><span class="p">)</span><span class="o">.</span><span class="n">any?</span>
   <span class="k">end</span>
 
   <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
@@ -432,7 +432,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 
       <div class="highlight">
         <pre>
-<span class="k">class</span> <span class="nc">ForwardMessageJob</span> <span class="o">&lt;</span> <span class="ss">ActiveJob</span><span class="p">:</span><span class="ss">:Base</span>
+<span class="k">class</span> <span class="nc">ForwardMessageJob</span> <span class="o">&lt;</span> <span class="no">ActiveJob</span><span class="o">::</span><span class="no">Base</span>
   <span class="n">queue_as</span> <span class="ss">:default</span>
 
   <span class="k">def</span> <span class="nf">perform</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
@@ -448,7 +448,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 
   <span class="k">def</span> <span class="nf">memberships</span>
     <span class="vi">@message</span><span class="o">.</span><span class="n">group</span><span class="o">.</span><span class="n">memberships</span><span class="o">.</span>
-      <span class="n">where</span><span class="p">(</span><span class="n">receives_every_message</span><span class="p">:</span> <span class="kp">true</span><span class="p">)</span><span class="o">.</span>
+      <span class="n">where</span><span class="p">(</span><span class="ss">receives_every_message</span><span class="p">:</span> <span class="kp">true</span><span class="p">)</span><span class="o">.</span>
       <span class="n">where</span><span class="p">(</span><span class="s1">'user_id != ?'</span><span class="p">,</span> <span class="vi">@message</span><span class="o">.</span><span class="n">from</span><span class="p">)</span>
   <span class="k">end</span>
 
@@ -597,7 +597,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
   <span class="k">def</span> <span class="nf">digest</span><span class="p">(</span><span class="n">membership</span><span class="p">,</span> <span class="n">timeframe</span><span class="p">)</span>
     <span class="vi">@membership</span> <span class="o">=</span> <span class="n">membership</span>
     <span class="vi">@group</span> <span class="o">=</span> <span class="n">membership</span><span class="o">.</span><span class="n">group</span>
-    <span class="vi">@messages</span> <span class="o">=</span> <span class="vi">@group</span><span class="o">.</span><span class="n">messages</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">created_at</span><span class="p">:</span> <span class="n">timeframe</span><span class="p">)</span><span class="o">.</span><span class="n">order</span><span class="p">(</span><span class="ss">:discussion_id</span><span class="p">,</span> <span class="ss">:created_at</span><span class="p">)</span>
+    <span class="vi">@messages</span> <span class="o">=</span> <span class="vi">@group</span><span class="o">.</span><span class="n">messages</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">created_at</span><span class="p">:</span> <span class="n">timeframe</span><span class="p">)</span><span class="o">.</span><span class="n">order</span><span class="p">(</span><span class="ss">:discussion_id</span><span class="p">,</span> <span class="ss">:created_at</span><span class="p">)</span>
 
     <span class="n">mail</span><span class="p">({</span>
       <span class="ss">to</span><span class="p">:</span> <span class="vi">@membership</span><span class="o">.</span><span class="n">user</span><span class="o">.</span><span class="n">email</span><span class="p">,</span>
@@ -637,9 +637,9 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
         <span class="n">last_sent</span> <span class="o">=</span> <span class="n">group</span><span class="o">.</span><span class="n">digest_last_sent_at</span> <span class="o">||</span> <span class="n">now</span> <span class="o">-</span> <span class="mi">1</span><span class="o">.</span><span class="n">week</span>
         <span class="n">timeframe</span> <span class="o">=</span> <span class="p">(</span><span class="n">last_sent</span><span class="o">.</span><span class="n">.now</span><span class="p">)</span>
 
-        <span class="k">next</span> <span class="k">if</span> <span class="n">group</span><span class="o">.</span><span class="n">messages</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">created_at</span><span class="p">:</span> <span class="n">timeframe</span><span class="p">)</span><span class="o">.</span><span class="n">empty?</span>
+        <span class="k">next</span> <span class="k">if</span> <span class="n">group</span><span class="o">.</span><span class="n">messages</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">created_at</span><span class="p">:</span> <span class="n">timeframe</span><span class="p">)</span><span class="o">.</span><span class="n">empty?</span>
 
-        <span class="n">group</span><span class="o">.</span><span class="n">memberships</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">receives_digest</span><span class="p">:</span> <span class="kp">true</span><span class="p">)</span><span class="o">.</span><span class="n">find_each</span> <span class="k">do</span> <span class="o">|</span><span class="n">membership</span><span class="o">|</span>
+        <span class="n">group</span><span class="o">.</span><span class="n">memberships</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">receives_digest</span><span class="p">:</span> <span class="kp">true</span><span class="p">)</span><span class="o">.</span><span class="n">find_each</span> <span class="k">do</span> <span class="o">|</span><span class="n">membership</span><span class="o">|</span>
           <span class="no">GroupsMailer</span><span class="o">.</span><span class="n">digest</span><span class="p">(</span><span class="n">membership</span><span class="p">,</span> <span class="n">timeframe</span><span class="p">)</span><span class="o">.</span><span class="n">deliver_later</span>
         <span class="k">end</span>
 
@@ -697,7 +697,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
   <span class="n">before_action</span> <span class="ss">:load_group</span>
 
   <span class="k">def</span> <span class="nf">index</span>
-    <span class="vi">@discussions</span> <span class="o">=</span> <span class="vi">@group</span><span class="o">.</span><span class="n">discussions</span><span class="o">.</span><span class="n">order</span><span class="p">(</span><span class="n">created_at</span><span class="p">:</span> <span class="ss">:desc</span><span class="p">)</span>
+    <span class="vi">@discussions</span> <span class="o">=</span> <span class="vi">@group</span><span class="o">.</span><span class="n">discussions</span><span class="o">.</span><span class="n">order</span><span class="p">(</span><span class="ss">created_at</span><span class="p">:</span> <span class="ss">:desc</span><span class="p">)</span>
   <span class="k">end</span>
 
   <span class="k">def</span> <span class="nf">show</span>
@@ -811,7 +811,7 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
   <div id="footer">
     <ul class="navigation">
       <li class="prev">
-        <a href="my-least-favorite-activerecord-feature.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">My Least Favorite ActiveRecord Feature</span><span class="less">Previous</span></a>
+        <a href="beware-active-record-callbacks.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Beware ActiveRecord callbacks</span><span class="less">Previous</span></a>
       </li>
 
       <li>

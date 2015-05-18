@@ -70,16 +70,19 @@
     <loc>http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html</loc>
   </url>
   <url>
+    <loc>http://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html</loc>
+  </url>
+  <url>
     <loc>http://www.topdan.com/ruby-on-rails/custom-mailing-lists.html</loc>
   </url>
   <url>
     <loc>http://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html</loc>
   </url>
   <url>
-    <loc>http://www.topdan.com/ruby-on-rails/index.html</loc>
+    <loc>http://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html</loc>
   </url>
   <url>
-    <loc>http://www.topdan.com/ruby-on-rails/my-least-favorite-activerecord-feature.html</loc>
+    <loc>http://www.topdan.com/ruby-on-rails/index.html</loc>
   </url>
   <url>
     <loc>http://www.topdan.com/ruby-on-rails/param-accessible.html</loc>

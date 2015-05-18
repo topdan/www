@@ -107,8 +107,8 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
         <pre>
 <span class="c1"># For Newer Snippets</span>
 <span class="k">class</span> <span class="nc">UserActivity</span>
-  <span class="kp">extend</span> <span class="ss">Garb</span><span class="p">:</span><span class="ss">:Model</span>
-  <span class="kp">extend</span> <span class="ss">Garb</span><span class="p">:</span><span class="ss">:Queryable</span>
+  <span class="kp">extend</span> <span class="no">Garb</span><span class="o">::</span><span class="no">Model</span>
+  <span class="kp">extend</span> <span class="no">Garb</span><span class="o">::</span><span class="no">Queryable</span>
 
   <span class="n">metrics</span> <span class="ss">:pageviews</span><span class="p">,</span> <span class="ss">:uniquePageviews</span>
   <span class="n">dimensions</span> <span class="ss">:dimension1</span>
@@ -136,8 +136,8 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
         <pre>
 <span class="c1"># For Older Snippets</span>
 <span class="k">class</span> <span class="nc">UserActivity</span>
-  <span class="kp">extend</span> <span class="ss">Garb</span><span class="p">:</span><span class="ss">:Model</span>
-  <span class="kp">extend</span> <span class="ss">Garb</span><span class="p">:</span><span class="ss">:Queryable</span>
+  <span class="kp">extend</span> <span class="no">Garb</span><span class="o">::</span><span class="no">Model</span>
+  <span class="kp">extend</span> <span class="no">Garb</span><span class="o">::</span><span class="no">Queryable</span>
 
   <span class="n">metrics</span> <span class="ss">:pageviews</span><span class="p">,</span> <span class="ss">:uniquePageviews</span>
   <span class="n">dimensions</span> <span class="ss">:customVarName1</span><span class="p">,</span> <span class="ss">:customVarValue1</span>
@@ -182,14 +182,14 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 
       <div class="highlight">
         <pre>
-<span class="k">class</span> <span class="nc">AnalyticsMailer</span> <span class="o">&lt;</span> <span class="ss">ActionMailer</span><span class="p">:</span><span class="ss">:Base</span>
+<span class="k">class</span> <span class="nc">AnalyticsMailer</span> <span class="o">&lt;</span> <span class="no">ActionMailer</span><span class="o">::</span><span class="no">Base</span>
 
   <span class="k">def</span> <span class="nf">user_activity_report</span><span class="p">(</span><span class="n">to_email</span><span class="p">,</span> <span class="n">profile</span><span class="p">)</span>
     <span class="c1"># Back one week from midnight last night</span>
     <span class="n">start_at</span> <span class="o">=</span> <span class="no">Date</span><span class="o">.</span><span class="n">today</span> <span class="o">-</span> <span class="mi">1</span><span class="o">.</span><span class="n">week</span>
     <span class="n">end_at</span> <span class="o">=</span> <span class="no">Date</span><span class="o">.</span><span class="n">today</span>
 
-    <span class="vi">@activities</span> <span class="o">=</span> <span class="no">UserActivity</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="n">profile</span><span class="p">,</span> <span class="n">start_date</span><span class="p">:</span> <span class="n">start_at</span><span class="p">,</span> <span class="n">end_date</span><span class="p">:</span> <span class="n">end_at</span><span class="p">)</span>
+    <span class="vi">@activities</span> <span class="o">=</span> <span class="no">UserActivity</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="n">profile</span><span class="p">,</span> <span class="ss">start_date</span><span class="p">:</span> <span class="n">start_at</span><span class="p">,</span> <span class="ss">end_date</span><span class="p">:</span> <span class="n">end_at</span><span class="p">)</span>
     <span class="vi">@activities</span><span class="o">.</span><span class="n">sort!</span> <span class="p">{</span><span class="o">|</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="o">|</span> <span class="n">b</span><span class="o">.</span><span class="n">pageviews</span> <span class="o">&lt;=&gt;</span> <span class="n">a</span><span class="o">.</span><span class="n">pageviews</span> <span class="p">}</span>
     <span class="k">return</span> <span class="k">if</span> <span class="vi">@activities</span><span class="o">.</span><span class="n">empty?</span>
 
@@ -241,10 +241,10 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
       <span class="n">password</span> <span class="o">=</span> <span class="s1">'use-two-factor-auth-instead'</span>
       <span class="n">site_name</span> <span class="o">=</span> <span class="s1">'www.topdan.com'</span> <span class="c1"># name of your Google Analytics "Property"</span>
 
-      <span class="ss">Garb</span><span class="p">:</span><span class="ss">:Session</span><span class="o">.</span><span class="n">login</span><span class="p">(</span><span class="n">email</span><span class="p">,</span> <span class="n">password</span><span class="p">)</span>
+      <span class="no">Garb</span><span class="o">::</span><span class="no">Session</span><span class="o">.</span><span class="n">login</span><span class="p">(</span><span class="n">email</span><span class="p">,</span> <span class="n">password</span><span class="p">)</span>
       <span class="c1"># Garb::Session.api_key = api_key # required for 2-step authentication</span>
 
-      <span class="n">profiles</span> <span class="o">=</span> <span class="ss">Garb</span><span class="p">:</span><span class="ss">:Management</span><span class="o">::</span><span class="no">Profile</span><span class="o">.</span><span class="n">all</span>
+      <span class="n">profiles</span> <span class="o">=</span> <span class="no">Garb</span><span class="o">::</span><span class="no">Management</span><span class="o">::</span><span class="no">Profile</span><span class="o">.</span><span class="n">all</span>
       <span class="n">profile</span> <span class="o">=</span> <span class="n">profiles</span><span class="o">.</span><span class="n">detect</span> <span class="p">{</span><span class="o">|</span><span class="nb">p</span><span class="o">|</span> <span class="nb">p</span><span class="o">.</span><span class="n">name</span> <span class="o">==</span> <span class="n">site_name</span> <span class="p">}</span>
 
       <span class="no">AnalyticsMailer</span><span class="o">.</span><span class="n">user_activity_report</span><span class="p">(</span><span class="n">email</span><span class="p">,</span> <span class="n">profile</span><span class="p">)</span><span class="o">.</span><span class="n">deliver</span>
