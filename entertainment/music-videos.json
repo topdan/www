@@ -8,6 +8,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "The Notorious BIG ft. Ja Rule",
+      "song": "Old Thing Back",
+      "video_url": "https://www.youtube.com/watch?v=Sb3XfrCtjVU",
+      "thumbnail_url": "https://img.youtube.com/vi/Sb3XfrCtjVU/0.jpg",
+      "added_at": "2015-05-20 13:01:18 -0400"
+    },
+    {
       "artist": "Phoenix",
       "song": "Lisztomania",
       "video_url": "https://www.youtube.com/watch?v=4BJDNw7o6so",
@@ -817,6 +824,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-03-01 22:04:42 -0500"
+  "updated_at": "2015-05-20 13:02:21 -0400"
 }
 
