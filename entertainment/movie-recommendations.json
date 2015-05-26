@@ -195,6 +195,23 @@
       "on_amazon_prime": true
     },
     {
+      "title": "God Help the Girl",
+      "year": 2014,
+      "release_date": "2014-09-05",
+      "netflix_url": null,
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": "http://trailers.apple.com/trailers/independent/godhelpthegirl/",
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/12802/thumb_god-help-the-girl-2014.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt2141751/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/god_help_the_girl/",
+      "amazon_url": "http://www.amazon.com/gp/product/B00NNFZ1I0",
+      "on_netflix_instant": false,
+      "on_amazon_prime": true
+    },
+    {
       "title": "Gone Girl",
       "year": 2014,
       "release_date": "2014-10-03",
@@ -1822,6 +1839,23 @@
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/12133/thumb_speed-racer-2008.jpg",
       "imdb_url": "http://www.imdb.com/title/tt0811080/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/speed_racer/",
+      "amazon_url": null,
+      "on_netflix_instant": false,
+      "on_amazon_prime": false
+    },
+    {
+      "title": "Across the Universe",
+      "year": 2007,
+      "release_date": "2007-09-14",
+      "netflix_url": null,
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/16156/thumb_across-the-universe-2007.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt0445922/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/across_the_universe/",
       "amazon_url": null,
       "on_netflix_instant": false,
       "on_amazon_prime": false
@@ -3561,6 +3595,23 @@
       "on_amazon_prime": false
     },
     {
+      "title": "Deliverance",
+      "year": 1972,
+      "release_date": "1972-07-21",
+      "netflix_url": null,
+      "hbogo_url": null,
+      "maxgo_url": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP36476?videoMode=embeddedVideo?showSpecialFeatures=false/",
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/12116/thumb_deliverance-1972.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt0068473/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/deliverance/",
+      "amazon_url": null,
+      "on_netflix_instant": false,
+      "on_amazon_prime": false
+    },
+    {
       "title": "A Clockwork Orange",
       "year": 1971,
       "release_date": "1971-12-19",
@@ -3599,6 +3650,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-05-24 12:09:40 -0400"
+  "updated_at": "2015-05-26 12:50:45 -0400"
 }
 
