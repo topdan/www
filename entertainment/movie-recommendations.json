@@ -269,7 +269,7 @@
       "netflix_url": "http://movies.netflix.com/WiMovie/70275369",
       "hbogo_url": null,
       "maxgo_url": null,
-      "showtime_url": null,
+      "showtime_url": "http://www.showtimeanytime.com/#/movie/3379989",
       "apple_trailers_url": "http://trailers.apple.com/trailers/independent/insidellewyndavis/",
       "redbox_url": "http://www.redbox.com/movies/inside-llewyn-davis",
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/8842/thumb_inside-llewyn-davis-2014.jpg",
@@ -3650,6 +3650,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-05-26 12:50:45 -0400"
+  "updated_at": "2015-05-28 06:52:30 -0400"
 }
 
