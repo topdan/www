@@ -65,7 +65,7 @@
       "netflix_url": "http://movies.netflix.com/WiMovie/70307852",
       "hbogo_url": null,
       "maxgo_url": null,
-      "showtime_url": null,
+      "showtime_url": "http://www.showtimeanytime.com/#/movie/3403508",
       "apple_trailers_url": "http://trailers.apple.com/trailers/weinstein/beginagain/",
       "redbox_url": "http://www.redbox.com/movies/begin-again",
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/11166/thumb_begin-again-2014.jpg",
@@ -319,7 +319,7 @@
       "release_date": "2014-07-18",
       "netflix_url": "http://movies.netflix.com/WiMovie/70299858",
       "hbogo_url": null,
-      "maxgo_url": null,
+      "maxgo_url": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37584?videoMode=embeddedVideo?showSpecialFeatures=false/",
       "showtime_url": null,
       "apple_trailers_url": "http://trailers.apple.com/trailers/fox_searchlight/iorigins/",
       "redbox_url": "http://www.redbox.com/movies/i-origins",
@@ -3650,6 +3650,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-06-02 06:52:24 -0400"
+  "updated_at": "2015-06-07 06:52:22 -0400"
 }
 
