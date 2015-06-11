@@ -416,6 +416,23 @@
       "on_amazon_prime": false
     },
     {
+      "title": "Premature",
+      "year": 2014,
+      "release_date": "2014-07-02",
+      "netflix_url": null,
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": "http://www.showtimeanytime.com/#/movie/3410108",
+      "apple_trailers_url": "http://trailers.apple.com/trailers/independent/premature/",
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/12266/thumb_premature-2014.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt2182256/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/premature_2014/",
+      "amazon_url": "http://www.amazon.com/gp/product/B00LFE4FPG",
+      "on_netflix_instant": false,
+      "on_amazon_prime": false
+    },
+    {
       "title": "Snowpiercer",
       "year": 2014,
       "release_date": "2014-06-27",
@@ -445,6 +462,23 @@
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/14284/thumb_the-babadook-2014.jpg",
       "imdb_url": "http://www.imdb.com/title/tt2321549/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_babadook/",
+      "amazon_url": null,
+      "on_netflix_instant": true,
+      "on_amazon_prime": false
+    },
+    {
+      "title": "The Boxtrolls",
+      "year": 2014,
+      "release_date": "2014-09-26",
+      "netflix_url": "http://movies.netflix.com/WiMovie/70305891",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": "http://trailers.apple.com/trailers/focus_features/theboxtrolls/",
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/11235/thumb_the-boxtrolls-2014.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt0787474/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_boxtrolls/",
       "amazon_url": null,
       "on_netflix_instant": true,
       "on_amazon_prime": false
@@ -2184,6 +2218,23 @@
       "on_amazon_prime": false
     },
     {
+      "title": "Four Brothers",
+      "year": 2005,
+      "release_date": "2005-08-12",
+      "netflix_url": "http://movies.netflix.com/WiMovie/70028902",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/2343/thumb_four-brothers-2005.jpg",
+      "imdb_url": null,
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/four_brothers/",
+      "amazon_url": null,
+      "on_netflix_instant": true,
+      "on_amazon_prime": false
+    },
+    {
       "title": "Jarhead",
       "year": 2005,
       "release_date": "2005-11-04",
@@ -2283,6 +2334,23 @@
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/stay/",
       "amazon_url": null,
       "on_netflix_instant": false,
+      "on_amazon_prime": false
+    },
+    {
+      "title": "The Devil's Rejects",
+      "year": 2005,
+      "release_date": "2005-07-22",
+      "netflix_url": "http://movies.netflix.com/WiMovie/70028893",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/10972/thumb_the-devils-rejects-2005.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt0395584/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/devils_rejects/",
+      "amazon_url": "http://www.amazon.com/gp/product/B001AL3T9C",
+      "on_netflix_instant": true,
       "on_amazon_prime": false
     },
     {
@@ -3650,6 +3718,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-06-09 06:52:22 -0400"
+  "updated_at": "2015-06-11 06:52:21 -0400"
 }
 
