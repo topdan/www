@@ -5,7 +5,19 @@
   <link rel="self" type="application/atom+xml" href="http://www.topdan.com/index.xml"/>
   <title>Dan Cunning - topdan.com</title>
   <subtitle>A Ruby on Rails contractor's writes about his meandering thoughts</subtitle>
-  <updated>2015-05-18 18:00:00 UTC</updated>
+  <updated>2015-06-16 16:45:00 UTC</updated>
+  <entry>
+    <id>http://www.topdan.com/living/more-representative-democrazy.html</id>
+    <published>2015-05-21T17:06:40-04:00</published>
+    <updated>2015-06-16T16:49:40-04:00</updated>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/living/more-representative-democrazy.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>A More Representative Democracy</title>
+    <content>Technology has given our representatives the power to manipulate rather than represent, but here I imagine a system that returns the power of law-making to the people.</content>
+    <updated>2015-06-16 16:45:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html</id>
     <published>2015-05-18T15:10:02-04:00</published>
@@ -57,7 +69,7 @@
   <entry>
     <id>http://www.topdan.com/living/atlanta-food-and-drink-specials.html</id>
     <published>2015-01-31T15:26:59-05:00</published>
-    <updated>2015-04-04T13:41:17-04:00</updated>
+    <updated>2015-06-16T16:49:40-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/living/atlanta-food-and-drink-specials.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Atlanta Food &amp; Drink Specials</title>
     <content>Food and Drink deals in the parts of Atlanta I follow.</content>

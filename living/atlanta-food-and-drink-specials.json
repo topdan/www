@@ -2,7 +2,7 @@
   "title": "Atlanta Food & Drink Specials",
   "description": "Food and Drink deals in the parts of Atlanta I follow.",
   "format": "erb",
-  "featured": 1,
+  "featured": 2,
   "skips_description": true,
   "published_at": "2015-01-30 00:00:00 UTC",
   "data_type": "Living::Restaurant",
@@ -262,6 +262,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2015-01-31 15:26:59 -0500",
-  "updated_at": "2015-04-04 13:41:17 -0400"
+  "updated_at": "2015-06-16 16:49:40 -0400"
 }
 
