@@ -207,7 +207,7 @@
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/12802/thumb_god-help-the-girl-2014.jpg",
       "imdb_url": "http://www.imdb.com/title/tt2141751/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/god_help_the_girl/",
-      "amazon_url": "http://www.amazon.com/gp/product/B00NNFZ1I0",
+      "amazon_url": "http://www.amazon.com/gp/product/B00NNFZ8SS",
       "on_netflix_instant": false,
       "on_amazon_prime": true
     },
@@ -326,7 +326,7 @@
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/11187/thumb_i-origins-2014.jpg",
       "imdb_url": "http://www.imdb.com/title/tt2884206/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/i_origins/",
-      "amazon_url": "http://www.amazon.com/gp/product/B00OVVKWF2",
+      "amazon_url": "http://www.amazon.com/gp/product/B00QH4IAW8",
       "on_netflix_instant": false,
       "on_amazon_prime": false
     },
@@ -411,9 +411,9 @@
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/11305/thumb_noah-2014.png",
       "imdb_url": "http://www.imdb.com/title/tt1959490/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/noah_2014/",
-      "amazon_url": "http://www.amazon.com/gp/product/B00M7URUUE",
+      "amazon_url": "http://www.amazon.com/gp/product/B00JB3NUHM",
       "on_netflix_instant": true,
-      "on_amazon_prime": false
+      "on_amazon_prime": true
     },
     {
       "title": "Premature",
@@ -598,9 +598,9 @@
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/11950/thumb_they-came-together-2014.jpg",
       "imdb_url": "http://www.imdb.com/title/tt2398249/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/they_came_together/",
-      "amazon_url": "http://www.amazon.com/gp/product/B00M90R2D2",
+      "amazon_url": "http://www.amazon.com/gp/product/B00M90QEOU",
       "on_netflix_instant": true,
-      "on_amazon_prime": false
+      "on_amazon_prime": true
     },
     {
       "title": "X-Men: Days of Future Past",
@@ -2502,9 +2502,9 @@
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/95/thumb_saved-2004.jpg",
       "imdb_url": "http://www.imdb.com/title/tt0332375/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/saved/",
-      "amazon_url": null,
+      "amazon_url": "http://www.amazon.com/gp/product/B000ZLLRFG",
       "on_netflix_instant": false,
-      "on_amazon_prime": false
+      "on_amazon_prime": true
     },
     {
       "title": "Spanglish",
@@ -3718,6 +3718,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-06-18 06:52:22 -0400"
+  "updated_at": "2015-06-19 06:52:20 -0400"
 }
 
