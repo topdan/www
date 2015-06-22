@@ -66,6 +66,6 @@ I've been getting these emails for about a year, and it really helps keep me up-
 
 ```raw
 <p class="alert alert-info">
-  If you're interested in receiving this email visit: <a href="http://tv.topdan.com/subscribe">http://tv.topdan.com/subscribe</a>.
+  If you'd like to join the email list <a href="mailto:dan@topdan.com">email me</a>.
 </p>
 ```
