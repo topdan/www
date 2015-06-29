@@ -20,7 +20,7 @@
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/15348/thumb_ex-machina-2015.jpg",
       "imdb_url": "http://www.imdb.com/title/tt0470752/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/ex_machina/",
-      "amazon_url": null,
+      "amazon_url": "http://www.amazon.com/gp/product/B00VWPQNJ4",
       "on_netflix_instant": false,
       "on_amazon_prime": false
     },
@@ -54,6 +54,23 @@
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/13163/thumb_mad-max-fury-road-2015.jpg",
       "imdb_url": "http://www.imdb.com/title/tt1392190/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/mad_max_fury_road/",
+      "amazon_url": null,
+      "on_netflix_instant": false,
+      "on_amazon_prime": false
+    },
+    {
+      "title": "The Voices",
+      "year": 2015,
+      "release_date": "2015-02-06",
+      "netflix_url": "http://www.netflix.com/title/70299865",
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": "http://trailers.apple.com/trailers/lions_gate/thevoices/",
+      "redbox_url": "http://www.redbox.com/movies/the-voices",
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/14941/thumb_the-voices-2015.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt1567437/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_voices/",
       "amazon_url": null,
       "on_netflix_instant": false,
       "on_amazon_prime": false
@@ -2082,6 +2099,23 @@
       "on_amazon_prime": false
     },
     {
+      "title": "Beerfest",
+      "year": 2006,
+      "release_date": "2006-08-25",
+      "netflix_url": null,
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/16538/thumb_beerfest-2006.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt0486551/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/beerfest/",
+      "amazon_url": null,
+      "on_netflix_instant": false,
+      "on_amazon_prime": false
+    },
+    {
       "title": "Children of Men",
       "year": 2006,
       "release_date": "2006-12-25",
@@ -3837,6 +3871,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-06-26 06:52:19 -0400"
+  "updated_at": "2015-06-29 06:52:24 -0400"
 }
 
