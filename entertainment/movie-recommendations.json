@@ -783,8 +783,8 @@
       "apple_trailers_url": "http://trailers.apple.com/trailers/ifcfilms/plusone/",
       "redbox_url": null,
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/8760/thumb_plus-one-2013.jpg",
-      "imdb_url": null,
-      "rotten_tomatoes_url": null,
+      "imdb_url": "http://www.imdb.com/title/tt2395385/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/1_2013/",
       "amazon_url": null,
       "on_netflix_instant": true,
       "on_amazon_prime": false
@@ -1106,7 +1106,7 @@
       "apple_trailers_url": null,
       "redbox_url": null,
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/3627/thumb_lockout-2012.jpg",
-      "imdb_url": null,
+      "imdb_url": "http://www.imdb.com/title/tt1592525/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/771312293/",
       "amazon_url": null,
       "on_netflix_instant": false,
@@ -1735,8 +1735,8 @@
       "apple_trailers_url": "http://trailers.apple.com/trailers/magnolia/mrnobody/",
       "redbox_url": null,
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/8952/thumb_mr-nobody-2009.jpg",
-      "imdb_url": null,
-      "rotten_tomatoes_url": null,
+      "imdb_url": "http://www.imdb.com/title/tt0485947/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/mr-nobody/",
       "amazon_url": null,
       "on_netflix_instant": true,
       "on_amazon_prime": false
@@ -2577,7 +2577,7 @@
     {
       "title": "Night Watch",
       "year": 2004,
-      "release_date": null,
+      "release_date": "2006-02-17",
       "netflix_url": "http://www.netflix.com/title/70028896",
       "hbogo_url": null,
       "maxgo_url": null,
@@ -2585,8 +2585,8 @@
       "apple_trailers_url": null,
       "redbox_url": null,
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/100/thumb_night-watch-2004.jpg",
-      "imdb_url": null,
-      "rotten_tomatoes_url": null,
+      "imdb_url": "http://www.imdb.com/title/tt0403358/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/night_watch_2006/",
       "amazon_url": null,
       "on_netflix_instant": true,
       "on_amazon_prime": false
@@ -2653,7 +2653,7 @@
       "apple_trailers_url": null,
       "redbox_url": null,
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/15269/thumb_the-life-aquatic-with-steve-zissou-2004.jpg",
-      "imdb_url": null,
+      "imdb_url": "http://www.imdb.com/title/tt0362270/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/life_aquatic/",
       "amazon_url": null,
       "on_netflix_instant": false,
@@ -3597,7 +3597,7 @@
     {
       "title": "The Professional",
       "year": 1994,
-      "release_date": null,
+      "release_date": "1994-11-18",
       "netflix_url": null,
       "hbogo_url": null,
       "maxgo_url": null,
@@ -3605,8 +3605,8 @@
       "apple_trailers_url": null,
       "redbox_url": null,
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/16450/thumb_the-professional-1994.jpg",
-      "imdb_url": null,
-      "rotten_tomatoes_url": null,
+      "imdb_url": "http://www.imdb.com/title/tt0110413/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/leon_the_professional/",
       "amazon_url": "http://www.amazon.com/gp/product/B00170F0WU",
       "on_netflix_instant": false,
       "on_amazon_prime": true
@@ -3843,7 +3843,7 @@
       "apple_trailers_url": null,
       "redbox_url": null,
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/13190/thumb_a-clockwork-orange-1971.jpg",
-      "imdb_url": null,
+      "imdb_url": "http://www.imdb.com/title/tt0066921/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/clockwork_orange/",
       "amazon_url": null,
       "on_netflix_instant": false,
@@ -3852,7 +3852,7 @@
     {
       "title": "Dr. Strangelove",
       "year": 1964,
-      "release_date": null,
+      "release_date": "1964-01-29",
       "netflix_url": "http://www.netflix.com/title/60020009",
       "hbogo_url": null,
       "maxgo_url": null,
@@ -3860,8 +3860,8 @@
       "apple_trailers_url": null,
       "redbox_url": null,
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/10900/thumb_dr-strangelove-1964.jpg",
-      "imdb_url": null,
-      "rotten_tomatoes_url": null,
+      "imdb_url": "http://www.imdb.com/title/tt0057012/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/dr_strangelove/",
       "amazon_url": null,
       "on_netflix_instant": false,
       "on_amazon_prime": false
@@ -3871,6 +3871,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-06-29 06:52:24 -0400"
+  "updated_at": "2015-06-30 06:52:22 -0400"
 }
 
