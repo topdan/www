@@ -492,7 +492,7 @@
       "maxgo_url": null,
       "showtime_url": null,
       "apple_trailers_url": "http://trailers.apple.com/trailers/ifcfilms/thebabadook/",
-      "redbox_url": null,
+      "redbox_url": "http://www.redbox.com/movies/the-babadook",
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/14284/thumb_the-babadook-2014.jpg",
       "imdb_url": "http://www.imdb.com/title/tt2321549/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_babadook/",
@@ -683,7 +683,7 @@
       "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/8992/thumb_about-time-2013.jpg",
       "imdb_url": "http://www.imdb.com/title/tt2194499/",
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/about_time/",
-      "amazon_url": null,
+      "amazon_url": "http://www.amazon.com/gp/product/B00I8H7APK",
       "on_netflix_instant": false,
       "on_amazon_prime": false
     },
@@ -930,7 +930,7 @@
       "year": 2013,
       "release_date": "2013-07-05",
       "netflix_url": null,
-      "hbogo_url": "http://www.hbogo.com/#home/video&assetID=GOROSTGP42844?videoMode=embeddedVideo?showSpecialFeatures=false/",
+      "hbogo_url": null,
       "maxgo_url": null,
       "showtime_url": null,
       "apple_trailers_url": "http://trailers.apple.com/trailers/fox_searchlight/thewaywayback/",
@@ -1220,7 +1220,7 @@
       "release_date": "2012-06-22",
       "netflix_url": null,
       "hbogo_url": null,
-      "maxgo_url": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP35624?videoMode=embeddedVideo?showSpecialFeatures=false/",
+      "maxgo_url": null,
       "showtime_url": null,
       "apple_trailers_url": null,
       "redbox_url": null,
@@ -2477,7 +2477,7 @@
       "year": 2004,
       "release_date": "2004-07-02",
       "netflix_url": null,
-      "hbogo_url": "http://www.hbogo.com/#home/video&assetID=GOROSTGP43466?videoMode=embeddedVideo?showSpecialFeatures=false/",
+      "hbogo_url": null,
       "maxgo_url": null,
       "showtime_url": null,
       "apple_trailers_url": null,
@@ -2902,7 +2902,7 @@
       "year": 2002,
       "release_date": "2002-10-11",
       "netflix_url": null,
-      "hbogo_url": "http://www.hbogo.com/#home/video&assetID=GORO1B20977?videoMode=embeddedVideo?showSpecialFeatures=false/",
+      "hbogo_url": null,
       "maxgo_url": null,
       "showtime_url": null,
       "apple_trailers_url": null,
@@ -3871,6 +3871,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-07-01 06:52:25 -0400"
+  "updated_at": "2015-07-02 06:52:23 -0400"
 }
 
