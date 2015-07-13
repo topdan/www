@@ -178,6 +178,23 @@
       "on_amazon_prime": false
     },
     {
+      "title": "Coherence",
+      "year": 2014,
+      "release_date": "2014-06-20",
+      "netflix_url": null,
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": "http://trailers.apple.com/trailers/independent/coherence/",
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/11352/thumb_coherence-2014.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt2866360/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/coherence_2013/",
+      "amazon_url": "http://www.amazon.com/gp/product/B00MFE18KK",
+      "on_netflix_instant": false,
+      "on_amazon_prime": true
+    },
+    {
       "title": "Don Jon",
       "year": 2014,
       "release_date": "2013-09-27",
@@ -1946,6 +1963,23 @@
       "on_amazon_prime": false
     },
     {
+      "title": "The Dark Knight",
+      "year": 2008,
+      "release_date": "2008-07-18",
+      "netflix_url": null,
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/16753/thumb_the-dark-knight-2008.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt0468569/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/the_dark_knight/",
+      "amazon_url": null,
+      "on_netflix_instant": false,
+      "on_amazon_prime": false
+    },
+    {
       "title": "WALL-E",
       "year": 2008,
       "release_date": "2008-06-25",
@@ -2810,6 +2844,23 @@
       "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/underworld/",
       "amazon_url": null,
       "on_netflix_instant": true,
+      "on_amazon_prime": false
+    },
+    {
+      "title": "Big Trouble",
+      "year": 2002,
+      "release_date": "2002-04-05",
+      "netflix_url": null,
+      "hbogo_url": null,
+      "maxgo_url": null,
+      "showtime_url": null,
+      "apple_trailers_url": null,
+      "redbox_url": null,
+      "poster_url": "//s3.amazonaws.com/cdn.topdan.com/movies/posters/17040/thumb_big-trouble-2002.jpg",
+      "imdb_url": "http://www.imdb.com/title/tt0246464/",
+      "rotten_tomatoes_url": "http://www.rottentomatoes.com/m/1109942-big_trouble/",
+      "amazon_url": null,
+      "on_netflix_instant": false,
       "on_amazon_prime": false
     },
     {
@@ -4007,6 +4058,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-07-12 06:52:24 -0400"
+  "updated_at": "2015-07-13 06:52:26 -0400"
 }
 
