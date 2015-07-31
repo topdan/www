@@ -7,12 +7,448 @@
   "published_at": "2012-03-18 16:00:00 UTC",
   "data_type": "Entertainment::TvShow",
   "data": [
-
+    {
+      "title": "Californication",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/34/thumb_californication-bd259c9204039a5c58538ef95be2d2d9.jpg",
+      "latest_episode_aired_on": "2014-06-29",
+      "first_episode_aired_on": "2007-08-13",
+      "final_episode_aired_on": "2014-06-29",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0027EOAEE",
+        "amazon_prime": "http://www.amazon.com/gp/product/B00MEB39QK",
+        "netflix": "https://www.netflix.com/title/70140366",
+        "showtime_anytime": "http://www.showtimeanytime.com/#/series/411"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0904208/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Californication_(TV_series)"
+      }
+    },
+    {
+      "title": "Garfunkel and Oates",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3855/thumb_garfunkel-and-oates-28794194fcfcc1644c7fc9eea86b46b5.jpg",
+      "latest_episode_aired_on": "2014-09-25",
+      "first_episode_aired_on": "2014-08-07",
+      "final_episode_aired_on": "2014-09-25",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80010758"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2276413/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/garfunkel-and-oates/s01/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Garfunkel_and_Oates_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Psych",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/127/thumb_psych-0cc47555e7ce7e50d73692e828e55714.jpg",
+      "latest_episode_aired_on": "2014-03-26",
+      "first_episode_aired_on": "2006-07-07",
+      "final_episode_aired_on": "2014-03-26",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0033CPV06",
+        "netflix": "https://www.netflix.com/title/70153394"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0491738/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Psych"
+      }
+    },
+    {
+      "title": "The Neighbors",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/293/thumb_the-neighbors-d627fea739348893de9cab3fa51a07ee.jpg",
+      "latest_episode_aired_on": "2014-04-11",
+      "first_episode_aired_on": "2012-09-26",
+      "final_episode_aired_on": "2014-04-11",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B009HX4C5U"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2182229/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Neighbors_(2012_TV_series)"
+      }
+    },
+    {
+      "title": "Arrested Development",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/10/thumb_arrested-development-6680fad60a81998ad237d36f7926e660.jpg",
+      "latest_episode_aired_on": "2013-05-26",
+      "first_episode_aired_on": "2003-11-02",
+      "final_episode_aired_on": "2006-02-10",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/70140358"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0367279/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Arrested_Development_(TV_series)"
+      }
+    },
+    {
+      "title": "Breaking Bad",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/29/thumb_breaking-bad-2a94b6b34ba1390235fef8451d725f20.jpg",
+      "latest_episode_aired_on": "2013-09-29",
+      "first_episode_aired_on": "2008-01-20",
+      "final_episode_aired_on": "2013-09-29",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B003CH9PV8",
+        "amc_com": "http://www.amc.com/shows/breaking-bad",
+        "netflix": "https://www.netflix.com/title/70143836"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0903747/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Breaking_Bad"
+      }
+    },
+    {
+      "title": "Bunheads",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/32/thumb_bunheads-d49411db2635d7d3dc3d788bdec21a2f.jpg",
+      "latest_episode_aired_on": "2013-02-25",
+      "first_episode_aired_on": "2012-06-11",
+      "final_episode_aired_on": "2013-02-25",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00932B4B0"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2006848/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bunheads"
+      }
+    },
+    {
+      "title": "Dexter",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/46/thumb_dexter-7a7660dcc19681dfefeec784264a5001.jpg",
+      "latest_episode_aired_on": "2013-09-22",
+      "first_episode_aired_on": "2006-10-01",
+      "final_episode_aired_on": "2013-09-22",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B002JL5NGE",
+        "netflix": "https://www.netflix.com/title/70136126",
+        "showtime_anytime": "http://www.showtimeanytime.com/#/series/323"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0773262/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dexter_(TV_series)"
+      }
+    },
+    {
+      "title": "Awake",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/12/thumb_awake-39ed3709e38edcbf18ae5eeb01ba19bc.jpg",
+      "latest_episode_aired_on": "2012-05-24",
+      "first_episode_aired_on": "2012-03-01",
+      "final_episode_aired_on": "2012-05-24",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B007A1QKD8",
+        "netflix": "https://www.netflix.com/title/70197063"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1839683/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/awake/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Awake_(TV_series)"
+      }
+    },
+    {
+      "title": "Eureka",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/56/thumb_eureka-c6897f9ae7d1e2320e6424bf5154abd5.jpg",
+      "latest_episode_aired_on": "2012-07-16",
+      "first_episode_aired_on": "2006-07-18",
+      "final_episode_aired_on": "2012-07-16",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0033UDEX4",
+        "netflix": "https://www.netflix.com/title/70143827"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0796264/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Eureka_(U.S._TV_series)"
+      }
+    },
+    {
+      "title": "Spy",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/146/thumb_spy-9d781628517631f922463ae9ddb2dead.jpg",
+      "latest_episode_aired_on": "2012-12-26",
+      "first_episode_aired_on": "2011-10-14",
+      "final_episode_aired_on": "2012-12-26",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "hulu": "http://www.hulu.com/spy"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2086606/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Spy_(2011_TV_series)"
+      }
+    },
+    {
+      "title": "Band of Brothers",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/14/thumb_band-of-brothers-af1c57f294c403c59d265262cac6789d.jpg",
+      "latest_episode_aired_on": "2011-03-01",
+      "first_episode_aired_on": "2001-09-09",
+      "final_episode_aired_on": "2001-11-04",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B006886KQG",
+        "amazon_prime": "http://www.amazon.com/gp/product/B006886KQG",
+        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP26070?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0185906/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Band_of_Brothers_(TV_miniseries)"
+      }
+    },
+    {
+      "title": "Friday Night Lights",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/66/thumb_friday-night-lights-32978cb4b6c070e8046f6a021214e6cb.jpg",
+      "latest_episode_aired_on": "2011-07-15",
+      "first_episode_aired_on": "2006-10-03",
+      "final_episode_aired_on": "2011-02-09",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B002R3KQCA",
+        "amazon_prime": "http://www.amazon.com/gp/product/B002R3KQCA",
+        "netflix": "https://www.netflix.com/title/70136125"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0758745/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Friday_Night_Lights_(TV_series)"
+      }
+    },
+    {
+      "title": "The Wire",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/177/thumb_the-wire-5ba9ecf1d195ce66f0491622414d3fd3.jpg",
+      "latest_episode_aired_on": "2011-03-01",
+      "first_episode_aired_on": "2002-06-02",
+      "final_episode_aired_on": "2008-03-09",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B003AY9U4K",
+        "amazon_prime": "http://www.amazon.com/gp/product/B003AYJGYE",
+        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GORO1D596?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0306414/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Wire"
+      }
+    },
+    {
+      "title": "Better Off Ted",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/19/thumb_better-off-ted-56d328a98e063abcb9913dba3582ca28.jpg",
+      "latest_episode_aired_on": "2010-09-01",
+      "first_episode_aired_on": "2009-03-18",
+      "final_episode_aired_on": "2010-01-26",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001V98S2G",
+        "amazon_prime": "http://www.amazon.com/gp/product/B001V98S2G",
+        "netflix": "https://www.netflix.com/title/70140361"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1235547/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Better_Off_Ted"
+      }
+    },
+    {
+      "title": "Lost",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/100/thumb_lost-d695ada2ea8b476df085ed74739f9777.jpg",
+      "latest_episode_aired_on": "2010-05-23",
+      "first_episode_aired_on": "2004-09-22",
+      "final_episode_aired_on": "2010-05-23",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B003U53I3I",
+        "netflix": "https://www.netflix.com/title/70136118"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0411008/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Lost_(TV_series)"
+      }
+    },
+    {
+      "title": "Scrubs",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/138/thumb_scrubs-12ef3e16fc385f0be3ac5d4a8a0348bd.jpg",
+      "latest_episode_aired_on": "2010-03-17",
+      "first_episode_aired_on": "2001-10-02",
+      "final_episode_aired_on": "2010-03-17",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B003ZCDHZA",
+        "netflix": "https://www.netflix.com/title/70153393"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0285403/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Scrubs_(TV_series)"
+      }
+    },
+    {
+      "title": "My Name Is Earl",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/112/thumb_my-name-is-earl-eb33c0332f844179aa8d5e43f8ac30f6.jpg",
+      "latest_episode_aired_on": "2009-05-14",
+      "first_episode_aired_on": "2005-09-20",
+      "final_episode_aired_on": "2009-05-14",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B006MQ8YVS",
+        "amazon_prime": "http://www.amazon.com/gp/product/B006MQ8YVS",
+        "netflix": "https://www.netflix.com/title/70140418"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0460091/",
+        "wikipedia": "https://en.wikipedia.org/wiki/My_Name_Is_Earl"
+      }
+    },
+    {
+      "title": "Avatar: The Last Airbender",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/11/thumb_avatar-the-last-airbender-9247ec9bedc5def1c863a5271e090d46.jpg",
+      "latest_episode_aired_on": "2008-07-19",
+      "first_episode_aired_on": "2005-02-21",
+      "final_episode_aired_on": "2008-07-19",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000GK68EG",
+        "amazon_prime": "http://www.amazon.com/gp/product/B000GK68EG",
+        "netflix": "https://www.netflix.com/title/70142405"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0417299/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender"
+      }
+    },
+    {
+      "title": "Jericho",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/90/thumb_jericho-d0f227aba542d8f0d20028817774ca46.jpg",
+      "latest_episode_aired_on": "2008-03-25",
+      "first_episode_aired_on": "2006-09-20",
+      "final_episode_aired_on": "2008-03-25",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/70142437"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0805663/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jericho_(2006_TV_series)"
+      }
+    },
+    {
+      "title": "Gilmore Girls",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2197/thumb_gilmore-girls-cd391a6b0d88c7fc5e9842d7fc2a22a3.jpg",
+      "latest_episode_aired_on": "2007-05-15",
+      "first_episode_aired_on": "2000-10-05",
+      "final_episode_aired_on": "2007-05-15",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B002DEV6SQ",
+        "netflix": "https://www.netflix.com/title/70155618"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0238784/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Gilmore_Girls"
+      }
+    },
+    {
+      "title": "Veronica Mars",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2211/thumb_veronica-mars-2144eb2aa4c20dd73696c95d22449b3b.jpg",
+      "latest_episode_aired_on": "2007-05-22",
+      "first_episode_aired_on": "2004-09-22",
+      "final_episode_aired_on": "2007-05-22",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0031KC8OM",
+        "amazon_prime": "http://www.amazon.com/gp/product/B0031KC8OM"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0412253/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Veronica_Mars"
+      }
+    },
+    {
+      "title": "Malcolm in the Middle",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/107/thumb_malcolm-in-the-middle-b9be689536c8f1fd6fbbdecb3c89d1b2.jpg",
+      "latest_episode_aired_on": "2006-05-14",
+      "first_episode_aired_on": "2000-01-09",
+      "final_episode_aired_on": "2006-05-14",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/70155569"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0212671/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Malcolm_in_the_Middle"
+      }
+    },
+    {
+      "title": "Carnivale",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/35/thumb_carnivale-f8d2dce2d51f0788c3f4d9b1a8be4846.jpg",
+      "latest_episode_aired_on": "2005-03-27",
+      "first_episode_aired_on": "2003-09-07",
+      "final_episode_aired_on": "2005-03-27",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0077RLWCO",
+        "amazon_prime": "http://www.amazon.com/gp/product/B0077RU32O",
+        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP31899?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0319969/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Carniv%C3%A0le"
+      }
+    },
+    {
+      "title": "Firefly",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/62/thumb_firefly-88bf9badca67fa13f2e3ac8cd2dc6b3a.jpg",
+      "latest_episode_aired_on": "2002-12-20",
+      "first_episode_aired_on": "2002-09-20",
+      "final_episode_aired_on": "2002-12-20",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "hulu": "http://www.hulu.com/firefly",
+        "netflix": "https://www.netflix.com/title/70202753"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0303461/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Firefly_(TV_series)"
+      }
+    },
+    {
+      "title": "Freaks and Geeks",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/65/thumb_freaks-and-geeks-cc5b28aef6fb6491c396bd9a5d8d3a8e.jpg",
+      "latest_episode_aired_on": "2000-07-08",
+      "first_episode_aired_on": "1999-09-25",
+      "final_episode_aired_on": "2000-07-08",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/70253797"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0193676/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Freaks_and_Geeks"
+      }
+    },
+    {
+      "title": "My So-Called Life",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/204/thumb_my-so-called-life-d97de06c516ab0e0cf09ff702dc62a7a.jpg",
+      "latest_episode_aired_on": "1995-01-25",
+      "first_episode_aired_on": "1994-08-25",
+      "final_episode_aired_on": "1995-01-26",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B004GN8HKW",
+        "hulu": "http://www.hulu.com/my-so-called-life"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0108872/",
+        "wikipedia": "https://en.wikipedia.org/wiki/My_So-Called_Life"
+      }
+    }
   ],
   "author": {
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-07-31 15:54:13 -0400"
+  "updated_at": "2015-07-31 15:57:10 -0400"
 }
 

@@ -7,12 +7,358 @@
   "published_at": "2012-03-18 18:00:00 UTC",
   "data_type": "Entertainment::TvShow",
   "data": [
-
+    {
+      "title": "Another Period",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4156/thumb_another-period-d186b559a3f9b8203c57589f9a7ce2ea.jpg",
+      "latest_episode_aired_on": "2015-07-28",
+      "first_episode_aired_on": "2015-06-23",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00YYFS3T2",
+        "comedy_central_com": "http://www.cc.com/shows/another-period/full-episodes",
+        "hulu": "http://www.hulu.com/another-period"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3593432/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/another-period/s01/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Another_Period"
+      }
+    },
+    {
+      "title": "Banshee",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/15/thumb_banshee-ea947c7a5d29dda094713ce5e5aac99b.jpg",
+      "latest_episode_aired_on": "2015-03-14",
+      "first_episode_aired_on": "2013-01-11",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00E7NCJ8M",
+        "amazon_prime": "http://www.amazon.com/gp/product/B00XWUOCB8",
+        "maxgo": "http://www.maxgo.com/#series/browse&browseMode=browseGrid?browseID=category.MGOROSTGP33919/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2017109/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Banshee_(TV_series)"
+      }
+    },
+    {
+      "title": "Bob's Burgers",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-9b6bbbed3e884b8681e53c8ea918f9ec.jpg",
+      "latest_episode_aired_on": "2015-05-17",
+      "first_episode_aired_on": "2011-01-09",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "adult_swim_com": "http://www.adultswim.com/videos/bobs-burgers/",
+        "amazon_one_click": "http://www.amazon.com/gp/product/B004I0KVCK",
+        "hulu": "http://www.hulu.com/bobs-burgers",
+        "netflix": "https://www.netflix.com/title/70175658"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1561755/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/bob-s-burgers/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bob's_Burgers"
+      }
+    },
+    {
+      "title": "Community",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/38/thumb_community-36aeab1b86e5595c5b22b4e46f7ab19f.jpg",
+      "latest_episode_aired_on": "2015-06-02",
+      "first_episode_aired_on": "2009-09-17",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00HNMMH3G",
+        "hulu": "http://www.hulu.com/community",
+        "yahoo_screen": "https://screen.yahoo.com/community/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1439629/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Community_(TV_series)"
+      }
+    },
+    {
+      "title": "Galavant",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3695/thumb_galavant-76a734d4e7eab17407a6d88c2a506c1d.jpg",
+      "latest_episode_aired_on": "2015-01-25",
+      "first_episode_aired_on": "2015-01-04",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "hulu": "http://www.hulu.com/galavant"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3305096/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/galavant/s01/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Galavant"
+      }
+    },
+    {
+      "title": "Game of Thrones",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/70/thumb_game-of-thrones-7dca3d4659385a2cf999dcdd7d26c083.jpg",
+      "latest_episode_aired_on": "2015-06-15",
+      "first_episode_aired_on": "2011-04-17",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B007HNFREW",
+        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP31734?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0944947/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Game_of_Thrones"
+      }
+    },
+    {
+      "title": "iZombie",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3879/thumb_izombie-62d1b227666ecb148daead006ba2a802.jpg",
+      "latest_episode_aired_on": "2015-06-09",
+      "first_episode_aired_on": "2015-03-17",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "hulu": "http://www.hulu.com/izombie"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3501584/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/izombie/",
+        "wikipedia": "https://en.wikipedia.org/wiki/IZombie_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Justified",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/93/thumb_justified-cda4008d35866db7d1d01ad5cf0b97a2.jpg",
+      "latest_episode_aired_on": "2015-04-14",
+      "first_episode_aired_on": "2010-03-16",
+      "final_episode_aired_on": "2015-04-14",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B003AZBASI",
+        "amazon_prime": "http://www.amazon.com/gp/product/B003AZBASI",
+        "hulu": "http://www.hulu.com/justified"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1489428/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Justified_(TV_series)"
+      }
+    },
+    {
+      "title": "Marry Me",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3504/thumb_marry-me-26d6786b844ef4b60c0dfa9572ccaf41.jpg",
+      "latest_episode_aired_on": "2015-02-17",
+      "first_episode_aired_on": "2014-10-14",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "hulu": "http://www.hulu.com/marry-me"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3460454/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/marry-me/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Marry_Me_(U.S._TV_series)"
+      }
+    },
+    {
+      "title": "Mr. Robot",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4020/thumb_mr-robot-516ef9897a52962a6ab2fc56ef985b7b.jpg",
+      "latest_episode_aired_on": "2015-07-29",
+      "first_episode_aired_on": "2015-05-27",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00YCVCBRS",
+        "hulu": "http://www.hulu.com/mr-robot",
+        "usa_network_com": "http://www.usanetwork.com/mrrobot/videos?category=-1"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4158110/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/mr-robot/s01/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mr._Robot_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Sense8",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4049/thumb_sense8-b463519d066128527691639940321c0f.jpg",
+      "latest_episode_aired_on": "2015-06-05",
+      "first_episode_aired_on": null,
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80025744"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2431438/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/sense8/s01/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sense8"
+      }
+    },
+    {
+      "title": "The Middle",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-b7bcea9fe0df2e9201080bf5183361e7.jpg",
+      "latest_episode_aired_on": "2015-05-13",
+      "first_episode_aired_on": "2009-09-30",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00C6ZDNA6",
+        "hulu": "http://www.hulu.com/the-middle"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1442464/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Middle_(TV_series)"
+      }
+    },
+    {
+      "title": "The Walking Dead",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead-f0308ffcc99f735ecbdf421c26428359.jpg",
+      "latest_episode_aired_on": "2015-03-29",
+      "first_episode_aired_on": "2010-10-31",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B004A9F9ZI",
+        "amc_com": "http://www.amc.com/shows/the-walking-dead",
+        "netflix": "https://www.netflix.com/title/70177057"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1520211/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)"
+      }
+    },
+    {
+      "title": "True Detective",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2600/thumb_true-detective-032dd607e265f856e7794151363be20d.jpg",
+      "latest_episode_aired_on": "2015-07-27",
+      "first_episode_aired_on": "2014-01-12",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00KV8E0TS",
+        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP41968?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2356777/",
+        "wikipedia": "https://en.wikipedia.org/wiki/True_Detective_(TV_series)"
+      }
+    },
+    {
+      "title": "Unbreakable Kimmy Schmidt",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3842/thumb_unbreakable-kimmy-schmidt-cd606ac146db14457c6f598463c3aaf4.jpg",
+      "latest_episode_aired_on": "2015-03-06",
+      "first_episode_aired_on": "2015-03-06",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80025384"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3339966/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Unbreakable_Kimmy_Schmidt"
+      }
+    },
+    {
+      "title": "Burning Love",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4280/thumb_burning-love-f5ff7906cee15d5804eab03e96af3931.jpg",
+      "latest_episode_aired_on": "2014-03-14",
+      "first_episode_aired_on": "2013-02-25",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "hulu": "http://www.hulu.com/burning-love"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2292621/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Burning_Love_(TV_series)"
+      }
+    },
+    {
+      "title": "Continuum",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/39/thumb_continuum-640e84645662f90fe4a42b38a86bcda9.jpg",
+      "latest_episode_aired_on": "2014-06-27",
+      "first_episode_aired_on": "2012-05-27",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00B1O6DYQ",
+        "netflix": "https://www.netflix.com/title/70266352"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1954347/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Continuum_(TV_series)"
+      }
+    },
+    {
+      "title": "South Park",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-aac1005438f92553d735889ca870aa0b.jpg",
+      "latest_episode_aired_on": "2014-12-10",
+      "first_episode_aired_on": "1997-08-13",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000GE42H2",
+        "comedy_central_com": "http://www.cc.com/shows/south-park/full-episodes",
+        "hulu": "http://www.hulu.com/south-park",
+        "south_park_studios": "http://www.southparkstudios.com"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0121955/",
+        "wikipedia": "https://en.wikipedia.org/wiki/South_Park"
+      }
+    },
+    {
+      "title": "The Leftovers",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3153/thumb_the-leftovers-00c569fef8ee2788cb083da4cf9e5fcd.jpg",
+      "latest_episode_aired_on": "2014-09-08",
+      "first_episode_aired_on": "2014-06-29",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00P64F8SE",
+        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP43206?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2699128/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Leftovers_%28TV_series%29"
+      }
+    },
+    {
+      "title": "The Legend of Korra",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2038/thumb_the-legend-of-korra-f2897a7288b955b2c6d558f0ec3ede87.jpg",
+      "latest_episode_aired_on": "2014-12-19",
+      "first_episode_aired_on": "2012-04-14",
+      "final_episode_aired_on": "2014-12-19",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00F6PLZGW",
+        "amazon_prime": "http://www.amazon.com/gp/product/B00F6PLZGW"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1695360/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Legend_of_Korra"
+      }
+    },
+    {
+      "title": "Jack Taylor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/89/thumb_jack-taylor-9fab1d57b1ce385125cfed000d3d2dd4.jpg",
+      "latest_episode_aired_on": "2013-03-10",
+      "first_episode_aired_on": "2010-08-02",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00DM12MBO",
+        "netflix": "https://www.netflix.com/title/70259177"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1547657/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jack_Taylor_(TV_series)"
+      }
+    }
   ],
   "author": {
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-07-31 15:54:13 -0400"
+  "updated_at": "2015-07-31 15:57:10 -0400"
 }
 
