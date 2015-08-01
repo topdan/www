@@ -502,7 +502,7 @@
       }
     },
     {
-      "title": "The SIgnal",
+      "title": "The Signal",
       "year": 2014,
       "release_date": "2014-06-13",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11926/thumb_the-signal-2014.jpg",
@@ -533,7 +533,7 @@
       "title": "They Came Together",
       "year": 2014,
       "release_date": "2014-06-27",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11950/thumb_they-came-together-2014.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11950/thumb_they-came-together-2014-789ce21ffdc52fa37aaa5ab6743fd4f5.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00M90QEOU",
         "amazon_prime": "http://www.amazon.com/gp/product/B00M90QEOU",
@@ -1248,7 +1248,7 @@
       "title": "Bunraku",
       "year": 2010,
       "release_date": "2011-09-30",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1348/thumb_bunraku-2010.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1348/thumb_bunraku-2010-99f69c82ad30f6819672f6145373e07c.jpg",
       "streams": {
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3389796"
       },
@@ -2294,7 +2294,7 @@
       "title": "Kissing Jessica Stein",
       "year": 2002,
       "release_date": "2002-03-13",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3411/thumb_kissing-jessica-stein-2001.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3411/thumb_kissing-jessica-stein-2002-242bb7d67fd919fc644cb2854c01cb31.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000SW16N0",
         "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP31520?videoMode=embeddedVideo?showSpecialFeatures=false/"
@@ -2978,7 +2978,7 @@
       "title": "Twelve Monkeys",
       "year": 1995,
       "release_date": "1995-12-27",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16750/thumb_twelve-monkeys-1995.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16750/thumb_twelve-monkeys-1995-efcf4e834722b49d7bfd23b65a3eeb87.jpg",
       "streams": {
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3418449"
       },
@@ -3032,7 +3032,7 @@
       "title": "A League of Their Own",
       "year": 1992,
       "release_date": "1992-07-01",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/389/thumb_a-league-of-their-own-1992.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/389/thumb_a-league-of-their-own-1992-263af4f68bef3bb4d4b2711690ece9e9.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B003EYBO18"
       },
@@ -3086,7 +3086,7 @@
       "title": "Coming to America",
       "year": 1988,
       "release_date": "1988-06-29",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1673/thumb_coming-to-america-1988.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1673/thumb_coming-to-america-1988-043e4e6c3abade8b25b4bfd90d8ca0d5.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001K3BG6S",
         "netflix": "https://www.netflix.com/title/391018"
@@ -3239,6 +3239,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-07-31 15:54:13 -0400"
+  "updated_at": "2015-08-01 03:12:29 -0400"
 }
 
