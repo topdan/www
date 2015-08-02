@@ -72,6 +72,20 @@
       }
     },
     {
+      "title": "Before I Disappear",
+      "year": 2014,
+      "release_date": "2014-11-28",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14110/thumb_before-i-disappear-2014.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00QA3TTMQ",
+        "netflix": "https://www.netflix.com/title/70304983"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3060492/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/before_i_disappear_2014/"
+      }
+    },
+    {
       "title": "Begin Again",
       "year": 2014,
       "release_date": "2014-06-27",
@@ -83,6 +97,19 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt1980929/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/begin_again_2013/"
+      }
+    },
+    {
+      "title": "Big Hero 6",
+      "year": 2014,
+      "release_date": "2014-11-07",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11953/thumb_big-hero-6-2014.jpg",
+      "streams": {
+        "starz_com": "http://www.starzplay.com/Movies/Details/23790"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2245084/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/big_hero_6/"
       }
     },
     {
@@ -915,7 +942,7 @@
       "title": "Lockout",
       "year": 2012,
       "release_date": null,
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3627/thumb_lockout-2012.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3627/thumb_lockout-2012-867c5b0f3e7206ef78a09e008c9ff783.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B008JH5HCW"
       },
@@ -1130,7 +1157,7 @@
       "title": "Friends with Kids",
       "year": 2011,
       "release_date": "2012-03-09",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/2382/thumb_friends-with-kids-2011.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/2382/thumb_friends-with-kids-2011-dca4dd4c3d7a1a82c609c0b8ab54f8be.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B008KWYOD4"
       },
@@ -1767,7 +1794,7 @@
       "title": "Day Watch",
       "year": 2006,
       "release_date": "2007-06-01",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1875/thumb_day-watch-2006.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1875/thumb_day-watch-2006-88fdc7ac5ebbc83db6842833f3773d63.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0040B1IUQ",
         "amazon_prime": "http://www.amazon.com/gp/product/B0040B1IUQ",
@@ -2047,6 +2074,20 @@
       }
     },
     {
+      "title": "Club Dread",
+      "year": 2004,
+      "release_date": "2004-02-27",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16800/thumb_club-dread-2004-4865c6eeacaeeff0eb33e9dfd72e572f.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000I9U8YG",
+        "starz_com": "http://www.starzplay.com/Movies/Details/22223"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0331953/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/club-dread/"
+      }
+    },
+    {
       "title": "Eternal Sunshine of the Spotless Mind",
       "year": 2004,
       "release_date": "2004-03-19",
@@ -2203,7 +2244,7 @@
       "title": "Lost in Translation",
       "year": 2003,
       "release_date": "2003-09-26",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3662/thumb_lost-in-translation-2003.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3662/thumb_lost-in-translation-2003-7e6dabe4b51aa2abe920695d35a37a67.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001NLCBJI",
         "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP36701?videoMode=embeddedVideo?showSpecialFeatures=false/"
@@ -2282,7 +2323,7 @@
       "title": "Igby Goes Down",
       "year": 2002,
       "release_date": "2002-09-13",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3005/thumb_igby-goes-down-2002.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3005/thumb_igby-goes-down-2002-b4dbb0a905066332f0c6304202c76ea2.jpg",
       "streams": {
       },
       "references": {
@@ -2633,8 +2674,7 @@
       "release_date": "2000-11-22",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15720/thumb_unbreakable-2000.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B003QS9TX2",
-        "netflix": "https://www.netflix.com/title/60002319"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B003QS9TX2"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0217869/",
@@ -2700,7 +2740,7 @@
       "title": "The Boondock Saints",
       "year": 1999,
       "release_date": "1999-11-19",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3689/thumb_the-boondock-saints-1999.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3689/thumb_the-boondock-saints-1999-09b4362ae9d907e51ba4f9d5cda71e21.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B004J14VHE"
       },
@@ -2800,11 +2840,26 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00AYB18LK",
         "amazon_prime": "http://www.amazon.com/gp/product/B00AYB18LK",
-        "netflix": "https://www.netflix.com/title/17236920"
+        "netflix": "https://www.netflix.com/title/17236920",
+        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3393622"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0128442/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/1083659-rounders/"
+      }
+    },
+    {
+      "title": "The Big Hit",
+      "year": 1998,
+      "release_date": "1998-04-24",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11543/thumb_the-big-hit-1998.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001DIJ5AY",
+        "netflix": "https://www.netflix.com/title/14606161"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0120609/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/big_hit/"
       }
     },
     {
@@ -2895,9 +2950,7 @@
       "release_date": "1997-05-09",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11403/thumb_the-fifth-element-1997.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000S6BKSC",
-        "amazon_prime": "http://www.amazon.com/gp/product/B000S6BKSC",
-        "netflix": "https://www.netflix.com/title/1154386"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000S6BKSC"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0119116/",
@@ -3239,6 +3292,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-08-01 03:12:29 -0400"
+  "updated_at": "2015-08-02 03:12:32 -0400"
 }
 
