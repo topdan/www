@@ -492,8 +492,7 @@
       "release_date": "2014-03-07",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11239/thumb_the-grand-budapest-hotel-2014-12be4dba8b1f8aedc1080290a63bf170.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00L23RCPU",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP44422?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00L23RCPU"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2278388/",
@@ -603,10 +602,10 @@
       "title": "About Time",
       "year": 2013,
       "release_date": "2013-11-01",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8992/thumb_about-time-2013.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8992/thumb_about-time-2013-72a8a4c5314dd8f2ea511e4d7364b0f4.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00I8H7APK",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP47140?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP36522?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2194499/",
@@ -822,8 +821,7 @@
       "release_date": "2013-08-23",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8744/thumb_the-worlds-end-2013-d7188451aac1c0bc2b343b2f187e55b7.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00G0OMZPS",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP43474?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00G0OMZPS"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1213663/",
@@ -970,8 +968,7 @@
       "release_date": "2012-05-25",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8230/thumb_moonrise-kingdom-2012.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B009RI4FRU",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP35358?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B009RI4FRU"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1748122/",
@@ -1048,7 +1045,7 @@
       "title": "Take This Waltz",
       "year": 2012,
       "release_date": "2012-06-29",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5691/thumb_take-this-waltz-2012.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5691/thumb_take-this-waltz-2012-15c5bad3938baa8ba616b96f5c93d999.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0086213XW",
         "amazon_prime": "http://www.amazon.com/gp/product/B0086213XW",
@@ -1224,7 +1221,7 @@
       "title": "Super",
       "year": 2011,
       "release_date": "2010-12-03",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5627/thumb_super-2011.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5627/thumb_super-2011-b1a944805d826992b3cfc07f7a8c2e12.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B005GIS6T8",
         "netflix": "https://www.netflix.com/title/70135881"
@@ -1460,7 +1457,7 @@
       "title": "The Secret of Kells",
       "year": 2009,
       "release_date": "2010-03-12",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/6752/thumb_the-secret-of-kells-2009.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/6752/thumb_the-secret-of-kells-2009-4cdc2305f3a7d111cef35af9a759f376.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0042840G6",
         "amazon_prime": "http://www.amazon.com/gp/product/B0042840G6",
@@ -1475,7 +1472,7 @@
       "title": "The Vicious Kind",
       "year": 2009,
       "release_date": "2009-12-11",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/6905/thumb_the-vicious-kind-2009.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/6905/thumb_the-vicious-kind-2009-fa1347de23d04ba9947c2703540f59d8.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0039NCK94"
       },
@@ -1973,7 +1970,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5230/thumb_serenity-2005.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001HBYHFA",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37177?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP44788?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0379786/",
@@ -2064,7 +2061,7 @@
       "title": "Closer",
       "year": 2004,
       "release_date": "2004-12-03",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8080/thumb_closer-2004.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8080/thumb_closer-2004-5f9883a9d78fb6918c54e26a161874ca.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001E907I6"
       },
@@ -2189,7 +2186,7 @@
       "title": "Team America: World Police",
       "year": 2004,
       "release_date": "2004-10-11",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5723/thumb_team-america-world-police-2004.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5723/thumb_team-america-world-police-2004-cac4e605318c43e0c0a76eeb6a535900.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000IZ6URY",
         "netflix": "https://www.netflix.com/title/70011195"
@@ -2726,7 +2723,7 @@
       "title": "South Park: Bigger, Longer & Uncut",
       "year": 1999,
       "release_date": "1999-06-30",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5476/thumb_south-park-bigger-longer-and-uncut-1999.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5476/thumb_south-park-bigger-longer-and-uncut-1999-5ad28b09fb07287016ca7e9faf40dbe5.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000HX6DCO",
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/109294"
@@ -2868,8 +2865,7 @@
       "release_date": "1998-10-02",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7494/thumb_what-dreams-may-come-1998-2fe4980af99afddd0d49ab659b3ae058.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000ICXQGK",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP42760?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000ICXQGK"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0120889/",
@@ -2976,7 +2972,7 @@
       "title": "Scream",
       "year": 1996,
       "release_date": "1996-12-20",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5166/thumb_scream-1996.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5166/thumb_scream-1996-0bafd33eea7c8e34e463ea617e43ceee.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00AYB12PC",
         "amazon_prime": "http://www.amazon.com/gp/product/B00AYB12PC",
@@ -3250,9 +3246,7 @@
       "release_date": "1972-07-21",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12116/thumb_deliverance-1972.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001EBV0LW",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP43634?videoMode=embeddedVideo?showSpecialFeatures=false/",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP36476?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001EBV0LW"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0068473/",
@@ -3292,6 +3286,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-08-02 03:12:32 -0400"
+  "updated_at": "2015-08-03 03:12:26 -0400"
 }
 

@@ -229,7 +229,7 @@
     {
       "title": "True Detective",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2600/thumb_true-detective-032dd607e265f856e7794151363be20d.jpg",
-      "latest_episode_aired_on": "2015-07-27",
+      "latest_episode_aired_on": "2015-08-03",
       "first_episode_aired_on": "2014-01-12",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -359,6 +359,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-07-31 15:57:10 -0400"
+  "updated_at": "2015-08-03 03:12:26 -0400"
 }
 
