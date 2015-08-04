@@ -13,7 +13,8 @@
       "release_date": "2015-04-24",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15348/thumb_ex-machina-2015.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00VWPQNJ4"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00VWPQNJ4",
+        "itunes": "https://itunes.apple.com/us/movie/ex-machina/id983488795"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0470752/",
@@ -105,6 +106,7 @@
       "release_date": "2014-11-07",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11953/thumb_big-hero-6-2014.jpg",
       "streams": {
+        "itunes": "https://itunes.apple.com/us/movie/big-hero-6/id929423754",
         "starz_com": "http://www.starzplay.com/Movies/Details/23790"
       },
       "references": {
@@ -202,7 +204,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11323/thumb_edge-of-tomorrow-2014.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00O8NPCA8",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP47143?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP47143?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "itunes": "https://itunes.apple.com/us/movie/live-die-repeat-edge-tomorrow/id878682651"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1631867/",
@@ -243,7 +246,8 @@
       "release_date": "2014-10-03",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11196/thumb_gone-girl-2014-fe65e04a0c3525ac3e0e14b6766da6c2.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46188?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46188?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "itunes": "https://itunes.apple.com/us/movie/gone-girl/id917874539"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2267998/",
@@ -297,7 +301,8 @@
       "release_date": "2014-11-07",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11302/thumb_interstellar-2014-2dbdd5c965e5a7ad0e26d98e73080286.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00TU9UO1W"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00TU9UO1W",
+        "itunes": "https://itunes.apple.com/us/movie/interstellar/id960891136"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0816692/",
@@ -393,6 +398,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13162/thumb_nightcrawler-2014.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00TF874XE",
+        "itunes": "https://itunes.apple.com/us/movie/nightcrawler/id933543454",
         "netflix": "https://www.netflix.com/title/70295182"
       },
       "references": {
@@ -492,7 +498,8 @@
       "release_date": "2014-03-07",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11239/thumb_the-grand-budapest-hotel-2014-12be4dba8b1f8aedc1080290a63bf170.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00L23RCPU"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00L23RCPU",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37352?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2278388/",
@@ -591,7 +598,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11230/thumb_x-men-days-of-future-past-2014.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00OH75ATS",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46129?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46129?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "itunes": "https://itunes.apple.com/us/movie/x-men-days-future-past-rogue/id986229261"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1877832/",
@@ -832,7 +840,7 @@
       "title": "Upside Down",
       "year": 2013,
       "release_date": "2013-03-15",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8459/thumb_upside-down-2013.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8459/thumb_upside-down-2013-588624e3cc410a4cccbaa9d735ee7896.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00DM0XXCM",
         "netflix": "https://www.netflix.com/title/70224735"
@@ -860,7 +868,7 @@
       "title": "Warm Bodies",
       "year": 2013,
       "release_date": "2013-02-01",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8695/thumb_warm-bodies-2013.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8695/thumb_warm-bodies-2013-f2e3883dab1c7cfce393583d6f9099a1.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00D6BQPMM"
       },
@@ -1091,6 +1099,7 @@
       "release_date": "2012-09-21",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9057/thumb_the-perks-of-being-a-wallflower-2012-66eb8ca53876daa89201a59ea92838ce.jpg",
       "streams": {
+        "itunes": "https://itunes.apple.com/us/movie/perks-being-wallflower/id563720795"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1659337/",
@@ -1246,7 +1255,7 @@
       "title": "The Descendants",
       "year": 2011,
       "release_date": "2011-11-18",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8560/thumb_the-descendants-2011.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8560/thumb_the-descendants-2011-cf2e930925beeb3fe68c33c66946400d.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B007JRU2UK"
       },
@@ -1527,7 +1536,7 @@
       "title": "Burn After Reading",
       "year": 2008,
       "release_date": "2008-08-27",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12666/thumb_burn-after-reading-2008.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12666/thumb_burn-after-reading-2008-5d4d017b38c488c9900b97dc67439aca.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001Q2J8BS"
       },
@@ -2806,7 +2815,7 @@
       "title": "Varsity Blues",
       "year": 1999,
       "release_date": "1999-01-15",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8324/thumb_varsity-blues-1999.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8324/thumb_varsity-blues-1999-8397c46e7d50e4ef2fc18b0ac7c8cb68.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B005DNPGTE",
         "netflix": "https://www.netflix.com/title/18171608"
@@ -3286,6 +3295,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-08-03 03:12:26 -0400"
+  "updated_at": "2015-08-04 03:12:27 -0400"
 }
 
