@@ -187,7 +187,7 @@
       "title": "Don Jon",
       "year": 2014,
       "release_date": "2013-09-27",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8809/thumb_don-jon-2014.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8809/thumb_don-jon-2014-6f27f8a2a1672fcb2244478fd0df3f14.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00GJ0HSUK",
         "netflix": "https://www.netflix.com/title/70267239"
@@ -552,7 +552,7 @@
       "title": "The Spectacular Now",
       "year": 2014,
       "release_date": "2013-08-02",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8903/thumb_the-spectacular-now-2014.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8903/thumb_the-spectacular-now-2014-e67cf6ca7461727b699eaeab5973672c.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00H8AXJR6",
         "amazon_prime": "http://www.amazon.com/gp/product/B00H8AXJR6"
@@ -624,7 +624,7 @@
       "title": "Blue is the Warmest Color",
       "year": 2013,
       "release_date": "2013-10-25",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8753/thumb_blue-is-the-warmest-color-2013.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8753/thumb_blue-is-the-warmest-color-2013-9db2415d1f4855dd66494a3a4e865323.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00I0PENR8",
         "netflix": "https://www.netflix.com/title/70275600"
@@ -693,7 +693,7 @@
       "title": "Plus One",
       "year": 2013,
       "release_date": "2013-09-20",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8760/thumb_plus-one-2013.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8760/thumb_plus-one-2013-36ed7a9420168d2dcf7c8f43d8ff6982.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00FB528YK",
         "netflix": "https://www.netflix.com/title/70273222"
@@ -748,7 +748,7 @@
       "title": "The Conjuring",
       "year": 2013,
       "release_date": "2013-07-19",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9007/thumb_the-conjuring-2013.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9007/thumb_the-conjuring-2013-ab15052f45e82a866f72f47617820bc4.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00FPH6A70"
       },
@@ -774,7 +774,7 @@
       "title": "The Lifeguard",
       "year": 2013,
       "release_date": "2013-08-30",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8855/thumb_the-lifeguard-2013.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8855/thumb_the-lifeguard-2013-660520ea8c91dbf41aa0389ed3c7ab96.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00E8JI73Q",
         "netflix": "https://www.netflix.com/title/70267478"
@@ -1099,6 +1099,7 @@
       "release_date": "2012-09-21",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9057/thumb_the-perks-of-being-a-wallflower-2012-66eb8ca53876daa89201a59ea92838ce.jpg",
       "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00BESM14U",
         "itunes": "https://itunes.apple.com/us/movie/perks-being-wallflower/id563720795"
       },
       "references": {
@@ -1641,7 +1642,7 @@
       "title": "Black Snake Moan",
       "year": 2007,
       "release_date": "2007-03-02",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1101/thumb_black-snake-moan-2007.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1101/thumb_black-snake-moan-2007-18e03efcfb4cee3a452da9aa8c917651.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000UYJR7I"
       },
@@ -2209,7 +2210,7 @@
       "title": "The Life Aquatic with Steve Zissou",
       "year": 2004,
       "release_date": "2004-12-10",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15269/thumb_the-life-aquatic-with-steve-zissou-2004.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15269/thumb_the-life-aquatic-with-steve-zissou-2004-0690d3ebb4b517f0602417c61c8d596d.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B003QSGF0C",
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/140978"
@@ -3213,7 +3214,7 @@
       "title": "Caddyshack",
       "year": 1980,
       "release_date": "1980-07-25",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7806/thumb_caddyshack-1980.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7806/thumb_caddyshack-1980-b84db06f4722c8d41994d425f685204f.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001N7LKI0"
       },
@@ -3295,6 +3296,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-08-04 03:12:27 -0400"
+  "updated_at": "2015-08-05 03:12:28 -0400"
 }
 

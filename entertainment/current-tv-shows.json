@@ -118,6 +118,8 @@
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
       "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00UV5X1PA",
+        "cwtv_com": "http://www.cwtv.com/shows/izombie",
         "hulu": "http://www.hulu.com/izombie"
       },
       "references": {
@@ -141,22 +143,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt1489428/",
         "wikipedia": "https://en.wikipedia.org/wiki/Justified_(TV_series)"
-      }
-    },
-    {
-      "title": "Marry Me",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3504/thumb_marry-me-26d6786b844ef4b60c0dfa9572ccaf41.jpg",
-      "latest_episode_aired_on": "2015-02-17",
-      "first_episode_aired_on": "2014-10-14",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "hulu": "http://www.hulu.com/marry-me"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt3460454/",
-        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/marry-me/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Marry_Me_(U.S._TV_series)"
       }
     },
     {
@@ -359,6 +345,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-08-03 03:12:26 -0400"
+  "updated_at": "2015-08-05 03:12:28 -0400"
 }
 

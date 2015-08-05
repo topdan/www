@@ -2,338 +2,59 @@
 
 <html>
 <head>
-  <title>My Current TV Shows - topdan.com</title>
-  <meta charset="UTF-8">
-  <meta name="description" content="TV shows I'm currently watching. They may be new ones or just catching up with older ones.">
-  <meta name="author" content="Dan Cunning">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@itopdan">
-  <meta name="twitter:url" content="http://www.topdan.com/entertainment/current-tv-shows.html">
-  <meta name="twitter:title" content="My Current TV Shows">
-  <meta name="twitter:description" content="TV shows I'm currently watching. They may be new ones or just catching up with older ones.">
-  <link rel="shortcut icon" href="../assets/favicon-a5b290c132149b7a44260c16213fb6e2.png">
-  <link rel="stylesheet" media="all" href="../assets/site-bc69118917783d4073baccfe3cebc0d1.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
-
-  <script type="text/javascript">
-if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
-    var _gaq = _gaq || [];
-
-    _gaq.push(['_setAccount', 'UA-12957077-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+  <title>We're sorry, but something went wrong (500)</title>
+  <style>
+body {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
   }
-  </script>
+
+  div.dialog {
+    width: 25em;
+    margin: 4em auto 0 auto;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 4em 0 4em;
+  }
+
+  h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  body > p {
+    width: 33em;
+    margin: 0 auto 1em;
+    padding: 1em 0;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow:0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
 </head>
 
-<body id="current-tv-shows" class="navigatable">
-  <a id="top"></a>
-
-  <ul class="navigation">
-    <li class="prev">
-      <a href="previous-tv-shows.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">My Completed TV Shows</span><span class="less">Previous</span></a>
-    </li>
-
-    <li>
-      <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Entertainment</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
-    </li>
-
-    <li class="next">
-      <a href="movie-recommendations.html"><span class="more">Movie Recommendations</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
-    </li>
-  </ul>
-
-  <div class="content">
-    <div class="container post">
-      <p class="byline">Published by Dan on Mar 18, 2012</p>
-
-      <h1><a href="current-tv-shows.html">My Current TV Shows</a></h1>
-
-      <div class="alert alert-definition post-description">
-        <p>TV shows I'm currently watching. They may be new ones or just catching up with older ones.</p>
-      </div><!-- post:content:start -->
-
-      <ul id="poster-filters">
-        <li><span class="label label-inverse">Filters</span></li>
-
-        <li>
-          <a href="#all" class="btn btn-primary">All</a>
-        </li>
-
-        <li>
-          <a class="btn" data-filter="adult_swim_com" href="#adult_swim_com"><img src="../assets/entertainment/services/adult_swim_com-0c93e10b20d6cb35ad83599d4242b88d.png" alt="Adult swim com"></a>
-        </li>
-
-        <li>
-          <a class="btn" data-filter="amazon_one_click" href="#amazon_one_click"><img src="../assets/entertainment/services/amazon_one_click-20af7926ec0915d15eda636ab87d5c2a.png" alt="Amazon one click"></a>
-        </li>
-
-        <li>
-          <a class="btn" data-filter="amazon_prime" href="#amazon_prime"><img src="../assets/entertainment/services/amazon_prime-ed2f9fd078209c545b27985d6d45a382.png" alt="Amazon prime"></a>
-        </li>
-
-        <li>
-          <a class="btn" data-filter="amc_com" href="#amc_com"><img src="../assets/entertainment/services/amc_com-44de9adabd251bf21f2ee01a67c2f781.png" alt="Amc com"></a>
-        </li>
-
-        <li>
-          <a class="btn" data-filter="comedy_central_com" href="#comedy_central_com"><img src="../assets/entertainment/services/comedy_central_com-4fd52c380dddcdf7f6a7d8dac6affc8a.png" alt="Comedy central com"></a>
-        </li>
-
-        <li>
-          <a class="btn" data-filter="hbogo" href="#hbogo"><img src="../assets/entertainment/services/hbogo-c0e1de90a43a2482e5595791703f0cc0.png" alt="Hbogo"></a>
-        </li>
-
-        <li>
-          <a class="btn" data-filter="hulu" href="#hulu"><img src="../assets/entertainment/services/hulu-1515d07f06f637c2439dd60e1e76c630.png" alt="Hulu"></a>
-        </li>
-
-        <li>
-          <a class="btn" data-filter="maxgo" href="#maxgo"><img src="../assets/entertainment/services/maxgo-7be3ab9ba5ada9296491925302f09e6f.png" alt="Maxgo"></a>
-        </li>
-
-        <li>
-          <a class="btn" data-filter="netflix" href="#netflix"><img src="../assets/entertainment/services/netflix-f6ce50d5259b2b94fef0c375983ca93c.png" alt="Netflix"></a>
-        </li>
-
-        <li>
-          <a class="btn" data-filter="south_park_studios" href="#south_park_studios"><img src="../assets/entertainment/services/south_park_studios-425ffefa8152e41cc5ce64592961e7d3.png" alt="South park studios"></a>
-        </li>
-
-        <li>
-          <a class="btn" data-filter="usa_network_com" href="#usa_network_com"><img src="../assets/entertainment/services/usa_network_com-9a49f09d23c9f1325b593f852130bb31.png" alt="Usa network com"></a>
-        </li>
-
-        <li>
-          <a class="btn" data-filter="yahoo_screen" href="#yahoo_screen"><img src="../assets/entertainment/services/yahoo_screen-b538881573bdd18e5ce7ce50d89822b9.png" alt="Yahoo screen"></a>
-        </li>
-      </ul>
-
-      <ul id="posters">
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/Another_Period"><img alt="Another Period" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4156/thumb_another-period-d186b559a3f9b8203c57589f9a7ce2ea.jpg"></a></p>
-
-          <p class="media-links"><a class="amazon_one_click" href="http://www.amazon.com/gp/product/B00YYFS3T2"><img src="../assets/entertainment/services/amazon_one_click-20af7926ec0915d15eda636ab87d5c2a.png" alt="Amazon one click"></a> <a class="comedy_central_com" href="http://www.cc.com/shows/another-period/full-episodes"><img src="../assets/entertainment/services/comedy_central_com-4fd52c380dddcdf7f6a7d8dac6affc8a.png" alt="Comedy central com"></a> <a class="hulu" href="http://www.hulu.com/another-period"><img src="../assets/entertainment/services/hulu-1515d07f06f637c2439dd60e1e76c630.png" alt="Hulu"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/Another_Period">Another Period</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/Banshee_(TV_series)"><img alt="Banshee" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/15/thumb_banshee-ea947c7a5d29dda094713ce5e5aac99b.jpg"></a></p>
-
-          <p class="media-links"><a class="amazon_one_click" href="http://www.amazon.com/gp/product/B00E7NCJ8M"><img src="../assets/entertainment/services/amazon_one_click-20af7926ec0915d15eda636ab87d5c2a.png" alt="Amazon one click"></a> <a class="amazon_prime" href="http://www.amazon.com/gp/product/B00XWUOCB8"><img src="../assets/entertainment/services/amazon_prime-ed2f9fd078209c545b27985d6d45a382.png" alt="Amazon prime"></a> <a class="maxgo" href="http://www.maxgo.com/#series/browse&amp;browseMode=browseGrid?browseID=category.MGOROSTGP33919/"><img src="../assets/entertainment/services/maxgo-7be3ab9ba5ada9296491925302f09e6f.png" alt="Maxgo"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/Banshee_(TV_series)">Banshee</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/Bob's_Burgers"><img alt="Bob's Burgers" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-9b6bbbed3e884b8681e53c8ea918f9ec.jpg"></a></p>
-
-          <p class="media-links"><a class="adult_swim_com" href="http://www.adultswim.com/videos/bobs-burgers/"><img src="../assets/entertainment/services/adult_swim_com-0c93e10b20d6cb35ad83599d4242b88d.png" alt="Adult swim com"></a> <a class="amazon_one_click" href="http://www.amazon.com/gp/product/B004I0KVCK"><img src="../assets/entertainment/services/amazon_one_click-20af7926ec0915d15eda636ab87d5c2a.png" alt="Amazon one click"></a> <a class="hulu" href="http://www.hulu.com/bobs-burgers"><img src="../assets/entertainment/services/hulu-1515d07f06f637c2439dd60e1e76c630.png" alt="Hulu"></a> <a class="netflix" href="https://www.netflix.com/title/70175658"><img src="../assets/entertainment/services/netflix-f6ce50d5259b2b94fef0c375983ca93c.png" alt="Netflix"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/Bob's_Burgers">Bob's Burgers</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/Community_(TV_series)"><img alt="Community" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/38/thumb_community-36aeab1b86e5595c5b22b4e46f7ab19f.jpg"></a></p>
-
-          <p class="media-links"><a class="amazon_one_click" href="http://www.amazon.com/gp/product/B00HNMMH3G"><img src="../assets/entertainment/services/amazon_one_click-20af7926ec0915d15eda636ab87d5c2a.png" alt="Amazon one click"></a> <a class="hulu" href="http://www.hulu.com/community"><img src="../assets/entertainment/services/hulu-1515d07f06f637c2439dd60e1e76c630.png" alt="Hulu"></a> <a class="yahoo_screen" href="https://screen.yahoo.com/community/"><img src="../assets/entertainment/services/yahoo_screen-b538881573bdd18e5ce7ce50d89822b9.png" alt="Yahoo screen"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/Community_(TV_series)">Community</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/Galavant"><img alt="Galavant" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3695/thumb_galavant-76a734d4e7eab17407a6d88c2a506c1d.jpg"></a></p>
-
-          <p class="media-links"><a class="hulu" href="http://www.hulu.com/galavant"><img src="../assets/entertainment/services/hulu-1515d07f06f637c2439dd60e1e76c630.png" alt="Hulu"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/Galavant">Galavant</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/Game_of_Thrones"><img alt="Game of Thrones" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/70/thumb_game-of-thrones-7dca3d4659385a2cf999dcdd7d26c083.jpg"></a></p>
-
-          <p class="media-links"><a class="amazon_one_click" href="http://www.amazon.com/gp/product/B007HNFREW"><img src="../assets/entertainment/services/amazon_one_click-20af7926ec0915d15eda636ab87d5c2a.png" alt="Amazon one click"></a> <a class="hbogo" href="http://www.hbogo.com/#series/browse&amp;assetID=GOROSTGP31734?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"><img src="../assets/entertainment/services/hbogo-c0e1de90a43a2482e5595791703f0cc0.png" alt="Hbogo"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/Game_of_Thrones">Game of Thrones</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/IZombie_%28TV_series%29"><img alt="iZombie" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3879/thumb_izombie-62d1b227666ecb148daead006ba2a802.jpg"></a></p>
-
-          <p class="media-links"><a class="hulu" href="http://www.hulu.com/izombie"><img src="../assets/entertainment/services/hulu-1515d07f06f637c2439dd60e1e76c630.png" alt="Hulu"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/IZombie_%28TV_series%29">iZombie</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/Justified_(TV_series)"><img alt="Justified" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/93/thumb_justified-cda4008d35866db7d1d01ad5cf0b97a2.jpg"></a></p>
-
-          <p class="media-links"><a class="amazon_one_click" href="http://www.amazon.com/gp/product/B003AZBASI"><img src="../assets/entertainment/services/amazon_one_click-20af7926ec0915d15eda636ab87d5c2a.png" alt="Amazon one click"></a> <a class="amazon_prime" href="http://www.amazon.com/gp/product/B003AZBASI"><img src="../assets/entertainment/services/amazon_prime-ed2f9fd078209c545b27985d6d45a382.png" alt="Amazon prime"></a> <a class="hulu" href="http://www.hulu.com/justified"><img src="../assets/entertainment/services/hulu-1515d07f06f637c2439dd60e1e76c630.png" alt="Hulu"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/Justified_(TV_series)">Justified</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/Marry_Me_(U.S._TV_series)"><img alt="Marry Me" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3504/thumb_marry-me-26d6786b844ef4b60c0dfa9572ccaf41.jpg"></a></p>
-
-          <p class="media-links"><a class="hulu" href="http://www.hulu.com/marry-me"><img src="../assets/entertainment/services/hulu-1515d07f06f637c2439dd60e1e76c630.png" alt="Hulu"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/Marry_Me_(U.S._TV_series)">Marry Me</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/Mr._Robot_%28TV_series%29"><img alt="Mr. Robot" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4020/thumb_mr-robot-516ef9897a52962a6ab2fc56ef985b7b.jpg"></a></p>
-
-          <p class="media-links"><a class="amazon_one_click" href="http://www.amazon.com/gp/product/B00YCVCBRS"><img src="../assets/entertainment/services/amazon_one_click-20af7926ec0915d15eda636ab87d5c2a.png" alt="Amazon one click"></a> <a class="hulu" href="http://www.hulu.com/mr-robot"><img src="../assets/entertainment/services/hulu-1515d07f06f637c2439dd60e1e76c630.png" alt="Hulu"></a> <a class="usa_network_com" href="http://www.usanetwork.com/mrrobot/videos?category=-1"><img src="../assets/entertainment/services/usa_network_com-9a49f09d23c9f1325b593f852130bb31.png" alt="Usa network com"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/Mr._Robot_%28TV_series%29">Mr. Robot</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/Sense8"><img alt="Sense8" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4049/thumb_sense8-b463519d066128527691639940321c0f.jpg"></a></p>
-
-          <p class="media-links"><a class="netflix" href="https://www.netflix.com/title/80025744"><img src="../assets/entertainment/services/netflix-f6ce50d5259b2b94fef0c375983ca93c.png" alt="Netflix"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/Sense8">Sense8</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/The_Middle_(TV_series)"><img alt="The Middle" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-b7bcea9fe0df2e9201080bf5183361e7.jpg"></a></p>
-
-          <p class="media-links"><a class="amazon_one_click" href="http://www.amazon.com/gp/product/B00C6ZDNA6"><img src="../assets/entertainment/services/amazon_one_click-20af7926ec0915d15eda636ab87d5c2a.png" alt="Amazon one click"></a> <a class="hulu" href="http://www.hulu.com/the-middle"><img src="../assets/entertainment/services/hulu-1515d07f06f637c2439dd60e1e76c630.png" alt="Hulu"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/The_Middle_(TV_series)">The Middle</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)"><img alt="The Walking Dead" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead-f0308ffcc99f735ecbdf421c26428359.jpg"></a></p>
-
-          <p class="media-links"><a class="amazon_one_click" href="http://www.amazon.com/gp/product/B004A9F9ZI"><img src="../assets/entertainment/services/amazon_one_click-20af7926ec0915d15eda636ab87d5c2a.png" alt="Amazon one click"></a> <a class="amc_com" href="http://www.amc.com/shows/the-walking-dead"><img src="../assets/entertainment/services/amc_com-44de9adabd251bf21f2ee01a67c2f781.png" alt="Amc com"></a> <a class="netflix" href="https://www.netflix.com/title/70177057"><img src="../assets/entertainment/services/netflix-f6ce50d5259b2b94fef0c375983ca93c.png" alt="Netflix"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)">The Walking Dead</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/True_Detective_(TV_series)"><img alt="True Detective" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2600/thumb_true-detective-032dd607e265f856e7794151363be20d.jpg"></a></p>
-
-          <p class="media-links"><a class="amazon_one_click" href="http://www.amazon.com/gp/product/B00KV8E0TS"><img src="../assets/entertainment/services/amazon_one_click-20af7926ec0915d15eda636ab87d5c2a.png" alt="Amazon one click"></a> <a class="hbogo" href="http://www.hbogo.com/#series/browse&amp;assetID=GOROSTGP41968?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"><img src="../assets/entertainment/services/hbogo-c0e1de90a43a2482e5595791703f0cc0.png" alt="Hbogo"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/True_Detective_(TV_series)">True Detective</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/Unbreakable_Kimmy_Schmidt"><img alt="Unbreakable Kimmy Schmidt" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3842/thumb_unbreakable-kimmy-schmidt-cd606ac146db14457c6f598463c3aaf4.jpg"></a></p>
-
-          <p class="media-links"><a class="netflix" href="https://www.netflix.com/title/80025384"><img src="../assets/entertainment/services/netflix-f6ce50d5259b2b94fef0c375983ca93c.png" alt="Netflix"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/Unbreakable_Kimmy_Schmidt">Unbreakable Kimmy Schmidt</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/Burning_Love_(TV_series)"><img alt="Burning Love" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4280/thumb_burning-love-f5ff7906cee15d5804eab03e96af3931.jpg"></a></p>
-
-          <p class="media-links"><a class="hulu" href="http://www.hulu.com/burning-love"><img src="../assets/entertainment/services/hulu-1515d07f06f637c2439dd60e1e76c630.png" alt="Hulu"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/Burning_Love_(TV_series)">Burning Love</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/Continuum_(TV_series)"><img alt="Continuum" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/39/thumb_continuum-640e84645662f90fe4a42b38a86bcda9.jpg"></a></p>
-
-          <p class="media-links"><a class="amazon_one_click" href="http://www.amazon.com/gp/product/B00B1O6DYQ"><img src="../assets/entertainment/services/amazon_one_click-20af7926ec0915d15eda636ab87d5c2a.png" alt="Amazon one click"></a> <a class="netflix" href="https://www.netflix.com/title/70266352"><img src="../assets/entertainment/services/netflix-f6ce50d5259b2b94fef0c375983ca93c.png" alt="Netflix"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/Continuum_(TV_series)">Continuum</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/South_Park"><img alt="South Park" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-aac1005438f92553d735889ca870aa0b.jpg"></a></p>
-
-          <p class="media-links"><a class="amazon_one_click" href="http://www.amazon.com/gp/product/B000GE42H2"><img src="../assets/entertainment/services/amazon_one_click-20af7926ec0915d15eda636ab87d5c2a.png" alt="Amazon one click"></a> <a class="comedy_central_com" href="http://www.cc.com/shows/south-park/full-episodes"><img src="../assets/entertainment/services/comedy_central_com-4fd52c380dddcdf7f6a7d8dac6affc8a.png" alt="Comedy central com"></a> <a class="hulu" href="http://www.hulu.com/south-park"><img src="../assets/entertainment/services/hulu-1515d07f06f637c2439dd60e1e76c630.png" alt="Hulu"></a> <a class="south_park_studios" href="http://www.southparkstudios.com"><img src="../assets/entertainment/services/south_park_studios-425ffefa8152e41cc5ce64592961e7d3.png" alt="South park studios"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/South_Park">South Park</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/The_Leftovers_%28TV_series%29"><img alt="The Leftovers" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3153/thumb_the-leftovers-00c569fef8ee2788cb083da4cf9e5fcd.jpg"></a></p>
-
-          <p class="media-links"><a class="amazon_one_click" href="http://www.amazon.com/gp/product/B00P64F8SE"><img src="../assets/entertainment/services/amazon_one_click-20af7926ec0915d15eda636ab87d5c2a.png" alt="Amazon one click"></a> <a class="hbogo" href="http://www.hbogo.com/#series/browse&amp;assetID=GOROSTGP43206?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"><img src="../assets/entertainment/services/hbogo-c0e1de90a43a2482e5595791703f0cc0.png" alt="Hbogo"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/The_Leftovers_%28TV_series%29">The Leftovers</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/The_Legend_of_Korra"><img alt="The Legend of Korra" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2038/thumb_the-legend-of-korra-f2897a7288b955b2c6d558f0ec3ede87.jpg"></a></p>
-
-          <p class="media-links"><a class="amazon_one_click" href="http://www.amazon.com/gp/product/B00F6PLZGW"><img src="../assets/entertainment/services/amazon_one_click-20af7926ec0915d15eda636ab87d5c2a.png" alt="Amazon one click"></a> <a class="amazon_prime" href="http://www.amazon.com/gp/product/B00F6PLZGW"><img src="../assets/entertainment/services/amazon_prime-ed2f9fd078209c545b27985d6d45a382.png" alt="Amazon prime"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/The_Legend_of_Korra">The Legend of Korra</a></p>
-        </li>
-
-        <li>
-          <p class="poster"><a href="https://en.wikipedia.org/wiki/Jack_Taylor_(TV_series)"><img alt="Jack Taylor" src="https://s3.amazonaws.com/cdn.topdan.com/shows/posters/89/thumb_jack-taylor-9fab1d57b1ce385125cfed000d3d2dd4.jpg"></a></p>
-
-          <p class="media-links"><a class="amazon_one_click" href="http://www.amazon.com/gp/product/B00DM12MBO"><img src="../assets/entertainment/services/amazon_one_click-20af7926ec0915d15eda636ab87d5c2a.png" alt="Amazon one click"></a> <a class="netflix" href="https://www.netflix.com/title/70259177"><img src="../assets/entertainment/services/netflix-f6ce50d5259b2b94fef0c375983ca93c.png" alt="Netflix"></a></p>
-
-          <p class="title"><a href="https://en.wikipedia.org/wiki/Jack_Taylor_(TV_series)">Jack Taylor</a></p>
-        </li>
-      </ul><!-- post:content:end -->
-    </div>
+<body>
+  <!-- This file lives in public/500.html -->
+
+  <div class="dialog">
+    <h1>We're sorry, but something went wrong.</h1>
   </div>
 
-  <div id="footer">
-    <ul class="navigation">
-      <li class="prev">
-        <a href="previous-tv-shows.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">My Completed TV Shows</span><span class="less">Previous</span></a>
-      </li>
-
-      <li>
-        <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Entertainment</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
-      </li>
-
-      <li class="next">
-        <a href="movie-recommendations.html"><span class="more">Movie Recommendations</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
-      </li>
-    </ul>
-
-    <div class="introduction row-fluid">
-      <div class="title span6">
-        <h1><a title="Dan Cunning" href="../">Dan Cunning</a></h1>
-
-        <ul>
-          <li>
-            <a title="Twitter" href="https://twitter.com/itopdan"><span class="about-twitter">&nbsp;</span> twitter</a>
-          </li>
-
-          <li>
-            <a title="github" href="https://github.com/topdan"><span class="about-github">&nbsp;</span> github</a>
-          </li>
-
-          <li>
-            <a title="Email" href="mailto:dan@topdan.com"><span class="about-email">&nbsp;</span> email</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="profile span6">
-        <img width="75" height="75" src="../assets/dan-5c0db9866c0c42f56063b91a4107d1da.jpg" alt="Dan">
-
-        <p>I'm a <a href="../ruby-on-rails/">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="../dan-cunning.html">Read more »</a></p>
-      </div>
-    </div>
-
-    <p id="view-source"><span class="view">View Source:</span> <a href="https://github.com/topdan/www/blob/master/entertainment/current-tv-shows.html">HTML</a> | <a href="https://github.com/topdan/www/blob/master/entertainment/current-tv-shows.json">JSON</a> | <a href="https://github.com/topdan/www/blob/master/app/models/entertainment/tv_show.rb">Model</a> | <a href="https://github.com/topdan/www/blob/master/entertainment/current-tv-shows.html.erb">View</a></p>
-
-    <div id="copyright">
-      <p>© 2012-2015 Dan Cunning. All rights reserved.</p>
-    </div>
-  </div><script src="../assets/site-a9bafd0fa0600a307a0d8645a7599c69.js">
-</script>
+  <p>If you are the application owner check the logs for more information.</p>
 </body>
 </html>
