@@ -613,6 +613,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8992/thumb_about-time-2013-72a8a4c5314dd8f2ea511e4d7364b0f4.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00I8H7APK",
+        "itunes": "https://itunes.apple.com/us/movie/about-time/id723664694",
         "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP36522?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
@@ -1153,7 +1154,8 @@
       "release_date": "2011-07-29",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14102/thumb_crazy-stupid-love-2011-74826cf618760d0871c755696d1a63f2.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0060V1WJ6"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0060V1WJ6",
+        "itunes": "https://itunes.apple.com/us/movie/crazy-stupid-love/id457658502"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1570728/",
@@ -1820,7 +1822,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15041/thumb_idiocracy-2006.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000LWBSDU",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46168?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46168?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "itunes": "https://itunes.apple.com/us/movie/idiocracy/id292230713"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0387808/",
@@ -1909,7 +1912,7 @@
       "title": "V for Vendetta",
       "year": 2006,
       "release_date": "2006-03-17",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15229/thumb_v-for-vendetta-2006.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15229/thumb_v-for-vendetta-2006-7650aa7f3c3bc5e0f85d6da1392f05aa.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I186FW",
         "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37318?videoMode=embeddedVideo?showSpecialFeatures=false/"
@@ -2087,7 +2090,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16800/thumb_club-dread-2004-4865c6eeacaeeff0eb33e9dfd72e572f.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9U8YG",
-        "starz_com": "http://www.starzplay.com/Movies/Details/22223"
+        "encore": "http://www.encoreplay.com/Movies/Details/22223"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0331953/",
@@ -2303,7 +2306,7 @@
       "title": "Underworld",
       "year": 2003,
       "release_date": "2003-09-19",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15218/thumb_underworld-2003.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15218/thumb_underworld-2003-33345fbc80b5e35ef83b60f8a6d87be7.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000O14VAU",
         "netflix": "https://www.netflix.com/title/60031210"
@@ -2356,7 +2359,7 @@
       "title": "Moonlight Mile",
       "year": 2002,
       "release_date": "2002-09-27",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15417/thumb_moonlight-mile-2002.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15417/thumb_moonlight-mile-2002-70944b2eeacb2463b15ee9de74ad46dd.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0087YNJ3G"
       },
@@ -2722,7 +2725,8 @@
       "release_date": "1999-02-19",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7943/thumb_office-space-1999.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000I9YWDO"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000I9YWDO",
+        "itunes": "https://itunes.apple.com/us/movie/office-space/id273369330"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0151804/",
@@ -2915,7 +2919,6 @@
       "release_date": "1997-10-24",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11039/thumb_gattaca-1997.jpg",
       "streams": {
-        "starz_com": "http://www.starzplay.com/Movies/Details/9376"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0119177/",
@@ -3025,8 +3028,7 @@
       "release_date": "1995-08-16",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10734/thumb_the-usual-suspects-1995.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00101ZOTA",
-        "encore": "http://www.encoreplay.com/Movies/Details/1872"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00101ZOTA"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0114814/",
@@ -3296,6 +3298,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-08-07 03:12:27 -0400"
+  "updated_at": "2015-08-08 03:12:28 -0400"
 }
 
