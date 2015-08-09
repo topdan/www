@@ -173,7 +173,7 @@
       "title": "Coherence",
       "year": 2014,
       "release_date": "2014-06-20",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11352/thumb_coherence-2014.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11352/thumb_coherence-2014-d70d59805470fc40d5d488ac65637edf.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00MFE18KK",
         "amazon_prime": "http://www.amazon.com/gp/product/B00MFE18KK"
@@ -789,7 +789,7 @@
       "title": "The Place Beyond the Pines",
       "year": 2013,
       "release_date": "2013-03-29",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9779/thumb_the-place-beyond-the-pines-2013.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9779/thumb_the-place-beyond-the-pines-2013-11ad544a917f827e29c1e495618afbd5.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00DP3M14C"
       },
@@ -933,6 +933,18 @@
       }
     },
     {
+      "title": "John Mulaney: New in Town",
+      "year": 2012,
+      "release_date": null,
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10373/thumb_john-mulaney-new-in-town-2012.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0072LF8IE",
+        "netflix": "https://www.netflix.com/title/70298251"
+      },
+      "references": {
+      }
+    },
+    {
       "title": "Killer Joe",
       "year": 2012,
       "release_date": "2012-07-27",
@@ -975,7 +987,7 @@
       "title": "Moonrise Kingdom",
       "year": 2012,
       "release_date": "2012-05-25",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8230/thumb_moonrise-kingdom-2012.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8230/thumb_moonrise-kingdom-2012-5ad062a6128dbd0ec8942a373d66a8a3.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B009RI4FRU"
       },
@@ -1860,7 +1872,7 @@
       "title": "Perfume: The Story of a Murderer",
       "year": 2006,
       "release_date": "2006-12-27",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14972/thumb_perfume-the-story-of-a-murderer-2006.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14972/thumb_perfume-the-story-of-a-murderer-2006-1eaac1b84becc5ef8965e49b06284b91.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000VSYDRM",
         "netflix": "https://www.netflix.com/title/70052701"
@@ -1961,6 +1973,19 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt0418763/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/1152567-jarhead/"
+      }
+    },
+    {
+      "title": "Kiss Kiss, Bang Bang",
+      "year": 2005,
+      "release_date": "2005-10-21",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12235/thumb_kiss-kiss-bang-bang-2005.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B002QYSZBO"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0373469/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/kiss_kiss_bang_bang/"
       }
     },
     {
@@ -2903,7 +2928,7 @@
       "title": "Contact",
       "year": 1997,
       "release_date": "1997-07-11",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12287/thumb_contact-1997.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12287/thumb_contact-1997-33c6d3f1b621e366a8ae6656ac26640c.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001AH6ZWY",
         "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP45294?videoMode=embeddedVideo?showSpecialFeatures=false/"
@@ -3298,6 +3323,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-08-08 03:12:28 -0400"
+  "updated_at": "2015-08-09 03:12:28 -0400"
 }
 

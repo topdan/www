@@ -264,8 +264,8 @@
       "title": "Burning Love",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4280/thumb_burning-love-f5ff7906cee15d5804eab03e96af3931.jpg",
       "latest_episode_aired_on": "2014-03-14",
-      "first_episode_aired_on": "2013-02-25",
-      "final_episode_aired_on": null,
+      "first_episode_aired_on": "2012-06-02",
+      "final_episode_aired_on": "2013-04-29",
       "unwatched_episodes_count": 0,
       "streams": {
         "hulu": "http://www.hulu.com/burning-love"
@@ -377,6 +377,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-08-07 03:12:27 -0400"
+  "updated_at": "2015-08-09 03:12:28 -0400"
 }
 
