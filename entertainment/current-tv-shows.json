@@ -39,7 +39,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2017109/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Banshee_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Banshee_%28TV_series%29"
       }
     },
     {
@@ -75,7 +75,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1439629/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Community_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Community_%28TV_series%29"
       }
     },
     {
@@ -86,6 +86,7 @@
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
       "streams": {
+        "abc_com": "http://abc.go.com/shows/galavant",
         "hulu": "http://www.hulu.com/galavant"
       },
       "references": {
@@ -124,7 +125,7 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt4122068/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/tv/humans/s01/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Humans_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Humans_%28TV_series%29"
       }
     },
     {
@@ -159,7 +160,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1489428/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Justified_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Justified_%28TV_series%29"
       }
     },
     {
@@ -204,12 +205,13 @@
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
       "streams": {
+        "abc_com": "http://abc.go.com/shows/the-middle",
         "amazon_one_click": "http://www.amazon.com/gp/product/B00C6ZDNA6",
         "hulu": "http://www.hulu.com/the-middle"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1442464/",
-        "wikipedia": "https://en.wikipedia.org/wiki/The_Middle_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Middle_%28TV_series%29"
       }
     },
     {
@@ -226,13 +228,13 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1520211/",
-        "wikipedia": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Walking_Dead_%28TV_series%29"
       }
     },
     {
       "title": "True Detective",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2600/thumb_true-detective-032dd607e265f856e7794151363be20d.jpg",
-      "latest_episode_aired_on": "2015-08-03",
+      "latest_episode_aired_on": "2015-08-10",
       "first_episode_aired_on": "2014-01-12",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -242,7 +244,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2356777/",
-        "wikipedia": "https://en.wikipedia.org/wiki/True_Detective_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/True_Detective_%28TV_series%29"
       }
     },
     {
@@ -272,7 +274,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2292621/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Burning_Love_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Burning_Love_%28TV_series%29"
       }
     },
     {
@@ -288,7 +290,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1954347/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Continuum_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Continuum_%28TV_series%29"
       }
     },
     {
@@ -303,7 +305,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2883562/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Quick_Draw_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Quick_Draw_%28TV_series%29"
       }
     },
     {
@@ -369,7 +371,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1547657/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Jack_Taylor_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Jack_Taylor_%28TV_series%29"
       }
     }
   ],
@@ -377,6 +379,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-08-09 03:12:28 -0400"
+  "updated_at": "2015-08-10 03:12:29 -0400"
 }
 

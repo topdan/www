@@ -20,7 +20,7 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt3460454/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/tv/marry-me/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Marry_Me_(U.S._TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Marry_Me_%28U.S._TV_series%29"
       }
     },
     {
@@ -38,7 +38,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0904208/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Californication_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Californication_%28TV_series%29"
       }
     },
     {
@@ -85,7 +85,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2182229/",
-        "wikipedia": "https://en.wikipedia.org/wiki/The_Neighbors_(2012_TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Neighbors_%282012_TV_series%29"
       }
     },
     {
@@ -100,7 +100,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0367279/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Arrested_Development_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Arrested_Development_%28TV_series%29"
       }
     },
     {
@@ -149,7 +149,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0773262/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Dexter_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Dexter_%28TV_series%29"
       }
     },
     {
@@ -166,7 +166,7 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt1839683/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/tv/awake/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Awake_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Awake_%28TV_series%29"
       }
     },
     {
@@ -182,7 +182,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0796264/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Eureka_(U.S._TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Eureka_%28U.S._TV_series%29"
       }
     },
     {
@@ -197,7 +197,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2086606/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Spy_(2011_TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Spy_%282011_TV_series%29"
       }
     },
     {
@@ -214,7 +214,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0185906/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Band_of_Brothers_(TV_miniseries)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Band_of_Brothers_%28TV_miniseries%29"
       }
     },
     {
@@ -231,7 +231,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0758745/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Friday_Night_Lights_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Friday_Night_Lights_%28TV_series%29"
       }
     },
     {
@@ -281,7 +281,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0411008/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Lost_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Lost_%28TV_series%29"
       }
     },
     {
@@ -297,7 +297,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0285403/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Scrubs_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Scrubs_%28TV_series%29"
       }
     },
     {
@@ -346,7 +346,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0805663/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Jericho_(2006_TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Jericho_%282006_TV_series%29"
       }
     },
     {
@@ -426,7 +426,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0303461/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Firefly_(TV_series)"
+        "wikipedia": "https://en.wikipedia.org/wiki/Firefly_%28TV_series%29"
       }
     },
     {
@@ -465,6 +465,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-08-05 03:12:28 -0400"
+  "updated_at": "2015-08-10 03:12:29 -0400"
 }
 
