@@ -258,7 +258,7 @@
       "title": "Housebound",
       "year": 2014,
       "release_date": "2014-10-17",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12909/thumb_housebound-2014.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12909/thumb_housebound-2014-f0a4dbc74ac454ae1409a69fa7d7d6f4.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00OLI7SR0",
         "netflix": "https://www.netflix.com/title/80013767"
@@ -708,7 +708,7 @@
       "title": "Prisoners",
       "year": 2013,
       "release_date": "2013-09-20",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9014/thumb_prisoners-2013.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9014/thumb_prisoners-2013-4d196a404263bd130a811971ab49c8fd.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00GT0MVIE",
         "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37527?videoMode=embeddedVideo?showSpecialFeatures=false/"
@@ -909,7 +909,7 @@
       "title": "Dredd",
       "year": 2012,
       "release_date": "2012-09-21",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5933/thumb_dredd-2012.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5933/thumb_dredd-2012-5382e28e138292004ad26f58aa34d7c3.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00AYB0TOW"
       },
@@ -1081,7 +1081,7 @@
       "title": "The Brass Teapot",
       "year": 2012,
       "release_date": "2013-04-05",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/6965/thumb_the-brass-teapot-2012.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/6965/thumb_the-brass-teapot-2012-39cfbcfa9ef48fcffe18810648344437.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00BMKRPSW",
         "amazon_prime": "http://www.amazon.com/gp/product/B00BMKRPSW",
@@ -1737,7 +1737,7 @@
       "title": "Sunshine",
       "year": 2007,
       "release_date": "2007-07-27",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11628/thumb_sunshine-2007.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11628/thumb_sunshine-2007-f122c949da09a74d5d6b2ded554ab947.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000ZHS3E8"
       },
@@ -1887,7 +1887,7 @@
       "title": "Stranger Than Fiction",
       "year": 2006,
       "release_date": "2006-11-10",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14319/thumb_stranger-than-fiction-2006.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14319/thumb_stranger-than-fiction-2006-a1a6869c1eeb7a08b27889811fc71df8.jpg",
       "streams": {
       },
       "references": {
@@ -2047,7 +2047,7 @@
       "title": "Stay",
       "year": 2005,
       "release_date": "2005-10-21",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8303/thumb_stay-2005.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8303/thumb_stay-2005-44577cd33f0679993c1679514827f357.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000IZC7WG"
       },
@@ -2889,7 +2889,7 @@
       "title": "The Big Hit",
       "year": 1998,
       "release_date": "1998-04-24",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11543/thumb_the-big-hit-1998.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11543/thumb_the-big-hit-1998-7bd5a34dd7da389271dd5692032924eb.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001DIJ5AY",
         "netflix": "https://www.netflix.com/title/14606161"
@@ -3324,6 +3324,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-08-10 03:12:29 -0400"
+  "updated_at": "2015-08-11 03:12:28 -0400"
 }
 

@@ -52,6 +52,7 @@
       "streams": {
         "adult_swim_com": "http://www.adultswim.com/videos/bobs-burgers/",
         "amazon_one_click": "http://www.amazon.com/gp/product/B004I0KVCK",
+        "fox_com": "http://www.fox.com/bobs-burgers",
         "hulu": "http://www.hulu.com/bobs-burgers",
         "netflix": "https://www.netflix.com/title/70175658"
       },
@@ -114,7 +115,7 @@
     {
       "title": "HUMANS",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4176/thumb_humans-494025a309eeff11f607d5d81eab674c.jpg",
-      "latest_episode_aired_on": "2015-08-02",
+      "latest_episode_aired_on": "2015-08-09",
       "first_episode_aired_on": "2015-06-14",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -379,6 +380,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-08-10 03:12:29 -0400"
+  "updated_at": "2015-08-11 03:12:28 -0400"
 }
 
