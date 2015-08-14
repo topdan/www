@@ -1027,7 +1027,7 @@
       "title": "Safety Not Guaranteed",
       "year": 2012,
       "release_date": "2012-06-08",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5081/thumb_safety-not-guaranteed-2012.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5081/thumb_safety-not-guaranteed-2012-f61a0776e235eb760769f6d3cda1ee66.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B009M8TYY4"
       },
@@ -2399,7 +2399,7 @@
       "title": "Punch-Drunk Love",
       "year": 2002,
       "release_date": "2002-10-11",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/4782/thumb_punch-drunk-love-2002.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/4782/thumb_punch-drunk-love-2002-8669a3b44fdc27a6a78e151524524e8f.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B004GJ1YCO",
         "netflix": "https://www.netflix.com/title/60024979"
@@ -3325,6 +3325,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-08-13 03:12:29 -0400"
+  "updated_at": "2015-08-14 03:12:28 -0400"
 }
 
