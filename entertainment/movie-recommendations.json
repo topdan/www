@@ -11,7 +11,7 @@
       "title": "Ex Machina",
       "year": 2015,
       "release_date": "2015-04-24",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15348/thumb_ex-machina-2015.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15348/thumb_ex-machina-2015-4b8b53fb3fa9b32f414805486c6d61cd.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00VWPQNJ4",
         "itunes": "https://itunes.apple.com/us/movie/ex-machina/id983488795"
@@ -217,7 +217,7 @@
       "title": "Enemy",
       "year": 2014,
       "release_date": "2014-03-14",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10477/thumb_enemy-2014.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10477/thumb_enemy-2014-6ea1c141411caf5532f245dc84f2ddba.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00J3DU0W8",
         "amazon_prime": "http://www.amazon.com/gp/product/B00J3DU0W8"
@@ -231,7 +231,7 @@
       "title": "God Help the Girl",
       "year": 2014,
       "release_date": "2014-09-05",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12802/thumb_god-help-the-girl-2014.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12802/thumb_god-help-the-girl-2014-6ad5c59b9cb9fce7152bbd0dd4af5f6c.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00NNFZ8SS",
         "amazon_prime": "http://www.amazon.com/gp/product/B00NNFZ8SS"
@@ -273,7 +273,7 @@
       "title": "In a World...",
       "year": 2014,
       "release_date": "2013-08-09",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8838/thumb_in-a-world-2014.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8838/thumb_in-a-world-2014-13b8bfe707f2636309c051e5e86bfe78.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00H89NAWQ",
         "netflix": "https://www.netflix.com/title/70267479"
@@ -640,7 +640,7 @@
       "title": "Drinking Buddies",
       "year": 2013,
       "release_date": "2013-08-23",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8944/thumb_drinking-buddies-2013.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8944/thumb_drinking-buddies-2013-3da09db91f509435d6cadc73ef5e0cbb.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00E59E9EK",
         "netflix": "https://www.netflix.com/title/70272917"
@@ -728,7 +728,7 @@
         "netflix": "https://www.netflix.com/title/70272893"
       },
       "references": {
-        "imdb": "http://www.imdb.com/title/tt1299384/",
+        "imdb": "http://www.imdb.com/title/tt2370248/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/short_term_12_2013/"
       }
     },
@@ -1698,7 +1698,7 @@
       "title": "Reign Over Me",
       "year": 2007,
       "release_date": "2007-03-23",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12052/thumb_reign-over-me-2007.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12052/thumb_reign-over-me-2007-d01e914052b0dcbd950b0ba3aaf10f20.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000WZ4YCI"
       },
@@ -1994,7 +1994,7 @@
       "title": "Layer Cake",
       "year": 2005,
       "release_date": "2005-05-13",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13206/thumb_layer-cake-2005.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13206/thumb_layer-cake-2005-ed3a380b021c05e9d6b55292cae889c9.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00AVIQAIM"
       },
@@ -2429,6 +2429,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5636/thumb_super-troopers-2002.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9VZCU",
+        "itunes": "https://itunes.apple.com/us/movie/super-troopers/id270307460",
         "maxgo": "http://www.maxgo.com/#home/video&assetID=MUGOROSTP31234?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
@@ -2522,7 +2523,7 @@
       "title": "Donnie Darko",
       "year": 2001,
       "release_date": "2001-01-19",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10568/thumb_donnie-darko-2001.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10568/thumb_donnie-darko-2001-b6574e60220c0bda3f51fbd3b6583e6d.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B002MGGM9I"
       },
@@ -3296,7 +3297,7 @@
       "title": "A Clockwork Orange",
       "year": 1971,
       "release_date": "1971-12-19",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13190/thumb_a-clockwork-orange-1971.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13190/thumb_a-clockwork-orange-1971-ed44e628b7263f973492eaccb5ebf60e.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00125FBTM",
         "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP36804?videoMode=embeddedVideo?showSpecialFeatures=false/"
@@ -3325,6 +3326,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-08-14 03:12:28 -0400"
+  "updated_at": "2015-08-15 03:12:29 -0400"
 }
 
