@@ -104,23 +104,6 @@
       }
     },
     {
-      "title": "Breaking Bad",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/29/thumb_breaking-bad-2a94b6b34ba1390235fef8451d725f20.jpg",
-      "latest_episode_aired_on": "2013-09-29",
-      "first_episode_aired_on": "2008-01-20",
-      "final_episode_aired_on": "2013-09-29",
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B003CH9PV8",
-        "amc_com": "http://www.amc.com/shows/breaking-bad",
-        "netflix": "https://www.netflix.com/title/70143836"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt0903747/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Breaking_Bad"
-      }
-    },
-    {
       "title": "Bunheads",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/32/thumb_bunheads-d49411db2635d7d3dc3d788bdec21a2f.jpg",
       "latest_episode_aired_on": "2013-02-25",
@@ -465,6 +448,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-08-10 03:12:29 -0400"
+  "updated_at": "2015-08-16 03:12:29 -0400"
 }
 

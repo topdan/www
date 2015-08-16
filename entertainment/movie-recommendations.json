@@ -94,6 +94,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11166/thumb_begin-again-2014.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00O2UZ298",
+        "itunes": "https://itunes.apple.com/us/movie/begin-again/id892574154",
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3403508"
       },
       "references": {
@@ -105,7 +106,7 @@
       "title": "Big Hero 6",
       "year": 2014,
       "release_date": "2014-11-07",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11953/thumb_big-hero-6-2014.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11953/thumb_big-hero-6-2014-7d17e95cb7ea0734e97468debda52a2a.jpg",
       "streams": {
         "itunes": "https://itunes.apple.com/us/movie/big-hero-6/id929423754",
         "starz_com": "http://www.starzplay.com/Movies/Details/23790"
@@ -1750,7 +1751,7 @@
       "title": "The Darjeeling Limited",
       "year": 2007,
       "release_date": "2007-10-26",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11618/thumb_the-darjeeling-limited-2007.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11618/thumb_the-darjeeling-limited-2007-772c8e157d0d1a85d8d21672c708d7c8.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0016JBCJW"
       },
@@ -1900,7 +1901,7 @@
       "title": "The Fountain",
       "year": 2006,
       "release_date": "2006-11-22",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13299/thumb_the-fountain-2006.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13299/thumb_the-fountain-2006-b519f7a881356abe557a420ff34480b2.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000RZAENG"
       },
@@ -2141,7 +2142,7 @@
       "title": "Garden State",
       "year": 2004,
       "release_date": "2004-07-28",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8141/thumb_garden-state-2004.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8141/thumb_garden-state-2004-868142e44ae91289103e9f45d8c8a38e.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9X6Q8",
         "encore": "http://www.encoreplay.com/Movies/Details/23546"
@@ -2155,7 +2156,7 @@
       "title": "I Heart Huckabees",
       "year": 2004,
       "release_date": "2004-10-01",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7890/thumb_i-heart-huckabees-2004.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7890/thumb_i-heart-huckabees-2004-687bd141f57845e5893fa4a3a3e9851a.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000SW2F08",
         "starz_com": "http://www.starzplay.com/Movies/Details/23849"
@@ -3056,7 +3057,8 @@
       "release_date": "1995-08-16",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10734/thumb_the-usual-suspects-1995.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00101ZOTA"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00101ZOTA",
+        "itunes": "https://itunes.apple.com/us/movie/the-usual-suspects/id267913118"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0114814/",
@@ -3326,6 +3328,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-08-15 03:12:29 -0400"
+  "updated_at": "2015-08-16 03:12:29 -0400"
 }
 
