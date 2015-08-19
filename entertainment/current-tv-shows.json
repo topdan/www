@@ -8,6 +8,22 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "Peaky Blinders",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4055/thumb_peaky-blinders-a4cc4e465872e7f25994d80a236f01c5.jpg",
+      "latest_episode_aired_on": null,
+      "first_episode_aired_on": null,
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80002479"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2442560/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/peaky-blinders/s02/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Peaky_Blinders_%28TV_series%29"
+      }
+    },
+    {
       "title": "Another Period",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4156/thumb_another-period-d186b559a3f9b8203c57589f9a7ce2ea.jpg",
       "latest_episode_aired_on": "2015-08-11",
@@ -60,6 +76,21 @@
         "imdb": "http://www.imdb.com/title/tt1561755/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/tv/bob-s-burgers/",
         "wikipedia": "https://en.wikipedia.org/wiki/Bob's_Burgers"
+      }
+    },
+    {
+      "title": "Comedians In Cars Getting Coffee",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4239/thumb_comedians-in-cars-getting-coffee-6bc8ce0698111617d89d2fb5466ff9ee.jpg",
+      "latest_episode_aired_on": "2015-07-08",
+      "first_episode_aired_on": "2012-07-19",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "comedians_cars_coffee": "http://comediansincarsgettingcoffee.com/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2314952/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Comedians_in_Cars_Getting_Coffee"
       }
     },
     {
@@ -264,6 +295,21 @@
       }
     },
     {
+      "title": "Wet Hot American Summer",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4366/thumb_wet-hot-american-summer-64e2408b30f3dde756dc13a566f97e85.jpg",
+      "latest_episode_aired_on": "2015-07-31",
+      "first_episode_aired_on": "2015-07-31",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80039813"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4341500/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Wet_Hot_American_Summer:_First_Day_of_Camp"
+      }
+    },
+    {
       "title": "Burning Love",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4280/thumb_burning-love-f5ff7906cee15d5804eab03e96af3931.jpg",
       "latest_episode_aired_on": "2014-03-14",
@@ -325,6 +371,22 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt0121955/",
         "wikipedia": "https://en.wikipedia.org/wiki/South_Park"
+      }
+    },
+    {
+      "title": "The Affair",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3487/thumb_the-affair-f271f406bbb970eb143e8b6278cbb01d.jpg",
+      "latest_episode_aired_on": "2014-12-21",
+      "first_episode_aired_on": "2014-10-12",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "showtime_anytime": "http://www.showtimeanytime.com/#/series/1031103"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3007820/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/the-affair/s01/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Affair_%28TV_series%29"
       }
     },
     {
@@ -397,6 +459,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-08-18 03:12:28 -0400"
+  "updated_at": "2015-08-19 03:12:29 -0400"
 }
 
