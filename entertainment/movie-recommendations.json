@@ -120,7 +120,7 @@
       "title": "Blue Ruin",
       "year": 2014,
       "release_date": "2014-04-25",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11256/thumb_blue-ruin-2014.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11256/thumb_blue-ruin-2014-ce8f9c6279b4db878af542f6f1b64f97.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00JXD2UJO",
         "netflix": "https://www.netflix.com/title/70278931"
@@ -397,7 +397,7 @@
       "title": "Nightcrawler",
       "year": 2014,
       "release_date": "2014-10-31",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13162/thumb_nightcrawler-2014.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13162/thumb_nightcrawler-2014-911d6ad761bc7f6d50147ba258110ba1.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00TF874XE",
         "itunes": "https://itunes.apple.com/us/movie/nightcrawler/id933543454",
@@ -977,7 +977,8 @@
       "release_date": "2012-09-28",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12211/thumb_looper-2012-e4bdd3aa16f08706f424ebd1a77ae7ae.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00A9X9VAI"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00A9X9VAI",
+        "itunes": "https://itunes.apple.com/us/movie/looper/id575490887"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1276104/",
@@ -1210,7 +1211,8 @@
       "release_date": "2011-04-08",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13301/thumb_hanna-2011-ab788d41d90bd8cbc72a05808b6f74ab.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B005KAH7QU"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B005KAH7QU",
+        "itunes": "https://itunes.apple.com/us/movie/hanna/id447296531"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0993842/",
@@ -1570,6 +1572,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9107/thumb_in-bruges-2008.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001D23BFK",
+        "itunes": "https://itunes.apple.com/us/movie/in-bruges/id281077778",
         "netflix": "https://www.netflix.com/title/70083111"
       },
       "references": {
@@ -1863,10 +1866,11 @@
       "title": "Lucky Number Slevin",
       "year": 2006,
       "release_date": "2006-04-07",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13286/thumb_lucky-number-slevin-2006.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13286/thumb_lucky-number-slevin-2006-8adfc635ed75bcfcacb87aa57f371717.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0026Y88RU",
-        "amazon_prime": "http://www.amazon.com/gp/product/B0026Y88RU"
+        "amazon_prime": "http://www.amazon.com/gp/product/B0026Y88RU",
+        "itunes": "https://itunes.apple.com/us/movie/lucky-number-slevin/id306995069"
       },
       "references": {
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/lucky_number_slevin/"
@@ -2417,7 +2421,8 @@
       "release_date": "2002-07-12",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12323/thumb_road-to-perdition-2002-0da128f1ba1c77fdb70f2238dd1bb02b.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00DQJPFIE"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00DQJPFIE",
+        "itunes": "https://itunes.apple.com/us/movie/road-to-perdition/id599494712"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0257044/",
@@ -2700,7 +2705,7 @@
       "title": "The Way of the Gun",
       "year": 2000,
       "release_date": "2000-09-08",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13116/thumb_the-way-of-the-gun-2000.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13116/thumb_the-way-of-the-gun-2000-8a34d85dcc3c9c8f4b6153cde26eaa15.jpg",
       "streams": {
       },
       "references": {
@@ -3044,7 +3049,7 @@
       "title": "The City of Lost Children",
       "year": 1995,
       "release_date": "1995-12-15",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11548/thumb_the-city-of-lost-children-1995.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11548/thumb_the-city-of-lost-children-1995-e2910132149774486804b88d4e70dab4.jpg",
       "streams": {
       },
       "references": {
@@ -3137,7 +3142,7 @@
       "title": "Barton Fink",
       "year": 1991,
       "release_date": "1991-08-21",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/919/thumb_barton-fink-1991.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/919/thumb_barton-fink-1991-0097ea7e46c4700ef7ef4bb9c064d3b5.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0015IU3OE",
         "netflix": "https://www.netflix.com/title/60000822"
@@ -3329,6 +3334,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-08-20 03:12:28 -0400"
+  "updated_at": "2015-08-21 03:12:29 -0400"
 }
 
