@@ -456,7 +456,7 @@
       "title": "The Babadook",
       "year": 2014,
       "release_date": "2014-11-27",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14284/thumb_the-babadook-2014.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14284/thumb_the-babadook-2014-0a2f2f8924a8df9a7160cd1e6d439467.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00P596I8Y",
         "netflix": "https://www.netflix.com/title/70300205"
@@ -583,7 +583,7 @@
       "title": "The Zero Theorem",
       "year": 2014,
       "release_date": "2014-09-19",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12665/thumb_the-zero-theorem-2014.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12665/thumb_the-zero-theorem-2014-267aac92cc32d98fb18b90d3d89469dd.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00MW743SO",
         "amazon_prime": "http://www.amazon.com/gp/product/B00MW743SO"
@@ -3334,6 +3334,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-08-22 03:12:29 -0400"
+  "updated_at": "2015-08-23 03:12:30 -0400"
 }
 
