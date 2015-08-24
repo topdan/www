@@ -50,7 +50,7 @@
       "title": "The Voices",
       "year": 2015,
       "release_date": "2015-02-06",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14941/thumb_the-voices-2015.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14941/thumb_the-voices-2015-27fb0695c564f58c098059b8863313ce.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00T9DFQCQ"
       },
@@ -2964,7 +2964,7 @@
       "title": "Good Will Hunting",
       "year": 1997,
       "release_date": "1997-12-05",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/2552/thumb_good-will-hunting-1997.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/2552/thumb_good-will-hunting-1997-03159784a96ab43bf770321ce9b36d28.jpg",
       "streams": {
         "amazon_prime": "http://www.amazon.com/gp/product/B006RXQA5I",
         "netflix": "https://www.netflix.com/title/17405997"
@@ -3169,7 +3169,7 @@
       "title": "Heathers",
       "year": 1989,
       "release_date": "1988-06-01",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/2715/thumb_heathers-1989.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/2715/thumb_heathers-1989-c57c518a96497f909245557534fe8c88.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B006MNH0DO",
         "netflix": "https://www.netflix.com/title/580335"
@@ -3334,6 +3334,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-08-23 03:12:30 -0400"
+  "updated_at": "2015-08-24 03:12:29 -0400"
 }
 
