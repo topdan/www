@@ -2433,7 +2433,7 @@
       "title": "Super Troopers",
       "year": 2002,
       "release_date": "2002-02-15",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5636/thumb_super-troopers-2002.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5636/thumb_super-troopers-2002-38d10db717ef831df0277d277eca9c09.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9VZCU",
         "itunes": "https://itunes.apple.com/us/movie/super-troopers/id270307460",
@@ -2652,7 +2652,7 @@
       "title": "Memento",
       "year": 2000,
       "release_date": "2000-09-05",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3879/thumb_memento-2000.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3879/thumb_memento-2000-d961d5eebe17ca1cd75b6250d979a8a0.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B004YRSBTW"
       },
@@ -2827,7 +2827,7 @@
       "title": "The Sixth Sense",
       "year": 1999,
       "release_date": "1999-08-06",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16033/thumb_the-sixth-sense-1999.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16033/thumb_the-sixth-sense-1999-f00d07c18f664fe8f67424eeb853bf0b.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0060D0N9O",
         "netflix": "https://www.netflix.com/title/26797528"
@@ -3280,8 +3280,7 @@
       "release_date": "1974-02-07",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12642/thumb_blazing-saddles-1974-803ceeeaf387e0b23052ae4be14d5459.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0014C3KN2",
-        "encore": "http://www.encoreplay.com/Movies/Details/17714"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0014C3KN2"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0071230/",
@@ -3334,6 +3333,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-08-24 03:12:29 -0400"
+  "updated_at": "2015-08-25 03:12:28 -0400"
 }
 
