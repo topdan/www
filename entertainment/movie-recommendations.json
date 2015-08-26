@@ -386,7 +386,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11315/thumb_neighbors-2014.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00NTSYP3S",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP45591?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46546?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2004420/",
@@ -600,7 +600,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11230/thumb_x-men-days-of-future-past-2014-281cfc555c7894fa04cf2fc22b36caeb.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00OH75ATS",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46129?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46550?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/x-men-days-future-past-rogue/id986229261"
       },
       "references": {
@@ -763,7 +763,7 @@
       "title": "The Kings of Summer",
       "year": 2013,
       "release_date": "2013-05-31",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9745/thumb_the-kings-of-summer-2013.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9745/thumb_the-kings-of-summer-2013-4dba2bf4d257674780293dae296b75ac.jpg",
       "streams": {
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3376808"
       },
@@ -2799,7 +2799,7 @@
       "title": "The Cider House Rules",
       "year": 1999,
       "release_date": "1999-12-10",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5984/thumb_the-cider-house-rules-1999.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5984/thumb_the-cider-house-rules-1999-a89e7aaee45f885838a77a9c41ba7452.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00BB8Q1RQ",
         "amazon_prime": "http://www.amazon.com/gp/product/B00BB8Q1RQ",
@@ -2978,7 +2978,7 @@
       "title": "The Castle",
       "year": 1997,
       "release_date": "1999-05-07",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5957/thumb_the-castle-1997.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5957/thumb_the-castle-1997-a7c62993679a19ba18a37d7a8906be14.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00COH0PHU",
         "netflix": "https://www.netflix.com/title/356068"
@@ -3333,6 +3333,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-08-25 03:12:28 -0400"
+  "updated_at": "2015-08-26 03:12:29 -0400"
 }
 
