@@ -77,7 +77,7 @@
       "title": "Before I Disappear",
       "year": 2014,
       "release_date": "2014-11-28",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14110/thumb_before-i-disappear-2014.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14110/thumb_before-i-disappear-2014-e6783b17be69566134b3890b1b6e3429.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00QA3TTMQ",
         "netflix": "https://www.netflix.com/title/70304983"
@@ -1584,7 +1584,7 @@
       "title": "Jumper",
       "year": 2008,
       "release_date": "2008-02-15",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16151/thumb_jumper-2008.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16151/thumb_jumper-2008-711581d43406843aeba4b5dc5f46afcd.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001CDD84Y"
       },
@@ -1649,7 +1649,7 @@
       "title": "Across the Universe",
       "year": 2007,
       "release_date": "2007-09-14",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16156/thumb_across-the-universe-2007.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16156/thumb_across-the-universe-2007-e24eac51015659b7bd62f919b7b4b04b.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0016BP0PW",
         "starz_com": "http://www.starzplay.com/Movies/Details/32"
@@ -3333,6 +3333,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-08-26 03:12:29 -0400"
+  "updated_at": "2015-08-27 03:12:28 -0400"
 }
 
