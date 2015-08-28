@@ -427,7 +427,7 @@
       "title": "Premature",
       "year": 2014,
       "release_date": "2014-07-02",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12266/thumb_premature-2014.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12266/thumb_premature-2014-9ebe3ee73d98a947f83da265270fc31f.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00LFE4FPG",
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3410108"
@@ -2260,7 +2260,7 @@
       "title": "Big Fish",
       "year": 2003,
       "release_date": "2003-12-10",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1048/thumb_big-fish-2003.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1048/thumb_big-fish-2003-fd641f8ed7bbc30fafabf24b722289be.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B007PJFFWC",
         "amazon_prime": "http://www.amazon.com/gp/product/B007PJFFWC"
@@ -2490,6 +2490,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14491/thumb_a-knights-tale-2001-4deed882336fa493b6d94d35430d1996.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000RL1G32",
+        "itunes": "https://itunes.apple.com/us/movie/a-knights-tale/id531594338",
         "netflix": "https://www.netflix.com/title/60020626"
       },
       "references": {
@@ -2596,7 +2597,7 @@
       "title": "Vanilla Sky",
       "year": 2001,
       "release_date": "2001-12-14",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7369/thumb_vanilla-sky-2001.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7369/thumb_vanilla-sky-2001-247e73558b65a598a4a4ef958ba2a625.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000IZ8VDK",
         "amazon_prime": "http://www.amazon.com/gp/product/B000IZ8VDK",
@@ -2679,7 +2680,7 @@
       "title": "Requiem For A Dream",
       "year": 2000,
       "release_date": "2000-10-06",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7109/thumb_requiem-for-a-dream-2000.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7109/thumb_requiem-for-a-dream-2000-663bd6e86c248bf2e484d3d49cd605f1.jpg",
       "streams": {
         "starz_com": "http://www.starzplay.com/Movies/Details/23724"
       },
@@ -2869,7 +2870,7 @@
       "title": "Fear and Loathing in Las Vegas",
       "year": 1998,
       "release_date": "1998-05-22",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7105/thumb_fear-and-loathing-in-las-vegas-1998.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7105/thumb_fear-and-loathing-in-las-vegas-1998-4244241f72fd659684606975ce36fede.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000ID1J0E"
       },
@@ -3238,7 +3239,7 @@
       "title": "Trading Places",
       "year": 1983,
       "release_date": "1983-06-01",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7192/thumb_trading-places-1983.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7192/thumb_trading-places-1983-aa806b3fabc5af865a203eda86adce9b.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00119XQHI",
         "netflix": "https://www.netflix.com/title/60011484"
@@ -3333,6 +3334,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-08-27 03:12:28 -0400"
+  "updated_at": "2015-08-28 03:12:31 -0400"
 }
 
