@@ -5,7 +5,19 @@
   <link rel="self" type="application/atom+xml" href="http://www.topdan.com/entertainment/index.xml"/>
   <title>Entertainment - topdan.com</title>
   <subtitle>Dan Cunning's thoughts on entertainment.</subtitle>
-  <updated>2013-01-02 03:55:59 UTC</updated>
+  <updated>2015-08-28 20:00:00 UTC</updated>
+  <entry>
+    <id>http://www.topdan.com/entertainment/gilmore-girl-alumni.html</id>
+    <published>2015-08-28T18:51:56-04:00</published>
+    <updated>2015-08-28T19:26:57-04:00</updated>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/gilmore-girl-alumni.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>Gilmore Girls Alumni</title>
+    <content>A look at the members of cast that gain significant fame and directors that works on significant projects after Gilmore Girls.</content>
+    <updated>2015-08-28 20:00:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
   <entry>
     <id>http://www.topdan.com/entertainment/music-videos.html</id>
     <published>2013-10-22T17:42:25-04:00</published>

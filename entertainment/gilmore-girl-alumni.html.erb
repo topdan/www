@@ -1,0 +1,36 @@
+<h2 id="actors" class="clear">Actors</h2>
+<p class="alert alert-definition post-description">
+  Major and minor cast members from the show appear all over TV and movies. Here's a list of actors and actresses who gained notoriety in shows after appearing in two or more episodes of <a href="http://www.imdb.com/title/tt0238784/">Gilmore Girls</a>.
+</p>
+
+<ul class="alumni">
+  <% @current_post.data.collect {|e| e if e.job == 'actor' }.compact.in_groups_of(3).each do |group| %>
+    <% group.compact.each_with_index do |member, i| %>
+    <li class="<%= 'separator' if i == 0 %>">
+      <h3><%= link_to member.name, member.imdb_url %></h3>
+      <p class="posters"><%= member.posters.collect {|img, url| link_to post_image_tag(img), url }.join(' ').html_safe %></p>
+      <%= post_markdown member.description %>
+    </li>
+    <% end %>
+  <% end %>
+</ul>
+
+<h2 id="directors" class="clear">Directors</h2>
+<div class="alert alert-definition post-description">
+  <p>
+    TV is more an actor's or writer's medium than a director's, who tend to work on an episode here or there, but a trend develops while at the work of directors after their last episode of <a href="http://www.imdb.com/title/tt0238784/">Gilmore Girls</a>: strong (not <a href="http://www.imdb.com/title/tt0195685/">fake</a> <a href="http://www.imdb.com/title/tt0878804/">strong</a>) females, mostly family-oriented content, and always with great writing.
+  </p>
+</div>
+
+
+<ul class="alumni">
+  <% @current_post.data.collect {|e| e if e.job == 'director' }.compact.in_groups_of(3).each do |group| %>
+    <% group.compact.each_with_index do |member, i| %>
+    <li class="<%= 'separator' if i == 0 %>">
+      <h3><%= link_to member.name, member.imdb_url %></h3>
+      <p class="posters"><%= member.posters.collect {|img, url| link_to post_image_tag(img), url }.join(' ').html_safe %></p>
+      <%= post_markdown member.description %>
+    </li>
+    <% end %>
+  <% end %>
+</ul>
