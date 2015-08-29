@@ -12,55 +12,61 @@
       "name": "Melissa McCarthy",
       "imdb_url": "http://www.imdb.com/name/nm0565250/",
       "job": "actor",
+      "episodes_count": 153,
       "posters": {
         "mike-and-molly.jpg": "http://www.imdb.com/title/tt1608180/",
         "spy.jpg": "http://www.imdb.com/title/tt3079380/"
       },
-      "description": "Acting in all but one episode of the Gilmore Girls, Melissa went on to win an Emmy in 2011 for [Mike & Molly](http://www.imdb.com/title/tt1608180/) and was [the third highest paid actress of 2015](http://www.etonline.com/news/170344_jennifer_lawrence_scarlett_johansson_melissa_mccarthy_top_world_highest_paid_actresses_list/)."
+      "description": "Appearing in all but one episode of the Gilmore Girls, Melissa went on to win an Emmy in 2011 for [Mike & Molly](http://www.imdb.com/title/tt1608180/) and was [the third highest paid actress of 2015](http://www.etonline.com/news/170344_jennifer_lawrence_scarlett_johansson_melissa_mccarthy_top_world_highest_paid_actresses_list/)."
     },
     {
       "name": "Jared Padalecki",
       "imdb_url": "http://www.imdb.com/name/nm0565250/",
       "job": "actor",
+      "episodes_count": 63,
       "posters": {
         "supernatural.jpg": "http://www.imdb.com/title/tt0460681/",
         "friday-the-13th.jpg": "http://www.imdb.com/title/tt0758746/"
       },
-      "description": "Rory's first boyfriend left the show after 63 episodes to star in [Supernatural](http://www.imdb.com/title/tt0460681/) which is still running after 10 years as well as 2009's [Friday the 13th](http://www.imdb.com/title/tt0758746/)."
+      "description": "Rory's first boyfriend left the show to star in [Supernatural](http://www.imdb.com/title/tt0460681/) which is entering its 11th season as well as the lead role in 2009's [Friday the 13th](http://www.imdb.com/title/tt0758746/)."
     },
     {
       "name": "Matt Czuchry",
       "imdb_url": "http://www.imdb.com/name/nm0194516/",
       "job": "actor",
+      "episodes_count": 59,
       "posters": {
         "the-good-wife.jpg": "http://www.imdb.com/title/tt1442462/",
         "i-hope-they-serve-beer-in-hell.jpg": "http://www.imdb.com/title/tt1220628/"
       },
-      "description": "After playing Logan Huntzberger, Matt starred in the raunchy comedy [I Hope They Server Beer in Hell](http://www.imdb.com/title/tt1220628/) before landing a starring role in CBS's [The Good Wife](http://www.imdb.com/title/tt1442462/)."
+      "description": "After playing Logan Huntzberger, Matt starred in the raunchy comedy [I Hope They Server Beer in Hell](http://www.imdb.com/title/tt1220628/) before landing a starring role in CBS's [The Good Wife](http://www.imdb.com/title/tt1442462/) which is in its 7th season."
     },
     {
       "name": "Todd Lowe",
       "imdb_url": "http://www.imdb.com/name/nm0523067/",
       "job": "actor",
+      "episodes_count": 42,
       "posters": {
         "true-blood.jpg": "http://www.imdb.com/title/tt0844441/"
       },
-      "description": "Lane's bandmate and eventually husband went south to Lousianna to play Sookie's friend in 66 of [True Blood's](http://www.imdb.com/title/tt0844441/) 80 episodes."
+      "description": "Lane's bandmate and eventual husband went south to Louisiana to play Sookie's co-worker and friend in 66 of [True Blood's](http://www.imdb.com/title/tt0844441/) 80 episodes."
     },
     {
       "name": "Milo Ventimiglia",
       "imdb_url": "http://www.imdb.com/name/nm0893257/",
       "job": "actor",
+      "episodes_count": 37,
       "posters": {
         "heroes.jpg": "http://www.imdb.com/title/tt0813715/",
         "rocky-balboa.jpg": "http://www.imdb.com/title/tt0479143/"
       },
-      "description": "Luke's moody nephew went on to star in the hugely superpower show [Heroes](http://www.imdb.com/title/tt0813715/) and play Sylvester Stallone's son in [Rocky Balboa](http://www.imdb.com/title/tt0479143/)."
+      "description": "Luke's moody nephew went on to star in the hugely popular [Heroes](http://www.imdb.com/title/tt0813715/) and Sylvester Stallone's son in [Rocky Balboa](http://www.imdb.com/title/tt0479143/)."
     },
     {
       "name": "Vanessa Marano",
       "imdb_url": "http://www.imdb.com/name/nm1404825/",
       "job": "actor",
+      "episodes_count": 13,
       "posters": {
         "switched-at-birth.jpg": "http://www.imdb.com/title/tt1758772/"
       },
@@ -70,94 +76,115 @@
       "name": "Chad Michael Murray",
       "imdb_url": "http://www.imdb.com/name/nm0614877/",
       "job": "actor",
+      "episodes_count": 11,
       "posters": {
         "one-tree-hill.jpg": "http://www.imdb.com/title/tt0368530/",
         "a-cinderella-story.jpg": "http://www.imdb.com/title/tt0356470/"
       },
-      "description": "Chad abruptly left Gilmore Girls when he received the lead role in [One Tree Hill](http://www.imdb.com/title/tt0368530/) lasting 9 seasons as well as starring in several movies."
+      "description": "Chad abruptly left Gilmore Girls when he received the lead role in [One Tree Hill](http://www.imdb.com/title/tt0368530/) lasting 9 seasons."
     },
     {
       "name": "Adam Brody",
       "imdb_url": "http://www.imdb.com/name/nm0111013/",
       "job": "actor",
+      "episodes_count": 9,
       "posters": {
         "the-oc.jpg": "http://www.imdb.com/title/tt0362359/",
         "mr-and-mrs-smith.jpg": "http://www.imdb.com/title/tt0356910/"
       },
-      "description": "Another castmember who left after receiving a starring role in another TV show, [The OC](http://www.imdb.com/title/tt0362359/), which aired 92 episodes."
+      "description": "Lane's love interest also left after receiving a starring role in another TV show: [The OC](http://www.imdb.com/title/tt0362359/) which aired 92 episodes."
     },
     {
       "name": "Arielle Kebbel",
       "imdb_url": "http://www.imdb.com/name/nm0444223/",
       "job": "actor",
+      "episodes_count": 9,
       "posters": {
         "ballers.jpg": "http://www.imdb.com/title/tt2891574/",
         "the-uninvited.jpg": "http://www.imdb.com/title/tt0815245/"
       },
-      "description": "Dean's rebound and eventual wife starred in several movies after Gilmore Girls includes John Tucker Must Die and [The Uninvited](http://www.imdb.com/title/tt0815245/) before becoming a reporter and The Rock's love interest in HBO's [Ballers](http://www.imdb.com/title/tt2891574/)."
+      "description": "Dean's rebound and eventual wife went on to star in several movies including [John Tucker Must Die](http://www.imdb.com/title/tt0455967/) and [The Uninvited](http://www.imdb.com/title/tt0815245/) before starring as The Rock's girlfriend in HBO's [Ballers](http://www.imdb.com/title/tt2891574/)."
     },
     {
       "name": "Krysten Ritter",
       "imdb_url": "http://www.imdb.com/name/nm1269983/",
       "job": "actor",
+      "episodes_count": 8,
       "posters": {
-        "dont-trust-the-b-in-apartment-23.jpg": "http://www.imdb.com/title/tt1819509/",
-        "breaking-bad.jpg": "http://www.imdb.com/title/tt0903747/"
+        "breaking-bad.jpg": "http://www.imdb.com/title/tt0903747/",
+        "dont-trust-the-b-in-apartment-23.jpg": "http://www.imdb.com/title/tt1819509/"
       },
-      "description": "After leaving Yale and the Gilmore Girls, Krysten become Jessie Pinkman's girlfriend on [Breaking Bad](http://www.imdb.com/title/tt0903747/) before landing the starring role in ABC's [Don't Trust the B in Apt 23](http://www.imdb.com/title/tt1819509/)."
+      "description": "After leaving Yale and the Gilmore Girls, Krysten become Jesse Pinkman's girlfriend on [Breaking Bad](http://www.imdb.com/title/tt0903747/) before landing the starring role in ABC's [Don't Trust the B in Apt 23](http://www.imdb.com/title/tt1819509/)."
     },
     {
       "name": "Riki Lindhome",
       "imdb_url": "http://www.imdb.com/name/nm1641251/",
       "job": "actor",
+      "episodes_count": 5,
       "posters": {
         "garfunkel-and-oates.jpg": "http://www.imdb.com/title/tt2276413/",
         "another-period.jpg": "http://www.imdb.com/title/tt3593432/"
       },
-      "description": "Playing a classmate of Rory's at Yale, Riki went to co-create IFC's [Garfunkel & Oates](http://www.imdb.com/title/tt2276413/) and Comedy Central's [Another Period](http://www.imdb.com/title/tt3593432/)."
+      "description": "Playing a classmate of Rory's at Yale, Riki went to co-create and star in IFC's [Garfunkel & Oates](http://www.imdb.com/title/tt2276413/) and Comedy Central's [Another Period](http://www.imdb.com/title/tt3593432/)."
     },
     {
       "name": "Danny Pudi",
       "imdb_url": "http://www.imdb.com/name/nm2209821/",
       "job": "actor",
+      "episodes_count": 4,
       "posters": {
         "community.jpg": "http://www.imdb.com/title/tt1439629/"
       },
-      "description": "Three years after working in newsroom at Yale with Rory, Danny was casted as Abed in NBC's [Community](http://www.imdb.com/title/tt1439629/), recently revived by Yahoo! Screen."
+      "description": "Three years after working in the newsroom at Yale with Rory, Danny was casted as Abed in NBC's [Community](http://www.imdb.com/title/tt1439629/), recently revived by Yahoo! Screen."
     },
     {
       "name": "Billy Burke",
       "imdb_url": "http://www.imdb.com/name/nm0121605/",
       "job": "actor",
+      "episodes_count": 3,
       "posters": {
         "twilight.jpg": "http://www.imdb.com/title/tt1099212/",
         "revolution.jpg": "http://www.imdb.com/title/tt2070791/"
       },
-      "description": "Playing an old acquaintance of Sookie's and love interest of Lorelai, Billy played Bella's dad in the [Twilight Series](http://www.imdb.com/title/tt1099212/) and eventually won the lead role in NBC's [Revolution](http://www.imdb.com/title/tt2070791/) lasting 42 episodes then to CBS's [Zoo](http://www.imdb.com/title/tt3250026/)."
+      "description": "Playing Lorelai's love interest, Billy later starred as Bella's dad in the [Twilight Series](http://www.imdb.com/title/tt1099212/) and won the lead role in NBC's [Revolution](http://www.imdb.com/title/tt2070791/) and CBS's [Zoo](http://www.imdb.com/title/tt3250026/)."
     },
     {
       "name": "Nick Offerman",
       "imdb_url": "http://www.imdb.com/name/nm0644406/",
       "job": "actor",
+      "episodes_count": 2,
       "posters": {
-        "parks-and-recreation.jpg": "http://www.imdb.com/title/tt1266020/"
+        "parks-and-recreation.jpg": "http://www.imdb.com/title/tt1266020/",
+        "the-campaign.jpg": "http://www.imdb.com/title/tt1790886/"
       },
-      "description": "Four years before being cast as Ron Swanson in NBC's [Parks and Recreation](http://www.imdb.com/title/tt1266020/), Nick played Sookie's brother-in-law and godfather to one of her children."
+      "description": "Four years before being cast as Ron Swanson in NBC's [Parks and Recreation](http://www.imdb.com/title/tt1266020/), Nick played Sookie's lazy brother-in-law."
     },
     {
       "name": "Jamie Babbit",
       "imdb_url": "http://www.imdb.com/name/nm0044803/",
       "job": "director",
+      "episodes_count": 18,
       "posters": {
         "drop-dead-diva.jpg": "http://www.imdb.com/title/tt1280822/",
         "married.jpg": "http://www.imdb.com/title/tt2786956/"
       },
-      "description": "Directing a leading 18 episodes, Jamie went on to direct 9 episodes of [Drop Dead Diva](http://www.imdb.com/title/tt1280822/) and co-executive produce/direct FX's [Married](http://www.imdb.com/title/tt2786956/)."
+      "description": "Jamie went on to direct 9 episodes of [Drop Dead Diva](http://www.imdb.com/title/tt1280822/) and co-executive produce/direct FX's [Married](http://www.imdb.com/title/tt2786956/)."
+    },
+    {
+      "name": "Lee Shallat Chemel",
+      "imdb_url": "http://www.imdb.com/name/nm0155117/",
+      "job": "director",
+      "episodes_count": 13,
+      "posters": {
+        "the-middle.jpg": "http://www.imdb.com/title/tt1442464/"
+      },
+      "description": "Lee has directed an amazing 52 of 144 episodes of ABC's [The Middle](http://www.imdb.com/title/tt1442464/), a sweet family sitcom."
     },
     {
       "name": "Kenny Ortega",
       "imdb_url": "http://www.imdb.com/name/nm0650905/",
       "job": "director",
+      "episodes_count": 12,
       "posters": {
         "high-school-musical.jpg": "http://www.imdb.com/title/tt0475293/",
         "high-school-musical-2.jpg": "http://www.imdb.com/title/tt0810900/"
@@ -165,18 +192,10 @@
       "description": "Kenny is now a Disney Channel favorite, directing [High School Musical](http://www.imdb.com/title/tt0475293/), [High School Musical 2](http://www.imdb.com/title/tt0810900/), and the recently aired [The Descendants](http://www.imdb.com/title/tt3440298/)."
     },
     {
-      "name": "Lee Shallat Chemel",
-      "imdb_url": "http://www.imdb.com/name/nm0155117/",
-      "job": "director",
-      "posters": {
-        "the-middle.jpg": "http://www.imdb.com/title/tt1442464/"
-      },
-      "description": "Since directing 13 episodes of Gilmore Girls, Lee as directed an amazing 52 of 144 episodes of ABC's [The Middle](http://www.imdb.com/title/tt1442464/)."
-    },
-    {
       "name": "Daniel Palladino",
       "imdb_url": "http://www.imdb.com/name/nm0657763/",
       "job": "director",
+      "episodes_count": 6,
       "posters": {
         "family-guy.jpg": "http://www.imdb.com/title/tt0182576/"
       },
@@ -186,16 +205,18 @@
       "name": "Lesli Linka Glatter",
       "imdb_url": "http://www.imdb.com/name/nm0322128/",
       "job": "director",
+      "episodes_count": 5,
       "posters": {
         "the-west-wing.jpg": "http://www.imdb.com/title/tt0200276/",
         "homeland.jpg": "http://www.imdb.com/title/tt1796960/"
       },
-      "description": "Directing Gilmore Girls' pilot along with several more early episodes, Lesli went on to direct 8 episodes of [The West Wing](http://www.imdb.com/title/tt0200276/), 6 episodes of [Mad Men](http://www.imdb.com/title/tt0804503/), and 12 episodes of [Homeland](http://www.imdb.com/title/tt1796960/)."
+      "description": "Directing Gilmore Girls' pilot along with several more early episodes, Lesli then directed 8 episodes of [The West Wing](http://www.imdb.com/title/tt0200276/), 6 episodes of [Mad Men](http://www.imdb.com/title/tt0804503/), and 12 episodes of [Homeland](http://www.imdb.com/title/tt1796960/)."
     },
     {
       "name": "Gail Mancuso",
       "imdb_url": "http://www.imdb.com/name/nm0541562/",
       "job": "director",
+      "episodes_count": 5,
       "posters": {
         "modern-family.jpg": "http://www.imdb.com/title/tt1442437/",
         "scrubs.jpg": "http://www.imdb.com/title/tt0285403/"
@@ -207,6 +228,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2015-08-28 18:51:56 -0400",
-  "updated_at": "2015-08-28 19:26:57 -0400"
+  "updated_at": "2015-08-29 13:24:50 -0400"
 }
 
