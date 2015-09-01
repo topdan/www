@@ -1,11 +1,12 @@
 {
   "title": "Gilmore Girls Alumni",
   "description": "A look at the members of cast that gain significant fame and directors that works on significant projects after Gilmore Girls.",
+  "image": "cast.png",
   "format": "erb",
   "featured": 10,
   "skips_description": true,
   "uses_javascript": true,
-  "published_at": "2015-08-28 20:00:00 UTC",
+  "published_at": "2015-09-01 12:00:00 UTC",
   "data_type": "Entertainment::GilmoreGirlAlum",
   "data": [
     {
@@ -228,6 +229,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2015-08-28 18:51:56 -0400",
-  "updated_at": "2015-08-29 13:24:50 -0400"
+  "updated_at": "2015-09-01 11:27:40 -0400"
 }
 
