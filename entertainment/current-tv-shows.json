@@ -198,7 +198,7 @@
     {
       "title": "Mr. Robot",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4020/thumb_mr-robot-516ef9897a52962a6ab2fc56ef985b7b.jpg",
-      "latest_episode_aired_on": "2015-08-19",
+      "latest_episode_aired_on": "2015-09-02",
       "first_episode_aired_on": "2015-05-27",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -248,7 +248,7 @@
     },
     {
       "title": "The Walking Dead",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead-f0308ffcc99f735ecbdf421c26428359.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead-eb7e8553d436df15c9d206019f3ff45d.jpg",
       "latest_episode_aired_on": "2015-03-29",
       "first_episode_aired_on": "2010-10-31",
       "final_episode_aired_on": null,
@@ -459,6 +459,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-08-29 03:12:35 -0400"
+  "updated_at": "2015-09-03 16:19:13 -0400"
 }
 
