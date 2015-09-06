@@ -8,6 +8,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Jefferson Starship",
+      "song": "Jane",
+      "video_url": "https://www.youtube.com/watch?v=sXmrMMYpQL4",
+      "thumbnail_url": "https://img.youtube.com/vi/sXmrMMYpQL4/0.jpg",
+      "added_at": "2015-09-04 21:35:00 -0400"
+    },
+    {
       "artist": "O Brother, Where Art Thou?",
       "song": "Soundtrack",
       "video_url": "https://www.youtube.com/watch?v=ZjzcGOSl2a0",
@@ -838,6 +845,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-07-20 03:52:24 -0400"
+  "updated_at": "2015-09-05 03:52:08 -0400"
 }
 

@@ -34,12 +34,26 @@
       }
     },
     {
+      "title": "It Follows",
+      "year": 2015,
+      "release_date": "2015-04-03",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14652/thumb_it-follows-2015-79ea2b34cafe0a1129eb3a468aa601ea.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00VVXMYU4",
+        "itunes": "https://itunes.apple.com/us/movie/it-follows/id982540188"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3235888/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/it_follows/"
+      }
+    },
+    {
       "title": "Mad Max: Fury Road",
       "year": 2015,
       "release_date": "2015-05-15",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13163/thumb_mad-max-fury-road-2015-6094af4b6fc65d0951be99a0c0036bd3.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00XOXDXV8",
+        "amazon_one_click": "http://www.amazon.com/gp/product/B014QZ9B3Q",
         "itunes": "https://itunes.apple.com/us/movie/mad-max-fury-road/id990549112"
       },
       "references": {
@@ -387,7 +401,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11315/thumb_neighbors-2014-ce34f5a043ce89c143497b0cb36bdd41.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00NTSYP3S",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46546?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46546?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "itunes": "https://itunes.apple.com/us/movie/neighbors/id864732888"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2004420/",
@@ -507,6 +522,21 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2278388/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/the_grand_budapest_hotel/"
+      }
+    },
+    {
+      "title": "The Guest",
+      "year": 2014,
+      "release_date": "2014-09-17",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12920/thumb_the-guest-2014-3ba7076e49bfc2e8fe22c979af4bfc79.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00R2KMGN0",
+        "itunes": "https://itunes.apple.com/us/movie/the-guest/id919242558",
+        "netflix": "https://www.netflix.com/title/70300664"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2980592/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/the_guest_2014/"
       }
     },
     {
@@ -1513,6 +1543,20 @@
       }
     },
     {
+      "title": "Up",
+      "year": 2009,
+      "release_date": "2009-05-29",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16544/thumb_up-2009-cc71c4639944a258d73a2995c6057c5d.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B005ZMTXMY",
+        "itunes": "https://itunes.apple.com/us/movie/up/id322447599"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1049413/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/up/"
+      }
+    },
+    {
       "title": "Vicky Cristina Barcelona",
       "year": 2009,
       "release_date": "2008-05-17",
@@ -2156,6 +2200,18 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt0333766/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/garden_state/"
+      }
+    },
+    {
+      "title": "Howl's Moving Castle",
+      "year": 2004,
+      "release_date": "2005-06-17",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16582/thumb_howls-moving-castle-2004-80a15a7c9c097993d0a270f892209833.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0347149/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/howls_moving_castle/"
       }
     },
     {
@@ -3338,6 +3394,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-09-03 16:19:13 -0400"
+  "updated_at": "2015-09-05 03:12:09 -0400"
 }
 

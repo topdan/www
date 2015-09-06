@@ -42,6 +42,22 @@
       }
     },
     {
+      "title": "Ballers",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4147/thumb_ballers-e9a9d8af05d82ad862b8d0fcd0a52050.jpg",
+      "latest_episode_aired_on": "2015-08-24",
+      "first_episode_aired_on": "2015-06-22",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP46082?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2891574/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/ballers/s01/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ballers"
+      }
+    },
+    {
       "title": "Banshee",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/15/thumb_banshee-ea947c7a5d29dda094713ce5e5aac99b.jpg",
       "latest_episode_aired_on": "2015-03-14",
@@ -56,6 +72,22 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2017109/",
         "wikipedia": "https://en.wikipedia.org/wiki/Banshee_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Bloodline",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3853/thumb_bloodline-57e207f2912ccb223b74aac7a2293c18.jpg",
+      "latest_episode_aired_on": "2015-03-20",
+      "first_episode_aired_on": "2015-03-20",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80010655"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3520702/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/bloodline/s01/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bloodline_%28TV_series%29"
       }
     },
     {
@@ -196,6 +228,21 @@
       }
     },
     {
+      "title": "Marvel's Daredevil",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3980/thumb_marvels-daredevil-199967a64b7c0fd61d71cada80dc62e8.jpg",
+      "latest_episode_aired_on": "2015-04-10",
+      "first_episode_aired_on": "2015-04-02",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80018294"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3322312/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Daredevil_%28TV_series%29"
+      }
+    },
+    {
       "title": "Mr. Robot",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4020/thumb_mr-robot-516ef9897a52962a6ab2fc56ef985b7b.jpg",
       "latest_episode_aired_on": "2015-09-02",
@@ -227,6 +274,23 @@
         "imdb": "http://www.imdb.com/title/tt2431438/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/tv/sense8/s01/",
         "wikipedia": "https://en.wikipedia.org/wiki/Sense8"
+      }
+    },
+    {
+      "title": "The Jim Gaffigan Show",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4276/thumb_the-jim-gaffigan-show-99ad4dbdd09bf5e49f73f8d8f132a284.jpg",
+      "latest_episode_aired_on": "2015-09-02",
+      "first_episode_aired_on": "2015-06-20",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0105SSCPG",
+        "hulu": "http://www.hulu.com/the-jim-gaffigan-show",
+        "tv_land_com": "http://www.tvland.com/shows/the-jim-gaffigan-show/full-episodes"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3484406/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Jim_Gaffigan_Show"
       }
     },
     {
@@ -459,6 +523,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-09-03 16:19:13 -0400"
+  "updated_at": "2015-09-05 03:12:09 -0400"
 }
 
