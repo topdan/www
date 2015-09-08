@@ -59,8 +59,8 @@
     {
       "artist": "The Stranglers",
       "song": "Golden Brown",
-      "video_url": "https://www.youtube.com/watch?v=d7R7q1lSZfs",
-      "thumbnail_url": "https://img.youtube.com/vi/d7R7q1lSZfs/0.jpg",
+      "video_url": "https://www.youtube.com/watch?v=AtTsky80XmQ",
+      "thumbnail_url": "https://img.youtube.com/vi/AtTsky80XmQ/0.jpg",
       "added_at": "2014-12-03 18:35:48 -0500"
     },
     {
@@ -129,8 +129,8 @@
     {
       "artist": "Dion",
       "song": "Runaround Sue",
-      "video_url": "https://www.youtube.com/watch?v=r2FT7U2SMz0",
-      "thumbnail_url": "https://img.youtube.com/vi/r2FT7U2SMz0/0.jpg",
+      "video_url": "https://www.youtube.com/watch?v=ID-jsd0HGZs",
+      "thumbnail_url": "https://img.youtube.com/vi/ID-jsd0HGZs/0.jpg",
       "added_at": "2014-08-17 23:11:07 -0400"
     },
     {
@@ -255,8 +255,8 @@
     {
       "artist": "Eric Clapton",
       "song": "Lay Down Sally",
-      "video_url": "https://www.youtube.com/watch?v=EivR78mrRFE",
-      "thumbnail_url": "https://img.youtube.com/vi/EivR78mrRFE/0.jpg",
+      "video_url": "https://www.youtube.com/watch?v=S7650eKb1w8",
+      "thumbnail_url": "https://img.youtube.com/vi/S7650eKb1w8/0.jpg",
       "added_at": "2013-10-24 16:44:58 -0400"
     },
     {
@@ -346,8 +346,8 @@
     {
       "artist": "Steppenwolf",
       "song": "Magic Carpet Ride",
-      "video_url": "https://www.youtube.com/watch?v=EEEzbFxEbB8",
-      "thumbnail_url": "https://img.youtube.com/vi/EEEzbFxEbB8/0.jpg",
+      "video_url": "https://www.youtube.com/watch?v=U4WiyxXpyZc",
+      "thumbnail_url": "https://img.youtube.com/vi/U4WiyxXpyZc/0.jpg",
       "added_at": "2013-10-24 16:44:58 -0400"
     },
     {
@@ -374,8 +374,8 @@
     {
       "artist": "White Town",
       "song": "Your Woman",
-      "video_url": "https://www.youtube.com/watch?v=cIQWt3oMids",
-      "thumbnail_url": "https://img.youtube.com/vi/cIQWt3oMids/0.jpg",
+      "video_url": "https://www.youtube.com/watch?v=HIX2RAHPTsI",
+      "thumbnail_url": "https://img.youtube.com/vi/HIX2RAHPTsI/0.jpg",
       "added_at": "2013-10-24 16:44:58 -0400"
     },
     {
@@ -731,8 +731,8 @@
     {
       "artist": "Zooey and Joseph",
       "song": "Why do you let me stay here",
-      "video_url": "https://www.youtube.com/watch?v=rtVh8kVZ_XM",
-      "thumbnail_url": "https://img.youtube.com/vi/rtVh8kVZ_XM/0.jpg",
+      "video_url": "https://www.youtube.com/watch?v=iYvABfWf6cM",
+      "thumbnail_url": "https://img.youtube.com/vi/iYvABfWf6cM/0.jpg",
       "added_at": "2013-01-01 15:35:16 -0500"
     },
     {
@@ -845,6 +845,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-09-05 03:52:08 -0400"
+  "updated_at": "2015-09-08 12:41:29 -0400"
 }
 
