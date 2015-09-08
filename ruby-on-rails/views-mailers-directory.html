@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <head>
   <title>views/mailers directory - topdan.com</title>
@@ -22,7 +21,7 @@
   <link rel="stylesheet" media="all" href="../assets/site-01cdb0f402a11e6ceb0a3027d5b9d958.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
 
   <script type="text/javascript">
-if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
+  if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
     var _gaq = _gaq || [];
 
     _gaq.push(['_setAccount', 'UA-12957077-1']);
@@ -36,92 +35,69 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
   }
   </script>
 </head>
-
 <body id="views-mailers-directory" class="navigatable">
   <a id="top"></a>
-
   <ul class="navigation">
     <li class="prev">
       <a href="custom-mailing-lists.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Custom Mailing Lists</span><span class="less">Previous</span></a>
     </li>
-
     <li>
       <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
     </li>
-
     <li class="next">
       <a href="time-zones-and-datetime-select.html"><span class="more">Time Zones and datetime_select</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
     </li>
   </ul>
-
   <div class="content">
     <div class="container post">
       <p class="byline">Published by Dan on Mar 4, 2015</p>
-
       <h1><a href="views-mailers-directory.html">views/mailers directory</a></h1><!-- post:content:start -->
-
       <p><code>app/views</code> contains both controller and mailer directories and becomes cluttered as your application grows. I keep <code>app/views</code> better organized by moving all my <code>*_mailer</code> directories underneath <code>app/views/mailers</code>, which is accomplished with one line of code:</p>
-
       <div class="highlight">
-        <pre>
-<span class="c1"># app/mailers/application_mailer.rb</span>
+        <pre><span class="c1"># app/mailers/application_mailer.rb</span>
 <span class="k">class</span> <span class="nc">ApplicationMailer</span> <span class="o">&lt;</span> <span class="no">ActionMailer</span><span class="o">::</span><span class="no">Base</span>
   <span class="n">default</span> <span class="ss">template_path</span><span class="p">:</span> <span class="nb">lambda</span> <span class="p">{</span> <span class="o">|</span><span class="n">e</span><span class="o">|</span> <span class="s2">"mailers/</span><span class="si">#{</span><span class="n">e</span><span class="o">.</span><span class="n">class</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">underscore</span><span class="si">}</span><span class="s2">"</span> <span class="p">}</span>
 <span class="k">end</span>
 </pre>
       </div>
-
       <p>Now <code>UsersMailer</code> templates go into <code>app/views/mailers/users_mailer</code>.</p>
-
       <p class="centered"><img src="../assets/ruby-on-rails/views-mailers-directory/before-and-after-462e6b38593ed763e721e80fb52938b3.png" alt="Before and After"></p>
-
       <p>It just feels better this way.</p><!-- post:content:end -->
     </div>
   </div>
-
   <div id="footer">
     <ul class="navigation">
       <li class="prev">
         <a href="custom-mailing-lists.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Custom Mailing Lists</span><span class="less">Previous</span></a>
       </li>
-
       <li>
         <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
       </li>
-
       <li class="next">
         <a href="time-zones-and-datetime-select.html"><span class="more">Time Zones and datetime_select</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
       </li>
     </ul>
-
     <div class="introduction row-fluid">
       <div class="title span6">
         <h1><a title="Dan Cunning" href="../">Dan Cunning</a></h1>
-
         <ul>
           <li>
             <a title="Twitter" href="https://twitter.com/itopdan"><span class="about-twitter">&nbsp;</span> twitter</a>
           </li>
-
           <li>
             <a title="github" href="https://github.com/topdan"><span class="about-github">&nbsp;</span> github</a>
           </li>
-
           <li>
             <a title="Email" href="mailto:dan@topdan.com"><span class="about-email">&nbsp;</span> email</a>
           </li>
         </ul>
       </div>
-
       <div class="profile span6">
         <img width="75" height="75" src="../assets/dan-5c0db9866c0c42f56063b91a4107d1da.jpg" alt="Dan">
-
         <p>I'm a <a href="./">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="../dan-cunning.html">Read more »</a></p>
       </div>
     </div>
-
     <p id="view-source"><span class="view">View Source:</span> <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/views-mailers-directory.html">HTML</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/views-mailers-directory.json">JSON</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/views-mailers-directory.html.md">View</a></p>
-
     <div id="copyright">
       <p>© 2012-2015 Dan Cunning. All rights reserved.</p>
     </div>

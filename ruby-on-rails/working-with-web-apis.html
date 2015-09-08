@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <head>
   <title>The Tricky World of Using Web APIs - topdan.com</title>
@@ -22,7 +21,7 @@
   <link rel="stylesheet" media="all" href="../assets/site-01cdb0f402a11e6ceb0a3027d5b9d958.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
 
   <script type="text/javascript">
-if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
+  if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
     var _gaq = _gaq || [];
 
     _gaq.push(['_setAccount', 'UA-12957077-1']);
@@ -36,99 +35,67 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
   }
   </script>
 </head>
-
 <body id="working-with-web-apis" class="navigatable">
   <a id="top"></a>
-
   <ul class="navigation">
     <li class="prev">
       <a href="param-accessible.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Protecting Yourself from Malicious params</span><span class="less">Previous</span></a>
     </li>
-
     <li>
       <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
     </li>
-
     <li class="next">
       <a href="ajax-toggle-buttons.html"><span class="more">Easy Ajax Toggle Buttons</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
     </li>
   </ul>
-
   <div class="content">
     <div class="container post">
       <p class="byline">Published by Dan on Mar 15, 2012</p>
-
       <h1><a href="working-with-web-apis.html">The Tricky World of Using Web APIs</a></h1>
-
       <div class="alert alert-definition post-description">
         <p>When your application interacts with the web a lot can go wrong. Working with Ruby on Rails over the last five years, I've seen a lot of them first hand, and with this article I hope to share some of that experience and help you write more reliable, efficient and friendly code.</p>
       </div><!-- post:content:start -->
-
       <h2 id="goals"><a href="#goals">Your Goals</a></h2>
-
       <p>Your goals when using a web service are very simple:</p>
-
       <ul>
         <li>Successfully make a request</li>
-
         <li>Appropriately handle the response</li>
-
         <li><strong>Don't break your application</strong></li>
       </ul>
-
       <h2 id="net_http_exceptions"><a href="#net_http_exceptions">Handling net/http exceptions</a></h2>
-
       <p><a href="http://ruby-doc.org/stdlib-1.9.3/libdoc/net/http/rdoc/Net/HTTP.html">Net::HTTP</a> throws different exceptions with different superclasses, as noted by <a href="http://tammersaleh.com/posts/rescuing-net-http-exceptions">Tammer Saleh</a>. If you don't catch all the different types, your application will eventually break. Luckily, the <a href="https://github.com/edward/net_http_exception_fix">net_http_exception_fix</a> gem provides a simple solution, so you can catch all net/http exceptions with one type of exception:</p>
-
       <div class="highlight">
-        <pre>
-<span class="k">begin</span>
+        <pre><span class="k">begin</span>
   <span class="n">response</span> <span class="o">=</span> <span class="no">Net</span><span class="o">::</span><span class="no">HTTP</span><span class="o">.</span><span class="n">get_response</span><span class="p">(</span><span class="s2">"http://www.google.com/"</span><span class="p">)</span>
 <span class="k">rescue</span> <span class="no">Net</span><span class="o">::</span><span class="no">HTTPBroken</span> <span class="o">=&gt;</span> <span class="n">e</span>
   <span class="c1"># all possible ways Net::HTTP can go wrong are handled here</span>
 <span class="k">end</span>
 </pre>
       </div>
-
       <h2 id="dont_trust_web_data"><a href="#dont_trust_web_data">Don't Trust Web Data</a></h2>
-
       <p>All data you receive from a webserver should be suspect and handled with extreme care. The JSON might be invalid, or what you expect might be missing. Your code should clearly indicate what data it requires and raise an exception when the response is unexpected. Then it's up to the calling function to decide how to proceed.</p>
-
       <p>Do not use method_missing magic on a hash parsed from a network call response. It may allow you to access the hash like a regular ruby object, but it's not a regular ruby object: it's a foreign, untrusted entity and should be accessed with extreme caution.</p>
-
       <h2 id="request_thread"><a href="#request_thread">On or Off the Request Thread?</a></h2>
-
       <p>Web developers need to decide whether performing the network call on the request thread is safe. If that network call timeouts your application will also timeout. In most cases, you should move it off the request thread using delayed_job or resque. If you leave it on the request thread make extra-sure to handle <strong>all</strong> exceptions and lower the net/http timeout threshold or your users will eventually be staring at the 500 error screen.</p>
-
       <div class="highlight">
-        <pre>
-<span class="c1"># delayed_job</span>
+        <pre><span class="c1"># delayed_job</span>
 <span class="n">user</span><span class="o">.</span><span class="n">delay</span><span class="o">.</span><span class="n">tweet_message</span><span class="p">(</span><span class="s2">"OMG LOL"</span><span class="p">)</span>
 </pre>
       </div>
-
       <h2 id="db_transactions"><a href="#db_transactions">Database Transactions</a></h2>
-
       <p>Are your network calls occurring within a database transaction, for example in ActiveRecord callbacks? On one hand you want to ensure your records are updated correctly but on the other you'll be locking for an uncertain amount of time.</p>
-
       <p>First ensure you are only locking what you need to lock then lower the network call's timeout threshold to avoid causing "Lock wait timeout exceeded" exceptions on other processes. If the network call times out, try it again later.</p>
-
       <div class="highlight">
-        <pre>
-<span class="n">http</span> <span class="o">=</span> <span class="no">Net</span><span class="o">::</span><span class="no">HTTP</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s2">"www.google.com"</span><span class="p">,</span> <span class="mi">80</span><span class="p">)</span>
+        <pre><span class="n">http</span> <span class="o">=</span> <span class="no">Net</span><span class="o">::</span><span class="no">HTTP</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s2">"www.google.com"</span><span class="p">,</span> <span class="mi">80</span><span class="p">)</span>
 
 <span class="c1"># decrease from 60 seconds to 5 seconds</span>
 <span class="n">http</span><span class="o">.</span><span class="n">read_timeout</span> <span class="o">=</span> <span class="mi">20</span>
 </pre>
       </div>
-
       <h2 id="recovering"><a href="#recovering">Recovering from Exceptions</a></h2>
-
       <p>When the network call fails (and they all do eventually), your application should handle it smoothly. The easiest way is to try again later, if it fails after X tries then enter a fail-safe state.</p>
-
       <div class="highlight">
-        <pre>
-<span class="k">def</span> <span class="nf">tweet!</span> <span class="n">retry_count</span> <span class="o">=</span> <span class="mi">0</span>
+        <pre><span class="k">def</span> <span class="nf">tweet!</span> <span class="n">retry_count</span> <span class="o">=</span> <span class="mi">0</span>
   <span class="n">tweet</span> <span class="o">=</span> <span class="n">twitter_client</span><span class="o">.</span><span class="n">tweet</span><span class="p">(</span><span class="nb">self</span><span class="o">.</span><span class="n">message</span><span class="p">)</span>
 
   <span class="c1"># save the success state</span>
@@ -168,28 +135,19 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 <span class="k">end</span>
 </pre>
       </div>
-
       <h2 id="throttling"><a href="#throttling">Throttling: Be a Good Cyber Citizen</a></h2>
-
       <p>Sending too many requests over a short period of time can get you blacklisted from the web service. The easiest way to play nice is the <a href="https://github.com/benbjohnson/slowweb">slowweb gem</a>, which allows you to set domain-specific thresholds. But beware: it only works on one process, so it won't save you if you have multiple webservers or job runners making network calls to the same domain. It also uses Kernel#sleep, which may slow your web-crawler to a literal crawl.</p>
-
       <div class="highlight">
-        <pre>
-<span class="c1"># maximum of one request per second</span>
+        <pre><span class="c1"># maximum of one request per second</span>
 <span class="no">SlowWeb</span><span class="o">.</span><span class="n">limit</span> <span class="s1">'www.google.com'</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span>
 <span class="no">SlowWeb</span><span class="o">.</span><span class="n">limit</span> <span class="s1">'graph.facebook.com'</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span>
 </pre>
       </div>
-
       <p>The ideal way to control your network calls is to place them all on one, high-performance process that supports domain-specific throttles, callbacks and parallel requests.</p>
-
       <h2 id="parallel"><a href="#parallel">Parallel over Serial Requests</a></h2>
-
       <p>Most ruby HTTP clients are serial, running one request at a time. But the process spends most of its time waiting on a response, meaning it's a perfect candidate for parallelization. At least two gems provide ruby with the ability to make network calls in parallel: <a href="https://github.com/igrigorik/em-http-request">em-http-request</a> and <a href="https://github.com/typhoeus/typhoeus">typhoeus</a>.</p>
-
       <div class="highlight">
-        <pre>
-<span class="n">hydra</span> <span class="o">=</span> <span class="no">Typhoeus</span><span class="o">::</span><span class="no">Hydra</span><span class="o">.</span><span class="n">new</span>
+        <pre><span class="n">hydra</span> <span class="o">=</span> <span class="no">Typhoeus</span><span class="o">::</span><span class="no">Hydra</span><span class="o">.</span><span class="n">new</span>
 
 <span class="n">first_request</span> <span class="o">=</span> <span class="no">Typhoeus</span><span class="o">::</span><span class="no">Request</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s2">"http://localhost:3000/posts/1.json"</span><span class="p">)</span>
 <span class="n">first_request</span><span class="o">.</span><span class="n">on_complete</span> <span class="k">do</span> <span class="o">|</span><span class="n">response</span><span class="o">|</span>
@@ -206,18 +164,12 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 <span class="n">hydra</span><span class="o">.</span><span class="n">run</span> <span class="c1"># this is a blocking call that returns once all requests are complete</span>
 </pre>
       </div>
-
       <p>But most likely you won't be issue the HTTP request yourself: you'll be using a gem that generates the request and parses the response. So you won't be able to parallelize your code very easily.</p>
-
       <h2 id="decouple_http_client"><a href="#decouple_http_client">Decoupling the HTTP Client</a></h2>
-
       <p>Every gem made for a web API uses a specific <a href="https://www.ruby-toolbox.com/categories/http_clients">HTTP client</a>. I wish these gems decoupled themselves from this client by exposing two things: the generated request and how to parse the response. This would allow integrating it into a high-performance, error-safe, parallel HTTP client process.</p>
-
       <p>This mythical parallel HTTP client would support domain-specific throttles, request retry thresholds, and could use a delayed_job-like queue. Anyone know of such a thing?</p>
-
       <div class="highlight">
-        <pre>
-<span class="k">class</span> <span class="nc">Twitter</span>
+        <pre><span class="k">class</span> <span class="nc">Twitter</span>
   <span class="c1"># Decoupling the request generation, request performance, and response parsing</span>
 
   <span class="c1"># for applications that don't care how the request is performed</span>
@@ -253,56 +205,43 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 <span class="k">end</span>
 </pre>
       </div>
-
       <h2 id="conclusion"><a href="#conclusion">Conclusion</a></h2>
-
       <p>Maybe someday I'll sit down and write this mythical HTTP client to help you safely integrate webservices into your application, but for now I hope you have more insight on using Web APIs the hard way. Happy coding!</p><!-- post:content:end -->
     </div>
   </div>
-
   <div id="footer">
     <ul class="navigation">
       <li class="prev">
         <a href="param-accessible.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Protecting Yourself from Malicious params</span><span class="less">Previous</span></a>
       </li>
-
       <li>
         <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
       </li>
-
       <li class="next">
         <a href="ajax-toggle-buttons.html"><span class="more">Easy Ajax Toggle Buttons</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
       </li>
     </ul>
-
     <div class="introduction row-fluid">
       <div class="title span6">
         <h1><a title="Dan Cunning" href="../">Dan Cunning</a></h1>
-
         <ul>
           <li>
             <a title="Twitter" href="https://twitter.com/itopdan"><span class="about-twitter">&nbsp;</span> twitter</a>
           </li>
-
           <li>
             <a title="github" href="https://github.com/topdan"><span class="about-github">&nbsp;</span> github</a>
           </li>
-
           <li>
             <a title="Email" href="mailto:dan@topdan.com"><span class="about-email">&nbsp;</span> email</a>
           </li>
         </ul>
       </div>
-
       <div class="profile span6">
         <img width="75" height="75" src="../assets/dan-5c0db9866c0c42f56063b91a4107d1da.jpg" alt="Dan">
-
         <p>I'm a <a href="./">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="../dan-cunning.html">Read more »</a></p>
       </div>
     </div>
-
     <p id="view-source"><span class="view">View Source:</span> <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/working-with-web-apis.html">HTML</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/working-with-web-apis.json">JSON</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/working-with-web-apis.html.md">View</a></p>
-
     <div id="copyright">
       <p>© 2012-2015 Dan Cunning. All rights reserved.</p>
     </div>

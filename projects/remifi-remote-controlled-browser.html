@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <head>
   <title>Firefox Remote Control - topdan.com</title>
@@ -22,7 +21,7 @@
   <link rel="stylesheet" media="all" href="../assets/site-01cdb0f402a11e6ceb0a3027d5b9d958.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
 
   <script type="text/javascript">
-if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
+  if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
     var _gaq = _gaq || [];
 
     _gaq.push(['_setAccount', 'UA-12957077-1']);
@@ -36,225 +35,151 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
   }
   </script>
 </head>
-
 <body id="remifi-remote-controlled-browser" class="navigatable">
   <a id="top"></a>
-
   <ul class="navigation">
     <li class="prev">
       <a href="now-streaming-email.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">"Now Streaming" Email</span><span class="less">Previous</span></a>
     </li>
-
     <li>
       <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Projects</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
     </li>
-
     <li class="next">
       <a href="fixing-craigslist.html"><span class="more">Fixing Craigslist</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
     </li>
   </ul>
-
   <div class="content">
     <div class="container post">
       <p class="byline">Published by Dan on Oct 31, 2014</p>
-
       <h1><a href="remifi-remote-controlled-browser.html">Firefox Remote Control</a></h1>
-
       <div class="alert alert-definition post-description">
         <p>Controlling your TV with your iPhone via OSX, Firefox, and an HDMI cable</p>
       </div><!-- post:content:start -->
-
       <ul>
         <li>
           <a href="#introduction">Introduction</a>
         </li>
-
         <li>
           <a href="#the-problem">The Problem</a>
         </li>
-
         <li>
           <a href="#the-solution">The Solution</a>
-
           <ul>
             <li>
               <a href="#embedded-web-server">Embedded Web Server</a>
             </li>
-
             <li>
               <a href="#dashboard">Dashboard</a>
             </li>
-
             <li>
               <a href="#searching-and-navigating">Searching and Navigating</a>
             </li>
-
             <li>
               <a href="#tabs-and-windows">Tabs and Windows</a>
             </li>
-
             <li>
               <a href="#mouse-and-keyboard">Mouse and Keyboard Controls</a>
             </li>
-
             <li>
               <a href="#bookmarklets">Bookmarklets</a>
             </li>
           </ul>
         </li>
-
         <li>
           <a href="#wrap-up">Wrap-Up</a>
         </li>
       </ul>
-
       <h2 id="introduction"><a href="#introduction">Introduction</a></h2>
-
       <p>I bought a big new flatscreen television around 2009 and wanted to watch streaming Internet video on it. These videos went beyond Netflix and Hulu, which produced custom integrations for game consoles and dongles. I wanted access to <strong>all Internet video</strong>, and Adobe Flash was still king, making the web browser an important part of my goal.</p>
-
       <h2 id="the-problem"><a href="#the-problem">The Problem</a></h2>
-
       <p>Using an adapter and HDMI cable, I connected an old Mac Mini to my television, but web browsers and Flash video players were aimed at the mouse and keyboard, which aren't practical for 10-foot interfaces (someone should have told that to <a href="http://en.wikipedia.org/wiki/Google_TV">Google TV</a>). On the other hand, I could easily spend a couple hours on my couch browsing the web on my iPhone, but I just didn't like watching videos on it. <strong>How could I display Flash video on my big TV but interact with it like my iPhone?</strong></p>
-
       <h2 id="the-solution"><a href="#the-solution">The Solution</a></h2>
-
       <p>I would make an interface for controlling my computer's web browser with my iPhone. As you can imagine, easier said than done.</p>
-
       <h3 id="embedded-web-server"><a href="#embedded-web-server">Embedded Web Server</a></h3>
-
       <p>The first step was establishing how my iPhone would communicate with my web browser. Being a web developer, HTTP seemed like the obvious answer, and I found <a href="https://addons.mozilla.org/en-US/firefox/addon/pow-plain-old-webserver/">POW (Plain Old Webserver)</a> which embedded a javascript-based HTTP server inside a Firefox plugin, so it was possible!</p>
-
       <p>I pulled what I needed out of POW and <a href="https://github.com/topdan/remifi-firefox/blob/master/content.coffee/remifi/firefox/server.coffee">wrote a simpler version in Coffee-script</a> that responded to HTML requests and served static images, scripts, and stylesheets. <a href="http://en.wikipedia.org/wiki/Bonjour_%28software%29">Apple's Bonjour</a> made it possible to avoid exposing IP addresses: my web browser would now respond to samuel.local:4000</p>
-
       <h3 id="dashboard"><a href="#dashboard">Dashboard</a></h3>
-
       <p><img src="../assets/projects/remifi-remote-controlled-browser/dashboard-1459599483f9712399ae5577b52a42de.jpg" alt="Dashboard"></p>
-
       <ol>
         <li>Back one page</li>
-
         <li>Forward one page</li>
-
         <li>Open "Searching and Navigating"</li>
-
         <li>Open "Tabs and Windows"</li>
-
         <li>Open "Mouse and Keyboard Controls"</li>
-
         <li>Open "Dashboard"</li>
-
         <li>Navigate to a common streaming video website</li>
       </ol>
-
       <h3 id="searching-and-navigating"><a href="#searching-and-navigating">Searching and Navigating</a></h3>
-
       <p><img src="../assets/projects/remifi-remote-controlled-browser/searching-and-navigating-6960515aba8b619f93782d73446ce10e.jpg" alt="Searching and Navigating"></p>
-
       <ol>
         <li>Search Google</li>
-
         <li>Go to an explicit web address</li>
       </ol>
-
       <h3 id="tabs-and-windows"><a href="#tabs-and-windows">Tabs and Windows</a></h3>
-
       <p><img src="../assets/projects/remifi-remote-controlled-browser/tabs-and-windows-d8c87f6d2926398da9e29677e3fcc147.jpg" alt="Tabs and Windows"></p>
-
       <ol>
         <li>Switch to a different tab. Swipe to close.</li>
-
         <li>Open the browser's current webpage on your iPhone.</li>
-
         <li>Open a new tab.</li>
-
         <li>Switch to a different window. Swipe to close.</li>
       </ol>
-
       <h3 id="mouse-and-keyboard"><a href="#mouse-and-keyboard">Mouse and Keyboard Controls</a></h3>
-
       <p><img src="../assets/projects/remifi-remote-controlled-browser/mouse-and-keyboard-43ce4296099f50c6c601c0c361d177c1.jpg" alt="Mouse and Keyboard"></p>
-
       <ol>
         <li>Move the mouse around your television.</li>
-
         <li>Left click the mouse.</li>
-
         <li>Move the mouse a little bit up, down, left, or right.</li>
-
         <li>Open the Keyboard interface that lets you hit return, escape, and input text.</li>
-
         <li>Scroll the current page up a large amount.</li>
-
         <li>Scroll the current page down a large amount.</li>
       </ol>
-
       <h3 id="bookmarklets"><a href="#bookmarklets">Bookmarklets</a></h3>
-
       <p>The above functionality manages the web browser, but it's still basically a 10-foot interface. By creating a <a href="http://en.wikipedia.org/wiki/Bookmarklet">bookmarklet</a>, you can push the webpage on your iPhone to your computer's browser and full-screen the video with the mouse controls. <strong>You browse 100% on your phone and watch 100% on your TV.</strong></p>
-
       <h2 id="wrap-up"><a href="#wrap-up">Wrap-Up</a></h2>
-
       <p>I spent some time polishing up the Firefox plugin and named it <a href="http://www.remifi.com">remifi</a> (REMote-control over wIFI), but overall lacked the drive to market or expand. Since then the streaming video options have grown: Apple TV3, Airplay, Google TV, Roku, Chromecast, and Fire TV, but <strong>remifi still sits as my way of watching Internet video and reigns as my most-used, longest-lasting personal creation</strong>:</p>
-
       <ul>
         <li>Many sites still require Adobe Flash</li>
-
         <li>Airplay is blocked by several apps</li>
-
         <li>Airplay drains your battery and has occasional issues multitasking</li>
-
         <li>Apple TV content costs ~$1 more than most</li>
-
         <li>10-foot interfaces still smell</li>
       </ul>
-
       <p class="alert alert-info">You can review the source code on <a href="https://github.com/topdan/remifi-firefox">github</a> and watch the demostrations at <a href="http://www.remifi.com">remifi.com</a>.</p><!-- post:content:end -->
     </div>
   </div>
-
   <div id="footer">
     <ul class="navigation">
       <li class="prev">
         <a href="now-streaming-email.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">"Now Streaming" Email</span><span class="less">Previous</span></a>
       </li>
-
       <li>
         <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Projects</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
       </li>
-
       <li class="next">
         <a href="fixing-craigslist.html"><span class="more">Fixing Craigslist</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
       </li>
     </ul>
-
     <div class="introduction row-fluid">
       <div class="title span6">
         <h1><a title="Dan Cunning" href="../">Dan Cunning</a></h1>
-
         <ul>
           <li>
             <a title="Twitter" href="https://twitter.com/itopdan"><span class="about-twitter">&nbsp;</span> twitter</a>
           </li>
-
           <li>
             <a title="github" href="https://github.com/topdan"><span class="about-github">&nbsp;</span> github</a>
           </li>
-
           <li>
             <a title="Email" href="mailto:dan@topdan.com"><span class="about-email">&nbsp;</span> email</a>
           </li>
         </ul>
       </div>
-
       <div class="profile span6">
         <img width="75" height="75" src="../assets/dan-5c0db9866c0c42f56063b91a4107d1da.jpg" alt="Dan">
-
         <p>I'm a <a href="../ruby-on-rails/">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="../dan-cunning.html">Read more »</a></p>
       </div>
     </div>
-
     <p id="view-source"><span class="view">View Source:</span> <a href="https://github.com/topdan/www/blob/master/projects/remifi-remote-controlled-browser.html">HTML</a> | <a href="https://github.com/topdan/www/blob/master/projects/remifi-remote-controlled-browser.json">JSON</a> | <a href="https://github.com/topdan/www/blob/master/projects/remifi-remote-controlled-browser.html.md">View</a></p>
-
     <div id="copyright">
       <p>© 2012-2015 Dan Cunning. All rights reserved.</p>
     </div>

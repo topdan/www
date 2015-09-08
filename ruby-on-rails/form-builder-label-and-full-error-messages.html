@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <head>
   <title>f.label and errors.full_messages - topdan.com</title>
@@ -22,7 +21,7 @@
   <link rel="stylesheet" media="all" href="../assets/site-01cdb0f402a11e6ceb0a3027d5b9d958.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
 
   <script type="text/javascript">
-if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
+  if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
     var _gaq = _gaq || [];
 
     _gaq.push(['_setAccount', 'UA-12957077-1']);
@@ -36,37 +35,27 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
   }
   </script>
 </head>
-
 <body id="form-builder-label-and-full-error-messages" class="navigatable">
   <a id="top"></a>
-
   <ul class="navigation">
     <li class="prev">
       <a href="time-zones-and-datetime-select.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Time Zones and datetime_select</span><span class="less">Previous</span></a>
     </li>
-
     <li>
       <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
     </li>
-
     <li class="next">
       <a href="param-accessible.html"><span class="more">Protecting Yourself from Malicious params</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
     </li>
   </ul>
-
   <div class="content">
     <div class="container post">
       <p class="byline">Published by Dan on May 18, 2015</p>
-
       <h1><a href="form-builder-label-and-full-error-messages.html">f.label and errors.full_messages</a></h1><!-- post:content:start -->
-
       <h2>Common Mistake</h2>
-
       <p class="alert alert-danger centered"><strong>Can you spot the bug?</strong></p>
-
       <div class="highlight">
-        <pre>
-<span class="cp">&lt;%=</span> <span class="n">form_for</span> <span class="vi">@post</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span> <span class="cp">%&gt;</span>
+        <pre><span class="cp">&lt;%=</span> <span class="n">form_for</span> <span class="vi">@post</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span> <span class="cp">%&gt;</span>
 
   <span class="cp">&lt;%=</span> <span class="vi">@post</span><span class="o">.</span><span class="n">errors</span><span class="o">.</span><span class="n">full_messages</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">', '</span><span class="p">)</span> <span class="cp">%&gt;</span>
 
@@ -82,26 +71,19 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 <span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span>
 </pre>
       </div>
-
       <p><code>full_messages</code> will display "User name can't be blank" while the text field is labeled "Author" which will likely cause confusion.</p>
-
       <h2>Proper Implementation</h2>
-
       <p>While the <a href="http://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-label">FormBuilder's label method</a> accepts <code>content_or_options</code>, <strong>I consider "content" deprecated</strong> due to error message display and localization concerns. Here's the proper implementation:</p>
-
       <div class="highlight">
-        <pre>
-<span class="c1"># config/locales/en.yml</span>
+        <pre><span class="c1"># config/locales/en.yml</span>
 <span class="l-Scalar-Plain">activerecord</span><span class="p-Indicator">:</span>
   <span class="l-Scalar-Plain">attributes</span><span class="p-Indicator">:</span>
     <span class="l-Scalar-Plain">post</span><span class="p-Indicator">:</span>
       <span class="l-Scalar-Plain">user_name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Author</span>
 </pre>
       </div>
-
       <div class="highlight">
-        <pre>
-<span class="cp">&lt;%=</span> <span class="n">form_for</span> <span class="vi">@post</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span> <span class="cp">%&gt;</span>
+        <pre><span class="cp">&lt;%=</span> <span class="n">form_for</span> <span class="vi">@post</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span> <span class="cp">%&gt;</span>
 
   <span class="cp">&lt;%=</span> <span class="vi">@post</span><span class="o">.</span><span class="n">errors</span><span class="o">.</span><span class="n">full_messages</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">', '</span><span class="p">)</span> <span class="cp">%&gt;</span>
 
@@ -117,54 +99,42 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 <span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span>
 </pre>
       </div>
-
       <p>With that change you're properly set up for new language support and the field names in the error messages will match your labels.</p><!-- post:content:end -->
     </div>
   </div>
-
   <div id="footer">
     <ul class="navigation">
       <li class="prev">
         <a href="time-zones-and-datetime-select.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Time Zones and datetime_select</span><span class="less">Previous</span></a>
       </li>
-
       <li>
         <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
       </li>
-
       <li class="next">
         <a href="param-accessible.html"><span class="more">Protecting Yourself from Malicious params</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
       </li>
     </ul>
-
     <div class="introduction row-fluid">
       <div class="title span6">
         <h1><a title="Dan Cunning" href="../">Dan Cunning</a></h1>
-
         <ul>
           <li>
             <a title="Twitter" href="https://twitter.com/itopdan"><span class="about-twitter">&nbsp;</span> twitter</a>
           </li>
-
           <li>
             <a title="github" href="https://github.com/topdan"><span class="about-github">&nbsp;</span> github</a>
           </li>
-
           <li>
             <a title="Email" href="mailto:dan@topdan.com"><span class="about-email">&nbsp;</span> email</a>
           </li>
         </ul>
       </div>
-
       <div class="profile span6">
         <img width="75" height="75" src="../assets/dan-5c0db9866c0c42f56063b91a4107d1da.jpg" alt="Dan">
-
         <p>I'm a <a href="./">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="../dan-cunning.html">Read more »</a></p>
       </div>
     </div>
-
     <p id="view-source"><span class="view">View Source:</span> <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/form-builder-label-and-full-error-messages.html">HTML</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/form-builder-label-and-full-error-messages.json">JSON</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/form-builder-label-and-full-error-messages.html.md">View</a></p>
-
     <div id="copyright">
       <p>© 2012-2015 Dan Cunning. All rights reserved.</p>
     </div>

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <head>
   <title>Finding Your Most Active Users with Google Analytics - topdan.com</title>
@@ -22,7 +21,7 @@
   <link rel="stylesheet" media="all" href="../assets/site-01cdb0f402a11e6ceb0a3027d5b9d958.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
 
   <script type="text/javascript">
-if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
+  if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
     var _gaq = _gaq || [];
 
     _gaq.push(['_setAccount', 'UA-12957077-1']);
@@ -36,81 +35,59 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
   }
   </script>
 </head>
-
 <body id="finding-your-most-active-users-with-google-analytics" class="navigatable">
   <a id="top"></a>
-
   <ul class="navigation">
     <li class="prev">
       <a href="ajax-toggle-buttons.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Easy Ajax Toggle Buttons</span><span class="less">Previous</span></a>
     </li>
-
     <li>
       <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
     </li>
-
     <li class="next">
       <a href="simple-infinite-scrolling.html"><span class="more">Simple Infinite Scrolling with AJAX and Rails</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
     </li>
   </ul>
-
   <div class="content">
     <div class="container post">
       <p class="byline">Published by Dan on May 29, 2014</p>
-
       <h1><a href="finding-your-most-active-users-with-google-analytics.html">Finding Your Most Active Users with Google Analytics</a></h1><!-- post:content:start -->
-
       <ul>
         <li>
           <a href="#the-introduction">Introduction</a>
         </li>
-
         <li>
           <a href="#tracking-user-ids">Tracking User IDs</a>
         </li>
-
         <li>
           <a href="#querying-google-analytics">Querying Google Analytics</a>
         </li>
-
         <li>
           <a href="#generating-an-email">Generating an Email</a>
         </li>
-
         <li>
           <a href="#scheduling-the-email">Scheduling the Email</a>
         </li>
-
         <li>
           <a href="#conclusion">Conclusion</a>
         </li>
       </ul>
-
       <h2 id="the-introduction"><a href="#the-introduction">Introduction</a></h2>
-
       <p>You're using Google Analytics to track your web app's visitors, but you don't have visitors: you have users. Don't you want to know what they are doing? Who are your most active users? What do they use the most? Who should you contact directly about a feature improvement? Whose usage has dropped off?</p>
-
       <h2 id="tracking-user-ids"><a href="#tracking-user-ids">Tracking User IDs</a></h2>
-
       <p>Google Analytics accepts custom, site-specific data. It's really simple, just add one line to the snippet Google Analytics provides. The new Google Analytics snippet uses <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/custom-dims-mets">custom dimensions</a>, which you need to <a href="https://support.google.com/analytics/answer/2709829?hl=en">set up explicitly</a>. The older snippet uses <a href="https://developers.google.com/analytics/devguides/collection/gajs/gaTrackingCustomVariables">custom variables</a>, which doesn't require any set up.</p>
-
       <div class="highlight">
-        <pre>
-<span class="c1">// For New Snippets</span>
+        <pre><span class="c1">// For New Snippets</span>
 <span class="nx">ga</span><span class="p">(</span><span class="s1">'set'</span><span class="p">,</span> <span class="s1">'dimension1'</span><span class="p">,</span> <span class="o">&lt;%=</span> <span class="nx">current_user</span><span class="p">.</span><span class="nx">id</span> <span class="o">%&gt;</span><span class="p">);</span>
 
 <span class="c1">// For Older Snippets</span>
 <span class="nx">_gaq</span><span class="p">.</span><span class="nx">push</span><span class="p">([</span><span class="s1">'_setCustomVar'</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">'User'</span><span class="p">,</span> <span class="o">&lt;%=</span> <span class="nx">current_user</span><span class="p">.</span><span class="nx">id</span> <span class="o">%&gt;</span><span class="p">,</span> <span class="mi">1</span><span class="p">]);</span>
 </pre>
       </div>
-
       <h2 id="querying-google-analytics"><a href="#querying-google-analytics">Querying Google Analytics</a></h2>
-
       <p>Now that you're associating a specific user with each pageview, you can use the Google Analytics API to group pageviews by user. I use <a href="https://rubygems.org/gems/garb">garb</a>.</p>
-
       <div class="highlight">
-        <pre>
-<span class="c1"># For Newer Snippets</span>
+        <pre><span class="c1"># For Newer Snippets</span>
 <span class="k">class</span> <span class="nc">UserActivity</span>
   <span class="kp">extend</span> <span class="no">Garb</span><span class="o">::</span><span class="no">Model</span>
   <span class="kp">extend</span> <span class="no">Garb</span><span class="o">::</span><span class="no">Queryable</span>
@@ -136,10 +113,8 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 <span class="k">end</span>
 </pre>
       </div>
-
       <div class="highlight">
-        <pre>
-<span class="c1"># For Older Snippets</span>
+        <pre><span class="c1"># For Older Snippets</span>
 <span class="k">class</span> <span class="nc">UserActivity</span>
   <span class="kp">extend</span> <span class="no">Garb</span><span class="o">::</span><span class="no">Model</span>
   <span class="kp">extend</span> <span class="no">Garb</span><span class="o">::</span><span class="no">Queryable</span>
@@ -165,10 +140,8 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 <span class="k">end</span>
 </pre>
       </div>
-
       <div class="highlight">
-        <pre>
-<span class="k">module</span> <span class="nn">Garb::Queryable</span>
+        <pre><span class="k">module</span> <span class="nn">Garb::Queryable</span>
 
   <span class="c1"># Instead of returning a Struct, return instances of the given class</span>
   <span class="k">def</span> <span class="nf">query</span><span class="p">(</span><span class="n">profile</span><span class="p">,</span> <span class="n">options</span> <span class="o">=</span> <span class="p">{})</span>
@@ -180,14 +153,10 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 <span class="k">end</span>
 </pre>
       </div>
-
       <h2 id="generating-an-email"><a href="#generating-an-email">Generating an Email</a></h2>
-
       <p>Emails are a passive way of tracking information. You don't need to go anywhere: it comes to you and fits nicely into most people's daily routines. Let's run a Rake task that authenticates with GA and delivers an email via ActionMailer.</p>
-
       <div class="highlight">
-        <pre>
-<span class="k">class</span> <span class="nc">AnalyticsMailer</span> <span class="o">&lt;</span> <span class="no">ActionMailer</span><span class="o">::</span><span class="no">Base</span>
+        <pre><span class="k">class</span> <span class="nc">AnalyticsMailer</span> <span class="o">&lt;</span> <span class="no">ActionMailer</span><span class="o">::</span><span class="no">Base</span>
 
   <span class="k">def</span> <span class="nf">user_activity_report</span><span class="p">(</span><span class="n">to_email</span><span class="p">,</span> <span class="n">profile</span><span class="p">)</span>
     <span class="c1"># Back one week from midnight last night</span>
@@ -207,10 +176,8 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 <span class="k">end</span>
 </pre>
       </div>
-
       <div class="highlight">
-        <pre>
-<span class="c">&lt;!-- views/analytics_mailer/user_activity_report.html.erb --&gt;</span>
+        <pre><span class="c">&lt;!-- views/analytics_mailer/user_activity_report.html.erb --&gt;</span>
 <span class="nt">&lt;h2&gt;</span>Active Users<span class="nt">&lt;/h2&gt;</span>
 
 <span class="nt">&lt;table&gt;</span>
@@ -233,10 +200,8 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 <span class="nt">&lt;/table&gt;</span>
 </pre>
       </div>
-
       <div class="highlight">
-        <pre>
-<span class="c1"># lib/tasks/analytics.rake</span>
+        <pre><span class="c1"># lib/tasks/analytics.rake</span>
 <span class="n">namespace</span> <span class="ss">:analytics</span> <span class="k">do</span>
   <span class="n">namespace</span> <span class="ss">:user_activity_report</span> <span class="k">do</span>
 
@@ -258,90 +223,65 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 <span class="k">end</span>
 </pre>
       </div>
-
       <h2 id="scheduling-the-email"><a href="#scheduling-the-email">Scheduling the Email</a></h2>
-
       <p>The <a href="http://rubygems.org/gems/whenever">whenever</a> gem provides a slick interface for managing your application's <a href="http://en.wikipedia.org/wiki/Cron">cronjobs</a>, with an easy integration into Capistrano.</p>
-
       <div class="highlight">
-        <pre>
-<span class="c1"># config/schedule.rb</span>
+        <pre><span class="c1"># config/schedule.rb</span>
 <span class="n">every</span> <span class="ss">:monday</span><span class="p">,</span> <span class="ss">at</span><span class="p">:</span> <span class="s2">"8:00am"</span> <span class="k">do</span>
   <span class="n">rake</span> <span class="s2">"analytics:user_activity_report:deliver"</span>
 <span class="k">end</span>
 </pre>
       </div>
-
       <div class="highlight">
-        <pre>
-<span class="c1"># config/deploy/production.rb</span>
+        <pre><span class="c1"># config/deploy/production.rb</span>
 <span class="nb">require</span> <span class="s2">"whenever/capistrano"</span>
 </pre>
       </div>
-
       <h2 id="conclusion"><a href="#conclusion">Conclusion</a></h2>
-
       <p>Now you'll get an email every Monday morning telling you who your most active users were last week. The email takes just a couple seconds to browse over and can really improve and target your customer service and product development.</p>
-
       <p>Finding your most active users is only the beginning. Google Analytics can answer a lot more questions:</p>
-
       <ul>
         <li>How much time did a user spend on each page? What was the average?</li>
-
         <li>What individual pages did a specific someone use? In what order?</li>
-
         <li>Who are the major users of a specific page?</li>
-
         <li>Who had 50% more/less pageviews this week than last week?</li>
       </ul>
-
-      <p><a href="https://developers.google.com/analytics/devguides/reporting/core/dimsmets">Check out all the Dimensions &amp; Metrics</a></p><!-- post:content:end -->
+      <p><a href="https://developers.google.com/analytics/devguides/reporting/core/dimsmets">Check out all the Dimensions & Metrics</a></p><!-- post:content:end -->
     </div>
   </div>
-
   <div id="footer">
     <ul class="navigation">
       <li class="prev">
         <a href="ajax-toggle-buttons.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Easy Ajax Toggle Buttons</span><span class="less">Previous</span></a>
       </li>
-
       <li>
         <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
       </li>
-
       <li class="next">
         <a href="simple-infinite-scrolling.html"><span class="more">Simple Infinite Scrolling with AJAX and Rails</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
       </li>
     </ul>
-
     <div class="introduction row-fluid">
       <div class="title span6">
         <h1><a title="Dan Cunning" href="../">Dan Cunning</a></h1>
-
         <ul>
           <li>
             <a title="Twitter" href="https://twitter.com/itopdan"><span class="about-twitter">&nbsp;</span> twitter</a>
           </li>
-
           <li>
             <a title="github" href="https://github.com/topdan"><span class="about-github">&nbsp;</span> github</a>
           </li>
-
           <li>
             <a title="Email" href="mailto:dan@topdan.com"><span class="about-email">&nbsp;</span> email</a>
           </li>
         </ul>
       </div>
-
       <div class="profile span6">
         <img width="75" height="75" src="../assets/dan-5c0db9866c0c42f56063b91a4107d1da.jpg" alt="Dan">
-
         <p>I'm a <a href="./">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="../dan-cunning.html">Read more »</a></p>
       </div>
     </div>
-
     <p id="view-source"><span class="view">View Source:</span> <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html">HTML</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/finding-your-most-active-users-with-google-analytics.json">JSON</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html.md">View</a></p>
-
     <div id="copyright">
       <p>© 2012-2015 Dan Cunning. All rights reserved.</p>
     </div>

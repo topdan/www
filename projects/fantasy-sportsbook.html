@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <head>
   <title>Fantasy Sportsbook - topdan.com</title>
@@ -22,7 +21,7 @@
   <link rel="stylesheet" media="all" href="../assets/site-01cdb0f402a11e6ceb0a3027d5b9d958.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
 
   <script type="text/javascript">
-if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
+  if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
     var _gaq = _gaq || [];
 
     _gaq.push(['_setAccount', 'UA-12957077-1']);
@@ -36,285 +35,187 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
   }
   </script>
 </head>
-
 <body id="fantasy-sportsbook" class="navigatable">
   <a id="top"></a>
-
   <ul class="navigation">
     <li class="prev">
       <a href="fixing-craigslist.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Fixing Craigslist</span><span class="less">Previous</span></a>
     </li>
-
     <li>
       <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Projects</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
     </li>
-
     <li class="next">
       <a href="now-streaming-email.html"><span class="more">"Now Streaming" Email</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
     </li>
   </ul>
-
   <div class="content">
     <div class="container post">
       <p class="byline">Published by Dan on Jul 28, 2014</p>
-
       <h1><a href="fantasy-sportsbook.html">Fantasy Sportsbook</a></h1>
-
       <div class="alert alert-definition post-description">
         <p>Creating a new type of game by combining my favorite elements of sportsbooks and fantasy sports.</p>
       </div><!-- post:content:start -->
-
       <ul>
         <li>
           <a href="#introduction">Introduction</a>
-
           <ul>
             <li>
               <a href="#downsides-of-sportsbooks">Downsides of Sportsbooks</a>
             </li>
-
             <li>
               <a href="#downsides-of-fantasy-football">Downsides of Fantasy Football</a>
             </li>
           </ul>
         </li>
-
         <li>
           <a href="#the-rules">The Rules</a>
         </li>
-
         <li>
           <a href="#screenshots">Screenshots</a>
-
           <ul>
             <li>
               <a href="#dashboard">Dashboard</a>
             </li>
-
             <li>
               <a href="#leaderboard">Leaderboard</a>
             </li>
-
             <li>
               <a href="#balancesheets">Balancesheets</a>
             </li>
-
             <li>
               <a href="#placing-a-bet">Placing a Bet</a>
             </li>
-
             <li>
               <a href="#placing-a-parlay">Placing a Parlay</a>
             </li>
-
             <li>
               <a href="#mobile-web-app">Mobile Web App</a>
             </li>
           </ul>
         </li>
-
         <li>
           <a href="#wrap-up">Wrap-Up</a>
         </li>
       </ul>
-
       <div class="alert alert-error">
         <p><span class="label label-important"><i class="icon-exclamation-sign">&nbsp;</i> Disclaimer</span> Fantasy Sportsbook does not involve any money and nothing of value is ever wagered. All "points" are imaginary and how leagues may or may not award winners at the end of the season is entirely up to them and completely independent of Fantasy Sportsbook.</p>
-
         <p class="punchline"><strong>Fantasy Sportsbook is not a gambling site.</strong></p>
       </div>
-
       <h2 id="introduction"><a href="#introduction">Introduction</a></h2>
-
       <p>Every fall, football fans dive into two different games: one on the field and one online. Both benefit from the other. The online game comes in two varieties: sportsbooks and fantasy football. For different reasons, I stay away from both, but I can't go out and watch a football game without hearing <em>a lot</em> about both, so I borrowed my favorite elements from each to create a new game called <strong>Fantasy Sportsbook</strong>.</p>
-
       <h3 id="downsides-of-sportsbooks"><a href="#downsides-of-sportsbooks">Downsides of Sportsbooks</a></h3>
-
       <p>Whether at a casino or online, sportsbooks rake in money. They create lines to entice bets and guarentee their bottom-line all while charging a price to play (<a href="http://en.wikipedia.org/wiki/Vigorish">the juice</a>). The more people playing: the more money they make, and because the odds are stacked against the better, the more you play: the more likely you lose. And when you lose, your money disappears into a faceless giant.</p>
-
       <p>Unless you and your friends bet on the same game, sportsbooks also lack shared experience and competition. It's your money and your agony/joy. Onlookers may be impressed by <a href="http://grantland.com/the-triangle/floyd-mayweather-suffers-his-first-defeat-at-the-sportsbook/">your large bets</a> but unless they share your payout, they don't share your experience.</p>
-
       <h3 id="downsides-of-fantasy-football"><a href="#downsides-of-fantasy-football">Downsides of Fantasy Football</a></h3>
-
       <p>On the other side, fantasy football thrives on shared experience: people grouped together in friendly competition. If an NFL game is on, everyone has someone to cheer for or against and a friend to brag to later, but its landscape is lopsided to the beginning of the season. Have a good draft: have a good year. All but a handful of players are eliminated on or before week 13, and it's finished before the actual playoffs begin. <strong>Fantasy Football players are more excited about Week 1 than the Super Bowl.</strong></p>
-
       <p>Also, drafting and cheering for individual players is off-putting inside a team-driven sport like football, and fantasy football simply doesn't work for college football's large number of players with incredibly mismatched talent.</p>
-
       <h2 id="the-rules"><a href="#the-rules">The Rules</a></h2>
-
       <p>You can probably see where I'm going: people grouped together in friendly competition betting imaginary "points". Here are the rules:</p>
-
       <ul>
         <li>Upon joining the league, a player is provided 10,000 points</li>
-
         <li>Players can bet these imaginary points on a handful of different results</li>
-
         <li>Players can group these bets to exponentially steadily increase the points they could earn</li>
-
         <li>To encourage betting, there's no juice and leagues can increase the payouts</li>
-
         <li>Players can view everyone's finished/pending bets as well as the current leaderboard</li>
-
         <li>Since players can see one another's bets, players are allowed to cancel a bet before they start with a minimal penalty.</li>
-
         <li>At the end of the season, the player(s) with the most points wins</li>
       </ul>
-
       <p>It's that simple. If leagues want to award the winner(s) a prize, they can but it's their choice and completely separate from Fantasy Sportsbook. <strong>Nothing of value is ever bet or gambled on Fantasy Sportsbook.</strong></p>
-
       <h2 id="screenshots"><a href="#screenshots">Screenshots</a></h2>
-
       <p>Since football season hasn't started yet, I'm beta testing the application with Major League Baseball, but the design works the same for any sport. In the following screenshots, features are numbered in red and referenced in the explanations underneath.</p>
-
       <h3 id="dashboard"><a href="#dashboard">Dashboard</a></h3>
-
       <p><img src="../assets/projects/fantasy-sportsbook/dashboard-upcoming-03f15adcf19d8e171e4263f0c320740b.png" alt="Dashboard of Upcoming Games"></p>
-
       <ol>
         <li>Your current place among all the players</li>
-
         <li>Your available point balance</li>
-
         <li>View completed games and bets</li>
-
         <li>The game's bets: your bets are blue, gray bets are closed, black bets are open</li>
-
         <li>Game status or game start time</li>
-
         <li>Total number of bets involving this game among all players</li>
       </ol>
-
       <p><img src="../assets/projects/fantasy-sportsbook/dashboard-finished-26cea9beb749eded9d091b97cfd8f886.png" alt="Dashboard of Finished Games"></p>
-
       <ol>
         <li>Wagers for this game: wins are green, losses are red, pushes are orange.</li>
-
         <li>Game status</li>
-
         <li>Number of winning, losing, and pushed bets among all players</li>
-
         <li>Hide the completed games and just view in-progress or future games</li>
       </ol>
-
       <h3 id="leaderboard"><a href="#leaderboard">Leaderboard</a></h3>
-
       <p><img src="../assets/projects/fantasy-sportsbook/leaderboard-f139482901f58b187a117fd6f0391555.png" alt="Leaderboard"></p>
-
       <ol>
         <li>Remaining available points</li>
-
         <li>Points placed on pending bets</li>
-
         <li>Balance + Pending. This number determines your rank.</li>
       </ol>
-
       <h3 id="balancesheets"><a href="#balancesheets">Balancesheets</a></h3>
-
       <p>To provide transparency and an explanation of why someone is winning and others are badly losing, the application displays every change that occurs to someone's balance.</p>
-
       <p><img src="../assets/projects/fantasy-sportsbook/balance-8e18eb95ae62c4382e354b68e38091bf.png" alt="Balance"></p>
-
       <ol>
         <li>Reason for the change</li>
-
         <li>Amount of the change. Spending points is red. Gaining points is green.</li>
-
         <li>The remaining balance</li>
       </ol>
-
       <h3 id="placing-a-bet"><a href="#placing-a-bet">Placing a Bet</a></h3>
-
       <ol>
         <li>Select the game</li>
-
         <li>Select the terms</li>
-
         <li>Set the bet</li>
-
         <li>Place the bet</li>
       </ol>
-
       <p><img src="../assets/projects/fantasy-sportsbook/placing-single-a8c43008f125a9712bcbb4b9f1e04c15.gif" alt="Placing a Single Bet"></p>
-
       <h3 id="placing-a-parlay"><a href="#placing-a-parlay">Placing a Parlay</a></h3>
-
       <p>A parlay groups multiple bets together, exponentially raising the payout also making them more difficult to win.</p>
-
       <ol>
         <li>Select a game</li>
-
         <li>Select the terms</li>
-
         <li>Select more games and terms (watch the payout grow)</li>
-
         <li>Set the bet</li>
-
         <li>Place the bet</li>
       </ol>
-
       <p><img src="../assets/projects/fantasy-sportsbook/placing-parlay-3af0df3dc10d9aae09f09ad9c10b60cd.gif" alt="Placing a Parlay Bet"></p>
-
       <h3 id="mobile-web-app"><a href="#mobile-web-app">Mobile Web App</a></h3>
-
       <p>The application is not a native "iPhone Application", but it can behave like one by using the "Add to Home Screen" action.</p>
-
       <p><img src="../assets/projects/fantasy-sportsbook/mobile-web-app-eb420e6ba1cb01ef6e7815957e821fb6.gif" alt="Mobile Web App"></p>
-
       <h2 id="wrap-up"><a href="#wrap-up">Wrap-Up</a></h2>
-
       <p>I'm proud of the mobile interface: lots of information cleanly displayed in a small space. Placing bets is simple and hopefully not prone to error. If I ever make it public, I'll likely remove the logos and limit references to trademarked names.</p>
-
       <p>I'm looking forward to seeing if it helps the casual fan become more interested in games and whether seasoned bettors receive a reasonable thrill while limiting their overall risk and losses. It should be a fun season of football.</p>
-
       <p class="alert alert-info punchline"><strong>If you're going to lose, lose to your friends.</strong></p>
-
       <p class="copyright">Images and logos used in the screenshots on this page are property of Major League Baseball</p><!-- post:content:end -->
     </div>
   </div>
-
   <div id="footer">
     <ul class="navigation">
       <li class="prev">
         <a href="fixing-craigslist.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Fixing Craigslist</span><span class="less">Previous</span></a>
       </li>
-
       <li>
         <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Projects</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
       </li>
-
       <li class="next">
         <a href="now-streaming-email.html"><span class="more">"Now Streaming" Email</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
       </li>
     </ul>
-
     <div class="introduction row-fluid">
       <div class="title span6">
         <h1><a title="Dan Cunning" href="../">Dan Cunning</a></h1>
-
         <ul>
           <li>
             <a title="Twitter" href="https://twitter.com/itopdan"><span class="about-twitter">&nbsp;</span> twitter</a>
           </li>
-
           <li>
             <a title="github" href="https://github.com/topdan"><span class="about-github">&nbsp;</span> github</a>
           </li>
-
           <li>
             <a title="Email" href="mailto:dan@topdan.com"><span class="about-email">&nbsp;</span> email</a>
           </li>
         </ul>
       </div>
-
       <div class="profile span6">
         <img width="75" height="75" src="../assets/dan-5c0db9866c0c42f56063b91a4107d1da.jpg" alt="Dan">
-
         <p>I'm a <a href="../ruby-on-rails/">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="../dan-cunning.html">Read more »</a></p>
       </div>
     </div>
-
     <p id="view-source"><span class="view">View Source:</span> <a href="https://github.com/topdan/www/blob/master/projects/fantasy-sportsbook.html">HTML</a> | <a href="https://github.com/topdan/www/blob/master/projects/fantasy-sportsbook.json">JSON</a> | <a href="https://github.com/topdan/www/blob/master/projects/fantasy-sportsbook.html.md">View</a></p>
-
     <div id="copyright">
       <p>© 2012-2015 Dan Cunning. All rights reserved.</p>
     </div>

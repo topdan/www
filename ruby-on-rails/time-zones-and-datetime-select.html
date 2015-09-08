@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <head>
   <title>Time Zones and datetime_select - topdan.com</title>
@@ -22,7 +21,7 @@
   <link rel="stylesheet" media="all" href="../assets/site-01cdb0f402a11e6ceb0a3027d5b9d958.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
 
   <script type="text/javascript">
-if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
+  if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
     var _gaq = _gaq || [];
 
     _gaq.push(['_setAccount', 'UA-12957077-1']);
@@ -36,64 +35,44 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
   }
   </script>
 </head>
-
 <body id="time-zones-and-datetime-select" class="navigatable">
   <a id="top"></a>
-
   <ul class="navigation">
     <li class="prev">
       <a href="views-mailers-directory.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">views/mailers directory</span><span class="less">Previous</span></a>
     </li>
-
     <li>
       <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
     </li>
-
     <li class="next">
       <a href="form-builder-label-and-full-error-messages.html"><span class="more">f.label and errors.full_messages</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
     </li>
   </ul>
-
   <div class="content">
     <div class="container post">
       <p class="byline">Published by Dan on May 12, 2015</p>
-
       <h1><a href="time-zones-and-datetime-select.html">Time Zones and datetime_select</a></h1><!-- post:content:start -->
-
       <h2>The Problem</h2>
-
       <p><strong><code>datetime_select</code> and <code>time_zone_select</code> don't work together</strong>. If you use both of them and <code>Time.zone</code> doesn't match the selected timezone, the user will unwittingly set the wrong time:</p>
-
       <p class="centered"><img src="../assets/ruby-on-rails/time-zones-and-datetime-select/the-problem-1244e43e930adb6f7513c1d03474b1ea.gif" alt="The Problem"></p>
-
       <h2>The Fix</h2>
-
       <p>Use the selected timezone when setting the timestamp:</p>
-
       <div class="highlight">
-        <pre>
-<span class="no">Time</span><span class="o">.</span><span class="n">use_zone</span><span class="p">(</span><span class="n">check_in_params</span><span class="o">[</span><span class="ss">:timezone</span><span class="o">]</span><span class="p">)</span> <span class="k">do</span>
+        <pre><span class="no">Time</span><span class="o">.</span><span class="n">use_zone</span><span class="p">(</span><span class="n">check_in_params</span><span class="o">[</span><span class="ss">:timezone</span><span class="o">]</span><span class="p">)</span> <span class="k">do</span>
   <span class="vi">@check_in</span><span class="o">.</span><span class="n">attributes</span> <span class="o">=</span> <span class="n">check_in_params</span>
 <span class="k">end</span>
 </pre>
       </div>
-
       <p class="centered"><img src="../assets/ruby-on-rails/time-zones-and-datetime-select/the-fix-753e7e850f7f874538c6242191aaf7fe.gif" alt="The Fix"></p>
-
       <h2>Example Feature</h2>
-
       <ul>
         <li>Users can check-in to places like <a href="https://foursquare.com/">foursquare</a>
         </li>
-
         <li>Users can backdate check-ins in case they forgot</li>
-
         <li>Users view check-in timestamps in the check-in timezone</li>
       </ul>
-
       <div class="highlight">
-        <pre>
-<span class="k">class</span> <span class="nc">CheckIn</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+        <pre><span class="k">class</span> <span class="nc">CheckIn</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
 
   <span class="c1"># convert the timestamp into the correct timezone</span>
   <span class="k">def</span> <span class="nf">timestamp</span>
@@ -103,10 +82,8 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 <span class="k">end</span>
 </pre>
       </div>
-
       <div class="highlight">
-        <pre>
-<span class="k">class</span> <span class="nc">CheckInsController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
+        <pre><span class="k">class</span> <span class="nc">CheckInsController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
   <span class="n">before_action</span> <span class="ss">:load_check_in</span>
 
   <span class="k">def</span> <span class="nf">update</span>
@@ -134,77 +111,58 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
 <span class="k">end</span>
 </pre>
       </div>
-
       <div class="highlight">
-        <pre>
-<span class="c">&lt;!-- edit.html.erb --&gt;</span>
+        <pre><span class="c">&lt;!-- edit.html.erb --&gt;</span>
 <span class="cp">&lt;%=</span> <span class="n">form_for</span> <span class="vi">@check_in</span> <span class="k">do</span> <span class="o">|</span><span class="n">f</span><span class="o">|</span> <span class="cp">%&gt;</span>
   <span class="nt">&lt;p&gt;</span><span class="cp">&lt;%=</span> <span class="n">f</span><span class="o">.</span><span class="n">datetime_select</span>  <span class="ss">:timestamp</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
   <span class="nt">&lt;p&gt;</span><span class="cp">&lt;%=</span> <span class="n">f</span><span class="o">.</span><span class="n">time_zone_select</span> <span class="ss">:timezone</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
 <span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span>
 </pre>
       </div>
-
       <div class="highlight">
-        <pre>
-<span class="c">&lt;!-- show.html.erb --&gt;</span>
+        <pre><span class="c">&lt;!-- show.html.erb --&gt;</span>
 <span class="nt">&lt;p&gt;</span>Checked in at <span class="cp">&lt;%=</span> <span class="vi">@check_in</span><span class="o">.</span><span class="n">timestamp</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">"%-I:%M %p %Z"</span><span class="p">)</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
 </pre>
       </div>
-
       <h2>Wrap-up</h2>
-
       <p>Ideally, <code>datetime_select</code> would support timezone as a piece of the datetime like it does for hours, minutes, and seconds, but it doesn't. The next step is overriding <code>timestamp=</code> but will the timezone attribute be set before or after the timestamp attribute? And what determines the timestamp's internal timezone?</p>
-
       <p><code>Time.use_zone</code> makes the most sense: the model can't guarantee what the <code>Time.zone</code> value or the timestamp's timezone mean, but the controller can.</p>
-
       <p class="alert alert-info centered">Have a better solution? <a href="mailto:dan@topdan.com">Let me know!</a></p><!-- post:content:end -->
     </div>
   </div>
-
   <div id="footer">
     <ul class="navigation">
       <li class="prev">
         <a href="views-mailers-directory.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">views/mailers directory</span><span class="less">Previous</span></a>
       </li>
-
       <li>
         <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
       </li>
-
       <li class="next">
         <a href="form-builder-label-and-full-error-messages.html"><span class="more">f.label and errors.full_messages</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
       </li>
     </ul>
-
     <div class="introduction row-fluid">
       <div class="title span6">
         <h1><a title="Dan Cunning" href="../">Dan Cunning</a></h1>
-
         <ul>
           <li>
             <a title="Twitter" href="https://twitter.com/itopdan"><span class="about-twitter">&nbsp;</span> twitter</a>
           </li>
-
           <li>
             <a title="github" href="https://github.com/topdan"><span class="about-github">&nbsp;</span> github</a>
           </li>
-
           <li>
             <a title="Email" href="mailto:dan@topdan.com"><span class="about-email">&nbsp;</span> email</a>
           </li>
         </ul>
       </div>
-
       <div class="profile span6">
         <img width="75" height="75" src="../assets/dan-5c0db9866c0c42f56063b91a4107d1da.jpg" alt="Dan">
-
         <p>I'm a <a href="./">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="../dan-cunning.html">Read more »</a></p>
       </div>
     </div>
-
     <p id="view-source"><span class="view">View Source:</span> <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/time-zones-and-datetime-select.html">HTML</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/time-zones-and-datetime-select.json">JSON</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/time-zones-and-datetime-select.html.md">View</a></p>
-
     <div id="copyright">
       <p>© 2012-2015 Dan Cunning. All rights reserved.</p>
     </div>

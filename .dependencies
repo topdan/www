@@ -2,6 +2,8 @@
   "Author": [
     "/entertainment/current-tv-shows.html",
     "/entertainment/current-tv-shows.json",
+    "/entertainment/gilmore-girl-alumni.html",
+    "/entertainment/gilmore-girl-alumni.json",
     "/entertainment/index.xml",
     "/entertainment/movie-recommendations.html",
     "/entertainment/movie-recommendations.json",
@@ -124,6 +126,7 @@
   ],
   "Category": [
     "/entertainment/current-tv-shows.html",
+    "/entertainment/gilmore-girl-alumni.html",
     "/entertainment/index.html",
     "/entertainment/index.rss",
     "/entertainment/index.xml",
@@ -450,6 +453,8 @@
   "Post": [
     "/entertainment/current-tv-shows.html",
     "/entertainment/current-tv-shows.json",
+    "/entertainment/gilmore-girl-alumni.html",
+    "/entertainment/gilmore-girl-alumni.json",
     "/entertainment/index.html",
     "/entertainment/index.rss",
     "/entertainment/index.xml",

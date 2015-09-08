@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <head>
   <title>Fixing Craigslist - topdan.com</title>
@@ -22,7 +21,7 @@
   <link rel="stylesheet" media="all" href="../assets/site-01cdb0f402a11e6ceb0a3027d5b9d958.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
 
   <script type="text/javascript">
-if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
+  if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
     var _gaq = _gaq || [];
 
     _gaq.push(['_setAccount', 'UA-12957077-1']);
@@ -36,169 +35,122 @@ if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
   }
   </script>
 </head>
-
 <body id="fixing-craigslist" class="navigatable">
   <a id="top"></a>
-
   <ul class="navigation">
     <li class="prev">
       <a href="remifi-remote-controlled-browser.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Firefox Remote Control</span><span class="less">Previous</span></a>
     </li>
-
     <li>
       <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Projects</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
     </li>
-
     <li class="next">
       <a href="fantasy-sportsbook.html"><span class="more">Fantasy Sportsbook</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
     </li>
   </ul>
-
   <div class="content">
     <div class="container post">
       <p class="byline">Published by Dan on Apr 15, 2014</p>
-
       <h1><a href="fixing-craigslist.html">Fixing Craigslist</a></h1>
-
       <div class="alert alert-definition post-description">
         <p>Fixing Craigslist search by filtering posts, aggregating multiple searches, grouping together and emailing important posts.</p>
       </div><!-- post:content:start -->
-
       <ul>
         <li>
           <a href="#introduction">Introduction</a>
         </li>
-
         <li>
           <a href="#the-problem">The Problem</a>
         </li>
-
         <li>
           <a href="#the-solution">The Solution</a>
         </li>
-
         <li>
           <a href="#the-implementation">The Implementation</a>
         </li>
-
         <li>
           <a href="#conclusion">Conclusion</a>
         </li>
       </ul>
-
       <h2 id="introduction"><a href="#introduction">Introduction</a></h2>
-
       <p>Craigslist is the best place to find houses and apartments rented by individual owners or small-time real estate agents, which tend to be the places I prefer. I create two or three Craigslist searches for the area and price range I'm looking for and use <a href="http://feedly.com">feedly.com</a> to follow new posts within them.</p>
-
       <h2 id="the-problem"><a href="#the-problem">The Problem</a></h2>
-
       <ol>
         <li>
           <p>About half of the posts are for the same large complexes. While they aren't technically "spam" since they are advertising different apartments inside the same complex, they are noise, and <strong>I do not want to see them</strong>.</p>
         </li>
-
         <li>
           <p>Posters also know to include the names of popular areas even though they are no where near them by using the phrase "drivable to X", which adds a bunch of junk in my search results.</p>
         </li>
-
         <li>
           <p>If I do not immediately respond to a post, I will likely never return to it, even if I bookmark it or flag it with feedly.</p>
         </li>
-
         <li>
           <p>Searching is <strong>an active process</strong>: I need to visit craigslist or feedly.com. It doesn't fit into my routine during the weekends or evenings, when I'm less likely to be at my computer.</p>
         </li>
       </ol>
-
       <h2 id="the-solution"><a href="#the-solution">The Solution</a></h2>
-
       <ol>
         <li>
           <p>Allow me to filter posts. Does the title contain a certain phrase ("Roommate")? Does the body contain a certain property manager or phone number? Does it use that same photo I've seen dozens of times before? Does it have that same address or GPS coordinates? Let's remove all the posts I don't want to see anymore.</p>
         </li>
-
         <li>
           <p>Allow me to filter posts that are outside of a certain area.</p>
         </li>
-
         <li>
           <p>Allow me to "remember" posts and view all remembered posts in one page.</p>
         </li>
-
         <li>
           <p>Send me an email with the most recent posts and remembered posts, so I can quickly review them without having to routinely visit a website.</p>
         </li>
       </ol>
-
       <h2 id="the-implementation"><a href="#the-implementation">The Implementation</a></h2>
-
       <h3 id="posts-view"><a href="#posts-view">Posts View</a></h3>
-
       <p><img src="../assets/projects/fixing-craigslist/posts-9289030cefe64e424233a16a1bbd7ff0.png" alt="Posts View"></p>
-
       <h3 id="post-view"><a href="#post-view">Single Post View</a></h3>
-
       <p><img src="../assets/projects/fixing-craigslist/post-84052edad1f296207a16065883aa86d1.png" alt="Single Post View"></p>
-
       <h3 id="filter-rules"><a href="#filter-rules">Filter Rules</a></h3>
-
       <p><img src="../assets/projects/fixing-craigslist/rules-5d5d33c4a995bdf87ac0601b1d51f278.png" alt="Filter Rules"></p>
-
       <h3 id="email-update"><a href="#email-update">Email Update</a></h3>
-
       <p><img src="../assets/projects/fixing-craigslist/email-5af68ecf26b4dae39f7f40852fe64c2d.png" alt="Email Update"></p>
-
       <h2 id="conclusion"><a href="#conclusion">Conclusion</a></h2>
-
       <p>It should be general enough to apply to item-for-sale and job postings too, though I'm not sure if I'll open it up to other people, but it was worth a couple weekend afternoons of work to alleviate some of my pressure points of using Craigslist to find apartments.</p>
-
       <p>Let me know if you think the Craigslist filtering/email application is useful for you, and I'll give you access.</p><!-- post:content:end -->
     </div>
   </div>
-
   <div id="footer">
     <ul class="navigation">
       <li class="prev">
         <a href="remifi-remote-controlled-browser.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Firefox Remote Control</span><span class="less">Previous</span></a>
       </li>
-
       <li>
         <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Projects</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
       </li>
-
       <li class="next">
         <a href="fantasy-sportsbook.html"><span class="more">Fantasy Sportsbook</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
       </li>
     </ul>
-
     <div class="introduction row-fluid">
       <div class="title span6">
         <h1><a title="Dan Cunning" href="../">Dan Cunning</a></h1>
-
         <ul>
           <li>
             <a title="Twitter" href="https://twitter.com/itopdan"><span class="about-twitter">&nbsp;</span> twitter</a>
           </li>
-
           <li>
             <a title="github" href="https://github.com/topdan"><span class="about-github">&nbsp;</span> github</a>
           </li>
-
           <li>
             <a title="Email" href="mailto:dan@topdan.com"><span class="about-email">&nbsp;</span> email</a>
           </li>
         </ul>
       </div>
-
       <div class="profile span6">
         <img width="75" height="75" src="../assets/dan-5c0db9866c0c42f56063b91a4107d1da.jpg" alt="Dan">
-
         <p>I'm a <a href="../ruby-on-rails/">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="../dan-cunning.html">Read more »</a></p>
       </div>
     </div>
-
     <p id="view-source"><span class="view">View Source:</span> <a href="https://github.com/topdan/www/blob/master/projects/fixing-craigslist.html">HTML</a> | <a href="https://github.com/topdan/www/blob/master/projects/fixing-craigslist.json">JSON</a> | <a href="https://github.com/topdan/www/blob/master/projects/fixing-craigslist.html.md">View</a></p>
-
     <div id="copyright">
       <p>© 2012-2015 Dan Cunning. All rights reserved.</p>
     </div>
