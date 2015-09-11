@@ -588,7 +588,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8903/thumb_the-spectacular-now-2014-e67cf6ca7461727b699eaeab5973672c.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00H8AXJR6",
-        "amazon_prime": "http://www.amazon.com/gp/product/B00H8AXJR6"
+        "amazon_prime": "http://www.amazon.com/gp/product/B00H8AXJR6",
+        "itunes": "https://itunes.apple.com/us/movie/the-spectacular-now/id689075776"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1714206/",
@@ -2754,7 +2755,8 @@
       "release_date": "2001-01-19",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10541/thumb_snatch-2000-e1de4beedfbb54907d1d403015637e47.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0094M6A18"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0094M6A18",
+        "itunes": "https://itunes.apple.com/us/movie/snatch/id284156786"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0208092/",
@@ -3394,6 +3396,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-09-08 12:37:05 -0400"
+  "updated_at": "2015-09-11 12:04:49 -0400"
 }
 
