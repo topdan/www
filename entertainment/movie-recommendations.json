@@ -372,8 +372,11 @@
       "title": "Men, Women & Children",
       "year": 2014,
       "release_date": "2014-10-01",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13325/thumb_men-women-and-children-2014-bd1238cafe4bfaa481cec77277e185ce.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13325/thumb_men-women-and-children-2014-ec4f4796cc38f5b2a4d598f36f408efa.jpg",
       "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00R1WOZ7O",
+        "amazon_prime": "http://www.amazon.com/gp/product/B00R1WOZ7O",
+        "netflix": "https://www.netflix.com/title/80014906"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3179568/",
@@ -3396,6 +3399,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-09-11 12:04:49 -0400"
+  "updated_at": "2015-09-13 03:12:10 -0400"
 }
 
