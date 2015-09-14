@@ -3,7 +3,7 @@
 ```ruby
 # app/mailers/application_mailer.rb
 class ApplicationMailer < ActionMailer::Base
-  default template_path: lambda { |e| "mailers/#{e.class.name.underscore}" }
+  default template_path: -> (e) { "mailers/#{e.class.name.underscore}" }
 end
 ```
 

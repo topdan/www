@@ -18,7 +18,7 @@
   <meta name="og:title" content="views/mailers directory">
   <meta name="og:description" content="Avoid cluttering up app/views by moving mailer directories underneath a single parent.">
   <link rel="shortcut icon" href="../assets/favicon-a5b290c132149b7a44260c16213fb6e2.png">
-  <link rel="stylesheet" media="all" href="../assets/site-a1ff5ab36ae11e98294b4968e10d84c1.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+  <link rel="stylesheet" media="all" href="../assets/site-554dd2e0d8b9050bbedadac6e8100591.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
 
   <script type="text/javascript">
   if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
@@ -56,7 +56,7 @@
       <div class="highlight">
         <pre><span class="c1"># app/mailers/application_mailer.rb</span>
 <span class="k">class</span> <span class="nc">ApplicationMailer</span> <span class="o">&lt;</span> <span class="no">ActionMailer</span><span class="o">::</span><span class="no">Base</span>
-  <span class="n">default</span> <span class="ss">template_path</span><span class="p">:</span> <span class="nb">lambda</span> <span class="p">{</span> <span class="o">|</span><span class="n">e</span><span class="o">|</span> <span class="s2">"mailers/</span><span class="si">#{</span><span class="n">e</span><span class="o">.</span><span class="n">class</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">underscore</span><span class="si">}</span><span class="s2">"</span> <span class="p">}</span>
+  <span class="n">default</span> <span class="ss">template_path</span><span class="p">:</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="n">e</span><span class="p">)</span> <span class="p">{</span> <span class="s2">"mailers/</span><span class="si">#{</span><span class="n">e</span><span class="o">.</span><span class="n">class</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">underscore</span><span class="si">}</span><span class="s2">"</span> <span class="p">}</span>
 <span class="k">end</span>
 </pre>
       </div>

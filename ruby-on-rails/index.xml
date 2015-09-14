@@ -33,7 +33,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/views-mailers-directory.html</id>
     <published>2015-03-04T13:33:58-05:00</published>
-    <updated>2015-03-08T13:47:09-04:00</updated>
+    <updated>2015-09-10T19:04:29-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/views-mailers-directory.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>views/mailers directory</title>
     <content>Avoid cluttering up app/views by moving mailer directories underneath a single parent.</content>
