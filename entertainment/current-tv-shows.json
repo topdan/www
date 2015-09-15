@@ -143,6 +143,22 @@
       }
     },
     {
+      "title": "Continuum",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/39/thumb_continuum-640e84645662f90fe4a42b38a86bcda9.jpg",
+      "latest_episode_aired_on": "2015-09-11",
+      "first_episode_aired_on": "2012-05-27",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00B1O6DYQ",
+        "netflix": "https://www.netflix.com/title/70266352"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1954347/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Continuum_%28TV_series%29"
+      }
+    },
+    {
       "title": "Galavant",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3695/thumb_galavant-76a734d4e7eab17407a6d88c2a506c1d.jpg",
       "latest_episode_aired_on": "2015-01-25",
@@ -389,22 +405,6 @@
       }
     },
     {
-      "title": "Continuum",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/39/thumb_continuum-640e84645662f90fe4a42b38a86bcda9.jpg",
-      "latest_episode_aired_on": "2014-06-27",
-      "first_episode_aired_on": "2012-05-27",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00B1O6DYQ",
-        "netflix": "https://www.netflix.com/title/70266352"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt1954347/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Continuum_%28TV_series%29"
-      }
-    },
-    {
       "title": "Quick Draw",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/1743/thumb_quick-draw-dc8a85278a396673c917c875238e497f.jpg",
       "latest_episode_aired_on": "2014-10-02",
@@ -523,6 +523,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-09-11 03:12:09 -0400"
+  "updated_at": "2015-09-15 11:20:55 -0400"
 }
 
