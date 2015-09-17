@@ -5,6 +5,13 @@
     <link>http://www.topdan.com/ruby-on-rails/index.rss</link>
     <description>Dan Cunning's thoughts on Ruby on Rails.</description>
     <item>
+      <title>Progress Bars</title>
+      <description>How to create a progress bar using Ruby on Rails, AJAX, and Twitter Bootstrap.</description>
+      <link>http://www.topdan.com/ruby-on-rails/progress-bars.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/progress-bars.html</guid>
+      <pubDate>2015-09-08 20:00:00 UTC</pubDate>
+    </item>
+    <item>
       <title>f.label and errors.full_messages</title>
       <description>Why you should never use the explicit "content" parameter of label_tag or the form builder's label method.</description>
       <link>http://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html?utm_medium=rss&amp;utm_source=feed</link>
@@ -40,7 +47,7 @@
       <pubDate>2014-07-17 16:00:00 UTC</pubDate>
     </item>
     <item>
-      <title>Simple Infinite Scrolling with AJAX and Rails</title>
+      <title>Infinite Scrolling with AJAX and Rails</title>
       <description>Ruby on Rails and jQuery team up to allow your visitors to scroll through all your content without initially loading them all.</description>
       <link>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html?utm_medium=rss&amp;utm_source=feed</link>
       <guid>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html</guid>

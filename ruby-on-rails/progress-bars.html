@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Progress Bars - topdan.com</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="How to create a progress bar using Ruby on Rails, AJAX, and Twitter Bootstrap.">
+  <meta name="author" content="Dan Cunning">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@itopdan">
+  <meta name="twitter:title" content="Progress Bars">
+  <meta name="twitter:description" content="How to create a progress bar using Ruby on Rails, AJAX, and Twitter Bootstrap.">
+  <meta name="twitter:url" content="http://www.topdan.com/ruby-on-rails/progress-bars.html">
+  <meta name="og:locale" content="en_US">
+  <meta name="og:type" content="article">
+  <meta name="og:url" content="http://www.topdan.com/ruby-on-rails/progress-bars.html">
+  <meta name="og:title" content="Progress Bars">
+  <meta name="og:description" content="How to create a progress bar using Ruby on Rails, AJAX, and Twitter Bootstrap.">
+  <link rel="shortcut icon" href="../assets/favicon-a5b290c132149b7a44260c16213fb6e2.png">
+  <link rel="stylesheet" media="all" href="../assets/site-2c8cf0b107c137c076e873d001a26e2c.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+
+  <script type="text/javascript">
+  if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
+    var _gaq = _gaq || [];
+
+    _gaq.push(['_setAccount', 'UA-12957077-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  }
+  </script>
+</head>
+<body id="progress-bars" class="navigatable">
+  <a id="top"></a>
+  <ul class="navigation">
+    <li class="prev">
+      <a href="form-builder-label-and-full-error-messages.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">f.label and errors.full_messages</span><span class="less">Previous</span></a>
+    </li>
+    <li>
+      <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
+    </li>
+    <li class="next">
+      <a href="param-accessible.html"><span class="more">Protecting Yourself from Malicious params</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
+    </li>
+  </ul>
+  <div class="content">
+    <div class="container post">
+      <p class="byline">Published by Dan on Sep 8, 2015</p>
+      <h1><a href="progress-bars.html">Progress Bars</a></h1>
+      <div class="alert alert-definition post-description">
+        <p>How to create a progress bar using Ruby on Rails, AJAX, and Twitter Bootstrap.</p>
+      </div><!-- post:content:start -->
+      <ul>
+        <li>
+          <a href="#introduction">Introduction</a>
+        </li>
+        <li>
+          <a href="#demo">Demo</a>
+        </li>
+        <li>
+          <a href="#how-it-works">How it Works</a>
+        </li>
+        <li>
+          <a href="#the-code">The Code</a>
+        </li>
+        <li>
+          <a href="#wrapup">Wrap-up</a>
+        </li>
+      </ul>
+      <h2 id="introduction"><a href="#introduction">Introduction</a></h2>
+      <p>Progress Bars are essential for long-running tasks that require communication to the user their request was received and is being processed.</p>
+      <h2 id="demo"><a href="#demo">Demo</a></h2>
+      <p>Click to the following button to see the progress bar go <a id="start" href="#" class="btn btn-primary">Start</a></p>
+      <div id="demo-progress" class="progress-bar">
+        <div class="progress progress-striped">
+          <div class="bar" style="width: 0%;"></div>
+        </div>
+        <div class="message">
+          Not Running...
+        </div>
+      </div>
+      <p class="fine-print">This webpage is not hosted by Rails, so the above UX is just a simulation.</p>
+      <h2 id="how-it-works"><a href="#how-it-works">How it Works</a></h2>
+      <ol>
+        <li>When start is clicked, <code>jquery_ujs.js</code> recognizes its <code>data-remote</code> and <code>data-type</code> attributes and requests javascript from Rails via AJAX.</li>
+        <li>Rails receives the request, passes a new <code>progress_bar</code> into <code>ActiveJob</code> and returns javascript that starts asking Rails for updates.</li>
+        <li>The <code>ActiveJob</code> updates <code>progress_bar.message</code> and <code>progress_bar.percent</code> as it processes the data until it finishes.</li>
+        <li>When <code>progress_bar.percent == 100</code> the javascript stops asking Rails for updates.</li>
+      </ol>
+      <h2 id="the-code"><a href="#the-code">The Code</a></h2>
+      <h3 id="model"><a href="#model"></a></h3>
+      <div class="highlight">
+        <pre><span class="c1"># app/models/progress_bar.rb</span>
+<span class="k">class</span> <span class="nc">ProgressBar</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+  <span class="n">belongs_to</span> <span class="ss">:user</span>
+
+  <span class="n">validates_presence_of</span> <span class="ss">:user_id</span><span class="p">,</span> <span class="ss">:message</span>
+
+  <span class="n">validates_numericality_of</span> <span class="ss">:percent</span><span class="p">,</span>
+    <span class="ss">greater_than_or_equal_to</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="ss">less_than_or_equal_to</span><span class="p">:</span> <span class="mi">100</span>
+<span class="k">end</span>
+</pre>
+      </div>
+      <h3 id="routes"><a href="#routes"></a></h3>
+      <div class="highlight">
+        <pre><span class="c1"># config/routes.rb</span>
+<span class="n">resources</span> <span class="ss">:progress_bars</span><span class="p">,</span> <span class="ss">only</span><span class="p">:</span> <span class="s1">'show'</span>
+<span class="n">resources</span> <span class="ss">:demos</span><span class="p">,</span> <span class="ss">only</span><span class="p">:</span> <span class="sx">%w(new create)</span>
+</pre>
+      </div>
+      <h3 id="demo-controller"><a href="#demo-controller"></a></h3>
+      <div class="highlight">
+        <pre><span class="c1"># app/controllers/demos_controller.rb</span>
+<span class="k">class</span> <span class="nc">DemosController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
+
+  <span class="k">def</span> <span class="nf">create</span>
+    <span class="vi">@progress_bar</span> <span class="o">=</span> <span class="n">current_user</span><span class="o">.</span><span class="n">progress_bars</span><span class="o">.</span><span class="n">create!</span><span class="p">(</span><span class="ss">message</span><span class="p">:</span> <span class="s1">'Queued'</span><span class="p">)</span>
+    <span class="no">DemoWorker</span><span class="o">.</span><span class="n">perform_later</span><span class="p">(</span><span class="vi">@progress_bar</span><span class="p">)</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+</pre>
+      </div>
+      <h3 id="demo-new"><a href="#demo-new"></a></h3>
+      <div class="highlight">
+        <pre><span class="c">&lt;!-- app/views/demos/new.html.erb --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"demo"</span> <span class="na">class=</span><span class="s">"progress-bar"</span> <span class="na">data-ping-time=</span><span class="s">"1000"</span><span class="nt">&gt;</span>
+  <span class="cp">&lt;%=</span> <span class="n">link_to</span> <span class="s1">'Start'</span><span class="p">,</span> <span class="n">url_for</span><span class="p">(</span><span class="ss">action</span><span class="p">:</span> <span class="s1">'create'</span><span class="p">),</span> <span class="s1">'data-remote'</span> <span class="o">=&gt;</span> <span class="kp">true</span><span class="p">,</span> <span class="s1">'data-type'</span> <span class="o">=&gt;</span> <span class="s1">'script'</span> <span class="cp">%&gt;</span> 
+
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"bar"</span> <span class="na">style=</span><span class="s">"width: 0%;"</span><span class="nt">&gt;&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"message"</span><span class="nt">&gt;</span>Not Running...<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre>
+      </div>
+      <h3 id="demo-create"><a href="#demo-create"></a></h3>
+      <div class="highlight">
+        <pre><span class="c1">// app/views/demos/create.coffee.erb</span>
+<span class="nx">progressBar</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ProgressBar</span><span class="p">(</span><span class="s2">"#demo"</span><span class="p">,</span> <span class="s2">"&lt;%= progress_bar_path @progress_bar %&gt;"</span><span class="p">)</span>
+<span class="nx">progressBar</span><span class="p">.</span><span class="nx">start</span><span class="p">()</span>
+</pre>
+      </div>
+      <h3 id="progress-bar"><a href="#progress-bar"></a></h3>
+      <div class="highlight">
+        <pre><span class="c1"># app/javascripts/progress_bar.coffee</span>
+<span class="nb">window</span><span class="p">.</span><span class="nv">ProgressBar = </span><span class="k">class</span> <span class="nx">ProgressBar</span>
+  <span class="nv">constructor: </span><span class="nf">(elem, url) -&gt;</span>
+    <span class="vi">@elem = </span><span class="nx">$</span><span class="p">(</span><span class="nx">elem</span><span class="p">)</span>
+    <span class="vi">@url = </span><span class="nx">url</span>
+
+    <span class="vi">@message = </span><span class="nx">@elem</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="s">'.message'</span><span class="p">)</span>
+    <span class="vi">@bar = </span><span class="nx">@elem</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="s">'.bar'</span><span class="p">)</span>
+    <span class="vi">@pingTime = </span><span class="nb">parseInt</span><span class="p">(</span><span class="nx">@elem</span><span class="p">.</span><span class="nx">data</span><span class="p">(</span><span class="s">'ping-time'</span><span class="p">))</span>
+
+  <span class="nv">start: </span><span class="nf">=&gt;</span>
+    <span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
+      <span class="nv">url: </span><span class="nx">@url</span><span class="p">,</span>
+      <span class="nv">dataType: </span><span class="s">'json'</span><span class="p">,</span>
+      <span class="nv">success: </span><span class="nf">(data) =&gt;</span>
+        <span class="nx">@message</span><span class="p">.</span><span class="nx">html</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">message</span><span class="p">)</span>
+        <span class="nx">@bar</span><span class="p">.</span><span class="nx">css</span><span class="p">(</span><span class="s">'width'</span><span class="p">,</span> <span class="s">"</span><span class="si">#{</span><span class="nx">data</span><span class="p">.</span><span class="nx">percent</span><span class="si">}</span><span class="s">%"</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="nx">data</span><span class="p">.</span><span class="nx">percent</span> <span class="o">&lt;</span> <span class="mi">100</span>
+          <span class="nx">setTimeout</span><span class="p">(</span><span class="nx">@start</span><span class="p">,</span> <span class="nx">@pingTime</span><span class="p">)</span>
+    <span class="p">})</span>
+</pre>
+      </div>
+      <h3 id="progress-bars-controller"><a href="#progress-bars-controller"></a></h3>
+      <div class="highlight">
+        <pre><span class="c1"># app/controllers/progress_bars_controller.rb</span>
+<span class="k">class</span> <span class="nc">ProgressBarsController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
+
+  <span class="k">def</span> <span class="nf">show</span>
+    <span class="vi">@progress_bar</span> <span class="o">=</span> <span class="n">current_user</span><span class="o">.</span><span class="n">progress_bars</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:id</span><span class="o">]</span><span class="p">)</span>
+    <span class="n">render</span> <span class="ss">json</span><span class="p">:</span> <span class="vi">@progress_bar</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+</pre>
+      </div>
+      <h3 id="demo-worker"><a href="#demo-worker"></a></h3>
+      <div class="highlight">
+        <pre><span class="c1"># app/workers/demo_worker.rb</span>
+<span class="k">class</span> <span class="nc">DemoWorker</span> <span class="o">&lt;</span> <span class="no">ActiveJob</span><span class="o">::</span><span class="no">Base</span>
+
+  <span class="k">def</span> <span class="nf">perform</span><span class="p">(</span><span class="n">progress_bar</span><span class="p">)</span>
+    <span class="vi">@progress_bars</span><span class="o">.</span><span class="n">update_attributes!</span><span class="p">({</span>
+      <span class="ss">message</span><span class="p">:</span> <span class="s1">'Working ...'</span><span class="p">,</span>
+      <span class="ss">percent</span><span class="p">:</span> <span class="mi">0</span>
+    <span class="p">})</span>
+
+    <span class="mi">20</span><span class="o">.</span><span class="n">times</span> <span class="k">do</span> <span class="o">|</span><span class="n">i</span><span class="o">|</span>
+      <span class="nb">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+      <span class="vi">@progress_bar</span><span class="o">.</span><span class="n">update_attributes!</span><span class="p">(</span><span class="ss">percent</span><span class="p">:</span> <span class="n">i</span> <span class="o">*</span> <span class="mi">20</span><span class="p">)</span>
+    <span class="k">end</span>
+
+    <span class="vi">@progress_bars</span><span class="o">.</span><span class="n">update_attributes!</span><span class="p">({</span>
+      <span class="ss">message</span><span class="p">:</span> <span class="s1">'Finished!'</span><span class="p">,</span>
+      <span class="ss">percent</span><span class="p">:</span> <span class="mi">0</span>
+    <span class="p">})</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+</pre>
+      </div>
+      <h2 id="wrapup"><a href="#wrapup">Wrap-up</a></h2>
+      <p>Get all that? The button inside <code>demos#new</code> invokes <code>#create</code> via AJAX, starting a client-side pinging of <code>progress_bars#show</code> while <code>demo_worker#perform</code> runs in the background.</p>
+      <p>Of course it's just a demo. A real worker would do something useful like import a data file. Here are a few more thoughts:</p>
+      <ul>
+        <li>Should you use <a href="http://redis.io/">Redis</a> for ephemeral data like progress bars?
+        </li>
+        <li>How do you notify the user of errors that may occur inside your worker?</li>
+        <li>Do you want the progress bar to popup in a <a href="http://www.w3schools.com/bootstrap/bootstrap_modal.asp">modal</a>?
+        </li>
+        <li>How would you handle multiple progress bars on the same screen?</li>
+        <li>Can the user cancel the background process?</li>
+      </ul>
+      <p>All easily built on top of this initial implementation, but I'll leave them to you. Feel free to contact me with any questions or comments at <a href="mailto:dan@topdan.com">dan@topdan.com</a>.</p><!-- post:content:end -->
+    </div>
+  </div>
+  <div id="footer">
+    <ul class="navigation">
+      <li class="prev">
+        <a href="form-builder-label-and-full-error-messages.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">f.label and errors.full_messages</span><span class="less">Previous</span></a>
+      </li>
+      <li>
+        <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
+      </li>
+      <li class="next">
+        <a href="param-accessible.html"><span class="more">Protecting Yourself from Malicious params</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
+      </li>
+    </ul>
+    <div class="introduction row-fluid">
+      <div class="title span6">
+        <h1><a title="Dan Cunning" href="../">Dan Cunning</a></h1>
+        <ul>
+          <li>
+            <a title="Twitter" href="https://twitter.com/itopdan"><span class="about-twitter">&nbsp;</span> twitter</a>
+          </li>
+          <li>
+            <a title="github" href="https://github.com/topdan"><span class="about-github">&nbsp;</span> github</a>
+          </li>
+          <li>
+            <a title="Email" href="mailto:dan@topdan.com"><span class="about-email">&nbsp;</span> email</a>
+          </li>
+        </ul>
+      </div>
+      <div class="profile span6">
+        <img width="75" height="75" src="../assets/dan-5c0db9866c0c42f56063b91a4107d1da.jpg" alt="Dan">
+        <p>I'm a <a href="./">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="../dan-cunning.html">Read more »</a></p>
+      </div>
+    </div>
+    <p id="view-source"><span class="view">View Source:</span> <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/progress-bars.html">HTML</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/progress-bars.json">JSON</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/progress-bars.html.md">View</a></p>
+    <div id="copyright">
+      <p>© 2012-2015 Dan Cunning. All rights reserved.</p>
+    </div>
+  </div>
+  <script src="../assets/site-017e8b90502f927072dd5386ccd076d2.js">
+  </script>
+</body>
+</html>

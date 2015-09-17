@@ -222,6 +222,13 @@
       <pubDate>2015-09-08 19:30:00 -0400</pubDate>
     </item>
     <item>
+      <title>Progress Bars</title>
+      <description>How to create a progress bar using Ruby on Rails, AJAX, and Twitter Bootstrap.</description>
+      <link>http://www.topdan.com/ruby-on-rails/progress-bars.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/progress-bars.html</guid>
+      <pubDate>2015-09-08 20:00:00 UTC</pubDate>
+    </item>
+    <item>
       <title>Gilmore Girls Alumni</title>
       <description>A look at the cast members that gained significant fame after Gilmore Girls.</description>
       <link>http://www.topdan.com/entertainment/gilmore-girl-alumni.html?utm_medium=rss&amp;utm_source=feed</link>
@@ -327,7 +334,7 @@
       <pubDate>2014-06-22 21:00:00 UTC</pubDate>
     </item>
     <item>
-      <title>Simple Infinite Scrolling with AJAX and Rails</title>
+      <title>Infinite Scrolling with AJAX and Rails</title>
       <description>Ruby on Rails and jQuery team up to allow your visitors to scroll through all your content without initially loading them all.</description>
       <link>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html?utm_medium=rss&amp;utm_source=feed</link>
       <guid>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html</guid>
