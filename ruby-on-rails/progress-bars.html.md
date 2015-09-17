@@ -6,7 +6,7 @@
 
 ## [Introduction](#introduction)
 
-Progress Bars are essential for long-running tasks that require communication to the user their request was received and is being processed.
+Progress Bars are essential for long-running tasks that require communication to the user their request was received and is being processed. Two approaches handle this problem: pinging and [websockets](https://github.com/rails/actioncable). Here, I'll tackle the simpler pinging approach.
 
 ## [Demo](#demo)
 
@@ -160,7 +160,7 @@ Of course it's just a demo. A real worker would do something useful like import 
 * Should you use [Redis](http://redis.io/) for ephemeral data like progress bars?
 * How do you notify the user of errors that may occur inside your worker?
 * Do you want the progress bar to popup in a [modal](http://www.w3schools.com/bootstrap/bootstrap_modal.asp)?
-* How would you handle multiple progress bars on the same screen?
+* Would you allow multiple progress bars on the same screen?
 * Can the user cancel the background process?
 
 All easily built on top of this initial implementation, but I'll leave them to you. Feel free to contact me with any questions or comments at [dan@topdan.com](mailto:dan@topdan.com).

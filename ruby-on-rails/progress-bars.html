@@ -73,7 +73,7 @@
         </li>
       </ul>
       <h2 id="introduction"><a href="#introduction">Introduction</a></h2>
-      <p>Progress Bars are essential for long-running tasks that require communication to the user their request was received and is being processed.</p>
+      <p>Progress Bars are essential for long-running tasks that require communication to the user their request was received and is being processed. Two approaches handle this problem: pinging and <a href="https://github.com/rails/actioncable">websockets</a>. Here, I'll tackle the simpler pinging approach.</p>
       <h2 id="demo"><a href="#demo">Demo</a></h2>
       <p>Click to the following button to see the progress bar go <a id="start" href="#" class="btn btn-primary">Start</a></p>
       <div id="demo-progress" class="progress-bar">
@@ -220,7 +220,7 @@
         <li>How do you notify the user of errors that may occur inside your worker?</li>
         <li>Do you want the progress bar to popup in a <a href="http://www.w3schools.com/bootstrap/bootstrap_modal.asp">modal</a>?
         </li>
-        <li>How would you handle multiple progress bars on the same screen?</li>
+        <li>Would you allow multiple progress bars on the same screen?</li>
         <li>Can the user cancel the background process?</li>
       </ul>
       <p>All easily built on top of this initial implementation, but I'll leave them to you. Feel free to contact me with any questions or comments at <a href="mailto:dan@topdan.com">dan@topdan.com</a>.</p><!-- post:content:end -->
