@@ -293,9 +293,27 @@
       }
     },
     {
+      "title": "South Park",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-aac1005438f92553d735889ca870aa0b.jpg",
+      "latest_episode_aired_on": "2015-09-16",
+      "first_episode_aired_on": "1997-08-13",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000GE42H2",
+        "comedy_central_com": "http://www.cc.com/shows/south-park/full-episodes",
+        "hulu": "http://www.hulu.com/south-park",
+        "south_park_studios": "http://www.southparkstudios.com"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0121955/",
+        "wikipedia": "https://en.wikipedia.org/wiki/South_Park"
+      }
+    },
+    {
       "title": "The Jim Gaffigan Show",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4276/thumb_the-jim-gaffigan-show-99ad4dbdd09bf5e49f73f8d8f132a284.jpg",
-      "latest_episode_aired_on": "2015-09-09",
+      "latest_episode_aired_on": "2015-09-16",
       "first_episode_aired_on": "2015-06-20",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -420,24 +438,6 @@
       }
     },
     {
-      "title": "South Park",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-aac1005438f92553d735889ca870aa0b.jpg",
-      "latest_episode_aired_on": "2014-12-10",
-      "first_episode_aired_on": "1997-08-13",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000GE42H2",
-        "comedy_central_com": "http://www.cc.com/shows/south-park/full-episodes",
-        "hulu": "http://www.hulu.com/south-park",
-        "south_park_studios": "http://www.southparkstudios.com"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt0121955/",
-        "wikipedia": "https://en.wikipedia.org/wiki/South_Park"
-      }
-    },
-    {
       "title": "The Affair",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3487/thumb_the-affair-f271f406bbb970eb143e8b6278cbb01d.jpg",
       "latest_episode_aired_on": "2014-12-21",
@@ -523,6 +523,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-09-15 11:20:55 -0400"
+  "updated_at": "2015-09-18 03:12:10 -0400"
 }
 
