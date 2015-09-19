@@ -5,6 +5,13 @@
     <link>http://www.topdan.com/ruby-on-rails/index.rss</link>
     <description>Dan Cunning's thoughts on Ruby on Rails.</description>
     <item>
+      <title>Browsing Files &amp; Directories in S3</title>
+      <description>Amazon's S3 makes storing files easy but viewing directories isn't intuitive. Let me explain how you can emulate a file structure using Plain-Old-Ruby-Objects.</description>
+      <link>http://www.topdan.com/ruby-on-rails/aws-s3-browser.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/aws-s3-browser.html</guid>
+      <pubDate>2015-09-19 18:12:03 UTC</pubDate>
+    </item>
+    <item>
       <title>Progress Bars</title>
       <description>How to create a progress bar using Ruby on Rails, AJAX, and Twitter Bootstrap.</description>
       <link>http://www.topdan.com/ruby-on-rails/progress-bars.html?utm_medium=rss&amp;utm_source=feed</link>

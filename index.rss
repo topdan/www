@@ -5,6 +5,13 @@
     <link>http://www.topdan.com/index.rss</link>
     <description>A Ruby on Rails contractor's writes about his meandering thoughts</description>
     <item>
+      <title>Browsing Files &amp; Directories in S3</title>
+      <description>Amazon's S3 makes storing files easy but viewing directories isn't intuitive. Let me explain how you can emulate a file structure using Plain-Old-Ruby-Objects.</description>
+      <link>http://www.topdan.com/ruby-on-rails/aws-s3-browser.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/aws-s3-browser.html</guid>
+      <pubDate>2015-09-19 14:12:03 -0400</pubDate>
+    </item>
+    <item>
       <title>NFL Salaries by College</title>
       <description>Ranking each NCAA football conference and school on how much their former players make in the NFL.</description>
       <link>http://www.topdan.com/sports/nfl-salaries-by-college/index.html?utm_medium=rss&amp;utm_source=feed</link>
