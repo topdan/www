@@ -73,7 +73,8 @@
         </li>
       </ul>
       <h2 id="introduction"><a href="#introduction">Introduction</a></h2>
-      <p>Progress Bars are essential for long-running tasks that require communication to the user their request was received and is being processed. Two approaches handle this problem: pinging and <a href="https://github.com/rails/actioncable">websockets</a>. Here, I'll tackle the simpler pinging approach.</p>
+      <p>Progress Bars are essential for long-running tasks that require communication to the user their request was received and is being processed. For example, many applications allow importing spreadsheets or CSV files which could take several minutes to process. These applications save the uploaded file, start a background worker, and allow the client to track its progress.</p>
+      <p>Two approaches handle this problem: pinging and <a href="https://github.com/rails/actioncable">websockets</a>. Here, I'll tackle the simpler pinging approach.</p>
       <h2 id="demo"><a href="#demo">Demo</a></h2>
       <p>Click to the following button to see the progress bar go <a id="start" href="#" class="btn btn-primary">Start</a></p>
       <div id="demo-progress" class="progress-bar">
@@ -151,7 +152,7 @@
       <h3 id="progress-bar"><a href="#progress-bar"></a></h3>
       <div class="highlight">
         <pre><span class="c1"># app/javascripts/progress_bar.coffee</span>
-<span class="nb">window</span><span class="p">.</span><span class="nv">ProgressBar = </span><span class="k">class</span> <span class="nx">ProgressBar</span>
+<span class="k">class</span> <span class="nx">@ProgressBar</span>
   <span class="nv">constructor: </span><span class="nf">(elem, url) -&gt;</span>
     <span class="vi">@elem = </span><span class="nx">$</span><span class="p">(</span><span class="nx">elem</span><span class="p">)</span>
     <span class="vi">@url = </span><span class="nx">url</span>

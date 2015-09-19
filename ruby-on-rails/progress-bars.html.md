@@ -6,7 +6,9 @@
 
 ## [Introduction](#introduction)
 
-Progress Bars are essential for long-running tasks that require communication to the user their request was received and is being processed. Two approaches handle this problem: pinging and [websockets](https://github.com/rails/actioncable). Here, I'll tackle the simpler pinging approach.
+Progress Bars are essential for long-running tasks that require communication to the user their request was received and is being processed. For example, many applications allow importing spreadsheets or CSV files which could take several minutes to process. These applications save the uploaded file, start a background worker, and allow the client to track its progress.
+
+Two approaches handle this problem: pinging and [websockets](https://github.com/rails/actioncable). Here, I'll tackle the simpler pinging approach.
 
 ## [Demo](#demo)
 
@@ -90,7 +92,7 @@ progressBar.start()
 ### [](#progress-bar)
 ```coffee
 # app/assets/javascripts/progress_bar.coffee
-window.ProgressBar = class ProgressBar
+class @ProgressBar
   constructor: (elem, url) ->
     @elem = $(elem)
     @url = url
