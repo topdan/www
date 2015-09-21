@@ -687,6 +687,20 @@
       }
     },
     {
+      "title": "Frozen",
+      "year": 2013,
+      "release_date": "2013-11-27",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11702/thumb_frozen-2013-7f21359bba2f880434ef1361209604dc.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00HV2KU5A",
+        "itunes": "https://itunes.apple.com/us/movie/frozen/id741238771"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2294629/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/frozen_2013/"
+      }
+    },
+    {
       "title": "Gravity",
       "year": 2013,
       "release_date": "2013-10-04",
@@ -840,6 +854,7 @@
       "release_date": "2013-12-25",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11794/thumb_the-secret-life-of-walter-mitty-2013-ae9c329258c6459a26e4aa65ef786f97.jpg",
       "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00JP5ONY0",
         "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP43789?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
@@ -1614,6 +1629,20 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt0887883/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/burn_after_reading/"
+      }
+    },
+    {
+      "title": "Enchanted",
+      "year": 2008,
+      "release_date": "2007-11-21",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18794/thumb_enchanted-2008-c853798100f278d88a0e2d43e3f3261e.jpeg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0060CRHMQ",
+        "itunes": "https://itunes.apple.com/us/movie/enchanted/id273811355"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0461770/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/enchanted/"
       }
     },
     {
@@ -3166,6 +3195,20 @@
       }
     },
     {
+      "title": "The Shawshank Redemption",
+      "year": 1994,
+      "release_date": "1994-09-10",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18830/thumb_the-shawshank-redemption-1994-b2172ada39fa832da337819ff18eac79.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001EBV0OY",
+        "itunes": "https://itunes.apple.com/us/movie/the-shawshank-redemption/id282875479"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0111161/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/shawshank_redemption/"
+      }
+    },
+    {
       "title": "Groundhog Day",
       "year": 1993,
       "release_date": "1993-02-12",
@@ -3401,6 +3444,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-09-18 03:12:10 -0400"
+  "updated_at": "2015-09-21 03:12:10 -0400"
 }
 
