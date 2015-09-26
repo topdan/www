@@ -145,7 +145,7 @@
     {
       "title": "Continuum",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/39/thumb_continuum-640e84645662f90fe4a42b38a86bcda9.jpg",
-      "latest_episode_aired_on": "2015-09-11",
+      "latest_episode_aired_on": "2015-09-18",
       "first_episode_aired_on": "2012-05-27",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -295,7 +295,7 @@
     {
       "title": "South Park",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-aac1005438f92553d735889ca870aa0b.jpg",
-      "latest_episode_aired_on": "2015-09-16",
+      "latest_episode_aired_on": "2015-09-23",
       "first_episode_aired_on": "1997-08-13",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -311,9 +311,25 @@
       }
     },
     {
+      "title": "The Affair",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3487/thumb_the-affair-f271f406bbb970eb143e8b6278cbb01d.jpg",
+      "latest_episode_aired_on": "2015-09-25",
+      "first_episode_aired_on": "2014-10-12",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "showtime_anytime": "http://www.showtimeanytime.com/#/series/1031103"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3007820/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/the-affair/s01/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Affair_%28TV_series%29"
+      }
+    },
+    {
       "title": "The Jim Gaffigan Show",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4276/thumb_the-jim-gaffigan-show-99ad4dbdd09bf5e49f73f8d8f132a284.jpg",
-      "latest_episode_aired_on": "2015-09-16",
+      "latest_episode_aired_on": "2015-09-23",
       "first_episode_aired_on": "2015-06-20",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -330,7 +346,7 @@
     {
       "title": "The Middle",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-b7bcea9fe0df2e9201080bf5183361e7.jpg",
-      "latest_episode_aired_on": "2015-05-13",
+      "latest_episode_aired_on": "2015-09-23",
       "first_episode_aired_on": "2009-09-30",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -408,6 +424,23 @@
       }
     },
     {
+      "title": "You're The Worst",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4599/thumb_youre-the-worst-e705a37d11a89576fe5a161fbcebc9d9.jpg",
+      "latest_episode_aired_on": "2015-09-23",
+      "first_episode_aired_on": "2014-07-17",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B015679KW0",
+        "fx_networks_com": "http://www.fxnetworks.com/shows/youre-the-worst/episodes",
+        "hulu": "http://www.hulu.com/youre-the-worst"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3228420/",
+        "wikipedia": "https://en.wikipedia.org/wiki/You%27re_the_Worst"
+      }
+    },
+    {
       "title": "Burning Love",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4280/thumb_burning-love-f5ff7906cee15d5804eab03e96af3931.jpg",
       "latest_episode_aired_on": "2014-03-14",
@@ -435,22 +468,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2883562/",
         "wikipedia": "https://en.wikipedia.org/wiki/Quick_Draw_%28TV_series%29"
-      }
-    },
-    {
-      "title": "The Affair",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3487/thumb_the-affair-f271f406bbb970eb143e8b6278cbb01d.jpg",
-      "latest_episode_aired_on": "2014-12-21",
-      "first_episode_aired_on": "2014-10-12",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "showtime_anytime": "http://www.showtimeanytime.com/#/series/1031103"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt3007820/",
-        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/the-affair/s01/",
-        "wikipedia": "https://en.wikipedia.org/wiki/The_Affair_%28TV_series%29"
       }
     },
     {
@@ -523,6 +540,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-09-19 03:12:10 -0400"
+  "updated_at": "2015-09-26 03:12:09 -0400"
 }
 

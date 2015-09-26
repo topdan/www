@@ -629,6 +629,20 @@
       }
     },
     {
+      "title": "Whiplash",
+      "year": 2014,
+      "release_date": "2014-10-10",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13197/thumb_whiplash-2014-2f66c0a31488fc38b14f82d5bce41394.jpg",
+      "streams": {
+        "itunes": "https://itunes.apple.com/us/movie/whiplash/id935216672",
+        "starz_com": "http://www.starzplay.com/Movies/Details/23791"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2582802/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/whiplash_2014/"
+      }
+    },
+    {
       "title": "X-Men: Days of Future Past",
       "year": 2014,
       "release_date": "2014-05-23",
@@ -1341,7 +1355,8 @@
       "release_date": "2011-11-23",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10967/thumb_the-muppets-2011-adacdfa9942145ef36d6121f795bc0c8.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B007C9N4H8"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B007C9N4H8",
+        "itunes": "https://itunes.apple.com/us/movie/the-muppets/id493429494"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1204342/",
@@ -2333,6 +2348,18 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt0372588/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/team_america_world_police/"
+      }
+    },
+    {
+      "title": "The Girl Next Door",
+      "year": 2004,
+      "release_date": "2004-04-09",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16977/thumb_the-girl-next-door-2004-cd400c5719dce7fd71499ecd19c76738.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0265208/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/1130343-girl_next_door/"
       }
     },
     {
@@ -3444,6 +3471,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-09-21 03:12:10 -0400"
+  "updated_at": "2015-09-26 03:12:09 -0400"
 }
 
