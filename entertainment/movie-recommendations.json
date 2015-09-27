@@ -2816,7 +2816,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10541/thumb_snatch-2000-e1de4beedfbb54907d1d403015637e47.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0094M6A18",
-        "itunes": "https://itunes.apple.com/us/movie/snatch/id284156786"
+        "itunes": "https://itunes.apple.com/us/movie/snatch/id284156786",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37774?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0208092/",
@@ -3471,6 +3472,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-09-26 03:12:09 -0400"
+  "updated_at": "2015-09-27 03:12:10 -0400"
 }
 
