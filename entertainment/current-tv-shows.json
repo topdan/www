@@ -93,7 +93,7 @@
     {
       "title": "Bob's Burgers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-9b6bbbed3e884b8681e53c8ea918f9ec.jpg",
-      "latest_episode_aired_on": "2015-05-17",
+      "latest_episode_aired_on": "2015-09-27",
       "first_episode_aired_on": "2011-01-09",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -540,6 +540,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-09-26 03:12:09 -0400"
+  "updated_at": "2015-09-29 03:12:10 -0400"
 }
 
