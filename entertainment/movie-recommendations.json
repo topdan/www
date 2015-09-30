@@ -949,8 +949,7 @@
       "release_date": "2012-11-16",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7785/thumb_anna-karenina-2012-131eb43379ab07ebeae2ed429b3d0d1b.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00BHU9BV6",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP35666?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00BHU9BV6"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1781769/",
@@ -1977,8 +1976,7 @@
       "release_date": "2006-12-27",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14972/thumb_perfume-the-story-of-a-murderer-2006-1eaac1b84becc5ef8965e49b06284b91.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000VSYDRM",
-        "netflix": "https://www.netflix.com/title/70052701"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000VSYDRM"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0396171/",
@@ -2761,8 +2759,7 @@
       "release_date": "2000-03-31",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16465/thumb_high-fidelity-2000-2b2bb578c296da31e28c1af5d2f87579.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B005CNFVOA",
-        "netflix": "https://www.netflix.com/title/60000166"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B005CNFVOA"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0146882/",
@@ -3297,7 +3294,6 @@
       "release_date": "1990-06-01",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14219/thumb_total-recall-1990-ce65480a5a38bc0e35f9b89a883223dd.jpg",
       "streams": {
-        "netflix": "https://www.netflix.com/title/1057618"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0100802/",
@@ -3472,6 +3468,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-09-27 03:12:10 -0400"
+  "updated_at": "2015-09-30 03:12:10 -0400"
 }
 
