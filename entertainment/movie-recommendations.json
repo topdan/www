@@ -2313,6 +2313,7 @@
         "amazon_one_click": "http://www.amazon.com/gp/product/B000ZLLRFG",
         "amazon_prime": "http://www.amazon.com/gp/product/B000ZLLRFG",
         "encore": "http://www.encoreplay.com/Movies/Details/23859",
+        "netflix": "https://www.netflix.com/title/60033351",
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/123289"
       },
       "references": {
@@ -3468,6 +3469,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-09-30 03:12:10 -0400"
+  "updated_at": "2015-10-01 03:12:10 -0400"
 }
 
