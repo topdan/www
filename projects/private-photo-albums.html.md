@@ -39,7 +39,7 @@ The software is a combination of free libraries and AWS services coordinated by 
 * [FlowPlayer](https://flowplayer.org/) adds HLS support for Chrome, IE, and Firefox via Flash
 * [Cloudfront](https://aws.amazon.com/cloudfront/) serves the photos and videos to authorized users
 * [Gamma Gallery](http://tympanus.net/codrops/2012/11/06/gamma-gallery-a-responsive-image-gallery-experiment/) provides a clean, responsive presentation via [jquery](https://jquery.com/) and [masonry](http://masonry.desandro.com/)
-* [Ruby on Rails](/ruby-on-rails/) and [aws-sdk](https://aws.amazon.com/sdk-for-ruby/) brings everything together into a private website
+* [Ruby on Rails](/ruby-on-rails/index.html) and [aws-sdk](https://aws.amazon.com/sdk-for-ruby/) bring everything together into a private website
 
 I encountered a few technical "challenges" along the way which I plan on writing about in more detail later:
 
