@@ -5,6 +5,13 @@
     <link>http://www.topdan.com/index.rss</link>
     <description>A Ruby on Rails contractor's writes about his meandering thoughts</description>
     <item>
+      <title>Private Photo Albums</title>
+      <description>Share and organize pictures with my family while balancing balancing privacy, ownership, simplicity, and convenience.</description>
+      <link>http://www.topdan.com/projects/private-photo-albums.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/projects/private-photo-albums.html</guid>
+      <pubDate>2015-10-02 12:00:00 UTC</pubDate>
+    </item>
+    <item>
       <title>Browsing Files &amp; Directories in S3</title>
       <description>Amazon's S3 makes storing files easy but viewing directories isn't intuitive. Let me explain how you can emulate a file structure using Plain-Old-Ruby-Objects.</description>
       <link>http://www.topdan.com/ruby-on-rails/aws-s3-browser.html?utm_medium=rss&amp;utm_source=feed</link>

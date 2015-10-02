@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Private Photo Albums - topdan.com</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Share and organize pictures with my family while balancing balancing privacy, ownership, simplicity, and convenience.">
+  <meta name="author" content="Dan Cunning">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@itopdan">
+  <meta name="twitter:title" content="Private Photo Albums">
+  <meta name="twitter:description" content="Share and organize pictures with my family while balancing balancing privacy, ownership, simplicity, and convenience.">
+  <meta name="twitter:url" content="http://www.topdan.com/projects/private-photo-albums.html">
+  <meta name="og:locale" content="en_US">
+  <meta name="og:type" content="article">
+  <meta name="og:url" content="http://www.topdan.com/projects/private-photo-albums.html">
+  <meta name="og:title" content="Private Photo Albums">
+  <meta name="og:description" content="Share and organize pictures with my family while balancing balancing privacy, ownership, simplicity, and convenience.">
+  <link rel="shortcut icon" href="../assets/favicon-a5b290c132149b7a44260c16213fb6e2.png">
+  <link rel="stylesheet" media="all" href="../assets/site-2c8cf0b107c137c076e873d001a26e2c.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+
+  <script type="text/javascript">
+  if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
+    var _gaq = _gaq || [];
+
+    _gaq.push(['_setAccount', 'UA-12957077-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  }
+  </script>
+</head>
+<body id="private-photo-albums" class="navigatable">
+  <a id="top"></a>
+  <ul class="navigation">
+    <li class="prev">
+      <a href="remifi-remote-controlled-browser.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Firefox Remote Control</span><span class="less">Previous</span></a>
+    </li>
+    <li>
+      <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Projects</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
+    </li>
+    <li class="next">
+      <a href="fixing-craigslist.html"><span class="more">Fixing Craigslist</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
+    </li>
+  </ul>
+  <div class="content">
+    <div class="container post">
+      <p class="byline">Published by Dan on Oct 2, 2015</p>
+      <h1><a href="private-photo-albums.html">Private Photo Albums</a></h1><!-- post:content:start -->
+      <ul>
+        <li>
+          <a href="#introduction">Introduction</a>
+        </li>
+        <li>
+          <a href="#the-solution">The Solution</a>
+        </li>
+        <li>
+          <a href="#the-implementation">The Implementation</a>
+        </li>
+        <li>
+          <a href="#conclusion">Conclusion</a>
+        </li>
+      </ul>
+      <p class="centered"><img alt="Example Photo Album" src="../assets/projects/private-photo-albums/album-b1c4900f76e664ecb70a16b00e87007d.png"></p>
+      <h2 id="introduction"><a href="#introduction">Introduction</a></h2>
+      <p>Everyone always has a web-connected camera and sharing via text, email, and social media has never been easier. <a href="../living/the-communication-age.html">This Communication Age</a> presents a new set of pitfalls ranging from <a href="http://www.usmagazine.com/celebrity-news/news/alison-pill-topless-twitter-photo-accident-was-dumb-hideously-embarrassing-201349">embarrassing</a> to <a href="http://www.forbes.com/sites/josephsteinberg/2014/08/31/nude-photos-of-jessica-lawrence-and-kate-upton-leak-five-important-lessons-for-all-of-us/">criminal</a>. Sending photos may be easy but balancing privacy, ownership, simplicity, and convenience isn't:</p>
+      <ul>
+        <li>Text messages and emails are mostly private but don't organize well, while most social media organizes better but isn't private</li>
+        <li>Facebook has <a href="http://mattmckeon.com/facebook-privacy/">privacy settings</a> which are misused and changed so often <a href="http://mattmckeon.com/facebook-privacy/">they introduced and recommend a privacy check-up</a>
+        </li>
+        <li>Facebook (owner of Instagram and WhatsApp) <a href="https://www.facebook.com/notes/andy-rouse-wildlife-photography/facebook-picture-rights/270204724175">claims a broad license on the photos you upload and only declares how it <em>currently</em> applies it</a>
+        </li>
+        <li>
+          <a href="http://www.theverge.com/2015/9/15/9330955/snapchat-replay-snaps-paid-in-app">Snapchat charges $0.33 for a replay</a> so don't assume pictures don't live forever somewhere
+        </li>
+      </ul>
+      <p>These tools and others like them are built to turn a profit through generating page views and gathering data for corporate and government partnerships. Their goals conflict with my desire for a simple, private, available-everywhere photo album.</p>
+      <p class="alert alert-info centered"><strong>My family doesn't share our photos on social media,<br>
+      and I won't do so on their behalf.</strong></p>
+      <h2 id="the-solution"><a href="#the-solution">The Solution</a></h2>
+      <p>I built my own private photo album on <a href="https://en.wikipedia.org/wiki/Amazon_Web_Services">Amazon Web Services</a>. Unlike Facebook and Twitter, AWS is a business (not social) platform, so privacy is a major priority, and it would never claim a license on my data. My remaining goals were simplicity and convenience:</p>
+      <ul>
+        <li>Display a wall of videos and photos with no wasted space</li>
+        <li>Provide my family access to it anytime/anywhere</li>
+        <li>Allow them to upload new videos and photos</li>
+      </ul>
+      <h2 id="the-implementation"><a href="#the-implementation">The Implementation</a></h2>
+      <p>The software is a combination of free libraries and AWS services coordinated by my application:</p>
+      <ul>
+        <li>
+          <a href="https://aws.amazon.com/s3/">Amazon S3</a> stores and protects the photos and videos better and <em>much</em> cheaper than services like iCloud
+        </li>
+        <li>
+          <a href="https://aws.amazon.com/elastictranscoder/">Elastic Transcoder</a> converts videos into Apple's <a href="https://en.wikipedia.org/wiki/HTTP_Live_Streaming">HLS video format</a> for efficient streaming
+        </li>
+        <li>
+          <a href="https://flowplayer.org/">FlowPlayer</a> adds HLS support for Chrome, IE, and Firefox via Flash
+        </li>
+        <li>
+          <a href="https://aws.amazon.com/cloudfront/">Cloudfront</a> serves the photos and videos to authorized users
+        </li>
+        <li>
+          <a href="http://tympanus.net/codrops/2012/11/06/gamma-gallery-a-responsive-image-gallery-experiment/">Gamma Gallery</a> provides a clean, responsive presentation via <a href="https://jquery.com/">jquery</a> and <a href="http://masonry.desandro.com/">masonry</a>
+        </li>
+        <li>
+          <a href="../ruby-on-rails/">Ruby on Rails</a> and <a href="https://aws.amazon.com/sdk-for-ruby/">aws-sdk</a> brings everything together into a secure website
+        </li>
+      </ul>
+      <p>I encountered a few technical "challenges" along the way which I plan on writing about in more detail later:</p>
+      <ul>
+        <li>Authorizing CloudFront requests with signed-cookies</li>
+        <li>Uploading files directly to S3</li>
+        <li>Automating the Elastic Transcoder</li>
+        <li>Adding video support and metadata editing to Gamma Gallery</li>
+        <li>
+          <a href="../ruby-on-rails/simple-infinite-scrolling.html">Automatically loading more images as you scroll</a>
+        </li>
+      </ul>
+      <h2 id="conclusion"><a href="#conclusion">Conclusion</a></h2>
+      <p>Watching everyone in the photos change while scrolling down is a pleasant trip. I'm not sure if my whole family will use it, but I'll continue adding our photos and videos, so in 5/10/?? years we can look back. I may even start other albums for my extended family and close friends.</p>
+      <p>The project came together pretty quickly over the last couple weeks, but I already have some ideas for version 2:</p>
+      <ul>
+        <li>Clean up the permissions interface</li>
+        <li>Improve touch's zoom user-experience</li>
+        <li>Integrate the uploading UX more intimately</li>
+        <li>Tag by people and events</li>
+        <li>Filter by tags into more specific albums</li>
+        <li>Auto-tag people via facial <a href="https://www.topdan.com/living/past-present-and-future-of-computers.html#recognizing">recognition</a>
+        </li>
+      </ul>
+      <div class="alert alert-info">
+        <p>If you're interested, here are some of <a href="index.html">my other projects</a>:</p>
+        <ul>
+          <li>
+            <a href="fantasy-sportsbook.html">Fantasy Sportsbook</a>
+          </li>
+          <li>
+            <a href="now-streaming-email.html">"Now Streaming" Email</a>
+          </li>
+          <li>
+            <a href="remifi-remote-controlled-browser.html">Firefox Remote Control</a>
+          </li>
+          <li>
+            <a href="fixing-craigslist.html">Fixing Craigslist</a>
+          </li>
+        </ul>
+      </div><!-- post:content:end -->
+    </div>
+  </div>
+  <div id="footer">
+    <ul class="navigation">
+      <li class="prev">
+        <a href="remifi-remote-controlled-browser.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Firefox Remote Control</span><span class="less">Previous</span></a>
+      </li>
+      <li>
+        <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Projects</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
+      </li>
+      <li class="next">
+        <a href="fixing-craigslist.html"><span class="more">Fixing Craigslist</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
+      </li>
+    </ul>
+    <div class="introduction row-fluid">
+      <div class="title span6">
+        <h1><a title="Dan Cunning" href="../">Dan Cunning</a></h1>
+        <ul>
+          <li>
+            <a title="Twitter" href="https://twitter.com/itopdan"><span class="about-twitter">&nbsp;</span> twitter</a>
+          </li>
+          <li>
+            <a title="github" href="https://github.com/topdan"><span class="about-github">&nbsp;</span> github</a>
+          </li>
+          <li>
+            <a title="Email" href="mailto:dan@topdan.com"><span class="about-email">&nbsp;</span> email</a>
+          </li>
+        </ul>
+      </div>
+      <div class="profile span6">
+        <img width="75" height="75" src="../assets/dan-5c0db9866c0c42f56063b91a4107d1da.jpg" alt="Dan">
+        <p>I'm a <a href="../ruby-on-rails/">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="../dan-cunning.html">Read more »</a></p>
+      </div>
+    </div>
+    <p id="view-source"><span class="view">View Source:</span> <a href="https://github.com/topdan/www/blob/master/projects/private-photo-albums.html">HTML</a> | <a href="https://github.com/topdan/www/blob/master/projects/private-photo-albums.json">JSON</a> | <a href="https://github.com/topdan/www/blob/master/projects/private-photo-albums.html.md">View</a></p>
+    <div id="copyright">
+      <p>© 2012-2015 Dan Cunning. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>

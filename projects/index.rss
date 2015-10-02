@@ -5,6 +5,13 @@
     <link>http://www.topdan.com/projects/index.rss</link>
     <description>Dan Cunning's personal projects, mostly centered around improving an annoyance or routinely performed online activity. These are sometimes weekend projects, but sometimes longer.</description>
     <item>
+      <title>Private Photo Albums</title>
+      <description>Share and organize pictures with my family while balancing balancing privacy, ownership, simplicity, and convenience.</description>
+      <link>http://www.topdan.com/projects/private-photo-albums.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/projects/private-photo-albums.html</guid>
+      <pubDate>2015-10-02 12:00:00 UTC</pubDate>
+    </item>
+    <item>
       <title>Firefox Remote Control</title>
       <description>Controlling your TV with your iPhone via OSX, Firefox, and an HDMI cable</description>
       <link>http://www.topdan.com/projects/remifi-remote-controlled-browser.html?utm_medium=rss&amp;utm_source=feed</link>

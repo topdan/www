@@ -5,11 +5,23 @@
   <link rel="self" type="application/atom+xml" href="http://www.topdan.com/projects/index.xml"/>
   <title>Projects - topdan.com</title>
   <subtitle>Dan Cunning's personal projects, mostly centered around improving an annoyance or routinely performed online activity. These are sometimes weekend projects, but sometimes longer.</subtitle>
-  <updated>2014-10-31 14:00:00 UTC</updated>
+  <updated>2015-10-02 12:00:00 UTC</updated>
+  <entry>
+    <id>http://www.topdan.com/projects/private-photo-albums.html</id>
+    <published>2015-10-02T17:07:16-04:00</published>
+    <updated>2015-10-02T17:10:59-04:00</updated>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/private-photo-albums.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>Private Photo Albums</title>
+    <content>Share and organize pictures with my family while balancing balancing privacy, ownership, simplicity, and convenience.</content>
+    <updated>2015-10-02 12:00:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
   <entry>
     <id>http://www.topdan.com/projects/remifi-remote-controlled-browser.html</id>
     <published>2014-10-31T15:34:25-04:00</published>
-    <updated>2015-03-08T12:53:19-04:00</updated>
+    <updated>2015-10-02T17:07:16-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/remifi-remote-controlled-browser.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Firefox Remote Control</title>
     <content>Controlling your TV with your iPhone via OSX, Firefox, and an HDMI cable</content>
@@ -21,7 +33,7 @@
   <entry>
     <id>http://www.topdan.com/projects/now-streaming-email.html</id>
     <published>2014-10-30T15:50:53-04:00</published>
-    <updated>2015-06-22T15:43:19-04:00</updated>
+    <updated>2015-10-02T17:07:16-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/now-streaming-email.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>"Now Streaming" Email</title>
     <content>Find out what's now streaming online with a bi-weekly email digest.</content>
