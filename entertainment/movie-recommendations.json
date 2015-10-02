@@ -720,7 +720,8 @@
       "release_date": "2013-10-04",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9009/thumb_gravity-2013-38f53034f65c22c2adecec94d0729638.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP43583?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP43583?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "itunes": "https://itunes.apple.com/us/movie/gravity/id708338403"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1454468/",
@@ -2014,7 +2015,6 @@
       "release_date": "2006-08-18",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10072/thumb_the-illusionist-2006-456c83104e99c7edd8b5b8ce8c985858.jpg",
       "streams": {
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3386919"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0443543/",
@@ -2162,7 +2162,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10972/thumb_the-devils-rejects-2005-136ca9e6f93959dcdbb52b57480cda8a.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001AL3T9C",
-        "netflix": "https://www.netflix.com/title/70028893"
+        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/127178"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0395584/",
@@ -2228,7 +2228,8 @@
       "release_date": "2004-03-19",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11620/thumb_eternal-sunshine-of-the-spotless-mind-2004-a0c865c2ae0a79dab7cb62e2ea77d776.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001TAJGO6"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001TAJGO6",
+        "amazon_prime": "http://www.amazon.com/gp/product/B001TAJGO6"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0338013/",
@@ -3049,7 +3050,8 @@
       "release_date": "1998-03-20",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10883/thumb_wild-things-1998-aa019884bca0adac4f56957d1dfb155d.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000T3Z3MI"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000T3Z3MI",
+        "encore": "http://www.encoreplay.com/Movies/Details/10250"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0120890/",
@@ -3130,8 +3132,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13868/thumb_romeo-juliet-1996-d4cda33aaa61790c9a2094df77381187.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0058D77S2",
-        "amazon_prime": "http://www.amazon.com/gp/product/B0058D77S2",
-        "netflix": "https://www.netflix.com/title/60022807"
+        "amazon_prime": "http://www.amazon.com/gp/product/B0058D77S2"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0117509/",
@@ -3443,7 +3444,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13190/thumb_a-clockwork-orange-1971-ed44e628b7263f973492eaccb5ebf60e.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00125FBTM",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP36804?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP36804?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "netflix": "https://www.netflix.com/title/383466"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0066921/",
@@ -3469,6 +3471,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-10-01 03:12:10 -0400"
+  "updated_at": "2015-10-02 03:12:10 -0400"
 }
 
