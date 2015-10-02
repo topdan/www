@@ -4,7 +4,7 @@
 * [Conclusion](#conclusion)
 
 ```raw
-<p class="centered"><img alt="Example Photo Album" src="album.png"/></p>
+<p class="centered"><img alt="Example Photo Album" src="album.jpg"/></p>
 ```
 
 ## [Introduction](#introduction)
