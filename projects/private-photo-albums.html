@@ -68,18 +68,18 @@
       </ul>
       <p class="centered"><img alt="Example Photo Album" src="../assets/projects/private-photo-albums/album-dc801a91511734076846efd912979494.jpg"></p>
       <h2 id="introduction"><a href="#introduction">Introduction</a></h2>
-      <p>Everyone always has a web-connected camera and sharing via text, email, and social media has never been easier. <a href="../living/the-communication-age.html">This Communication Age</a> presents a new set of pitfalls ranging from <a href="http://www.usmagazine.com/celebrity-news/news/alison-pill-topless-twitter-photo-accident-was-dumb-hideously-embarrassing-201349">embarrassing</a> to <a href="http://www.forbes.com/sites/josephsteinberg/2014/08/31/nude-photos-of-jessica-lawrence-and-kate-upton-leak-five-important-lessons-for-all-of-us/">criminal</a>. Sending photos may be easy but balancing privacy, ownership, simplicity, and convenience isn't:</p>
+      <p>Everyone has a web-connected camera and sharing via text, email, and social media has never been easier. <a href="../living/the-communication-age.html">This age of communication</a> presents a new set of pitfalls ranging from <a href="http://www.usmagazine.com/celebrity-news/news/alison-pill-topless-twitter-photo-accident-was-dumb-hideously-embarrassing-201349">embarrassing</a> to <a href="http://www.forbes.com/sites/josephsteinberg/2014/08/31/nude-photos-of-jessica-lawrence-and-kate-upton-leak-five-important-lessons-for-all-of-us/">criminal</a>. Sending photos may be easy but balancing privacy, ownership, simplicity, and convenience isn't:</p>
       <ul>
         <li>Text messages and emails are mostly private but don't organize well, while most social media organizes better but isn't private</li>
         <li>Facebook has <a href="http://mattmckeon.com/facebook-privacy/">privacy settings</a> which are misused and changed so often <a href="http://mattmckeon.com/facebook-privacy/">they introduced and recommend a privacy check-up</a>
         </li>
-        <li>Facebook (owner of Instagram and WhatsApp) <a href="https://www.facebook.com/notes/andy-rouse-wildlife-photography/facebook-picture-rights/270204724175">claims a broad license on the photos you upload and only declares how it <em>currently</em> applies it</a>
+        <li>Facebook (owner of Instagram and WhatsApp) <a href="https://www.facebook.com/notes/andy-rouse-wildlife-photography/facebook-picture-rights/270204724175">claims a broad license on the photos you upload and only declares how it <em>currently</em> uses it</a>
         </li>
         <li>
-          <a href="http://www.theverge.com/2015/9/15/9330955/snapchat-replay-snaps-paid-in-app">Snapchat charges $0.33 for a replay</a> so don't assume pictures don't live forever somewhere
+          <a href="http://www.theverge.com/2015/9/15/9330955/snapchat-replay-snaps-paid-in-app">Snapchat charges $0.33 for a replay</a> so pictures may be living somewhere long after they're sent
         </li>
       </ul>
-      <p>These tools and others like them are built to turn a profit through generating page views and gathering data for corporate and government partnerships. Their goals conflict with my desire for a simple, private, available-everywhere photo album.</p>
+      <p>These tools and others like them are built to turn a profit through generating page views and gathering data for corporate and government partnerships. I'm not against companies turning profits, but in this case it conflicts with my desire for a simple, private, available-everywhere photo album.</p>
       <p class="alert alert-info centered"><strong>My family doesn't share our photos on social media,<br>
       and I won't do so on their behalf.</strong></p>
       <h2 id="the-solution"><a href="#the-solution">The Solution</a></h2>
@@ -93,7 +93,7 @@
       <p>The software is a combination of free libraries and AWS services coordinated by my application:</p>
       <ul>
         <li>
-          <a href="https://aws.amazon.com/s3/">Amazon S3</a> stores and protects the photos and videos better and <em>much</em> cheaper than services like iCloud
+          <a href="https://aws.amazon.com/s3/">Amazon S3</a> stores and protects the photos and videos better and <em>much</em> cheaper than services like iCloud and Dropbox
         </li>
         <li>
           <a href="https://aws.amazon.com/elastictranscoder/">Elastic Transcoder</a> converts videos into Apple's <a href="https://en.wikipedia.org/wiki/HTTP_Live_Streaming">HLS video format</a> for efficient streaming
@@ -108,13 +108,13 @@
           <a href="http://tympanus.net/codrops/2012/11/06/gamma-gallery-a-responsive-image-gallery-experiment/">Gamma Gallery</a> provides a clean, responsive presentation via <a href="https://jquery.com/">jquery</a> and <a href="http://masonry.desandro.com/">masonry</a>
         </li>
         <li>
-          <a href="../ruby-on-rails/">Ruby on Rails</a> and <a href="https://aws.amazon.com/sdk-for-ruby/">aws-sdk</a> brings everything together into a secure website
+          <a href="../ruby-on-rails/">Ruby on Rails</a> and <a href="https://aws.amazon.com/sdk-for-ruby/">aws-sdk</a> brings everything together into a private website
         </li>
       </ul>
       <p>I encountered a few technical "challenges" along the way which I plan on writing about in more detail later:</p>
       <ul>
         <li>Authorizing CloudFront requests with signed-cookies</li>
-        <li>Uploading files directly to S3</li>
+        <li>Uploading files directly to Amazon S3</li>
         <li>Automating the Elastic Transcoder</li>
         <li>Adding video support and metadata editing to Gamma Gallery</li>
         <li>
