@@ -221,7 +221,8 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00O8NPCA8",
         "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP47143?videoMode=embeddedVideo?showSpecialFeatures=false/",
-        "itunes": "https://itunes.apple.com/us/movie/live-die-repeat-edge-tomorrow/id878682651"
+        "itunes": "https://itunes.apple.com/us/movie/live-die-repeat-edge-tomorrow/id878682651",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37884?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1631867/",
@@ -3476,6 +3477,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-10-03 03:12:10 -0400"
+  "updated_at": "2015-10-04 03:12:10 -0400"
 }
 
