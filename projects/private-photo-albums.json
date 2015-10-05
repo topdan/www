@@ -1,6 +1,6 @@
 {
   "title": "Private Photo Albums",
-  "description": "Share and organize pictures with my family while balancing balancing privacy, ownership, simplicity, and convenience.",
+  "description": "Share and organize pictures with my family while balancing privacy, ownership, simplicity, and convenience.",
   "image": "album.jpg",
   "format": "md",
   "featured": 1,
@@ -10,6 +10,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2015-10-02 17:07:16 -0400",
-  "updated_at": "2015-10-05 16:45:59 -0400"
+  "updated_at": "2015-10-05 16:50:35 -0400"
 }
 
