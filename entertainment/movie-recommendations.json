@@ -2285,6 +2285,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11423/thumb_mean-girls-2004-a246fa579ce2e107a7038d9a167e62df.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000IZA426",
+        "itunes": "https://itunes.apple.com/us/movie/mean-girls/id208511170",
         "netflix": "https://www.netflix.com/title/60034551"
       },
       "references": {
@@ -3477,6 +3478,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-10-04 03:12:10 -0400"
+  "updated_at": "2015-10-05 03:12:10 -0400"
 }
 

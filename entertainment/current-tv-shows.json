@@ -313,7 +313,7 @@
     {
       "title": "The Affair",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3487/thumb_the-affair-f271f406bbb970eb143e8b6278cbb01d.jpg",
-      "latest_episode_aired_on": "2015-09-25",
+      "latest_episode_aired_on": "2015-10-04",
       "first_episode_aired_on": "2014-10-12",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -341,6 +341,22 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt3484406/",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Jim_Gaffigan_Show"
+      }
+    },
+    {
+      "title": "The Leftovers",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3153/thumb_the-leftovers-00c569fef8ee2788cb083da4cf9e5fcd.jpg",
+      "latest_episode_aired_on": "2015-10-05",
+      "first_episode_aired_on": "2014-06-29",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00P64F8SE",
+        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP43206?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2699128/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Leftovers_%28TV_series%29"
       }
     },
     {
@@ -471,22 +487,6 @@
       }
     },
     {
-      "title": "The Leftovers",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3153/thumb_the-leftovers-00c569fef8ee2788cb083da4cf9e5fcd.jpg",
-      "latest_episode_aired_on": "2014-09-08",
-      "first_episode_aired_on": "2014-06-29",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00P64F8SE",
-        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP43206?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt2699128/",
-        "wikipedia": "https://en.wikipedia.org/wiki/The_Leftovers_%28TV_series%29"
-      }
-    },
-    {
       "title": "The Legend of Korra",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2038/thumb_the-legend-of-korra-f2897a7288b955b2c6d558f0ec3ede87.jpg",
       "latest_episode_aired_on": "2014-12-19",
@@ -540,6 +540,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-10-02 03:12:10 -0400"
+  "updated_at": "2015-10-05 03:12:10 -0400"
 }
 
