@@ -733,6 +733,7 @@
       "release_date": "2013-12-18",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12082/thumb_her-2013-80afb8f0768ae0e2be49a2ea5f339636.jpg",
       "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00KATY250",
         "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP44614?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
@@ -3478,6 +3479,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-10-05 03:12:10 -0400"
+  "updated_at": "2015-10-06 03:12:10 -0400"
 }
 
