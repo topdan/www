@@ -218,7 +218,8 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00UV5X1PA",
         "cwtv_com": "http://www.cwtv.com/shows/izombie",
-        "hulu": "http://www.hulu.com/izombie"
+        "hulu": "http://www.hulu.com/izombie",
+        "netflix": "https://www.netflix.com/title/80027159"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3501584/",
@@ -540,6 +541,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-10-05 03:12:10 -0400"
+  "updated_at": "2015-10-07 03:12:10 -0400"
 }
 
