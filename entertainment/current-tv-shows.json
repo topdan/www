@@ -211,7 +211,7 @@
     {
       "title": "iZombie",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3879/thumb_izombie-62d1b227666ecb148daead006ba2a802.jpg",
-      "latest_episode_aired_on": "2015-06-09",
+      "latest_episode_aired_on": "2015-10-06",
       "first_episode_aired_on": "2015-03-17",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -541,6 +541,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-10-07 03:12:10 -0400"
+  "updated_at": "2015-10-08 03:12:10 -0400"
 }
 
