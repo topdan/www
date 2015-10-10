@@ -1908,8 +1908,7 @@
       "release_date": "2006-09-01",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15786/thumb_crank-2006-bab3e7923d8e59da979d8e786a8486e0.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000NHS2SC",
-        "netflix": "https://www.netflix.com/title/70051668"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000NHS2SC"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0479884/",
@@ -3481,6 +3480,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-10-09 03:12:10 -0400"
+  "updated_at": "2015-10-10 03:12:10 -0400"
 }
 

@@ -313,7 +313,7 @@
     },
     {
       "title": "The Affair",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3487/thumb_the-affair-f271f406bbb970eb143e8b6278cbb01d.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3487/thumb_the-affair-4d768f0fc3e061551260a821a3808323.jpg",
       "latest_episode_aired_on": "2015-10-04",
       "first_episode_aired_on": "2014-10-12",
       "final_episode_aired_on": null,
@@ -322,7 +322,7 @@
         "showtime_anytime": "http://www.showtimeanytime.com/#/series/1031103"
       },
       "references": {
-        "imdb": "http://www.imdb.com/title/tt3007820/",
+        "imdb": "http://www.imdb.com/title/tt2699110/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/tv/the-affair/s01/",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Affair_%28TV_series%29"
       }
@@ -541,6 +541,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-10-09 03:12:10 -0400"
+  "updated_at": "2015-10-10 03:12:10 -0400"
 }
 
