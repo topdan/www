@@ -2563,7 +2563,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9VZCU",
         "itunes": "https://itunes.apple.com/us/movie/super-troopers/id270307460",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MUGOROSTP31234?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37791?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0247745/",
@@ -3480,6 +3480,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-10-10 03:12:10 -0400"
+  "updated_at": "2015-10-13 03:12:10 -0400"
 }
 

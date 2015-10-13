@@ -92,8 +92,8 @@
     },
     {
       "title": "Bob's Burgers",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-9b6bbbed3e884b8681e53c8ea918f9ec.jpg",
-      "latest_episode_aired_on": "2015-09-27",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
+      "latest_episode_aired_on": "2015-10-11",
       "first_episode_aired_on": "2011-01-09",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -145,7 +145,7 @@
     {
       "title": "Continuum",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/39/thumb_continuum-640e84645662f90fe4a42b38a86bcda9.jpg",
-      "latest_episode_aired_on": "2015-09-25",
+      "latest_episode_aired_on": "2015-10-09",
       "first_episode_aired_on": "2012-05-27",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -210,7 +210,7 @@
     },
     {
       "title": "iZombie",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3879/thumb_izombie-62d1b227666ecb148daead006ba2a802.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3879/thumb_izombie-8b70cfc7520e5e6dd998379c5a6334f1.jpg",
       "latest_episode_aired_on": "2015-10-06",
       "first_episode_aired_on": "2015-03-17",
       "final_episode_aired_on": null,
@@ -295,7 +295,7 @@
     },
     {
       "title": "South Park",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-aac1005438f92553d735889ca870aa0b.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-6eabc96a74a5583c1efe11fa3fdbaf59.jpg",
       "latest_episode_aired_on": "2015-09-30",
       "first_episode_aired_on": "1997-08-13",
       "final_episode_aired_on": null,
@@ -346,7 +346,7 @@
     },
     {
       "title": "The Leftovers",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3153/thumb_the-leftovers-00c569fef8ee2788cb083da4cf9e5fcd.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3153/thumb_the-leftovers-e495e890f31843691df3ae8ca244c2c3.jpg",
       "latest_episode_aired_on": "2015-10-12",
       "first_episode_aired_on": "2014-06-29",
       "final_episode_aired_on": null,
@@ -362,7 +362,7 @@
     },
     {
       "title": "The Middle",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-b7bcea9fe0df2e9201080bf5183361e7.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-fa847c7de585f12a21a8d9342720a10c.jpg",
       "latest_episode_aired_on": "2015-10-07",
       "first_episode_aired_on": "2009-09-30",
       "final_episode_aired_on": null,
@@ -380,7 +380,7 @@
     {
       "title": "The Walking Dead",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead-5a9c2349b9ba8b3af699d9085797f51a.jpg",
-      "latest_episode_aired_on": "2015-03-29",
+      "latest_episode_aired_on": "2015-10-11",
       "first_episode_aired_on": "2010-10-31",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -541,6 +541,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-10-12 03:12:10 -0400"
+  "updated_at": "2015-10-13 03:12:10 -0400"
 }
 
