@@ -27,6 +27,7 @@
       "release_date": "2015-06-19",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13886/thumb_inside-out-2015-400ac936176f919225bf7973674930e9.jpg",
       "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00ZZMEBFS"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2096673/",
@@ -221,7 +222,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11323/thumb_edge-of-tomorrow-2014-d707eefcecb3a70e8bdf805d08134c46.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00O8NPCA8",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP47143?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/live-die-repeat-edge-tomorrow/id878682651",
         "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37884?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
@@ -720,7 +720,6 @@
       "release_date": "2013-10-04",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9009/thumb_gravity-2013-38f53034f65c22c2adecec94d0729638.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP43583?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/gravity/id708338403"
       },
       "references": {
@@ -1938,7 +1937,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15041/thumb_idiocracy-2006-eff19a85239c088d2c5bea205fe846ac.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000LWBSDU",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46168?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/idiocracy/id292230713",
         "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37312?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
@@ -2688,7 +2686,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12712/thumb_moulin-rouge-2001-9e13ee20c3cd557852d5b32641745e53.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000SVZIDA",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP27223?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "maxgo": "http://www.maxgo.com/#home/video&assetID=MUGOROSTP31184?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
@@ -3073,7 +3070,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12287/thumb_contact-1997-33c6d3f1b621e366a8ae6656ac26640c.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001AH6ZWY",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP45294?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37219?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
@@ -3480,6 +3476,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-10-13 03:12:10 -0400"
+  "updated_at": "2015-10-14 03:12:09 -0400"
 }
 
