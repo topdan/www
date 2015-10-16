@@ -27,7 +27,7 @@
       "release_date": "2015-06-19",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13886/thumb_inside-out-2015-400ac936176f919225bf7973674930e9.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00ZZMEBFS",
+        "amazon_one_click": "http://www.amazon.com/gp/product/B015D4GX80",
         "itunes": "https://itunes.apple.com/us/movie/inside-out-2015/id999607190"
       },
       "references": {
@@ -465,6 +465,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11947/thumb_snowpiercer-2014-3a4e8746bc5fd723f90f3cc5c2ce0122.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00LP9E79U",
+        "itunes": "https://itunes.apple.com/us/movie/snowpiercer/id891829986",
         "netflix": "https://www.netflix.com/title/70270364",
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3411769"
       },
@@ -777,7 +778,8 @@
       "release_date": "2013-09-20",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9014/thumb_prisoners-2013-4d196a404263bd130a811971ab49c8fd.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00GT0MVIE"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00GT0MVIE",
+        "itunes": "https://itunes.apple.com/us/movie/prisoners-2013/id705064576"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1392214/",
@@ -1425,7 +1427,8 @@
       "release_date": "2010-11-24",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13145/thumb_love-and-other-drugs-2010-d925610d64bc35f3538b464f8be5df5e.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B004Q3UL2O"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B004Q3UL2O",
+        "itunes": "https://itunes.apple.com/us/movie/love-other-drugs/id399423384"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0758752/",
@@ -2661,7 +2664,8 @@
       "release_date": "2001-01-19",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10568/thumb_donnie-darko-2001-b6574e60220c0bda3f51fbd3b6583e6d.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B002MGGM9I"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B002MGGM9I",
+        "itunes": "https://itunes.apple.com/us/movie/donnie-darko-directors-cut/id327941697"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0246578/",
@@ -2694,6 +2698,22 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt0203009/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/1107863-moulin_rouge/"
+      }
+    },
+    {
+      "title": "Serendipity",
+      "year": 2001,
+      "release_date": "2001-10-05",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/17935/thumb_serendipity-2001-999cf603a92c749bcc7fb6641770062e.jpeg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00COH0W00",
+        "amazon_prime": "http://www.amazon.com/gp/product/B00COH0W00",
+        "netflix": "https://www.netflix.com/title/60021634",
+        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3393624"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0240890/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/serendipity/"
       }
     },
     {
@@ -2763,6 +2783,20 @@
       }
     },
     {
+      "title": "Crouching Tiger, Hidden Dragon",
+      "year": 2000,
+      "release_date": "2001-01-12",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11394/thumb_crouching-tiger-hidden-dragon-2000-76eb73af371b672ec7ab93510279c255.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B006LWKG2S",
+        "encore": "http://www.encoreplay.com/Movies/Details/24146"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0190332/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/crouching_tiger_hidden_dragon/"
+      }
+    },
+    {
       "title": "High Fidelity",
       "year": 2000,
       "release_date": "2000-03-31",
@@ -2809,6 +2843,7 @@
       "release_date": "2000-10-06",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7109/thumb_requiem-for-a-dream-2000-663bd6e86c248bf2e484d3d49cd605f1.jpg",
       "streams": {
+        "itunes": "https://itunes.apple.com/us/movie/requiem-for-dream-directors/id281307971",
         "starz_com": "http://www.starzplay.com/Movies/Details/23724"
       },
       "references": {
@@ -2882,6 +2917,20 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt0169547/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/american_beauty/"
+      }
+    },
+    {
+      "title": "American Pie",
+      "year": 1999,
+      "release_date": "1999-07-09",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18934/thumb_american-pie-1999-8a5223a3cf2da4aaed92d79c981ed59d.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0039NCJFO",
+        "netflix": "https://www.netflix.com/title/22037751"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0163651/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/american_pie/"
       }
     },
     {
@@ -3064,6 +3113,20 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt0120890/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/wild_things/"
+      }
+    },
+    {
+      "title": "Boogie Nights",
+      "year": 1997,
+      "release_date": "1997-10-17",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18935/thumb_boogie-nights-1997-66528fb10c335f0821a02bd514a9ec9f.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0030UKYFS",
+        "netflix": "https://www.netflix.com/title/1180077"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0118749/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/boogie_nights/"
       }
     },
     {
@@ -3479,6 +3542,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-10-15 03:12:10 -0400"
+  "updated_at": "2015-10-16 03:12:10 -0400"
 }
 
