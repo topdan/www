@@ -1872,7 +1872,8 @@
       "release_date": "2007-05-02",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12513/thumb_waitress-2007-eca065786dc674d2072d4687c92d9b14.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0011Y4A5K"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0011Y4A5K",
+        "itunes": "https://itunes.apple.com/us/movie/waitress/id270021764"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0473308/",
@@ -3502,7 +3503,8 @@
       "release_date": "1972-07-21",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12116/thumb_deliverance-1972-37b40f7cba37a4e0d07dccbd3dd41895.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001EBV0LW"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001EBV0LW",
+        "encore": "http://www.encoreplay.com/Movies/Details/24148"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0068473/",
@@ -3542,6 +3544,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-10-16 03:12:10 -0400"
+  "updated_at": "2015-10-17 03:12:10 -0400"
 }
 
