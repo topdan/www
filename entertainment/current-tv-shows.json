@@ -93,7 +93,7 @@
     {
       "title": "Bob's Burgers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
-      "latest_episode_aired_on": "2015-10-11",
+      "latest_episode_aired_on": "2015-10-18",
       "first_episode_aired_on": "2011-01-09",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -319,6 +319,7 @@
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
       "streams": {
+        "hulu": "http://www.hulu.com/the-affair",
         "showtime_anytime": "http://www.showtimeanytime.com/#/series/1031103"
       },
       "references": {
@@ -380,7 +381,7 @@
     {
       "title": "The Walking Dead",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead-5a9c2349b9ba8b3af699d9085797f51a.jpg",
-      "latest_episode_aired_on": "2015-10-11",
+      "latest_episode_aired_on": "2015-10-18",
       "first_episode_aired_on": "2010-10-31",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -541,6 +542,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-10-19 03:12:10 -0400"
+  "updated_at": "2015-10-20 03:12:10 -0400"
 }
 
