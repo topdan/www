@@ -75,6 +75,24 @@
       }
     },
     {
+      "title": "Black-ish",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-3367d4d3bdb94b92c372e5d978c44ed6.jpg",
+      "latest_episode_aired_on": "2015-10-21",
+      "first_episode_aired_on": "2014-09-24",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "abc_com": "http://abc.go.com/shows/blackish",
+        "amazon_one_click": "https://www.amazon.com/gp/product/B015OZA3FC",
+        "hulu": "http://www.hulu.com/blackish"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3487356/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/black-ish/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Black-ish"
+      }
+    },
+    {
       "title": "Bloodline",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3853/thumb_bloodline-57e207f2912ccb223b74aac7a2293c18.jpg",
       "latest_episode_aired_on": "2015-03-20",
@@ -245,6 +263,22 @@
       }
     },
     {
+      "title": "Limitless",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4628/thumb_limitless-0ec52c73671f1c76297610d5d3b61d3d.jpg",
+      "latest_episode_aired_on": "2015-10-20",
+      "first_episode_aired_on": "2015-09-17",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "https://www.amazon.com/gp/product/B015OLD5EW",
+        "cbs_com": "http://www.cbs.com/shows/limitless"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4422836/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Limitless_%28TV_series%29"
+      }
+    },
+    {
       "title": "Marvel's Daredevil",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3980/thumb_marvels-daredevil-199967a64b7c0fd61d71cada80dc62e8.jpg",
       "latest_episode_aired_on": "2015-04-10",
@@ -296,7 +330,7 @@
     {
       "title": "South Park",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-6eabc96a74a5583c1efe11fa3fdbaf59.jpg",
-      "latest_episode_aired_on": "2015-10-14",
+      "latest_episode_aired_on": "2015-10-21",
       "first_episode_aired_on": "1997-08-13",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -364,7 +398,7 @@
     {
       "title": "The Middle",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-fa847c7de585f12a21a8d9342720a10c.jpg",
-      "latest_episode_aired_on": "2015-10-14",
+      "latest_episode_aired_on": "2015-10-21",
       "first_episode_aired_on": "2009-09-30",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -376,6 +410,23 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt1442464/",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Middle_%28TV_series%29"
+      }
+    },
+    {
+      "title": "The Muppets",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4593/thumb_the-muppets-d9025506a1dce6e0abe045c81baf6bed.jpg",
+      "latest_episode_aired_on": "2015-10-13",
+      "first_episode_aired_on": "2015-09-22",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "abc_com": "http://abc.go.com/shows/the-muppets",
+        "amazon_one_click": "https://www.amazon.com/gp/product/B015NY4FC6",
+        "hulu": "http://www.hulu.com/the-muppets"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4651824/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Muppets_%28TV_series%29"
       }
     },
     {
@@ -444,7 +495,7 @@
     {
       "title": "You're The Worst",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4599/thumb_youre-the-worst-e705a37d11a89576fe5a161fbcebc9d9.jpg",
-      "latest_episode_aired_on": "2015-10-14",
+      "latest_episode_aired_on": "2015-10-21",
       "first_episode_aired_on": "2014-07-17",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -542,6 +593,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-10-22 03:12:10 -0400"
+  "updated_at": "2015-10-23 03:12:10 -0400"
 }
 
