@@ -3476,7 +3476,8 @@
       "release_date": "1980-07-25",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7806/thumb_caddyshack-1980-b84db06f4722c8d41994d425f685204f.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001N7LKI0"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001N7LKI0",
+        "itunes": "https://itunes.apple.com/us/movie/caddyshack/id285871841"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0080487/",
@@ -3558,6 +3559,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-10-23 03:12:10 -0400"
+  "updated_at": "2015-10-24 03:12:10 -0400"
 }
 
