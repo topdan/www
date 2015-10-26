@@ -94,7 +94,8 @@
       "release_date": "2014-03-28",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11234/thumb_bad-words-2014-812867c88b70a3a5da203be260904c42.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00LM4ST9W"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00LM4ST9W",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP47522?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2170299/",
@@ -3559,6 +3560,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-10-24 03:12:10 -0400"
+  "updated_at": "2015-10-26 03:12:09 -0400"
 }
 
