@@ -494,6 +494,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14284/thumb_the-babadook-2014-0a2f2f8924a8df9a7160cd1e6d439467.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00P596I8Y",
+        "itunes": "https://itunes.apple.com/us/movie/the-babadook/id935857788",
         "netflix": "https://www.netflix.com/title/70300205"
       },
       "references": {
@@ -833,7 +834,8 @@
       "release_date": "2013-07-19",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9007/thumb_the-conjuring-2013-ab15052f45e82a866f72f47617820bc4.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00FPH6A70"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00FPH6A70",
+        "itunes": "https://itunes.apple.com/us/movie/the-conjuring/id687851264"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1457767/",
@@ -1347,6 +1349,7 @@
       "release_date": "2012-04-13",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5942/thumb_the-cabin-in-the-woods-2011-4aefdb8a7013c61ffb0c0cbfbeb42ca3.jpg",
       "streams": {
+        "itunes": "https://itunes.apple.com/us/movie/the-cabin-in-the-woods/id531670645"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1259521/",
@@ -3574,6 +3577,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-10-27 03:12:10 -0400"
+  "updated_at": "2015-10-30 03:12:10 -0400"
 }
 

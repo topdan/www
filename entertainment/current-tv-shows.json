@@ -77,7 +77,7 @@
     {
       "title": "Black-ish",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-3367d4d3bdb94b92c372e5d978c44ed6.jpg",
-      "latest_episode_aired_on": "2015-10-21",
+      "latest_episode_aired_on": "2015-10-28",
       "first_episode_aired_on": "2014-09-24",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -330,7 +330,7 @@
     {
       "title": "South Park",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-6eabc96a74a5583c1efe11fa3fdbaf59.jpg",
-      "latest_episode_aired_on": "2015-10-21",
+      "latest_episode_aired_on": "2015-10-28",
       "first_episode_aired_on": "1997-08-13",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -398,7 +398,7 @@
     {
       "title": "The Middle",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-fa847c7de585f12a21a8d9342720a10c.jpg",
-      "latest_episode_aired_on": "2015-10-21",
+      "latest_episode_aired_on": "2015-10-28",
       "first_episode_aired_on": "2009-09-30",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -495,7 +495,7 @@
     {
       "title": "You're The Worst",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4599/thumb_youre-the-worst-e705a37d11a89576fe5a161fbcebc9d9.jpg",
-      "latest_episode_aired_on": "2015-10-21",
+      "latest_episode_aired_on": "2015-10-28",
       "first_episode_aired_on": "2014-07-17",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -593,6 +593,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-10-29 03:12:10 -0400"
+  "updated_at": "2015-10-30 03:12:10 -0400"
 }
 
