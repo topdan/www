@@ -2253,8 +2253,7 @@
       "release_date": "2004-02-27",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16800/thumb_club-dread-2004-4865c6eeacaeeff0eb33e9dfd72e572f.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000I9U8YG",
-        "encore": "http://www.encoreplay.com/Movies/Details/22223"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000I9U8YG"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0331953/",
@@ -3577,6 +3576,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-10-30 03:12:10 -0400"
+  "updated_at": "2015-11-01 03:12:10 -0500"
 }
 
