@@ -594,8 +594,7 @@
       "release_date": "2014-06-13",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11926/thumb_the-signal-2014-435dbfa0698f8a945ade294bb3e0c486.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00OYWI5K2",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37289?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00OYWI5K2"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2910814/",
@@ -1959,8 +1958,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0040B1IUQ",
         "amazon_prime": "http://www.amazon.com/gp/product/B0040B1IUQ",
-        "netflix": "https://www.netflix.com/title/70068651",
-        "starz_com": "http://www.starzplay.com/Movies/Details/21866"
+        "netflix": "https://www.netflix.com/title/70068651"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0409904/",
@@ -2106,8 +2104,7 @@
       "release_date": "2005-11-04",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3191/thumb_jarhead-2005-293e3fd6c63ec3e9c85fe617977cf848.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001M2CBRK",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46539?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001M2CBRK"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0418763/",
@@ -2740,7 +2737,8 @@
         "amazon_one_click": "http://www.amazon.com/gp/product/B00COH0W00",
         "amazon_prime": "http://www.amazon.com/gp/product/B00COH0W00",
         "netflix": "https://www.netflix.com/title/60021634",
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3393624"
+        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3393624",
+        "starz_com": "http://www.starzplay.com/Movies/Details/1541"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0240890/",
@@ -3180,6 +3178,7 @@
       "release_date": "1997-10-24",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11039/thumb_gattaca-1997-e7450d3b84f2fc7be9ce9b28b74297e9.jpg",
       "streams": {
+        "encore": "http://www.encoreplay.com/Movies/Details/9376"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0119177/",
@@ -3248,8 +3247,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5166/thumb_scream-1996-0bafd33eea7c8e34e463ea617e43ceee.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00AYB12PC",
-        "amazon_prime": "http://www.amazon.com/gp/product/B00AYB12PC",
-        "netflix": "https://www.netflix.com/title/939827"
+        "amazon_prime": "http://www.amazon.com/gp/product/B00AYB12PC"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0117571/",
@@ -3576,6 +3574,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-11-01 03:12:10 -0500"
+  "updated_at": "2015-11-02 03:12:10 -0500"
 }
 

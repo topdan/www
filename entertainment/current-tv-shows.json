@@ -348,7 +348,7 @@
     {
       "title": "The Affair",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3487/thumb_the-affair-4d768f0fc3e061551260a821a3808323.jpg",
-      "latest_episode_aired_on": "2015-10-25",
+      "latest_episode_aired_on": "2015-11-01",
       "first_episode_aired_on": "2014-10-12",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -382,7 +382,7 @@
     {
       "title": "The Leftovers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3153/thumb_the-leftovers-e495e890f31843691df3ae8ca244c2c3.jpg",
-      "latest_episode_aired_on": "2015-10-26",
+      "latest_episode_aired_on": "2015-11-02",
       "first_episode_aired_on": "2014-06-29",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -593,6 +593,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-10-30 03:12:10 -0400"
+  "updated_at": "2015-11-02 03:12:10 -0500"
 }
 
