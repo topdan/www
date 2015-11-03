@@ -2104,7 +2104,8 @@
       "release_date": "2005-11-04",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3191/thumb_jarhead-2005-293e3fd6c63ec3e9c85fe617977cf848.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001M2CBRK"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001M2CBRK",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37381?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0418763/",
@@ -3247,7 +3248,9 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5166/thumb_scream-1996-0bafd33eea7c8e34e463ea617e43ceee.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00AYB12PC",
-        "amazon_prime": "http://www.amazon.com/gp/product/B00AYB12PC"
+        "amazon_prime": "http://www.amazon.com/gp/product/B00AYB12PC",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP47992?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "itunes": "https://itunes.apple.com/us/movie/scream/id425968586"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0117571/",
@@ -3574,6 +3577,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-11-02 03:12:10 -0500"
+  "updated_at": "2015-11-03 03:12:10 -0500"
 }
 
