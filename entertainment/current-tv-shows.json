@@ -144,23 +144,6 @@
       }
     },
     {
-      "title": "Community",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/38/thumb_community-36aeab1b86e5595c5b22b4e46f7ab19f.jpg",
-      "latest_episode_aired_on": "2015-06-02",
-      "first_episode_aired_on": "2009-09-17",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00HNMMH3G",
-        "hulu": "http://www.hulu.com/community",
-        "yahoo_screen": "https://screen.yahoo.com/community/"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt1439629/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Community_%28TV_series%29"
-      }
-    },
-    {
       "title": "Continuum",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/39/thumb_continuum-640e84645662f90fe4a42b38a86bcda9.jpg",
       "latest_episode_aired_on": "2015-10-09",
@@ -229,7 +212,7 @@
     {
       "title": "iZombie",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3879/thumb_izombie-8b70cfc7520e5e6dd998379c5a6334f1.jpg",
-      "latest_episode_aired_on": "2015-10-27",
+      "latest_episode_aired_on": "2015-11-03",
       "first_episode_aired_on": "2015-03-17",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -265,7 +248,7 @@
     {
       "title": "Limitless",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4628/thumb_limitless-0ec52c73671f1c76297610d5d3b61d3d.jpg",
-      "latest_episode_aired_on": "2015-10-27",
+      "latest_episode_aired_on": "2015-11-03",
       "first_episode_aired_on": "2015-09-17",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -387,7 +370,6 @@
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00P64F8SE",
         "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP43206?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
       },
       "references": {
@@ -415,7 +397,7 @@
     {
       "title": "The Muppets",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4593/thumb_the-muppets-d9025506a1dce6e0abe045c81baf6bed.jpg",
-      "latest_episode_aired_on": "2015-10-27",
+      "latest_episode_aired_on": "2015-11-03",
       "first_episode_aired_on": "2015-09-22",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -432,7 +414,7 @@
     {
       "title": "The Walking Dead",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead-5a9c2349b9ba8b3af699d9085797f51a.jpg",
-      "latest_episode_aired_on": "2015-10-25",
+      "latest_episode_aired_on": "2015-11-01",
       "first_episode_aired_on": "2010-10-31",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -593,6 +575,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-11-02 03:12:10 -0500"
+  "updated_at": "2015-11-04 11:26:12 -0500"
 }
 

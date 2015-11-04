@@ -8,6 +8,23 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "Community",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/38/thumb_community-36aeab1b86e5595c5b22b4e46f7ab19f.jpg",
+      "latest_episode_aired_on": "2015-06-02",
+      "first_episode_aired_on": "2009-09-17",
+      "final_episode_aired_on": "2015-06-02",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00HNMMH3G",
+        "hulu": "http://www.hulu.com/community",
+        "yahoo_screen": "https://screen.yahoo.com/community/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1439629/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Community_%28TV_series%29"
+      }
+    },
+    {
       "title": "Californication",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/34/thumb_californication-bd259c9204039a5c58538ef95be2d2d9.jpg",
       "latest_episode_aired_on": "2014-06-29",
@@ -95,6 +112,7 @@
       "final_episode_aired_on": "2013-02-25",
       "unwatched_episodes_count": 0,
       "streams": {
+        "abc_family_com": "http://abcfamily.go.com/shows/bunheads",
         "amazon_one_click": "http://www.amazon.com/gp/product/B00932B4B0"
       },
       "references": {
@@ -432,6 +450,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-09-08 12:37:05 -0400"
+  "updated_at": "2015-11-04 03:12:10 -0500"
 }
 
