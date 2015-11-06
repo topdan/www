@@ -1565,7 +1565,8 @@
       "release_date": "2009-12-25",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13303/thumb_the-imaginarium-of-doctor-parnassus-2009-81e1556615f47b53a563a5b4322c4389.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B003DPKCNY"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B003DPKCNY",
+        "amazon_prime": "http://www.amazon.com/gp/product/B003DPKCNY"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1054606/",
@@ -2146,7 +2147,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5230/thumb_serenity-2005-1a7a6e21b51672f63d66442a683fe560.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001HBYHFA",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP44788?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP44788?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "itunes": "https://itunes.apple.com/us/movie/serenity/id292625148"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0379786/",
@@ -3578,6 +3580,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-11-04 03:12:10 -0500"
+  "updated_at": "2015-11-06 03:12:10 -0500"
 }
 
