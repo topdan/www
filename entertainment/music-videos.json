@@ -8,6 +8,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Paul Baribeau",
+      "song": "Ten Things",
+      "video_url": "https://www.youtube.com/watch?v=9X_o_BAUJ-c",
+      "thumbnail_url": "https://img.youtube.com/vi/9X_o_BAUJ-c/0.jpg",
+      "added_at": "2015-11-08 21:06:36 -0500"
+    },
+    {
       "artist": "Cream on Chrome",
       "song": "Ratatat",
       "video_url": "https://www.youtube.com/watch?v=xlcywgEMuGI",
@@ -852,6 +859,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-10-11 03:52:08 -0400"
+  "updated_at": "2015-11-09 03:52:09 -0500"
 }
 
