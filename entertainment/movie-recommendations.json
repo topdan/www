@@ -2283,8 +2283,7 @@
       "release_date": "2004-07-28",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8141/thumb_garden-state-2004-868142e44ae91289103e9f45d8c8a38e.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000I9X6Q8",
-        "encore": "http://www.encoreplay.com/Movies/Details/23546"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000I9X6Q8"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0333766/",
@@ -2355,7 +2354,6 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000ZLLRFG",
         "amazon_prime": "http://www.amazon.com/gp/product/B000ZLLRFG",
-        "encore": "http://www.encoreplay.com/Movies/Details/23859",
         "netflix": "https://www.netflix.com/title/60033351",
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/123289"
       },
@@ -2822,8 +2820,7 @@
       "release_date": "2001-01-12",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11394/thumb_crouching-tiger-hidden-dragon-2000-76eb73af371b672ec7ab93510279c255.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B006LWKG2S",
-        "encore": "http://www.encoreplay.com/Movies/Details/24146"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B006LWKG2S"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0190332/",
@@ -2974,7 +2971,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7943/thumb_office-space-1999-98bcd9fa2e32a1e4f95adaf8e9b581f4.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9YWDO",
-        "encore": "http://www.encoreplay.com/Movies/Details/24157",
         "itunes": "https://itunes.apple.com/us/movie/office-space/id273369330"
       },
       "references": {
@@ -3141,8 +3137,7 @@
       "release_date": "1998-03-20",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10883/thumb_wild-things-1998-aa019884bca0adac4f56957d1dfb155d.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000T3Z3MI",
-        "encore": "http://www.encoreplay.com/Movies/Details/10250"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000T3Z3MI"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0120890/",
@@ -3183,7 +3178,6 @@
       "release_date": "1997-10-24",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11039/thumb_gattaca-1997-e7450d3b84f2fc7be9ce9b28b74297e9.jpg",
       "streams": {
-        "encore": "http://www.encoreplay.com/Movies/Details/9376"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0119177/",
@@ -3540,8 +3534,7 @@
       "release_date": "1972-07-21",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12116/thumb_deliverance-1972-37b40f7cba37a4e0d07dccbd3dd41895.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001EBV0LW",
-        "encore": "http://www.encoreplay.com/Movies/Details/24148"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001EBV0LW"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0068473/",
@@ -3581,6 +3574,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-11-07 03:12:09 -0500"
+  "updated_at": "2015-11-13 03:12:10 -0500"
 }
 
