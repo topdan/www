@@ -476,7 +476,7 @@
     {
       "title": "You're The Worst",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4599/thumb_youre-the-worst-e705a37d11a89576fe5a161fbcebc9d9.jpg",
-      "latest_episode_aired_on": "2015-11-04",
+      "latest_episode_aired_on": "2015-11-11",
       "first_episode_aired_on": "2014-07-17",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -574,6 +574,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-11-13 03:12:10 -0500"
+  "updated_at": "2015-11-14 03:12:11 -0500"
 }
 
