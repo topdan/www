@@ -111,7 +111,7 @@
     {
       "title": "Bob's Burgers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
-      "latest_episode_aired_on": "2015-11-08",
+      "latest_episode_aired_on": "2015-11-15",
       "first_episode_aired_on": "2011-01-09",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -331,7 +331,7 @@
     {
       "title": "The Affair",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3487/thumb_the-affair-4d768f0fc3e061551260a821a3808323.jpg",
-      "latest_episode_aired_on": "2015-11-08",
+      "latest_episode_aired_on": "2015-11-15",
       "first_episode_aired_on": "2014-10-12",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -413,7 +413,7 @@
     {
       "title": "The Walking Dead",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead-5a9c2349b9ba8b3af699d9085797f51a.jpg",
-      "latest_episode_aired_on": "2015-11-08",
+      "latest_episode_aired_on": "2015-11-15",
       "first_episode_aired_on": "2010-10-31",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -574,6 +574,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-11-16 03:12:10 -0500"
+  "updated_at": "2015-11-17 03:12:10 -0500"
 }
 
