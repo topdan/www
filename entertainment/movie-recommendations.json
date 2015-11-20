@@ -3193,6 +3193,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/2552/thumb_good-will-hunting-1997-03159784a96ab43bf770321ce9b36d28.jpg",
       "streams": {
         "amazon_prime": "http://www.amazon.com/gp/product/B006RXQA5I",
+        "itunes": "https://itunes.apple.com/us/movie/good-will-hunting/id432503534",
         "netflix": "https://www.netflix.com/title/17405997"
       },
       "references": {
@@ -3426,6 +3427,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1673/thumb_coming-to-america-1988-043e4e6c3abade8b25b4bfd90d8ca0d5.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001K3BG6S",
+        "itunes": "https://itunes.apple.com/us/movie/coming-to-america/id291825889",
         "netflix": "https://www.netflix.com/title/391018"
       },
       "references": {
@@ -3576,6 +3578,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-11-18 03:12:10 -0500"
+  "updated_at": "2015-11-20 03:12:10 -0500"
 }
 
