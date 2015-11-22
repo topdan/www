@@ -129,6 +129,21 @@
       }
     },
     {
+      "title": "Casual",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4722/thumb_casual-27d881a8cc78dd0b121eb1c014d6120a.jpg",
+      "latest_episode_aired_on": "2015-11-04",
+      "first_episode_aired_on": "2015-10-07",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "hulu": "http://www.hulu.com/casual"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4577466/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Casual_%28TV_series%29"
+      }
+    },
+    {
       "title": "Comedians In Cars Getting Coffee",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4239/thumb_comedians-in-cars-getting-coffee-6bc8ce0698111617d89d2fb5466ff9ee.jpg",
       "latest_episode_aired_on": "2015-07-08",
@@ -157,6 +172,23 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt1954347/",
         "wikipedia": "https://en.wikipedia.org/wiki/Continuum_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Crazy Ex-Girlfriend",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4720/thumb_crazy-ex-girlfriend-bc5bd2d9aad270e95e8fd9c67929290e.jpg",
+      "latest_episode_aired_on": "2015-11-16",
+      "first_episode_aired_on": "2015-10-12",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "https://www.amazon.com/gp/product/B016JCJLO8",
+        "cwtv_com": "http://www.cwtv.com/shows/crazy-ex-girlfriend",
+        "hulu": "http://www.hulu.com/crazy-exgirlfriend"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4094300/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Crazy_Ex-Girlfriend_%28TV_series%29"
       }
     },
     {
@@ -574,6 +606,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-11-20 03:12:10 -0500"
+  "updated_at": "2015-11-22 03:12:11 -0500"
 }
 
