@@ -8,22 +8,6 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
-      "title": "Peaky Blinders",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4055/thumb_peaky-blinders-a4cc4e465872e7f25994d80a236f01c5.jpg",
-      "latest_episode_aired_on": null,
-      "first_episode_aired_on": null,
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "netflix": "https://www.netflix.com/title/80002479"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt2442560/",
-        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/peaky-blinders/s02/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Peaky_Blinders_%28TV_series%29"
-      }
-    },
-    {
       "title": "Another Period",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4156/thumb_another-period-d186b559a3f9b8203c57589f9a7ce2ea.jpg",
       "latest_episode_aired_on": "2015-08-25",
@@ -363,7 +347,7 @@
     {
       "title": "The Affair",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3487/thumb_the-affair-4d768f0fc3e061551260a821a3808323.jpg",
-      "latest_episode_aired_on": "2015-11-15",
+      "latest_episode_aired_on": "2015-11-22",
       "first_episode_aired_on": "2014-10-12",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -396,7 +380,7 @@
     {
       "title": "The Leftovers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3153/thumb_the-leftovers-e495e890f31843691df3ae8ca244c2c3.jpg",
-      "latest_episode_aired_on": "2015-11-16",
+      "latest_episode_aired_on": "2015-11-23",
       "first_episode_aired_on": "2014-06-29",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -445,7 +429,7 @@
     {
       "title": "The Walking Dead",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead-5a9c2349b9ba8b3af699d9085797f51a.jpg",
-      "latest_episode_aired_on": "2015-11-15",
+      "latest_episode_aired_on": "2015-11-22",
       "first_episode_aired_on": "2010-10-31",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -538,6 +522,22 @@
       }
     },
     {
+      "title": "Peaky Blinders",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4055/thumb_peaky-blinders-a4cc4e465872e7f25994d80a236f01c5.jpg",
+      "latest_episode_aired_on": "2014-11-06",
+      "first_episode_aired_on": null,
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80002479"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2442560/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/peaky-blinders/s02/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Peaky_Blinders_%28TV_series%29"
+      }
+    },
+    {
       "title": "Quick Draw",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/1743/thumb_quick-draw-dc8a85278a396673c917c875238e497f.jpg",
       "latest_episode_aired_on": "2014-10-02",
@@ -606,6 +606,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-11-22 03:12:11 -0500"
+  "updated_at": "2015-11-24 03:12:10 -0500"
 }
 
