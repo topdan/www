@@ -25,6 +25,21 @@
       }
     },
     {
+      "title": "Show Me a Hero",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4534/thumb_show-me-a-hero-40775079820adb804fbd6c6460ff1983.jpg",
+      "latest_episode_aired_on": "2015-08-24",
+      "first_episode_aired_on": "2015-08-17",
+      "final_episode_aired_on": "2015-08-30",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP46878?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2492296/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Show_Me_a_Hero"
+      }
+    },
+    {
       "title": "Californication",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/34/thumb_californication-bd259c9204039a5c58538ef95be2d2d9.jpg",
       "latest_episode_aired_on": "2014-06-29",
@@ -450,6 +465,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-11-04 03:12:10 -0500"
+  "updated_at": "2015-11-26 03:12:10 -0500"
 }
 
