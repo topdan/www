@@ -1709,7 +1709,8 @@
       "release_date": "2008-02-15",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16151/thumb_jumper-2008-711581d43406843aeba4b5dc5f46afcd.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001CDD84Y"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001CDD84Y",
+        "itunes": "https://itunes.apple.com/us/movie/jumper/id276580756"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0489099/",
@@ -3578,6 +3579,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-11-20 03:12:10 -0500"
+  "updated_at": "2015-11-27 03:12:10 -0500"
 }
 
