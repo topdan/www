@@ -115,7 +115,7 @@
     {
       "title": "Casual",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4722/thumb_casual-27d881a8cc78dd0b121eb1c014d6120a.jpg",
-      "latest_episode_aired_on": "2015-11-04",
+      "latest_episode_aired_on": "2015-11-25",
       "first_episode_aired_on": "2015-10-07",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -490,6 +490,21 @@
       }
     },
     {
+      "title": "With Bob and David",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4775/thumb_w-bob-and-david-268947d3036bacaf70b4b77449b935cc.jpg",
+      "latest_episode_aired_on": "2015-11-13",
+      "first_episode_aired_on": "2015-11-13",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80049065"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4574708/",
+        "wikipedia": "https://en.wikipedia.org/wiki/With_Bob_and_David"
+      }
+    },
+    {
       "title": "You're The Worst",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4599/thumb_youre-the-worst-e705a37d11a89576fe5a161fbcebc9d9.jpg",
       "latest_episode_aired_on": "2015-11-18",
@@ -606,6 +621,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-11-26 03:12:10 -0500"
+  "updated_at": "2015-11-28 03:12:10 -0500"
 }
 
