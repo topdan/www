@@ -1488,7 +1488,8 @@
       "release_date": "2010-09-15",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13272/thumb_never-let-me-go-2010-3f5ac2fb204f2901047156070035e935.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP33689?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP33689?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38098?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1334260/",
@@ -1723,7 +1724,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16151/thumb_jumper-2008-711581d43406843aeba4b5dc5f46afcd.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001CDD84Y",
-        "itunes": "https://itunes.apple.com/us/movie/jumper/id276580756"
+        "itunes": "https://itunes.apple.com/us/movie/jumper/id276580756",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38093?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0489099/",
@@ -1922,6 +1924,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12513/thumb_waitress-2007-eca065786dc674d2072d4687c92d9b14.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0011Y4A5K",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48190?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/waitress/id270021764"
       },
       "references": {
@@ -2545,6 +2548,7 @@
       "release_date": "2002-09-13",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3005/thumb_igby-goes-down-2002-b4dbb0a905066332f0c6304202c76ea2.jpg",
       "streams": {
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38321?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0280760/",
@@ -2945,6 +2949,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14150/thumb_10-things-i-hate-about-you-1999-85774373338843a5beecaaf4133e05c9.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00FY8ARI8",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP45089?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37153?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
@@ -3056,6 +3061,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16033/thumb_the-sixth-sense-1999-f00d07c18f664fe8f67424eeb853bf0b.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0060D0N9O",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38214?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "netflix": "https://www.netflix.com/title/26797528"
       },
       "references": {
@@ -3470,6 +3476,7 @@
       "release_date": "1987-07-17",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14936/thumb_robocop-1987-20d571be93e5bcbd4709a0a23b6fc251.jpg",
       "streams": {
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP34676?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP33047?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "netflix": "https://www.netflix.com/title/17017738"
       },
@@ -3593,6 +3600,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-12-02 03:12:10 -0500"
+  "updated_at": "2015-12-03 03:12:11 -0500"
 }
 
