@@ -61,7 +61,7 @@
     {
       "title": "Black-ish",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-3367d4d3bdb94b92c372e5d978c44ed6.jpg",
-      "latest_episode_aired_on": "2015-12-02",
+      "latest_episode_aired_on": "2015-12-09",
       "first_episode_aired_on": "2014-09-24",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -115,7 +115,7 @@
     {
       "title": "Casual",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4722/thumb_casual-27d881a8cc78dd0b121eb1c014d6120a.jpg",
-      "latest_episode_aired_on": "2015-11-25",
+      "latest_episode_aired_on": "2015-12-02",
       "first_episode_aired_on": "2015-10-07",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -140,22 +140,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2314952/",
         "wikipedia": "https://en.wikipedia.org/wiki/Comedians_in_Cars_Getting_Coffee"
-      }
-    },
-    {
-      "title": "Continuum",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/39/thumb_continuum-640e84645662f90fe4a42b38a86bcda9.jpg",
-      "latest_episode_aired_on": "2015-10-09",
-      "first_episode_aired_on": "2012-05-27",
-      "final_episode_aired_on": "2015-10-09",
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00B1O6DYQ",
-        "netflix": "https://www.netflix.com/title/70266352"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt1954347/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Continuum_%28TV_series%29"
       }
     },
     {
@@ -228,7 +212,7 @@
     {
       "title": "iZombie",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3879/thumb_izombie-8b70cfc7520e5e6dd998379c5a6334f1.jpg",
-      "latest_episode_aired_on": "2015-12-01",
+      "latest_episode_aired_on": "2015-12-08",
       "first_episode_aired_on": "2015-03-17",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -329,7 +313,7 @@
     {
       "title": "South Park",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-6eabc96a74a5583c1efe11fa3fdbaf59.jpg",
-      "latest_episode_aired_on": "2015-12-02",
+      "latest_episode_aired_on": "2015-12-09",
       "first_episode_aired_on": "1997-08-13",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -347,7 +331,7 @@
     {
       "title": "The Affair",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3487/thumb_the-affair-4d768f0fc3e061551260a821a3808323.jpg",
-      "latest_episode_aired_on": "2015-11-29",
+      "latest_episode_aired_on": "2015-12-06",
       "first_episode_aired_on": "2014-10-12",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -380,7 +364,7 @@
     {
       "title": "The Leftovers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3153/thumb_the-leftovers-e495e890f31843691df3ae8ca244c2c3.jpg",
-      "latest_episode_aired_on": "2015-11-30",
+      "latest_episode_aired_on": "2015-12-06",
       "first_episode_aired_on": "2014-06-29",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -412,7 +396,7 @@
     {
       "title": "The Muppets",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4593/thumb_the-muppets-d9025506a1dce6e0abe045c81baf6bed.jpg",
-      "latest_episode_aired_on": "2015-12-01",
+      "latest_episode_aired_on": "2015-12-08",
       "first_episode_aired_on": "2015-09-22",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -621,6 +605,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-12-04 03:12:11 -0500"
+  "updated_at": "2015-12-11 18:44:41 -0500"
 }
 

@@ -25,6 +25,22 @@
       }
     },
     {
+      "title": "Continuum",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/39/thumb_continuum-640e84645662f90fe4a42b38a86bcda9.jpg",
+      "latest_episode_aired_on": "2015-10-16",
+      "first_episode_aired_on": "2012-05-27",
+      "final_episode_aired_on": "2015-10-09",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00B1O6DYQ",
+        "netflix": "https://www.netflix.com/title/70266352"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1954347/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Continuum_%28TV_series%29"
+      }
+    },
+    {
       "title": "Show Me a Hero",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4534/thumb_show-me-a-hero-40775079820adb804fbd6c6460ff1983.jpg",
       "latest_episode_aired_on": "2015-08-24",
@@ -465,6 +481,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-11-26 03:12:10 -0500"
+  "updated_at": "2015-12-11 18:44:41 -0500"
 }
 
