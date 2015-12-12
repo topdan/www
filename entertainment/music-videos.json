@@ -8,6 +8,20 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Blondie",
+      "song": "Rapture",
+      "video_url": "https://www.youtube.com/watch?v=pHCdS7O248g",
+      "thumbnail_url": "https://img.youtube.com/vi/pHCdS7O248g/0.jpg",
+      "added_at": "2015-12-08 01:12:04 -0500"
+    },
+    {
+      "artist": "Liquid Liquid",
+      "song": "Cavern",
+      "video_url": "https://www.youtube.com/watch?v=VXEGHm-Aj9o",
+      "thumbnail_url": "https://img.youtube.com/vi/VXEGHm-Aj9o/0.jpg",
+      "added_at": "2015-12-08 01:06:42 -0500"
+    },
+    {
       "artist": "Paul Oakenfold",
       "song": "Ready, Steady, Go",
       "video_url": "https://www.youtube.com/watch?v=MSv3Oez4O-4",
@@ -873,6 +887,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-12-04 03:52:09 -0500"
+  "updated_at": "2015-12-12 03:52:08 -0500"
 }
 
