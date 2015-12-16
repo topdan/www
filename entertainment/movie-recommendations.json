@@ -335,6 +335,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11302/thumb_interstellar-2014-2dbdd5c965e5a7ad0e26d98e73080286.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00TU9UO1W",
+        "amazon_prime": "http://www.amazon.com/gp/product/B00TU9UO1W",
         "itunes": "https://itunes.apple.com/us/movie/interstellar/id960891136"
       },
       "references": {
@@ -3601,6 +3602,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2015-12-13 03:12:10 -0500"
+  "updated_at": "2015-12-16 03:12:10 -0500"
 }
 
