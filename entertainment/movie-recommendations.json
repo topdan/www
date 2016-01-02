@@ -1820,7 +1820,8 @@
       "release_date": "2007-03-02",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1101/thumb_black-snake-moan-2007-18e03efcfb4cee3a452da9aa8c917651.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000UYJR7I"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000UYJR7I",
+        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/131067"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0462200/",
@@ -2402,8 +2403,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000ZLLRFG",
         "amazon_prime": "http://www.amazon.com/gp/product/B000ZLLRFG",
-        "netflix": "https://www.netflix.com/title/60033351",
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/123289"
+        "netflix": "https://www.netflix.com/title/60033351"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0332375/",
@@ -2952,6 +2952,7 @@
       "release_date": "2000-09-08",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13116/thumb_the-way-of-the-gun-2000-8a34d85dcc3c9c8f4b6153cde26eaa15.jpg",
       "streams": {
+        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/113111"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0202677/",
@@ -3034,8 +3035,7 @@
       "release_date": "1999-06-30",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5476/thumb_south-park-bigger-longer-and-uncut-1999-5ad28b09fb07287016ca7e9faf40dbe5.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000HX6DCO",
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/109294"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000HX6DCO"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0158983/",
@@ -3629,6 +3629,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-01-01 03:12:09 -0500"
+  "updated_at": "2016-01-02 03:12:09 -0500"
 }
 
