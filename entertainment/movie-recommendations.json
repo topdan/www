@@ -180,6 +180,7 @@
       "release_date": "2014-08-01",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11823/thumb_calvary-2014-c32d7168aaa953cde8a7570c1c9431d9.jpg",
       "streams": {
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48369?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37532?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
@@ -2130,8 +2131,7 @@
       "release_date": "2005-08-12",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/2343/thumb_four-brothers-2005-21af6634eca1254db497f57a28cc829c.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0056JH2MY",
-        "netflix": "https://www.netflix.com/title/70028902"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0056JH2MY"
       },
       "references": {
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/four_brothers/"
@@ -2700,6 +2700,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14491/thumb_a-knights-tale-2001-4deed882336fa493b6d94d35430d1996.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000RL1G32",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP25188?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/a-knights-tale/id531594338",
         "netflix": "https://www.netflix.com/title/60020626"
       },
@@ -3104,8 +3105,7 @@
       "release_date": "2000-04-21",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10144/thumb_the-virgin-suicides-1999-c4ce9e2ce03c62fd3b2dd42d1f0e5061.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000NK7H1M",
-        "netflix": "https://www.netflix.com/title/60000909"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000NK7H1M"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0159097/",
@@ -3491,8 +3491,7 @@
       "release_date": "1987-11-25",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/4666/thumb_planes-trains-and-automobiles-1987-a31f62129ce8ae90778d865b0c230518.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0035LNYAY",
-        "netflix": "https://www.netflix.com/title/60003083"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0035LNYAY"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0093748/",
@@ -3533,8 +3532,7 @@
       "release_date": "1983-06-01",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7192/thumb_trading-places-1983-aa806b3fabc5af865a203eda86adce9b.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00119XQHI",
-        "netflix": "https://www.netflix.com/title/60011484"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00119XQHI"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0086465/",
@@ -3602,8 +3600,7 @@
       "release_date": "1971-12-19",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13190/thumb_a-clockwork-orange-1971-ed44e628b7263f973492eaccb5ebf60e.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00125FBTM",
-        "netflix": "https://www.netflix.com/title/383466"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00125FBTM"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0066921/",
@@ -3629,6 +3626,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-01-02 03:12:09 -0500"
+  "updated_at": "2016-01-06 03:12:07 -0500"
 }
 
