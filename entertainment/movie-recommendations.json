@@ -57,6 +57,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13163/thumb_mad-max-fury-road-2015-6094af4b6fc65d0951be99a0c0036bd3.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B014QZ9B3Q",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48368?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/mad-max-fury-road/id990549112"
       },
       "references": {
@@ -701,7 +702,8 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00OH75ATS",
         "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46550?videoMode=embeddedVideo?showSpecialFeatures=false/",
-        "itunes": "https://itunes.apple.com/us/movie/x-men-days-of-future-past/id867914892"
+        "itunes": "https://itunes.apple.com/us/movie/x-men-days-of-future-past/id867914892",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38312?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1877832/",
@@ -3626,6 +3628,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-01-06 03:12:07 -0500"
+  "updated_at": "2016-01-11 03:12:08 -0500"
 }
 
