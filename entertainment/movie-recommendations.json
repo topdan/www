@@ -8,6 +8,20 @@
   "data_type": "Entertainment::Movie",
   "data": [
     {
+      "title": "American Ultra",
+      "year": 2015,
+      "release_date": "2015-08-21",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16167/thumb_american-ultra-2015-45e775a723ef36a883552ad7c7190635.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B01489KX1O",
+        "itunes": "https://itunes.apple.com/us/movie/american-ultra/id1027396959"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3316948/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/american_ultra/"
+      }
+    },
+    {
       "title": "Ex Machina",
       "year": 2015,
       "release_date": "2015-04-24",
@@ -63,6 +77,18 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt1392190/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/mad_max_fury_road/"
+      }
+    },
+    {
+      "title": "Star Wars: Episode VII - The Force Awakens",
+      "year": 2015,
+      "release_date": "2015-12-18",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19547/thumb_star-wars-episode-vii-the-force-awakens-2015-11046df3ee9eb85c4de2ae9ee0e33c25.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2488496/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/star_wars_episode_vii_the_force_awakens/"
       }
     },
     {
@@ -2227,7 +2253,8 @@
       "release_date": "2005-04-01",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12507/thumb_sin-city-2005-364cefb4bfe57f4cfd2f0ad09422f0db.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0065FIHYA"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0065FIHYA",
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0401792/",
@@ -3628,6 +3655,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-01-11 03:12:08 -0500"
+  "updated_at": "2016-01-17 03:12:07 -0500"
 }
 
