@@ -262,6 +262,20 @@
       }
     },
     {
+      "title": "Jessica Jones",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4773/thumb_jessica-jones-d357f9b08dcee233b69e12b61a3d030f.jpg",
+      "latest_episode_aired_on": "2015-11-20",
+      "first_episode_aired_on": "2015-11-20",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2357547/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jessica_Jones_%28TV_series%29"
+      }
+    },
+    {
       "title": "Justified",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/93/thumb_justified-cda4008d35866db7d1d01ad5cf0b97a2.jpg",
       "latest_episode_aired_on": "2015-04-14",
@@ -294,6 +308,20 @@
       }
     },
     {
+      "title": "Master of None",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4774/thumb_master-of-none-8392f6771d54cf03b26fe97c0eb6c322.jpg",
+      "latest_episode_aired_on": "2015-11-06",
+      "first_episode_aired_on": "2015-11-06",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4635276/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Master_of_None"
+      }
+    },
+    {
       "title": "Mr. Robot",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4020/thumb_mr-robot-516ef9897a52962a6ab2fc56ef985b7b.jpg",
       "latest_episode_aired_on": "2015-09-02",
@@ -309,6 +337,51 @@
         "imdb": "http://www.imdb.com/title/tt4158110/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/tv/mr-robot/s01/",
         "wikipedia": "https://en.wikipedia.org/wiki/Mr._Robot_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Narcos",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4389/thumb_narcos-dd7f9f3caa720950e01f1d4bf79ace1d.jpg",
+      "latest_episode_aired_on": "2015-08-28",
+      "first_episode_aired_on": "2015-08-28",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80025172"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2707408/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Narcos"
+      }
+    },
+    {
+      "title": "Red Oaks",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4724/thumb_red-oaks-95e9b4e75de3cb0db05ed0b2bf312dc3.jpg",
+      "latest_episode_aired_on": "2015-10-09",
+      "first_episode_aired_on": "2015-09-14",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "https://www.amazon.com/gp/product/B00MR9WBVS"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3973820/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Red_Oaks"
+      }
+    },
+    {
+      "title": "Rick and Morty",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2450/thumb_rick-and-morty-d743d74ea71e01ac2b56f7d145d2547b.jpg",
+      "latest_episode_aired_on": "2015-10-04",
+      "first_episode_aired_on": "2013-12-02",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "adult_swim_com": "http://www.adultswim.com/videos/rick-and-morty/",
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00GWERQAU"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2861424/"
       }
     },
     {
@@ -506,6 +579,22 @@
       }
     },
     {
+      "title": "Black Mirror",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3604/thumb_black-mirror-7ede7d9b423be8b7a5cfb2ba2d35f6c3.jpg",
+      "latest_episode_aired_on": "2014-12-16",
+      "first_episode_aired_on": "2011-12-04",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/70264888"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2085059/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/black-mirror/s02/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Black_Mirror_%28TV_series%29"
+      }
+    },
+    {
       "title": "Burning Love",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4280/thumb_burning-love-f5ff7906cee15d5804eab03e96af3931.jpg",
       "latest_episode_aired_on": "2014-03-14",
@@ -605,6 +694,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2016-01-17 03:12:07 -0500"
+  "updated_at": "2016-01-18 03:12:08 -0500"
 }
 

@@ -123,7 +123,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11234/thumb_bad-words-2014-812867c88b70a3a5da203be260904c42.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00LM4ST9W",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP47522?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48203?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2170299/",
@@ -207,8 +207,7 @@
       "release_date": "2014-08-01",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11823/thumb_calvary-2014-c32d7168aaa953cde8a7570c1c9431d9.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48369?videoMode=embeddedVideo?showSpecialFeatures=false/",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37532?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48369?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2234003/",
@@ -464,7 +463,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11315/thumb_neighbors-2014-ce34f5a043ce89c143497b0cb36bdd41.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00NTSYP3S",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46546?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/neighbors/id864732888",
         "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38092?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
@@ -727,7 +725,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11230/thumb_x-men-days-of-future-past-2014-281cfc555c7894fa04cf2fc22b36caeb.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00OH75ATS",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46550?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/x-men-days-of-future-past/id867914892",
         "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38312?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
@@ -811,8 +808,7 @@
       "release_date": "2013-12-18",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12082/thumb_her-2013-80afb8f0768ae0e2be49a2ea5f339636.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00KATY250",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP44614?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00KATY250"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1798709/",
@@ -948,8 +944,7 @@
       "release_date": "2013-12-25",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11794/thumb_the-secret-life-of-walter-mitty-2013-ae9c329258c6459a26e4aa65ef786f97.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00JP5ONY0",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP43789?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00JP5ONY0"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0359950/",
@@ -1533,7 +1528,6 @@
       "release_date": "2010-09-15",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13272/thumb_never-let-me-go-2010-3f5ac2fb204f2901047156070035e935.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP33689?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38098?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
@@ -2225,7 +2219,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5230/thumb_serenity-2005-1a7a6e21b51672f63d66442a683fe560.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001HBYHFA",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP44788?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/serenity/id292625148"
       },
       "references": {
@@ -2527,8 +2520,7 @@
       "release_date": "2003-09-26",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3662/thumb_lost-in-translation-2003-7e6dabe4b51aa2abe920695d35a37a67.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001NLCBJI",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP32033?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001NLCBJI"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0335266/",
@@ -2802,8 +2794,7 @@
       "release_date": "2001-05-16",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12712/thumb_moulin-rouge-2001-9e13ee20c3cd557852d5b32641745e53.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000SVZIDA",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MUGOROSTP31184?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000SVZIDA"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0203009/",
@@ -3009,8 +3000,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14150/thumb_10-things-i-hate-about-you-1999-85774373338843a5beecaaf4133e05c9.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00FY8ARI8",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP45089?videoMode=embeddedVideo?showSpecialFeatures=false/",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37153?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP45089?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0147800/",
@@ -3534,7 +3524,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14936/thumb_robocop-1987-20d571be93e5bcbd4709a0a23b6fc251.jpg",
       "streams": {
         "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP34676?videoMode=embeddedVideo?showSpecialFeatures=false/",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP33047?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "netflix": "https://www.netflix.com/title/17017738"
       },
       "references": {
@@ -3655,6 +3644,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-01-17 03:12:07 -0500"
+  "updated_at": "2016-01-18 03:12:08 -0500"
 }
 
