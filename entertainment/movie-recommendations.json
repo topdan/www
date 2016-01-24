@@ -3510,7 +3510,8 @@
       "release_date": "1987-11-25",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/4666/thumb_planes-trains-and-automobiles-1987-a31f62129ce8ae90778d865b0c230518.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0035LNYAY"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0035LNYAY",
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0093748/",
@@ -3644,6 +3645,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-01-23 03:12:08 -0500"
+  "updated_at": "2016-01-24 03:12:08 -0500"
 }
 
