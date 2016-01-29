@@ -48,7 +48,7 @@
     {
       "title": "Comedians In Cars Getting Coffee",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4239/thumb_comedians-in-cars-getting-coffee-6bc8ce0698111617d89d2fb5466ff9ee.jpg",
-      "latest_episode_aired_on": "2016-01-20",
+      "latest_episode_aired_on": "2016-01-27",
       "first_episode_aired_on": "2012-07-19",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -694,6 +694,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2016-01-27 03:12:07 -0500"
+  "updated_at": "2016-01-29 03:12:08 -0500"
 }
 

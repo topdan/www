@@ -22,6 +22,21 @@
       }
     },
     {
+      "title": "Bone Tomahawk",
+      "year": 2015,
+      "release_date": "2015-10-23",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19186/thumb_bone-tomahawk-2015-21ffd3c29c619f032e7924ed117e8e37.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B01621G7NE",
+        "amazon_prime": "http://www.amazon.com/gp/product/B01621G7NE",
+        "itunes": "https://itunes.apple.com/us/movie/bone-tomahawk/id1041641970"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2494362/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/bone_tomahawk/"
+      }
+    },
+    {
       "title": "Ex Machina",
       "year": 2015,
       "release_date": "2015-04-24",
@@ -77,6 +92,18 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt1392190/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/mad_max_fury_road/"
+      }
+    },
+    {
+      "title": "Sicario",
+      "year": 2015,
+      "release_date": "2015-10-02",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16454/thumb_sicario-2015-1b0914f9d50f2870e876adc7bb734ed5.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3397884/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/sicario_2015/"
       }
     },
     {
@@ -2754,8 +2781,7 @@
       "release_date": "2001-06-28",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14688/thumb_crazy-beautiful-2001-54a452440b80ec66c7190e357829dfc1.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B003V5HXRY",
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/137823"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B003V5HXRY"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0250224/",
@@ -3652,6 +3678,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-01-28 03:12:08 -0500"
+  "updated_at": "2016-01-29 03:12:08 -0500"
 }
 
