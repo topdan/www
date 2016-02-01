@@ -22,7 +22,7 @@ Since the 1700's, [representative democracy](http://en.wikipedia.org/wiki/Repres
 
 [Only about 60% of the eligible population votes during presidential election years, and about 40% votes during midterm elections](http://www.fairvote.org/research-and-analysis/voter-turnout/): the majority never chooses a nationally elected official.
 
-I haven't voted since 2004, and others tell me that means I have _"no right to complain"_, but I disagree. __The system has failed__: more people deciding to not vote than selecting a particular candidate indicates a systemic problem that no "get out the vote" campaign can correct.
+I haven't voted since 2004, and others tell me that means I have _"no right to complain"_, but I disagree. __The system has failed__: more people deciding not to vote than selecting a particular candidate indicates a systemic problem that no "get out the vote" campaign can correct.
 
 Instead of guilting, [threatening](https://www.google.com/search?q=vote+or+die), or blaming non-voters for not working within the system, __we should adjust the system to include the non-voting majority__.
 
@@ -34,7 +34,7 @@ Electoral districts are drawn and re-drawn to ensure every official represents t
 
 Elections reduce thousands or millions of people into one winner who reigns for multiple years: __the stakes are too high__.
 
-High stakes drive campaigns into million dollar budgets, which corporations gladly pay in exchange for political clout during the winner's rule. The current push to reform campaign finances will not work as long as [the election cycle encourages a systematic, repeatable approach](http://en.wikipedia.org/wiki/Congressional_stagnation_in_the_United_States).
+High stakes drive campaigns into million dollar budgets, which corporations gladly pay in exchange for political clout during the winner's rule. The current push to reform campaign finances will not work as long as [the election cycle encourages a systematic, repeatable approach to victory](http://en.wikipedia.org/wiki/Congressional_stagnation_in_the_United_States).
 
 Donations, friendships, future jobs, under-the-table arrangements: __people with money will always to find ways to receive favors from the people with power.__
 
@@ -67,7 +67,11 @@ Representative democracy's goal is to simply __set the rules and manage funds__,
 * [Vote](#voting)
 * [Review laws and spending](#reviewing-laws-and-spending)
 
-Not every community is ready for Internet-required policy-making but many are: high-tech towns and cities, home-owner associations, corporate governing boards, and white-collar unions.
+```raw
+<p class="alert alert-info">
+  Not every community is ready for website-driven policy-making but many are: high-tech towns, home-owner associations, corporate governing boards, and white-collar unions.
+</p>
+```
 
 ### [Assigning Your Representative](#assigning-your-representative)
 
@@ -81,7 +85,7 @@ Assigning a representative _is not_ required. The Internet makes everyone voting
 
 Real-time lending and revoking votes creates __a fluid pyramid of power__ which is:
 
-* Constantly adjusting to the needs of the people, making it hard to buy or control
+* Constantly adjusting to the needs of the people, making it harder to buy or control
 * Easier for the uninvolved to remain counted, encouraging more grass-root movements
 
 ### [Proposing a Law](#proposing-a-law)
@@ -90,7 +94,7 @@ Real-time lending and revoking votes creates __a fluid pyramid of power__ which 
 * Any member can discuss or propose changes to it
 * Everyone is held accountable for their involvement
 
-Who wrote [the 33,000 pages](http://www.washingtonpost.com/blogs/fact-checker/post/how-many-pages-of-regulations-for-obamacare/2013/05/14/61eec914-bcf9-11e2-9b09-1638acc3942e_blog.html) of the Affordable Healthcare Acts? How was [the Patriot Acts' 342 pages](http://gjs.appstate.edu/media-coverage-crime-and-criminal-justice/usa-PATRIOT-act) written, proposed, and passed between September 11 and October 26, 2001? Who added/removed that phrasing? When did they do it? What was it before?
+Who wrote [the 33,000 pages](http://www.washingtonpost.com/blogs/fact-checker/post/how-many-pages-of-regulations-for-obamacare/2013/05/14/61eec914-bcf9-11e2-9b09-1638acc3942e_blog.html) of the Affordable Healthcare Act? How was [the Patriot Acts' 342 pages](http://gjs.appstate.edu/media-coverage-crime-and-criminal-justice/usa-PATRIOT-act) written, proposed, and passed between September 11 and October 26, 2001? Who added/removed that phrasing? When did they do it? What was it before?
 
 The same questions software-makers have been answering for decades with [version control systems](http://en.wikipedia.org/wiki/Revision_control). Github.com is leading the latest movement in version control: social collaboration, review, and management. For example, here is a popular software package's [introductory file](https://raw.githubusercontent.com/rails/rails/master/README.md) and here is:
 
@@ -106,14 +110,14 @@ Making the law-writing process more transparent encourages more people to be inv
 
 ### [Voting](#voting)
 
-Bills become laws when they pass a community vote. Members cast their votes and those lended to them on the community website. Vote lenders can see how their vote was cast and optionally revoke it. The community's constitution or operating agreement lays out the details such as:
+Bills become laws when they pass a community vote. Members cast their votes and those lended to them on the community website. Vote lenders can see how their vote was cast and optionally revoke it. The community's constitution or operating agreement lays out the details:
 
 * When does a bill become available to vote?
 * How long is a vote open?
 * What percent is required for a vote to pass?
 * What is the maximum number of votes a single person can hold?
 * How long after the voting deadline can lended votes be revoked?
-* How to balance privacy with transparency and accountability?
+* How is privacy balanced with transparency and accountability?
 
 ### [Reviewing laws and spending](#reviewing-laws-and-spending)
 
@@ -125,10 +129,10 @@ Other branches of government determine how laws are interpreted and enforced, bu
 
 ## [Wrap-up](#wrap-up)
 
-I don't expect any such website to exist at a national level anytime soon. There was a reason the United States was at the forefront of democracy in the 1700's: adopting new ideas is easier when starting from scratch. Changing existing systems is more gradual, start small and slowly gain acceptance into larger and larger communities.
+I don't expect any such website to exist at a national level anytime soon. There was a reason the United States was at the forefront of democracy in the 1700's: adopting new ideas is easier when starting from scratch. Changing existing systems is more gradual: start small and slowly gain acceptance into larger and larger communities.
 
 The growing number of [referendums](http://en.wikipedia.org/wiki/Referendum) is an encouraging sign that democracy is moving towards the individual, but they're normally limited to social issues like marriage and marijuana. The meat of power and policy remains in the hands of the connected and privileged. __A transparent and fluid legislature would provide everyone with a more representative democracy__.
 
 ```raw
-<p class="alert alert-info punchline"><a href="#assigning-your-representative"><strong>Elections aren't longer necessary for representative democracy.</strong></a></p>
+<p class="alert alert-info punchline"><a href="#assigning-your-representative"><strong>Elections are no longer necessary for representative democracy.</strong></a></p>
 ```
