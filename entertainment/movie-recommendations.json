@@ -192,7 +192,6 @@
       "release_date": "2014-11-07",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11953/thumb_big-hero-6-2014-7d17e95cb7ea0734e97468debda52a2a.jpg",
       "streams": {
-        "encore": "http://www.encoreplay.com/Movies/Details/23790",
         "itunes": "https://itunes.apple.com/us/movie/big-hero-6/id929423754",
         "starz_com": "http://www.starzplay.com/Movies/Details/23790"
       },
@@ -933,6 +932,7 @@
       "release_date": "2013-05-31",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9745/thumb_the-kings-of-summer-2013-4dba2bf4d257674780293dae296b75ac.jpg",
       "streams": {
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2179116/",
@@ -2275,7 +2275,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12507/thumb_sin-city-2005-364cefb4bfe57f4cfd2f0ad09422f0db.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0065FIHYA",
-        "amazon_prime": null
+        "amazon_prime": null,
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0401792/",
@@ -2369,7 +2370,8 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001TAJGO6",
         "amazon_prime": "http://www.amazon.com/gp/product/B001TAJGO6",
-        "itunes": "https://itunes.apple.com/us/movie/eternal-sunshine-spotless/id303440550"
+        "itunes": "https://itunes.apple.com/us/movie/eternal-sunshine-spotless/id303440550",
+        "starz_com": "http://www.starzplay.com/Movies/Details/25239"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0338013/",
@@ -2549,7 +2551,8 @@
       "release_date": "2003-09-26",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3662/thumb_lost-in-translation-2003-7e6dabe4b51aa2abe920695d35a37a67.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001NLCBJI"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001NLCBJI",
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0335266/",
@@ -2919,7 +2922,8 @@
       "release_date": "2001-01-12",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11394/thumb_crouching-tiger-hidden-dragon-2000-76eb73af371b672ec7ab93510279c255.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B006LWKG2S"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B006LWKG2S",
+        "starz_com": "http://www.starzplay.com/Movies/Details/24146"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0190332/",
@@ -3196,8 +3200,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00AYB18LK",
         "amazon_prime": "http://www.amazon.com/gp/product/B00AYB18LK",
-        "netflix": "https://www.netflix.com/title/17236920",
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3393622"
+        "netflix": "https://www.netflix.com/title/17236920"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0128442/",
@@ -3322,7 +3325,8 @@
       "release_date": "1997-05-09",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11403/thumb_the-fifth-element-1997-62646e733ca3f8d2968fcb5477dd7964.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000S6BKSC"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000S6BKSC",
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0119116/",
@@ -3557,7 +3561,7 @@
       "release_date": "1987-07-17",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14936/thumb_robocop-1987-20d571be93e5bcbd4709a0a23b6fc251.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP34676?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48456?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "netflix": "https://www.netflix.com/title/17017738"
       },
       "references": {
@@ -3678,6 +3682,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-01-31 03:12:08 -0500"
+  "updated_at": "2016-02-02 03:12:09 -0500"
 }
 
