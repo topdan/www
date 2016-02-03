@@ -333,7 +333,6 @@
       "release_date": "2014-10-03",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11196/thumb_gone-girl-2014-fe65e04a0c3525ac3e0e14b6766da6c2.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46787?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/gone-girl/id917874539"
       },
       "references": {
@@ -433,7 +432,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11187/thumb_i-origins-2014-0d116d2940af4a2d9f409eb65c7a6e9f.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00QH4IAW8",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37584?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48823?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2884206/",
@@ -2007,7 +2006,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16538/thumb_beerfest-2006-cba3917d3a2092c099a92c25193d905e.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000MFGPOI",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37705?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48812?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0486551/",
@@ -2062,8 +2061,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15041/thumb_idiocracy-2006-eff19a85239c088d2c5bea205fe846ac.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000LWBSDU",
-        "itunes": "https://itunes.apple.com/us/movie/idiocracy/id292230713",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37312?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "itunes": "https://itunes.apple.com/us/movie/idiocracy/id292230713"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0387808/",
@@ -2524,8 +2522,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1048/thumb_big-fish-2003-fd641f8ed7bbc30fafabf24b722289be.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B007PJFFWC",
-        "amazon_prime": "http://www.amazon.com/gp/product/B007PJFFWC",
-        "netflix": "https://www.netflix.com/title/60031268"
+        "amazon_prime": "http://www.amazon.com/gp/product/B007PJFFWC"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0319061/",
@@ -2725,8 +2722,7 @@
       "release_date": "2002-10-11",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/6727/thumb_the-rules-of-attraction-2002-abb63511abd0785689607714f5aa24b1.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B007K2NV6Q",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP28651?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B007K2NV6Q"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0292644/",
@@ -2964,7 +2960,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15722/thumb_o-brother-where-art-thou-2000-c9b3186838023630cde834a31ceca1ee.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B003V5CFV8",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46153?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38404?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0190590/",
@@ -3682,6 +3678,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-02-02 03:12:09 -0500"
+  "updated_at": "2016-02-03 03:12:08 -0500"
 }
 
