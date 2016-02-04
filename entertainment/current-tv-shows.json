@@ -147,6 +147,23 @@
       }
     },
     {
+      "title": "The Muppets",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4593/thumb_the-muppets-d9025506a1dce6e0abe045c81baf6bed.jpg",
+      "latest_episode_aired_on": "2016-02-02",
+      "first_episode_aired_on": "2015-09-22",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "abc_com": "http://abc.go.com/shows/the-muppets",
+        "amazon_one_click": "https://www.amazon.com/gp/product/B015NY4FC6",
+        "hulu": "http://www.hulu.com/the-muppets"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4651824/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Muppets_%28TV_series%29"
+      }
+    },
+    {
       "title": "Another Period",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4156/thumb_another-period-d186b559a3f9b8203c57589f9a7ce2ea.jpg",
       "latest_episode_aired_on": "2015-08-25",
@@ -467,23 +484,6 @@
       }
     },
     {
-      "title": "The Muppets",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4593/thumb_the-muppets-d9025506a1dce6e0abe045c81baf6bed.jpg",
-      "latest_episode_aired_on": "2015-12-08",
-      "first_episode_aired_on": "2015-09-22",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "abc_com": "http://abc.go.com/shows/the-muppets",
-        "amazon_one_click": "https://www.amazon.com/gp/product/B015NY4FC6",
-        "hulu": "http://www.hulu.com/the-muppets"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt4651824/",
-        "wikipedia": "https://en.wikipedia.org/wiki/The_Muppets_%28TV_series%29"
-      }
-    },
-    {
       "title": "The Walking Dead",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead-5a9c2349b9ba8b3af699d9085797f51a.jpg",
       "latest_episode_aired_on": "2015-11-29",
@@ -694,6 +694,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2016-02-02 03:12:09 -0500"
+  "updated_at": "2016-02-04 03:12:08 -0500"
 }
 
