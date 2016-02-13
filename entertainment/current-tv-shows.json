@@ -97,7 +97,7 @@
     {
       "title": "iZombie",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3879/thumb_izombie-8b70cfc7520e5e6dd998379c5a6334f1.jpg",
-      "latest_episode_aired_on": "2016-02-02",
+      "latest_episode_aired_on": "2016-02-09",
       "first_episode_aired_on": "2015-03-17",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -116,7 +116,7 @@
     {
       "title": "Limitless",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4628/thumb_limitless-0ec52c73671f1c76297610d5d3b61d3d.jpg",
-      "latest_episode_aired_on": "2016-01-19",
+      "latest_episode_aired_on": "2016-02-09",
       "first_episode_aired_on": "2015-09-17",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -127,6 +127,37 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt4422836/",
         "wikipedia": "https://en.wikipedia.org/wiki/Limitless_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Man Seeking Woman",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4942/thumb_man-seeking-woman-98380510bd538459ef32a0119d76ed09.jpg",
+      "latest_episode_aired_on": "2016-02-10",
+      "first_episode_aired_on": "2015-01-14",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "fx_networks_com": null,
+        "hulu": "http://www.hulu.com/man-seeking-woman"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4189492/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Man_Seeking_Woman"
+      }
+    },
+    {
+      "title": "The Expanse",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4825/thumb_the-expanse-dca237a43c13a2b8fb084fff16d7eb89.jpg",
+      "latest_episode_aired_on": "2016-02-02",
+      "first_episode_aired_on": "2015-11-23",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "syfy_com": "http://www.syfy.com/theexpanse/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3230854/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Expanse_%28TV_series%29"
       }
     },
     {
@@ -161,6 +192,24 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt4651824/",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Muppets_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Undateable",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3091/thumb_undateable-40670bc2e1bb5a654af7ee402ba024f6.jpg",
+      "latest_episode_aired_on": "2016-01-15",
+      "first_episode_aired_on": "2014-05-29",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "https://www.amazon.com/gp/product/B00UO9FHHI",
+        "hulu": "http://www.hulu.com/undateable",
+        "nbc_com": "http://www.nbc.com/undateable/video"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2788780/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/mobile/tv/undateable/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Undateable"
       }
     },
     {
@@ -694,6 +743,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2016-02-08 03:12:08 -0500"
+  "updated_at": "2016-02-13 13:52:26 -0500"
 }
 

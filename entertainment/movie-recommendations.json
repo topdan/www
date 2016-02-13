@@ -2383,8 +2383,7 @@
       "release_date": "2004-07-28",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8141/thumb_garden-state-2004-868142e44ae91289103e9f45d8c8a38e.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000I9X6Q8",
-        "encore": "http://www.encoreplay.com/Movies/Details/23546"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000I9X6Q8"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0333766/",
@@ -2522,8 +2521,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1048/thumb_big-fish-2003-fd641f8ed7bbc30fafabf24b722289be.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B007PJFFWC",
-        "amazon_prime": "http://www.amazon.com/gp/product/B007PJFFWC",
-        "encore": "http://www.encoreplay.com/Movies/Details/18891"
+        "amazon_prime": "http://www.amazon.com/gp/product/B007PJFFWC"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0319061/",
@@ -2837,7 +2835,6 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00COH0W00",
         "amazon_prime": "http://www.amazon.com/gp/product/B00COH0W00",
-        "encore": "http://www.encoreplay.com/Movies/Details/1541",
         "netflix": "https://www.netflix.com/title/60021634",
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3393624",
         "starz_com": "http://www.starzplay.com/Movies/Details/1541"
@@ -3071,7 +3068,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7943/thumb_office-space-1999-98bcd9fa2e32a1e4f95adaf8e9b581f4.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9YWDO",
-        "encore": "http://www.encoreplay.com/Movies/Details/24157",
         "itunes": "https://itunes.apple.com/us/movie/office-space/id273369330"
       },
       "references": {
@@ -3210,7 +3206,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11543/thumb_the-big-hit-1998-7bd5a34dd7da389271dd5692032924eb.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001DIJ5AY",
-        "encore": "http://www.encoreplay.com/Movies/Details/9296",
         "netflix": "https://www.netflix.com/title/14606161"
       },
       "references": {
@@ -3278,7 +3273,6 @@
       "release_date": "1997-10-24",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11039/thumb_gattaca-1997-e7450d3b84f2fc7be9ce9b28b74297e9.jpg",
       "streams": {
-        "encore": "http://www.encoreplay.com/Movies/Details/9376"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0119177/",
@@ -3392,7 +3386,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10734/thumb_the-usual-suspects-1995-5ff8b825c83a470ed4c709c424ed01d5.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00101ZOTA",
-        "encore": "http://www.encoreplay.com/Movies/Details/1872",
         "itunes": "https://itunes.apple.com/us/movie/the-usual-suspects/id267913118"
       },
       "references": {
@@ -3502,7 +3495,6 @@
       "release_date": "1990-06-01",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14219/thumb_total-recall-1990-ce65480a5a38bc0e35f9b89a883223dd.jpg",
       "streams": {
-        "encore": "http://www.encoreplay.com/Movies/Details/24481"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0100802/",
@@ -3679,6 +3671,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-02-12 03:12:08 -0500"
+  "updated_at": "2016-02-13 03:12:08 -0500"
 }
 
