@@ -137,7 +137,7 @@
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
       "streams": {
-        "fx_networks_com": null,
+        "fx_networks_com": "http://www.fxnetworks.com/shows/man-seeking-woman/episodes",
         "hulu": "http://www.hulu.com/man-seeking-woman"
       },
       "references": {
@@ -743,6 +743,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2016-02-13 13:52:26 -0500"
+  "updated_at": "2016-02-15 03:12:08 -0500"
 }
 
