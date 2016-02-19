@@ -28,7 +28,7 @@
     {
       "title": "Bob's Burgers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
-      "latest_episode_aired_on": "2016-01-17",
+      "latest_episode_aired_on": "2016-02-14",
       "first_episode_aired_on": "2011-01-09",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -192,6 +192,23 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt4651824/",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Muppets_%28TV_series%29"
+      }
+    },
+    {
+      "title": "The Walking Dead",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead-5a9c2349b9ba8b3af699d9085797f51a.jpg",
+      "latest_episode_aired_on": "2016-02-14",
+      "first_episode_aired_on": "2010-10-31",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B004A9F9ZI",
+        "amc_com": "http://www.amc.com/shows/the-walking-dead",
+        "netflix": "https://www.netflix.com/title/70177057"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1520211/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Walking_Dead_%28TV_series%29"
       }
     },
     {
@@ -533,23 +550,6 @@
       }
     },
     {
-      "title": "The Walking Dead",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead-5a9c2349b9ba8b3af699d9085797f51a.jpg",
-      "latest_episode_aired_on": "2015-11-29",
-      "first_episode_aired_on": "2010-10-31",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B004A9F9ZI",
-        "amc_com": "http://www.amc.com/shows/the-walking-dead",
-        "netflix": "https://www.netflix.com/title/70177057"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt1520211/",
-        "wikipedia": "https://en.wikipedia.org/wiki/The_Walking_Dead_%28TV_series%29"
-      }
-    },
-    {
       "title": "True Detective",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2600/thumb_true-detective-032dd607e265f856e7794151363be20d.jpg",
       "latest_episode_aired_on": "2015-08-10",
@@ -743,6 +743,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2016-02-15 03:12:08 -0500"
+  "updated_at": "2016-02-19 03:12:09 -0500"
 }
 
