@@ -1,0 +1,1 @@
+$("#post-1").removeClass("locked");
