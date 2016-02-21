@@ -1,44 +1,59 @@
-<p class="header-image"><%= post_image_tag 'cast.jpg' %></p>
+<div class="row bg-black pt-2e pb-2e">
+  <div class="col-md-12">
+    <div class="width-640 ml-auto mr-auto">
+      <p><%= post_image_tag 'cast.jpg', class: 'full-width' %></p>
 
-<h2 id="actors" class="clear">Actors</h2>
-<p class="alert alert-definition post-description">
-  <a href="http://www.imdb.com/title/tt0238784/">Gilmore Girls</a> was an early stop for many who later found notoriety in more visible roles. Below lists actors with more than one appearance, which excludes the quick appearances of Mad Men’s <a href="http://www.imdb.com/name/nm0358316/">Jon Hamm</a> and New Girl’s <a href="http://www.imdb.com/name/nm0339011/">Max Greenfield</a>.
-</p>
-
-<ul class="alumni">
-  <% @current_post.data.collect {|e| e if e.job == 'actor' }.compact.in_groups_of(3).each do |group| %>
-    <% group.compact.each_with_index do |member, i| %>
-    <li class="<%= 'separator' if i == 0 %>">
-      <h3><%= link_to member.name, member.imdb_url %></h3>
-      <p class="posters"><%= member.posters.collect {|img, url| link_to post_image_tag(img), url }.join(' ').html_safe %></p>
-      <p class="episodes-count"><%= member.episodes_count %> episodes</p>
-      <%= post_markdown member.description %>
-    </li>
-    <% end %>
-  <% end %>
-</ul>
-
-<h2 id="directors" class="clear">Directors</h2>
-<div class="alert alert-definition post-description">
-  <p>
-    TV is more an actors or writers medium than directors who tend to work on an episode here and there. Though of the 12 people that directed 5+ episodes, half went on to bigger roles in shows highlighting strong females and family-oriented content.
-  </p>
+      <h2 id="actors" class="mt-2e center">Actors</h2>
+      <p class="alert bg-white">
+        <a href="http://www.imdb.com/title/tt0238784/">Gilmore Girls</a> was an early stop for many who later found notoriety in more visible roles. Below lists actors with more than one appearance, which excludes the quick appearances of Mad Men’s <a href="http://www.imdb.com/name/nm0358316/">Jon Hamm</a> and New Girl’s <a href="http://www.imdb.com/name/nm0339011/">Max Greenfield</a>.
+      </p>
+    </div>
+  </div>
 </div>
 
-<ul class="alumni">
-  <% @current_post.data.collect {|e| e if e.job == 'director' }.compact.in_groups_of(3).each do |group| %>
-    <% group.compact.each_with_index do |member, i| %>
-    <li class="<%= 'separator' if i == 0 %>">
+<div class="row posters bg-black pt-2e pb-2e">
+  <% @current_post.data.collect {|e| e if e.job == 'actor' }.compact.each do |member| %>
+    <div class="poster-300 bg-white bra-5 mt-1e mb-1e ml-1e mr-1e">
       <h3><%= link_to member.name, member.imdb_url %></h3>
-      <p class="posters"><%= member.posters.collect {|img, url| link_to post_image_tag(img), url }.join(' ').html_safe %></p>
-      <p class="episodes-count"><%= member.episodes_count %> episodes</p>
-      <%= post_markdown member.description %>
-    </li>
-    <% end %>
+      <p><%= member.posters.collect {|img, url| link_to post_image_tag(img, class: 'b-ccc'), url }.join(' ').html_safe %></p>
+      <p><strong><%= member.episodes_count %> episodes</strong></p>
+      <div class="left underline-links">
+        <%= post_markdown member.description %>
+      </div>
+    </div>
   <% end %>
-</ul>
+</div>
 
-<div class="clear"></div>
-<p id="wrapup" class="alert alert-definition post-description">
-  Gilmore Girls’ format didn’t lend itself to easily introducing new characters like Seinfeld, 7th Heaven, or Friday Night Lights, making this list even more impressive. I regularly recognize faces in movies and shows only to find out they honed their acting chops in the fast-paced dialogue of Stars Hollow.
-</p>
+<div class="row bg-black pt-2e pb-2e">
+  <div class="col-md-12">
+    <div class="width-640 ml-auto mr-auto">
+      <h2 id="directors" class="mt-1e center">Directors</h2>
+      <p class="alert bg-white">
+        TV is more an actors or writers medium than directors who tend to work on an episode here and there. Though of the 12 people that directed 5+ episodes, half went on to bigger roles in shows highlighting strong females and family-oriented content.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="row posters bg-black pt-2e pb-2e">
+  <% @current_post.data.collect {|e| e if e.job == 'director' }.compact.each do |member| %>
+    <div class="poster-300 bg-white bra-5 mt-1e mb-1e ml-1e mr-1e">
+      <h3><%= link_to member.name, member.imdb_url %></h3>
+      <p><%= member.posters.collect {|img, url| link_to post_image_tag(img, class: 'b-ccc'), url }.join(' ').html_safe %></p>
+      <p><strong><%= member.episodes_count %> episodes</strong></p>
+      <div class="left underline-links">
+        <%= post_markdown member.description %>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+<div class="row bg-black pt-2e pb-2e">
+  <div class="col-md-12">
+    <div class="width-640 ml-auto mr-auto">
+      <p id="wrapup" class="alert bg-white">
+        Gilmore Girls’ format didn’t lend itself to easily introducing new characters like Seinfeld, 7th Heaven, or Friday Night Lights, making this list even more impressive. I regularly recognize faces in movies and shows only to find out they honed their acting chops in the fast-paced dialogue of Stars Hollow.
+      </p>
+    </div>
+  </div>
+</div>

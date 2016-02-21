@@ -13,16 +13,16 @@ Two approaches handle this problem: pinging and [websockets](https://github.com/
 ## [Demo](#demo)
 
 ```raw
-<p>Click to the following button to see the progress bar go <a id="start" href="#" class="btn btn-primary">Start</a> </p>
+<p>Click to the following button to see the progress bar go <a id="start" href="#" class="btn btn-primary btn-sm">Start</a> </p>
 
-<div id="demo-progress" class="progress-bar">
+<div id="demo-progress" class="b-ccc bra-5 pt-1e pb-1e pl-1e pr-1e">
   <div class="progress progress-striped">
-    <div class="bar" style="width: 0%;"></div>
+    <div class="progress-bar" style="width: 0%;">0%</div>
   </div>
-  <div class="message">Not Running...</div>
+  <div class="message fw-bold center monospace">Not Running...</div>
 </div>
 
-<p class="fine-print">This webpage is not hosted by Rails, so the above UX is just a simulation.</p>
+<p class="fs-12 c-ccc center">This webpage is not hosted by Rails, so the above UX is just a simulation.</p>
 ```
 
 ## [How it Works](#how-it-works)
@@ -71,11 +71,11 @@ end
 ### [](#demo-new)
 ```erb
 <!-- app/views/demos/new.html.erb -->
-<div id="demo" class="progress-bar" data-ping-time="1000">
+<div id="demo" data-ping-time="1000">
   <%= link_to 'Start', url_for(action: 'create'), 'data-remote' => true, 'data-type' => 'script' %>
 
   <div class="progress">
-    <div class="bar" style="width: 0%;"></div>
+    <div class="progress-bar" style="width: 0%;"></div>
   </div>
 
   <div class="message">Not Running...</div>
@@ -98,7 +98,7 @@ class @ProgressBar
     @url = url
 
     @message = @elem.find('.message')
-    @bar = @elem.find('.bar')
+    @bar = @elem.find('.progress-bar')
     @pingTime = parseInt(@elem.data('ping-time'))
 
   start: =>
@@ -107,7 +107,9 @@ class @ProgressBar
       dataType: 'json',
       success: (data) =>
         @message.html(data.message)
-        @bar.css('width', "#{data.percent}%")
+
+        percent = "#{data.percent}%"
+        @bar.css('width', percent).html(percent)
 
         if data.percent < 100
           setTimeout(@start, @pingTime)

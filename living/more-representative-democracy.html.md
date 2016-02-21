@@ -134,5 +134,5 @@ I don't expect any such website to exist at a national level anytime soon. There
 The growing number of [referendums](http://en.wikipedia.org/wiki/Referendum) is an encouraging sign that democracy is moving towards the individual, but they're normally limited to social issues like marriage and marijuana. The meat of power and policy remains in the hands of the connected and privileged. __A transparent and fluid legislature would provide everyone with a more representative democracy__.
 
 ```raw
-<p class="alert alert-info punchline"><a href="#assigning-your-representative"><strong>Elections are no longer necessary for representative democracy.</strong></a></p>
+<p class="alert alert-info center mt-4e"><a href="#assigning-your-representative"><strong>Elections are no longer necessary for representative democracy.</strong></a></p>
 ```

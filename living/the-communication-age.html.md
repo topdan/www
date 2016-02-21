@@ -93,5 +93,5 @@ Consistent world-wide communication has changed the way we live and has created 
 If you know me personally, this list should help you understand my choices: attempts to turn the Communication Age from a burden into a blessing.
 
 ```raw
-<p class="alert alert-info">For more on how computers brought about "The Communication Age" and what could be next read my article <a href="/technology/past-present-and-future-of-computers.html">"The Past, Present, and Future of Computers"</a>.</p>
+<p class="alert alert-info mt-4e">For more on how computers brought about "The Communication Age" and what could be next read my article <a href="/technology/past-present-and-future-of-computers.html">"The Past, Present, and Future of Computers"</a>.</p>
 ```

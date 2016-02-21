@@ -26,19 +26,17 @@ While I didn't possess an innate ability to draw (does anyone?), I have always b
 Over the course of several months (maybe a year, I honestly forget), I would pick a scene from a movie or a picture off the Internet and draw it. I never finished a drawing in one sitting, but would come back to it over the course of a week with a fresh perspective (do the eyes look right?!). My sketchpad slowly filled up. Here are some samples:
 
 ```raw
-<ul id="gallery-list">
-  <li><a href="/assets/living/learning-to-draw/kristen.jpg"><img src="thumbs/kristen.jpg" alt="Scarlet"/></a></li>
-  <li><a href="/assets/living/learning-to-draw/scarlet.jpg"><img src="thumbs/scarlet.jpg" alt="Scarlet"/></a></li>
-  <li><a href="/assets/living/learning-to-draw/sandra.jpg"><img src="thumbs/sandra.jpg" alt="Scarlet"/></a></li>
-  <li><a href="/assets/living/learning-to-draw/child.jpg"><img src="thumbs/child.jpg" alt="Scarlet"/></a></li>
-  <li><a href="/assets/living/learning-to-draw/mandy.jpg"><img src="thumbs/mandy.jpg" alt="Scarlet"/></a></li>
-  <li><a href="/assets/living/learning-to-draw/hair.jpg"><img src="thumbs/hair.jpg" alt="Scarlet"/></a></li>
-  <li><a href="/assets/living/learning-to-draw/shoulder.jpg"><img src="thumbs/shoulder.jpg" alt="Scarlet"/></a></li>
-  <li><a href="/assets/living/learning-to-draw/remember.jpg"><img src="thumbs/remember.jpg" alt="Scarlet"/></a></li>
-  <li><a href="/assets/living/learning-to-draw/heart.jpg"><img src="thumbs/heart.jpg" alt="Scarlet"/></a></li>
-  <li><a href="/assets/living/learning-to-draw/up.jpg"><img src="thumbs/up.jpg" alt="Scarlet"/></a></li>
-  <li><a href="/assets/living/learning-to-draw/monica.jpg"><img src="thumbs/monica.jpg" alt="Scarlet"/></a></li>
-</ul>
+<p><a href="/assets/living/learning-to-draw/kristen.jpg"><img src="thumbs/kristen.jpg" alt="Scarlet"/></a></p>
+<p><a href="/assets/living/learning-to-draw/scarlet.jpg"><img src="thumbs/scarlet.jpg" alt="Scarlet"/></a></p>
+<p><a href="/assets/living/learning-to-draw/sandra.jpg"><img src="thumbs/sandra.jpg" alt="Scarlet"/></a></p>
+<p><a href="/assets/living/learning-to-draw/child.jpg"><img src="thumbs/child.jpg" alt="Scarlet"/></a></p>
+<p><a href="/assets/living/learning-to-draw/mandy.jpg"><img src="thumbs/mandy.jpg" alt="Scarlet"/></a></p>
+<p><a href="/assets/living/learning-to-draw/hair.jpg"><img src="thumbs/hair.jpg" alt="Scarlet"/></a></p>
+<p><a href="/assets/living/learning-to-draw/shoulder.jpg"><img src="thumbs/shoulder.jpg" alt="Scarlet"/></a></p>
+<p><a href="/assets/living/learning-to-draw/remember.jpg"><img src="thumbs/remember.jpg" alt="Scarlet"/></a></p>
+<p><a href="/assets/living/learning-to-draw/heart.jpg"><img src="thumbs/heart.jpg" alt="Scarlet"/></a></p>
+<p><a href="/assets/living/learning-to-draw/up.jpg"><img src="thumbs/up.jpg" alt="Scarlet"/></a></p>
+<p><a href="/assets/living/learning-to-draw/monica.jpg"><img src="thumbs/monica.jpg" alt="Scarlet"/></a></p>
 ```
 
 ## [The Point](#the-point)
@@ -50,7 +48,7 @@ Upon seeing the drawings, people's reaction was normally "you're so talented," g
 Time spent in my alone apartment, not showing anything to anyone. In contrast, [The Communication Age](/living/the-communication-age.html) tempts you to communicate the every step of development and creation instead of truly focusing on becoming better.
 
 ```raw
-<p class="alert alert-info centered">
+<p class="alert alert-info center mt-4e">
   Why did my iPhone replace hobbies?
 </p>
 ```

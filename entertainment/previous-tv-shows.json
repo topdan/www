@@ -3,6 +3,7 @@
   "description": "TV shows I watched every episode and enjoyed enough that I added them to this list.",
   "format": "erb",
   "featured": 4,
+  "width": "full",
   "uses_javascript": true,
   "published_at": "2012-03-18 16:00:00 UTC",
   "data_type": "Entertainment::TvShow",
@@ -481,6 +482,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-12-11 18:44:41 -0500"
+  "updated_at": "2016-02-21 10:58:13 -0500"
 }
 

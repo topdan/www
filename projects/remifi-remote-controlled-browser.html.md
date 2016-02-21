@@ -81,7 +81,7 @@ I spent some time polishing up the Firefox plugin and named it [remifi](http://w
 * 10-foot interfaces still smell
 
 ```raw
-<p class="alert alert-info">
+<p class="alert alert-info mt-2e">
   You can review the source code on <a href="https://github.com/topdan/remifi-firefox">github</a> and watch the demostrations at <a href="http://www.remifi.com">remifi.com</a>.
 </p>
 ```

@@ -18,7 +18,7 @@
   <meta name="og:title" content="Protecting Yourself from Malicious params">
   <meta name="og:description" content="The issues and solutions to making your application's handling of user parameters secure by default, before Ruby on Rails offered an out-of-the-box solution..">
   <link rel="shortcut icon" href="../assets/favicon-e45cdd6cc07e8858a985e6014e38a603.png">
-  <link rel="stylesheet" media="all" href="../assets/site-894b5d7aaf13eb2db2d592e33c841d83.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+  <link rel="stylesheet" media="all" href="../assets/site-d968d7271437bc0455909579aceeefdf.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
 
   <script type="text/javascript">
   if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
@@ -35,44 +35,45 @@
   }
   </script>
 </head>
-<body id="param-accessible" class="navigatable">
-  <a id="top"></a>
-  <ul class="navigation">
-    <li class="prev">
-      <a href="aws-s3-browser.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Browsing Files & Directories in S3</span><span class="less">Previous</span></a>
-    </li>
-    <li>
-      <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
-    </li>
-    <li class="next">
-      <a href="working-with-web-apis.html"><span class="more">The Tricky World of Using Web APIs</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
-    </li>
-  </ul>
-  <div class="content">
-    <div class="container post">
-      <p class="byline">Published by Dan on Mar 14, 2012</p>
-      <h1><a href="param-accessible.html">Protecting Yourself from Malicious params</a></h1><!-- post:content:start -->
-      <p class="alert alert-danger"><span class="label label-important">Update</span> This article was written prior to DHH releasing the <a href="https://github.com/rails/strong_parameters">strong_parameters</a> gem, which also moves the responsibility from the model to controller, though it doesn't use a <code>*_filter</code> approach. I suggest you use <code>strong_parameters</code>.</p>
-      <h2 id="homakov"><a href="#homakov">homakov starts a firestorm</a></h2>
-      <p>On March 2012, <a href="https://github.com/rails/rails/commit/b83965785db1eec019edf1fc272b1aa393e6dc57">homakov pushed a commit</a> that launched a thousand opinions. He gamed the github.com security system to give himself write access to the Rails repository. The security flaw he exposed is a well-documented <a href="http://guides.rubyonrails.org/security.html#mass-assignment">Rails security consideration,</a> but what caused such an uproar was the victim: github.com, one of the flagship Ruby on Rails development teams. If they can accidently expose such a security hole then anyone can. Could Rails provide more help?</p>
-      <h2 id="attr_accessible"><a href="#attr_accessible">attr_accessible isn't the problem</a></h2>
-      <p>Proposed solutions normally center around how Rails could strengthen <code>attr_accessible</code>. Here's one of <a href="https://gist.github.com/1978709">the more thorough descriptions</a> of the problem and how to prevent it. At the end of the article, he links to <a href="https://gist.github.com/1974187">a gist by Yehuda Katz</a> that brings up the central point: user supplied parameters are a concern of the controller not the model.</p>
-      <p class="alert alert-notice"><strong>Quick Sidebar:</strong> I use attr_accessible when the assignment is handled within the model, such as an id, created_at, updated_at, and counter_caches. Controllers, seed files and unit tests never need to set these attributes, but they could by explicitly using the attribute writer.</p>
-      <h2 id="param_protected"><a href="#param_protected">param_protected: Moving Protection to the Controller</a></h2>
-      <p>The <a href="https://github.com/cjbottaro/param_protected">param_protected</a> gem adds <code>param_protected</code> and <code>param_accessible</code> to <code>ActionController::Base</code> which override <code>params</code>. It supports parameter nesting, regexes and if, unless, only, and except options. It takes a large step in the right direction: now the protection is in the proper class!</p>
-      <p><strong>But I think param_protected falls short:</strong></p>
-      <ul>
-        <li>The user is not told if a parameter they supplied was invalid. Web API's should not silently ignore user input.</li>
-        <li>Remove param_protected because it only encourages security holes by allowing controllers to accept new attributes by default. If the developer means to expose a new attribute in a specific controller, they should edit that controller.</li>
-        <li>Lastly, I don't like internal implementation of replacing ActionController#params. I'd rather leave such a central rails method unchanged and use a more flexible and accepted approach: before_filters.</li>
-      </ul>
-      <h2 id="param_accessible"><a href="#param_accessible">param_accessible: Securing by default "The Rails Way"</a></h2>
-      <p>I decided to fix my problems with param_protected, but since I don't want the param_protected method and I wanted to change the internal implementation, I made an entirely new gem: <a href="https://github.com/topdan/param_accessible">param_accessible</a>.</p>
-      <p>The gem integrates into your Rails application with a before_filter and supports nested attributes, regexes and the if, unless, only, and except options. It also stops any request with invalid parameters by throwing an exception, which can be handled the same way as ActiveRecord::RecordNotFound, giving the developer flexibility and the client a detailed explanation of what they did wrong and how to fix it.</p>
-      <p>For more information see the example code below or check out the gem <a href="https://github.com/topdan/param_accessible">here</a>. It should get your application secure quickly, easily, and in a friendly manner.</p>
-      <h2 id="examples"><a href="#examples">param_accessible: Example</a></h2>
-      <div class="highlight">
-        <pre><span class="c1">#</span>
+<body id="param-accessible">
+  <div class="container bg-black full-width">
+    <div class="row navigation">
+      <a id="top"></a> <a href="aws-s3-browser.html" class="previous"><span class="fa fa-arrow-left">&nbsp;</span> <span class="desktop">Browsing Files & Directories in S3</span><span class="mobile">Previous</span></a> <a href="working-with-web-apis.html" class="next"><span class="desktop">The Tricky World of Using Web APIs</span><span class="mobile">Next</span> <span class="fa fa-arrow-right">&nbsp;</span></a>
+      <p><a href="../"><span class="fa fa-home">&nbsp;</span></a> &nbsp;»&nbsp;<span class="title desktop"><a href="index.html">Ruby on Rails</a></span><span class="mobile"><a href="index.html"><span class="fa fa-folder-open">&nbsp;</span></a></span></p>
+    </div>
+    <div class="row bg-white">
+      <div class="col-md-12">
+        <div class="width-640 ml-auto mr-auto">
+          <p class="mt-05e mb-15e ta-right c-ccc">Published by Dan on Mar 14, 2012</p>
+          <h1 class="center of-yh mb-0"><a href="param-accessible.html">Protecting Yourself from Malicious params</a></h1>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-white">
+      <div class="col-md-12">
+        <div class="width-640 ml-auto mr-auto post">
+          <!-- post:content:start -->
+          <p class="alert alert-danger"><span class="label label-info">Update</span> This article was written prior to DHH releasing the <a href="https://github.com/rails/strong_parameters">strong_parameters</a> gem, which also moves the responsibility from the model to controller, though it doesn't use a <code>*_filter</code> approach. I suggest you use <code>strong_parameters</code>.</p>
+          <h2 id="homakov"><a href="#homakov">homakov starts a firestorm</a></h2>
+          <p>On March 2012, <a href="https://github.com/rails/rails/commit/b83965785db1eec019edf1fc272b1aa393e6dc57">homakov pushed a commit</a> that launched a thousand opinions. He gamed the github.com security system to give himself write access to the Rails repository. The security flaw he exposed is a well-documented <a href="http://guides.rubyonrails.org/security.html#mass-assignment">Rails security consideration,</a> but what caused such an uproar was the victim: github.com, one of the flagship Ruby on Rails development teams. If they can accidently expose such a security hole then anyone can. Could Rails provide more help?</p>
+          <h2 id="attr_accessible"><a href="#attr_accessible">attr_accessible isn't the problem</a></h2>
+          <p>Proposed solutions normally center around how Rails could strengthen <code>attr_accessible</code>. Here's one of <a href="https://gist.github.com/1978709">the more thorough descriptions</a> of the problem and how to prevent it. At the end of the article, he links to <a href="https://gist.github.com/1974187">a gist by Yehuda Katz</a> that brings up the central point: user supplied parameters are a concern of the controller not the model.</p>
+          <p class="alert alert-info"><strong>Quick Sidebar:</strong> I use <code>attr_accessible</code> when the assignment is handled within the model, such as an id, created_at, updated_at, and counter_caches. Controllers, seed files and unit tests never need to set these attributes, but they could by explicitly using the attribute writer.</p>
+          <h2 id="param_protected"><a href="#param_protected">param_protected: Moving Protection to the Controller</a></h2>
+          <p>The <a href="https://github.com/cjbottaro/param_protected">param_protected</a> gem adds <code>param_protected</code> and <code>param_accessible</code> to <code>ActionController::Base</code> which override <code>params</code>. It supports parameter nesting, regexes and if, unless, only, and except options. It takes a large step in the right direction: now the protection is in the proper class!</p>
+          <p><strong>But I think param_protected falls short:</strong></p>
+          <ul>
+            <li>The user is not told if a parameter they supplied was invalid. Web API's should not silently ignore user input.</li>
+            <li>Remove param_protected because it only encourages security holes by allowing controllers to accept new attributes by default. If the developer means to expose a new attribute in a specific controller, they should edit that controller.</li>
+            <li>Lastly, I don't like internal implementation of replacing ActionController#params. I'd rather leave such a central rails method unchanged and use a more flexible and accepted approach: before_filters.</li>
+          </ul>
+          <h2 id="param_accessible"><a href="#param_accessible">param_accessible: Securing by default "The Rails Way"</a></h2>
+          <p>I decided to fix my problems with param_protected, but since I don't want the param_protected method and I wanted to change the internal implementation, I made an entirely new gem: <a href="https://github.com/topdan/param_accessible">param_accessible</a>.</p>
+          <p>The gem integrates into your Rails application with a before_filter and supports nested attributes, regexes and the if, unless, only, and except options. It also stops any request with invalid parameters by throwing an exception, which can be handled the same way as ActiveRecord::RecordNotFound, giving the developer flexibility and the client a detailed explanation of what they did wrong and how to fix it.</p>
+          <p>For more information see the example code below or check out the gem <a href="https://github.com/topdan/param_accessible">here</a>. It should get your application secure quickly, easily, and in a friendly manner.</p>
+          <h2 id="examples"><a href="#examples">param_accessible: Example</a></h2>
+          <div class="highlight">
+            <pre><span class="c1">#</span>
 <span class="c1"># app/controllers/application_controller.rb</span>
 <span class="c1">#</span>
 <span class="k">class</span> <span class="nc">ApplicationController</span> <span class="o">&lt;</span> <span class="no">ActionController</span><span class="o">::</span><span class="no">Base</span>
@@ -95,9 +96,9 @@
 
 <span class="k">end</span>
 </pre>
-      </div>
-      <div class="highlight">
-        <pre><span class="c1">#</span>
+          </div>
+          <div class="highlight">
+            <pre><span class="c1">#</span>
 <span class="c1"># app/controllers/users_controller.rb</span>
 <span class="c1">#</span>
 <span class="k">class</span> <span class="nc">UsersController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
@@ -120,9 +121,9 @@
   <span class="k">end</span>
 <span class="k">end</span>
 </pre>
-      </div>
-      <div class="highlight">
-        <pre><span class="c1">#</span>
+          </div>
+          <div class="highlight">
+            <pre><span class="c1">#</span>
 <span class="c1"># app/controllers/demo_controller.rb</span>
 <span class="c1">#</span>
 <span class="k">class</span> <span class="nc">DemoController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
@@ -138,9 +139,9 @@
 
 <span class="k">end</span>
 </pre>
-      </div>
-      <div class="highlight">
-        <pre><span class="c1">#</span>
+          </div>
+          <div class="highlight">
+            <pre><span class="c1">#</span>
 <span class="c1"># app/controllers/insecure_controller.rb</span>
 <span class="c1">#</span>
 <span class="k">class</span> <span class="nc">InsecureController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
@@ -150,44 +151,31 @@
 
 <span class="k">end</span>
 </pre>
-      </div><!-- post:content:end -->
-    </div>
-  </div>
-  <div id="footer">
-    <ul class="navigation">
-      <li class="prev">
-        <a href="aws-s3-browser.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">Browsing Files & Directories in S3</span><span class="less">Previous</span></a>
-      </li>
-      <li>
-        <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
-      </li>
-      <li class="next">
-        <a href="working-with-web-apis.html"><span class="more">The Tricky World of Using Web APIs</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
-      </li>
-    </ul>
-    <div class="introduction row-fluid">
-      <div class="title span6">
-        <h1><a title="Dan Cunning" href="../">Dan Cunning</a></h1>
-        <ul>
-          <li>
-            <a title="Twitter" href="https://twitter.com/itopdan"><span class="about-twitter">&nbsp;</span> twitter</a>
-          </li>
-          <li>
-            <a title="github" href="https://github.com/topdan"><span class="about-github">&nbsp;</span> github</a>
-          </li>
-          <li>
-            <a title="Email" href="mailto:dan@topdan.com"><span class="about-email">&nbsp;</span> email</a>
-          </li>
-        </ul>
-      </div>
-      <div class="profile span6">
-        <img width="75" height="75" src="../assets/dan-79508ca0775ace507f1dc34d151bba0f.jpg" alt="Dan">
-        <p>I'm a <a href="./">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="../dan-cunning.html">Read more »</a></p>
+          </div><!-- post:content:end -->
+        </div>
       </div>
     </div>
-    <p id="view-source"><span class="view">View Source:</span> <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/param-accessible.html">HTML</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/param-accessible.json">JSON</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/param-accessible.html.md">View</a></p>
-    <div id="copyright">
-      <p>© 2012-2016 Dan Cunning. All rights reserved.</p>
+    <div class="row navigation bb-ccc">
+      <a href="aws-s3-browser.html" class="previous"><span class="fa fa-arrow-left">&nbsp;</span> <span class="desktop">Browsing Files & Directories in S3</span><span class="mobile">Previous</span></a> <a href="working-with-web-apis.html" class="next"><span class="desktop">The Tricky World of Using Web APIs</span><span class="mobile">Next</span> <span class="fa fa-arrow-right">&nbsp;</span></a>
+      <p><a href="../"><span class="fa fa-home">&nbsp;</span></a> &nbsp;»&nbsp;<span class="title desktop"><a href="index.html">Ruby on Rails</a></span><span class="mobile"><a href="index.html"><span class="fa fa-folder-open">&nbsp;</span></a></span></p>
+    </div>
+    <div class="row pb-2e bb-ccc mb-1e">
+      <div class="col-md-6 mt-2e center">
+        <h1 class="mt-0"><a title="Dan Cunning" class="fs-45 fw-normal shadow-silver" href="../">Dan Cunning</a></h1>
+        <p class="fs-20 mt-05e"><a title="github" class="white" href="https://github.com/topdan"><span class="fa fa-github">&nbsp;</span> GitHub</a> <a title="Twitter" class="white pl-30" href="https://www.linkedin.com/in/dancunning"><span class="fa fa-linkedin-square">&nbsp;</span> LinkedIn</a> <a title="Email" class="white pl-30" href="mailto:dan@topdan.com"><span class="fa fa-envelope">&nbsp;</span> Email</a></p>
+      </div>
+      <div class="col-sm-offset-1 col-md-4 mt-2e">
+        <img width="75" height="75" class="img-circle fl-left mr-10" src="../assets/dan-79508ca0775ace507f1dc34d151bba0f.jpg" alt="Dan">
+        <p class="underline-links">I'm a <a href="./">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="../dan-cunning.html">Read more »</a></p>
+      </div>
+    </div>
+    <div class="row fs-12 mt-1e center">
+      <div class="col-md-6">
+        <p class="underline-links mb-1e">View Source: <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/param-accessible.html">HTML</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/param-accessible.json">JSON</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/param-accessible.html.md">View</a></p>
+      </div>
+      <div class="col-md-6">
+        <p class="mb-1e">© 2012-2016 Dan Cunning. All rights reserved.</p>
+      </div>
     </div>
   </div>
 </body>

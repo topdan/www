@@ -1,14 +1,20 @@
-<p class="buttons">
-  <a href="#" class="play-random btn btn-primary btn-large"><i class="icon-random">&nbsp;</i>&nbsp;&nbsp;&nbsp;Play Something</a>
-</p>
+<div class="row bg-white pt-2e pb-2e">
+  <div class="col-md-12">
+    <div class="center">
+      <p>
+        <a href="#" class="play-random btn btn-primary btn-lg"><%= icon_tag 'play' %> Play Something</a>
+      </p>
+    </div>
+  </div>
+</div>
 
-<ul class="music-videos">
+<div class="row posters bg-white pt-2e pb-2e">
   <% @current_post.data.each do |music_video| %>
-  <li>
-    <%= link_to(image_tag(music_video.thumbnail_url, width: 240, alt: music_video.artist_and_song), music_video.video_url, title: music_video.artist_and_song) %>
-    <h4><%= link_to(music_video.artist_and_song, music_video.video_url) %></h4>
-  </li>
+    <div class="poster-240">
+      <div class="poster">
+        <p><%= link_to image_tag(music_video.thumbnail_url, width: 240, alt: music_video.artist_and_song), music_video.video_url, title: music_video.artist_and_song %></p>
+        <p><%= link_to music_video.artist_and_song, music_video.video_url %></p>
+      </div>
+    </div>
   <% end %>
-</ul>
-
-<div style="clear:both;"></div>
+</div>

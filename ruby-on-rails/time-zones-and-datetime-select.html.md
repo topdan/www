@@ -1,12 +1,17 @@
-## The Problem
+* [The Problem](#the-problem)
+* [The Fix](#the-fix)
+* [An Example](#example)
+* [Wrap-up](#wrap-up)
+
+## [The Problem](#the-problem)
 
 __`datetime_select` and `time_zone_select` don't work together__. If you use both of them and `Time.zone` doesn't match the selected timezone, the user will unwittingly set the wrong time:
 
 ```raw
-<p class="centered"><img src="the-problem.gif" alt="The Problem"/></p>
+<p class="center mt-2e b-ccc"><img src="the-problem.gif" alt="The Problem"/></p>
 ```
 
-## The Fix
+## [The Fix](#the-fix)
 
 Use the selected timezone when setting the timestamp:
 
@@ -17,10 +22,10 @@ end
 ```
 
 ```raw
-<p class="centered"><img src="the-fix.gif" alt="The Fix"/></p>
+<p class="center mt-2e b-ccc"><img src="the-fix.gif" alt="The Fix"/></p>
 ```
 
-## Example Feature
+## [An Example](#example)
 
 * Users can check-in to places like [foursquare](https://foursquare.com/)
 * Users can backdate check-ins in case they forgot
@@ -79,12 +84,12 @@ end
 <p>Checked in at <%= @check_in.timestamp.strftime("%-I:%M %p %Z") %></p>
 ```
 
-## Wrap-up
+## [Wrap-up](#wrap-up)
 
 Ideally, `datetime_select` would support timezone as a piece of the datetime like it does for hours, minutes, and seconds, but it doesn't. The next step is overriding `timestamp=` but will the timezone attribute be set before or after the timestamp attribute? And what determines the timestamp's internal timezone?
 
 `Time.use_zone` makes the most sense: the model can't guarantee what the `Time.zone` value or the timestamp's timezone mean, but the controller can.
 
 ```raw
-<p class="alert alert-info centered">Have a better solution? <a href="mailto:dan@topdan.com">Let me know!</a></p>
+<p class="alert alert-info center mt-4e">Have a better solution? <a href="mailto:dan@topdan.com">Let me know!</a></p>
 ```

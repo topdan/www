@@ -12,10 +12,10 @@
 * [Wrap-Up](#wrap-up)
 
 ```raw
-<div class="alert alert-error">
-  <p><span class="label label-important"><i class="icon-exclamation-sign">&nbsp;</i> Disclaimer</span> Fantasy Sportsbook does not involve any money and nothing of value is ever wagered. All "points" are imaginary and how leagues may or may not award winners at the end of the season is entirely up to them and completely independent of Fantasy Sportsbook.</p>
+<div class="alert alert-danger mt-2e">
+  <p><span class="label label-info"><i class="icon-exclamation-sign">&nbsp;</i> Disclaimer</span> Fantasy Sportsbook does not involve any money and nothing of value is ever wagered. All "points" are imaginary and how leagues may or may not award winners at the end of the season is entirely up to them and completely independent of Fantasy Sportsbook.</p>
 
-  <p class="punchline"><strong>Fantasy Sportsbook is not a gambling site.</strong></p>
+  <p class="mt-2e center"><strong>Fantasy Sportsbook is not a gambling site.</strong></p>
 </div>
 ```
 
@@ -123,7 +123,7 @@ I'm proud of the mobile interface: lots of information cleanly displayed in a sm
 I'm looking forward to seeing if it helps the casual fan become more interested in games and whether seasoned bettors receive a reasonable thrill while limiting their overall risk and losses. It should be a fun season of football.
 
 ```raw
-<p class="alert alert-info punchline"><strong>If you're going to lose, lose to your friends.</strong></p>
+<p class="alert alert-info mt-4e mb-4e"><strong>If you're going to lose, lose to your friends.</strong></p>
 
-<p class="copyright">Images and logos used in the screenshots on this page are property of Major League Baseball</p>
+<p class="fl-right fs-12">Images and logos used in the screenshots on this page are property of Major League Baseball</p>
 ```

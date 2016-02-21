@@ -8,7 +8,7 @@
 [Amazon's S3](https://en.wikipedia.org/wiki/Amazon_S3) is a great way to store and organize files, but when I set out to build an S3 browser for my webapp, I had unexpected trouble:  __S3 doesn't have directories.__ Every file has a name, and names can include `/`, but S3 doesn't assign any special meaning to slashes.
 
 ```raw
-<p class="centered alert alert-info"><strong>How can you browse S3 directories when it doesn't have the concept of directories?</strong></p>
+<p class="center alert alert-info mt-2e"><strong>How can you browse S3 directories when it doesn't have the concept of directories?</strong></p>
 ```
 
 ## [The Solution](#the-solution)

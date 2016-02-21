@@ -4,7 +4,7 @@
 * [Conclusion](#conclusion)
 
 ```raw
-<p class="centered"><img alt="Example Photo Album" src="album.jpg"/></p>
+<p class="center"><img alt="Example Photo Album" src="album.jpg"/></p>
 ```
 
 ## [Introduction](#introduction)
@@ -19,7 +19,7 @@ Everyone has a web-connected camera and sharing via text, email, and social medi
 These tools and others like them are built to turn a profit through generating page views and gathering data for corporate and government partnerships. I'm not against companies turning profits, but in this case it conflicts with my desire for a simple, private, available-everywhere photo album.
 
 ```raw
-<p class="alert alert-info centered"><strong>My family doesn't share our photos on social media,<br> and I won't do so on their behalf.</strong></p>
+<p class="alert alert-info center"><strong>My family doesn't share our photos on social media,<br> and I won't do so on their behalf.</strong></p>
 ```
 
 ## [The Solution](#the-solution)
@@ -63,7 +63,7 @@ The project came together pretty quickly over the last couple weeks, but I alrea
 * Auto-tag people via facial [recognition](https://www.topdan.com/living/past-present-and-future-of-computers.html#recognizing)
 
 ```raw
-<div class="alert alert-info">
+<div class="alert alert-info mt-4e">
   <p>If you're interested, here are some of <a href="/projects/index.html">my other projects</a>:</p>
 
   <ul>

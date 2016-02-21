@@ -123,5 +123,5 @@ Computers have come a long way since the 1940's. I hope their future advancement
 Overall, tomorrow's computer will change our world: __simultaneously creating and disrupting systems of influence and power__, like the computer of today. They'll just be better at it.
 
 ```raw
-<p class="centered"><img src="HAL9000.png" alt="I'm sorry, Dave. I'm afraid I can't do that."/></p>
+<p class="center mt-4e"><img src="HAL9000.png" alt="I'm sorry, Dave. I'm afraid I can't do that."/></p>
 ```

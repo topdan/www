@@ -58,8 +58,8 @@ Ultimately, soccer's success prevents it from changing. The NFL, MLB, and NHL ar
 Let me repeat, soccer is fun to watch when both teams are trying their hardest to score and the referees aren't blowing calls, which seems to be rare. So every four years I'll watch in bars full of drunken "U-S-A" chants, waiting to celebrate a goal with everyone, while hoping I'm too tipsy or distracted to fume at the inconsistent whistles, the five defenders in the box, the non-stop whining at the referees, and the game-determining blown calls.
 
 ```raw
-<div class="alert alert-error centered">
-  <h2>P.S. Go USA</h2>
+<div class="alert alert-danger center mt-4e">
+  <h2 class="mt-0">P.S. Go USA</h2>
   <p><img src="usa.jpg" alt="Go 'merica"/></p>
 </div>
 ```

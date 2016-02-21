@@ -28,9 +28,6 @@
     <loc>http://www.topdan.com/index.html</loc>
   </url>
   <url>
-    <loc>http://www.topdan.com/living/atlanta-food-and-drink-specials.html</loc>
-  </url>
-  <url>
     <loc>http://www.topdan.com/living/get-inspired.html</loc>
   </url>
   <url>
@@ -112,7 +109,13 @@
     <loc>http://www.topdan.com/ruby-on-rails/time-zones-and-datetime-select.html</loc>
   </url>
   <url>
+    <loc>http://www.topdan.com/ruby-on-rails/ui-elements.html</loc>
+  </url>
+  <url>
     <loc>http://www.topdan.com/ruby-on-rails/views-mailers-directory.html</loc>
+  </url>
+  <url>
+    <loc>http://www.topdan.com/ruby-on-rails/web-services.html</loc>
   </url>
   <url>
     <loc>http://www.topdan.com/ruby-on-rails/working-with-web-apis.html</loc>
@@ -293,9 +296,6 @@
   </url>
   <url>
     <loc>http://www.topdan.com/sports/nfl-salaries-by-college/index.html</loc>
-  </url>
-  <url>
-    <loc>http://www.topdan.com/sports/nfl-survivor-league-pick-helper.html</loc>
   </url>
   <url>
     <loc>http://www.topdan.com/sports/sec-2012-season-review.html</loc>

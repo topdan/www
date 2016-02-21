@@ -8,7 +8,7 @@
 The following class combines multiple attributes into one boolean attribute. Most of the time it's an optimization, but sometimes it's mandatory because the boolean calculation can't be expressed in SQL.
 
 ```raw
-<p class="alert alert-error centered"><strong>Can you spot the bug?</strong></p>
+<p class="alert alert-danger center mt-2e"><strong>Can you spot the bug?</strong></p>
 ```
 
 ```ruby

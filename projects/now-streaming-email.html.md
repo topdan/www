@@ -65,7 +65,7 @@ __All that in about 15 seconds of scrolling.__
 I've been getting these emails for about a year, and it really helps keep me up-to-date on what's new, with minimal effort. The implementation wasn't easy, but the result (while not perfect) is simple.
 
 ```raw
-<p class="alert alert-info">
+<p class="alert alert-info mt-2e">
   If you'd like to join the email list <a href="mailto:dan@topdan.com">email me</a>.
 </p>
 ```

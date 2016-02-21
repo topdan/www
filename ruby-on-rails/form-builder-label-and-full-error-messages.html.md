@@ -1,7 +1,7 @@
 ## Common Mistake
 
 ```raw
-<p class="alert alert-danger centered"><strong>Can you spot the bug?</strong></p>
+<p class="alert alert-danger center mt-2e"><strong>Can you spot the bug?</strong></p>
 ```
 
 ```

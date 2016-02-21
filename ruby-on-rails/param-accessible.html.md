@@ -1,6 +1,6 @@
 ```raw
 <p class="alert alert-danger">
-  <span class="label label-important">Update</span> This article was written prior to DHH releasing the <a href="https://github.com/rails/strong_parameters">strong_parameters</a> gem, which also moves the responsibility from the model to controller, though it doesn't use a <code>*_filter</code> approach. I suggest you use <code>strong_parameters</code>.
+  <span class="label label-info">Update</span> This article was written prior to DHH releasing the <a href="https://github.com/rails/strong_parameters">strong_parameters</a> gem, which also moves the responsibility from the model to controller, though it doesn't use a <code>*_filter</code> approach. I suggest you use <code>strong_parameters</code>.
 </p>
 ```
 
@@ -12,10 +12,10 @@ On March 2012, [homakov pushed a commit](https://github.com/rails/rails/commit/b
 
 Proposed solutions normally center around how Rails could strengthen `attr_accessible`. Here's one of [the more thorough descriptions](https://gist.github.com/1978709) of the problem and how to prevent it. At the end of the article, he links to [a gist by Yehuda Katz](https://gist.github.com/1974187) that brings up the central point: user supplied parameters are a concern of the controller not the model.
 
-<p class="alert alert-notice">
+<p class="alert alert-info">
   <strong>Quick Sidebar:</strong>
 
-  I use attr_accessible when the assignment is handled within the model, such as an id, created_at, updated_at, and counter_caches. Controllers, seed files and unit tests never need to set these attributes, but they could by explicitly using the attribute writer.
+  I use <code>attr_accessible</code> when the assignment is handled within the model, such as an id, created_at, updated_at, and counter_caches. Controllers, seed files and unit tests never need to set these attributes, but they could by explicitly using the attribute writer.
 </p>
 
 ## [param_protected: Moving Protection to the Controller](#param_protected)

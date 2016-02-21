@@ -1,5 +1,5 @@
 ```raw
-<p class="punchline">
+<p class="center">
   <img src="winnipeg.jpg" alt="Winnipeg. What's your excuse?">
 </p>
 ```
@@ -120,9 +120,12 @@ __The Thrashers moved because AOL Time Warner sold them to a dysfunctional owner
 If you love this disaster, you'll also love what happened to the Atlanta Braves when AOL Time Warner sold them to Liberty Media, including ["sport's worst TV contract"](http://sports.yahoo.com/news/dodgers---7-billion-tv-deal-will-widen-chasm-between-mlb-s-rich-and-poor-040842261.html), [brash political manipulation](http://deadspin.com/opponents-barred-from-speaking-as-cobb-county-approves-1582556255), and [back-room dealings](http://deadspin.com/braves-president-stadium-deal-had-to-be-done-in-secret-1582023678). I miss [Ted Turner](http://en.wikipedia.org/wiki/Ted_Turner), but at least we have [Arthur Blank](http://en.wikipedia.org/wiki/Arthur_Blank).
 
 ```raw
-<div class="alert alert-info">
+<div class="alert alert-info mt-4e">
   <p><span class="label label-info">Update</span> On September 7, 2014, Bruce Levenson announced he would sell his interest in the Atlanta Spirit, explaining the reason was a racially insensitive e-mail he sent to the Hawks GM in 2012 (one year after selling the Thrashers), saying the team's low ticket sales were due to the Hawks alienating the white suburbanites. <a href="http://www.usatoday.com/story/sports/nba/hawks/2014/09/07/bruce-levenson-racist-email-atlanta-owner-sell-team/15241591/">usatoday.com</a></p>
 
-  <p><span class="label label-info">Update</span> On January 2, 2015, the Atlanta Spirit put the Atlanta Hawks along with the Philips Arena rights up for sale. <a href="http://www.ajc.com/news/sports/basketball/breaking-news-100-percent-of-hawks-up-for-sale/njfLd/">ajc.com</a></p>
+  <p class="mt-2e"><span class="label label-info">Update</span> On January 2, 2015, the Atlanta Spirit put the Atlanta Hawks along with the Philips Arena rights up for sale. <a href="http://www.ajc.com/news/sports/basketball/breaking-news-100-percent-of-hawks-up-for-sale/njfLd/">ajc.com</a></p>
+
+  <p class="mt-2e"><span class="label label-info">Update</span> On June 24, 2015, the NBA approved the sale of the Atlanta Hawks to an ownership group led by Tony Ressler. <a href="http://www.nba.com/2015/news/06/24/sale-of-hawks-unanimously-approved/index.html?ls=iref:nbahpts">nba.com</a></p>
+
 </div>
 ```

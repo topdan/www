@@ -10,9 +10,9 @@ Toggle buttons are useful for communicating and changing state. Here's what the 
 
 ```raw
 <ul class="user-experience">
-  <li>Clicks on <a href="#" class="btn"><i class="icon-star">&nbsp;</i> Favorite</a></li>
-  <li>An ajax request is started and the button becomes <a href="#" class="btn"><i class="icon-refresh">&nbsp;</i> Favorite</a></li>
-  <li>When the request succeeds the button becomes <a href="#" class="btn btn-warning"><i class="icon-star">&nbsp;</i> Favorite</a></li>
+  <li>Clicks on <a href="#" class="btn btn-default"><span class="fa fa-star">&nbsp;</span> Favorite</a></li>
+  <li>An ajax request is started and the button becomes <a href="#" class="btn btn-default"><span class="fa fa-refresh">&nbsp;</span> Favorite</a></li>
+  <li>When the request succeeds the button becomes <a href="#" class="btn btn-warning"><span class="fa fa-star">&nbsp;</span> Favorite</a></li>
 </ul>
 ```
 
@@ -27,11 +27,11 @@ This pattern presents itself in every one of my applications, so I wanted to doc
 
 <div id="post-1" class="my-post">
   <p class="actions">
-    <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/put.js" data-method="GET" data-remote="true" data-type="script" class="btn favorite"><i class="icon-star">&nbsp;</i> Favorite</a>
-    <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/delete.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-warning unfavorite"><i class="icon-star">&nbsp;</i> Favorite</a>
+    <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/put.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-default favorite"><span class="fa fa-star">&nbsp;</span> Favorite</a>
+    <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/delete.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-warning unfavorite"><span class="fa fa-star">&nbsp;</span> Favorite</a>
 
-    <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/lock/put.js" data-method="GET" data-remote="true" data-type="script" class="btn lock"><i class="icon-lock">&nbsp;</i> Locked</a>
-    <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/lock/delete.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-danger unlock"><i class="icon-lock">&nbsp;</i> Locked</a>
+    <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/lock/put.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-default lock"><span class="fa fa-lock">&nbsp;</span> Locked</a>
+    <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/lock/delete.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-danger unlock"><span class="fa fa-lock">&nbsp;</span> Locked</a>
   </p>
 </div>
 

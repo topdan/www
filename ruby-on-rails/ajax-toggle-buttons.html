@@ -18,7 +18,7 @@
   <meta name="og:title" content="Easy Ajax Toggle Buttons">
   <meta name="og:description" content="How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it.">
   <link rel="shortcut icon" href="../assets/favicon-e45cdd6cc07e8858a985e6014e38a603.png">
-  <link rel="stylesheet" media="all" href="../assets/site-894b5d7aaf13eb2db2d592e33c841d83.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+  <link rel="stylesheet" media="all" href="../assets/site-d968d7271437bc0455909579aceeefdf.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
 
   <script type="text/javascript">
   if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
@@ -35,76 +35,77 @@
   }
   </script>
 </head>
-<body id="ajax-toggle-buttons" class="navigatable">
-  <a id="top"></a>
-  <ul class="navigation">
-    <li class="prev">
-      <a href="working-with-web-apis.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">The Tricky World of Using Web APIs</span><span class="less">Previous</span></a>
-    </li>
-    <li>
-      <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
-    </li>
-    <li class="next">
-      <a href="finding-your-most-active-users-with-google-analytics.html"><span class="more">Finding Your Most Active Users with Google Analytics</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
-    </li>
-  </ul>
-  <div class="content">
-    <div class="container post">
-      <p class="byline">Published by Dan on Apr 16, 2014</p>
-      <h1><a href="ajax-toggle-buttons.html">Easy Ajax Toggle Buttons</a></h1>
-      <div class="alert alert-definition post-description">
-        <p>How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it.</p>
-      </div><!-- post:content:start -->
-      <ul>
-        <li>
-          <a href="#introduction">Introduction</a>
-        </li>
-        <li>
-          <a href="#demo">Demo</a>
-        </li>
-        <li>
-          <a href="#how-it-works">How it Works</a>
-        </li>
-        <li>
-          <a href="#the-code">The Code</a>
-        </li>
-        <li>
-          <a href="#wrapup">Wrap-up</a>
-        </li>
-      </ul>
-      <h2 id="introduction"><a href="#introduction">Introduction</a></h2>
-      <p>Toggle buttons are useful for communicating and changing state. Here's what the user sees:</p>
-      <ul class="user-experience">
-        <li>Clicks on <a href="#" class="btn"><i class="icon-star">&nbsp;</i> Favorite</a>
-        </li>
-        <li>An ajax request is started and the button becomes <a href="#" class="btn"><i class="icon-refresh">&nbsp;</i> Favorite</a>
-        </li>
-        <li>When the request succeeds the button becomes <a href="#" class="btn btn-warning"><i class="icon-star">&nbsp;</i> Favorite</a>
-        </li>
-      </ul>
-      <p>This pattern presents itself in every one of my applications, so I wanted to document how I implement it in Ruby on Rails, as it is a good introduction to ajax, unobtrusive javascript, and Rails handling javascript requests.</p>
-      <h2 id="demo"><a href="#demo">Demo</a></h2>
-      <p class="alert alert-info">Click the buttons below and look at your web-developer tools for the ajax responses and <code>class</code> attribute changes, but note this site runs on a static webserver, so the state is not saved, and the paths and HTTP methods don't mirror an actual Ruby on Rails application.</p>
-      <div id="post-1" class="my-post">
-        <p class="actions"><a href="../assets/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/put-9c3f01f163ff3911711020322fa02b57.js" data-method="GET" data-remote="true" data-type="script" class="btn favorite"><i class="icon-star">&nbsp;</i> Favorite</a> <a href="../assets/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/delete-198202066186c024d622ab7a981ce274.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-warning unfavorite"><i class="icon-star">&nbsp;</i> Favorite</a> <a href="../assets/static/ruby-on-rails/ajax-toggle-buttons/1/lock/put-803f7d55b36be79eaae91efea4e693e3.js" data-method="GET" data-remote="true" data-type="script" class="btn lock"><i class="icon-lock">&nbsp;</i> Locked</a> <a href="../assets/static/ruby-on-rails/ajax-toggle-buttons/1/lock/delete-b98340ab2c82a609d1686e56afdcf3c5.js" data-method="GET" data-remote="true" data-type=
-        "script" class="btn btn-danger unlock"><i class="icon-lock">&nbsp;</i> Locked</a></p>
+<body id="ajax-toggle-buttons">
+  <div class="container bg-black full-width">
+    <div class="row navigation">
+      <a id="top"></a> <a href="working-with-web-apis.html" class="previous"><span class="fa fa-arrow-left">&nbsp;</span> <span class="desktop">The Tricky World of Using Web APIs</span><span class="mobile">Previous</span></a> <a href="finding-your-most-active-users-with-google-analytics.html" class="next"><span class="desktop">Finding Your Most Active Users</span><span class="mobile">Next</span> <span class="fa fa-arrow-right">&nbsp;</span></a>
+      <p><a href="../"><span class="fa fa-home">&nbsp;</span></a> &nbsp;»&nbsp;<span class="title desktop"><a href="index.html">Ruby on Rails</a></span><span class="mobile"><a href="index.html"><span class="fa fa-folder-open">&nbsp;</span></a></span></p>
+    </div>
+    <div class="row bg-white">
+      <div class="col-md-12">
+        <div class="width-640 ml-auto mr-auto">
+          <p class="mt-05e mb-15e ta-right c-ccc">Published by Dan on Apr 16, 2014</p>
+          <h1 class="center of-yh mb-1e"><a href="ajax-toggle-buttons.html">Easy Ajax Toggle Buttons</a></h1>
+          <div class="alert b-ccc mb-0">
+            <p>How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it.</p>
+          </div>
+        </div>
       </div>
-      <h2 id="how-it-works"><a href="#how-it-works">How it Works</a></h2>
-      <ol>
-        <li>Each toggle button is actually <a href="#erb">two buttons</a> ("on" and "off") with a parent <a href="#stylesheet">CSS class</a> determining which is visible.
-        </li>
-        <li>Each button has an <code>href</code> along with <code>data-method</code>, <code>data-type=script</code>, and <code>data-remote=true</code> attributes, which instruct <code>jquery_ujs.js</code> to perform an ajax request and evaluate the result as javascript.</li>
-        <li>When the user clicks either button, <a href="#loading-js">a jQuery listener</a> switches to the loading icon while another listener switches it back on completion.
-        </li>
-        <li>In Rails, <a href="#routes">the main resource has a child</a> which provides <code>#update</code> and <code>#destroy</code> actions for <a href="#controller">toggling on and off</a> respectively.
-        </li>
-        <li>After saving the change, Rails responds with one line of javascript that <a href="#update-js">adds</a> or <a href="#destroy-js">removes</a> the parent element's class switching the visible button.
-        </li>
-      </ol>
-      <h2 id="the-code"><a href="#the-code">The Code</a></h2>
-      <h3 id="model"><a href="#model"></a></h3>
-      <div class="highlight">
-        <pre><span class="c1"># models/post.rb</span>
+    </div>
+    <div class="row bg-white">
+      <div class="col-md-12">
+        <div class="width-640 ml-auto mr-auto post">
+          <!-- post:content:start -->
+          <ul>
+            <li>
+              <a href="#introduction">Introduction</a>
+            </li>
+            <li>
+              <a href="#demo">Demo</a>
+            </li>
+            <li>
+              <a href="#how-it-works">How it Works</a>
+            </li>
+            <li>
+              <a href="#the-code">The Code</a>
+            </li>
+            <li>
+              <a href="#wrapup">Wrap-up</a>
+            </li>
+          </ul>
+          <h2 id="introduction"><a href="#introduction">Introduction</a></h2>
+          <p>Toggle buttons are useful for communicating and changing state. Here's what the user sees:</p>
+          <ul class="user-experience">
+            <li>Clicks on <a href="#" class="btn btn-default"><span class="fa fa-star">&nbsp;</span> Favorite</a>
+            </li>
+            <li>An ajax request is started and the button becomes <a href="#" class="btn btn-default"><span class="fa fa-refresh">&nbsp;</span> Favorite</a>
+            </li>
+            <li>When the request succeeds the button becomes <a href="#" class="btn btn-warning"><span class="fa fa-star">&nbsp;</span> Favorite</a>
+            </li>
+          </ul>
+          <p>This pattern presents itself in every one of my applications, so I wanted to document how I implement it in Ruby on Rails, as it is a good introduction to ajax, unobtrusive javascript, and Rails handling javascript requests.</p>
+          <h2 id="demo"><a href="#demo">Demo</a></h2>
+          <p class="alert alert-info">Click the buttons below and look at your web-developer tools for the ajax responses and <code>class</code> attribute changes, but note this site runs on a static webserver, so the state is not saved, and the paths and HTTP methods don't mirror an actual Ruby on Rails application.</p>
+          <div id="post-1" class="my-post">
+            <p class="actions"><a href="../assets/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/put-9c3f01f163ff3911711020322fa02b57.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-default favorite"><span class="fa fa-star">&nbsp;</span> Favorite</a> <a href="../assets/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/delete-198202066186c024d622ab7a981ce274.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-warning unfavorite"><span class="fa fa-star">&nbsp;</span> Favorite</a> <a href="../assets/static/ruby-on-rails/ajax-toggle-buttons/1/lock/put-803f7d55b36be79eaae91efea4e693e3.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-default lock"><span class="fa fa-lock">&nbsp;</span> Locked</a> <a href="../assets/static/ruby-on-rails/ajax-toggle-buttons/1/lock/delete-b98340ab2c82a609d1686e56afdcf3c5.js"
+            data-method="GET" data-remote="true" data-type="script" class="btn btn-danger unlock"><span class="fa fa-lock">&nbsp;</span> Locked</a></p>
+          </div>
+          <h2 id="how-it-works"><a href="#how-it-works">How it Works</a></h2>
+          <ol>
+            <li>Each toggle button is actually <a href="#erb">two buttons</a> ("on" and "off") with a parent <a href="#stylesheet">CSS class</a> determining which is visible.
+            </li>
+            <li>Each button has an <code>href</code> along with <code>data-method</code>, <code>data-type=script</code>, and <code>data-remote=true</code> attributes, which instruct <code>jquery_ujs.js</code> to perform an ajax request and evaluate the result as javascript.</li>
+            <li>When the user clicks either button, <a href="#loading-js">a jQuery listener</a> switches to the loading icon while another listener switches it back on completion.
+            </li>
+            <li>In Rails, <a href="#routes">the main resource has a child</a> which provides <code>#update</code> and <code>#destroy</code> actions for <a href="#controller">toggling on and off</a> respectively.
+            </li>
+            <li>After saving the change, Rails responds with one line of javascript that <a href="#update-js">adds</a> or <a href="#destroy-js">removes</a> the parent element's class switching the visible button.
+            </li>
+          </ol>
+          <h2 id="the-code"><a href="#the-code">The Code</a></h2>
+          <h3 id="model"><a href="#model"></a></h3>
+          <div class="highlight">
+            <pre><span class="c1"># models/post.rb</span>
 <span class="k">class</span> <span class="nc">Post</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
 
   <span class="k">def</span> <span class="nf">favorited?</span>
@@ -131,18 +132,18 @@
 
 <span class="k">end</span>
 </pre>
-      </div>
-      <h3 id="routes"><a href="#routes"></a></h3>
-      <div class="highlight">
-        <pre><span class="c1"># config/routes.rb</span>
+          </div>
+          <h3 id="routes"><a href="#routes"></a></h3>
+          <div class="highlight">
+            <pre><span class="c1"># config/routes.rb</span>
 <span class="n">resources</span> <span class="ss">:posts</span> <span class="k">do</span>
   <span class="n">resource</span> <span class="ss">:favorite</span><span class="p">,</span> <span class="ss">only</span><span class="p">:</span> <span class="sx">%w(update destroy)</span>
 <span class="k">end</span>
 </pre>
-      </div>
-      <h3 id="controller"><a href="#controller"></a></h3>
-      <div class="highlight">
-        <pre><span class="c1"># controllers/posts/favorites_controller.rb</span>
+          </div>
+          <h3 id="controller"><a href="#controller"></a></h3>
+          <div class="highlight">
+            <pre><span class="c1"># controllers/posts/favorites_controller.rb</span>
 <span class="k">class</span> <span class="nc">Posts</span><span class="o">::</span><span class="no">FavoritesController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
 
   <span class="n">before_action</span> <span class="ss">:load_post</span>
@@ -163,10 +164,10 @@
 
 <span class="k">end</span>
 </pre>
-      </div>
-      <h3 id="application-helper"><a href="#application-helper"></a></h3>
-      <div class="highlight">
-        <pre><span class="c1"># helpers/application_helper.rb</span>
+          </div>
+          <h3 id="application-helper"><a href="#application-helper"></a></h3>
+          <div class="highlight">
+            <pre><span class="c1"># helpers/application_helper.rb</span>
 <span class="k">module</span> <span class="nn">ApplicationHelper</span>
 
   <span class="k">def</span> <span class="nf">link_to_with_icon</span><span class="p">(</span><span class="n">icon_css</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">options</span> <span class="o">=</span> <span class="p">{})</span>
@@ -198,10 +199,10 @@
 
 <span class="k">end</span>
 </pre>
-      </div>
-      <h3 id="helper"><a href="#helper"></a></h3>
-      <div class="highlight">
-        <pre><span class="c1"># helpers/posts_helper.rb</span>
+          </div>
+          <h3 id="helper"><a href="#helper"></a></h3>
+          <div class="highlight">
+            <pre><span class="c1"># helpers/posts_helper.rb</span>
 <span class="k">module</span> <span class="nn">PostsHelper</span>
 
   <span class="k">def</span> <span class="nf">post_css</span><span class="p">(</span><span class="n">post</span><span class="p">)</span>
@@ -210,16 +211,16 @@
 
 <span class="k">end</span>
 </pre>
-      </div>
-      <h3 id="gemfile"><a href="#gemfile"></a></h3>
-      <div class="highlight">
-        <pre><span class="c1"># Gemfile</span>
+          </div>
+          <h3 id="gemfile"><a href="#gemfile"></a></h3>
+          <div class="highlight">
+            <pre><span class="c1"># Gemfile</span>
 <span class="n">gem</span> <span class="s1">'jquery-rails'</span>
 </pre>
-      </div>
-      <h3 id="application-js"><a href="#application-js"></a></h3>
-      <div class="highlight">
-        <pre><span class="c1">// assets/javascript/application.js</span>
+          </div>
+          <h3 id="application-js"><a href="#application-js"></a></h3>
+          <div class="highlight">
+            <pre><span class="c1">// assets/javascript/application.js</span>
 <span class="c1">//</span>
 <span class="c1">// jquery_ujs allows us to use 'data-remote',</span>
 <span class="c1">// 'data-type', and 'data-method' attributes</span>
@@ -228,10 +229,10 @@
 <span class="c1">//= require jquery_ujs</span>
 <span class="c1">//= require_tree .</span>
 </pre>
-      </div>
-      <h3 id="stylesheet"><a href="#stylesheet"></a></h3>
-      <div class="highlight">
-        <pre><span class="cm">/* assets/stylesheets/posts.css.scss */</span>
+          </div>
+          <h3 id="stylesheet"><a href="#stylesheet"></a></h3>
+          <div class="highlight">
+            <pre><span class="cm">/* assets/stylesheets/posts.css.scss */</span>
 <span class="p">.</span><span class="n">post</span> <span class="p">{</span>
   <span class="cm">/* off by default */</span>
   <span class="p">.</span><span class="n">unfavorite</span> <span class="p">{</span> <span class="nl">display:</span> <span class="n">none</span><span class="p">;</span> <span class="p">}</span>
@@ -243,10 +244,10 @@
   <span class="p">.</span><span class="n">unfavorite</span> <span class="p">{</span> <span class="nl">display:</span> <span class="n">inline</span><span class="o">-</span><span class="n">block</span><span class="p">;</span> <span class="p">}</span>
 <span class="p">}</span>
 </pre>
-      </div>
-      <h3 id="loading-js"><a href="#loading-js"></a></h3>
-      <div class="highlight">
-        <pre><span class="cm">/* assets/javascripts/loading.js */</span>
+          </div>
+          <h3 id="loading-js"><a href="#loading-js"></a></h3>
+          <div class="highlight">
+            <pre><span class="cm">/* assets/javascripts/loading.js */</span>
 
 <span class="c1">// This isn't necessarily specific to toggle buttons</span>
 <span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
@@ -276,10 +277,10 @@
 
 <span class="p">})</span>
 </pre>
-      </div>
-      <h3 id="erb"><a href="#erb"></a></h3>
-      <div class="highlight">
-        <pre><span class="cp">&lt;%#</span><span class="c"> views/posts/show.html.erb </span><span class="cp">%&gt;</span><span class="x"> </span>
+          </div>
+          <h3 id="erb"><a href="#erb"></a></h3>
+          <div class="highlight">
+            <pre><span class="cp">&lt;%#</span><span class="c"> views/posts/show.html.erb </span><span class="cp">%&gt;</span><span class="x"> </span>
 <span class="cp">&lt;%=</span> <span class="n">div_for</span><span class="p">(</span><span class="vi">@post</span><span class="p">,</span> <span class="ss">class</span><span class="p">:</span> <span class="n">post_css</span><span class="p">(</span><span class="vi">@post</span><span class="p">))</span> <span class="k">do</span> <span class="cp">%&gt;</span><span class="x"> </span>
 
 <span class="x">  </span><span class="cp">&lt;%#</span><span class="c"> This outputs two buttons which CSS rules make</span>
@@ -290,64 +291,51 @@
 
 <span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span><span class="x"> </span>
 </pre>
-      </div>
-      <h3 id="update-js"><a href="#update-js"></a></h3>
-      <div class="highlight">
-        <pre><span class="cm">/* views/posts/favorites/update.js.erb */</span>
+          </div>
+          <h3 id="update-js"><a href="#update-js"></a></h3>
+          <div class="highlight">
+            <pre><span class="cm">/* views/posts/favorites/update.js.erb */</span>
 <span class="nx">$</span><span class="p">(</span><span class="s1">'#post-&lt;%= @post.id %&gt;'</span><span class="p">).</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">'favorited'</span><span class="p">);</span>
 </pre>
-      </div>
-      <h3 id="destroy-js"><a href="#destroy-js"></a></h3>
-      <div class="highlight">
-        <pre><span class="cm">/* views/posts/favorites/destroy.js.erb */</span>
+          </div>
+          <h3 id="destroy-js"><a href="#destroy-js"></a></h3>
+          <div class="highlight">
+            <pre><span class="cm">/* views/posts/favorites/destroy.js.erb */</span>
 <span class="nx">$</span><span class="p">(</span><span class="s1">'#post-&lt;%= @post.id %&gt;'</span><span class="p">).</span><span class="nx">removeClass</span><span class="p">(</span><span class="s1">'favorited'</span><span class="p">);</span>
 </pre>
+          </div>
+          <h2 id="wrapup"><a href="#wrapup">Wrap-up</a></h2>
+          <p>The only thing changing on the client-side is the loading icon and adding/removing the <code>class=favorited</code>.</p>
+          <p>We follow "The Rails' Way" to <code>#update</code> and <code>#destroy</code> in the controller, which will help the application gracefully grow when we add more functionality to posts like additional toggles, fields, or a public RESTful API.</p>
+          <p>If your application doesn't require javascript, then you'll want to change <code>#toggle_button_to</code> to output inline forms instead of links, and make the Rails controller redirect inside <code>format.html</code>.</p>
+          <p>Let me know what else you think could be improved.</p><!-- post:content:end -->
+        </div>
       </div>
-      <h2 id="wrapup"><a href="#wrapup">Wrap-up</a></h2>
-      <p>The only thing changing on the client-side is the loading icon and adding/removing the <code>class=favorited</code>.</p>
-      <p>We follow "The Rails' Way" to <code>#update</code> and <code>#destroy</code> in the controller, which will help the application gracefully grow when we add more functionality to posts like additional toggles, fields, or a public RESTful API.</p>
-      <p>If your application doesn't require javascript, then you'll want to change <code>#toggle_button_to</code> to output inline forms instead of links, and make the Rails controller redirect inside <code>format.html</code>.</p>
-      <p>Let me know what else you think could be improved.</p><!-- post:content:end -->
+    </div>
+    <div class="row navigation bb-ccc">
+      <a href="working-with-web-apis.html" class="previous"><span class="fa fa-arrow-left">&nbsp;</span> <span class="desktop">The Tricky World of Using Web APIs</span><span class="mobile">Previous</span></a> <a href="finding-your-most-active-users-with-google-analytics.html" class="next"><span class="desktop">Finding Your Most Active Users</span><span class="mobile">Next</span> <span class="fa fa-arrow-right">&nbsp;</span></a>
+      <p><a href="../"><span class="fa fa-home">&nbsp;</span></a> &nbsp;»&nbsp;<span class="title desktop"><a href="index.html">Ruby on Rails</a></span><span class="mobile"><a href="index.html"><span class="fa fa-folder-open">&nbsp;</span></a></span></p>
+    </div>
+    <div class="row pb-2e bb-ccc mb-1e">
+      <div class="col-md-6 mt-2e center">
+        <h1 class="mt-0"><a title="Dan Cunning" class="fs-45 fw-normal shadow-silver" href="../">Dan Cunning</a></h1>
+        <p class="fs-20 mt-05e"><a title="github" class="white" href="https://github.com/topdan"><span class="fa fa-github">&nbsp;</span> GitHub</a> <a title="Twitter" class="white pl-30" href="https://www.linkedin.com/in/dancunning"><span class="fa fa-linkedin-square">&nbsp;</span> LinkedIn</a> <a title="Email" class="white pl-30" href="mailto:dan@topdan.com"><span class="fa fa-envelope">&nbsp;</span> Email</a></p>
+      </div>
+      <div class="col-sm-offset-1 col-md-4 mt-2e">
+        <img width="75" height="75" class="img-circle fl-left mr-10" src="../assets/dan-79508ca0775ace507f1dc34d151bba0f.jpg" alt="Dan">
+        <p class="underline-links">I'm a <a href="./">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="../dan-cunning.html">Read more »</a></p>
+      </div>
+    </div>
+    <div class="row fs-12 mt-1e center">
+      <div class="col-md-6">
+        <p class="underline-links mb-1e">View Source: <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/ajax-toggle-buttons.html">HTML</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/ajax-toggle-buttons.json">JSON</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/ajax-toggle-buttons.html.md">View</a></p>
+      </div>
+      <div class="col-md-6">
+        <p class="mb-1e">© 2012-2016 Dan Cunning. All rights reserved.</p>
+      </div>
     </div>
   </div>
-  <div id="footer">
-    <ul class="navigation">
-      <li class="prev">
-        <a href="working-with-web-apis.html"><i class="icon-white icon-arrow-left">&nbsp;</i> <span class="more">The Tricky World of Using Web APIs</span><span class="less">Previous</span></a>
-      </li>
-      <li>
-        <a href="../" class="icon"><i class="icon-white icon-home">&nbsp;</i></a>&nbsp;»&nbsp;<span class="title more"><a href="index.html">Ruby on Rails</a></span><span class="less"><a href="index.html"><i class="icon white icon-folder-open">&nbsp;</i></a></span>
-      </li>
-      <li class="next">
-        <a href="finding-your-most-active-users-with-google-analytics.html"><span class="more">Finding Your Most Active Users with Google Analytics</span><span class="less">Next</span> <i class="icon-white icon-arrow-right">&nbsp;</i></a>
-      </li>
-    </ul>
-    <div class="introduction row-fluid">
-      <div class="title span6">
-        <h1><a title="Dan Cunning" href="../">Dan Cunning</a></h1>
-        <ul>
-          <li>
-            <a title="Twitter" href="https://twitter.com/itopdan"><span class="about-twitter">&nbsp;</span> twitter</a>
-          </li>
-          <li>
-            <a title="github" href="https://github.com/topdan"><span class="about-github">&nbsp;</span> github</a>
-          </li>
-          <li>
-            <a title="Email" href="mailto:dan@topdan.com"><span class="about-email">&nbsp;</span> email</a>
-          </li>
-        </ul>
-      </div>
-      <div class="profile span6">
-        <img width="75" height="75" src="../assets/dan-79508ca0775ace507f1dc34d151bba0f.jpg" alt="Dan">
-        <p>I'm a <a href="./">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a href="../dan-cunning.html">Read more »</a></p>
-      </div>
-    </div>
-    <p id="view-source"><span class="view">View Source:</span> <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/ajax-toggle-buttons.html">HTML</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/ajax-toggle-buttons.json">JSON</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/ajax-toggle-buttons.html.md">View</a></p>
-    <div id="copyright">
-      <p>© 2012-2016 Dan Cunning. All rights reserved.</p>
-    </div>
-  </div>
-  <script src="../assets/site-751f9810721f6cd0fc19773d57181eff.js">
+  <script src="../assets/site-c6416b7001448ff707184ed5091cceaa.js">
   </script>
 </body>
 </html>

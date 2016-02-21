@@ -10,7 +10,7 @@ end
 Now `UsersMailer` templates go into `app/views/mailers/users_mailer`.
 
 ```raw
-<p class="centered"><img src="before-and-after.png" alt="Before and After"/></p>
-```
+<p class="center"><img src="before-and-after.png" alt="Before and After"/></p>
 
-It just feels better this way.
+<p class="alert alert-info center mt-4e">It just feels better this way.</p>
+```

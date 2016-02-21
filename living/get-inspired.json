@@ -2,6 +2,7 @@
   "title": "Get Inspired",
   "description": "A collection of videos, songs and articles with so much heart and insight they affect me every time I watch. Maybe they'll do the same for you.",
   "format": "erb",
+  "width": "full",
   "published_at": "2012-03-10 01:00:00 UTC",
   "data_type": "Living::InspiringVideos",
   "data": [
@@ -36,12 +37,18 @@
       "title": "Randy Pausch Last Lecture: Achieving Your Childhood Dreams",
       "description_html": "<p>Carnegie Mellon Professor <a href=\"http://en.wikipedia.org/wiki/Randy_Pausch\">Randy Pausch</a> gave his last lecture at the university Sept. 18, 2007, before a packed McConomy Auditorium. In his moving presentation, \"Really Achieving Your Childhood Dreams,\" Pausch talked about his lessons learned and gave advice to students on how to achieve their own career and personal goals.</p>",
       "youtube1_key": "ji5_MqicxSo"
+    },
+    {
+      "id": "this-is-water",
+      "title": "David Foster Wallace: This Is Water",
+      "description_html": "<p>The <a href=\"https://en.wikipedia.org/wiki/Infinite_Jest\">Infinite Jest</a> author defends the phrase \"teach you how to think\" through fantastic examples of keeping perspective and life in the day-to-day grind.</p>",
+      "youtube1_key": "8CrOL-ydFMI"
     }
   ],
   "author": {
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2015-02-25 22:32:58 -0500"
+  "updated_at": "2016-02-21 09:37:57 -0500"
 }
 
