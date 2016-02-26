@@ -132,7 +132,7 @@
     {
       "title": "Man Seeking Woman",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4942/thumb_man-seeking-woman-98380510bd538459ef32a0119d76ed09.jpg",
-      "latest_episode_aired_on": "2016-02-10",
+      "latest_episode_aired_on": "2016-02-24",
       "first_episode_aired_on": "2015-01-14",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -163,7 +163,7 @@
     {
       "title": "The Middle",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-fa847c7de585f12a21a8d9342720a10c.jpg",
-      "latest_episode_aired_on": "2016-02-10",
+      "latest_episode_aired_on": "2016-02-24",
       "first_episode_aired_on": "2009-09-30",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -197,7 +197,7 @@
     {
       "title": "The Walking Dead",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead-5a9c2349b9ba8b3af699d9085797f51a.jpg",
-      "latest_episode_aired_on": "2016-02-14",
+      "latest_episode_aired_on": "2016-02-21",
       "first_episode_aired_on": "2010-10-31",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -743,6 +743,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2016-02-22 03:13:16 -0500"
+  "updated_at": "2016-02-26 03:12:08 -0500"
 }
 
