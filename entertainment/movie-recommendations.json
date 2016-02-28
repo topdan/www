@@ -97,6 +97,17 @@
       }
     },
     {
+      "title": "Room",
+      "year": 2015,
+      "release_date": "2015-10-16",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18253/thumb_room-2015-422454130033645d4a5027e9479d5302.jpg",
+      "streams": {
+      },
+      "references": {
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/room_2015/"
+      }
+    },
+    {
       "title": "Sicario",
       "year": 2015,
       "release_date": "2015-10-02",
@@ -478,6 +489,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11320/thumb_muppets-most-wanted-2014-6913ff31512c99c27ae31f1400db4fa4.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00J59ZNL8",
+        "encore": "http://www.encoreplay.com/Movies/Details/22642",
         "starz_com": "http://www.starzplay.com/Movies/Details/22642"
       },
       "references": {
@@ -1605,6 +1617,33 @@
       }
     },
     {
+      "title": "9 ",
+      "year": 2009,
+      "release_date": "2009-09-09",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19961/thumb_9-2009-20ffa30614f6d22ecfeba5f8e239504b.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0472033/",
+        "rotten_tomatoes": "//www.rottentomatoes.com/m/1205483_nine/"
+      }
+    },
+    {
+      "title": "Coraline",
+      "year": 2009,
+      "release_date": "2009-02-06",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12293/thumb_coraline-2009-eda8bd602dacfd1ec19553f841e8a36a.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B002LAM7PI",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48534?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "itunes": "https://itunes.apple.com/us/movie/coraline/id308771950"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0327597/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/coraline/"
+      }
+    },
+    {
       "title": "Funny People",
       "year": 2009,
       "release_date": "2009-07-31",
@@ -1699,6 +1738,19 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt1049413/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/up/"
+      }
+    },
+    {
+      "title": "Up in the Air",
+      "year": 2009,
+      "release_date": "2009-12-04",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12644/thumb_up-in-the-air-2009-b55fc9ea04c2366af0fd70d93310aa77.jpg",
+      "streams": {
+        "netflix": "https://www.netflix.com/title/70117902"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1193138/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/up_in_the_air_2009/"
       }
     },
     {
@@ -2385,7 +2437,8 @@
       "release_date": "2004-07-28",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8141/thumb_garden-state-2004-868142e44ae91289103e9f45d8c8a38e.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000I9X6Q8"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000I9X6Q8",
+        "encore": "http://www.encoreplay.com/Movies/Details/23546"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0333766/",
@@ -2523,7 +2576,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1048/thumb_big-fish-2003-fd641f8ed7bbc30fafabf24b722289be.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B007PJFFWC",
-        "amazon_prime": "http://www.amazon.com/gp/product/B007PJFFWC"
+        "amazon_prime": "http://www.amazon.com/gp/product/B007PJFFWC",
+        "encore": "http://www.encoreplay.com/Movies/Details/18891"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0319061/",
@@ -2837,6 +2891,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00COH0W00",
         "amazon_prime": "http://www.amazon.com/gp/product/B00COH0W00",
+        "encore": "http://www.encoreplay.com/Movies/Details/1541",
         "netflix": "https://www.netflix.com/title/60021634",
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3393624",
         "starz_com": "http://www.starzplay.com/Movies/Details/1541"
@@ -3070,6 +3125,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7943/thumb_office-space-1999-98bcd9fa2e32a1e4f95adaf8e9b581f4.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9YWDO",
+        "encore": "http://www.encoreplay.com/Movies/Details/24157",
         "itunes": "https://itunes.apple.com/us/movie/office-space/id273369330"
       },
       "references": {
@@ -3208,6 +3264,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11543/thumb_the-big-hit-1998-7bd5a34dd7da389271dd5692032924eb.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001DIJ5AY",
+        "encore": "http://www.encoreplay.com/Movies/Details/9296",
         "netflix": "https://www.netflix.com/title/14606161"
       },
       "references": {
@@ -3388,6 +3445,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10734/thumb_the-usual-suspects-1995-5ff8b825c83a470ed4c709c424ed01d5.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00101ZOTA",
+        "encore": "http://www.encoreplay.com/Movies/Details/1872",
         "itunes": "https://itunes.apple.com/us/movie/the-usual-suspects/id267913118"
       },
       "references": {
@@ -3497,6 +3555,7 @@
       "release_date": "1990-06-01",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14219/thumb_total-recall-1990-ce65480a5a38bc0e35f9b89a883223dd.jpg",
       "streams": {
+        "encore": "http://www.encoreplay.com/Movies/Details/24481"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0100802/",
@@ -3673,6 +3732,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-02-27 03:12:08 -0500"
+  "updated_at": "2016-02-28 03:12:08 -0500"
 }
 
