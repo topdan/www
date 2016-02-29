@@ -140,7 +140,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3659388/",
-        "rotten_tomatoes": "http://www.rottentomatoes.com/m/the_martian/"
+        "rotten_tomatoes": "//www.rottentomatoes.com/m/the_martian/"
       }
     },
     {
@@ -3732,6 +3732,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-02-28 03:12:08 -0500"
+  "updated_at": "2016-02-29 03:12:09 -0500"
 }
 
