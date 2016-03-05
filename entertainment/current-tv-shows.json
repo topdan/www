@@ -63,7 +63,7 @@
     {
       "title": "Crazy Ex-Girlfriend",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4720/thumb_crazy-ex-girlfriend-bc5bd2d9aad270e95e8fd9c67929290e.jpg",
-      "latest_episode_aired_on": "2016-02-22",
+      "latest_episode_aired_on": "2016-02-29",
       "first_episode_aired_on": "2015-10-12",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -743,6 +743,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2016-03-04 03:12:08 -0500"
+  "updated_at": "2016-03-05 03:12:08 -0500"
 }
 
