@@ -45,7 +45,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/movie-recommendations.html</id>
     <published>2014-08-19T17:10:01-04:00</published>
-    <updated>2016-02-21T14:26:57-05:00</updated>
+    <updated>2016-03-13T14:51:21-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/movie-recommendations.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Movie Recommendations</title>
     <content>Movies that I enjoyed enough that I think you should look into them. They tend to be unique, covering perspectives and topics I've never seen on screen before.</content>
@@ -55,25 +55,13 @@
     </author>
   </entry>
   <entry>
-    <id>http://www.topdan.com/entertainment/current-tv-shows.html</id>
-    <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2016-02-22T03:13:16-05:00</updated>
-    <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/current-tv-shows.html?utm_medium=atom&amp;utm_source=feed"/>
-    <title>My Current TV Shows</title>
-    <content>TV shows I'm currently watching. They may be new ones or just catching up with older ones.</content>
+    <id>http://www.topdan.com/entertainment/tv-recommendations.html</id>
+    <published>2016-03-13T14:41:53-04:00</published>
+    <updated>2016-03-13T14:51:48-04:00</updated>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/tv-recommendations.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>TV Recommendations</title>
+    <content>TV shows I enjoy watching. You may or may not agree, but I suggest you look into some.</content>
     <updated>2012-03-18 18:00:00 UTC</updated>
-    <author>
-      <name>Dan Cunning</name>
-    </author>
-  </entry>
-  <entry>
-    <id>http://www.topdan.com/entertainment/previous-tv-shows.html</id>
-    <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2016-02-21T10:58:13-05:00</updated>
-    <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/previous-tv-shows.html?utm_medium=atom&amp;utm_source=feed"/>
-    <title>My Completed TV Shows</title>
-    <content>TV shows I watched every episode and enjoyed enough that I added them to this list.</content>
-    <updated>2012-03-18 16:00:00 UTC</updated>
     <author>
       <name>Dan Cunning</name>
     </author>
