@@ -386,6 +386,7 @@
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
       "streams": {
+        "netflix": "https://www.netflix.com/title/80002311"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2357547/",
@@ -432,6 +433,7 @@
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
       "streams": {
+        "netflix": "https://www.netflix.com/title/80049714"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt4635276/",
@@ -1213,6 +1215,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-03-13 14:51:48 -0400"
+  "updated_at": "2016-03-13 15:15:40 -0400"
 }
 
