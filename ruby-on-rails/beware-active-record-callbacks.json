@@ -2,12 +2,15 @@
   "title": "Beware ActiveRecord callbacks",
   "description": "ActiveRecord is a fantastically well-made ORM that makes working with databases a breeze, but one feature in the callback structure is incredibly bug-prone.",
   "format": "md",
+  "tag_ids": [
+    "tips"
+  ],
   "skips_description": true,
   "published_at": "2014-07-17 16:00:00 UTC",
   "author": {
     "name": "Dan Cunning"
   },
   "created_at": "2015-05-18 14:45:04 -0400",
-  "updated_at": "2016-02-21 13:44:40 -0500"
+  "updated_at": "2016-03-13 15:27:45 -0400"
 }
 

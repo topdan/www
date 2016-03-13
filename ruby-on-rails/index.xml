@@ -33,7 +33,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html</id>
     <published>2015-05-18T15:10:02-04:00</published>
-    <updated>2016-02-21T13:44:40-05:00</updated>
+    <updated>2016-03-13T15:27:45-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>f.label and errors.full_messages</title>
     <content>Why you should never use the explicit "content" parameter of label_tag or the form builder's label method.</content>
@@ -45,7 +45,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/time-zones-and-datetime-select.html</id>
     <published>2015-05-12T13:51:31-04:00</published>
-    <updated>2016-02-21T09:37:57-05:00</updated>
+    <updated>2016-03-13T15:27:45-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/time-zones-and-datetime-select.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Time Zones and datetime_select</title>
     <content>A simple fix for using datetime_select and time_zone_select together.</content>
@@ -57,7 +57,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/views-mailers-directory.html</id>
     <published>2015-03-04T13:33:58-05:00</published>
-    <updated>2016-02-21T14:16:05-05:00</updated>
+    <updated>2016-03-13T15:27:45-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/views-mailers-directory.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>views/mailers directory</title>
     <content>Avoid cluttering up app/views by moving mailer directories underneath a single parent.</content>
@@ -81,7 +81,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html</id>
     <published>2015-05-18T14:45:04-04:00</published>
-    <updated>2016-02-21T13:44:40-05:00</updated>
+    <updated>2016-03-13T15:27:45-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Beware ActiveRecord callbacks</title>
     <content>ActiveRecord is a fantastically well-made ORM that makes working with databases a breeze, but one feature in the callback structure is incredibly bug-prone.</content>
@@ -129,7 +129,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/working-with-web-apis.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2016-02-21T14:20:19-05:00</updated>
+    <updated>2016-03-13T15:27:45-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/working-with-web-apis.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>The Tricky World of Using Web APIs</title>
     <content>When your application interacts with the web a lot can go wrong. Working with Ruby on Rails over the last five years, I've seen a lot of them first hand, and with this article I hope to share some of that experience and help you write more reliable, efficient and friendly code.</content>
