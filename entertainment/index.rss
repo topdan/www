@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Entertainment - topdan.com</title>
-    <link>http://www.topdan.com/entertainment/index.rss</link>
+    <link>http://staging.topdan.com/entertainment/index.rss</link>
     <description>Dan Cunning's thoughts on entertainment.</description>
     <item>
       <title>TV Shows = Great Ringtones</title>
       <description>List of songs from television shows that make great ringtones.</description>
-      <link>http://www.topdan.com/entertainment/tv-show-ringtones.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/entertainment/tv-show-ringtones.html</guid>
+      <link>http://staging.topdan.com/entertainment/tv-show-ringtones.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/entertainment/tv-show-ringtones.html</guid>
       <pubDate>2016-02-17 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Gilmore Girls Alumni</title>
       <description>A look at the cast members that gained significant fame after Gilmore Girls.</description>
-      <link>http://www.topdan.com/entertainment/gilmore-girl-alumni.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/entertainment/gilmore-girl-alumni.html</guid>
+      <link>http://staging.topdan.com/entertainment/gilmore-girl-alumni.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/entertainment/gilmore-girl-alumni.html</guid>
       <pubDate>2015-09-01 12:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Enjoyable Music Videos</title>
       <description>List of music videos that I enjoyed over the years and don't want to forget for some reason. Maybe you'll find a couple to enjoy?</description>
-      <link>http://www.topdan.com/entertainment/music-videos.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/entertainment/music-videos.html</guid>
+      <link>http://staging.topdan.com/entertainment/music-videos.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/entertainment/music-videos.html</guid>
       <pubDate>2013-01-02 03:55:59 UTC</pubDate>
     </item>
     <item>
       <title>Movie Recommendations</title>
       <description>Movies that I enjoyed enough that I think you should look into them. They tend to be unique, covering perspectives and topics I've never seen on screen before.</description>
-      <link>http://www.topdan.com/entertainment/movie-recommendations.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/entertainment/movie-recommendations.html</guid>
+      <link>http://staging.topdan.com/entertainment/movie-recommendations.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/entertainment/movie-recommendations.html</guid>
       <pubDate>2012-08-03 16:00:00 UTC</pubDate>
     </item>
     <item>
       <title>My Current TV Shows</title>
       <description>TV shows I'm currently watching. They may be new ones or just catching up with older ones.</description>
-      <link>http://www.topdan.com/entertainment/current-tv-shows.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/entertainment/current-tv-shows.html</guid>
+      <link>http://staging.topdan.com/entertainment/current-tv-shows.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/entertainment/current-tv-shows.html</guid>
       <pubDate>2012-03-18 18:00:00 UTC</pubDate>
     </item>
     <item>
       <title>My Completed TV Shows</title>
       <description>TV shows I watched every episode and enjoyed enough that I added them to this list.</description>
-      <link>http://www.topdan.com/entertainment/previous-tv-shows.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/entertainment/previous-tv-shows.html</guid>
+      <link>http://staging.topdan.com/entertainment/previous-tv-shows.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/entertainment/previous-tv-shows.html</guid>
       <pubDate>2012-03-18 16:00:00 UTC</pubDate>
     </item>
   </channel>

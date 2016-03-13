@@ -2,650 +2,650 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Dan Cunning - topdan.com</title>
-    <link>http://www.topdan.com/index.rss</link>
+    <link>http://staging.topdan.com/index.rss</link>
     <description>A Ruby on Rails contractor's writes about his meandering thoughts</description>
     <item>
       <title>TV Shows = Great Ringtones</title>
       <description>List of songs from television shows that make great ringtones.</description>
-      <link>http://www.topdan.com/entertainment/tv-show-ringtones.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/entertainment/tv-show-ringtones.html</guid>
+      <link>http://staging.topdan.com/entertainment/tv-show-ringtones.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/entertainment/tv-show-ringtones.html</guid>
       <pubDate>2016-02-17 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Private Photo Albums</title>
       <description>Share and organize pictures with my family while balancing privacy, ownership, simplicity, and convenience.</description>
-      <link>http://www.topdan.com/projects/private-photo-albums.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/projects/private-photo-albums.html</guid>
+      <link>http://staging.topdan.com/projects/private-photo-albums.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/projects/private-photo-albums.html</guid>
       <pubDate>2015-10-02 12:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Browsing Files &amp; Directories in S3</title>
       <description>Amazon's S3 makes storing files easy but viewing directories isn't intuitive. Let me explain how you can emulate a file structure using Plain-Old-Ruby-Objects.</description>
-      <link>http://www.topdan.com/ruby-on-rails/aws-s3-browser.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/ruby-on-rails/aws-s3-browser.html</guid>
+      <link>http://staging.topdan.com/ruby-on-rails/aws-s3-browser.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/ruby-on-rails/aws-s3-browser.html</guid>
       <pubDate>2015-09-19 14:12:03 -0400</pubDate>
     </item>
     <item>
       <title>NFL Salaries by College</title>
       <description>Ranking each NCAA football conference and school on how much their former players make in the NFL.</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/index.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/index.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/index.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/index.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Salaries by College</title>
       <description>What colleges and conferences have the highest paid NFL players during the start of the 2015 season?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/index.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/index.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/index.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/index.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Quarterbacks by College</title>
       <description>What colleges and conferences have the highest paid NFL players at quarterback?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/quarterbacks.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/quarterbacks.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/quarterbacks.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/quarterbacks.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Running Backs by College</title>
       <description>What colleges and conferences have the highest paid NFL players at running back?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/running-backs.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/running-backs.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/running-backs.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/running-backs.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Receivers by College</title>
       <description>What colleges and conferences have the highest paid NFL players at wide receiver?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/receivers.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/receivers.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/receivers.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/receivers.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Offensive Line by College</title>
       <description>What colleges and conferences have the highest paid NFL players at offensive line?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/offensive-line.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/offensive-line.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/offensive-line.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/offensive-line.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Defensive Line by College</title>
       <description>What colleges and conferences have the highest paid NFL players at defensive line?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/defensive-line.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/defensive-line.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/defensive-line.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/defensive-line.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Linebackers by College</title>
       <description>What colleges and conferences have the highest paid NFL players at linebacker?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/linebackers.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/linebackers.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/linebackers.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/linebackers.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Secondary by College</title>
       <description>What colleges and conferences have the highest paid NFL players at secondary?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/secondary.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/secondary.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/secondary.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/secondary.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Special Teams by College</title>
       <description>What colleges and conferences have the highest paid NFL players at special team?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/special-teams.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/special-teams.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/special-teams.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/special-teams.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Players from the AAC</title>
       <description>What AAC schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/aac.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/aac.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/aac.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/aac.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Players from the ACC</title>
       <description>What ACC schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/acc.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/acc.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/acc.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/acc.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Players from the Big 12</title>
       <description>What Big 12 schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/big-12.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/big-12.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/big-12.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/big-12.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Players from the Big East</title>
       <description>What Big East schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/big-east.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/big-east.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/big-east.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/big-east.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Players from the Big Ten</title>
       <description>What Big Ten schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/big-ten.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/big-ten.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/big-ten.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/big-ten.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Players from C-USA</title>
       <description>What C-USA schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/cusa.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/cusa.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/cusa.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/cusa.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Players from Independent FCS</title>
       <description>What Independent FCS schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/independent.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/independent.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/independent.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/independent.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Players from the MAC</title>
       <description>What MAC schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/mac.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/mac.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/mac.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/mac.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Players from the Mountain West</title>
       <description>What Mountain West schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/mwc.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/mwc.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/mwc.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/mwc.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Players from the Pac-12</title>
       <description>What Pac-12 schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/pac-12.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/pac-12.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/pac-12.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/pac-12.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Players from the SEC</title>
       <description>What SEC schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/sec.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/sec.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/sec.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/sec.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Players from the Sun Belt</title>
       <description>What Sun-Best schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/sun-belt.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/sun-belt.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/sun-belt.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/sun-belt.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Players from the WAC</title>
       <description>What WAC schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/wac.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/wac.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/wac.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/wac.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Players from the FCS</title>
       <description>What FCS schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/fcs.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/fcs.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/fcs.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/fcs.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Players from the Division II</title>
       <description>What Division-II schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/division-ii.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/division-ii.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/division-ii.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/division-ii.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Players from the Division III</title>
       <description>What Division-III schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/division-iii.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/division-iii.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/division-iii.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/division-iii.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL International Players</title>
       <description>What International schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/international.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/international.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/international.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/international.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 NFL Players from the NAIA</title>
       <description>What NAIA schools have the most and highest paid NFL players?</description>
-      <link>http://www.topdan.com/sports/nfl-salaries-by-college/2015/naia.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/nfl-salaries-by-college/2015/naia.html</guid>
+      <link>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/naia.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/nfl-salaries-by-college/2015/naia.html</guid>
       <pubDate>2015-09-14 21:30:00 UTC</pubDate>
     </item>
     <item>
       <title>NCAAF Vegas Bias</title>
       <description>Determining which college football programs are under or over valued against the spreads, moneylines, and over/unders.</description>
-      <link>http://www.topdan.com/sports/ncaaf-vegas-bias/index.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/ncaaf-vegas-bias/index.html</guid>
+      <link>http://staging.topdan.com/sports/ncaaf-vegas-bias/index.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/ncaaf-vegas-bias/index.html</guid>
       <pubDate>2015-09-08 19:30:00 -0400</pubDate>
     </item>
     <item>
       <title>2014 NCAAF Vegas Bias</title>
       <description>What programs were under and over valued by Sportsbooks in the 2014 college football season?</description>
-      <link>http://www.topdan.com/sports/ncaaf-vegas-bias/2014.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/ncaaf-vegas-bias/2014.html</guid>
+      <link>http://staging.topdan.com/sports/ncaaf-vegas-bias/2014.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/ncaaf-vegas-bias/2014.html</guid>
       <pubDate>2015-09-08 19:30:00 -0400</pubDate>
     </item>
     <item>
       <title>2015 NCAAF Vegas Bias</title>
       <description>What programs were under and over valued by Sportsbooks in the 2015 college football season?</description>
-      <link>http://www.topdan.com/sports/ncaaf-vegas-bias/2015.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/ncaaf-vegas-bias/2015.html</guid>
+      <link>http://staging.topdan.com/sports/ncaaf-vegas-bias/2015.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/ncaaf-vegas-bias/2015.html</guid>
       <pubDate>2015-09-08 19:30:00 -0400</pubDate>
     </item>
     <item>
       <title>Progress Bars</title>
       <description>How to create a progress bar using Ruby on Rails, AJAX, and Twitter Bootstrap.</description>
-      <link>http://www.topdan.com/ruby-on-rails/progress-bars.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/ruby-on-rails/progress-bars.html</guid>
+      <link>http://staging.topdan.com/ruby-on-rails/progress-bars.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/ruby-on-rails/progress-bars.html</guid>
       <pubDate>2015-09-08 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Gilmore Girls Alumni</title>
       <description>A look at the cast members that gained significant fame after Gilmore Girls.</description>
-      <link>http://www.topdan.com/entertainment/gilmore-girl-alumni.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/entertainment/gilmore-girl-alumni.html</guid>
+      <link>http://staging.topdan.com/entertainment/gilmore-girl-alumni.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/entertainment/gilmore-girl-alumni.html</guid>
       <pubDate>2015-09-01 12:00:00 UTC</pubDate>
     </item>
     <item>
       <title>A More Representative Democracy</title>
       <description>An outline for how a simple website could solve many of the problems with our current legislative systems.</description>
-      <link>http://www.topdan.com/living/more-representative-democracy.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/living/more-representative-democracy.html</guid>
+      <link>http://staging.topdan.com/living/more-representative-democracy.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/living/more-representative-democracy.html</guid>
       <pubDate>2015-06-16 12:45:00 -0400</pubDate>
     </item>
     <item>
       <title>f.label and errors.full_messages</title>
       <description>Why you should never use the explicit "content" parameter of label_tag or the form builder's label method.</description>
-      <link>http://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html</guid>
+      <link>http://staging.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html</guid>
       <pubDate>2015-05-18 18:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Time Zones and datetime_select</title>
       <description>A simple fix for using datetime_select and time_zone_select together.</description>
-      <link>http://www.topdan.com/ruby-on-rails/time-zones-and-datetime-select.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/ruby-on-rails/time-zones-and-datetime-select.html</guid>
+      <link>http://staging.topdan.com/ruby-on-rails/time-zones-and-datetime-select.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/ruby-on-rails/time-zones-and-datetime-select.html</guid>
       <pubDate>2015-05-12 16:00:00 UTC</pubDate>
     </item>
     <item>
       <title>views/mailers directory</title>
       <description>Avoid cluttering up app/views by moving mailer directories underneath a single parent.</description>
-      <link>http://www.topdan.com/ruby-on-rails/views-mailers-directory.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/ruby-on-rails/views-mailers-directory.html</guid>
+      <link>http://staging.topdan.com/ruby-on-rails/views-mailers-directory.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/ruby-on-rails/views-mailers-directory.html</guid>
       <pubDate>2015-03-04 13:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Custom Mailing Lists</title>
       <description>Mailing lists remain an effective way for groups to communicate. We'll explore how to implement them in your Rails application to improve its overall user-experience.</description>
-      <link>http://www.topdan.com/ruby-on-rails/custom-mailing-lists.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/ruby-on-rails/custom-mailing-lists.html</guid>
+      <link>http://staging.topdan.com/ruby-on-rails/custom-mailing-lists.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/ruby-on-rails/custom-mailing-lists.html</guid>
       <pubDate>2015-02-21 16:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Learning to Draw</title>
       <description>After college I found myself with more free time than I needed, so I decided to learn to draw. Here's how I went about it along with a small gallery.</description>
-      <link>http://www.topdan.com/living/learning-to-draw.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/living/learning-to-draw.html</guid>
+      <link>http://staging.topdan.com/living/learning-to-draw.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/living/learning-to-draw.html</guid>
       <pubDate>2015-01-08 00:00:00 UTC</pubDate>
     </item>
     <item>
       <title>The Communication Age</title>
       <description>The explosion of the Internet and mobile devices shaped a new age where people across the globe are always connected and always communicating, irreversibly changing the way we meet, work, govern, and socialize.</description>
-      <link>http://www.topdan.com/living/the-communication-age.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/living/the-communication-age.html</guid>
+      <link>http://staging.topdan.com/living/the-communication-age.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/living/the-communication-age.html</guid>
       <pubDate>2014-11-04 12:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Firefox Remote Control</title>
       <description>Controlling your TV with your iPhone via OSX, Firefox, and an HDMI cable</description>
-      <link>http://www.topdan.com/projects/remifi-remote-controlled-browser.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/projects/remifi-remote-controlled-browser.html</guid>
+      <link>http://staging.topdan.com/projects/remifi-remote-controlled-browser.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/projects/remifi-remote-controlled-browser.html</guid>
       <pubDate>2014-10-31 14:00:00 UTC</pubDate>
     </item>
     <item>
       <title>"Now Streaming" Email</title>
       <description>Find out what's now streaming online with a bi-weekly email digest.</description>
-      <link>http://www.topdan.com/projects/now-streaming-email.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/projects/now-streaming-email.html</guid>
+      <link>http://staging.topdan.com/projects/now-streaming-email.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/projects/now-streaming-email.html</guid>
       <pubDate>2014-10-30 12:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Fantasy Sportsbook</title>
       <description>Creating a new type of game by combining my favorite elements of sportsbooks and fantasy sports.</description>
-      <link>http://www.topdan.com/projects/fantasy-sportsbook.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/projects/fantasy-sportsbook.html</guid>
+      <link>http://staging.topdan.com/projects/fantasy-sportsbook.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/projects/fantasy-sportsbook.html</guid>
       <pubDate>2014-07-28 00:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Beware ActiveRecord callbacks</title>
       <description>ActiveRecord is a fantastically well-made ORM that makes working with databases a breeze, but one feature in the callback structure is incredibly bug-prone.</description>
-      <link>http://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html</guid>
+      <link>http://staging.topdan.com/ruby-on-rails/beware-active-record-callbacks.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/ruby-on-rails/beware-active-record-callbacks.html</guid>
       <pubDate>2014-07-17 16:00:00 UTC</pubDate>
     </item>
     <item>
       <title>The Past, Present, and Future of Computers</title>
       <description>Computers have made an undeniably permanent mark on the world, but their success wasn't gained overnight. They slowly improved what they could do, leading to advancements that led to new advancements. Let's look at how they progressed to what they are today and try to predict what they might do in the future.</description>
-      <link>http://www.topdan.com/living/past-present-and-future-of-computers.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/living/past-present-and-future-of-computers.html</guid>
+      <link>http://staging.topdan.com/living/past-present-and-future-of-computers.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/living/past-present-and-future-of-computers.html</guid>
       <pubDate>2014-07-10 16:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Soccer is Aggravating</title>
       <description>Soccer is a world-wide phenomenon, but here's why I find it really hard to watch.</description>
-      <link>http://www.topdan.com/sports/soccer-is-aggravating.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/soccer-is-aggravating.html</guid>
+      <link>http://staging.topdan.com/sports/soccer-is-aggravating.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/soccer-is-aggravating.html</guid>
       <pubDate>2014-06-22 21:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Infinite Scrolling with AJAX and Rails</title>
       <description>Ruby on Rails and jQuery team up to allow your visitors to scroll through all your content without initially loading them all.</description>
-      <link>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html</guid>
+      <link>http://staging.topdan.com/ruby-on-rails/simple-infinite-scrolling.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/ruby-on-rails/simple-infinite-scrolling.html</guid>
       <pubDate>2014-06-16 16:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Why the Thrashers left Atlanta</title>
       <description>Atlanta has become a hockey punchline. We've lost two NHL franchises: the Flames in 1980 and the Thrashers in 2011. Here's why the Thrashers leaving had more to do with America Online than with the city or its hockey fans.</description>
-      <link>http://www.topdan.com/sports/why-the-thrashers-left-atlanta.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/why-the-thrashers-left-atlanta.html</guid>
+      <link>http://staging.topdan.com/sports/why-the-thrashers-left-atlanta.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/why-the-thrashers-left-atlanta.html</guid>
       <pubDate>2014-06-01 21:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Finding Your Most Active Users</title>
       <description>Google Analytics is normally used to track a website's visitors and pageviews, but it can also track specific users, which can be invaluable information as you develop your customer base. Who is the most active? What are they using? Whose usage is fading?</description>
-      <link>http://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html</guid>
+      <link>http://staging.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html</guid>
       <pubDate>2014-05-29 16:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Easy Ajax Toggle Buttons</title>
       <description>How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it.</description>
-      <link>http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html</guid>
+      <link>http://staging.topdan.com/ruby-on-rails/ajax-toggle-buttons.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/ruby-on-rails/ajax-toggle-buttons.html</guid>
       <pubDate>2014-04-16 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Fixing Craigslist</title>
       <description>Fixing Craigslist search by filtering posts, aggregating multiple searches, grouping together and emailing important posts.</description>
-      <link>http://www.topdan.com/projects/fixing-craigslist.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/projects/fixing-craigslist.html</guid>
+      <link>http://staging.topdan.com/projects/fixing-craigslist.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/projects/fixing-craigslist.html</guid>
       <pubDate>2014-04-15 22:00:00 UTC</pubDate>
     </item>
     <item>
       <title>NCAAF Interconference Records</title>
       <description>Complete list of inter-conference games since 1998 (the BCS and playoff eras). Browse the conferences, teams, and years to decide whether there's enough evidence for a "better conference".</description>
-      <link>http://www.topdan.com/sports/college-football-conference-records/index.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/index.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/index.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/index.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>ACC vs Other Conferences</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/acc.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/acc.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/acc.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/acc.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Big 12 vs Other Conferences</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/big-12.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/big-12.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/big-12.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/big-12.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Big East vs Other Conferences</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/big-east.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/big-east.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/big-east.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/big-east.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Big Ten vs Other Conferences</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/big-ten.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/big-ten.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/big-ten.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/big-ten.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Pac 12 vs Other Conferences</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/pac-12.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/pac-12.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/pac-12.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/pac-12.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>SEC vs Other Conferences</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/sec.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/sec.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/sec.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/sec.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>College Football Conference Records in Bowls</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/bowls.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/bowls.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/bowls.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/bowls.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>1998 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/1998.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/1998.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/1998.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/1998.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>1999 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/1999.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/1999.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/1999.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/1999.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>2000 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/2000.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/2000.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/2000.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/2000.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>2001 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/2001.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/2001.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/2001.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/2001.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>2002 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/2002.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/2002.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/2002.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/2002.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>2003 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/2003.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/2003.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/2003.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/2003.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>2004 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/2004.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/2004.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/2004.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/2004.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>2005 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/2005.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/2005.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/2005.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/2005.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>2006 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/2006.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/2006.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/2006.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/2006.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>2007 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/2007.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/2007.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/2007.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/2007.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>2008 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/2008.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/2008.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/2008.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/2008.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>2009 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/2009.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/2009.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/2009.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/2009.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>2010 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/2010.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/2010.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/2010.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/2010.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>2011 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/2011.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/2011.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/2011.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/2011.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>2012 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/2012.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/2012.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/2012.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/2012.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>2013 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/2013.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/2013.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/2013.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/2013.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>2014 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/2014.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/2014.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/2014.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/2014.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>2015 College Football Conference Records</title>
       <description/>
-      <link>http://www.topdan.com/sports/college-football-conference-records/2015.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/college-football-conference-records/2015.html</guid>
+      <link>http://staging.topdan.com/sports/college-football-conference-records/2015.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/college-football-conference-records/2015.html</guid>
       <pubDate>2013-12-26 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Enjoyable Music Videos</title>
       <description>List of music videos that I enjoyed over the years and don't want to forget for some reason. Maybe you'll find a couple to enjoy?</description>
-      <link>http://www.topdan.com/entertainment/music-videos.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/entertainment/music-videos.html</guid>
+      <link>http://staging.topdan.com/entertainment/music-videos.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/entertainment/music-videos.html</guid>
       <pubDate>2013-01-02 03:55:59 UTC</pubDate>
     </item>
     <item>
       <title>SEC 2012: Season Review</title>
       <description>With the 2012 SEC regular season now complete, let's explore how the two-team expansion gave scheduling a major role in each team's success or failure.</description>
-      <link>http://www.topdan.com/sports/sec-2012-season-review.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/sec-2012-season-review.html</guid>
+      <link>http://staging.topdan.com/sports/sec-2012-season-review.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/sec-2012-season-review.html</guid>
       <pubDate>2012-11-28 21:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Don't hate the SEC</title>
       <description>If you're a college football fan from outside the SEC, you may think the SEC is ruining college football, but let me tell you how it could be the opposite.</description>
-      <link>http://www.topdan.com/sports/dont-hate-the-sec.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/dont-hate-the-sec.html</guid>
+      <link>http://staging.topdan.com/sports/dont-hate-the-sec.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/dont-hate-the-sec.html</guid>
       <pubDate>2012-09-03 20:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Movie Recommendations</title>
       <description>Movies that I enjoyed enough that I think you should look into them. They tend to be unique, covering perspectives and topics I've never seen on screen before.</description>
-      <link>http://www.topdan.com/entertainment/movie-recommendations.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/entertainment/movie-recommendations.html</guid>
+      <link>http://staging.topdan.com/entertainment/movie-recommendations.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/entertainment/movie-recommendations.html</guid>
       <pubDate>2012-08-03 16:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Tim Tebow is better than you</title>
       <description>I'm a Broncos fan and people can't stop talking to me about Tim Tebow. Now that his fate as a Bronco is sealed, here's my opinion.</description>
-      <link>http://www.topdan.com/sports/tim-tebow-is-better-than-you.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/sports/tim-tebow-is-better-than-you.html</guid>
+      <link>http://staging.topdan.com/sports/tim-tebow-is-better-than-you.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/sports/tim-tebow-is-better-than-you.html</guid>
       <pubDate>2012-03-20 16:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Smart is Overrated</title>
       <description>Being smart is better than being stupid, but smart shouldn't be the first word you want applied to you. How did smart get so important? How can it work against you? What other traits are more important?</description>
-      <link>http://www.topdan.com/living/smart-is-overrated.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/living/smart-is-overrated.html</guid>
+      <link>http://staging.topdan.com/living/smart-is-overrated.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/living/smart-is-overrated.html</guid>
       <pubDate>2012-03-19 03:00:00 UTC</pubDate>
     </item>
     <item>
       <title>My Current TV Shows</title>
       <description>TV shows I'm currently watching. They may be new ones or just catching up with older ones.</description>
-      <link>http://www.topdan.com/entertainment/current-tv-shows.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/entertainment/current-tv-shows.html</guid>
+      <link>http://staging.topdan.com/entertainment/current-tv-shows.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/entertainment/current-tv-shows.html</guid>
       <pubDate>2012-03-18 18:00:00 UTC</pubDate>
     </item>
     <item>
       <title>My Completed TV Shows</title>
       <description>TV shows I watched every episode and enjoyed enough that I added them to this list.</description>
-      <link>http://www.topdan.com/entertainment/previous-tv-shows.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/entertainment/previous-tv-shows.html</guid>
+      <link>http://staging.topdan.com/entertainment/previous-tv-shows.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/entertainment/previous-tv-shows.html</guid>
       <pubDate>2012-03-18 16:00:00 UTC</pubDate>
     </item>
     <item>
       <title>The Tricky World of Using Web APIs</title>
       <description>When your application interacts with the web a lot can go wrong. Working with Ruby on Rails over the last five years, I've seen a lot of them first hand, and with this article I hope to share some of that experience and help you write more reliable, efficient and friendly code.</description>
-      <link>http://www.topdan.com/ruby-on-rails/working-with-web-apis.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/ruby-on-rails/working-with-web-apis.html</guid>
+      <link>http://staging.topdan.com/ruby-on-rails/working-with-web-apis.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/ruby-on-rails/working-with-web-apis.html</guid>
       <pubDate>2012-03-15 18:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Protecting Yourself from Malicious params</title>
       <description>The issues and solutions to making your application's handling of user parameters secure by default, before Ruby on Rails offered an out-of-the-box solution..</description>
-      <link>http://www.topdan.com/ruby-on-rails/param-accessible.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/ruby-on-rails/param-accessible.html</guid>
+      <link>http://staging.topdan.com/ruby-on-rails/param-accessible.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/ruby-on-rails/param-accessible.html</guid>
       <pubDate>2012-03-14 18:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Speaking outside yourself</title>
       <description>Examples of how people commonly avoid personal responsibility in discussions by implying facts or universal truths.</description>
-      <link>http://www.topdan.com/living/speaking-outside-yourself.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/living/speaking-outside-yourself.html</guid>
+      <link>http://staging.topdan.com/living/speaking-outside-yourself.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/living/speaking-outside-yourself.html</guid>
       <pubDate>2012-03-10 21:00:00 UTC</pubDate>
     </item>
     <item>
       <title>Get Inspired</title>
       <description>A collection of videos, songs and articles with so much heart and insight they affect me every time I watch. Maybe they'll do the same for you.</description>
-      <link>http://www.topdan.com/living/get-inspired.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/living/get-inspired.html</guid>
+      <link>http://staging.topdan.com/living/get-inspired.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://staging.topdan.com/living/get-inspired.html</guid>
       <pubDate>2012-03-10 01:00:00 UTC</pubDate>
     </item>
   </channel>
