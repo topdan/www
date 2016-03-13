@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:staging.topdan.com,2005:/projects/index</id>
-  <link rel="alternate" type="text/html" href="http://staging.topdan.com/"/>
-  <link rel="self" type="application/atom+xml" href="http://staging.topdan.com/projects/index.xml"/>
+  <id>tag:www.topdan.com,2005:/projects/index</id>
+  <link rel="alternate" type="text/html" href="http://www.topdan.com/"/>
+  <link rel="self" type="application/atom+xml" href="http://www.topdan.com/projects/index.xml"/>
   <title>Projects - topdan.com</title>
   <subtitle>Dan Cunning's personal projects, mostly centered around improving an annoyance or routinely performed online activity. These are sometimes weekend projects, but sometimes longer.</subtitle>
   <updated>2015-10-02 12:00:00 UTC</updated>
   <entry>
-    <id>http://staging.topdan.com/projects/private-photo-albums.html</id>
+    <id>http://www.topdan.com/projects/private-photo-albums.html</id>
     <published>2015-10-02T17:07:16-04:00</published>
     <updated>2016-02-21T14:16:05-05:00</updated>
-    <link rel="alternate" type="text/html" href="http://staging.topdan.com/projects/private-photo-albums.html?utm_medium=atom&amp;utm_source=feed"/>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/private-photo-albums.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Private Photo Albums</title>
     <content>Share and organize pictures with my family while balancing privacy, ownership, simplicity, and convenience.</content>
     <updated>2015-10-02 12:00:00 UTC</updated>
@@ -19,10 +19,10 @@
     </author>
   </entry>
   <entry>
-    <id>http://staging.topdan.com/projects/remifi-remote-controlled-browser.html</id>
+    <id>http://www.topdan.com/projects/remifi-remote-controlled-browser.html</id>
     <published>2014-10-31T15:34:25-04:00</published>
     <updated>2016-02-21T14:16:05-05:00</updated>
-    <link rel="alternate" type="text/html" href="http://staging.topdan.com/projects/remifi-remote-controlled-browser.html?utm_medium=atom&amp;utm_source=feed"/>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/remifi-remote-controlled-browser.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Firefox Remote Control</title>
     <content>Controlling your TV with your iPhone via OSX, Firefox, and an HDMI cable</content>
     <updated>2014-10-31 14:00:00 UTC</updated>
@@ -31,10 +31,10 @@
     </author>
   </entry>
   <entry>
-    <id>http://staging.topdan.com/projects/now-streaming-email.html</id>
+    <id>http://www.topdan.com/projects/now-streaming-email.html</id>
     <published>2014-10-30T15:50:53-04:00</published>
     <updated>2016-02-21T13:52:50-05:00</updated>
-    <link rel="alternate" type="text/html" href="http://staging.topdan.com/projects/now-streaming-email.html?utm_medium=atom&amp;utm_source=feed"/>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/now-streaming-email.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>"Now Streaming" Email</title>
     <content>Find out what's now streaming online with a bi-weekly email digest.</content>
     <updated>2014-10-30 12:00:00 UTC</updated>
@@ -43,10 +43,10 @@
     </author>
   </entry>
   <entry>
-    <id>http://staging.topdan.com/projects/fantasy-sportsbook.html</id>
+    <id>http://www.topdan.com/projects/fantasy-sportsbook.html</id>
     <published>2014-07-27T22:12:03-04:00</published>
     <updated>2016-02-21T14:16:05-05:00</updated>
-    <link rel="alternate" type="text/html" href="http://staging.topdan.com/projects/fantasy-sportsbook.html?utm_medium=atom&amp;utm_source=feed"/>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/fantasy-sportsbook.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Fantasy Sportsbook</title>
     <content>Creating a new type of game by combining my favorite elements of sportsbooks and fantasy sports.</content>
     <updated>2014-07-28 00:00:00 UTC</updated>
@@ -55,10 +55,10 @@
     </author>
   </entry>
   <entry>
-    <id>http://staging.topdan.com/projects/fixing-craigslist.html</id>
+    <id>http://www.topdan.com/projects/fixing-craigslist.html</id>
     <published>2014-04-15T18:41:33-04:00</published>
     <updated>2016-02-21T14:16:05-05:00</updated>
-    <link rel="alternate" type="text/html" href="http://staging.topdan.com/projects/fixing-craigslist.html?utm_medium=atom&amp;utm_source=feed"/>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/fixing-craigslist.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Fixing Craigslist</title>
     <content>Fixing Craigslist search by filtering posts, aggregating multiple searches, grouping together and emailing important posts.</content>
     <updated>2014-04-15 22:00:00 UTC</updated>
