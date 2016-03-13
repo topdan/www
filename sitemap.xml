@@ -1,58 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.topdan.com/index.html</loc>
-  </url>
-  <url>
     <loc>https://www.topdan.com/dan-cunning.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/projects/index.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/projects/fantasy-sportsbook.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/projects/remifi-remote-controlled-browser.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/projects/fixing-craigslist.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/projects/now-streaming-email.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/projects/private-photo-albums.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/entertainment/index.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/entertainment/music-videos.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/entertainment/gilmore-girl-alumni.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/entertainment/tv-recommendations.html</loc>
+    <loc>https://www.topdan.com/entertainment/index.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/entertainment/movie-recommendations.html</loc>
   </url>
   <url>
+    <loc>https://www.topdan.com/entertainment/music-videos.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/entertainment/tv-recommendations.html</loc>
+  </url>
+  <url>
     <loc>https://www.topdan.com/entertainment/tv-show-ringtones.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/index.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/living/get-inspired.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/living/index.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/living/speaking-outside-yourself.html</loc>
-  </url>
-  <url>
     <loc>https://www.topdan.com/living/learning-to-draw.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/living/technology.html</loc>
+    <loc>https://www.topdan.com/living/more-representative-democracy.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/living/past-present-and-future-of-computers.html</loc>
@@ -64,13 +46,49 @@
     <loc>https://www.topdan.com/living/smart-is-overrated.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/living/more-representative-democracy.html</loc>
+    <loc>https://www.topdan.com/living/speaking-outside-yourself.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/living/technology.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/living/the-communication-age.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/living/get-inspired.html</loc>
+    <loc>https://www.topdan.com/projects/fantasy-sportsbook.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/projects/fixing-craigslist.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/projects/index.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/projects/now-streaming-email.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/projects/private-photo-albums.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/projects/remifi-remote-controlled-browser.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/ruby-on-rails/aws-s3-browser.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/ruby-on-rails/custom-mailing-lists.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/ruby-on-rails/index.html</loc>
@@ -79,10 +97,7 @@
     <loc>https://www.topdan.com/ruby-on-rails/param-accessible.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/ruby-on-rails/custom-mailing-lists.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html</loc>
+    <loc>https://www.topdan.com/ruby-on-rails/progress-bars.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html</loc>
@@ -94,52 +109,49 @@
     <loc>https://www.topdan.com/ruby-on-rails/ui-elements.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/ruby-on-rails/working-with-web-apis.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/ruby-on-rails/aws-s3-browser.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/ruby-on-rails/progress-bars.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html</loc>
-  </url>
-  <url>
     <loc>https://www.topdan.com/ruby-on-rails/views-mailers-directory.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/ruby-on-rails/web-services.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/index.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/dont-hate-the-sec.html</loc>
+    <loc>https://www.topdan.com/ruby-on-rails/working-with-web-apis.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/sports/college-football-conference-records/1998.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/index.html</loc>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/1999.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/2000.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/2001.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/sports/college-football-conference-records/2002.html</loc>
   </url>
   <url>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/2003.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/2004.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/2005.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/2006.html</loc>
+  </url>
+  <url>
     <loc>https://www.topdan.com/sports/college-football-conference-records/2007.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/2015.html</loc>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/2008.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/sec.html</loc>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/2009.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/sports/college-football-conference-records/2010.html</loc>
@@ -148,85 +160,115 @@
     <loc>https://www.topdan.com/sports/college-football-conference-records/2011.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/2000.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/big-12.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/2003.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/2005.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/pac-12.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/1999.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/2009.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/2004.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/2006.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/2014.html</loc>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/2012.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/sports/college-football-conference-records/2013.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/big-east.html</loc>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/2014.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/bowls.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/2012.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/2001.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/big-ten.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/college-football-conference-records/2008.html</loc>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/2015.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/sports/college-football-conference-records/acc.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/soccer-is-aggravating.html</loc>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/big-12.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/index.html</loc>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/big-east.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/index.html</loc>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/big-ten.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/naia.html</loc>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/bowls.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/international.html</loc>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/index.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/pac-12.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/college-football-conference-records/sec.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/dont-hate-the-sec.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/index.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/ncaaf-vegas-bias/2014.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/ncaaf-vegas-bias/2015.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/ncaaf-vegas-bias/index.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/aac.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/acc.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/big-12.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/big-east.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/big-ten.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/cusa.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/defensive-line.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/division-ii.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/division-iii.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/fcs.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/secondary.html</loc>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/independent.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/special-teams.html</loc>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/index.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/sec.html</loc>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/international.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/linebackers.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/mac.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/mwc.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/naia.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/offensive-line.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/pac-12.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/quarterbacks.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/receivers.html</loc>
@@ -235,73 +277,31 @@
     <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/running-backs.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/defensive-line.html</loc>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/sec.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/independent.html</loc>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/secondary.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/big-12.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/mwc.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/linebackers.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/pac-12.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/division-ii.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/mac.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/wac.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/quarterbacks.html</loc>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/special-teams.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/sun-belt.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/offensive-line.html</loc>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/wac.html</loc>
   </url>
   <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/division-iii.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/cusa.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/big-east.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/aac.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/big-ten.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/2015/acc.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/ncaaf-vegas-bias/index.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/ncaaf-vegas-bias/2015.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/ncaaf-vegas-bias/2014.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/sports/tim-tebow-is-better-than-you.html</loc>
+    <loc>https://www.topdan.com/sports/nfl-salaries-by-college/index.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/sports/sec-2012-season-review.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/soccer-is-aggravating.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/sports/tim-tebow-is-better-than-you.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/sports/why-the-thrashers-left-atlanta.html</loc>
