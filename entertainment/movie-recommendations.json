@@ -3459,7 +3459,6 @@
       "release_date": "1995-12-27",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16750/thumb_twelve-monkeys-1995-efcf4e834722b49d7bfd23b65a3eeb87.jpg",
       "streams": {
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3418449"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0114746/",
@@ -3733,6 +3732,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-03-13 14:51:21 -0400"
+  "updated_at": "2016-03-16 03:12:06 -0400"
 }
 
