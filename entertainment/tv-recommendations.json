@@ -213,7 +213,7 @@
     {
       "title": "The Walking Dead",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/175/thumb_the-walking-dead-5a9c2349b9ba8b3af699d9085797f51a.jpg",
-      "latest_episode_aired_on": "2016-03-13",
+      "latest_episode_aired_on": "2016-03-20",
       "first_episode_aired_on": "2010-10-31",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1086,7 +1086,7 @@
     },
     {
       "title": "Gilmore Girls",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2197/thumb_gilmore-girls-cd391a6b0d88c7fc5e9842d7fc2a22a3.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2197/thumb_gilmore-girls-174d12b0513ca18eb07fce4b414448c4.jpg",
       "latest_episode_aired_on": "2007-05-15",
       "first_episode_aired_on": "2000-10-05",
       "final_episode_aired_on": "2007-05-15",
@@ -1200,6 +1200,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-03-24 03:12:06 -0400"
+  "updated_at": "2016-03-25 03:12:06 -0400"
 }
 
