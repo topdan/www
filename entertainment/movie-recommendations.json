@@ -176,8 +176,7 @@
       "release_date": "2014-03-28",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11234/thumb_bad-words-2014-812867c88b70a3a5da203be260904c42.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00LM4ST9W",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48203?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00LM4ST9W"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2170299/",
@@ -219,7 +218,6 @@
       "release_date": "2014-11-07",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11953/thumb_big-hero-6-2014-7d17e95cb7ea0734e97468debda52a2a.jpg",
       "streams": {
-        "encore": "http://www.encoreplay.com/Movies/Details/23790",
         "itunes": "https://itunes.apple.com/us/movie/big-hero-6/id929423754",
         "starz_com": "http://www.starzplay.com/Movies/Details/23790"
       },
@@ -504,7 +502,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11320/thumb_muppets-most-wanted-2014-6913ff31512c99c27ae31f1400db4fa4.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00J59ZNL8",
-        "encore": "http://www.encoreplay.com/Movies/Details/22642",
         "starz_com": "http://www.starzplay.com/Movies/Details/22642"
       },
       "references": {
@@ -2590,8 +2587,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1048/thumb_big-fish-2003-fd641f8ed7bbc30fafabf24b722289be.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B007PJFFWC",
-        "amazon_prime": "http://www.amazon.com/gp/product/B007PJFFWC",
-        "encore": "http://www.encoreplay.com/Movies/Details/18891"
+        "amazon_prime": "http://www.amazon.com/gp/product/B007PJFFWC"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0319061/",
@@ -2906,7 +2902,6 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00COH0W00",
         "amazon_prime": "http://www.amazon.com/gp/product/B00COH0W00",
-        "encore": "http://www.encoreplay.com/Movies/Details/1541",
         "netflix": "https://www.netflix.com/title/60021634",
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3393624",
         "starz_com": "http://www.starzplay.com/Movies/Details/1541"
@@ -2989,7 +2984,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11394/thumb_crouching-tiger-hidden-dragon-2000-76eb73af371b672ec7ab93510279c255.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B006LWKG2S",
-        "encore": "http://www.encoreplay.com/Movies/Details/24146",
         "starz_com": "http://www.starzplay.com/Movies/Details/24146"
       },
       "references": {
@@ -3141,7 +3135,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7943/thumb_office-space-1999-98bcd9fa2e32a1e4f95adaf8e9b581f4.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9YWDO",
-        "encore": "http://www.encoreplay.com/Movies/Details/24157",
         "itunes": "https://itunes.apple.com/us/movie/office-space/id273369330"
       },
       "references": {
@@ -3459,7 +3452,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10734/thumb_the-usual-suspects-1995-5ff8b825c83a470ed4c709c424ed01d5.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00101ZOTA",
-        "encore": "http://www.encoreplay.com/Movies/Details/1872",
         "itunes": "https://itunes.apple.com/us/movie/the-usual-suspects/id267913118"
       },
       "references": {
@@ -3569,7 +3561,6 @@
       "release_date": "1990-06-01",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14219/thumb_total-recall-1990-ce65480a5a38bc0e35f9b89a883223dd.jpg",
       "streams": {
-        "encore": "http://www.encoreplay.com/Movies/Details/24481"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0100802/",
@@ -3746,6 +3737,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-03-31 03:12:06 -0400"
+  "updated_at": "2016-04-01 03:12:06 -0400"
 }
 
