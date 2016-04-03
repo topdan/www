@@ -88,12 +88,27 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13163/thumb_mad-max-fury-road-2015-6094af4b6fc65d0951be99a0c0036bd3.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B014QZ9B3Q",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP49233?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP50269?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/mad-max-fury-road/id990549112"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1392190/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/mad_max_fury_road/"
+      }
+    },
+    {
+      "title": "Me and Earl and the Dying Girl",
+      "year": 2015,
+      "release_date": "2015-06-12",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16032/thumb_me-and-earl-and-the-dying-girl-2015-f54ecdbe77cbb2302e045d0f36dc8e7f.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B016887ZU0",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP49251?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "itunes": "https://itunes.apple.com/us/movie/me-and-earl-and-the-dying-girl/id997193474"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2582496/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/me_and_earl_and_the_dying_girl/"
       }
     },
     {
@@ -218,6 +233,7 @@
       "release_date": "2014-11-07",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11953/thumb_big-hero-6-2014-7d17e95cb7ea0734e97468debda52a2a.jpg",
       "streams": {
+        "encore": "http://www.encoreplay.com/Movies/Details/23790",
         "itunes": "https://itunes.apple.com/us/movie/big-hero-6/id929423754",
         "starz_com": "http://www.starzplay.com/Movies/Details/23790"
       },
@@ -402,8 +418,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12245/thumb_inherent-vice-2014-55738709c9f83745b592ce5ad8f1cbd7.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00TGO68IO",
-        "itunes": "https://itunes.apple.com/us/movie/inherent-vice/id935074762",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37746?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "itunes": "https://itunes.apple.com/us/movie/inherent-vice/id935074762"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1791528/",
@@ -502,6 +517,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11320/thumb_muppets-most-wanted-2014-6913ff31512c99c27ae31f1400db4fa4.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00J59ZNL8",
+        "encore": "http://www.encoreplay.com/Movies/Details/22642",
         "starz_com": "http://www.starzplay.com/Movies/Details/22642"
       },
       "references": {
@@ -776,8 +792,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11230/thumb_x-men-days-of-future-past-2014-281cfc555c7894fa04cf2fc22b36caeb.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00OH75ATS",
-        "itunes": "https://itunes.apple.com/us/movie/x-men-days-of-future-past/id867914892",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38312?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46129?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "itunes": "https://itunes.apple.com/us/movie/x-men-days-of-future-past/id867914892"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1877832/",
@@ -983,7 +999,8 @@
       "release_date": "2013-03-29",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9779/thumb_the-place-beyond-the-pines-2013-11ad544a917f827e29c1e495618afbd5.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00DP3M14C"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00DP3M14C",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38639?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1817273/",
@@ -1813,7 +1830,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12666/thumb_burn-after-reading-2008-5d4d017b38c488c9900b97dc67439aca.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001Q2J8BS",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GORO1B20177?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38638?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0887883/",
@@ -2272,7 +2289,6 @@
       "release_date": "2005-11-23",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15403/thumb_just-friends-2005-6a33deb1c749f451b80b8557e2c912d1.jpg",
       "streams": {
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37382?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0433400/",
@@ -2589,7 +2605,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1048/thumb_big-fish-2003-fd641f8ed7bbc30fafabf24b722289be.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B007PJFFWC",
-        "amazon_prime": "http://www.amazon.com/gp/product/B007PJFFWC"
+        "amazon_prime": "http://www.amazon.com/gp/product/B007PJFFWC",
+        "encore": "http://www.encoreplay.com/Movies/Details/18891"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0319061/",
@@ -2986,6 +3003,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11394/thumb_crouching-tiger-hidden-dragon-2000-76eb73af371b672ec7ab93510279c255.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B006LWKG2S",
+        "encore": "http://www.encoreplay.com/Movies/Details/24146",
         "starz_com": "http://www.starzplay.com/Movies/Details/24146"
       },
       "references": {
@@ -3123,7 +3141,8 @@
       "release_date": "1999-07-09",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18934/thumb_american-pie-1999-8a5223a3cf2da4aaed92d79c981ed59d.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0039NCJFO"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0039NCJFO",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP49581?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0163651/",
@@ -3137,6 +3156,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7943/thumb_office-space-1999-98bcd9fa2e32a1e4f95adaf8e9b581f4.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9YWDO",
+        "encore": "http://www.encoreplay.com/Movies/Details/24157",
         "itunes": "https://itunes.apple.com/us/movie/office-space/id273369330"
       },
       "references": {
@@ -3454,6 +3474,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10734/thumb_the-usual-suspects-1995-5ff8b825c83a470ed4c709c424ed01d5.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00101ZOTA",
+        "encore": "http://www.encoreplay.com/Movies/Details/1872",
         "itunes": "https://itunes.apple.com/us/movie/the-usual-suspects/id267913118"
       },
       "references": {
@@ -3564,6 +3585,7 @@
       "release_date": "1990-06-01",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14219/thumb_total-recall-1990-ce65480a5a38bc0e35f9b89a883223dd.jpg",
       "streams": {
+        "encore": "http://www.encoreplay.com/Movies/Details/24481"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0100802/",
@@ -3742,6 +3764,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-04-02 03:12:06 -0400"
+  "updated_at": "2016-04-03 03:12:06 -0400"
 }
 
