@@ -516,7 +516,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11320/thumb_muppets-most-wanted-2014-6913ff31512c99c27ae31f1400db4fa4.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00J59ZNL8",
-        "starz_com": "http://www.starzplay.com/Movies/Details/22642"
+        "encore": "http://www.encoreplay.com/Movies/Details/22642"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2281587/",
@@ -1687,8 +1687,7 @@
       "release_date": "2009-06-12",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13271/thumb_moon-2009-7d214e998e57f5efd56b78975e081b9d.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0030B621W",
-        "starz_com": "http://www.starzplay.com/Movies/Details/6734"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0030B621W"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1182345/",
@@ -1937,8 +1936,7 @@
       "release_date": "2007-09-14",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16156/thumb_across-the-universe-2007-e24eac51015659b7bd62f919b7b4b04b.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0016BP0PW",
-        "starz_com": "http://www.starzplay.com/Movies/Details/32"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0016BP0PW"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0445922/",
@@ -2312,7 +2310,8 @@
       "release_date": "2005-05-13",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13206/thumb_layer-cake-2005-ed3a380b021c05e9d6b55292cae889c9.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00AVIQAIM"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00AVIQAIM",
+        "starz_com": "http://www.starzplay.com/Movies/Details/16830"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0375912/",
@@ -2340,8 +2339,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15166/thumb_shopgirl-2005-34b6ca3b2ead73542c343c4ce75693aa.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B003QSDYSS",
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/140985",
-        "starz_com": "http://www.starzplay.com/Movies/Details/22967"
+        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/140985"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0338427/",
@@ -2450,8 +2448,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001TAJGO6",
         "amazon_prime": "http://www.amazon.com/gp/product/B001TAJGO6",
-        "itunes": "https://itunes.apple.com/us/movie/eternal-sunshine-spotless/id303440550",
-        "starz_com": "http://www.starzplay.com/Movies/Details/25239"
+        "itunes": "https://itunes.apple.com/us/movie/eternal-sunshine-spotless/id303440550"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0338013/",
@@ -2603,7 +2600,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1048/thumb_big-fish-2003-fd641f8ed7bbc30fafabf24b722289be.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B007PJFFWC",
-        "amazon_prime": "http://www.amazon.com/gp/product/B007PJFFWC"
+        "amazon_prime": "http://www.amazon.com/gp/product/B007PJFFWC",
+        "encore": "http://www.encoreplay.com/Movies/Details/18891"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0319061/",
@@ -2616,7 +2614,8 @@
       "release_date": "2003-03-07",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12986/thumb_laurel-canyon-2003-6f3782b03e6392b3d98f8692a524ec1a.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00170F0IE"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00170F0IE",
+        "starz_com": "http://www.starzplay.com/Movies/Details/19644"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0298408/",
@@ -2695,7 +2694,8 @@
       "release_date": "2002-04-05",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/17040/thumb_big-trouble-2002-fad8a6d44f40f75d137cb1887a00bf23.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B004LEU3RQ"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B004LEU3RQ",
+        "starz_com": "http://www.starzplay.com/Movies/Details/6231"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0246464/",
@@ -2919,8 +2919,7 @@
         "amazon_one_click": "http://www.amazon.com/gp/product/B00COH0W00",
         "amazon_prime": "http://www.amazon.com/gp/product/B00COH0W00",
         "netflix": "https://www.netflix.com/title/60021634",
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3393624",
-        "starz_com": "http://www.starzplay.com/Movies/Details/1541"
+        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3393624"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0240890/",
@@ -3000,7 +2999,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11394/thumb_crouching-tiger-hidden-dragon-2000-76eb73af371b672ec7ab93510279c255.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B006LWKG2S",
-        "starz_com": "http://www.starzplay.com/Movies/Details/24146"
+        "encore": "http://www.encoreplay.com/Movies/Details/24146"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0190332/",
@@ -3152,6 +3151,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7943/thumb_office-space-1999-98bcd9fa2e32a1e4f95adaf8e9b581f4.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9YWDO",
+        "encore": "http://www.encoreplay.com/Movies/Details/24157",
         "itunes": "https://itunes.apple.com/us/movie/office-space/id273369330"
       },
       "references": {
@@ -3469,6 +3469,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10734/thumb_the-usual-suspects-1995-5ff8b825c83a470ed4c709c424ed01d5.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00101ZOTA",
+        "encore": "http://www.encoreplay.com/Movies/Details/1872",
         "itunes": "https://itunes.apple.com/us/movie/the-usual-suspects/id267913118"
       },
       "references": {
@@ -3579,6 +3580,7 @@
       "release_date": "1990-06-01",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14219/thumb_total-recall-1990-ce65480a5a38bc0e35f9b89a883223dd.jpg",
       "streams": {
+        "encore": "http://www.encoreplay.com/Movies/Details/24481"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0100802/",
@@ -3757,6 +3759,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-04-05 03:12:06 -0400"
+  "updated_at": "2016-04-06 03:12:06 -0400"
 }
 
