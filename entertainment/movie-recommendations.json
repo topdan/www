@@ -161,6 +161,18 @@
       }
     },
     {
+      "title": "The Big Short",
+      "year": 2015,
+      "release_date": "2015-12-23",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19053/thumb_the-big-short-2015-a86d00d489481d8d1b843a80dd379104.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3622082/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/the_big_short/"
+      }
+    },
+    {
       "title": "The Martian",
       "year": 2015,
       "release_date": "2015-10-02",
@@ -3759,6 +3771,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-04-06 03:12:06 -0400"
+  "updated_at": "2016-04-07 03:12:07 -0400"
 }
 
