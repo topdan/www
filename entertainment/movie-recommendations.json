@@ -149,6 +149,18 @@
       }
     },
     {
+      "title": "Sleeping with Other People",
+      "year": 2015,
+      "release_date": "2015-09-11",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16695/thumb_sleeping-with-other-people-2015-3f4924f9d6c6b5bf00fdd27e67150784.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3165612/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/sleeping_with_other_people/"
+      }
+    },
+    {
       "title": "Star Wars: Episode VII - The Force Awakens",
       "year": 2015,
       "release_date": "2015-12-18",
@@ -578,6 +590,21 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt1959490/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/noah_2014/"
+      }
+    },
+    {
+      "title": "Paddington",
+      "year": 2014,
+      "release_date": "2015-01-16",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11868/thumb_paddington-2014-e84c27c7111ee663ebb4afb914376c40.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00SB2OYL0",
+        "itunes": "https://itunes.apple.com/us/movie/paddington/id956834527",
+        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3406319"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1109624/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/paddington_2014/"
       }
     },
     {
@@ -1994,6 +2021,19 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt0467406/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/juno/"
+      }
+    },
+    {
+      "title": "Once",
+      "year": 2007,
+      "release_date": "2007-05-18",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19363/thumb_once-2007-1481b6933dc5ad1c65fef8131efb2bd7.jpg",
+      "streams": {
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP47991?videoMode=embeddedVideo?showSpecialFeatures=false/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0907657/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/once/"
       }
     },
     {
@@ -3771,6 +3811,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-04-07 03:12:07 -0400"
+  "updated_at": "2016-04-11 03:12:06 -0400"
 }
 
