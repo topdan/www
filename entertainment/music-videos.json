@@ -851,8 +851,8 @@
     {
       "artist": "Peter Sarstedt",
       "song": "Where do you go to my lovely",
-      "video_url": "https://www.youtube.com/watch?v=aE89OeM5nmU",
-      "thumbnail_url": "https://img.youtube.com/vi/aE89OeM5nmU/0.jpg",
+      "video_url": "https://www.youtube.com/watch?v=L8XQZYIiNgo",
+      "thumbnail_url": "https://img.youtube.com/vi/L8XQZYIiNgo/0.jpg",
       "added_at": "2013-01-01 15:35:05 -0500"
     },
     {
@@ -888,6 +888,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2016-04-05 03:52:05 -0400"
+  "updated_at": "2016-04-12 03:52:04 -0400"
 }
 
