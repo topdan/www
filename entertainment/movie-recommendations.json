@@ -441,6 +441,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12245/thumb_inherent-vice-2014-55738709c9f83745b592ce5ad8f1cbd7.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00TGO68IO",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP49547?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/inherent-vice/id935074762"
       },
       "references": {
@@ -3811,6 +3812,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-04-11 03:12:06 -0400"
+  "updated_at": "2016-04-13 03:12:06 -0400"
 }
 
