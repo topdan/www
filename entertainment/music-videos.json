@@ -9,6 +9,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Gerry Rafferty",
+      "song": "Right Down The Line",
+      "video_url": "https://www.youtube.com/watch?v=YzSXSo3dTHU",
+      "thumbnail_url": "https://img.youtube.com/vi/YzSXSo3dTHU/0.jpg",
+      "added_at": "2016-04-12 22:05:29 -0400"
+    },
+    {
       "artist": "Blondie",
       "song": "Rapture",
       "video_url": "https://www.youtube.com/watch?v=pHCdS7O248g",
@@ -888,6 +895,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2016-04-12 03:52:04 -0400"
+  "updated_at": "2016-04-13 03:52:04 -0400"
 }
 
