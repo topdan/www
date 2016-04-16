@@ -11,7 +11,7 @@
     {
       "title": "Banshee",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/15/thumb_banshee-ea947c7a5d29dda094713ce5e5aac99b.jpg",
-      "latest_episode_aired_on": "2016-04-02",
+      "latest_episode_aired_on": "2016-04-09",
       "first_episode_aired_on": "2013-01-11",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -81,7 +81,7 @@
     {
       "title": "Crazy Ex-Girlfriend",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4720/thumb_crazy-ex-girlfriend-bc5bd2d9aad270e95e8fd9c67929290e.jpg",
-      "latest_episode_aired_on": "2016-03-28",
+      "latest_episode_aired_on": "2016-04-11",
       "first_episode_aired_on": "2015-10-12",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -242,6 +242,21 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt1520211/",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Walking_Dead_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Unbreakable Kimmy Schmidt",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3842/thumb_unbreakable-kimmy-schmidt-cd606ac146db14457c6f598463c3aaf4.jpg",
+      "latest_episode_aired_on": "2016-04-15",
+      "first_episode_aired_on": "2015-03-06",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80025384"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3339966/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Unbreakable_Kimmy_Schmidt"
       }
     },
     {
@@ -597,21 +612,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2356777/",
         "wikipedia": "https://en.wikipedia.org/wiki/True_Detective_%28TV_series%29"
-      }
-    },
-    {
-      "title": "Unbreakable Kimmy Schmidt",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3842/thumb_unbreakable-kimmy-schmidt-cd606ac146db14457c6f598463c3aaf4.jpg",
-      "latest_episode_aired_on": "2015-03-06",
-      "first_episode_aired_on": "2015-03-06",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "netflix": "https://www.netflix.com/title/80025384"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt3339966/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Unbreakable_Kimmy_Schmidt"
       }
     },
     {
@@ -1198,6 +1198,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-04-15 03:12:06 -0400"
+  "updated_at": "2016-04-16 03:12:06 -0400"
 }
 
