@@ -3162,7 +3162,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14150/thumb_10-things-i-hate-about-you-1999-85774373338843a5beecaaf4133e05c9.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00FY8ARI8",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48455?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP49410?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0147800/",
@@ -3812,6 +3812,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-04-13 03:12:06 -0400"
+  "updated_at": "2016-04-20 03:12:06 -0400"
 }
 
