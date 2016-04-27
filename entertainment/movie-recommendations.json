@@ -89,7 +89,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13163/thumb_mad-max-fury-road-2015-6094af4b6fc65d0951be99a0c0036bd3.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B014QZ9B3Q",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP50269?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP50181?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/mad-max-fury-road/id990549112"
       },
       "references": {
@@ -879,6 +879,22 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2265398/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/drinking_buddies_2013/"
+      }
+    },
+    {
+      "title": "Frequencies",
+      "year": 2013,
+      "release_date": "2014-05-23",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14519/thumb_frequencies-2013-b02b824cca34a341eee276352730d443.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00KHL1VM8",
+        "amazon_prime": "http://www.amazon.com/gp/product/B00KHL1VM8",
+        "netflix": "https://www.netflix.com/title/70291117",
+        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3413921"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2414766/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/frequencies/"
       }
     },
     {
@@ -2831,7 +2847,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5636/thumb_super-troopers-2002-38d10db717ef831df0277d277eca9c09.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9VZCU",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP30470?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP49739?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/super-troopers/id270307460"
       },
       "references": {
@@ -3121,7 +3137,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10541/thumb_snatch-2000-e1de4beedfbb54907d1d403015637e47.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0094M6A18",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP25240?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP49732?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/snatch/id284156786"
       },
       "references": {
@@ -3812,6 +3828,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-04-25 03:12:07 -0400"
+  "updated_at": "2016-04-27 03:12:06 -0400"
 }
 
