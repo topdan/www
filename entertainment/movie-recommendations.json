@@ -245,6 +245,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00O2UZ298",
         "itunes": "https://itunes.apple.com/us/movie/begin-again/id892574154",
+        "netflix": null,
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3403508"
       },
       "references": {
@@ -3828,6 +3829,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-04-27 03:12:06 -0400"
+  "updated_at": "2016-04-28 03:12:06 -0400"
 }
 
