@@ -79,6 +79,20 @@
       }
     },
     {
+      "title": "Cooked",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5006/thumb_cooked-1572abda67a069555baded194c5c925a.jpg",
+      "latest_episode_aired_on": "2016-02-19",
+      "first_episode_aired_on": "2016-02-19",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80022456"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5347906/"
+      }
+    },
+    {
       "title": "Crazy Ex-Girlfriend",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4720/thumb_crazy-ex-girlfriend-bc5bd2d9aad270e95e8fd9c67929290e.jpg",
       "latest_episode_aired_on": "2016-04-11",
@@ -110,6 +124,22 @@
         "imdb": "http://www.imdb.com/title/tt3305096/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/tv/galavant/s01/",
         "wikipedia": "https://en.wikipedia.org/wiki/Galavant"
+      }
+    },
+    {
+      "title": "Game of Thrones",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/70/thumb_game-of-thrones-f02d401000ce55b03a5a16129d9ddcae.jpg",
+      "latest_episode_aired_on": "2016-04-24",
+      "first_episode_aired_on": "2011-04-17",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B007HNFREW",
+        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP31734?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0944947/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Game_of_Thrones"
       }
     },
     {
@@ -372,22 +402,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt1954347/",
         "wikipedia": "https://en.wikipedia.org/wiki/Continuum_%28TV_series%29"
-      }
-    },
-    {
-      "title": "Game of Thrones",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/70/thumb_game-of-thrones-f02d401000ce55b03a5a16129d9ddcae.jpg",
-      "latest_episode_aired_on": "2015-06-15",
-      "first_episode_aired_on": "2011-04-17",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B007HNFREW",
-        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP31734?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt0944947/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Game_of_Thrones"
       }
     },
     {
@@ -1198,6 +1212,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-04-26 03:12:06 -0400"
+  "updated_at": "2016-04-29 03:12:06 -0400"
 }
 
