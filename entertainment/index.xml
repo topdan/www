@@ -5,7 +5,19 @@
   <link rel="self" type="application/atom+xml" href="http://www.topdan.com/entertainment/index.xml"/>
   <title>Entertainment - topdan.com</title>
   <subtitle>Dan Cunning's thoughts on entertainment.</subtitle>
-  <updated>2016-02-17 20:00:00 UTC</updated>
+  <updated>2016-05-01 16:00:00 UTC</updated>
+  <entry>
+    <id>http://www.topdan.com/entertainment/followed-people.html</id>
+    <published>2016-05-01T20:43:55-04:00</published>
+    <updated>2016-05-01T20:44:15-04:00</updated>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/followed-people.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>Followed Actors &amp; Directors</title>
+    <content>People who consistently help make movies they're involved in worth watching or just people I like watching in movies.</content>
+    <updated>2016-05-01 16:00:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
   <entry>
     <id>http://www.topdan.com/entertainment/tv-show-ringtones.html</id>
     <published>2016-02-17T18:56:48-05:00</published>
@@ -45,7 +57,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/movie-recommendations.html</id>
     <published>2014-08-19T17:10:01-04:00</published>
-    <updated>2016-04-13T03:12:06-04:00</updated>
+    <updated>2016-05-01T20:44:15-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/movie-recommendations.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Movie Recommendations</title>
     <content>Movies that I enjoyed enough that I think you should look into them. They tend to be unique, covering perspectives and topics I've never seen on screen before.</content>
@@ -57,7 +69,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/tv-recommendations.html</id>
     <published>2016-03-13T14:41:53-04:00</published>
-    <updated>2016-04-11T03:12:06-04:00</updated>
+    <updated>2016-05-01T20:44:15-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/tv-recommendations.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>TV Recommendations</title>
     <content>TV shows I enjoy watching. You may or may not agree, but I suggest you look into some.</content>

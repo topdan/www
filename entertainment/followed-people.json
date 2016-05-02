@@ -1,0 +1,1077 @@
+{
+  "title": "Followed Actors & Directors",
+  "description": "People who consistently help make movies they're involved in worth watching or just people I like watching in movies.",
+  "format": "erb",
+  "featured": 3,
+  "width": "full",
+  "uses_javascript": true,
+  "published_at": "2016-05-01 16:00:00 UTC",
+  "data_type": "Entertainment::Person",
+  "data": [
+    {
+      "name": "Adam Scott",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/1347/thumb_1-5f53b44a48027229b083959a01c4b03f.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0004395/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/341817001"
+      }
+    },
+    {
+      "name": "Adam Wingard",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/20840/thumb_1-955865dd068fad3a3085262f9c85f024.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1417392/"
+      }
+    },
+    {
+      "name": "Akiva Schaffer",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22581/thumb_1-bccf26e38ab79ca36d3a903ddebef39d.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1676223/"
+      }
+    },
+    {
+      "name": "Alexandra Daddario",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/880/thumb_1-bc290f9c04d6f0052fe7801a0fdcbe42.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1275259/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/770777867"
+      }
+    },
+    {
+      "name": "Alex Garland",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/31902/thumb_1-828387dd382d0913c344eb9b12af2ee2.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0307497/"
+      }
+    },
+    {
+      "name": "Alex Proyas",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/25498/thumb_1-cdf351e708d01e4444c3e08aee39afcb.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0001639/"
+      }
+    },
+    {
+      "name": "Alfonso Cuaron",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21113/thumb_1-00718e8de6823b9d35f63a1002005fff.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0190859/"
+      }
+    },
+    {
+      "name": "Alfonso Gomez-Rejon",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/33698/thumb_1-df45b362a4056762b75e16fd8986fd51.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0004234/"
+      }
+    },
+    {
+      "name": "Alison Brie",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/2775/thumb_1-1c8721177ee9b32a1653d863bedf388f.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1555340/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/770798990"
+      }
+    },
+    {
+      "name": "Amanda Seyfried",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/167/thumb_1-e8b9e289b8bc94b7c9136904b4b091a5.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1086543/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/364614826"
+      }
+    },
+    {
+      "name": "Analeigh Tipton",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/28764/thumb_1-600339f47405deeb1a38023854178d35.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm3006818/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/770876603"
+      }
+    },
+    {
+      "name": "Andy Wachowski",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21165/thumb_1-90ad78cc45a411d54c31102a897356f4.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0905152/"
+      }
+    },
+    {
+      "name": "Ari Folman",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21790/thumb_1-0021f9b8b5b29dc2be566b59b3e3b15e.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0284369/"
+      }
+    },
+    {
+      "name": "Barry Sonnenfeld",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/25696/thumb_1-afc73bff5017a36c245d9a66b59ef999.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0001756/"
+      }
+    },
+    {
+      "name": "Baz Luhrmann",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21519/thumb_1-40d7b4c6dc4ef44a6534c93c94f183ad.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0525303/"
+      }
+    },
+    {
+      "name": "Ben Foster",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/1323/thumb_1-4d895afe25ed0f06923f0021bc0fb451.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0004936/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162669838"
+      }
+    },
+    {
+      "name": "Bernardo Bertolucci",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/26394/thumb_1-91b65675f0dbae51cc4c9a9aecd27bb9.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000934/"
+      }
+    },
+    {
+      "name": "Bill Murray",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/324/thumb_1-bf645a76c82152c63bd7c076b32961e8.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000195/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162653064"
+      }
+    },
+    {
+      "name": "Billy Crudup",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/403/thumb_1-16776fe7eec8b1a217c4e5a45e008106.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0001082/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162660766"
+      }
+    },
+    {
+      "name": "Brie Larson",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/588/thumb_1-931f717c53ac6e61d61050e1920e1856.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0488953/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/341816562"
+      }
+    },
+    {
+      "name": "Brit Marling",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/238/thumb_1-c51687dc0ce41663c8078818d26d0c03.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1779870/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/770798848"
+      }
+    },
+    {
+      "name": "Brittany Snow",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/2037/thumb_1-e7847f612da186c738731b1f6fa647dd.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0811242/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162652474"
+      }
+    },
+    {
+      "name": "Bryce Dallas Howard",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/8265/thumb_1-10d93632aa3671079c69e55c8b733a46.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0397171/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162660901"
+      }
+    },
+    {
+      "name": "Cameron Crowe",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/23213/thumb_1-c8291f15a9c39c562d65b56dea09b479.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0001081/"
+      }
+    },
+    {
+      "name": "Carey Mulligan",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/720/thumb_1-0c2947bc998b87f552e177d83a143ce1.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1659547/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/770678627"
+      }
+    },
+    {
+      "name": "Chloë Grace Moretz",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/877/thumb_1-00f7df120ab82b1b4019e82a04c24f2e.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1631269/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/771410621"
+      }
+    },
+    {
+      "name": "Chris O'Dowd",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/1648/thumb_1-b94adf15eb113c7dd5e15a7b9986f02b.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1483369/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/770684214"
+      }
+    },
+    {
+      "name": "Christopher Nolan",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/20914/thumb_1-5908b170dc216b83afdd220bede64209.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0634240/"
+      }
+    },
+    {
+      "name": "Clint Eastwood",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/20916/thumb_1-81124001ea5a15013506d34960098100.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000142/"
+      }
+    },
+    {
+      "name": "Darren Aronofsky",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21067/thumb_1-3eec9a8ffbd681b4e00d582566032aa7.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0004716/"
+      }
+    },
+    {
+      "name": "David Fincher",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/20888/thumb_1-bd4b229a2d8e7286620d2832cd2a13f6.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000399/"
+      }
+    },
+    {
+      "name": "David Lynch",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/26803/thumb_1-c1f63517b1bc5d73b734ea00c4183766.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000186/"
+      }
+    },
+    {
+      "name": "David Robert Mitchell",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/23742/thumb_1-0c114f553ed5841a11df194cef7c1363.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1379002/"
+      }
+    },
+    {
+      "name": "David Wain",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21198/thumb_1-222bd610e6e457d1c08d730a701502da.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0906476/"
+      }
+    },
+    {
+      "name": "Denis Villeneuve",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21120/thumb_1-49cecfff0dd15b0ea15927cb303aac51.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0898288/"
+      }
+    },
+    {
+      "name": "Derek Cianfrance",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21561/thumb_1-9b06067c2bca4825b7c978e48346ceb2.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0161834/"
+      }
+    },
+    {
+      "name": "Don Bluth",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/25988/thumb_1-5093d07b9de621fdbf94456d08905f3d.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0089940/"
+      }
+    },
+    {
+      "name": "Doug Liman",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/20863/thumb_1-c589c987bad568372f3371521456d593.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0510731/"
+      }
+    },
+    {
+      "name": "Drake Doremus",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/20971/thumb_1-8595e4ec221ba897924cf66d8bcb5777.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm2035886/"
+      }
+    },
+    {
+      "name": "Duncan Jones",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/28826/thumb_1-e79c120dbb460052245e23050f87d342.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1512910/"
+      }
+    },
+    {
+      "name": "Edgar Wright",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21543/thumb_1-fc02d542e0813c0bbb3254182b5037ca.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0942367/"
+      }
+    },
+    {
+      "name": "Edward Burns",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22443/thumb_1-b6aea9269a06a7fcffaa3fb5ba6e2e62.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0122653/"
+      }
+    },
+    {
+      "name": "Edward Zwick",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22949/thumb_1-6de6d2bec69c894f8f672a797115f03e.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0001880/"
+      }
+    },
+    {
+      "name": "Eli Craig",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/23748/thumb_1-aafc0ae726c338b1beb1fb38d2b4ee91.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0185848/"
+      }
+    },
+    {
+      "name": "Elizabeth Olsen",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/341/thumb_1-75f5d7757333d5ebda34c054381f0259.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0647634/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/770827678"
+      }
+    },
+    {
+      "name": "Emily Blunt",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/623/thumb_1-abfa015228b3011b765f2757baec5405.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1289434/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162685827"
+      }
+    },
+    {
+      "name": "Emily Browning",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/499/thumb_1-73fd288fb9cba7827c63b182d126fd55.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0115161/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/381421024"
+      }
+    },
+    {
+      "name": "Ethan Coen",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21088/thumb_1-0099495a7fc0b04a743c01fd81018b72.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0001053/"
+      }
+    },
+    {
+      "name": "Gemma Arterton",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/1050/thumb_1-bd1cff17d32a16a2a690dacdcc6d9a49.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm2605345/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/770692644"
+      }
+    },
+    {
+      "name": "Guy Pearce",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/7/thumb_1-371e5509fdfd1cb4b7bc474ab5c2e412.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0001602/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162660324"
+      }
+    },
+    {
+      "name": "Hayao Miyazaki",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21027/thumb_1-95a0854638aaa07317dc006a625a7a12.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0594503/"
+      }
+    },
+    {
+      "name": "Jake Gyllenhaal",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/887/thumb_1-07ce276321dcc2d86f96f4432f9046ec.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0350453/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162653968"
+      }
+    },
+    {
+      "name": "James L. Brooks",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/23384/thumb_1-580970b4410f921be135112de0021b81.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000985/"
+      }
+    },
+    {
+      "name": "James Ward Byrkit",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21285/thumb_1-d023ef53a8c99a795b6f17d5bc191edd.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0126096/"
+      }
+    },
+    {
+      "name": "Jane Levy",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/3079/thumb_1-2e951c0e405b84eec3274abd42d10b5c.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm3994408/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/771394557"
+      }
+    },
+    {
+      "name": "Jason Reitman",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22003/thumb_1-0d3f4d1a72564ffa0ddabbc329219134.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0718646/"
+      }
+    },
+    {
+      "name": "Jay Chandrasekhar",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22223/thumb_1-b2bff243b98f307403fe77d99d81ada0.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0151540/"
+      }
+    },
+    {
+      "name": "Jean-Pierre Jeunet",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22952/thumb_1-b06e4ea9ebff1bf79d74680ade802b36.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000466/"
+      }
+    },
+    {
+      "name": "Jennifer Westfeldt",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/6666/thumb_1-435b05adea8a53fd57cc308a65258eab.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0922724/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162692503"
+      }
+    },
+    {
+      "name": "Jennifer Westfeldt",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22875/thumb_1-435b05adea8a53fd57cc308a65258eab.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0922724/"
+      }
+    },
+    {
+      "name": "Jesse Zwick",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/25065/thumb_1-3c82674b23a795bfabd0d5af5bc95009.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm5393484/"
+      }
+    },
+    {
+      "name": "Joel Coen",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21089/thumb_1-c59c12a7cfd1ab0780d31ce5e978104a.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0001054/"
+      }
+    },
+    {
+      "name": "Joe Swanberg",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/20956/thumb_1-65a0f7c6a0d01960b788acdc4ed0083c.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1846132/"
+      }
+    },
+    {
+      "name": "Joe Wright",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22047/thumb_1-d4eedfecfd88fa23bad3fc14be19ca63.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0942504/"
+      }
+    },
+    {
+      "name": "John Goodman",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/608/thumb_1-4d5976e586a235ce3a2f20e4dce68d9c.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000422/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162655706"
+      }
+    },
+    {
+      "name": "John Landis",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/23543/thumb_1-338e15e102a259206fbbf1ec2b95815e.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000484/"
+      }
+    },
+    {
+      "name": "John Michael McDonagh",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21276/thumb_1-2e4db1b4b48b924cd370f370b37f1732.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0567620/"
+      }
+    },
+    {
+      "name": "Jonathan Levine",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21534/thumb_1-4f62473424b9d4d36ac65fad39ea9539.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1349522/"
+      }
+    },
+    {
+      "name": "Jon Hamm",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/899/thumb_1-5f0b9564eff25c42ccb0a6804c7c4fc5.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0358316/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/770696952"
+      }
+    },
+    {
+      "name": "Joseph Gordon-Levitt",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/586/thumb_1-d7930249db8d8fd067ac61d9f8fa9f5a.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0330687/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162666960"
+      }
+    },
+    {
+      "name": "Joss Whedon",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21982/thumb_1-096353dd277b08b8bf3aa3666b447c7b.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0923736/"
+      }
+    },
+    {
+      "name": "Juno Temple",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/1964/thumb_1-696cae47639baf963d3e0fdafbfa442b.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1017334/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/770696465"
+      }
+    },
+    {
+      "name": "Justin Theroux",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/5729/thumb_1-5fa0eef441eef87d069b2e239b00885b.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0857620/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162653585"
+      }
+    },
+    {
+      "name": "Kevin Smith",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/23243/thumb_1-e8fbc6b51655fe60eaa4a1e6530c761a.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0003620/"
+      }
+    },
+    {
+      "name": "Kristen Bell",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/145/thumb_1-159b1ef9bedc65c6bc39f1d602910998.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0068338/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/326395677"
+      }
+    },
+    {
+      "name": "Lana Wachowski",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21166/thumb_1-4b7394b7ac6d6d2bf4471df186a51cb8.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0905154/"
+      }
+    },
+    {
+      "name": "Larry Wachowski",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/23607/thumb_1-4b7394b7ac6d6d2bf4471df186a51cb8.jpg",
+      "references": {
+      }
+    },
+    {
+      "name": "Lee Toland Krieger",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/24155/thumb_1-ca4bf954f221f43b09020acfe537b085.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1767218/"
+      }
+    },
+    {
+      "name": "Lisa Cholodenko",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/23821/thumb_1-3cbe91778fd27666e8144ec6f4a1f9b2.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0158966/"
+      }
+    },
+    {
+      "name": "Louis C.K.",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/24461/thumb_1-71a7bd36d967c7b1286ff9f5683c7d28.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0127373/"
+      }
+    },
+    {
+      "name": "Luc Besson",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/20827/thumb_1-b199e36e39a093ddb0fc5a90d93f838a.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000108/"
+      }
+    },
+    {
+      "name": "Mark Duplass",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/1112/thumb_1-491efe7b365806c7930c82bf428d3513.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0243233/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/388618670"
+      }
+    },
+    {
+      "name": "Martin McDonagh",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22408/thumb_1-9e50c168344e5e0efc3e1b143c233fbc.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1732981/"
+      }
+    },
+    {
+      "name": "Martin Scorsese",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21026/thumb_1-742ed6021ef9116ae53726ea17036f09.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000217/"
+      }
+    },
+    {
+      "name": "Matt Damon",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/607/thumb_1-ada982a81598148deb966b547e0f0e1c.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000354/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162653499"
+      }
+    },
+    {
+      "name": "Matthew Vaughn",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21175/thumb_1-4b33d8d17ed101c53805be021c50b2a9.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0891216/"
+      }
+    },
+    {
+      "name": "Mel Brooks",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/26529/thumb_1-8463c67458776a2c9a9530b15978f320.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000316/"
+      }
+    },
+    {
+      "name": "Michael Fassbender",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/98/thumb_1-51238f67c12af8df4823ffc454802ae9.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1055413/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/364641814"
+      }
+    },
+    {
+      "name": "Michael Showalter",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/33963/thumb_1-e694d3de5c226bc57f2fad7176da498e.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0795290/"
+      }
+    },
+    {
+      "name": "Michel Gondry",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21202/thumb_1-39ec20fc66051dcc00d1cc4852e4dae0.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0327273/"
+      }
+    },
+    {
+      "name": "Mike Cahill",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21121/thumb_1-ef8eec3de577653e474195a716c85a5f.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm2648685/"
+      }
+    },
+    {
+      "name": "Morena Baccarin",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/328/thumb_1-569464efd800c5acbb7323d8a2257956.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1072555/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/381984430"
+      }
+    },
+    {
+      "name": "Oscar Isaac",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/344/thumb_1-17a90071a9463c89805099b0c8028bc0.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1209966/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/364655827"
+      }
+    },
+    {
+      "name": "Paul Dano",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/888/thumb_1-e7a42141149c4e64497bae2a3dabec60.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0200452/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/303713360"
+      }
+    },
+    {
+      "name": "Paul King",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/32315/thumb_1-faf1d1812c7fda97f1bce4840966064f.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1653753/"
+      }
+    },
+    {
+      "name": "Paul Rudd",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/2263/thumb_1-c8ff49a29167bc78bf78c9d62bd1b5df.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0748620/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162653309"
+      }
+    },
+    {
+      "name": "Paul Verhoeven",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22953/thumb_1-d22af7d1cdbd647e1a3d1d9a9b118405.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000682/"
+      }
+    },
+    {
+      "name": "Pete Docter",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/31367/thumb_1-4c569a1df6740b5ab8ae5699a2cde4c6.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0230032/"
+      }
+    },
+    {
+      "name": "Peter Jackson",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22189/thumb_1-c80158f1a4eb0cd939004ff30c470ef4.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0001392/"
+      }
+    },
+    {
+      "name": "Piper Perabo",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/13668/thumb_1-6a7e7bea0e8b4a1d5044fe935d33d838.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0005305/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162653535"
+      }
+    },
+    {
+      "name": "Quentin Tarantino",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21563/thumb_1-c17f21dd8d7ab863820d24eb6f767be1.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000233/"
+      }
+    },
+    {
+      "name": "Rachel McAdams",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/1546/thumb_1-25bc8146e73e2c35daad28a497128947.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1046097/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162652838"
+      }
+    },
+    {
+      "name": "Rian Johnson",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/24150/thumb_1-03426021d764d61e19e460df7cbf618f.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0426059/"
+      }
+    },
+    {
+      "name": "Richard Curtis",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21018/thumb_1-b9fd0860cba73109b92df185306a21c9.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0193485/"
+      }
+    },
+    {
+      "name": "Richard Linklater",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21291/thumb_1-50ffba9fc884530ee02dcc8916431b3f.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000500/"
+      }
+    },
+    {
+      "name": "Ryan Gosling",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/2648/thumb_1-1338ffd7dd791a7191122247cee2e064.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0331516/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162654751"
+      }
+    },
+    {
+      "name": "Ryan Reynolds",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/2204/thumb_1-536310e684ee4b9b50d2893c194aaad9.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0005351/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162652367"
+      }
+    },
+    {
+      "name": "Sam Mendes",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22447/thumb_1-507f70c7b8dbfe59389e347a767827a2.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0005222/"
+      }
+    },
+    {
+      "name": "Scarlett Johansson",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/449/thumb_1-0c3920bd1ad68b5e4513e9e01fba5603.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0424060/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162652872"
+      }
+    },
+    {
+      "name": "Shane Acker",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/39091/thumb_1-3f283a67cd5e2dd4fb9f3b4758a92d81.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0009942/"
+      }
+    },
+    {
+      "name": "Shane Carruth",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21632/thumb_1-0524658db6d762877e37e04ee1b3e793.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1503403/"
+      }
+    },
+    {
+      "name": "Shawn Christensen",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/31976/thumb_1-758a41cf20e7cbd0ce189b19d302b727.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0159900/"
+      }
+    },
+    {
+      "name": "Sofia Coppola",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21479/thumb_1-6596ab1ec28ac55417b5e215b5655363.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0001068/"
+      }
+    },
+    {
+      "name": "Spike Jonze",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21551/thumb_1-72f91fa5bac2790cde9797b46a8263f0.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0005069/"
+      }
+    },
+    {
+      "name": "Stanley Kubrick",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22950/thumb_1-fdbfce06881ce88d64d0e4d9c0ed3941.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000040/"
+      }
+    },
+    {
+      "name": "Stephen Chow",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/27373/thumb_1-8dc51e9eea3ffaeee23816a571634546.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0159507/"
+      }
+    },
+    {
+      "name": "Steve Martin",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/1683/thumb_1-5014e84f7404f96515868be08d99176d.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000188/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162654836"
+      }
+    },
+    {
+      "name": "Tarsem Singh",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22371/thumb_1-29d393fbc3abeabddf835a74d061b4f7.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0802248/"
+      }
+    },
+    {
+      "name": "Taylor Kitsch",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/117/thumb_1-df3ab9caf119f9a5bfab41e986b16165.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm2018237/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/326299816"
+      }
+    },
+    {
+      "name": "Terry Gilliam",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22948/thumb_1-51546424d2ddaeba83d0a40c9e909b16.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000416/"
+      }
+    },
+    {
+      "name": "Terry Zwigoff",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/27779/thumb_1-801159eb8413704f2159f4ddb6ce40fa.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0959062/"
+      }
+    },
+    {
+      "name": "Tim Blake Nelson",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/35451/thumb_1-64c2443bf3bda6f89165dbf109158cc7.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0625789/"
+      }
+    },
+    {
+      "name": "Tim Burton",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22752/thumb_1-579f4f298c28458c854a7352e184d1ce.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0000318/"
+      }
+    },
+    {
+      "name": "Tom Hardy",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/1721/thumb_1-1023401039e1921f8506b2ed00454614.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0362766/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/391527059"
+      }
+    },
+    {
+      "name": "Tom Tykwer",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22041/thumb_1-dd1c2c1f61a9801160e510f2b9f468b9.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0878756/"
+      }
+    },
+    {
+      "name": "Wes Anderson",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21010/thumb_1-13b0184cb072a5fe729320206e7520b3.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0027572/"
+      }
+    },
+    {
+      "name": "Zack Snyder",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21541/thumb_1-bd1bf130c1a1ddbd28675333236aabab.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0811583/"
+      }
+    }
+  ],
+  "author": {
+    "name": "Dan Cunning"
+  },
+  "created_at": "2016-05-01 20:43:55 -0400",
+  "updated_at": "2016-05-01 20:44:15 -0400"
+}
+

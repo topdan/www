@@ -11,6 +11,14 @@ module Entertainment
       t.hash :references
     end
 
+    def url
+      references[:wikipedia] || references[:imdb] || references[:rotten_tomatoes]
+    end
+
+    def categories
+      streams.keys
+    end
+
   end
 
 end

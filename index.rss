@@ -5,6 +5,13 @@
     <link>http://www.topdan.com/index.rss</link>
     <description>A Ruby on Rails contractor's writes about his meandering thoughts</description>
     <item>
+      <title>Followed Actors &amp; Directors</title>
+      <description>People who consistently help make movies they're involved in worth watching or just people I like watching in movies.</description>
+      <link>http://www.topdan.com/entertainment/followed-people.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/entertainment/followed-people.html</guid>
+      <pubDate>2016-05-01 16:00:00 UTC</pubDate>
+    </item>
+    <item>
       <title>TV Shows = Great Ringtones</title>
       <description>List of songs from television shows that make great ringtones.</description>
       <link>http://www.topdan.com/entertainment/tv-show-ringtones.html?utm_medium=rss&amp;utm_source=feed</link>
