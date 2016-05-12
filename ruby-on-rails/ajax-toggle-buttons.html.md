@@ -22,16 +22,14 @@ This pattern presents itself in every one of my applications, so I wanted to doc
 
 ```raw
 <p class="alert alert-info">
-  Click the buttons below and look at your web-developer tools for the ajax responses and <code>class</code> attribute changes, but note this site runs on a static webserver, so the state is not saved, and the paths and HTTP methods don't mirror an actual Ruby on Rails application.
+  Click the buttons below and look at your web-developer tools for how the ajax response swaps the links, but note this site runs on a static webserver, so the paths and HTTP methods don't mirror an actual Ruby on Rails application.
 </p>
 
 <div id="post-1" class="my-post">
   <p class="actions">
     <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/put.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-default favorite"><span class="fa fa-star">&nbsp;</span> Favorite</a>
-    <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/delete.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-warning unfavorite"><span class="fa fa-star">&nbsp;</span> Favorite</a>
 
-    <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/lock/put.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-default lock"><span class="fa fa-lock">&nbsp;</span> Locked</a>
-    <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/lock/delete.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-danger unlock"><span class="fa fa-lock">&nbsp;</span> Locked</a>
+    <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/lock/delete.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-danger lock"><span class="fa fa-lock">&nbsp;</span> Locked</a>
   </p>
 </div>
 
@@ -39,11 +37,11 @@ This pattern presents itself in every one of my applications, so I wanted to doc
 
 ## [How it Works](#how-it-works)
 
-1. Each toggle button is actually [two buttons](#erb) ("on" and "off") with a parent [CSS class](#stylesheet) determining which is visible.
-2. Each button has an `href` along with `data-method`, `data-type=script`, and `data-remote=true` attributes, which instruct `jquery_ujs.js` to perform an ajax request and evaluate the result as javascript.
-3. When the user clicks either button, [a jQuery listener](#loading-js) switches to the loading icon while another listener switches it back on completion.
-4. In Rails, [the main resource has a child](#routes) which provides `#update` and `#destroy` actions for [toggling on and off](#controller) respectively.
-5. After saving the change, Rails responds with one line of javascript that [adds](#update-js) or [removes](#destroy-js) the parent element's class switching the visible button.
+1. A Rails helper method renders the button in its current state.
+1. This button has an `href` along with `data-method`, `data-type=script`, and `data-remote=true` attributes which instruct `jquery_ujs.js` to perform an ajax request and evaluate the result as javascript.
+1. When the user clicks either button, [a jQuery listener](#loading-js) switches to the loading icon while another listener switches it back on completion.
+1. In Rails, [the main resource has a child](#routes) which provides `#update` and `#destroy` actions for [toggling on and off](#controller) respectively.
+1. After saving the change, Rails responds with one line of javascript that [replaces the button with its new state](#update-js).
 
 ## [The Code](#the-code)
 
@@ -100,57 +98,42 @@ class Posts::FavoritesController < ApplicationController
     @post.unfavorite!
   end
 
-  protected
+  private
 
-    def load_post
-      @post = Post.find(params[:post_id])
-    end
+  def load_post
+    @post = Post.find(params[:post_id])
+  end
 
 end
 ```
 
 ### [](#application-helper)
 ```ruby
-# helpers/application_helper.rb
-module ApplicationHelper
-
-  def link_to_with_icon(icon_css, title, url, options = {})
-    icon = content_tag(:i, nil, class: icon_css)
-    title_with_icon = icon << ' ' << title
-    link_to(title_with_icon, url, options)
-  end
-
-  def toggle_button_to(icon_css, title, url, options = {})
-    on_options = {
-      'data-remote' => true,
-      'data-type' => 'script',
-      'data-method' => 'PUT',
-      class: options[:on]
-    }
-
-    off_options = {
-      'data-remote' => true,
-      'data-type' => 'script',
-      'data-method' => 'DELETE',
-      class: options[:off]
-    }
-
-    on_link = link_to_with_icon(icon_css, title, url, on_options)
-    off_link = link_to_with_icon(icon_css, title, url, off_options)
-
-    on_link << off_link
-  end
-
-end
-```
-
-### [](#helper)
-```ruby
 # helpers/posts_helper.rb
 module PostsHelper
 
-  def post_css(post)
-    'favorite' if post.favorited?
+  def link_to_toggle_post_favorite(post)
+    url = post_favorite_path(post)
+
+    if post.favorited?
+      link_to_with_icon('icon-star', 'Favorite', url, {
+        method: 'DELETE',
+        remote: true,
+        class: 'favorite btn btn-primary',
+      })
+    else
+      link_to_with_icon('icon-star', 'Favorite', url, {
+        method: 'PUT',
+        remote: true,
+        class: 'favorite btn',
+      })
+    end
+  end
+
+  def link_to_with_icon(icon_css, title, url, options = {})
+    icon = content_tag(:i, nil, class: icon_css)
+    title_with_icon = icon << ' '.html_safe << h(title)
+    link_to(title_with_icon, url, options)
   end
 
 end
@@ -172,21 +155,6 @@ gem 'jquery-rails'
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
-```
-
-### [](#stylesheet)
-```
-/* assets/stylesheets/posts.css.scss */
-.post {
-  /* off by default */
-  .unfavorite { display: none; }
-}
-
-/* when the post is favorited show the unfavorite button instead */
-.post.favorited {
-  .favorite { display: none; }
-  .unfavorite { display: inline-block; }
-}
 ```
 
 ### [](#loading-js)
@@ -227,34 +195,26 @@ $(function() {
 ```erb
 <%# views/posts/show.html.erb %>
 <%= div_for(@post, class: post_css(@post)) do %>
-
-  <%# This outputs two buttons which CSS rules make
-      sure only one is visible at a time %>
-  <%= toggle_button_to 'icon-star', 'Favorite', post_favorite_path(@post),
-       on: 'favorite btn',
-       off: 'unfavorite btn btn-primary' %>
-
+  <%= link_to_toggle_post_favorite @post %>
 <% end %>
 ```
 
 ### [](#update-js)
 ```javascript
 /* views/posts/favorites/update.js.erb */
-$('#post-<%= @post.id %>').addClass('favorited');
+$('#post-<%= @post.id %> .favorite').replaceWith("<%=j link_to_toggle_post_favorite @post %>");
 ```
 
 ### [](#destroy-js)
 ```javascript
 /* views/posts/favorites/destroy.js.erb */
-$('#post-<%= @post.id %>').removeClass('favorited');
+$('#post-<%= @post.id %> .favorite').replaceWith("<%=j link_to_toggle_post_favorite @post %>");
 ```
 
 ## [Wrap-up](#wrapup)
 
-The only thing changing on the client-side is the loading icon and adding/removing the `class=favorited`.
+Unobtrusive javascript allows the application logic to stay in Ruby.
 
 We follow "The Rails' Way" to `#update` and `#destroy` in the controller, which will help the application gracefully grow when we add more functionality to posts like additional toggles, fields, or a public RESTful API.
-
-If your application doesn't require javascript, then you'll want to change `#toggle_button_to` to output inline forms instead of links, and make the Rails controller redirect inside `format.html`.
 
 Let me know what else you think could be improved.

@@ -18,7 +18,7 @@
   <meta name="og:title" content="Easy Ajax Toggle Buttons">
   <meta name="og:description" content="How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it.">
   <link rel="shortcut icon" href="/assets/favicon-e45cdd6cc07e8858a985e6014e38a603.png">
-  <link rel="stylesheet" media="all" href="/assets/site-3de723720c39dab102d7eeb68a6460b5.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+  <link rel="stylesheet" media="all" href="/assets/site-d5be1ba01c1d99cc1f11382d54afa1dd.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
 
   <script type="text/javascript">
   if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
@@ -85,21 +85,19 @@
           </ul>
           <p>This pattern presents itself in every one of my applications, so I wanted to document how I implement it in Ruby on Rails, as it is a good introduction to ajax, unobtrusive javascript, and Rails handling javascript requests.</p>
           <h2 id="demo"><a href="#demo">Demo</a></h2>
-          <p class="alert alert-info">Click the buttons below and look at your web-developer tools for the ajax responses and <code>class</code> attribute changes, but note this site runs on a static webserver, so the state is not saved, and the paths and HTTP methods don't mirror an actual Ruby on Rails application.</p>
+          <p class="alert alert-info">Click the buttons below and look at your web-developer tools for how the ajax response swaps the links, but note this site runs on a static webserver, so the paths and HTTP methods don't mirror an actual Ruby on Rails application.</p>
           <div id="post-1" class="my-post">
-            <p class="actions"><a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/put-9c3f01f163ff3911711020322fa02b57.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-default favorite"><span class="fa fa-star">&nbsp;</span> Favorite</a> <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/delete-198202066186c024d622ab7a981ce274.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-warning unfavorite"><span class="fa fa-star">&nbsp;</span> Favorite</a> <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/lock/put-803f7d55b36be79eaae91efea4e693e3.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-default lock"><span class="fa fa-lock">&nbsp;</span> Locked</a> <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/lock/delete-b98340ab2c82a609d1686e56afdcf3c5.js"
-            data-method="GET" data-remote="true" data-type="script" class="btn btn-danger unlock"><span class="fa fa-lock">&nbsp;</span> Locked</a></p>
+            <p class="actions"><a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/put-3ad93eaa235e45b171bcc2d3f0463367.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-default favorite"><span class="fa fa-star">&nbsp;</span> Favorite</a> <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/lock/delete-380f8f8264e84abdc0feb1f3dd2bd339.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-danger lock"><span class="fa fa-lock">&nbsp;</span> Locked</a></p>
           </div>
           <h2 id="how-it-works"><a href="#how-it-works">How it Works</a></h2>
           <ol>
-            <li>Each toggle button is actually <a href="#erb">two buttons</a> ("on" and "off") with a parent <a href="#stylesheet">CSS class</a> determining which is visible.
-            </li>
-            <li>Each button has an <code>href</code> along with <code>data-method</code>, <code>data-type=script</code>, and <code>data-remote=true</code> attributes, which instruct <code>jquery_ujs.js</code> to perform an ajax request and evaluate the result as javascript.</li>
+            <li>A Rails helper method renders the button in its current state.</li>
+            <li>This button has an <code>href</code> along with <code>data-method</code>, <code>data-type=script</code>, and <code>data-remote=true</code> attributes which instruct <code>jquery_ujs.js</code> to perform an ajax request and evaluate the result as javascript.</li>
             <li>When the user clicks either button, <a href="#loading-js">a jQuery listener</a> switches to the loading icon while another listener switches it back on completion.
             </li>
             <li>In Rails, <a href="#routes">the main resource has a child</a> which provides <code>#update</code> and <code>#destroy</code> actions for <a href="#controller">toggling on and off</a> respectively.
             </li>
-            <li>After saving the change, Rails responds with one line of javascript that <a href="#update-js">adds</a> or <a href="#destroy-js">removes</a> the parent element's class switching the visible button.
+            <li>After saving the change, Rails responds with one line of javascript that <a href="#update-js">replaces the button with its new state</a>.
             </li>
           </ol>
           <h2 id="the-code"><a href="#the-code">The Code</a></h2>
@@ -156,57 +154,42 @@
     <span class="vi">@post</span><span class="o">.</span><span class="n">unfavorite!</span>
   <span class="k">end</span>
 
-  <span class="kp">protected</span>
+  <span class="kp">private</span>
 
-    <span class="k">def</span> <span class="nf">load_post</span>
-      <span class="vi">@post</span> <span class="o">=</span> <span class="no">Post</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:post_id</span><span class="o">]</span><span class="p">)</span>
-    <span class="k">end</span>
+  <span class="k">def</span> <span class="nf">load_post</span>
+    <span class="vi">@post</span> <span class="o">=</span> <span class="no">Post</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:post_id</span><span class="o">]</span><span class="p">)</span>
+  <span class="k">end</span>
 
 <span class="k">end</span>
 </pre>
           </div>
           <h3 id="application-helper"><a href="#application-helper"></a></h3>
           <div class="highlight">
-            <pre><span class="c1"># helpers/application_helper.rb</span>
-<span class="k">module</span> <span class="nn">ApplicationHelper</span>
-
-  <span class="k">def</span> <span class="nf">link_to_with_icon</span><span class="p">(</span><span class="n">icon_css</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">options</span> <span class="o">=</span> <span class="p">{})</span>
-    <span class="n">icon</span> <span class="o">=</span> <span class="n">content_tag</span><span class="p">(</span><span class="ss">:i</span><span class="p">,</span> <span class="kp">nil</span><span class="p">,</span> <span class="ss">class</span><span class="p">:</span> <span class="n">icon_css</span><span class="p">)</span>
-    <span class="n">title_with_icon</span> <span class="o">=</span> <span class="n">icon</span> <span class="o">&lt;&lt;</span> <span class="s1">' '</span> <span class="o">&lt;&lt;</span> <span class="n">title</span>
-    <span class="n">link_to</span><span class="p">(</span><span class="n">title_with_icon</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">options</span><span class="p">)</span>
-  <span class="k">end</span>
-
-  <span class="k">def</span> <span class="nf">toggle_button_to</span><span class="p">(</span><span class="n">icon_css</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">options</span> <span class="o">=</span> <span class="p">{})</span>
-    <span class="n">on_options</span> <span class="o">=</span> <span class="p">{</span>
-      <span class="s1">'data-remote'</span> <span class="o">=&gt;</span> <span class="kp">true</span><span class="p">,</span>
-      <span class="s1">'data-type'</span> <span class="o">=&gt;</span> <span class="s1">'script'</span><span class="p">,</span>
-      <span class="s1">'data-method'</span> <span class="o">=&gt;</span> <span class="s1">'PUT'</span><span class="p">,</span>
-      <span class="ss">class</span><span class="p">:</span> <span class="n">options</span><span class="o">[</span><span class="ss">:on</span><span class="o">]</span>
-    <span class="p">}</span>
-
-    <span class="n">off_options</span> <span class="o">=</span> <span class="p">{</span>
-      <span class="s1">'data-remote'</span> <span class="o">=&gt;</span> <span class="kp">true</span><span class="p">,</span>
-      <span class="s1">'data-type'</span> <span class="o">=&gt;</span> <span class="s1">'script'</span><span class="p">,</span>
-      <span class="s1">'data-method'</span> <span class="o">=&gt;</span> <span class="s1">'DELETE'</span><span class="p">,</span>
-      <span class="ss">class</span><span class="p">:</span> <span class="n">options</span><span class="o">[</span><span class="ss">:off</span><span class="o">]</span>
-    <span class="p">}</span>
-
-    <span class="n">on_link</span> <span class="o">=</span> <span class="n">link_to_with_icon</span><span class="p">(</span><span class="n">icon_css</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">on_options</span><span class="p">)</span>
-    <span class="n">off_link</span> <span class="o">=</span> <span class="n">link_to_with_icon</span><span class="p">(</span><span class="n">icon_css</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">off_options</span><span class="p">)</span>
-
-    <span class="n">on_link</span> <span class="o">&lt;&lt;</span> <span class="n">off_link</span>
-  <span class="k">end</span>
-
-<span class="k">end</span>
-</pre>
-          </div>
-          <h3 id="helper"><a href="#helper"></a></h3>
-          <div class="highlight">
             <pre><span class="c1"># helpers/posts_helper.rb</span>
 <span class="k">module</span> <span class="nn">PostsHelper</span>
 
-  <span class="k">def</span> <span class="nf">post_css</span><span class="p">(</span><span class="n">post</span><span class="p">)</span>
-    <span class="s1">'favorite'</span> <span class="k">if</span> <span class="n">post</span><span class="o">.</span><span class="n">favorited?</span>
+  <span class="k">def</span> <span class="nf">link_to_toggle_post_favorite</span><span class="p">(</span><span class="n">post</span><span class="p">)</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="n">post_favorite_path</span><span class="p">(</span><span class="n">post</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">post</span><span class="o">.</span><span class="n">favorited?</span>
+      <span class="n">link_to_with_icon</span><span class="p">(</span><span class="s1">'icon-star'</span><span class="p">,</span> <span class="s1">'Favorite'</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="p">{</span>
+        <span class="nb">method</span><span class="p">:</span> <span class="s1">'DELETE'</span><span class="p">,</span>
+        <span class="ss">remote</span><span class="p">:</span> <span class="kp">true</span><span class="p">,</span>
+        <span class="ss">class</span><span class="p">:</span> <span class="s1">'favorite btn btn-primary'</span><span class="p">,</span>
+      <span class="p">})</span>
+    <span class="k">else</span>
+      <span class="n">link_to_with_icon</span><span class="p">(</span><span class="s1">'icon-star'</span><span class="p">,</span> <span class="s1">'Favorite'</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="p">{</span>
+        <span class="nb">method</span><span class="p">:</span> <span class="s1">'PUT'</span><span class="p">,</span>
+        <span class="ss">remote</span><span class="p">:</span> <span class="kp">true</span><span class="p">,</span>
+        <span class="ss">class</span><span class="p">:</span> <span class="s1">'favorite btn'</span><span class="p">,</span>
+      <span class="p">})</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">link_to_with_icon</span><span class="p">(</span><span class="n">icon_css</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">options</span> <span class="o">=</span> <span class="p">{})</span>
+    <span class="n">icon</span> <span class="o">=</span> <span class="n">content_tag</span><span class="p">(</span><span class="ss">:i</span><span class="p">,</span> <span class="kp">nil</span><span class="p">,</span> <span class="ss">class</span><span class="p">:</span> <span class="n">icon_css</span><span class="p">)</span>
+    <span class="n">title_with_icon</span> <span class="o">=</span> <span class="n">icon</span> <span class="o">&lt;&lt;</span> <span class="s1">' '</span><span class="o">.</span><span class="n">html_safe</span> <span class="o">&lt;&lt;</span> <span class="n">h</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
+    <span class="n">link_to</span><span class="p">(</span><span class="n">title_with_icon</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">options</span><span class="p">)</span>
   <span class="k">end</span>
 
 <span class="k">end</span>
@@ -228,21 +211,6 @@
 <span class="c1">//= require jquery</span>
 <span class="c1">//= require jquery_ujs</span>
 <span class="c1">//= require_tree .</span>
-</pre>
-          </div>
-          <h3 id="stylesheet"><a href="#stylesheet"></a></h3>
-          <div class="highlight">
-            <pre><span class="cm">/* assets/stylesheets/posts.css.scss */</span>
-<span class="p">.</span><span class="n">post</span> <span class="p">{</span>
-  <span class="cm">/* off by default */</span>
-  <span class="p">.</span><span class="n">unfavorite</span> <span class="p">{</span> <span class="nl">display:</span> <span class="n">none</span><span class="p">;</span> <span class="p">}</span>
-<span class="p">}</span>
-
-<span class="cm">/* when the post is favorited show the unfavorite button instead */</span>
-<span class="p">.</span><span class="n">post</span><span class="p">.</span><span class="n">favorited</span> <span class="p">{</span>
-  <span class="p">.</span><span class="n">favorite</span> <span class="p">{</span> <span class="nl">display:</span> <span class="n">none</span><span class="p">;</span> <span class="p">}</span>
-  <span class="p">.</span><span class="n">unfavorite</span> <span class="p">{</span> <span class="nl">display:</span> <span class="n">inline</span><span class="o">-</span><span class="n">block</span><span class="p">;</span> <span class="p">}</span>
-<span class="p">}</span>
 </pre>
           </div>
           <h3 id="loading-js"><a href="#loading-js"></a></h3>
@@ -282,32 +250,25 @@
           <div class="highlight">
             <pre><span class="cp">&lt;%#</span><span class="c"> views/posts/show.html.erb </span><span class="cp">%&gt;</span><span class="x"> </span>
 <span class="cp">&lt;%=</span> <span class="n">div_for</span><span class="p">(</span><span class="vi">@post</span><span class="p">,</span> <span class="ss">class</span><span class="p">:</span> <span class="n">post_css</span><span class="p">(</span><span class="vi">@post</span><span class="p">))</span> <span class="k">do</span> <span class="cp">%&gt;</span><span class="x"> </span>
-
-<span class="x">  </span><span class="cp">&lt;%#</span><span class="c"> This outputs two buttons which CSS rules make</span>
-<span class="c">      sure only one is visible at a time </span><span class="cp">%&gt;</span><span class="x"> </span>
-<span class="x">  </span><span class="cp">&lt;%=</span> <span class="n">toggle_button_to</span> <span class="s1">'icon-star'</span><span class="p">,</span> <span class="s1">'Favorite'</span><span class="p">,</span> <span class="n">post_favorite_path</span><span class="p">(</span><span class="vi">@post</span><span class="p">),</span>
-       <span class="ss">on</span><span class="p">:</span> <span class="s1">'favorite btn'</span><span class="p">,</span>
-       <span class="ss">off</span><span class="p">:</span> <span class="s1">'unfavorite btn btn-primary'</span> <span class="cp">%&gt;</span><span class="x"> </span>
-
+<span class="x">  </span><span class="cp">&lt;%=</span> <span class="n">link_to_toggle_post_favorite</span> <span class="vi">@post</span> <span class="cp">%&gt;</span><span class="x"> </span>
 <span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span><span class="x"> </span>
 </pre>
           </div>
           <h3 id="update-js"><a href="#update-js"></a></h3>
           <div class="highlight">
             <pre><span class="cm">/* views/posts/favorites/update.js.erb */</span>
-<span class="nx">$</span><span class="p">(</span><span class="s1">'#post-&lt;%= @post.id %&gt;'</span><span class="p">).</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">'favorited'</span><span class="p">);</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">'#post-&lt;%= @post.id %&gt; .favorite'</span><span class="p">).</span><span class="nx">replaceWith</span><span class="p">(</span><span class="s2">"&lt;%=j link_to_toggle_post_favorite @post %&gt;"</span><span class="p">);</span>
 </pre>
           </div>
           <h3 id="destroy-js"><a href="#destroy-js"></a></h3>
           <div class="highlight">
             <pre><span class="cm">/* views/posts/favorites/destroy.js.erb */</span>
-<span class="nx">$</span><span class="p">(</span><span class="s1">'#post-&lt;%= @post.id %&gt;'</span><span class="p">).</span><span class="nx">removeClass</span><span class="p">(</span><span class="s1">'favorited'</span><span class="p">);</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">'#post-&lt;%= @post.id %&gt; .favorite'</span><span class="p">).</span><span class="nx">replaceWith</span><span class="p">(</span><span class="s2">"&lt;%=j link_to_toggle_post_favorite @post %&gt;"</span><span class="p">);</span>
 </pre>
           </div>
           <h2 id="wrapup"><a href="#wrapup">Wrap-up</a></h2>
-          <p>The only thing changing on the client-side is the loading icon and adding/removing the <code>class=favorited</code>.</p>
+          <p>Unobtrusive javascript allows the application logic to stay in Ruby.</p>
           <p>We follow "The Rails' Way" to <code>#update</code> and <code>#destroy</code> in the controller, which will help the application gracefully grow when we add more functionality to posts like additional toggles, fields, or a public RESTful API.</p>
-          <p>If your application doesn't require javascript, then you'll want to change <code>#toggle_button_to</code> to output inline forms instead of links, and make the Rails controller redirect inside <code>format.html</code>.</p>
           <p>Let me know what else you think could be improved.</p><!-- post:content:end -->
         </div>
       </div>
