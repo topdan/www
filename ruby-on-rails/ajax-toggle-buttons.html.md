@@ -27,9 +27,9 @@ This pattern presents itself in every one of my applications, so I wanted to doc
 
 <div id="post-1" class="my-post">
   <p class="actions">
-    <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/put.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-default favorite"><span class="fa fa-star">&nbsp;</span> Favorite</a>
+    <a href="/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/put.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-default favorite"><span class="fa fa-star">&nbsp;</span> Favorite</a>
 
-    <a href="/assets/static/ruby-on-rails/ajax-toggle-buttons/1/lock/delete.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-danger lock"><span class="fa fa-lock">&nbsp;</span> Locked</a>
+    <a href="/static/ruby-on-rails/ajax-toggle-buttons/1/lock/delete.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-danger lock"><span class="fa fa-lock">&nbsp;</span> Locked</a>
   </p>
 </div>
 
