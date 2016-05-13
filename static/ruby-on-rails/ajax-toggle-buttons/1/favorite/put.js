@@ -1,0 +1,1 @@
+$('#post-1 .favorite').replaceWith('<a href="/static/ruby-on-rails/ajax-toggle-buttons/1/favorite/delete.js" data-method="GET" data-remote="true" data-type="script" class="btn btn-warning favorite"> <span class="fa fa-star">&nbsp;</span> Favorite</a>');
