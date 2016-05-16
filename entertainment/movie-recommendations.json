@@ -38,6 +38,21 @@
       }
     },
     {
+      "title": "Dope",
+      "year": 2015,
+      "release_date": "2015-09-04",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15578/thumb_dope-2015-5fa9cd783ca8597abd1e32c02af46813.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B014Z5BNTM",
+        "itunes": "https://itunes.apple.com/us/movie/dope/id999573394",
+        "netflix": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3850214/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/dope_2015/"
+      }
+    },
+    {
       "title": "Ex Machina",
       "year": 2015,
       "release_date": "2015-04-24",
@@ -1989,6 +2004,19 @@
       }
     },
     {
+      "title": "3:10 to Yuma",
+      "year": 2007,
+      "release_date": "2007-09-07",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19452/thumb_3-10-to-yuma-2007-da3260f375f021aef6dbf7ede8841e7a.jpg",
+      "streams": {
+        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/131808"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0381849/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/310_to_yuma/"
+      }
+    },
+    {
       "title": "Across the Universe",
       "year": 2007,
       "release_date": "2007-09-14",
@@ -3677,6 +3705,19 @@
       }
     },
     {
+      "title": "Road House",
+      "year": 1989,
+      "release_date": "1989-05-19",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8642/thumb_road-house-1989-f602f2ff290eb4d23a46afaf8b22f920.jpg",
+      "streams": {
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP37358?videoMode=embeddedVideo?showSpecialFeatures=false/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0098206/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/1017666-road_house/"
+      }
+    },
+    {
       "title": "Coming to America",
       "year": 1988,
       "release_date": "1988-06-29",
@@ -3731,6 +3772,18 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt0093894/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/running_man/"
+      }
+    },
+    {
+      "title": "Ruthless People",
+      "year": 1986,
+      "release_date": "1986-06-27",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11531/thumb_ruthless-people-1986-fae1e0ed0afc896f0901d0a2a8b51948.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0091877/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/ruthless_people/"
       }
     },
     {
@@ -3834,6 +3887,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-05-09 03:12:07 -0400"
+  "updated_at": "2016-05-16 03:12:06 -0400"
 }
 
