@@ -294,7 +294,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3091/thumb_undateable-40670bc2e1bb5a654af7ee402ba024f6.jpg",
       "latest_episode_aired_on": "2016-01-15",
       "first_episode_aired_on": "2014-05-29",
-      "final_episode_aired_on": null,
+      "final_episode_aired_on": "2016-01-29",
       "unwatched_episodes_count": 0,
       "streams": {
         "amazon_one_click": "https://www.amazon.com/gp/product/B00UO9FHHI",
@@ -1212,6 +1212,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-05-20 03:12:06 -0400"
+  "updated_at": "2016-05-21 03:12:07 -0400"
 }
 
