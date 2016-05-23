@@ -114,7 +114,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3695/thumb_galavant-76a734d4e7eab17407a6d88c2a506c1d.jpg",
       "latest_episode_aired_on": "2016-01-31",
       "first_episode_aired_on": "2015-01-04",
-      "final_episode_aired_on": null,
+      "final_episode_aired_on": "2016-01-31",
       "unwatched_episodes_count": 0,
       "streams": {
         "abc_com": "http://abc.go.com/shows/galavant",
@@ -1212,6 +1212,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-05-22 03:12:07 -0400"
+  "updated_at": "2016-05-23 03:12:06 -0400"
 }
 
