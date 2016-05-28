@@ -186,7 +186,7 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2488496/",
-        "rotten_tomatoes": "http://www.rottentomatoes.com/m/star_wars_episode_vii_the_force_awakens/"
+        "rotten_tomatoes": "https://www.rottentomatoes.com/m/star_wars_episode_vii_the_force_awakens/"
       }
     },
     {
@@ -774,8 +774,7 @@
       "release_date": "2014-06-13",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11926/thumb_the-signal-2014-435dbfa0698f8a945ade294bb3e0c486.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00OYWI5K2",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP47820?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00OYWI5K2"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2910814/",
@@ -3887,6 +3886,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-05-16 03:12:06 -0400"
+  "updated_at": "2016-05-28 03:12:07 -0400"
 }
 
