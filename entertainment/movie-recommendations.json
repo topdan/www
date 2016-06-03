@@ -845,7 +845,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11230/thumb_x-men-days-of-future-past-2014-281cfc555c7894fa04cf2fc22b36caeb.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00OH75ATS",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP46129?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP50190?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/x-men-days-of-future-past/id867914892"
       },
       "references": {
@@ -2988,7 +2988,6 @@
       "release_date": "2001-11-23",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16119/thumb_in-the-bedroom-2001-475ebf59574fb38f2fe11afb4293b2f1.jpg",
       "streams": {
-        "netflix": "https://www.netflix.com/title/60022258",
         "starz_com": "http://www.starzplay.com/Movies/Details/841"
       },
       "references": {
@@ -3624,8 +3623,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15337/thumb_groundhog-day-1993-27e7e7648cf8723ee4012a2953accef3.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00170I7GG",
-        "itunes": "https://itunes.apple.com/us/movie/groundhog-day/id270870214",
-        "netflix": "https://www.netflix.com/title/563104"
+        "itunes": "https://itunes.apple.com/us/movie/groundhog-day/id270870214"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0107048/",
@@ -3881,6 +3879,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-06-02 03:12:08 -0400"
+  "updated_at": "2016-06-03 03:12:08 -0400"
 }
 
