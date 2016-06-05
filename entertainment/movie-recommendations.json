@@ -1730,7 +1730,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12293/thumb_coraline-2009-eda8bd602dacfd1ec19553f841e8a36a.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B002LAM7PI",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48534?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP52113?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/coraline/id308771950"
       },
       "references": {
@@ -3879,6 +3879,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-06-03 03:12:08 -0400"
+  "updated_at": "2016-06-05 03:12:07 -0400"
 }
 
