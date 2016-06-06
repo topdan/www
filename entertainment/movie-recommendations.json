@@ -9,6 +9,18 @@
   "data_type": "Entertainment::Movie",
   "data": [
     {
+      "title": "The Nice Guys",
+      "year": 2016,
+      "release_date": "2016-05-20",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19612/thumb_the-nice-guys-2016-89e5e5d40af0830f50d69c70e23c36b3.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3799694/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/the_nice_guys/"
+      }
+    },
+    {
       "title": "American Ultra",
       "year": 2015,
       "release_date": "2015-08-21",
@@ -207,6 +219,7 @@
       "release_date": "2015-10-02",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16345/thumb_the-martian-2015-6c63feab3f3f05e2c368507a4eb11e08.jpg",
       "streams": {
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP51195?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3659388/",
@@ -2038,6 +2051,19 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt0462200/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/black_snake_moan/"
+      }
+    },
+    {
+      "title": "Bridge to Terabithia",
+      "year": 2007,
+      "release_date": "2007-02-16",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15630/thumb_bridge-to-terabithia-2007-32a0b97d452f5c4c9efb586a38fe57fc.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B003VDB9IU"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0398808/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/bridge_to_terabithia/"
       }
     },
     {
@@ -3879,6 +3905,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-06-05 03:12:07 -0400"
+  "updated_at": "2016-06-06 03:12:07 -0400"
 }
 
