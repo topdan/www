@@ -145,7 +145,7 @@
     {
       "title": "Game of Thrones",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/70/thumb_game-of-thrones-f02d401000ce55b03a5a16129d9ddcae.jpg",
-      "latest_episode_aired_on": "2016-05-29",
+      "latest_episode_aired_on": "2016-06-05",
       "first_episode_aired_on": "2011-04-17",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -228,7 +228,7 @@
       "title": "Peaky Blinders",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4055/thumb_peaky-blinders-a4cc4e465872e7f25994d80a236f01c5.jpg",
       "latest_episode_aired_on": "2016-05-26",
-      "first_episode_aired_on": null,
+      "first_episode_aired_on": "2013-09-12",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
       "streams": {
@@ -1212,6 +1212,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-06-03 03:12:08 -0400"
+  "updated_at": "2016-06-10 03:12:06 -0400"
 }
 
