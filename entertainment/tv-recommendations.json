@@ -9,6 +9,23 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "Another Period",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4156/thumb_another-period-d186b559a3f9b8203c57589f9a7ce2ea.jpg",
+      "latest_episode_aired_on": "2016-06-15",
+      "first_episode_aired_on": "2015-06-23",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00YYFS3T2",
+        "comedy_central_com": "http://www.cc.com/shows/another-period/full-episodes"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3593432/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/another-period/s01/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Another_Period"
+      }
+    },
+    {
       "title": "Banshee",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/15/thumb_banshee-ea947c7a5d29dda094713ce5e5aac99b.jpg",
       "latest_episode_aired_on": "2016-05-20",
@@ -352,23 +369,6 @@
         "imdb": "http://www.imdb.com/title/tt2788780/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/mobile/tv/undateable/",
         "wikipedia": "https://en.wikipedia.org/wiki/Undateable"
-      }
-    },
-    {
-      "title": "Another Period",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4156/thumb_another-period-d186b559a3f9b8203c57589f9a7ce2ea.jpg",
-      "latest_episode_aired_on": "2015-08-25",
-      "first_episode_aired_on": "2015-06-23",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00YYFS3T2",
-        "comedy_central_com": "http://www.cc.com/shows/another-period/full-episodes"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt3593432/",
-        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/another-period/s01/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Another_Period"
       }
     },
     {
@@ -1212,6 +1212,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-06-18 03:12:06 -0400"
+  "updated_at": "2016-06-20 03:12:07 -0400"
 }
 

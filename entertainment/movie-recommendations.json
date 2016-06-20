@@ -183,6 +183,7 @@
       "release_date": "2015-09-11",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16695/thumb_sleeping-with-other-people-2015-3f4924f9d6c6b5bf00fdd27e67150784.jpg",
       "streams": {
+        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3419713"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3165612/",
@@ -3905,6 +3906,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-06-16 03:12:07 -0400"
+  "updated_at": "2016-06-20 03:12:07 -0400"
 }
 
