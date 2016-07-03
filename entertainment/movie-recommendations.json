@@ -2683,8 +2683,7 @@
       "release_date": "2004-10-11",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5723/thumb_team-america-world-police-2004-cac4e605318c43e0c0a76eeb6a535900.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000IZ6URY",
-        "netflix": "https://www.netflix.com/title/70011195"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000IZ6URY"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0372588/",
@@ -3881,8 +3880,7 @@
       "release_date": "1971-12-19",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13190/thumb_a-clockwork-orange-1971-ed44e628b7263f973492eaccb5ebf60e.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00125FBTM",
-        "netflix": null
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00125FBTM"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0066921/",
@@ -3908,6 +3906,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-19 17:10:01 -0400",
-  "updated_at": "2016-07-02 03:12:06 -0400"
+  "updated_at": "2016-07-03 03:12:07 -0400"
 }
 
