@@ -165,7 +165,7 @@ gem 'jquery-rails'
 $(function() {
 
   // Change the link's icon while the request is performing
-  $('a[data-remote]').on('click', function(event, b, c) {
+  $(document).on('click', 'a[data-remote]', function(event, b, c) {
     var icon = $(this).find('i');
     icon.data('old-class', icon.attr('class'));
     icon.attr('class', 'icon-refresh');

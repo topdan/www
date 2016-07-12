@@ -48,6 +48,22 @@ class ProgressBar < ActiveRecord::Base
 end
 ```
 
+### [](migration)
+```ruby
+# rails g migration create_progress_bars
+class CreateProgressBars < ActiveRecord::Migration[5.0]
+  def change
+    create_table :progress_bars do |t|
+      t.text    :message
+      t.integer :percent
+      t.integer :user_id
+      t.timestamps null: false
+    end
+    add_index :progress_bars, :user_id
+  end
+end
+```
+
 ### [](#routes)
 ```ruby
 # config/routes.rb
@@ -61,7 +77,7 @@ resources :demos, only: %w(new create)
 class DemosController < ApplicationController
 
   def create
-    @progress_bar = current_user.progress_bars.create!(message: 'Queued')
+    @progress_bar = current_user.progress_bars.create!(message: 'Queued', percent: 0)
     DemoWorker.perform_later(@progress_bar)
   end
 
@@ -84,9 +100,11 @@ end
 
 ### [](#demo-create)
 ```javascript
-// app/views/demos/create.coffee.erb
-progressBar = new ProgressBar("#demo", "<%= progress_bar_path @progress_bar %>")
-progressBar.start()
+// app/views/demos/create.js.erb
+(function() {
+  var progressBar = new ProgressBar("#demo", "<%= progress_bar_path @progress_bar %>");
+  progressBar.start();
+})();
 ```
 
 ### [](#progress-bar)
@@ -141,9 +159,9 @@ class DemoWorker < ActiveJob::Base
       percent: 0
     })
 
-    20.times do |i|
+    10.times do |i|
       sleep(1)
-      @progress_bar.update_attributes!(percent: i * 20)
+      @progress_bar.update_attributes!(percent: i * 10)
     end
 
     @progress_bars.update_attributes!({

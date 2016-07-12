@@ -221,7 +221,7 @@
 <span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
 
   <span class="c1">// Change the link's icon while the request is performing</span>
-  <span class="nx">$</span><span class="p">(</span><span class="s1">'a[data-remote]'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="s1">'click'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">,</span> <span class="nx">b</span><span class="p">,</span> <span class="nx">c</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="s1">'click'</span><span class="p">,</span> <span class="s1">'a[data-remote]'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">,</span> <span class="nx">b</span><span class="p">,</span> <span class="nx">c</span><span class="p">)</span> <span class="p">{</span>
     <span class="kd">var</span> <span class="nx">icon</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">find</span><span class="p">(</span><span class="s1">'i'</span><span class="p">);</span>
     <span class="nx">icon</span><span class="p">.</span><span class="nx">data</span><span class="p">(</span><span class="s1">'old-class'</span><span class="p">,</span> <span class="nx">icon</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s1">'class'</span><span class="p">));</span>
     <span class="nx">icon</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s1">'class'</span><span class="p">,</span> <span class="s1">'icon-refresh'</span><span class="p">);</span>
@@ -296,7 +296,7 @@
       </div>
     </div>
   </div>
-  <script src="/assets/site-4a580fe277a31f7a64be521800a1f1a9.js">
+  <script src="/assets/site-89ad7714363699de4db97824971a5b7d.js">
   </script>
 </body>
 </html>
