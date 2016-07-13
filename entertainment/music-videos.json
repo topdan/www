@@ -9,6 +9,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Two Door Cinema Club",
+      "song": "Something Good Can Work",
+      "video_url": "https://www.youtube.com/watch?v=Wxu02vp_Vm0",
+      "thumbnail_url": "https://img.youtube.com/vi/Wxu02vp_Vm0/0.jpg",
+      "added_at": "2016-07-13 01:27:04 -0400"
+    },
+    {
       "artist": "HAIM",
       "song": "Falling",
       "video_url": "https://www.youtube.com/watch?v=AIjVpRAXK18",
@@ -902,6 +909,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2016-06-06 03:52:05 -0400"
+  "updated_at": "2016-07-13 03:52:05 -0400"
 }
 
