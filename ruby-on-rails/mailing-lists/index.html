@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mailing Lists - topdan.com</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Mailing lists remain an effective way for groups to communicate. We'll explore how to implement them in your Rails application to improve its overall user-experience.">
+  <meta name="author" content="Dan Cunning">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@itopdan">
+  <meta name="twitter:title" content="Mailing Lists">
+  <meta name="twitter:description" content="Mailing lists remain an effective way for groups to communicate. We'll explore how to implement them in your Rails application to improve its overall user-experience.">
+  <meta name="twitter:url" content="http://www.topdan.com/ruby-on-rails/mailing-lists/index.html">
+  <meta name="og:locale" content="en_US">
+  <meta name="og:type" content="article">
+  <meta name="og:url" content="http://www.topdan.com/ruby-on-rails/mailing-lists/index.html">
+  <meta name="og:title" content="Mailing Lists">
+  <meta name="og:description" content="Mailing lists remain an effective way for groups to communicate. We'll explore how to implement them in your Rails application to improve its overall user-experience.">
+  <link rel="shortcut icon" href="/assets/favicon-e45cdd6cc07e8858a985e6014e38a603.png">
+  <link rel="stylesheet" media="all" href="/assets/site-d400722be12cd345b50948fb3c8a0edf.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+
+  <script type="text/javascript">
+  if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
+    var _gaq = _gaq || [];
+
+    _gaq.push(['_setAccount', 'UA-12957077-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  }
+  </script>
+</head>
+<body id="mailing-lists">
+  <div class="container bg-black full-width">
+    <div class="row navigation">
+      <a id="top"></a> <a href="/ruby-on-rails/beware-active-record-callbacks.html" class="previous"><span class="fa fa-arrow-left">&nbsp;</span> <span class="desktop">Beware ActiveRecord callbacks</span><span class="mobile">Previous</span></a> <a href="/ruby-on-rails/views-mailers-directory.html" class="next"><span class="desktop">views/mailers directory</span><span class="mobile">Next</span> <span class="fa fa-arrow-right">&nbsp;</span></a>
+      <p><a href="/"><span class="fa fa-home">&nbsp;</span></a> &nbsp;»&nbsp;<span class="title desktop"><a href="/ruby-on-rails/index.html">Ruby on Rails</a></span><span class="mobile"><a href="/ruby-on-rails/index.html"><span class="fa fa-folder-open">&nbsp;</span></a></span></p>
+    </div>
+    <div class="row bg-white">
+      <div class="col-md-12">
+        <div class="width-640 ml-auto mr-auto">
+          <p class="mt-05e mb-15e ta-right c-ccc">Published by Dan on Feb 21, 2015</p>
+          <h1 class="center of-yh mb-0"><a href="/ruby-on-rails/mailing-lists/index.html">Mailing Lists</a></h1>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-white">
+      <div class="col-md-12">
+        <div class="width-640 ml-auto mr-auto post">
+          <!-- post:content:start -->
+          <ul>
+            <li>
+              <a href="#why">Why?</a>
+            </li>
+            <li>
+              <a href="#the-implementation">The Implementation</a>
+              <ul>
+                <li>
+                  <a href="#model-design">Model Design</a>
+                </li>
+                <li>
+                  <a href="#griddler">Griddler Setup</a>
+                </li>
+                <li>
+                  <a href="#background-jobs">Background Jobs</a>
+                </li>
+                <li>
+                  <a href="#mandrill-setup">Mandrill Setup</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#rounding-the-edges">Rounding the Edges</a>
+              <ul>
+                <li>
+                  <a href="unsubscribe.html">Unsubscribe</a>
+                </li>
+                <li>
+                  <a href="email-digests.html">Email Digests</a>
+                </li>
+                <li>
+                  <a href="web-archives.html">Web Archives</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#future-considerations">Future Considerations</a>
+            </li>
+            <li>
+              <a href="#wrap-up">Wrap-Up</a>
+            </li>
+          </ul>
+          <h2 id="why"><a href="#why">Why?</a></h2>
+          <p>Even though mailing lists have been around since ARPANET, they remain a viable way for groups to communicate. Modern web applications contain dynamic user groups and should leverage email to facilitate communication within them.</p>
+          <p>Many web applications already send email notifications, and <strong>the best applications support replying to that email:</strong></p>
+          <ul>
+            <li>Github allows developers to discuss issues and pull-requests</li>
+            <li>Craigslist allows buyers and sellers to communicate anonymously</li>
+            <li>
+              <a href="https://tenderapp.com/">Tender</a> (not Tinder) allows support to address customer issues
+            </li>
+            <li>Basecamp allows all sorts of project discussion</li>
+          </ul>
+          <p class="alert alert-info">If your web application sends emails, <strong>you should handle the reply button</strong> and often the best user-experience encourages its use.</p>
+          <h2 id="the-implementation"><a href="#the-implementation">The Implementation</a></h2>
+          <p>Only the largest companies run email servers, while others send and receive emails using third-party services. We'll use <a href="http://guides.rubyonrails.org/action_mailer_basics.html#sending-emails">ActionMailer</a> to send emails and <a href="https://github.com/thoughtbot/griddler">the griddler gem</a> to receive emails through <a href="https://mandrill.com/">MailChimp's Mandrill</a> service.</p>
+          <h3 id="model-design"><a href="#model-design">Model Design</a></h3>
+          <p>Your application probably already separates users into groups, whether by admins, accounts, trial users, or long-term customers, but for this tutorial we'll use a more general design.</p>
+          <p><a href="#user">Users</a> have <a href="#membership">memberships</a> to <a href="#group">groups</a>. Group members generate <a href="#discussion">discussions</a> by sending <a href="#message">messages</a>. Five models total, here's the database schema:</p>
+          <h4 id="the-schema"><a href="#the-schema"></a></h4>
+          <div class="highlight">
+            <pre><span class="c1"># db/migrations/20150221052903_create_group_discussions.rb</span>
+
+<span class="n">create_table</span> <span class="ss">:users</span> <span class="k">do</span> <span class="o">|</span><span class="n">t</span><span class="o">|</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">string</span> <span class="ss">:name</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">string</span> <span class="ss">:email</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">timestamps</span>
+<span class="k">end</span>
+
+<span class="n">create_table</span> <span class="ss">:groups</span> <span class="k">do</span> <span class="o">|</span><span class="n">t</span><span class="o">|</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:name</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">string</span>   <span class="ss">:email</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">datetime</span> <span class="ss">:digest_last_sent_at</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">timestamps</span>
+<span class="k">end</span>
+
+<span class="n">create_table</span> <span class="ss">:memberships</span> <span class="k">do</span> <span class="o">|</span><span class="n">t</span><span class="o">|</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">integer</span> <span class="ss">:user_id</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">integer</span> <span class="ss">:group_id</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">boolean</span> <span class="ss">:receives_every_message</span><span class="p">,</span> <span class="ss">default</span><span class="p">:</span> <span class="kp">false</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">boolean</span> <span class="ss">:receives_digest</span><span class="p">,</span>        <span class="ss">default</span><span class="p">:</span> <span class="kp">false</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">string</span>  <span class="ss">:token</span><span class="p">,</span>                  <span class="ss">null</span><span class="p">:</span> <span class="kp">false</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">timestamps</span>
+<span class="k">end</span>
+
+<span class="n">create_table</span> <span class="ss">:discussions</span> <span class="k">do</span> <span class="o">|</span><span class="n">t</span><span class="o">|</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">integer</span> <span class="ss">:group_id</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">string</span>  <span class="ss">:email</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">string</span>  <span class="ss">:subject</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">timestamps</span>
+<span class="k">end</span>
+
+<span class="n">create_table</span> <span class="ss">:messages</span> <span class="k">do</span> <span class="o">|</span><span class="n">t</span><span class="o">|</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">integer</span> <span class="ss">:discussion_id</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">integer</span> <span class="ss">:from_id</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">text</span>    <span class="ss">:content</span>
+  <span class="n">t</span><span class="o">.</span><span class="n">timestamps</span>
+<span class="k">end</span>
+</pre>
+          </div>
+          <h4 id="user"><a href="#user">User</a></h4>
+          <p>A user has a name and an email address that can send messages to groups they have a membership in.</p>
+          <div class="highlight">
+            <pre><span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+
+  <span class="n">has_many</span> <span class="ss">:memberships</span>
+  <span class="n">has_many</span> <span class="ss">:groups</span><span class="p">,</span>        <span class="ss">through</span><span class="p">:</span> <span class="ss">:memberships</span>
+  <span class="n">has_many</span> <span class="ss">:sent_messages</span><span class="p">,</span> <span class="ss">foreign_key</span><span class="p">:</span> <span class="s1">'from_id'</span>
+
+  <span class="n">validates</span> <span class="ss">:name</span><span class="p">,</span>  <span class="ss">presence</span><span class="p">:</span> <span class="kp">true</span><span class="p">,</span> <span class="nb">format</span><span class="p">:</span> <span class="p">{</span><span class="ss">with</span><span class="p">:</span> <span class="sr">%r(^[\w\ ]+$)</span><span class="p">}</span>
+  <span class="n">validates</span> <span class="ss">:email</span><span class="p">,</span> <span class="ss">presence</span><span class="p">:</span> <span class="kp">true</span><span class="p">,</span> <span class="ss">uniqueness</span><span class="p">:</span> <span class="kp">true</span>
+
+<span class="k">end</span>
+</pre>
+          </div>
+          <h4 id="group"><a href="#group">Group</a></h4>
+          <p>Groups have an email address and users that are allowed to create discussions by emailing it.</p>
+          <div class="highlight">
+            <pre><span class="k">class</span> <span class="nc">Group</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+
+  <span class="n">has_many</span> <span class="ss">:memberships</span><span class="p">,</span> <span class="ss">dependent</span><span class="p">:</span> <span class="ss">:destroy</span>
+  <span class="n">has_many</span> <span class="ss">:users</span><span class="p">,</span>       <span class="ss">through</span><span class="p">:</span> <span class="ss">:memberships</span>
+  <span class="n">has_many</span> <span class="ss">:discussions</span><span class="p">,</span> <span class="ss">dependent</span><span class="p">:</span> <span class="ss">:destroy</span>
+  <span class="n">has_many</span> <span class="ss">:messages</span><span class="p">,</span>    <span class="ss">through</span><span class="p">:</span> <span class="ss">:discussions</span>
+
+  <span class="n">validates</span> <span class="ss">:name</span><span class="p">,</span>  <span class="ss">presence</span><span class="p">:</span> <span class="kp">true</span><span class="p">,</span> <span class="ss">uniqueness</span><span class="p">:</span> <span class="kp">true</span>
+  <span class="n">validates</span> <span class="ss">:email</span><span class="p">,</span> <span class="ss">presence</span><span class="p">:</span> <span class="kp">true</span><span class="p">,</span> <span class="ss">uniqueness</span><span class="p">:</span> <span class="kp">true</span>
+
+<span class="k">end</span>
+</pre>
+          </div>
+          <h4 id="membership"><a href="#membership">Membership</a></h4>
+          <p>Memberships give users access to groups and also indicate what emails the user would like to receive from the group.</p>
+          <div class="highlight">
+            <pre><span class="k">class</span> <span class="nc">Membership</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+
+  <span class="n">belongs_to</span> <span class="ss">:user</span>
+  <span class="n">belongs_to</span> <span class="ss">:group</span>
+
+  <span class="n">validates</span> <span class="ss">:user_id</span><span class="p">,</span>  <span class="ss">presence</span><span class="p">:</span> <span class="kp">true</span><span class="p">,</span> <span class="ss">uniqueness</span><span class="p">:</span> <span class="p">{</span><span class="ss">scope</span><span class="p">:</span> <span class="ss">:group_id</span><span class="p">,</span> <span class="ss">message</span><span class="p">:</span> <span class="s1">'is already a member of this group'</span><span class="p">}</span>
+  <span class="n">validates</span> <span class="ss">:group_id</span><span class="p">,</span> <span class="ss">presence</span><span class="p">:</span> <span class="kp">true</span>
+  <span class="n">validates</span> <span class="ss">:token</span><span class="p">,</span>    <span class="ss">presence</span><span class="p">:</span> <span class="kp">true</span>
+
+  <span class="n">before_validation</span> <span class="ss">:generate_token</span><span class="p">,</span> <span class="ss">on</span><span class="p">:</span> <span class="ss">:create</span>
+
+  <span class="kp">private</span>
+
+  <span class="c1"># tokens uniquely identify a membership for</span>
+  <span class="c1"># the purposes of unsubscribing through an email's link</span>
+  <span class="k">def</span> <span class="nf">generate_token</span>
+    <span class="kp">loop</span> <span class="k">do</span>
+      <span class="nb">self</span><span class="o">.</span><span class="n">token</span> <span class="o">=</span> <span class="no">SecureRandom</span><span class="o">.</span><span class="n">hex</span><span class="p">(</span><span class="mi">64</span><span class="p">)</span>
+      <span class="k">break</span> <span class="k">if</span> <span class="no">Membership</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">token</span><span class="p">:</span> <span class="n">token</span><span class="p">)</span><span class="o">.</span><span class="n">empty?</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+</pre>
+          </div>
+          <h4 id="discussion"><a href="#discussion">Discussion</a></h4>
+          <p>A discussion is a collection of messages within a group. Users add messages to the discussion by emailing it.</p>
+          <div class="highlight">
+            <pre><span class="k">class</span> <span class="nc">Discussion</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+
+  <span class="n">belongs_to</span> <span class="ss">:group</span>
+
+  <span class="n">has_many</span> <span class="ss">:messages</span><span class="p">,</span> <span class="ss">dependent</span><span class="p">:</span> <span class="ss">:destroy</span>
+
+  <span class="n">validates</span> <span class="ss">:email</span><span class="p">,</span>   <span class="ss">presence</span><span class="p">:</span> <span class="kp">true</span>
+  <span class="n">validates</span> <span class="ss">:subject</span><span class="p">,</span> <span class="ss">presence</span><span class="p">:</span> <span class="kp">true</span>
+
+  <span class="n">before_validation</span> <span class="ss">:generate_unique_email</span><span class="p">,</span> <span class="ss">on</span><span class="p">:</span> <span class="ss">:create</span>
+
+  <span class="kp">private</span>
+
+  <span class="c1"># if the group's email is admins@your-domain.com,</span>
+  <span class="c1"># its discussion emails are admins-:unique-hex:@your-domain.com</span>
+  <span class="k">def</span> <span class="nf">generate_unique_email</span>
+    <span class="kp">loop</span> <span class="k">do</span>
+      <span class="nb">self</span><span class="o">.</span><span class="n">email</span> <span class="o">=</span> <span class="n">group</span><span class="o">.</span><span class="n">email</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s1">'@'</span><span class="p">,</span> <span class="s2">"-</span><span class="si">#{</span><span class="no">SecureRandom</span><span class="o">.</span><span class="n">hex</span><span class="p">(</span><span class="mi">32</span><span class="p">)</span><span class="si">}</span><span class="s2">@"</span><span class="p">)</span>
+      <span class="k">break</span> <span class="k">if</span> <span class="no">Discussion</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">email</span><span class="p">:</span> <span class="n">email</span><span class="p">)</span><span class="o">.</span><span class="n">empty?</span>
+    <span class="k">end</span> <span class="k">if</span> <span class="n">group</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+</pre>
+          </div>
+          <h4 id="message"><a href="#message">Message</a></h4>
+          <p>A message is text sent by a user inside a group discussion.</p>
+          <div class="highlight">
+            <pre><span class="k">class</span> <span class="nc">Message</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+
+  <span class="n">belongs_to</span> <span class="ss">:discussion</span>
+  <span class="n">belongs_to</span> <span class="ss">:from</span><span class="p">,</span> <span class="ss">class_name</span><span class="p">:</span> <span class="s1">'User'</span>
+
+  <span class="n">validates</span> <span class="ss">:from_id</span><span class="p">,</span> <span class="ss">presence</span><span class="p">:</span> <span class="kp">true</span>
+  <span class="n">validates</span> <span class="ss">:content</span><span class="p">,</span> <span class="ss">presence</span><span class="p">:</span> <span class="kp">true</span>
+
+<span class="k">end</span>
+</pre>
+          </div>
+          <h3 id="griddler"><a href="#griddler">Griddler Setup</a></h3>
+          <p><a href="https://github.com/thoughtbot/griddler">The griddler gem</a> smooths the process of receiving emails from third-party services such as Mandrill, SendGrid, Mailgun, and Postmark. I prefer Mandrill's simple but powerful interface, and MailChimp being my neighbor in Atlanta doesn't hurt.</p>
+          <p>First, add griddler and <a href="https://github.com/wingrunr21/griddler-mandrill">griddler's mandrill adapter</a> to your Gemfile and run <code>bundle install</code></p>
+          <div class="highlight">
+            <pre><span class="c1"># Gemfile</span>
+
+<span class="n">gem</span> <span class="s1">'griddler'</span>
+<span class="n">gem</span> <span class="s1">'griddler-mandrill'</span>
+</pre>
+          </div>
+          <p>Next, add the routes Mandrill will use to communicate to your app through griddler.</p>
+          <div class="highlight">
+            <pre><span class="c1"># config/routes.rb</span>
+
+<span class="c1"># verifies during initial setup</span>
+<span class="n">get</span> <span class="s1">'/mandrill'</span><span class="p">,</span> <span class="ss">to</span><span class="p">:</span> <span class="nb">proc</span> <span class="p">{</span> <span class="o">[</span><span class="mi">200</span><span class="p">,</span> <span class="p">{},</span> <span class="o">[</span><span class="s2">"OK"</span><span class="o">]]</span> <span class="p">}</span>
+
+<span class="c1"># indicates a single received email</span>
+<span class="n">post</span> <span class="s1">'/mandrill'</span><span class="p">,</span> <span class="ss">to</span><span class="p">:</span> <span class="s1">'griddler/emails#create'</span>
+</pre>
+          </div>
+          <p>Finally, configure griddler to send received emails to the background job queue.</p>
+          <div class="highlight">
+            <pre><span class="c1"># config/initializers/griddler.rb</span>
+
+<span class="k">class</span> <span class="nc">Griddler</span><span class="o">::</span><span class="no">EmailProcessor</span>
+  <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">email</span><span class="p">)</span>
+    <span class="vi">@email</span> <span class="o">=</span> <span class="n">email</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">process</span>
+    <span class="no">ReceiveEmailJob</span><span class="o">.</span><span class="n">perform_later</span><span class="p">({</span>
+      <span class="s1">'from'</span>    <span class="o">=&gt;</span> <span class="vi">@email</span><span class="o">.</span><span class="n">from</span><span class="p">,</span>
+      <span class="s1">'to'</span>      <span class="o">=&gt;</span> <span class="vi">@email</span><span class="o">.</span><span class="n">to</span><span class="p">,</span>
+      <span class="s1">'subject'</span> <span class="o">=&gt;</span> <span class="vi">@email</span><span class="o">.</span><span class="n">subject</span><span class="p">,</span>
+      <span class="s1">'body'</span>    <span class="o">=&gt;</span> <span class="vi">@email</span><span class="o">.</span><span class="n">raw_body</span><span class="p">,</span>
+    <span class="p">})</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="no">Griddler</span><span class="o">.</span><span class="n">configure</span> <span class="k">do</span> <span class="o">|</span><span class="n">config</span><span class="o">|</span>
+  <span class="n">config</span><span class="o">.</span><span class="n">email_service</span> <span class="o">=</span> <span class="ss">:mandrill</span>
+  <span class="n">config</span><span class="o">.</span><span class="n">processor_class</span> <span class="o">=</span> <span class="no">Griddler</span><span class="o">::</span><span class="no">EmailProcessor</span>
+<span class="k">end</span>
+</pre>
+          </div>
+          <p>For more information on griddler, please refer to <a href="https://robots.thoughtbot.com/handle-incoming-email-with-griddler">thoughtbot's blog post</a> and <a href="https://github.com/thoughtbot/griddler">the github repository</a>.</p>
+          <h3 id="background-jobs"><a href="#background-jobs">Background Jobs</a></h3>
+          <p>Our mailing list logic lives in background jobs and is actually rather simple:</p>
+          <ul>
+            <li>Ignore emails if the sender doesn't belong to the group</li>
+            <li>If addressed to a group, create a new discussion and the initial message</li>
+            <li>If addressed to a discussion, create a new message</li>
+            <li>If neither a group or discussion is found, ignore it</li>
+            <li>Forward created messages to others in the group</li>
+          </ul>
+          <div class="highlight">
+            <pre><span class="k">class</span> <span class="nc">ReceiveEmailJob</span> <span class="o">&lt;</span> <span class="no">ActiveJob</span><span class="o">::</span><span class="no">Base</span>
+  <span class="n">queue_as</span> <span class="ss">:default</span>
+
+  <span class="k">def</span> <span class="nf">perform</span><span class="p">(</span><span class="n">email</span><span class="p">)</span>
+    <span class="vi">@from</span> <span class="o">=</span> <span class="no">User</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">email</span><span class="p">:</span> <span class="n">email</span><span class="o">[</span><span class="s1">'from'</span><span class="o">][</span><span class="s1">'email'</span><span class="o">]</span><span class="p">)</span><span class="o">.</span><span class="n">first</span>
+    <span class="k">return</span> <span class="k">unless</span> <span class="vi">@from</span> <span class="c1"># unknown sender</span>
+
+    <span class="vi">@subject</span> <span class="o">=</span> <span class="n">email</span><span class="o">[</span><span class="s1">'subject'</span><span class="o">]</span>
+    <span class="vi">@body</span> <span class="o">=</span> <span class="n">email</span><span class="o">[</span><span class="s1">'body'</span><span class="o">]</span>
+
+    <span class="n">email</span><span class="o">[</span><span class="s1">'to'</span><span class="o">].</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">to</span><span class="o">|</span>
+      <span class="n">try_group</span><span class="p">(</span><span class="n">to</span><span class="o">[</span><span class="s1">'email'</span><span class="o">]</span><span class="p">)</span> <span class="o">||</span> <span class="n">try_discussion</span><span class="p">(</span><span class="n">to</span><span class="o">[</span><span class="s1">'email'</span><span class="o">]</span><span class="p">)</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+
+  <span class="kp">private</span>
+
+  <span class="k">def</span> <span class="nf">try_group</span><span class="p">(</span><span class="n">email</span><span class="p">)</span>
+    <span class="n">group</span> <span class="o">=</span> <span class="no">Group</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">email</span><span class="p">:</span> <span class="n">email</span><span class="p">)</span><span class="o">.</span><span class="n">first</span>
+    <span class="k">return</span> <span class="k">unless</span> <span class="n">allow_messages_to?</span><span class="p">(</span><span class="n">group</span><span class="p">)</span>
+
+    <span class="n">discussion</span> <span class="o">=</span> <span class="n">group</span><span class="o">.</span><span class="n">discussions</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">subject</span><span class="p">:</span> <span class="vi">@subject</span><span class="p">)</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="n">discussion</span><span class="o">.</span><span class="n">messages</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">from</span><span class="p">:</span> <span class="vi">@from</span><span class="p">,</span> <span class="ss">content</span><span class="p">:</span> <span class="vi">@body</span><span class="p">)</span>
+
+    <span class="n">forward</span><span class="p">(</span><span class="n">message</span><span class="p">)</span> <span class="k">if</span> <span class="n">discussion</span><span class="o">.</span><span class="n">save</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">try_discussion</span><span class="p">(</span><span class="n">email</span><span class="p">)</span>
+    <span class="n">discussion</span> <span class="o">=</span> <span class="no">Discussion</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">email</span><span class="p">:</span> <span class="n">email</span><span class="p">)</span><span class="o">.</span><span class="n">first</span>
+    <span class="n">group</span> <span class="o">=</span> <span class="n">discussion</span><span class="o">.</span><span class="n">group</span> <span class="k">if</span> <span class="n">discussion</span>
+    <span class="k">return</span> <span class="k">unless</span> <span class="n">allow_messages_to?</span><span class="p">(</span><span class="n">group</span><span class="p">)</span>
+
+    <span class="n">message</span> <span class="o">=</span> <span class="n">discussion</span><span class="o">.</span><span class="n">messages</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">from</span><span class="p">:</span> <span class="vi">@from</span><span class="p">,</span> <span class="ss">content</span><span class="p">:</span> <span class="vi">@body</span><span class="p">)</span>
+
+    <span class="n">forward</span><span class="p">(</span><span class="n">message</span><span class="p">)</span> <span class="k">if</span> <span class="n">message</span><span class="o">.</span><span class="n">save</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">allow_messages_to?</span><span class="p">(</span><span class="n">group</span><span class="p">)</span>
+    <span class="n">group</span> <span class="o">&amp;&</span> <span class="n">group</span><span class="o">.</span><span class="n">memberships</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">user_id</span><span class="p">:</span> <span class="vi">@from</span><span class="p">)</span><span class="o">.</span><span class="n">any?</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
+    <span class="no">ForwardMessageJob</span><span class="o">.</span><span class="n">perform_now</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+</pre>
+          </div>
+          <div class="highlight">
+            <pre><span class="k">class</span> <span class="nc">ForwardMessageJob</span> <span class="o">&lt;</span> <span class="no">ActiveJob</span><span class="o">::</span><span class="no">Base</span>
+  <span class="n">queue_as</span> <span class="ss">:default</span>
+
+  <span class="k">def</span> <span class="nf">perform</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
+    <span class="vi">@message</span> <span class="o">=</span> <span class="n">message</span>
+
+    <span class="n">memberships</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">membership</span><span class="o">|</span>
+      <span class="c1"># spawn a new job for each email in case any fail to send</span>
+      <span class="no">GroupsMailer</span><span class="o">.</span><span class="n">new_message</span><span class="p">(</span><span class="n">membership</span><span class="p">,</span> <span class="n">message</span><span class="p">)</span><span class="o">.</span><span class="n">deliver_later</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+
+  <span class="kp">private</span>
+
+  <span class="k">def</span> <span class="nf">memberships</span>
+    <span class="vi">@message</span><span class="o">.</span><span class="n">group</span><span class="o">.</span><span class="n">memberships</span><span class="o">.</span>
+      <span class="n">where</span><span class="p">(</span><span class="ss">receives_every_message</span><span class="p">:</span> <span class="kp">true</span><span class="p">)</span><span class="o">.</span>
+      <span class="n">where</span><span class="p">(</span><span class="s1">'user_id != ?'</span><span class="p">,</span> <span class="vi">@message</span><span class="o">.</span><span class="n">from</span><span class="p">)</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+</pre>
+          </div>
+          <p>Outgoing emails follow the <a href="http://guides.rubyonrails.org/action_mailer_basics.html">Action Mailer Basics</a>, though notice the "from name" is the sender but the "from email" is the discussion, ensuring replies are handled properly by our application.</p>
+          <div class="highlight">
+            <pre><span class="c1"># app/mailers/groups_mailer.rb</span>
+<span class="k">class</span> <span class="nc">GroupsMailer</span> <span class="o">&lt;</span> <span class="no">ApplicationMailer</span>
+
+  <span class="k">def</span> <span class="nf">new_message</span><span class="p">(</span><span class="n">membership</span><span class="p">,</span> <span class="n">message</span><span class="p">)</span>
+    <span class="vi">@membership</span> <span class="o">=</span> <span class="n">member</span>
+    <span class="vi">@message</span> <span class="o">=</span> <span class="n">message</span>
+    <span class="vi">@discussion</span> <span class="o">=</span> <span class="vi">@message</span><span class="o">.</span><span class="n">discussion</span>
+    <span class="vi">@group</span> <span class="o">=</span> <span class="vi">@discussion</span><span class="o">.</span><span class="n">group</span>
+
+    <span class="n">mail</span><span class="p">({</span>
+      <span class="ss">to</span><span class="p">:</span> <span class="vi">@membership</span><span class="o">.</span><span class="n">user</span><span class="o">.</span><span class="n">email</span><span class="p">,</span>
+      <span class="ss">from</span><span class="p">:</span> <span class="sx">%("</span><span class="si">#{</span><span class="vi">@message</span><span class="o">.</span><span class="n">from</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="sx">" &lt;</span><span class="si">#{</span><span class="vi">@discussion</span><span class="o">.</span><span class="n">email</span><span class="si">}</span><span class="sx">&gt;)</span><span class="p">,</span>
+      <span class="ss">subject</span><span class="p">:</span> <span class="s2">"[</span><span class="si">#{</span><span class="vi">@group</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">] </span><span class="si">#{</span><span class="vi">@discussion</span><span class="o">.</span><span class="n">subject</span><span class="si">}</span><span class="s2">"</span>
+    <span class="p">})</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+</pre>
+          </div>
+          <div class="highlight">
+            <pre><span class="x">&lt;!-- app/views/groups_mailer/new_message.html.erb --&gt;</span>
+<span class="cp">&lt;%=</span> <span class="n">simple_format</span> <span class="vi">@message</span><span class="o">.</span><span class="n">content</span> <span class="cp">%&gt;</span><span class="x"> </span>
+</pre>
+          </div>
+          <h3 id="mandrill-setup"><a href="#mandrill-setup">Mandrill Setup</a></h3>
+          <p>Your top-level domain is probably already using an email service like gmail, so it's best to establish a subdomain like <code>app.your-domain.com</code> for sending and receiving emails programmatically. Follow Mandrill's documentation to setup your account:</p>
+          <ol>
+            <li>
+              <a href="https://mandrill.com/signup/">Creating a Mandrill Account</a>
+            </li>
+            <li>
+              <a href="http://help.mandrill.com/entries/21650603-How-do-I-get-started-with-Mandrill-#set-up-sending-domains-optional">Setting up a Sending Domain</a>
+            </li>
+            <li>
+              <a href="http://help.mandrill.com/entries/21699367-Inbound-Email-Processing-Overview">Adding an Inbound Domain</a>
+            </li>
+            <li>
+              <a href="http://help.mandrill.com/entries/21699367-Inbound-Email-Processing-Overview#adding-routes">Adding a New Route to your Inbound Domain</a>
+            </li>
+          </ol>
+          <p>The end result should be:</p>
+          <ul>
+            <li>Sending domain <code>app.your-domain.com</code> marked <code>DKIM valid</code> and <code>SPF valid</code></li>
+            <li>Inbound domain <code>app.your-domain.com</code> marked <code>MX valid</code> with a verified route <code>*@app.your-domain.com</code> with a webhook URL of <code>https://your-app.com/mandrill</code></li>
+          </ul>
+          <p class="alert alert-info">Your production environment is now setup to run mailing lists from <code>*@app.your-domain.com</code></p>
+          <h2 id="rounding-the-edges"><a href="#rounding-the-edges">Rounding the Edges</a></h2>
+          <p>A few more features before we have a proper, user-friendly mailing list:</p>
+          <ul>
+            <li>
+              <a href="unsubscribe.html">Unsubscribe</a>
+            </li>
+            <li>
+              <a href="email-digests.html">Email Digests</a>
+            </li>
+            <li>
+              <a href="web-archives.html">Web Archives</a>
+            </li>
+          </ul>
+          <h2 id="future-considerations"><a href="#future-considerations">Future Considerations</a></h2>
+          <p>Now we've wrapped up the basic mailing list functionality, though there's plenty more to think about:</p>
+          <ul>
+            <li>How are groups managed?</li>
+            <li>How do users enable the daily digest?</li>
+            <li>Should we support attachments?</li>
+            <li>Can users be deleted?</li>
+            <li>Can non-members view an archive?</li>
+            <li>Can users create messages inside the archive?</li>
+            <li>How can we ensure only Mandrill can post received emails?</li>
+          </ul>
+          <p>All these questions can be approached using standard Ruby on Rails MVC, and none are especially difficult with the existing design.</p>
+          <h2 id="wrap-up"><a href="#wrap-up">Wrap-Up</a></h2>
+          <p>Here's what we made:</p>
+          <ul>
+            <li>Groups of users can have discussions via email</li>
+            <li>Daily digests are sent to members that don't want to see every message individually</li>
+            <li>Unsubscribe links allow members to stop receiving a group's emails</li>
+            <li>A web archive exposes a group's complete discussion history</li>
+          </ul>
+          <p>Essentially we have the most important parts of Google Groups, but the real possibilities come to light when you think beyond generic groups and messages. <strong>You can send and receive emails in your existing application:</strong></p>
+          <ul>
+            <li>How are your users grouped?</li>
+            <li>How can email help these groups communicate?</li>
+            <li>What could have an email address?</li>
+            <li>What would be convenient for your users to post from their inbox?</li>
+          </ul>
+          <p><strong>Work the reply button into your application's workflow.</strong> <code>no-reply@your-app.com</code> is no longer a viable option. At the very least use <code>please-reply@your-app.com</code> and forward it to an intern.</p><!-- post:content:end -->
+        </div>
+      </div>
+    </div>
+    <div class="row navigation bb-ccc">
+      <a href="/ruby-on-rails/beware-active-record-callbacks.html" class="previous"><span class="fa fa-arrow-left">&nbsp;</span> <span class="desktop">Beware ActiveRecord callbacks</span><span class="mobile">Previous</span></a> <a href="/ruby-on-rails/views-mailers-directory.html" class="next"><span class="desktop">views/mailers directory</span><span class="mobile">Next</span> <span class="fa fa-arrow-right">&nbsp;</span></a>
+      <p><a href="/"><span class="fa fa-home">&nbsp;</span></a> &nbsp;»&nbsp;<span class="title desktop"><a href="/ruby-on-rails/index.html">Ruby on Rails</a></span><span class="mobile"><a href="/ruby-on-rails/index.html"><span class="fa fa-folder-open">&nbsp;</span></a></span></p>
+    </div>
+    <div class="row introduction pb-2e bb-ccc mb-1e">
+      <div class="col-md-6 mt-2e center">
+        <h1 class="mt-0"><a title="Dan Cunning" class="fs-45 fw-normal shadow-silver" href="/">Dan Cunning</a></h1>
+        <p class="reference mt-05e"><a title="github" class="white" href="https://github.com/topdan"><span class="fa fa-github">&nbsp;</span> GitHub</a> <a title="Twitter" class="white" href="https://www.linkedin.com/in/dancunning"><span class="fa fa-linkedin-square">&nbsp;</span> LinkedIn</a> <a title="Email" class="white" href="mailto:dan@topdan.com"><span class="fa fa-envelope">&nbsp;</span> Email</a></p>
+      </div>
+      <div class="col-sm-offset-1 col-md-4 mt-2e">
+        <img width="75" height="75" class="img-circle fl-left mr-10" src="/assets/dan-79508ca0775ace507f1dc34d151bba0f.jpg" alt="Dan">
+        <p class="underline-links">I'm a <a href="/ruby-on-rails/index.html">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a class="nowrap" href="/dan-cunning.html">Read more »</a></p>
+      </div>
+    </div>
+    <div class="row fs-12 mt-1e center">
+      <div class="col-md-6">
+        <p class="underline-links mb-1e">View Source: <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/mailing-lists/index.html">HTML</a></p>
+      </div>
+      <div class="col-md-6">
+        <p class="mb-1e">© 2012-2016 Dan Cunning. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

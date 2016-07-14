@@ -1,3 +1,9 @@
+```raw
+<p class="alert alert-danger">
+  <span class="label label-info">Archived</span> While some of the concepts are timeless, much of this article is out-dated new modes of background processing that handles exceptions and throttling for you.
+</p>
+```
+
 ## [Your Goals](#goals)
 
 Your goals when using a web service are very simple:
@@ -53,10 +59,10 @@ When the network call fails (and they all do eventually), your application shoul
 ```ruby
 def tweet! retry_count = 0
   tweet = twitter_client.tweet(self.message)
-  
+
   # save the success state
   update_attributes! :tweet_id => tweet.id, :tweeted_at => Time.now
-  
+
 rescue Net::HTTPBroken => e
   if retry_count > 5
     tweet_failsafe! e
@@ -68,24 +74,24 @@ end
 
 protected
 
-# This class no longer knows how to handle the network problem, so 
+# This class no longer knows how to handle the network problem, so
 # enter a safe state and notify those involved
 def tweet_failsafe! e
   # save the error state
   update_attributes! :tweet_errored_at => Time.now, :tweet_error => e.to_s
-  
+
   # Log the error
   Rails.logger.error(e)
-  
+
   # email the support staff
   SupportStaffMailer.network_failure(e, self).deliver
-  
+
   # notify developers
   Airbrake.notify({
     :error_class => self.class.name,
     :error_message => "Trouble connecting to Twitter: #{e.to_s}"
   })
-  
+
   # communicate the problem to the user
   user.notifications.create!(:text => "We ran into a problem sending your tweet. Twitter may be experiencing downtime, please try again later")
 end
@@ -136,19 +142,19 @@ This mythical parallel HTTP client would support domain-specific throttles, requ
 ```ruby
 class Twitter
   # Decoupling the request generation, request performance, and response parsing
-  
+
   # for applications that don't care how the request is performed
   def tweet_message message
     # generate the url + data + headers
     request = tweet_message_request message
-    
+
     # make the network call
     response = perform_request request
-    
+
     # parse the response data into a nice Ruby object
     parse_tweet_message_response response
   end
-  
+
   # for applications that don't use this class to perform the request
   def tweet_message_request message
     Request.new({
@@ -158,15 +164,15 @@ class Twitter
       :content_type => "json"
     })
   end
-  
+
   # for applications that don't use this class to perform the request
   def parse_tweet_message_response response
     JSON.parse response.body
-    
+
   rescue JSON::ParserError => e
     raise Twitter::Error.new("JSON response was invalid")
   end
-  
+
 end
 ```
 

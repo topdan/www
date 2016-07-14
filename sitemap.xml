@@ -79,13 +79,13 @@
     <loc>https://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html</loc>
   </url>
   <url>
+    <loc>https://www.topdan.com/ruby-on-rails/archive.html</loc>
+  </url>
+  <url>
     <loc>https://www.topdan.com/ruby-on-rails/aws-s3-browser.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/ruby-on-rails/custom-mailing-lists.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html</loc>
@@ -95,6 +95,18 @@
   </url>
   <url>
     <loc>https://www.topdan.com/ruby-on-rails/index.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/ruby-on-rails/mailing-lists/email-digests.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/ruby-on-rails/mailing-lists/index.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/ruby-on-rails/mailing-lists/unsubscribe.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/ruby-on-rails/mailing-lists/web-archives.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/ruby-on-rails/param-accessible.html</loc>

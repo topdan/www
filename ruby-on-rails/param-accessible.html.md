@@ -1,6 +1,6 @@
 ```raw
 <p class="alert alert-danger">
-  <span class="label label-info">Update</span> This article was written prior to DHH releasing the <a href="https://github.com/rails/strong_parameters">strong_parameters</a> gem, which also moves the responsibility from the model to controller, though it doesn't use a <code>*_filter</code> approach. I suggest you use <code>strong_parameters</code>.
+  <span class="label label-info">Archived</span> This article was written prior to DHH releasing the <a href="https://github.com/rails/strong_parameters">strong_parameters</a> gem, which also moves the responsibility from the model to controller, though it doesn't use a <code>*_filter</code> approach. I suggest you use <code>strong_parameters</code>.
 </p>
 ```
 

@@ -67,12 +67,42 @@
     </author>
   </entry>
   <entry>
-    <id>http://www.topdan.com/ruby-on-rails/custom-mailing-lists.html</id>
-    <published>2015-02-21T19:47:18-05:00</published>
-    <updated>2016-02-21T14:20:19-05:00</updated>
-    <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/custom-mailing-lists.html?utm_medium=atom&amp;utm_source=feed"/>
-    <title>Custom Mailing Lists</title>
+    <id>http://www.topdan.com/ruby-on-rails/mailing-lists/index.html</id>
+    <published>2016-07-14T14:49:04-04:00</published>
+    <updated>2016-07-14T14:49:04-04:00</updated>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/mailing-lists/index.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>Mailing Lists</title>
     <content>Mailing lists remain an effective way for groups to communicate. We'll explore how to implement them in your Rails application to improve its overall user-experience.</content>
+    <updated>2015-02-21 16:00:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/ruby-on-rails/mailing-lists/unsubscribe.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/mailing-lists/unsubscribe.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>Unsubscribe</title>
+    <content/>
+    <updated>2015-02-21 16:00:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/ruby-on-rails/mailing-lists/email-digests.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/mailing-lists/email-digests.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>Email Digests</title>
+    <content/>
+    <updated>2015-02-21 16:00:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/ruby-on-rails/mailing-lists/web-archives.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/mailing-lists/web-archives.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>Web Archives</title>
+    <content/>
     <updated>2015-02-21 16:00:00 UTC</updated>
     <author>
       <name>Dan Cunning</name>
@@ -93,9 +123,9 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html</id>
     <published>2014-06-18T12:53:38-04:00</published>
-    <updated>2016-02-21T14:20:19-05:00</updated>
+    <updated>2016-07-14T14:50:48-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html?utm_medium=atom&amp;utm_source=feed"/>
-    <title>Infinite Scrolling with AJAX and Rails</title>
+    <title>Infinite Scrolling with AJAX</title>
     <content>Ruby on Rails and jQuery team up to allow your visitors to scroll through all your content without initially loading them all.</content>
     <updated>2014-06-16 16:00:00 UTC</updated>
     <author>
@@ -117,35 +147,11 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html</id>
     <published>2014-04-16T16:22:32-04:00</published>
-    <updated>2016-07-12T18:17:18-04:00</updated>
+    <updated>2016-07-14T14:50:48-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html?utm_medium=atom&amp;utm_source=feed"/>
-    <title>Easy Ajax Toggle Buttons</title>
+    <title>Ajax Toggle Buttons</title>
     <content>How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it.</content>
     <updated>2014-04-16 20:00:00 UTC</updated>
-    <author>
-      <name>Dan Cunning</name>
-    </author>
-  </entry>
-  <entry>
-    <id>http://www.topdan.com/ruby-on-rails/working-with-web-apis.html</id>
-    <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2016-03-13T15:27:45-04:00</updated>
-    <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/working-with-web-apis.html?utm_medium=atom&amp;utm_source=feed"/>
-    <title>The Tricky World of Using Web APIs</title>
-    <content>When your application interacts with the web a lot can go wrong. Working with Ruby on Rails over the last five years, I've seen a lot of them first hand, and with this article I hope to share some of that experience and help you write more reliable, efficient and friendly code.</content>
-    <updated>2012-03-15 18:00:00 UTC</updated>
-    <author>
-      <name>Dan Cunning</name>
-    </author>
-  </entry>
-  <entry>
-    <id>http://www.topdan.com/ruby-on-rails/param-accessible.html</id>
-    <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2016-02-21T13:44:40-05:00</updated>
-    <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/param-accessible.html?utm_medium=atom&amp;utm_source=feed"/>
-    <title>Protecting Yourself from Malicious params</title>
-    <content>The issues and solutions to making your application's handling of user parameters secure by default, before Ruby on Rails offered an out-of-the-box solution..</content>
-    <updated>2012-03-14 18:00:00 UTC</updated>
     <author>
       <name>Dan Cunning</name>
     </author>

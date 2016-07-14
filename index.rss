@@ -233,21 +233,21 @@
       <description>Determining which college football programs are under or over valued against the spreads, moneylines, and over/unders.</description>
       <link>http://www.topdan.com/sports/ncaaf-vegas-bias/index.html?utm_medium=rss&amp;utm_source=feed</link>
       <guid>http://www.topdan.com/sports/ncaaf-vegas-bias/index.html</guid>
-      <pubDate>2015-09-08 18:30:00 -0500</pubDate>
+      <pubDate>2015-09-08 19:30:00 -0400</pubDate>
     </item>
     <item>
       <title>2014 NCAAF Vegas Bias</title>
       <description>What programs were under and over valued by Sportsbooks in the 2014 college football season?</description>
       <link>http://www.topdan.com/sports/ncaaf-vegas-bias/2014.html?utm_medium=rss&amp;utm_source=feed</link>
       <guid>http://www.topdan.com/sports/ncaaf-vegas-bias/2014.html</guid>
-      <pubDate>2015-09-08 18:30:00 -0500</pubDate>
+      <pubDate>2015-09-08 19:30:00 -0400</pubDate>
     </item>
     <item>
       <title>2015 NCAAF Vegas Bias</title>
       <description>What programs were under and over valued by Sportsbooks in the 2015 college football season?</description>
       <link>http://www.topdan.com/sports/ncaaf-vegas-bias/2015.html?utm_medium=rss&amp;utm_source=feed</link>
       <guid>http://www.topdan.com/sports/ncaaf-vegas-bias/2015.html</guid>
-      <pubDate>2015-09-08 18:30:00 -0500</pubDate>
+      <pubDate>2015-09-08 19:30:00 -0400</pubDate>
     </item>
     <item>
       <title>Progress Bars</title>
@@ -292,10 +292,31 @@
       <pubDate>2015-03-04 13:00:00 UTC</pubDate>
     </item>
     <item>
-      <title>Custom Mailing Lists</title>
+      <title>Mailing Lists</title>
       <description>Mailing lists remain an effective way for groups to communicate. We'll explore how to implement them in your Rails application to improve its overall user-experience.</description>
-      <link>http://www.topdan.com/ruby-on-rails/custom-mailing-lists.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/ruby-on-rails/custom-mailing-lists.html</guid>
+      <link>http://www.topdan.com/ruby-on-rails/mailing-lists/index.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/mailing-lists/index.html</guid>
+      <pubDate>2015-02-21 16:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>Unsubscribe</title>
+      <description/>
+      <link>http://www.topdan.com/ruby-on-rails/mailing-lists/unsubscribe.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/mailing-lists/unsubscribe.html</guid>
+      <pubDate>2015-02-21 16:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>Email Digests</title>
+      <description/>
+      <link>http://www.topdan.com/ruby-on-rails/mailing-lists/email-digests.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/mailing-lists/email-digests.html</guid>
+      <pubDate>2015-02-21 16:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>Web Archives</title>
+      <description/>
+      <link>http://www.topdan.com/ruby-on-rails/mailing-lists/web-archives.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/mailing-lists/web-archives.html</guid>
       <pubDate>2015-02-21 16:00:00 UTC</pubDate>
     </item>
     <item>
@@ -355,7 +376,7 @@
       <pubDate>2014-06-22 21:00:00 UTC</pubDate>
     </item>
     <item>
-      <title>Infinite Scrolling with AJAX and Rails</title>
+      <title>Infinite Scrolling with AJAX</title>
       <description>Ruby on Rails and jQuery team up to allow your visitors to scroll through all your content without initially loading them all.</description>
       <link>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html?utm_medium=rss&amp;utm_source=feed</link>
       <guid>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html</guid>
@@ -376,7 +397,7 @@
       <pubDate>2014-05-29 16:00:00 UTC</pubDate>
     </item>
     <item>
-      <title>Easy Ajax Toggle Buttons</title>
+      <title>Ajax Toggle Buttons</title>
       <description>How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it.</description>
       <link>http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html?utm_medium=rss&amp;utm_source=feed</link>
       <guid>http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html</guid>

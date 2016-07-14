@@ -40,10 +40,31 @@
       <pubDate>2015-03-04 13:00:00 UTC</pubDate>
     </item>
     <item>
-      <title>Custom Mailing Lists</title>
+      <title>Mailing Lists</title>
       <description>Mailing lists remain an effective way for groups to communicate. We'll explore how to implement them in your Rails application to improve its overall user-experience.</description>
-      <link>http://www.topdan.com/ruby-on-rails/custom-mailing-lists.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/ruby-on-rails/custom-mailing-lists.html</guid>
+      <link>http://www.topdan.com/ruby-on-rails/mailing-lists/index.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/mailing-lists/index.html</guid>
+      <pubDate>2015-02-21 16:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>Unsubscribe</title>
+      <description/>
+      <link>http://www.topdan.com/ruby-on-rails/mailing-lists/unsubscribe.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/mailing-lists/unsubscribe.html</guid>
+      <pubDate>2015-02-21 16:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>Email Digests</title>
+      <description/>
+      <link>http://www.topdan.com/ruby-on-rails/mailing-lists/email-digests.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/mailing-lists/email-digests.html</guid>
+      <pubDate>2015-02-21 16:00:00 UTC</pubDate>
+    </item>
+    <item>
+      <title>Web Archives</title>
+      <description/>
+      <link>http://www.topdan.com/ruby-on-rails/mailing-lists/web-archives.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/mailing-lists/web-archives.html</guid>
       <pubDate>2015-02-21 16:00:00 UTC</pubDate>
     </item>
     <item>
@@ -54,7 +75,7 @@
       <pubDate>2014-07-17 16:00:00 UTC</pubDate>
     </item>
     <item>
-      <title>Infinite Scrolling with AJAX and Rails</title>
+      <title>Infinite Scrolling with AJAX</title>
       <description>Ruby on Rails and jQuery team up to allow your visitors to scroll through all your content without initially loading them all.</description>
       <link>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html?utm_medium=rss&amp;utm_source=feed</link>
       <guid>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html</guid>
@@ -68,25 +89,11 @@
       <pubDate>2014-05-29 16:00:00 UTC</pubDate>
     </item>
     <item>
-      <title>Easy Ajax Toggle Buttons</title>
+      <title>Ajax Toggle Buttons</title>
       <description>How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it.</description>
       <link>http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html?utm_medium=rss&amp;utm_source=feed</link>
       <guid>http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html</guid>
       <pubDate>2014-04-16 20:00:00 UTC</pubDate>
-    </item>
-    <item>
-      <title>The Tricky World of Using Web APIs</title>
-      <description>When your application interacts with the web a lot can go wrong. Working with Ruby on Rails over the last five years, I've seen a lot of them first hand, and with this article I hope to share some of that experience and help you write more reliable, efficient and friendly code.</description>
-      <link>http://www.topdan.com/ruby-on-rails/working-with-web-apis.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/ruby-on-rails/working-with-web-apis.html</guid>
-      <pubDate>2012-03-15 18:00:00 UTC</pubDate>
-    </item>
-    <item>
-      <title>Protecting Yourself from Malicious params</title>
-      <description>The issues and solutions to making your application's handling of user parameters secure by default, before Ruby on Rails offered an out-of-the-box solution..</description>
-      <link>http://www.topdan.com/ruby-on-rails/param-accessible.html?utm_medium=rss&amp;utm_source=feed</link>
-      <guid>http://www.topdan.com/ruby-on-rails/param-accessible.html</guid>
-      <pubDate>2012-03-14 18:00:00 UTC</pubDate>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email Digests - topdan.com</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Dan Cunning">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@itopdan">
+  <meta name="twitter:title" content="Email Digests">
+  <meta name="twitter:url" content="http://www.topdan.com/ruby-on-rails/mailing-lists/email-digests.html">
+  <meta name="og:locale" content="en_US">
+  <meta name="og:type" content="article">
+  <meta name="og:url" content="http://www.topdan.com/ruby-on-rails/mailing-lists/email-digests.html">
+  <meta name="og:title" content="Email Digests">
+  <meta name="og:description">
+  <link rel="shortcut icon" href="/assets/favicon-e45cdd6cc07e8858a985e6014e38a603.png">
+  <link rel="stylesheet" media="all" href="/assets/site-d400722be12cd345b50948fb3c8a0edf.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+
+  <script type="text/javascript">
+  if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
+    var _gaq = _gaq || [];
+
+    _gaq.push(['_setAccount', 'UA-12957077-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  }
+  </script>
+</head>
+<body id="mailing-lists">
+  <div class="container bg-black full-width">
+    <div class="row navigation">
+      <a id="top"></a> <a href="/ruby-on-rails/mailing-lists/index.html" class="previous"><span class="fa fa-arrow-left">&nbsp;</span> <span class="desktop">Mailing Lists</span><span class="mobile">Previous</span></a>
+      <p><a href="/"><span class="fa fa-home">&nbsp;</span></a> &nbsp;»&nbsp;<span class="title desktop"><a href="/ruby-on-rails/index.html">Ruby on Rails</a></span><span class="mobile"><a href="/ruby-on-rails/index.html"><span class="fa fa-folder-open">&nbsp;</span></a></span></p>
+    </div>
+    <div class="row bg-white">
+      <div class="col-md-12">
+        <div class="width-640 ml-auto mr-auto">
+          <p class="mt-05e mb-15e ta-right c-ccc">Published by Dan on Feb 21, 2015</p>
+          <h1 class="center of-yh mb-0"><a href="/ruby-on-rails/mailing-lists/email-digests.html">Email Digests</a></h1>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-white">
+      <div class="col-md-12">
+        <div class="width-640 ml-auto mr-auto post">
+          <!-- post:content:start -->
+          <p class="alert alert-info center">This article builds on top of <a href="index.html">the Mailing Lists functionality</a>.</p>
+          <p>Email digests contain all messages since the previous digest. We'll generate a daily digest using <a href="https://github.com/javan/whenever">the whenever gem</a> which manages scheduled tasks defined inside <code>config/schedule.rb</code></p>
+          <div class="highlight">
+            <pre><span class="c1"># app/mailers/groups_mailer.rb</span>
+<span class="k">class</span> <span class="nc">GroupsMailer</span> <span class="o">&lt;</span> <span class="no">ApplicationMailer</span>
+
+  <span class="k">def</span> <span class="nf">digest</span><span class="p">(</span><span class="n">membership</span><span class="p">,</span> <span class="n">timeframe</span><span class="p">)</span>
+    <span class="vi">@membership</span> <span class="o">=</span> <span class="n">membership</span>
+    <span class="vi">@group</span> <span class="o">=</span> <span class="n">membership</span><span class="o">.</span><span class="n">group</span>
+    <span class="vi">@messages</span> <span class="o">=</span> <span class="vi">@group</span><span class="o">.</span><span class="n">messages</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">created_at</span><span class="p">:</span> <span class="n">timeframe</span><span class="p">)</span><span class="o">.</span><span class="n">order</span><span class="p">(</span><span class="ss">:discussion_id</span><span class="p">,</span> <span class="ss">:created_at</span><span class="p">)</span>
+
+    <span class="n">mail</span><span class="p">({</span>
+      <span class="ss">to</span><span class="p">:</span> <span class="vi">@membership</span><span class="o">.</span><span class="n">user</span><span class="o">.</span><span class="n">email</span><span class="p">,</span>
+      <span class="ss">from</span><span class="p">:</span> <span class="sx">%("</span><span class="si">#{</span><span class="vi">@group</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="sx">" &lt;</span><span class="si">#{</span><span class="vi">@group</span><span class="o">.</span><span class="n">email</span><span class="si">}</span><span class="sx">&gt;)</span><span class="p">,</span>
+      <span class="ss">subject</span><span class="p">:</span> <span class="s2">"[</span><span class="si">#{</span><span class="vi">@group</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">] Message Digest"</span>
+    <span class="p">})</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+</pre>
+          </div>
+          <div class="highlight">
+            <pre><span class="c">&lt;!-- app/views/groups_mailer/digest.html.erb --&gt;</span>
+<span class="cp">&lt;%=</span> <span class="vi">@messages</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">message</span><span class="o">|</span> <span class="cp">%&gt;</span> 
+  <span class="nt">&lt;p&gt;</span>Subject: <span class="cp">&lt;%=</span> <span class="n">message</span><span class="o">.</span><span class="n">discussion</span><span class="o">.</span><span class="n">subject</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;p&gt;</span>From: <span class="cp">&lt;%=</span> <span class="n">message</span><span class="o">.</span><span class="n">from</span><span class="o">.</span><span class="n">name</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;p&gt;</span>Timestamp: <span class="cp">&lt;%=</span> <span class="n">message</span><span class="o">.</span><span class="n">created_at</span><span class="o">.</span><span class="n">to_s</span><span class="p">(</span><span class="ss">:timestamp</span><span class="p">)</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
+  <span class="cp">&lt;%=</span> <span class="n">simple_format</span> <span class="n">message</span><span class="o">.</span><span class="n">content</span> <span class="cp">%&gt;</span> 
+  <span class="nt">&lt;hr&gt;</span>
+<span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span> 
+
+<span class="nt">&lt;p&gt;</span><span class="cp">&lt;%=</span> <span class="n">link_to</span> <span class="s1">'Unsubscribe'</span><span class="p">,</span> <span class="n">unsubscribe_url</span><span class="p">(</span><span class="nb">id</span><span class="p">:</span> <span class="vi">@membership</span><span class="o">.</span><span class="n">token</span><span class="p">)</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
+</pre>
+          </div>
+          <div class="highlight">
+            <pre><span class="c1"># lib/tasks/groups.rake</span>
+<span class="n">namespace</span> <span class="ss">:groups</span> <span class="k">do</span>
+  <span class="n">namespace</span> <span class="ss">:digest</span> <span class="k">do</span>
+
+    <span class="n">task</span> <span class="nb">send</span><span class="p">:</span> <span class="ss">:environment</span> <span class="k">do</span>
+      <span class="no">Groups</span><span class="o">.</span><span class="n">find_each</span> <span class="k">do</span> <span class="o">|</span><span class="n">group</span><span class="o">|</span>
+        <span class="n">now</span> <span class="o">=</span> <span class="no">Time</span><span class="o">.</span><span class="n">now</span>
+        <span class="n">last_sent</span> <span class="o">=</span> <span class="n">group</span><span class="o">.</span><span class="n">digest_last_sent_at</span> <span class="o">||</span> <span class="n">now</span> <span class="o">-</span> <span class="mi">1</span><span class="o">.</span><span class="n">week</span>
+        <span class="n">timeframe</span> <span class="o">=</span> <span class="p">(</span><span class="n">last_sent</span><span class="o">.</span><span class="n">.now</span><span class="p">)</span>
+
+        <span class="k">next</span> <span class="k">if</span> <span class="n">group</span><span class="o">.</span><span class="n">messages</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">created_at</span><span class="p">:</span> <span class="n">timeframe</span><span class="p">)</span><span class="o">.</span><span class="n">empty?</span>
+
+        <span class="n">group</span><span class="o">.</span><span class="n">memberships</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="ss">receives_digest</span><span class="p">:</span> <span class="kp">true</span><span class="p">)</span><span class="o">.</span><span class="n">find_each</span> <span class="k">do</span> <span class="o">|</span><span class="n">membership</span><span class="o">|</span>
+          <span class="no">GroupsMailer</span><span class="o">.</span><span class="n">digest</span><span class="p">(</span><span class="n">membership</span><span class="p">,</span> <span class="n">timeframe</span><span class="p">)</span><span class="o">.</span><span class="n">deliver_later</span>
+        <span class="k">end</span>
+
+        <span class="n">group</span><span class="o">.</span><span class="n">digest_last_sent_at</span> <span class="o">=</span> <span class="n">now</span>
+        <span class="n">group</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="ss">validate</span><span class="p">:</span> <span class="kp">false</span><span class="p">)</span>
+      <span class="k">end</span>
+    <span class="k">end</span>
+
+  <span class="k">end</span>
+<span class="k">end</span>
+</pre>
+          </div>
+          <div class="highlight">
+            <pre><span class="c1"># config/schedule.rb</span>
+<span class="n">every</span> <span class="mi">1</span><span class="o">.</span><span class="n">day</span><span class="p">,</span> <span class="ss">at</span><span class="p">:</span> <span class="s1">'4:30 am'</span> <span class="k">do</span>
+  <span class="n">rake</span> <span class="s2">"groups:digest:send"</span>
+<span class="k">end</span>
+</pre>
+          </div><!-- post:content:end -->
+        </div>
+      </div>
+    </div>
+    <div class="row navigation bb-ccc">
+      <a href="/ruby-on-rails/mailing-lists/index.html" class="previous"><span class="fa fa-arrow-left">&nbsp;</span> <span class="desktop">Mailing Lists</span><span class="mobile">Previous</span></a>
+      <p><a href="/"><span class="fa fa-home">&nbsp;</span></a> &nbsp;»&nbsp;<span class="title desktop"><a href="/ruby-on-rails/index.html">Ruby on Rails</a></span><span class="mobile"><a href="/ruby-on-rails/index.html"><span class="fa fa-folder-open">&nbsp;</span></a></span></p>
+    </div>
+    <div class="row introduction pb-2e bb-ccc mb-1e">
+      <div class="col-md-6 mt-2e center">
+        <h1 class="mt-0"><a title="Dan Cunning" class="fs-45 fw-normal shadow-silver" href="/">Dan Cunning</a></h1>
+        <p class="reference mt-05e"><a title="github" class="white" href="https://github.com/topdan"><span class="fa fa-github">&nbsp;</span> GitHub</a> <a title="Twitter" class="white" href="https://www.linkedin.com/in/dancunning"><span class="fa fa-linkedin-square">&nbsp;</span> LinkedIn</a> <a title="Email" class="white" href="mailto:dan@topdan.com"><span class="fa fa-envelope">&nbsp;</span> Email</a></p>
+      </div>
+      <div class="col-sm-offset-1 col-md-4 mt-2e">
+        <img width="75" height="75" class="img-circle fl-left mr-10" src="/assets/dan-79508ca0775ace507f1dc34d151bba0f.jpg" alt="Dan">
+        <p class="underline-links">I'm a <a href="/ruby-on-rails/index.html">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a class="nowrap" href="/dan-cunning.html">Read more »</a></p>
+      </div>
+    </div>
+    <div class="row fs-12 mt-1e center">
+      <div class="col-md-6">
+        <p class="underline-links mb-1e">View Source: <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/mailing-lists/email-digests.html">HTML</a></p>
+      </div>
+      <div class="col-md-6">
+        <p class="mb-1e">© 2012-2016 Dan Cunning. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
