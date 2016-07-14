@@ -5,6 +5,13 @@
     <link>http://www.topdan.com/index.rss</link>
     <description>A Ruby on Rails contractor's writes about his meandering thoughts</description>
     <item>
+      <title>Loading Buttons</title>
+      <description>Converting action buttons into loading buttons is a common way for AJAX applications indicate that it's waiting on the server to verify an action and respond.</description>
+      <link>http://www.topdan.com/ruby-on-rails/loading-buttons.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/loading-buttons.html</guid>
+      <pubDate>2016-07-14 12:00:00 UTC</pubDate>
+    </item>
+    <item>
       <title>Followed Actors &amp; Directors</title>
       <description>People who consistently help make movies they're involved in worth watching or just people I like watching in movies.</description>
       <link>http://www.topdan.com/entertainment/followed-people.html?utm_medium=rss&amp;utm_source=feed</link>

@@ -5,6 +5,13 @@
     <link>http://www.topdan.com/ruby-on-rails/index.rss</link>
     <description>Dan Cunning's thoughts on Ruby on Rails.</description>
     <item>
+      <title>Loading Buttons</title>
+      <description>Converting action buttons into loading buttons is a common way for AJAX applications indicate that it's waiting on the server to verify an action and respond.</description>
+      <link>http://www.topdan.com/ruby-on-rails/loading-buttons.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/loading-buttons.html</guid>
+      <pubDate>2016-07-14 12:00:00 UTC</pubDate>
+    </item>
+    <item>
       <title>Browsing Files &amp; Directories in S3</title>
       <description>Amazon's S3 makes storing files easy but viewing directories isn't intuitive. Let me explain how you can emulate a file structure using Plain-Old-Ruby-Objects.</description>
       <link>http://www.topdan.com/ruby-on-rails/aws-s3-browser.html?utm_medium=rss&amp;utm_source=feed</link>

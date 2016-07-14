@@ -88,6 +88,9 @@
     <loc>https://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html</loc>
   </url>
   <url>
+    <loc>https://www.topdan.com/ruby-on-rails/features.html</loc>
+  </url>
+  <url>
     <loc>https://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html</loc>
   </url>
   <url>
@@ -95,6 +98,9 @@
   </url>
   <url>
     <loc>https://www.topdan.com/ruby-on-rails/index.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topdan.com/ruby-on-rails/loading-buttons.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/ruby-on-rails/mailing-lists/email-digests.html</loc>
@@ -122,9 +128,6 @@
   </url>
   <url>
     <loc>https://www.topdan.com/ruby-on-rails/tips.html</loc>
-  </url>
-  <url>
-    <loc>https://www.topdan.com/ruby-on-rails/ui-elements.html</loc>
   </url>
   <url>
     <loc>https://www.topdan.com/ruby-on-rails/views-mailers-directory.html</loc>

@@ -5,7 +5,19 @@
   <link rel="self" type="application/atom+xml" href="http://www.topdan.com/index.xml"/>
   <title>Dan Cunning - topdan.com</title>
   <subtitle>A Ruby on Rails contractor's writes about his meandering thoughts</subtitle>
-  <updated>2016-05-01 16:00:00 UTC</updated>
+  <updated>2016-07-14 12:00:00 UTC</updated>
+  <entry>
+    <id>http://www.topdan.com/ruby-on-rails/loading-buttons.html</id>
+    <published>2016-07-14T16:32:41-04:00</published>
+    <updated>2016-07-14T16:38:39-04:00</updated>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/loading-buttons.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>Loading Buttons</title>
+    <content>Converting action buttons into loading buttons is a common way for AJAX applications indicate that it's waiting on the server to verify an action and respond.</content>
+    <updated>2016-07-14 12:00:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
   <entry>
     <id>http://www.topdan.com/entertainment/followed-people.html</id>
     <published>2016-05-01T20:43:55-04:00</published>
@@ -371,7 +383,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/progress-bars.html</id>
     <published>2015-09-09T20:31:58-04:00</published>
-    <updated>2016-07-12T18:03:11-04:00</updated>
+    <updated>2016-07-14T16:32:41-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/progress-bars.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Progress Bars</title>
     <content>How to create a progress bar using Ruby on Rails, AJAX, and Twitter Bootstrap.</content>
@@ -443,7 +455,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/mailing-lists/index.html</id>
     <published>2016-07-14T14:49:04-04:00</published>
-    <updated>2016-07-14T14:49:04-04:00</updated>
+    <updated>2016-07-14T16:32:41-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/mailing-lists/index.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Mailing Lists</title>
     <content>Mailing lists remain an effective way for groups to communicate. We'll explore how to implement them in your Rails application to improve its overall user-experience.</content>
@@ -581,7 +593,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html</id>
     <published>2014-06-18T12:53:38-04:00</published>
-    <updated>2016-07-14T14:50:48-04:00</updated>
+    <updated>2016-07-14T16:32:41-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Infinite Scrolling with AJAX</title>
     <content>Ruby on Rails and jQuery team up to allow your visitors to scroll through all your content without initially loading them all.</content>
@@ -617,7 +629,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html</id>
     <published>2014-04-16T16:22:32-04:00</published>
-    <updated>2016-07-14T14:50:48-04:00</updated>
+    <updated>2016-07-14T16:32:41-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Ajax Toggle Buttons</title>
     <content>How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it.</content>

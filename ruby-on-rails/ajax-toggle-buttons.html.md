@@ -11,7 +11,7 @@ Toggle buttons are useful for communicating and changing state. Here's what the 
 ```raw
 <ul class="user-experience">
   <li>Clicks on <a href="#" class="btn btn-default"><span class="fa fa-star">&nbsp;</span> Favorite</a></li>
-  <li>An ajax request is started and the button becomes <a href="#" class="btn btn-default"><span class="fa fa-refresh">&nbsp;</span> Favorite</a></li>
+  <li>An ajax request is started and the button becomes <a href="#" class="btn btn-default"><span class="fa fa-refresh fa-spin">&nbsp;</span> Favorite</a></li>
   <li>When the request succeeds the button becomes <a href="#" class="btn btn-warning"><span class="fa fa-star">&nbsp;</span> Favorite</a></li>
 </ul>
 ```
