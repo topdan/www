@@ -18,7 +18,7 @@
   <meta name="og:title" content="Infinite Scrolling with AJAX">
   <meta name="og:description" content="Ruby on Rails and jQuery team up to allow your visitors to scroll through all your content without initially loading them all.">
   <link rel="shortcut icon" href="/assets/favicon-e45cdd6cc07e8858a985e6014e38a603.png">
-  <link rel="stylesheet" media="all" href="/assets/site-d400722be12cd345b50948fb3c8a0edf.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+  <link rel="stylesheet" media="all" href="/assets/site-d30c732907c1f2982374b8bab9355d72.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
 
   <script type="text/javascript">
   if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
@@ -46,7 +46,7 @@
         <div class="width-640 ml-auto mr-auto">
           <p class="mt-05e mb-15e ta-right c-ccc">Published by Dan on Jun 16, 2014</p>
           <h1 class="center of-yh mb-0"><a href="/ruby-on-rails/simple-infinite-scrolling.html">Infinite Scrolling with AJAX</a></h1>
-          <p class="mb-0 fl-right">Tagged: <a href="/ruby-on-rails/features.html">Features</a></p>
+          <p class="mb-0 center">Filed under <a href="/ruby-on-rails/features.html">Features</a></p>
         </div>
       </div>
     </div>
@@ -59,24 +59,13 @@
               <a href="#introduction">Introduction</a>
             </li>
             <li>
+              <a href="#demo">Demo</a>
+            </li>
+            <li>
               <a href="#how-it-works">How it Works</a>
-              <ul>
-                <li>
-                  <a href="#gemfile">Gemfile</a>
-                </li>
-                <li>
-                  <a href="#controller">Controller</a>
-                </li>
-                <li>
-                  <a href="#html-templates">HTML Templates</a>
-                </li>
-                <li>
-                  <a href="#javascript">Client-Side Javascript</a>
-                </li>
-                <li>
-                  <a href="#post-js">Javascript Template</a>
-                </li>
-              </ul>
+            </li>
+            <li>
+              <a href="#the-code">The Code</a>
             </li>
             <li>
               <a href="#wrapup">Wrap-up</a>
@@ -84,32 +73,49 @@
           </ul>
           <h2 id="introduction"><a href="#introduction">Introduction</a></h2>
           <p>Infinite scrolling appends more content to the end of the page before the viewer gets to it, so they can just keep scrolling unabated and the application doesn't need to initially load a bunch of records only a small percent of viewers will ever scroll down to.</p>
-          <h2 id="how-it-works"><a href="#how-it-works">How it Works</a></h2>
-          <p class="alert alert-info"><strong>Summary:</strong> Rails renders the HTML like always, but there's a javascript file that watches the scrollbar and fires off an ajax request that returns some javascript that appends new content.</p>
-          <h3 id="gemfile"><a href="#gemfile">Gemfile</a></h3>
-          <p>ActiveRecord has <a href="https://www.ruby-toolbox.com/categories/pagination">a lot of pagination gems</a> that groups your records into pages.</p>
+          <h2 id="demo"><a href="#demo">Demo</a></h2>
+          <p>The scrollable pane of movie posters automatically adds more rows of posters as you approach the bottom of the page.</p>
+          <div id="demo-infinite-scrolling" class="posters b-ccc pt-1e pb-1e pl-1e pr-1e" data-movies-url="/entertainment/movie-recommendations.json" data-per-page="16" data-per-row="4" data-threshold="1000">
+            <div class="page-row"><img src="https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19612/thumb_the-nice-guys-2016-89e5e5d40af0830f50d69c70e23c36b3.jpg" alt="Thumb the nice guys 2016"> <img src="https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16167/thumb_american-ultra-2015-45e775a723ef36a883552ad7c7190635.jpg" alt="Thumb american ultra 2015"> <img src="https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19186/thumb_bone-tomahawk-2015-21ffd3c29c619f032e7924ed117e8e37.jpg" alt="Thumb bone tomahawk 2015"> <img src="https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15578/thumb_dope-2015-5fa9cd783ca8597abd1e32c02af46813.jpg" alt="Thumb dope 2015"></div>
+            <div class="page-row"><img src="https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15348/thumb_ex-machina-2015-4b8b53fb3fa9b32f414805486c6d61cd.jpg" alt="Thumb ex machina 2015"> <img src="https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13886/thumb_inside-out-2015-400ac936176f919225bf7973674930e9.jpg" alt="Thumb inside out 2015"> <img src="https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14652/thumb_it-follows-2015-79ea2b34cafe0a1129eb3a468aa601ea.jpg" alt="Thumb it follows 2015"> <img src="https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13163/thumb_mad-max-fury-road-2015-6094af4b6fc65d0951be99a0c0036bd3.jpg" alt="Thumb mad max fury road 2015"></div>
+            <div class="page-row"><img src="https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16032/thumb_me-and-earl-and-the-dying-girl-2015-f54ecdbe77cbb2302e045d0f36dc8e7f.jpg" alt="Thumb me and earl and the dying girl 2015"> <img src="https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15590/thumb_mission-impossible-rogue-nation-2015-4e999e14c79014c5e169e1cc3d7a6d88.jpg" alt="Thumb mission impossible rogue nation 2015"> <img src="https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18253/thumb_room-2015-422454130033645d4a5027e9479d5302.jpg" alt="Thumb room 2015"> <img src="https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16454/thumb_sicario-2015-1b0914f9d50f2870e876adc7bb734ed5.jpg" alt="Thumb sicario 2015"></div>
+            <div class="page-row"><img src="https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16695/thumb_sleeping-with-other-people-2015-3f4924f9d6c6b5bf00fdd27e67150784.jpg" alt="Thumb sleeping with other people 2015"> <img src="https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19547/thumb_star-wars-episode-vii-the-force-awakens-2015-11046df3ee9eb85c4de2ae9ee0e33c25.jpg" alt="Thumb star wars episode vii the force awakens 2015"> <img src="https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19053/thumb_the-big-short-2015-a86d00d489481d8d1b843a80dd379104.jpg" alt="Thumb the big short 2015"> <img src="https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16345/thumb_the-martian-2015-6c63feab3f3f05e2c368507a4eb11e08.jpg" alt="Thumb the martian 2015"></div>
+            <p><a href="#" data-action="load-next-page"><span class="fa fa-refresh fa-spin">&nbsp;</span> View next page <span class="fa fa-refresh fa-spin">&nbsp;</span></a></p>
+          </div>
+          <p class="fs-12 c-ccc center">This webpage is not hosted by Rails, so the above UX is just a simulation.</p>
+          <h3 id="how-it-works"><a href="#how-it-works">How it Works</a></h3>
+          <ul>
+            <li>Rails renders <a href="#views">the first page and a "View More" link</a> during the initial HTML request.
+            </li>
+            <li>The "View More" link is a UI fallback but also lets us know the URL for the next page.</li>
+            <li>
+              <a href="#javascript">Javascript</a> watches the page's scrollbar to break a threshold.
+            </li>
+            <li>An AJAX request is issued when either the threshold is broken or the user clicks the "View More" link.</li>
+            <li>Rails returns javascript that inserts the next page and points the "View More" link to the next unloaded page.</li>
+          </ul>
+          <h3 id="the-code"><a href="#the-code">The Code</a></h3>
+          <h3 id="gemfile"><a href="#gemfile"></a></h3>
           <div class="highlight">
             <pre><span class="c1"># Gemfile</span>
 
 <span class="n">gem</span> <span class="s1">'kaminari'</span>
-<span class="c1"># gem 'will_paginate'</span>
+<span class="c1"># gem 'will_paginate' # another option</span>
 </pre>
           </div>
-          <h4 id="controller"><a href="#controller">Controller</a></h4>
-          <p>Your controller queries the page param or the first page if not provided.</p>
+          <h3 id="controller"><a href="#controller"></a></h3>
           <div class="highlight">
             <pre><span class="c1"># controllers/posts_controller.rb</span>
 <span class="k">class</span> <span class="nc">PostsController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
 
   <span class="k">def</span> <span class="nf">index</span>
-    <span class="vi">@posts</span> <span class="o">=</span> <span class="no">Post</span><span class="o">.</span><span class="n">order</span><span class="p">(</span><span class="s1">'published_at desc'</span><span class="p">)</span><span class="o">.</span><span class="n">page</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:page</span><span class="o">]</span><span class="p">)</span><span class="o">.</span><span class="n">per</span><span class="p">(</span><span class="mi">25</span><span class="p">)</span>
+    <span class="vi">@posts</span> <span class="o">=</span> <span class="no">Post</span><span class="o">.</span><span class="n">order</span><span class="p">(</span><span class="ss">published_at</span><span class="p">:</span> <span class="ss">:desc</span><span class="p">)</span><span class="o">.</span><span class="n">page</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:page</span><span class="o">]</span><span class="p">)</span><span class="o">.</span><span class="n">per</span><span class="p">(</span><span class="mi">25</span><span class="p">)</span>
   <span class="k">end</span>
 
 <span class="k">end</span>
 </pre>
           </div>
-          <h4 id="html-templates"><a href="#html-templates">HTML Templates</a></h4>
-          <p>HTML requests will render like they normally do, along with a "View More" link to load the next page. You can use the <code>paginate</code> view helper method provided by your gem, but I want to be explicit about the CSS classes here.</p>
+          <h3 id="views"><a href="#views"></a></h3>
           <div class="highlight">
             <pre><span class="c">&lt;!-- views/posts/index.html.erb --&gt;</span>
 <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"content"</span><span class="nt">&gt;</span>
@@ -118,7 +124,7 @@
 
 <span class="cp">&lt;%</span> <span class="k">unless</span> <span class="vi">@posts</span><span class="o">.</span><span class="n">current_page</span> <span class="o">==</span> <span class="vi">@posts</span><span class="o">.</span><span class="n">total_pages</span> <span class="cp">%&gt;</span>
   <span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"view-more"</span><span class="nt">&gt;</span>
-    <span class="cp">&lt;%=</span> <span class="n">link_to</span><span class="p">(</span><span class="s1">'View More'</span><span class="p">,</span> <span class="n">url_for</span><span class="p">(</span><span class="ss">page</span><span class="p">:</span> <span class="vi">@posts</span><span class="o">.</span><span class="n">current_page</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span> <span class="cp">%&gt;</span>
+    <span class="cp">&lt;%=</span> <span class="n">link_to</span><span class="p">(</span><span class="s1">'View More'</span><span class="p">,</span> <span class="n">url_for</span><span class="p">(</span><span class="ss">page</span><span class="p">:</span> <span class="vi">@posts</span><span class="o">.</span><span class="n">current_page</span> <span class="o">+</span> <span class="mi">1</span><span class="p">),</span> <span class="ss">remote</span><span class="p">:</span> <span class="kp">true</span><span class="p">)</span> <span class="cp">%&gt;</span>
   <span class="nt">&lt;/p&gt;</span>
 <span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span>
 </pre>
@@ -131,8 +137,18 @@
 <span class="cp">&lt;%</span> <span class="k">end</span> <span class="cp">%&gt;</span>
 </pre>
           </div>
-          <h4 id="javascript"><a href="#javascript">Client-Side Javascript</a></h4>
-          <p>Client-side javascript watches for when the scrollbar gets towards the bottom and ajax-requests javascript using the "View More" link's URL along with a failsafe for requesting pages too quickly and allowing the viewer to paginate manually.</p>
+          <div class="highlight">
+            <pre><span class="c1">// views/posts/index.js.erb</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">'#content'</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s2">"&lt;%=j render(partial: 'post', collection: @posts, format: 'html') %&gt;"</span><span class="p">);</span>
+
+<span class="o">&lt;%</span> <span class="k">if</span> <span class="err">@</span><span class="nx">posts</span><span class="p">.</span><span class="nx">current_page</span> <span class="o">==</span> <span class="err">@</span><span class="nx">posts</span><span class="p">.</span><span class="nx">total_pages</span> <span class="o">%&gt;</span>
+  <span class="nx">$</span><span class="p">(</span><span class="s1">'#view-more'</span><span class="p">).</span><span class="nx">remove</span><span class="p">();</span>
+<span class="o">&lt;%</span> <span class="k">else</span> <span class="o">%&gt;</span>
+  <span class="nx">$</span><span class="p">(</span><span class="s1">'#view-more a'</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">'href'</span><span class="p">,</span> <span class="s1">'&lt;%= url_for(page: @posts.current_page + 1) %&gt;'</span><span class="p">);</span>
+<span class="o">&lt;%</span> <span class="nx">end</span> <span class="o">%&gt;</span>
+</pre>
+          </div>
+          <h3 id="javascript"><a href="#javascript"></a></h3>
           <div class="highlight">
             <pre><span class="c1"># assets/javascripts/infinite-scroll.js.coffee</span>
 <span class="nx">$</span> <span class="nf">-&gt;</span>
@@ -182,21 +198,8 @@
     <span class="nx">e</span><span class="p">.</span><span class="nx">preventDefaults</span><span class="p">()</span>
 </pre>
           </div>
-          <h4 id="post-js"><a href="#post-js">Javascript Template</a></h4>
-          <p>The Rails controller remains unchanged, but since the ajax call is requesting javascript it renders <code>index.js.erb</code> instead of <code>index.html.erb</code>. This template appends the new posts to the page and updates the "View More" link URL. When the viewer reaches the last page, it removes the "View More" link and the client-side javascript stops requesting more pages.</p>
-          <div class="highlight">
-            <pre><span class="c1">// views/posts/index.js.erb</span>
-<span class="nx">$</span><span class="p">(</span><span class="s1">'#content'</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s2">"&lt;%=j render(partial: 'post', collection: @posts, format: 'html') %&gt;"</span><span class="p">);</span>
-
-<span class="o">&lt;%</span> <span class="k">if</span> <span class="err">@</span><span class="nx">posts</span><span class="p">.</span><span class="nx">current_page</span> <span class="o">==</span> <span class="err">@</span><span class="nx">posts</span><span class="p">.</span><span class="nx">total_pages</span> <span class="o">%&gt;</span>
-  <span class="nx">$</span><span class="p">(</span><span class="s1">'#view-more'</span><span class="p">).</span><span class="nx">remove</span><span class="p">();</span>
-<span class="o">&lt;%</span> <span class="k">else</span> <span class="o">%&gt;</span>
-  <span class="nx">$</span><span class="p">(</span><span class="s1">'#view-more a'</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">'href'</span><span class="p">,</span> <span class="s1">'&lt;%= url_for(page: @posts.current_page + 1) %&gt;'</span><span class="p">);</span>
-<span class="o">&lt;%</span> <span class="nx">end</span> <span class="o">%&gt;</span>
-</pre>
-          </div>
           <h2 id="wrapup"><a href="#wrapup">Wrap-up</a></h2>
-          <p>Simple right? Rails returning javascript simplifies the client-side code significantly. Your HTML may not be exactly like mine, but the jQuery and Rails code should be straight-forward enough for you to tailor it to your web design.</p><!-- post:content:end -->
+          <p>Simple enough? Rails returning javascript simplifies the client-side code significantly. Your HTML won't be exactly like mine, but the jQuery and Rails code should be straight-forward enough for you to tailor it to your own infinite scrolling page.</p><!-- post:content:end -->
         </div>
       </div>
     </div>
@@ -223,5 +226,7 @@
       </div>
     </div>
   </div>
+  <script src="/assets/site-1e22bb3074710f189d8b5da964539ecb.js">
+  </script>
 </body>
 </html>

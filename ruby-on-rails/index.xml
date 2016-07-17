@@ -9,7 +9,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/loading-buttons.html</id>
     <published>2016-07-14T16:32:41-04:00</published>
-    <updated>2016-07-14T16:38:39-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/loading-buttons.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Loading Buttons</title>
     <content>Converting action buttons into loading buttons is a common way for AJAX applications indicate that it's waiting on the server to verify an action and respond.</content>
@@ -21,7 +21,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/aws-s3-browser.html</id>
     <published>2015-09-19T14:12:25-04:00</published>
-    <updated>2016-02-21T14:20:19-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/aws-s3-browser.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Browsing Files &amp; Directories in S3</title>
     <content>Amazon's S3 makes storing files easy but viewing directories isn't intuitive. Let me explain how you can emulate a file structure using Plain-Old-Ruby-Objects.</content>
@@ -33,7 +33,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/progress-bars.html</id>
     <published>2015-09-09T20:31:58-04:00</published>
-    <updated>2016-07-14T16:32:41-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/progress-bars.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Progress Bars</title>
     <content>How to create a progress bar using Ruby on Rails, AJAX, and Twitter Bootstrap.</content>
@@ -45,7 +45,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html</id>
     <published>2015-05-18T15:10:02-04:00</published>
-    <updated>2016-03-13T15:27:45-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>f.label and errors.full_messages</title>
     <content>Why you should never use the explicit "content" parameter of label_tag or the form builder's label method.</content>
@@ -57,7 +57,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/time-zones-and-datetime-select.html</id>
     <published>2015-05-12T13:51:31-04:00</published>
-    <updated>2016-03-13T15:27:45-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/time-zones-and-datetime-select.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Time Zones and datetime_select</title>
     <content>A simple fix for using datetime_select and time_zone_select together.</content>
@@ -69,7 +69,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/views-mailers-directory.html</id>
     <published>2015-03-04T13:33:58-05:00</published>
-    <updated>2016-03-13T15:27:45-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/views-mailers-directory.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>views/mailers directory</title>
     <content>Avoid cluttering up app/views by moving mailer directories underneath a single parent.</content>
@@ -81,7 +81,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/mailing-lists/index.html</id>
     <published>2016-07-14T14:49:04-04:00</published>
-    <updated>2016-07-14T16:32:41-04:00</updated>
+    <updated>2016-07-14T14:49:04-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/mailing-lists/index.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Mailing Lists</title>
     <content>Mailing lists remain an effective way for groups to communicate. We'll explore how to implement them in your Rails application to improve its overall user-experience.</content>
@@ -123,7 +123,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html</id>
     <published>2015-05-18T14:45:04-04:00</published>
-    <updated>2016-03-13T15:27:45-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Beware ActiveRecord callbacks</title>
     <content>ActiveRecord is a fantastically well-made ORM that makes working with databases a breeze, but one feature in the callback structure is incredibly bug-prone.</content>
@@ -135,7 +135,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html</id>
     <published>2014-06-18T12:53:38-04:00</published>
-    <updated>2016-07-14T16:32:41-04:00</updated>
+    <updated>2016-07-17T14:36:55-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Infinite Scrolling with AJAX</title>
     <content>Ruby on Rails and jQuery team up to allow your visitors to scroll through all your content without initially loading them all.</content>
@@ -147,7 +147,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html</id>
     <published>2014-05-21T19:12:31-04:00</published>
-    <updated>2016-02-21T14:20:19-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Finding Your Most Active Users</title>
     <content>Google Analytics is normally used to track a website's visitors and pageviews, but it can also track specific users, which can be invaluable information as you develop your customer base. Who is the most active? What are they using? Whose usage is fading?</content>
@@ -159,7 +159,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html</id>
     <published>2014-04-16T16:22:32-04:00</published>
-    <updated>2016-07-14T16:32:41-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Ajax Toggle Buttons</title>
     <content>How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it.</content>

@@ -9,7 +9,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/loading-buttons.html</id>
     <published>2016-07-14T16:32:41-04:00</published>
-    <updated>2016-07-14T16:38:39-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/loading-buttons.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Loading Buttons</title>
     <content>Converting action buttons into loading buttons is a common way for AJAX applications indicate that it's waiting on the server to verify an action and respond.</content>
@@ -21,7 +21,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/followed-people.html</id>
     <published>2016-05-01T20:43:55-04:00</published>
-    <updated>2016-05-01T20:44:15-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/followed-people.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Followed Actors &amp; Directors</title>
     <content>People who consistently help make movies they're involved in worth watching or just people I like watching in movies.</content>
@@ -33,7 +33,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/tv-show-ringtones.html</id>
     <published>2016-02-17T18:56:48-05:00</published>
-    <updated>2016-05-15T12:59:51-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/tv-show-ringtones.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>TV Shows = Great Ringtones</title>
     <content>List of songs from television shows that make great ringtones.</content>
@@ -45,7 +45,7 @@
   <entry>
     <id>http://www.topdan.com/projects/private-photo-albums.html</id>
     <published>2015-10-02T17:07:16-04:00</published>
-    <updated>2016-02-21T14:16:05-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/private-photo-albums.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Private Photo Albums</title>
     <content>Share and organize pictures with my family while balancing privacy, ownership, simplicity, and convenience.</content>
@@ -57,7 +57,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/aws-s3-browser.html</id>
     <published>2015-09-19T14:12:25-04:00</published>
-    <updated>2016-02-21T14:20:19-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/aws-s3-browser.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Browsing Files &amp; Directories in S3</title>
     <content>Amazon's S3 makes storing files easy but viewing directories isn't intuitive. Let me explain how you can emulate a file structure using Plain-Old-Ruby-Objects.</content>
@@ -69,7 +69,7 @@
   <entry>
     <id>http://www.topdan.com/sports/nfl-salaries-by-college/index.html</id>
     <published>2015-01-18T15:29:47-05:00</published>
-    <updated>2016-02-21T14:16:05-05:00</updated>
+    <updated>2016-02-21T13:24:32-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/index.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>NFL Salaries by College</title>
     <content>Ranking each NCAA football conference and school on how much their former players make in the NFL.</content>
@@ -351,7 +351,7 @@
   <entry>
     <id>http://www.topdan.com/sports/ncaaf-vegas-bias/index.html</id>
     <published>2015-09-09T11:38:51-04:00</published>
-    <updated>2016-02-21T14:16:05-05:00</updated>
+    <updated>2016-02-21T13:24:32-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/ncaaf-vegas-bias/index.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>NCAAF Vegas Bias</title>
     <content>Determining which college football programs are under or over valued against the spreads, moneylines, and over/unders.</content>
@@ -383,7 +383,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/progress-bars.html</id>
     <published>2015-09-09T20:31:58-04:00</published>
-    <updated>2016-07-14T16:32:41-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/progress-bars.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Progress Bars</title>
     <content>How to create a progress bar using Ruby on Rails, AJAX, and Twitter Bootstrap.</content>
@@ -395,7 +395,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/gilmore-girl-alumni.html</id>
     <published>2015-08-28T18:51:56-04:00</published>
-    <updated>2016-02-21T14:40:38-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/gilmore-girl-alumni.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Gilmore Girls Alumni</title>
     <content>A look at the cast members that gained significant fame after Gilmore Girls.</content>
@@ -407,7 +407,7 @@
   <entry>
     <id>http://www.topdan.com/living/more-representative-democracy.html</id>
     <published>2016-02-01T10:52:05-05:00</published>
-    <updated>2016-02-20T15:32:09-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/living/more-representative-democracy.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>A More Representative Democracy</title>
     <content>An outline for how a simple website could solve many of the problems with our current legislative systems.</content>
@@ -419,7 +419,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html</id>
     <published>2015-05-18T15:10:02-04:00</published>
-    <updated>2016-03-13T15:27:45-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/form-builder-label-and-full-error-messages.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>f.label and errors.full_messages</title>
     <content>Why you should never use the explicit "content" parameter of label_tag or the form builder's label method.</content>
@@ -431,7 +431,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/time-zones-and-datetime-select.html</id>
     <published>2015-05-12T13:51:31-04:00</published>
-    <updated>2016-03-13T15:27:45-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/time-zones-and-datetime-select.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Time Zones and datetime_select</title>
     <content>A simple fix for using datetime_select and time_zone_select together.</content>
@@ -443,7 +443,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/views-mailers-directory.html</id>
     <published>2015-03-04T13:33:58-05:00</published>
-    <updated>2016-03-13T15:27:45-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/views-mailers-directory.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>views/mailers directory</title>
     <content>Avoid cluttering up app/views by moving mailer directories underneath a single parent.</content>
@@ -455,7 +455,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/mailing-lists/index.html</id>
     <published>2016-07-14T14:49:04-04:00</published>
-    <updated>2016-07-14T16:32:41-04:00</updated>
+    <updated>2016-07-14T14:49:04-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/mailing-lists/index.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Mailing Lists</title>
     <content>Mailing lists remain an effective way for groups to communicate. We'll explore how to implement them in your Rails application to improve its overall user-experience.</content>
@@ -497,7 +497,7 @@
   <entry>
     <id>http://www.topdan.com/living/learning-to-draw.html</id>
     <published>2015-01-09T16:01:57-05:00</published>
-    <updated>2016-02-20T15:10:15-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/living/learning-to-draw.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Learning to Draw</title>
     <content>After college I found myself with more free time than I needed, so I decided to learn to draw. Here's how I went about it along with a small gallery.</content>
@@ -509,7 +509,7 @@
   <entry>
     <id>http://www.topdan.com/living/the-communication-age.html</id>
     <published>2014-11-04T15:13:29-05:00</published>
-    <updated>2016-02-20T15:10:15-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/living/the-communication-age.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>The Communication Age</title>
     <content>The explosion of the Internet and mobile devices shaped a new age where people across the globe are always connected and always communicating, irreversibly changing the way we meet, work, govern, and socialize.</content>
@@ -521,7 +521,7 @@
   <entry>
     <id>http://www.topdan.com/projects/remifi-remote-controlled-browser.html</id>
     <published>2014-10-31T15:34:25-04:00</published>
-    <updated>2016-02-21T14:16:05-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/remifi-remote-controlled-browser.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Firefox Remote Control</title>
     <content>Controlling your TV with your iPhone via OSX, Firefox, and an HDMI cable</content>
@@ -533,7 +533,7 @@
   <entry>
     <id>http://www.topdan.com/projects/now-streaming-email.html</id>
     <published>2014-10-30T15:50:53-04:00</published>
-    <updated>2016-02-21T13:52:50-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/now-streaming-email.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>"Now Streaming" Email</title>
     <content>Find out what's now streaming online with a bi-weekly email digest.</content>
@@ -545,7 +545,7 @@
   <entry>
     <id>http://www.topdan.com/projects/fantasy-sportsbook.html</id>
     <published>2014-07-27T22:12:03-04:00</published>
-    <updated>2016-02-21T14:16:05-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/fantasy-sportsbook.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Fantasy Sportsbook</title>
     <content>Creating a new type of game by combining my favorite elements of sportsbooks and fantasy sports.</content>
@@ -557,7 +557,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html</id>
     <published>2015-05-18T14:45:04-04:00</published>
-    <updated>2016-03-13T15:27:45-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Beware ActiveRecord callbacks</title>
     <content>ActiveRecord is a fantastically well-made ORM that makes working with databases a breeze, but one feature in the callback structure is incredibly bug-prone.</content>
@@ -569,7 +569,7 @@
   <entry>
     <id>http://www.topdan.com/living/past-present-and-future-of-computers.html</id>
     <published>2015-02-25T14:45:19-05:00</published>
-    <updated>2016-02-20T15:10:15-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/living/past-present-and-future-of-computers.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>The Past, Present, and Future of Computers</title>
     <content>Computers have made an undeniably permanent mark on the world, but their success wasn't gained overnight. They slowly improved what they could do, leading to advancements that led to new advancements. Let's look at how they progressed to what they are today and try to predict what they might do in the future.</content>
@@ -581,7 +581,7 @@
   <entry>
     <id>http://www.topdan.com/sports/soccer-is-aggravating.html</id>
     <published>2014-06-22T15:34:14-04:00</published>
-    <updated>2016-02-21T14:16:05-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/soccer-is-aggravating.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Soccer is Aggravating</title>
     <content>Soccer is a world-wide phenomenon, but here's why I find it really hard to watch.</content>
@@ -593,7 +593,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html</id>
     <published>2014-06-18T12:53:38-04:00</published>
-    <updated>2016-07-14T16:32:41-04:00</updated>
+    <updated>2016-07-17T14:36:55-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/simple-infinite-scrolling.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Infinite Scrolling with AJAX</title>
     <content>Ruby on Rails and jQuery team up to allow your visitors to scroll through all your content without initially loading them all.</content>
@@ -605,7 +605,7 @@
   <entry>
     <id>http://www.topdan.com/sports/why-the-thrashers-left-atlanta.html</id>
     <published>2014-06-01T18:00:03-04:00</published>
-    <updated>2016-04-04T15:26:01-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/why-the-thrashers-left-atlanta.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Why the Thrashers left Atlanta</title>
     <content>Atlanta has become a hockey punchline. We've lost two NHL franchises: the Flames in 1980 and the Thrashers in 2011. Here's why the Thrashers leaving had more to do with America Online than with the city or its hockey fans.</content>
@@ -617,7 +617,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html</id>
     <published>2014-05-21T19:12:31-04:00</published>
-    <updated>2016-02-21T14:20:19-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/finding-your-most-active-users-with-google-analytics.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Finding Your Most Active Users</title>
     <content>Google Analytics is normally used to track a website's visitors and pageviews, but it can also track specific users, which can be invaluable information as you develop your customer base. Who is the most active? What are they using? Whose usage is fading?</content>
@@ -629,7 +629,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html</id>
     <published>2014-04-16T16:22:32-04:00</published>
-    <updated>2016-07-14T16:32:41-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/ajax-toggle-buttons.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Ajax Toggle Buttons</title>
     <content>How to create toggle buttons using Ruby on Rails, ajax, and unobtrusive javascript. Straight-forward and boring, just how I like it.</content>
@@ -641,7 +641,7 @@
   <entry>
     <id>http://www.topdan.com/projects/fixing-craigslist.html</id>
     <published>2014-04-15T18:41:33-04:00</published>
-    <updated>2016-02-21T14:16:05-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/projects/fixing-craigslist.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Fixing Craigslist</title>
     <content>Fixing Craigslist search by filtering posts, aggregating multiple searches, grouping together and emailing important posts.</content>
@@ -653,7 +653,7 @@
   <entry>
     <id>http://www.topdan.com/sports/college-football-conference-records/index.html</id>
     <published>2015-01-22T17:11:19-05:00</published>
-    <updated>2016-02-21T14:16:05-05:00</updated>
+    <updated>2016-02-21T13:24:32-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/college-football-conference-records/index.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>NCAAF Interconference Records</title>
     <content>Complete list of inter-conference games since 1998 (the BCS and playoff eras). Browse the conferences, teams, and years to decide whether there's enough evidence for a "better conference".</content>
@@ -915,7 +915,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/music-videos.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2016-07-13T03:52:05-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/music-videos.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Enjoyable Music Videos</title>
     <content>List of music videos that I enjoyed over the years and don't want to forget for some reason. Maybe you'll find a couple to enjoy?</content>
@@ -927,7 +927,7 @@
   <entry>
     <id>http://www.topdan.com/sports/sec-2012-season-review.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2016-02-21T13:24:32-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/sec-2012-season-review.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>SEC 2012: Season Review</title>
     <content>With the 2012 SEC regular season now complete, let's explore how the two-team expansion gave scheduling a major role in each team's success or failure.</content>
@@ -938,8 +938,8 @@
   </entry>
   <entry>
     <id>http://www.topdan.com/sports/dont-hate-the-sec.html</id>
-    <published>2014-08-19T17:10:01-04:00</published>
-    <updated>2016-04-04T15:26:01-04:00</updated>
+    <published>2014-08-23T16:07:14-04:00</published>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/dont-hate-the-sec.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Don't hate the SEC</title>
     <content>If you're a college football fan from outside the SEC, you may think the SEC is ruining college football, but let me tell you how it could be the opposite.</content>
@@ -950,8 +950,8 @@
   </entry>
   <entry>
     <id>http://www.topdan.com/entertainment/movie-recommendations.html</id>
-    <published>2014-08-19T17:10:01-04:00</published>
-    <updated>2016-07-07T03:12:06-04:00</updated>
+    <published>2014-08-27T18:57:17-04:00</published>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/movie-recommendations.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Movie Recommendations</title>
     <content>Movies that I enjoyed enough that I think you should look into them. They tend to be unique, covering perspectives and topics I've never seen on screen before.</content>
@@ -963,7 +963,7 @@
   <entry>
     <id>http://www.topdan.com/sports/tim-tebow-is-better-than-you.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2016-02-21T13:24:32-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/tim-tebow-is-better-than-you.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Tim Tebow is better than you</title>
     <content>I'm a Broncos fan and people can't stop talking to me about Tim Tebow. Now that his fate as a Bronco is sealed, here's my opinion.</content>
@@ -975,7 +975,7 @@
   <entry>
     <id>http://www.topdan.com/living/smart-is-overrated.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2016-02-20T15:10:15-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/living/smart-is-overrated.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Smart is Overrated</title>
     <content>Being smart is better than being stupid, but smart shouldn't be the first word you want applied to you. How did smart get so important? How can it work against you? What other traits are more important?</content>
@@ -987,7 +987,7 @@
   <entry>
     <id>http://www.topdan.com/entertainment/tv-recommendations.html</id>
     <published>2016-03-13T14:41:53-04:00</published>
-    <updated>2016-07-13T03:12:07-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/entertainment/tv-recommendations.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>TV Recommendations</title>
     <content>TV shows I enjoy watching. You may or may not agree, but I suggest you look into some.</content>
@@ -999,7 +999,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/working-with-web-apis.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2016-07-14T14:31:51-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/working-with-web-apis.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>The Tricky World of Using Web APIs</title>
     <content>When your application interacts with the web a lot can go wrong. Working with Ruby on Rails over the last five years, I've seen a lot of them first hand, and with this article I hope to share some of that experience and help you write more reliable, efficient and friendly code.</content>
@@ -1011,7 +1011,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/param-accessible.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2016-07-14T14:31:51-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/param-accessible.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Protecting Yourself from Malicious params</title>
     <content>The issues and solutions to making your application's handling of user parameters secure by default, before Ruby on Rails offered an out-of-the-box solution..</content>
@@ -1023,7 +1023,7 @@
   <entry>
     <id>http://www.topdan.com/living/speaking-outside-yourself.html</id>
     <published>2015-02-25T14:45:19-05:00</published>
-    <updated>2015-02-25T22:32:58-05:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/living/speaking-outside-yourself.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Speaking outside yourself</title>
     <content>Examples of how people commonly avoid personal responsibility in discussions by implying facts or universal truths.</content>
@@ -1035,7 +1035,7 @@
   <entry>
     <id>http://www.topdan.com/living/get-inspired.html</id>
     <published>2013-10-22T17:42:25-04:00</published>
-    <updated>2016-04-04T15:26:01-04:00</updated>
+    <updated>2016-07-17T14:34:37-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/living/get-inspired.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Get Inspired</title>
     <content>A collection of videos, songs and articles with so much heart and insight they affect me every time I watch. Maybe they'll do the same for you.</content>

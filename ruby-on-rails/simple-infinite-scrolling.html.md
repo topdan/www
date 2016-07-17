@@ -1,52 +1,67 @@
 * [Introduction](#introduction)
+* [Demo](#demo)
 * [How it Works](#how-it-works)
-  * [Gemfile](#gemfile)
-  * [Controller](#controller)
-  * [HTML Templates](#html-templates)
-  * [Client-Side Javascript](#javascript)
-  * [Javascript Template](#post-js)
+* [The Code](#the-code)
 * [Wrap-up](#wrapup)
 
 ## [Introduction](#introduction)
 
 Infinite scrolling appends more content to the end of the page before the viewer gets to it, so they can just keep scrolling unabated and the application doesn't need to initially load a bunch of records only a small percent of viewers will ever scroll down to.
 
-## [How it Works](#how-it-works)
+## [Demo](#demo)
 
 ```raw
-<p class="alert alert-info">
-  <strong>Summary: </strong> Rails renders the HTML like always, but there's a javascript file that watches the scrollbar and fires off an ajax request that returns some javascript that appends new content.
+<p>
+  The scrollable pane of movie posters automatically adds more rows of posters as you approach the bottom of the page.
 </p>
+
+<div id="demo-infinite-scrolling" class="posters b-ccc pt-1e pb-1e pl-1e pr-1e" data-movies-url="/entertainment/movie-recommendations.json" data-per-page="16" data-per-row="4" data-threshold="1000">
+  <% Post.find('movie_recommendations').data[0..15].in_groups_of(4).each do |row| %>
+    <div class="page-row">
+      <% row.compact.each do |movie| %>
+        <%= image_tag movie.poster_url %>
+      <% end %>
+    </div>
+  <% end %>
+
+  <p><a href="#" data-action="load-next-page"><span class="fa fa-refresh fa-spin">&nbsp;</span> View next page <span class="fa fa-refresh fa-spin">&nbsp;</span></a></p>
+</div>
+
+<p class="fs-12 c-ccc center">This webpage is not hosted by Rails, so the above UX is just a simulation.</p>
 ```
 
-### [Gemfile](#gemfile)
+### [How it Works](#how-it-works)
 
-ActiveRecord has [a lot of pagination gems](https://www.ruby-toolbox.com/categories/pagination) that groups your records into pages.
+* Rails renders [the first page and a "View More" link](#views) during the initial HTML request.
+* The "View More" link is a UI fallback but also lets us know the URL for the next page.
+* [Javascript](#javascript) watches the page's scrollbar to break a threshold.
+* An AJAX request is issued when either the threshold is broken or the user clicks the "View More" link.
+* Rails returns javascript that inserts the next page and points the "View More" link to the next unloaded page.
+
+### [The Code](#the-code)
+
+### [](#gemfile)
 
 ```ruby
 # Gemfile
 
 gem 'kaminari'
-# gem 'will_paginate'
+# gem 'will_paginate' # another option
 ```
 
-#### [Controller](#controller)
-Your controller queries the page param or the first page if not provided.
-
+### [](#controller)
 ```ruby
 # controllers/posts_controller.rb
 class PostsController < ApplicationController
 
   def index
-    @posts = Post.order('published_at desc').page(params[:page]).per(25)
+    @posts = Post.order(published_at: :desc).page(params[:page]).per(25)
   end
 
 end
 ```
 
-#### [HTML Templates](#html-templates)
-HTML requests will render like they normally do, along with a "View More" link to load the next page. You can use the `paginate` view helper method provided by your gem, but I want to be explicit about the CSS classes here.
-
+### [](#views)
 ```
 <!-- views/posts/index.html.erb -->
 <div id="content">
@@ -55,7 +70,7 @@ HTML requests will render like they normally do, along with a "View More" link t
 
 <% unless @posts.current_page == @posts.total_pages %>
   <p id="view-more">
-    <%= link_to('View More', url_for(page: @posts.current_page + 1)) %>
+    <%= link_to('View More', url_for(page: @posts.current_page + 1), remote: true) %>
   </p>
 <% end %>
 ```
@@ -68,10 +83,18 @@ HTML requests will render like they normally do, along with a "View More" link t
 <% end %>
 ```
 
-#### [Client-Side Javascript](#javascript)
+```javascript
+// views/posts/index.js.erb
+$('#content').append("<%=j render(partial: 'post', collection: @posts, format: 'html') %>");
 
-Client-side javascript watches for when the scrollbar gets towards the bottom and ajax-requests javascript using the "View More" link's URL along with a failsafe for requesting pages too quickly and allowing the viewer to paginate manually.
+<% if @posts.current_page == @posts.total_pages %>
+  $('#view-more').remove();
+<% else %>
+  $('#view-more a').attr('href', '<%= url_for(page: @posts.current_page + 1) %>');
+<% end %>
+```
 
+### [](#javascript)
 ```coffee
 # assets/javascripts/infinite-scroll.js.coffee
 $ ->
@@ -121,22 +144,6 @@ $ ->
     e.preventDefaults()
 ```
 
-#### [Javascript Template](#post-js)
-
-The Rails controller remains unchanged, but since the ajax call is requesting javascript it renders `index.js.erb` instead of `index.html.erb`. This template appends the new posts to the page and updates the "View More" link URL. When the viewer reaches the last page, it removes the "View More" link and the client-side javascript stops requesting more pages.
-
-```javascript
-// views/posts/index.js.erb
-$('#content').append("<%=j render(partial: 'post', collection: @posts, format: 'html') %>");
-
-<% if @posts.current_page == @posts.total_pages %>
-  $('#view-more').remove();
-<% else %>
-  $('#view-more a').attr('href', '<%= url_for(page: @posts.current_page + 1) %>');
-<% end %>
-```
-
-
 ## [Wrap-up](#wrapup)
 
-Simple right? Rails returning javascript simplifies the client-side code significantly. Your HTML may not be exactly like mine, but the jQuery and Rails code should be straight-forward enough for you to tailor it to your web design.
+Simple enough? Rails returning javascript simplifies the client-side code significantly. Your HTML won't be exactly like mine, but the jQuery and Rails code should be straight-forward enough for you to tailor it to your own infinite scrolling page.
