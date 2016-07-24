@@ -9,6 +9,17 @@
   "data_type": "Entertainment::Movie",
   "data": [
     {
+      "title": "Bo Burnham: Make Happy",
+      "year": 2016,
+      "release_date": null,
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20522/thumb_bo-burnham-make-happy-2016-0a323d00ed6eaeea09ee2812605da8a4.JPG",
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80106124"
+      },
+      "references": {
+      }
+    },
+    {
       "title": "The Nice Guys",
       "year": 2016,
       "release_date": "2016-05-20",
@@ -1413,6 +1424,20 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt1659337/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/the_perks_of_being_a_wallflower/"
+      }
+    },
+    {
+      "title": "Wreck-It Ralph",
+      "year": 2012,
+      "release_date": "2012-11-02",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13972/thumb_wreck-it-ralph-2012-a6ab6a4fc97a381fd573c299edd4ad85.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00BP4Z8XY",
+        "itunes": "https://itunes.apple.com/us/movie/wreck-it-ralph/id577679650"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1772341/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/wreck_it_ralph/"
       }
     },
     {
@@ -3907,6 +3932,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-07-17 14:34:37 -0400"
+  "updated_at": "2016-07-24 03:12:06 -0400"
 }
 
