@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minimum Viable Test Suite - topdan.com</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Ensure your test suite doesn't have any important holes in coverage by enforcing a simple rule.">
+  <meta name="author" content="Dan Cunning">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@itopdan">
+  <meta name="twitter:title" content="Minimum Viable Test Suite">
+  <meta name="twitter:description" content="Ensure your test suite doesn't have any important holes in coverage by enforcing a simple rule.">
+  <meta name="twitter:url" content="http://www.topdan.com/ruby-on-rails/minimum-viable-test-suite.html">
+  <meta name="og:locale" content="en_US">
+  <meta name="og:type" content="article">
+  <meta name="og:url" content="http://www.topdan.com/ruby-on-rails/minimum-viable-test-suite.html">
+  <meta name="og:title" content="Minimum Viable Test Suite">
+  <meta name="og:description" content="Ensure your test suite doesn't have any important holes in coverage by enforcing a simple rule.">
+  <link rel="shortcut icon" href="/assets/favicon-e45cdd6cc07e8858a985e6014e38a603.png">
+  <link rel="stylesheet" media="all" href="/assets/site-d30c732907c1f2982374b8bab9355d72.css"><!--[if lt IE 9]><script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+
+  <script type="text/javascript">
+  if (!document.cookie || document.cookie.indexOf('tracking_off') == -1) {
+    var _gaq = _gaq || [];
+
+    _gaq.push(['_setAccount', 'UA-12957077-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  }
+  </script>
+</head>
+<body id="minimum-viable-test-suite">
+  <div class="container bg-black full-width">
+    <div class="row navigation">
+      <a id="top"></a> <a href="/ruby-on-rails/loading-buttons.html" class="previous"><span class="fa fa-arrow-left">&nbsp;</span> <span class="desktop">Loading Buttons</span><span class="mobile">Previous</span></a> <a href="/ruby-on-rails/ajax-toggle-buttons.html" class="next"><span class="desktop">Ajax Toggle Buttons</span><span class="mobile">Next</span> <span class="fa fa-arrow-right">&nbsp;</span></a>
+      <p><a href="/"><span class="fa fa-home">&nbsp;</span></a> &nbsp;»&nbsp;<span class="title desktop"><a href="/ruby-on-rails/index.html">Ruby on Rails</a></span><span class="mobile"><a href="/ruby-on-rails/index.html"><span class="fa fa-folder-open">&nbsp;</span></a></span></p>
+    </div>
+    <div class="row bg-white">
+      <div class="col-md-12">
+        <div class="width-640 ml-auto mr-auto">
+          <p class="mt-05e mb-15e ta-right c-ccc">Published by Dan on Jul 24, 2016</p>
+          <h1 class="center of-yh mb-0"><a href="/ruby-on-rails/minimum-viable-test-suite.html">Minimum Viable Test Suite</a></h1>
+          <p class="mb-0 center">Filed under <a href="/ruby-on-rails/tips.html">Tips</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-white">
+      <div class="col-md-12">
+        <div class="width-640 ml-auto mr-auto post">
+          <!-- post:content:start -->
+          <p>A <strong>minimum viable test suite</strong> fails when important holes in its coverage are identified, and with Rails applications the most important holes are untested routes. Here's a quick script to ensure every route is hit during a full run of <code>rspec</code>:</p>
+          <div class="highlight">
+            <pre><span class="c1"># spec/support/minimum_viable_test_suite.rb</span>
+
+<span class="c1"># singleton class that tracks hit routes</span>
+<span class="k">class</span> <span class="nc">ControllerCoverageSupport</span>
+  <span class="kp">attr_reader</span> <span class="ss">:hits</span>
+
+  <span class="k">def</span> <span class="nf">initialize</span>
+    <span class="vi">@hits</span> <span class="o">=</span> <span class="no">Set</span><span class="o">.</span><span class="n">new</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">hit!</span><span class="p">(</span><span class="n">controller</span><span class="p">,</span> <span class="n">action</span><span class="p">)</span>
+    <span class="vi">@hits</span> <span class="o">&lt;&lt;</span> <span class="s2">"</span><span class="si">#{</span><span class="n">controller</span><span class="si">}</span><span class="s2">#</span><span class="si">#{</span><span class="n">action</span><span class="si">}</span><span class="s2">"</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">endpoints</span>
+    <span class="vi">@endpoints</span> <span class="o">||=</span> <span class="k">begin</span>
+      <span class="n">set</span> <span class="o">=</span> <span class="no">Set</span><span class="o">.</span><span class="n">new</span>
+      <span class="no">Rails</span><span class="o">.</span><span class="n">application</span><span class="o">.</span><span class="n">routes</span><span class="o">.</span><span class="n">routes</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">route</span><span class="o">|</span>
+        <span class="n">controller</span> <span class="o">=</span> <span class="n">route</span><span class="o">.</span><span class="n">defaults</span><span class="o">[</span><span class="ss">:controller</span><span class="o">]</span>
+        <span class="n">action</span> <span class="o">=</span> <span class="n">route</span><span class="o">.</span><span class="n">defaults</span><span class="o">[</span><span class="ss">:action</span><span class="o">]</span>
+        <span class="k">next</span> <span class="k">unless</span> <span class="n">controller</span> <span class="o">&amp;&</span> <span class="n">action</span>
+
+        <span class="n">set</span> <span class="o">&lt;&lt;</span> <span class="s2">"</span><span class="si">#{</span><span class="n">controller</span><span class="si">}</span><span class="s2">#</span><span class="si">#{</span><span class="n">action</span><span class="si">}</span><span class="s2">"</span>
+      <span class="k">end</span>
+      <span class="n">set</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">misses</span>
+    <span class="n">endpoints</span> <span class="o">-</span> <span class="n">hits</span>
+  <span class="k">end</span>
+
+  <span class="k">class</span> <span class="o">&lt;&lt;</span> <span class="nb">self</span>
+    <span class="k">def</span> <span class="nf">instance</span>
+      <span class="vi">@instance</span> <span class="o">||=</span> <span class="nb">self</span><span class="o">.</span><span class="n">new</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="c1"># listen to action controller</span>
+<span class="no">ActiveSupport</span><span class="o">::</span><span class="no">Notifications</span><span class="o">.</span><span class="n">subscribe</span> <span class="sr">/process_action.action_controller/</span> <span class="k">do</span> <span class="o">|*</span><span class="n">args</span><span class="o">|</span>
+  <span class="n">event</span> <span class="o">=</span> <span class="no">ActiveSupport</span><span class="o">::</span><span class="no">Notifications</span><span class="o">::</span><span class="no">Event</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+  <span class="n">controller</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">payload</span><span class="o">[</span><span class="ss">:controller</span><span class="o">]</span>
+  <span class="n">controller</span> <span class="o">=</span> <span class="n">controller</span><span class="o">[</span><span class="mi">0</span> <span class="o">.</span><span class="n">.</span> <span class="o">-</span><span class="s1">'Controller'</span><span class="o">.</span><span class="n">length</span> <span class="o">-</span> <span class="mi">1</span><span class="o">].</span><span class="n">underscore</span>
+  <span class="n">action</span> <span class="o">=</span> <span class="n">event</span><span class="o">.</span><span class="n">payload</span><span class="o">[</span><span class="ss">:action</span><span class="o">]</span>
+
+  <span class="no">ControllerCoverageSupport</span><span class="o">.</span><span class="n">instance</span><span class="o">.</span><span class="n">hit!</span><span class="p">(</span><span class="n">controller</span><span class="p">,</span> <span class="n">action</span><span class="p">)</span>
+<span class="k">end</span>
+
+<span class="c1"># fail the test suite if you ran the entire test suite and missed any routes</span>
+<span class="nb">at_exit</span> <span class="k">do</span>
+  <span class="n">coverage</span> <span class="o">=</span> <span class="no">ControllerCoverageSupport</span><span class="o">.</span><span class="n">instance</span>
+
+  <span class="c1"># ARGV is empty when running `rspec` as opposed to `rspec ./spec/my_spec.rb`</span>
+  <span class="k">if</span> <span class="no">ARGV</span><span class="o">.</span><span class="n">empty?</span> <span class="o">&amp;&</span> <span class="n">coverage</span><span class="o">.</span><span class="n">misses</span><span class="o">.</span><span class="n">any?</span>
+    <span class="nb">puts</span> <span class="s2">"Only </span><span class="si">#{</span><span class="n">coverage</span><span class="o">.</span><span class="n">hits</span><span class="o">.</span><span class="n">count</span><span class="si">}</span><span class="s2"> of </span><span class="si">#{</span><span class="n">coverage</span><span class="o">.</span><span class="n">endpoints</span><span class="o">.</span><span class="n">count</span><span class="si">}</span><span class="s2"> endpoints were hit"</span>
+    <span class="nb">abort</span> <span class="s2">"  Missed controller action(s): </span><span class="si">#{</span><span class="no">ControllerCoverageSupport</span><span class="o">.</span><span class="n">instance</span><span class="o">.</span><span class="n">misses</span><span class="o">.</span><span class="n">to_a</span><span class="o">.</span><span class="n">sort</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">', '</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</pre>
+          </div>
+          <p>Not the prettiest code in the world, but it gets the job done: <strong>rspec will now fail when any routes are missed</strong>. Of course, it doesn't ensure the routes are exhaustively tested. Tools like <a href="https://github.com/colszowka/simplecov">simplecov</a> can help that but automating failure there is tricky:</p>
+          <ul>
+            <li>
+              <a href="https://github.com/colszowka/simplecov/issues/373">Placing a minimum coverage threshold</a> just sets a ticking timebomb waiting for one unlucky commit
+            </li>
+            <li>
+              <a href="https://github.com/colszowka/simplecov/issues/11">Ensuring commits don't decrease the code coverage</a> triggers when removing well-covered code
+            </li>
+          </ul>
+          <p>Convincing your team to enforce <em>a minimum viable test suite</em> should be easy: it's hard to argue testing an endpoint is unnecessary. Here are a few more rules I could see enforcing:</p>
+          <ul>
+            <li>Every <code>ActiveJob::Base</code> subclass is performed</li>
+            <li>Every <code>ActiveRecord::Base</code> subclass is created, updated, and destroyed</li>
+            <li>Every <code>app/views</code> template is rendered</li>
+          </ul>
+          <div class="alert alert-success">
+            <p>Let me know at <a href="mailto:dan@topdan.com">dan@topdan.com</a> what you think of minimum viable test suites:</p>
+            <ul class="mt-1e">
+              <li>Are there existing solutions?</li>
+              <li>What other rules would you enforce?</li>
+              <li>Are you interested in a cleaner implementation published as a gem?</li>
+            </ul>
+          </div><!-- post:content:end -->
+        </div>
+      </div>
+    </div>
+    <div class="row navigation bb-ccc">
+      <a href="/ruby-on-rails/loading-buttons.html" class="previous"><span class="fa fa-arrow-left">&nbsp;</span> <span class="desktop">Loading Buttons</span><span class="mobile">Previous</span></a> <a href="/ruby-on-rails/ajax-toggle-buttons.html" class="next"><span class="desktop">Ajax Toggle Buttons</span><span class="mobile">Next</span> <span class="fa fa-arrow-right">&nbsp;</span></a>
+      <p><a href="/"><span class="fa fa-home">&nbsp;</span></a> &nbsp;»&nbsp;<span class="title desktop"><a href="/ruby-on-rails/index.html">Ruby on Rails</a></span><span class="mobile"><a href="/ruby-on-rails/index.html"><span class="fa fa-folder-open">&nbsp;</span></a></span></p>
+    </div>
+    <div class="row introduction pb-2e bb-ccc mb-1e">
+      <div class="col-md-6 mt-2e center">
+        <h1 class="mt-0"><a title="Dan Cunning" class="fs-45 fw-normal shadow-silver" href="/">Dan Cunning</a></h1>
+        <p class="reference mt-05e"><a title="github" class="white" href="https://github.com/topdan"><span class="fa fa-github">&nbsp;</span> GitHub</a> <a title="Twitter" class="white" href="https://www.linkedin.com/in/dancunning"><span class="fa fa-linkedin-square">&nbsp;</span> LinkedIn</a> <a title="Email" class="white" href="mailto:dan@topdan.com"><span class="fa fa-envelope">&nbsp;</span> Email</a></p>
+      </div>
+      <div class="col-sm-offset-1 col-md-4 mt-2e">
+        <img width="75" height="75" class="img-circle fl-left mr-10" src="/assets/dan-79508ca0775ace507f1dc34d151bba0f.jpg" alt="Dan">
+        <p class="underline-links">I'm a <a href="/ruby-on-rails/index.html">Ruby on Rails</a> contractor from Atlanta GA, focusing on simplicity and usability through solid design. <a class="nowrap" href="/dan-cunning.html">Read more »</a></p>
+      </div>
+    </div>
+    <div class="row fs-12 mt-1e center">
+      <div class="col-md-6">
+        <p class="underline-links mb-1e">View Source: <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/minimum-viable-test-suite.html">HTML</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/minimum-viable-test-suite.json">JSON</a> | <a href="https://github.com/topdan/www/blob/master/ruby-on-rails/minimum-viable-test-suite.html.md">View</a></p>
+      </div>
+      <div class="col-md-6">
+        <p class="mb-1e">© 2012-2016 Dan Cunning. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -5,6 +5,13 @@
     <link>http://www.topdan.com/ruby-on-rails/index.rss</link>
     <description>Dan Cunning's thoughts on Ruby on Rails.</description>
     <item>
+      <title>Minimum Viable Test Suite</title>
+      <description>Ensure your test suite doesn't have any important holes in coverage by enforcing a simple rule.</description>
+      <link>http://www.topdan.com/ruby-on-rails/minimum-viable-test-suite.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://www.topdan.com/ruby-on-rails/minimum-viable-test-suite.html</guid>
+      <pubDate>2016-07-24 12:00:00 UTC</pubDate>
+    </item>
+    <item>
       <title>Loading Buttons</title>
       <description>Converting action buttons into loading buttons is a common way for AJAX applications indicate that it's waiting on the server to verify an action and respond.</description>
       <link>http://www.topdan.com/ruby-on-rails/loading-buttons.html?utm_medium=rss&amp;utm_source=feed</link>

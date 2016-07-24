@@ -5,7 +5,19 @@
   <link rel="self" type="application/atom+xml" href="http://www.topdan.com/ruby-on-rails/index.xml"/>
   <title>Ruby on Rails - topdan.com</title>
   <subtitle>Dan Cunning's thoughts on Ruby on Rails.</subtitle>
-  <updated>2016-07-14 12:00:00 UTC</updated>
+  <updated>2016-07-24 12:00:00 UTC</updated>
+  <entry>
+    <id>http://www.topdan.com/ruby-on-rails/minimum-viable-test-suite.html</id>
+    <published>2016-07-24T16:55:33-04:00</published>
+    <updated>2016-07-24T16:55:33-04:00</updated>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/minimum-viable-test-suite.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>Minimum Viable Test Suite</title>
+    <content>Ensure your test suite doesn't have any important holes in coverage by enforcing a simple rule.</content>
+    <updated>2016-07-24 12:00:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/loading-buttons.html</id>
     <published>2016-07-14T16:32:41-04:00</published>
@@ -123,7 +135,7 @@
   <entry>
     <id>http://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html</id>
     <published>2015-05-18T14:45:04-04:00</published>
-    <updated>2016-07-17T14:34:37-04:00</updated>
+    <updated>2016-07-24T16:55:33-04:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/ruby-on-rails/beware-active-record-callbacks.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>Beware ActiveRecord callbacks</title>
     <content>ActiveRecord is a fantastically well-made ORM that makes working with databases a breeze, but one feature in the callback structure is incredibly bug-prone.</content>

@@ -1,3 +1,9 @@
+```raw
+<p class="alert alert-info">
+  This design issue was addressed in Rails 5.0. <a href="http://blog.bigbinary.com/2016/02/13/rails-5-does-not-halt-callback-chain-when-false-is-returned.html">Read more about the change here</a>
+</p>
+```
+
 * [The Code](#the-code)
 * [The Problem](#the-problem)
 * [The Feature](#the-feature)

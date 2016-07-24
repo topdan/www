@@ -4,13 +4,14 @@
   "format": "md",
   "skips_description": true,
   "tag_ids": [
-    "archive"
+    "archive",
+    "gems"
   ],
   "published_at": "2012-03-14 18:00:00 UTC",
   "author": {
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2016-07-17 14:34:37 -0400"
+  "updated_at": "2016-07-24 16:55:33 -0400"
 }
 
