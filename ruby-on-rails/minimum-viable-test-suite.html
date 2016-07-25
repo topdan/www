@@ -71,16 +71,12 @@
   <span class="k">end</span>
 
   <span class="k">def</span> <span class="nf">endpoints</span>
-    <span class="vi">@endpoints</span> <span class="o">||=</span> <span class="k">begin</span>
-      <span class="n">set</span> <span class="o">=</span> <span class="no">Set</span><span class="o">.</span><span class="n">new</span>
-      <span class="no">Rails</span><span class="o">.</span><span class="n">application</span><span class="o">.</span><span class="n">routes</span><span class="o">.</span><span class="n">routes</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">route</span><span class="o">|</span>
-        <span class="n">controller</span> <span class="o">=</span> <span class="n">route</span><span class="o">.</span><span class="n">defaults</span><span class="o">[</span><span class="ss">:controller</span><span class="o">]</span>
-        <span class="n">action</span> <span class="o">=</span> <span class="n">route</span><span class="o">.</span><span class="n">defaults</span><span class="o">[</span><span class="ss">:action</span><span class="o">]</span>
-        <span class="k">next</span> <span class="k">unless</span> <span class="n">controller</span> <span class="o">&amp;&</span> <span class="n">action</span>
+    <span class="vi">@endpoints</span> <span class="o">||=</span> <span class="no">Rails</span><span class="o">.</span><span class="n">application</span><span class="o">.</span><span class="n">routes</span><span class="o">.</span><span class="n">routes</span><span class="o">.</span><span class="n">each_with_object</span><span class="p">(</span><span class="no">Set</span><span class="o">.</span><span class="n">new</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">route</span><span class="p">,</span> <span class="n">set</span><span class="o">|</span>
+      <span class="n">controller</span> <span class="o">=</span> <span class="n">route</span><span class="o">.</span><span class="n">defaults</span><span class="o">[</span><span class="ss">:controller</span><span class="o">]</span>
+      <span class="n">action</span> <span class="o">=</span> <span class="n">route</span><span class="o">.</span><span class="n">defaults</span><span class="o">[</span><span class="ss">:action</span><span class="o">]</span>
+      <span class="k">next</span> <span class="k">unless</span> <span class="n">controller</span> <span class="o">&amp;&</span> <span class="n">action</span>
 
-        <span class="n">set</span> <span class="o">&lt;&lt;</span> <span class="s2">"</span><span class="si">#{</span><span class="n">controller</span><span class="si">}</span><span class="s2">#</span><span class="si">#{</span><span class="n">action</span><span class="si">}</span><span class="s2">"</span>
-      <span class="k">end</span>
-      <span class="n">set</span>
+      <span class="n">set</span> <span class="o">&lt;&lt;</span> <span class="s2">"</span><span class="si">#{</span><span class="n">controller</span><span class="si">}</span><span class="s2">#</span><span class="si">#{</span><span class="n">action</span><span class="si">}</span><span class="s2">"</span>
     <span class="k">end</span>
   <span class="k">end</span>
 
