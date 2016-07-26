@@ -1515,7 +1515,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/2559/thumb_goon-2011-dd65e737a0ce63df5055fe348fd68719.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B007CUQA7S",
-        "amazon_prime": "http://www.amazon.com/gp/product/B007CUQA7S",
         "netflix": "https://www.netflix.com/title/70209163"
       },
       "references": {
@@ -3932,6 +3931,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-07-24 03:12:06 -0400"
+  "updated_at": "2016-07-26 03:12:07 -0400"
 }
 
