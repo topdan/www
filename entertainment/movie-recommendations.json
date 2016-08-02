@@ -343,7 +343,6 @@
       "release_date": "2014-08-01",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11823/thumb_calvary-2014-c32d7168aaa953cde8a7570c1c9431d9.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48369?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2234003/",
@@ -498,6 +497,7 @@
       "release_date": "2013-12-06",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8842/thumb_inside-llewyn-davis-2014-9425124bd64d6abaacaa425a569921bd.jpg",
       "streams": {
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2042568/",
@@ -2112,7 +2112,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15741/thumb_juno-2007-b474468547e500c129cd56a9b18d1860.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0019I6WDG",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP25205?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP51512?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0467406/",
@@ -2232,8 +2232,7 @@
       "release_date": "2006-08-25",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16538/thumb_beerfest-2006-cba3917d3a2092c099a92c25193d905e.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000MFGPOI",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48812?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000MFGPOI"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0486551/",
@@ -2302,7 +2301,8 @@
       "release_date": "2006-07-21",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12328/thumb_lady-in-the-water-2006-15642afe8daf140c38c045d74e46aebc.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000MS3YXU"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000MS3YXU",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38966?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0452637/",
@@ -2804,7 +2804,8 @@
       "release_date": "2003-05-07",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8220/thumb_the-matrix-reloaded-2003-dc78890f49f1bfdae2a24afbab2263e8.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001EC2J20"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001EC2J20",
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0234215/",
@@ -3285,7 +3286,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18934/thumb_american-pie-1999-8a5223a3cf2da4aaed92d79c981ed59d.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0039NCJFO",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP50178?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP50177?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0163651/",
@@ -3354,7 +3355,8 @@
       "release_date": "1999-03-31",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8219/thumb_the-matrix-1999-5dd62059726d96dfccbe0a66bf79892c.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000HAB4KS"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000HAB4KS",
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0133093/",
@@ -3382,7 +3384,8 @@
       "release_date": "2000-04-21",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10144/thumb_the-virgin-suicides-1999-c4ce9e2ce03c62fd3b2dd42d1f0e5061.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000NK7H1M"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000NK7H1M",
+        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/112914"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0159097/",
@@ -3519,8 +3522,7 @@
       "streams": {
         "amazon_prime": "http://www.amazon.com/gp/product/B006RXQA5I",
         "itunes": "https://itunes.apple.com/us/movie/good-will-hunting/id432503534",
-        "netflix": "https://www.netflix.com/title/17405997",
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3393615"
+        "netflix": "https://www.netflix.com/title/17405997"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0119217/",
@@ -3577,8 +3579,8 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00AYB12PC",
         "amazon_prime": "http://www.amazon.com/gp/product/B00AYB12PC",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP49311?videoMode=embeddedVideo?showSpecialFeatures=false/",
-        "itunes": "https://itunes.apple.com/us/movie/scream/id425968586"
+        "itunes": "https://itunes.apple.com/us/movie/scream/id425968586",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38976?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0117571/",
@@ -3905,7 +3907,8 @@
       "release_date": "1971-12-19",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13190/thumb_a-clockwork-orange-1971-ed44e628b7263f973492eaccb5ebf60e.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00125FBTM"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00125FBTM",
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0066921/",
@@ -3931,6 +3934,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-07-26 03:12:07 -0400"
+  "updated_at": "2016-08-02 03:12:07 -0400"
 }
 

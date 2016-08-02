@@ -307,6 +307,20 @@
       }
     },
     {
+      "title": "Stranger Things",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5177/thumb_stranger-things-8637452f648c9151f75488c1b8ba24c5.jpg",
+      "latest_episode_aired_on": "2016-07-15",
+      "first_episode_aired_on": "2016-07-15",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4574334/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Stranger_Things_%28TV_series%29"
+      }
+    },
+    {
       "title": "The Expanse",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4825/thumb_the-expanse-dca237a43c13a2b8fb084fff16d7eb89.jpg",
       "latest_episode_aired_on": "2016-02-02",
@@ -402,6 +416,20 @@
         "imdb": "http://www.imdb.com/title/tt2788780/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/mobile/tv/undateable/",
         "wikipedia": "https://en.wikipedia.org/wiki/Undateable"
+      }
+    },
+    {
+      "title": "War & Peace",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4940/thumb_war-and-peace-be465b01e9d68666fbaa19182769d530.jpg",
+      "latest_episode_aired_on": "2016-02-08",
+      "first_episode_aired_on": "2016-01-18",
+      "final_episode_aired_on": "2016-02-07",
+      "unwatched_episodes_count": 0,
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3910804/",
+        "wikipedia": "https://en.wikipedia.org/wiki/War_%26_Peace_%282016_TV_series%29"
       }
     },
     {
@@ -1195,6 +1223,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-08-01 03:12:06 -0400"
+  "updated_at": "2016-08-02 03:12:07 -0400"
 }
 
