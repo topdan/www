@@ -232,7 +232,7 @@
       "release_date": "2015-10-02",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16345/thumb_the-martian-2015-6c63feab3f3f05e2c368507a4eb11e08.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP51195?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP52257?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3659388/",
@@ -2273,8 +2273,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1875/thumb_day-watch-2006-88fdc7ac5ebbc83db6842833f3773d63.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0040B1IUQ",
-        "amazon_prime": "http://www.amazon.com/gp/product/B0040B1IUQ",
-        "netflix": "https://www.netflix.com/title/70068651"
+        "amazon_prime": "http://www.amazon.com/gp/product/B0040B1IUQ"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0409904/",
@@ -2433,7 +2432,6 @@
       "release_date": "2005-11-23",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15403/thumb_just-friends-2005-6a33deb1c749f451b80b8557e2c912d1.jpg",
       "streams": {
-        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0433400/",
@@ -3934,6 +3932,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-08-02 03:12:07 -0400"
+  "updated_at": "2016-08-03 03:12:07 -0400"
 }
 
