@@ -9,6 +9,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Milky Chance",
+      "song": "Down by the River",
+      "video_url": "https://www.youtube.com/watch?v=qlGQoxzdwP4",
+      "thumbnail_url": "https://img.youtube.com/vi/qlGQoxzdwP4/0.jpg",
+      "added_at": "2016-08-05 17:14:31 -0400"
+    },
+    {
       "artist": "Two Door Cinema Club",
       "song": "Something Good Can Work",
       "video_url": "https://www.youtube.com/watch?v=Wxu02vp_Vm0",
@@ -909,6 +916,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2016-07-17 14:34:37 -0400"
+  "updated_at": "2016-08-05 17:14:37 -0400"
 }
 

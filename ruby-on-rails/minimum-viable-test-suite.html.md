@@ -16,16 +16,12 @@ class ControllerCoverageSupport
   end
 
   def endpoints
-    @endpoints ||= begin
-      set = Set.new
-      Rails.application.routes.routes.each do |route|
-        controller = route.defaults[:controller]
-        action = route.defaults[:action]
-        next unless controller && action
+    @endpoints ||= Rails.application.routes.routes.each_with_object(Set.new) do |route, set|
+      controller = route.defaults[:controller]
+      action = route.defaults[:action]
+      next unless controller && action
 
-        set << "#{controller}##{action}"
-      end
-      set
+      set << "#{controller}##{action}"
     end
   end
 
