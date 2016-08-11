@@ -38,6 +38,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16167/thumb_american-ultra-2015-45e775a723ef36a883552ad7c7190635.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B01489KX1O",
+        "amazon_prime": null,
         "itunes": "https://itunes.apple.com/us/movie/american-ultra/id1027396959"
       },
       "references": {
@@ -3933,6 +3934,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-08-08 03:12:07 -0400"
+  "updated_at": "2016-08-11 03:12:07 -0400"
 }
 
