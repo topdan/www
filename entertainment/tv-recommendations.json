@@ -11,7 +11,7 @@
     {
       "title": "Ballers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4147/thumb_ballers-e9a9d8af05d82ad862b8d0fcd0a52050.jpg",
-      "latest_episode_aired_on": "2016-07-31",
+      "latest_episode_aired_on": "2016-08-07",
       "first_episode_aired_on": "2015-06-22",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1172,6 +1172,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-08-11 03:12:07 -0400"
+  "updated_at": "2016-08-12 03:12:07 -0400"
 }
 
