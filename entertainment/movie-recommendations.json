@@ -20,6 +20,18 @@
       }
     },
     {
+      "title": "Everybody Wants Some",
+      "year": 2016,
+      "release_date": "2016-04-08",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19662/thumb_everybody-wants-some-2016-f71d4233e09eda2212af80e4d9b9d7f5.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2937696/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/everybody_wants_some/"
+      }
+    },
+    {
       "title": "The Nice Guys",
       "year": 2016,
       "release_date": "2016-05-20",
@@ -226,6 +238,21 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt3622082/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/the_big_short/"
+      }
+    },
+    {
+      "title": "The Gift",
+      "year": 2015,
+      "release_date": "2015-08-07",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15822/thumb_the-gift-2015-648c60c1af1fed4855f50dd19c048391.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0178D8ZRG",
+        "itunes": "https://itunes.apple.com/us/movie/the-gift-2015/id1024270759",
+        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3420657"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4178092/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/the_gift_2015/"
       }
     },
     {
@@ -3935,6 +3962,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-08-13 03:12:06 -0400"
+  "updated_at": "2016-08-22 03:12:06 -0400"
 }
 
