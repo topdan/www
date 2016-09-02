@@ -470,8 +470,7 @@
       "release_date": "2014-10-03",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11196/thumb_gone-girl-2014-fe65e04a0c3525ac3e0e14b6766da6c2.jpg",
       "streams": {
-        "itunes": "https://itunes.apple.com/us/movie/gone-girl/id917874539",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38399?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "itunes": "https://itunes.apple.com/us/movie/gone-girl/id917874539"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2267998/",
@@ -1909,8 +1908,7 @@
       "release_date": "2009-12-04",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12644/thumb_up-in-the-air-2009-b55fc9ea04c2366af0fd70d93310aa77.jpg",
       "streams": {
-        "netflix": "https://www.netflix.com/title/70117902",
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3429324"
+        "netflix": "https://www.netflix.com/title/70117902"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1193138/",
@@ -2277,7 +2275,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16528/thumb_children-of-men-2006-7a9b7b49fd2c6366f68551229b7b7c01.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000QGAU4E",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38523?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GORO1B21105?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0206634/",
@@ -3883,6 +3881,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7806/thumb_caddyshack-1980-b84db06f4722c8d41994d425f685204f.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001N7LKI0",
+        "amazon_prime": null,
         "itunes": "https://itunes.apple.com/us/movie/caddyshack/id285871841"
       },
       "references": {
@@ -3964,6 +3963,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-09-01 03:12:07 -0400"
+  "updated_at": "2016-09-02 03:12:08 -0400"
 }
 
