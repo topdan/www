@@ -140,7 +140,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13163/thumb_mad-max-fury-road-2015-6094af4b6fc65d0951be99a0c0036bd3.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B014QZ9B3Q",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP51908?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/mad-max-fury-road/id990549112"
       },
       "references": {
@@ -568,8 +567,7 @@
       "release_date": "2014-07-18",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11187/thumb_i-origins-2014-0d116d2940af4a2d9f409eb65c7a6e9f.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00QH4IAW8",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48823?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00QH4IAW8"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2884206/",
@@ -3246,7 +3244,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10541/thumb_snatch-2000-e1de4beedfbb54907d1d403015637e47.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0094M6A18",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP49732?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/snatch/id284156786"
       },
       "references": {
@@ -3963,6 +3960,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-09-02 03:12:08 -0400"
+  "updated_at": "2016-09-03 03:12:07 -0400"
 }
 
