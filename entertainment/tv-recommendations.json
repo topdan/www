@@ -242,7 +242,7 @@
     {
       "title": "Mr. Robot",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4020/thumb_mr-robot-516ef9897a52962a6ab2fc56ef985b7b.jpg",
-      "latest_episode_aired_on": "2016-08-24",
+      "latest_episode_aired_on": "2016-08-31",
       "first_episode_aired_on": "2015-05-27",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -395,6 +395,23 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt3910804/",
         "wikipedia": "https://en.wikipedia.org/wiki/War_%26_Peace_%282016_TV_series%29"
+      }
+    },
+    {
+      "title": "You're The Worst",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4599/thumb_youre-the-worst-e705a37d11a89576fe5a161fbcebc9d9.jpg",
+      "latest_episode_aired_on": "2016-08-31",
+      "first_episode_aired_on": "2014-07-17",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B015679KW0",
+        "fx_networks_com": "http://www.fxnetworks.com/shows/youre-the-worst/episodes",
+        "hulu": "http://www.hulu.com/youre-the-worst"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3228420/",
+        "wikipedia": "https://en.wikipedia.org/wiki/You%27re_the_Worst"
       }
     },
     {
@@ -633,23 +650,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt4574708/",
         "wikipedia": "https://en.wikipedia.org/wiki/With_Bob_and_David"
-      }
-    },
-    {
-      "title": "You're The Worst",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4599/thumb_youre-the-worst-e705a37d11a89576fe5a161fbcebc9d9.jpg",
-      "latest_episode_aired_on": "2015-12-09",
-      "first_episode_aired_on": "2014-07-17",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B015679KW0",
-        "fx_networks_com": "http://www.fxnetworks.com/shows/youre-the-worst/episodes",
-        "hulu": "http://www.hulu.com/youre-the-worst"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt3228420/",
-        "wikipedia": "https://en.wikipedia.org/wiki/You%27re_the_Worst"
       }
     },
     {
@@ -1157,6 +1157,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-09-03 03:12:07 -0400"
+  "updated_at": "2016-09-05 03:12:07 -0400"
 }
 
