@@ -305,7 +305,7 @@
     },
     {
       "title": "Stranger Things",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5177/thumb_stranger-things-8637452f648c9151f75488c1b8ba24c5.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5177/thumb_stranger-things-5705aeeec12711e2751d0a8c4e3e401c.jpg",
       "latest_episode_aired_on": "2016-07-15",
       "first_episode_aired_on": "2016-07-15",
       "final_episode_aired_on": null,
@@ -1157,6 +1157,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-09-09 03:12:07 -0400"
+  "updated_at": "2016-09-10 03:12:07 -0400"
 }
 
