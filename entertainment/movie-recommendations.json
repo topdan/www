@@ -140,7 +140,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13163/thumb_mad-max-fury-road-2015-6094af4b6fc65d0951be99a0c0036bd3.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B014QZ9B3Q",
-        "itunes": "https://itunes.apple.com/us/movie/mad-max-fury-road/id990549112"
+        "itunes": "https://itunes.apple.com/us/movie/mad-max-fury-road/id990549112",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39086?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1392190/",
@@ -3961,6 +3962,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-09-05 03:12:07 -0400"
+  "updated_at": "2016-09-18 03:12:07 -0400"
 }
 
