@@ -9,6 +9,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Devotchka",
+      "song": "I cried like a silly boy",
+      "video_url": "https://www.youtube.com/watch?v=t7XzHx6uDVM",
+      "thumbnail_url": "https://img.youtube.com/vi/t7XzHx6uDVM/0.jpg",
+      "added_at": "2016-09-17 09:00:12 -0400"
+    },
+    {
       "artist": "Milky Chance",
       "song": "Down by the River",
       "video_url": "https://www.youtube.com/watch?v=qlGQoxzdwP4",
@@ -916,6 +923,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2016-08-05 17:14:37 -0400"
+  "updated_at": "2016-09-18 03:52:05 -0400"
 }
 
