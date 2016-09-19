@@ -44,7 +44,7 @@
     {
       "title": "Black-ish",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-3367d4d3bdb94b92c372e5d978c44ed6.jpg",
-      "latest_episode_aired_on": "2016-05-11",
+      "latest_episode_aired_on": "2016-05-18",
       "first_episode_aired_on": "2014-09-24",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -242,7 +242,7 @@
     {
       "title": "Mr. Robot",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4020/thumb_mr-robot-516ef9897a52962a6ab2fc56ef985b7b.jpg",
-      "latest_episode_aired_on": "2016-09-07",
+      "latest_episode_aired_on": "2016-09-14",
       "first_episode_aired_on": "2015-05-27",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -301,6 +301,24 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt5016504/",
         "wikipedia": "https://en.wikipedia.org/wiki/Preacher_%28TV_series%29"
+      }
+    },
+    {
+      "title": "South Park",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-6eabc96a74a5583c1efe11fa3fdbaf59.jpg",
+      "latest_episode_aired_on": "2016-09-14",
+      "first_episode_aired_on": "1997-08-13",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000GE42H2",
+        "comedy_central_com": "http://www.cc.com/shows/south-park/full-episodes",
+        "hulu": "http://www.hulu.com/south-park",
+        "south_park_studios": "http://www.southparkstudios.com"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0121955/",
+        "wikipedia": "https://en.wikipedia.org/wiki/South_Park"
       }
     },
     {
@@ -400,7 +418,7 @@
     {
       "title": "You're The Worst",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4599/thumb_youre-the-worst-e705a37d11a89576fe5a161fbcebc9d9.jpg",
-      "latest_episode_aired_on": "2016-09-07",
+      "latest_episode_aired_on": "2016-09-14",
       "first_episode_aired_on": "2014-07-17",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -571,24 +589,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2492296/",
         "wikipedia": "https://en.wikipedia.org/wiki/Show_Me_a_Hero"
-      }
-    },
-    {
-      "title": "South Park",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-6eabc96a74a5583c1efe11fa3fdbaf59.jpg",
-      "latest_episode_aired_on": "2015-12-09",
-      "first_episode_aired_on": "1997-08-13",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000GE42H2",
-        "comedy_central_com": "http://www.cc.com/shows/south-park/full-episodes",
-        "hulu": "http://www.hulu.com/south-park",
-        "south_park_studios": "http://www.southparkstudios.com"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt0121955/",
-        "wikipedia": "https://en.wikipedia.org/wiki/South_Park"
       }
     },
     {
@@ -1157,6 +1157,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-09-16 03:12:07 -0400"
+  "updated_at": "2016-09-19 03:12:08 -0400"
 }
 
