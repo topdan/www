@@ -9,9 +9,24 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "Atlanta",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5227/thumb_atlanta-a49776ed62abfdddc2a51ef549b91530.jpg",
+      "latest_episode_aired_on": "2016-09-13",
+      "first_episode_aired_on": "2016-09-06",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "fx_networks_com": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4288182/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Atlanta_%28TV_series%29"
+      }
+    },
+    {
       "title": "Ballers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4147/thumb_ballers-e9a9d8af05d82ad862b8d0fcd0a52050.jpg",
-      "latest_episode_aired_on": "2016-09-11",
+      "latest_episode_aired_on": "2016-09-18",
       "first_episode_aired_on": "2015-06-22",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -365,6 +380,21 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt1442464/",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Middle_%28TV_series%29"
+      }
+    },
+    {
+      "title": "The Night Of",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5147/thumb_the-night-of-6d68f44c87399c63e463eafb36dc9e33.jpg",
+      "latest_episode_aired_on": "2016-08-28",
+      "first_episode_aired_on": "2016-06-24",
+      "final_episode_aired_on": "2016-08-28",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP51870?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2401256/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Night_Of"
       }
     },
     {
@@ -1157,6 +1187,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-09-22 03:12:08 -0400"
+  "updated_at": "2016-09-23 03:12:07 -0400"
 }
 
