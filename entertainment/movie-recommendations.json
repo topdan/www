@@ -196,6 +196,7 @@
       "release_date": "2015-10-02",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16454/thumb_sicario-2015-1b0914f9d50f2870e876adc7bb734ed5.jpg",
       "streams": {
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3397884/",
@@ -3962,6 +3963,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-09-18 03:12:07 -0400"
+  "updated_at": "2016-09-24 03:12:07 -0400"
 }
 
