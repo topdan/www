@@ -1122,7 +1122,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9779/thumb_the-place-beyond-the-pines-2013-11ad544a917f827e29c1e495618afbd5.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00DP3M14C",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38639?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP42151?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1817273/",
@@ -1759,6 +1759,7 @@
       "release_date": "2011-09-30",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7265/thumb_tucker-and-dale-vs-evil-2010-76f91407995938adfac393e4d5232152.jpg",
       "streams": {
+        "amazon_prime": null,
         "netflix": "https://www.netflix.com/title/70129463"
       },
       "references": {
@@ -1785,6 +1786,7 @@
       "release_date": "2009-09-09",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19961/thumb_9-2009-20ffa30614f6d22ecfeba5f8e239504b.jpg",
       "streams": {
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39258?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0472033/",
@@ -1963,8 +1965,7 @@
       "release_date": "2008-08-27",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12666/thumb_burn-after-reading-2008-5d4d017b38c488c9900b97dc67439aca.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001Q2J8BS",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38638?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001Q2J8BS"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0887883/",
@@ -2033,7 +2034,8 @@
       "release_date": "2008-04-28",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12133/thumb_speed-racer-2008-ddc375152e328b93e06783ac67850f71.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001GXYBY6"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001GXYBY6",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39219?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0811080/",
@@ -2099,8 +2101,7 @@
       "release_date": "2007-03-02",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1101/thumb_black-snake-moan-2007-18e03efcfb4cee3a452da9aa8c917651.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000UYJR7I",
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/131067"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000UYJR7I"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0462200/",
@@ -2396,6 +2397,7 @@
       "release_date": "2006-08-18",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10072/thumb_the-illusionist-2006-456c83104e99c7edd8b5b8ce8c985858.jpg",
       "streams": {
+        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3426719"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0443543/",
@@ -2422,8 +2424,7 @@
       "release_date": "2006-04-21",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1293/thumb_brick-2005-f7618e561d710c59ceeab5fa18b6fc92.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000J2DAYM",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38694?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000J2DAYM"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0393109/",
@@ -2583,7 +2584,8 @@
       "release_date": "2004-07-02",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11838/thumb_before-sunset-2004-93163a6d131e63198dd767df2fd31580.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001N9ESQ4"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001N9ESQ4",
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0381681/",
@@ -2900,8 +2902,7 @@
       "release_date": "2002-03-13",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3411/thumb_kissing-jessica-stein-2002-242bb7d67fd919fc644cb2854c01cb31.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000SW16N0",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP30754?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000SW16N0"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0264761/",
@@ -2957,7 +2958,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5636/thumb_super-troopers-2002-38d10db717ef831df0277d277eca9c09.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9VZCU",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP49739?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/super-troopers/id270307460"
       },
       "references": {
@@ -3259,7 +3259,6 @@
       "release_date": "2000-09-08",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13116/thumb_the-way-of-the-gun-2000-8a34d85dcc3c9c8f4b6153cde26eaa15.jpg",
       "streams": {
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/113111"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0202677/",
@@ -3786,7 +3785,7 @@
       "release_date": "1989-05-19",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8642/thumb_road-house-1989-f602f2ff290eb4d23a46afaf8b22f920.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP37358?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP33595?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0098206/",
@@ -3963,6 +3962,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-09-24 03:12:07 -0400"
+  "updated_at": "2016-10-02 03:12:08 -0400"
 }
 
