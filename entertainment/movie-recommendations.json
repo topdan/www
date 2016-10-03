@@ -3840,8 +3840,7 @@
       "release_date": "1987-11-13",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7975/thumb_the-running-man-1987-a1096865fa830836a7d0f2be6f65c48e.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001LPAZL2",
-        "netflix": null
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001LPAZL2"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0093894/",
@@ -3962,6 +3961,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-10-02 03:12:08 -0400"
+  "updated_at": "2016-10-03 03:12:07 -0400"
 }
 
