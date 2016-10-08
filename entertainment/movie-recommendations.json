@@ -2339,21 +2339,6 @@
       }
     },
     {
-      "title": "Lucky Number Slevin",
-      "year": 2006,
-      "release_date": "2006-04-07",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13286/thumb_lucky-number-slevin-2006-8adfc635ed75bcfcacb87aa57f371717.jpg",
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0026Y88RU",
-        "amazon_prime": "http://www.amazon.com/gp/product/B0026Y88RU",
-        "itunes": "https://itunes.apple.com/us/movie/lucky-number-slevin/id306995069",
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/130581"
-      },
-      "references": {
-        "rotten_tomatoes": "http://www.rottentomatoes.com/m/lucky_number_slevin/"
-      }
-    },
-    {
       "title": "Perfume: The Story of a Murderer",
       "year": 2006,
       "release_date": "2006-12-27",
@@ -3961,6 +3946,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-10-03 03:12:07 -0400"
+  "updated_at": "2016-10-08 03:12:07 -0400"
 }
 
