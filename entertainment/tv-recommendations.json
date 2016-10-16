@@ -11,7 +11,7 @@
     {
       "title": "Atlanta",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5227/thumb_atlanta-a49776ed62abfdddc2a51ef549b91530.jpg",
-      "latest_episode_aired_on": "2016-10-04",
+      "latest_episode_aired_on": "2016-10-11",
       "first_episode_aired_on": "2016-09-06",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -365,7 +365,7 @@
     {
       "title": "The Middle",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-fa847c7de585f12a21a8d9342720a10c.jpg",
-      "latest_episode_aired_on": "2016-05-18",
+      "latest_episode_aired_on": "2016-10-11",
       "first_episode_aired_on": "2009-09-30",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1183,6 +1183,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-10-15 03:12:07 -0400"
+  "updated_at": "2016-10-16 03:12:07 -0400"
 }
 
