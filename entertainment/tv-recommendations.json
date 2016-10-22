@@ -75,6 +75,22 @@
       }
     },
     {
+      "title": "Black Mirror",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3604/thumb_black-mirror-7ede7d9b423be8b7a5cfb2ba2d35f6c3.jpg",
+      "latest_episode_aired_on": "2016-10-21",
+      "first_episode_aired_on": "2011-12-04",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/70264888"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2085059/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/black-mirror/s02/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Black_Mirror_%28TV_series%29"
+      }
+    },
+    {
       "title": "Bob's Burgers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
       "latest_episode_aired_on": "2016-10-09",
@@ -680,22 +696,6 @@
       }
     },
     {
-      "title": "Black Mirror",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3604/thumb_black-mirror-7ede7d9b423be8b7a5cfb2ba2d35f6c3.jpg",
-      "latest_episode_aired_on": "2014-12-16",
-      "first_episode_aired_on": "2011-12-04",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "netflix": "https://www.netflix.com/title/70264888"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt2085059/",
-        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/black-mirror/s02/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Black_Mirror_%28TV_series%29"
-      }
-    },
-    {
       "title": "Burning Love",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4280/thumb_burning-love-f5ff7906cee15d5804eab03e96af3931.jpg",
       "latest_episode_aired_on": "2014-03-14",
@@ -1183,6 +1183,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-10-19 03:12:07 -0400"
+  "updated_at": "2016-10-22 03:12:07 -0400"
 }
 
