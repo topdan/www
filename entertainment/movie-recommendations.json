@@ -317,8 +317,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00O2UZ298",
         "itunes": "https://itunes.apple.com/us/movie/begin-again/id892574154",
-        "netflix": null,
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3403508"
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1980929/",
@@ -699,8 +698,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00LP9E79U",
         "itunes": "https://itunes.apple.com/us/movie/snowpiercer/id891829986",
-        "netflix": "https://www.netflix.com/title/70270364",
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3411769"
+        "netflix": "https://www.netflix.com/title/70270364"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1706620/",
@@ -3945,6 +3943,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-10-20 03:12:07 -0400"
+  "updated_at": "2016-10-28 03:12:07 -0400"
 }
 
