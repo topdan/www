@@ -271,21 +271,6 @@
       }
     },
     {
-      "title": "Narcos",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4389/thumb_narcos-ecb71898d3981b0d882c32d80789aefb.jpg",
-      "latest_episode_aired_on": "2016-09-02",
-      "first_episode_aired_on": "2015-08-28",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "netflix": "https://www.netflix.com/title/80025172"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt2707408/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Narcos"
-      }
-    },
-    {
       "title": "Peaky Blinders",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4055/thumb_peaky-blinders-a4cc4e465872e7f25994d80a236f01c5.jpg",
       "latest_episode_aired_on": "2016-06-09",
@@ -391,22 +376,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt4955642/",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Good_Place"
-      }
-    },
-    {
-      "title": "The Jim Gaffigan Show",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4276/thumb_the-jim-gaffigan-show-541e021275945e6ccc8b658548130c2f.jpeg",
-      "latest_episode_aired_on": "2016-08-14",
-      "first_episode_aired_on": "2015-06-20",
-      "final_episode_aired_on": "2016-08-21",
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0105SSCPG",
-        "tv_land_com": "http://www.tvland.com/shows/the-jim-gaffigan-show/full-episodes"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt3484406/",
-        "wikipedia": "https://en.wikipedia.org/wiki/The_Jim_Gaffigan_Show"
       }
     },
     {
@@ -1214,6 +1183,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-10-28 03:12:07 -0400"
+  "updated_at": "2016-10-29 03:12:07 -0400"
 }
 
