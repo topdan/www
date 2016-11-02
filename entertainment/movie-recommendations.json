@@ -155,7 +155,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16032/thumb_me-and-earl-and-the-dying-girl-2015-f54ecdbe77cbb2302e045d0f36dc8e7f.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B016887ZU0",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP49251?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/me-and-earl-and-the-dying-girl/id997193474"
       },
       "references": {
@@ -512,7 +511,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12245/thumb_inherent-vice-2014-55738709c9f83745b592ce5ad8f1cbd7.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00TGO68IO",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP49547?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/inherent-vice/id935074762"
       },
       "references": {
@@ -1908,6 +1906,7 @@
       "release_date": "2009-12-04",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12644/thumb_up-in-the-air-2009-b55fc9ea04c2366af0fd70d93310aa77.jpg",
       "streams": {
+        "amazon_prime": null,
         "netflix": "https://www.netflix.com/title/70117902"
       },
       "references": {
@@ -2140,7 +2139,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15741/thumb_juno-2007-b474468547e500c129cd56a9b18d1860.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0019I6WDG",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP51512?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39294?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0467406/",
@@ -2153,7 +2152,6 @@
       "release_date": "2007-05-18",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19363/thumb_once-2007-1481b6933dc5ad1c65fef8131efb2bd7.jpg",
       "streams": {
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38695?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0907657/",
@@ -3199,8 +3197,7 @@
       "release_date": "2000-12-22",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15722/thumb_o-brother-where-art-thou-2000-c9b3186838023630cde834a31ceca1ee.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B003V5CFV8",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38404?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B003V5CFV8"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0190590/",
@@ -3943,6 +3940,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-10-29 03:12:07 -0400"
+  "updated_at": "2016-11-02 03:12:07 -0400"
 }
 
