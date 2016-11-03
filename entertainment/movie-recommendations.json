@@ -155,7 +155,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16032/thumb_me-and-earl-and-the-dying-girl-2015-f54ecdbe77cbb2302e045d0f36dc8e7f.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B016887ZU0",
-        "itunes": "https://itunes.apple.com/us/movie/me-and-earl-and-the-dying-girl/id997193474"
+        "itunes": "https://itunes.apple.com/us/movie/me-and-earl-and-the-dying-girl/id997193474",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39305?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2582496/",
@@ -3404,8 +3405,7 @@
       "release_date": "1999-01-15",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8324/thumb_varsity-blues-1999-8397c46e7d50e4ef2fc18b0ac7c8cb68.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B005DNPGTE",
-        "netflix": "https://www.netflix.com/title/18171608"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B005DNPGTE"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0139699/",
@@ -3432,8 +3432,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7972/thumb_rounders-1998-9e753b02a47687f63cfffc593649593f.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00AYB18LK",
-        "amazon_prime": "http://www.amazon.com/gp/product/B00AYB18LK",
-        "netflix": "https://www.netflix.com/title/17236920"
+        "amazon_prime": "http://www.amazon.com/gp/product/B00AYB18LK"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0128442/",
@@ -3940,6 +3939,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-11-02 03:12:07 -0400"
+  "updated_at": "2016-11-03 03:12:07 -0400"
 }
 
