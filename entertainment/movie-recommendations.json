@@ -2444,6 +2444,7 @@
       "release_date": "2005-11-23",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15403/thumb_just-friends-2005-6a33deb1c749f451b80b8557e2c912d1.jpg",
       "streams": {
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0433400/",
@@ -3939,6 +3940,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-11-03 03:12:07 -0400"
+  "updated_at": "2016-11-05 03:12:07 -0400"
 }
 
