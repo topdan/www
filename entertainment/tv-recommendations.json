@@ -302,6 +302,22 @@
       }
     },
     {
+      "title": "Red Oaks",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4724/thumb_red-oaks-f56a26e65569a309bf679abc6eb482d9.jpg",
+      "latest_episode_aired_on": "2016-11-11",
+      "first_episode_aired_on": "2015-09-14",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "https://www.amazon.com/gp/product/B00MR9WBVS",
+        "amazon_prime": "https://www.amazon.com/gp/product/B00MR9WBVS"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3973820/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Red_Oaks"
+      }
+    },
+    {
       "title": "South Park",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-6eabc96a74a5583c1efe11fa3fdbaf59.jpg",
       "latest_episode_aired_on": "2016-10-26",
@@ -569,22 +585,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt4635276/",
         "wikipedia": "https://en.wikipedia.org/wiki/Master_of_None"
-      }
-    },
-    {
-      "title": "Red Oaks",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4724/thumb_red-oaks-95e9b4e75de3cb0db05ed0b2bf312dc3.jpg",
-      "latest_episode_aired_on": "2015-10-09",
-      "first_episode_aired_on": "2015-09-14",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "https://www.amazon.com/gp/product/B00MR9WBVS",
-        "amazon_prime": "https://www.amazon.com/gp/product/B00MR9WBVS"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt3973820/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Red_Oaks"
       }
     },
     {
@@ -1183,6 +1183,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-11-09 03:12:08 -0500"
+  "updated_at": "2016-11-12 03:12:07 -0500"
 }
 
