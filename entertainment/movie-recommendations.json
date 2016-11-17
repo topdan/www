@@ -669,6 +669,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00SB2OYL0",
         "itunes": "https://itunes.apple.com/us/movie/paddington/id956834527",
+        "netflix": null,
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3406319"
       },
       "references": {
@@ -1963,7 +1964,8 @@
       "release_date": "2008-08-27",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12666/thumb_burn-after-reading-2008-5d4d017b38c488c9900b97dc67439aca.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001Q2J8BS"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001Q2J8BS",
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0887883/",
@@ -3940,6 +3942,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-11-05 03:12:07 -0400"
+  "updated_at": "2016-11-17 03:12:07 -0500"
 }
 
