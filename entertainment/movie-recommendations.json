@@ -2748,8 +2748,7 @@
       "release_date": "2004-12-10",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15269/thumb_the-life-aquatic-with-steve-zissou-2004-0690d3ebb4b517f0602417c61c8d596d.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B003QSGF0C",
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/140978"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B003QSGF0C"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0362270/",
@@ -3942,6 +3941,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-11-17 03:12:07 -0500"
+  "updated_at": "2016-11-20 03:12:07 -0500"
 }
 
