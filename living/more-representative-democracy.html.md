@@ -22,7 +22,7 @@ Since the 1700's, [representative democracy](http://en.wikipedia.org/wiki/Repres
 
 [Only about 60% of the eligible population votes during presidential election years, and about 40% votes during midterm elections](http://www.fairvote.org/research-and-analysis/voter-turnout/): the majority never chooses a nationally elected official.
 
-I haven't voted since 2004, and others tell me that means I have _"no right to complain"_, but I disagree. __The system has failed__: more people deciding not to vote than selecting a particular candidate indicates a systemic problem that no "get out the vote" campaign can correct.
+I rarely vote, and others tell me that means I have _"no right to complain"_, but I disagree. __The system has failed__: more people deciding not to vote than selecting a particular candidate indicates a systemic problem that no "get out the vote" campaign can correct.
 
 Instead of guilting, [threatening](https://www.google.com/search?q=vote+or+die), or blaming non-voters for not working within the system, __we should adjust the system to include the non-voting majority__.
 
