@@ -81,7 +81,7 @@
   <entry>
     <id>http://www.topdan.com/sports/nfl-salaries-by-college/index.html</id>
     <published>2015-01-18T15:29:47-05:00</published>
-    <updated>2016-02-21T13:24:32-05:00</updated>
+    <updated>2016-11-26T11:13:34-05:00</updated>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/index.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>NFL Salaries by College</title>
     <content>Ranking each NCAA football conference and school on how much their former players make in the NFL.</content>
@@ -354,6 +354,276 @@
     <id>http://www.topdan.com/sports/nfl-salaries-by-college/2015/naia.html</id>
     <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2015/naia.html?utm_medium=atom&amp;utm_source=feed"/>
     <title>2015 NFL Players from the NAIA</title>
+    <content>What NAIA schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/index.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/index.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Salaries by College</title>
+    <content>What colleges and conferences have the highest paid NFL players during the start of the 2016 season?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/quarterbacks.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/quarterbacks.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Quarterbacks by College</title>
+    <content>What colleges and conferences have the highest paid NFL players at quarterback?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/running-backs.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/running-backs.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Running Backs by College</title>
+    <content>What colleges and conferences have the highest paid NFL players at running back?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/receivers.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/receivers.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Receivers by College</title>
+    <content>What colleges and conferences have the highest paid NFL players at wide receiver?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/offensive-line.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/offensive-line.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Offensive Line by College</title>
+    <content>What colleges and conferences have the highest paid NFL players at offensive line?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/defensive-line.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/defensive-line.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Defensive Line by College</title>
+    <content>What colleges and conferences have the highest paid NFL players at defensive line?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/linebackers.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/linebackers.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Linebackers by College</title>
+    <content>What colleges and conferences have the highest paid NFL players at linebacker?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/secondary.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/secondary.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Secondary by College</title>
+    <content>What colleges and conferences have the highest paid NFL players at secondary?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/special-teams.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/special-teams.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Special Teams by College</title>
+    <content>What colleges and conferences have the highest paid NFL players at special team?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/aac.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/aac.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Players from the AAC</title>
+    <content>What AAC schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/acc.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/acc.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Players from the ACC</title>
+    <content>What ACC schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/big-12.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/big-12.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Players from the Big 12</title>
+    <content>What Big 12 schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/big-east.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/big-east.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Players from the Big East</title>
+    <content>What Big East schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/big-ten.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/big-ten.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Players from the Big Ten</title>
+    <content>What Big Ten schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/cusa.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/cusa.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Players from C-USA</title>
+    <content>What C-USA schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/independent.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/independent.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Players from Independent FCS</title>
+    <content>What Independent FCS schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/mac.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/mac.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Players from the MAC</title>
+    <content>What MAC schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/mwc.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/mwc.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Players from the Mountain West</title>
+    <content>What Mountain West schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/pac-12.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/pac-12.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Players from the Pac-12</title>
+    <content>What Pac-12 schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/sec.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/sec.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Players from the SEC</title>
+    <content>What SEC schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/sun-belt.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/sun-belt.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Players from the Sun Belt</title>
+    <content>What Sun-Best schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/wac.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/wac.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Players from the WAC</title>
+    <content>What WAC schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/fcs.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/fcs.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Players from the FCS</title>
+    <content>What FCS schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/division-ii.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/division-ii.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Players from the Division II</title>
+    <content>What Division-II schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/division-iii.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/division-iii.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Players from the Division III</title>
+    <content>What Division-III schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/international.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/international.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL International Players</title>
+    <content>What International schools have the most and highest paid NFL players?</content>
+    <updated>2015-09-14 21:30:00 UTC</updated>
+    <author>
+      <name>Dan Cunning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://www.topdan.com/sports/nfl-salaries-by-college/2016/naia.html</id>
+    <link rel="alternate" type="text/html" href="http://www.topdan.com/sports/nfl-salaries-by-college/2016/naia.html?utm_medium=atom&amp;utm_source=feed"/>
+    <title>2016 NFL Players from the NAIA</title>
     <content>What NAIA schools have the most and highest paid NFL players?</content>
     <updated>2015-09-14 21:30:00 UTC</updated>
     <author>
