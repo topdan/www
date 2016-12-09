@@ -157,7 +157,7 @@
     {
       "title": "Crazy Ex-Girlfriend",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4720/thumb_crazy-ex-girlfriend-bc5bd2d9aad270e95e8fd9c67929290e.jpg",
-      "latest_episode_aired_on": "2016-11-18",
+      "latest_episode_aired_on": "2016-12-02",
       "first_episode_aired_on": "2015-10-12",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -202,6 +202,35 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt0944947/",
         "wikipedia": "https://en.wikipedia.org/wiki/Game_of_Thrones"
+      }
+    },
+    {
+      "title": "Gilmore Girls: A Year in the Life",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5338/thumb_gilmore-girls-a-year-in-the-life-60d5127e1ece12f3145afd30b23dfce2.jpg",
+      "latest_episode_aired_on": "2016-11-25",
+      "first_episode_aired_on": "2016-11-25",
+      "final_episode_aired_on": "2016-11-25",
+      "unwatched_episodes_count": 0,
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5435008/"
+      }
+    },
+    {
+      "title": "Gravity Falls",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/1231/thumb_gravity-falls-e1b0226ed865e20fac94377a16554221.jpg",
+      "latest_episode_aired_on": "2016-04-22",
+      "first_episode_aired_on": "2012-06-15",
+      "final_episode_aired_on": "2016-02-15",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0097WHYLA",
+        "disney_channel_com": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1865718/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Gravity_Falls"
       }
     },
     {
@@ -472,6 +501,21 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt3910804/",
         "wikipedia": "https://en.wikipedia.org/wiki/War_%26_Peace_%282016_TV_series%29"
+      }
+    },
+    {
+      "title": "Westworld",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5266/thumb_westworld-c754b852f1537eb4877fbca74a944e22.jpg",
+      "latest_episode_aired_on": "2016-11-27",
+      "first_episode_aired_on": "2016-10-02",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "hbogo": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0475784/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Westworld_%28TV_series%29"
       }
     },
     {
@@ -1183,6 +1227,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2016-12-05 03:12:07 -0500"
+  "updated_at": "2016-12-07 03:12:07 -0500"
 }
 

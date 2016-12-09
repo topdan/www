@@ -1076,7 +1076,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9007/thumb_the-conjuring-2013-ab15052f45e82a866f72f47617820bc4.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00FPH6A70",
-        "itunes": "https://itunes.apple.com/us/movie/the-conjuring/id687851264"
+        "itunes": "https://itunes.apple.com/us/movie/the-conjuring/id687851264",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39441?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1457767/",
@@ -3934,6 +3935,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-12-03 03:12:07 -0500"
+  "updated_at": "2016-12-09 03:12:07 -0500"
 }
 
