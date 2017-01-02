@@ -140,8 +140,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13163/thumb_mad-max-fury-road-2015-6094af4b6fc65d0951be99a0c0036bd3.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B014QZ9B3Q",
-        "itunes": "https://itunes.apple.com/us/movie/mad-max-fury-road/id990549112",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39413?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP51908?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "itunes": "https://itunes.apple.com/us/movie/mad-max-fury-road/id990549112"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1392190/",
@@ -1226,7 +1226,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9180/thumb_cloud-atlas-2012-8e922e6e0ba352021f561401bbddf751.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00CRWJ5GO",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP35896?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP41461?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1371111/",
@@ -1907,7 +1907,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12644/thumb_up-in-the-air-2009-b55fc9ea04c2366af0fd70d93310aa77.jpg",
       "streams": {
         "amazon_prime": null,
-        "netflix": "https://www.netflix.com/title/70117902"
+        "netflix": "https://www.netflix.com/title/70117902",
+        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3429324"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1193138/",
@@ -2085,7 +2086,8 @@
       "release_date": "2007-09-14",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16156/thumb_across-the-universe-2007-e24eac51015659b7bd62f919b7b4b04b.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0016BP0PW"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0016BP0PW",
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0445922/",
@@ -2178,7 +2180,8 @@
       "release_date": "2007-09-07",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13213/thumb_shoot-em-up-2007-3d4e17e2dfb49f49575356af5741fabf.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00125JP1C"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00125JP1C",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39522?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0465602/",
@@ -2192,6 +2195,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13606/thumb_stardust-2007-5e151469f1b200bbe6081722a29d5d42.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0013F1D02",
+        "amazon_prime": null,
         "netflix": "https://www.netflix.com/title/70054920"
       },
       "references": {
@@ -2327,7 +2331,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12328/thumb_lady-in-the-water-2006-15642afe8daf140c38c045d74e46aebc.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000MS3YXU",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38966?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GORO1B21110?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0452637/",
@@ -2907,8 +2911,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/4782/thumb_punch-drunk-love-2002-8669a3b44fdc27a6a78e151524524e8f.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B004GJ1YCO",
-        "netflix": "https://www.netflix.com/title/60024979",
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3413410"
+        "netflix": "https://www.netflix.com/title/60024979"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0272338/",
@@ -2990,7 +2993,6 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000RL1G32",
         "itunes": "https://itunes.apple.com/us/movie/a-knights-tale/id531594338",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38785?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "netflix": "https://www.netflix.com/title/60020626"
       },
       "references": {
@@ -3169,7 +3171,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16465/thumb_high-fidelity-2000-2b2bb578c296da31e28c1af5d2f87579.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B005CNFVOA",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP51214?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37871?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0146882/",
@@ -3249,7 +3251,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15720/thumb_unbreakable-2000-a7e1076823ab7c37ef1d1b59c0e8392c.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B003QS9TX2",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39153?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP57486?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0217869/",
@@ -3330,8 +3332,7 @@
       "release_date": "1999-11-19",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3689/thumb_the-boondock-saints-1999-09b4362ae9d907e51ba4f9d5cda71e21.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B004J14VHE",
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3439305"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B004J14VHE"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0144117/",
@@ -3374,7 +3375,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16033/thumb_the-sixth-sense-1999-f00d07c18f664fe8f67424eeb853bf0b.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0060D0N9O",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38214?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP57426?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "netflix": "https://www.netflix.com/title/26797528"
       },
       "references": {
@@ -3623,8 +3624,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00101ZOTA",
         "encore": "http://www.encoreplay.com/Movies/Details/1872",
-        "itunes": "https://itunes.apple.com/us/movie/the-usual-suspects/id267913118",
-        "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3428108"
+        "itunes": "https://itunes.apple.com/us/movie/the-usual-suspects/id267913118"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0114814/",
@@ -3855,7 +3855,8 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001N7LKI0",
         "amazon_prime": null,
-        "itunes": "https://itunes.apple.com/us/movie/caddyshack/id285871841"
+        "itunes": "https://itunes.apple.com/us/movie/caddyshack/id285871841",
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0080487/",
@@ -3935,6 +3936,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2016-12-28 03:12:07 -0500"
+  "updated_at": "2017-01-02 03:12:07 -0500"
 }
 
