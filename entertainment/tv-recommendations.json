@@ -346,6 +346,22 @@
       }
     },
     {
+      "title": "Sense8",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4049/thumb_sense8-b463519d066128527691639940321c0f.jpg",
+      "latest_episode_aired_on": "2016-12-23",
+      "first_episode_aired_on": "2015-06-05",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80025744"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2431438/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/sense8/s01/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sense8"
+      }
+    },
+    {
       "title": "South Park",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-6eabc96a74a5583c1efe11fa3fdbaf59.jpg",
       "latest_episode_aired_on": "2016-11-30",
@@ -410,7 +426,7 @@
     {
       "title": "The Good Place",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5246/thumb_the-good-place-e22c06f2dc6f01f27b6d4cc289634d46.jpg",
-      "latest_episode_aired_on": "2016-10-27",
+      "latest_episode_aired_on": "2016-11-03",
       "first_episode_aired_on": "2016-09-19",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -645,22 +661,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2861424/",
         "wikipedia": "https://en.wikipedia.org/wiki/Rick_and_Morty"
-      }
-    },
-    {
-      "title": "Sense8",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4049/thumb_sense8-b463519d066128527691639940321c0f.jpg",
-      "latest_episode_aired_on": "2015-06-05",
-      "first_episode_aired_on": "2015-06-05",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "netflix": "https://www.netflix.com/title/80025744"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt2431438/",
-        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/sense8/s01/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Sense8"
       }
     },
     {
@@ -1243,6 +1243,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-01-02 03:12:07 -0500"
+  "updated_at": "2017-01-03 03:12:07 -0500"
 }
 

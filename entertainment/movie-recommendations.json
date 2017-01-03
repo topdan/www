@@ -9,6 +9,18 @@
   "data_type": "Entertainment::Movie",
   "data": [
     {
+      "title": "Arrival",
+      "year": 2016,
+      "release_date": "2016-11-11",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20779/thumb_arrival-2016-c4db3011c108ef2f1f3bb38c1becfded.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2543164/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/arrival_2016/"
+      }
+    },
+    {
       "title": "Bo Burnham: Make Happy",
       "year": 2016,
       "release_date": null,
@@ -2195,8 +2207,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13606/thumb_stardust-2007-5e151469f1b200bbe6081722a29d5d42.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0013F1D02",
-        "amazon_prime": null,
-        "netflix": "https://www.netflix.com/title/70054920"
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0486655/",
@@ -3774,8 +3785,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1673/thumb_coming-to-america-1988-043e4e6c3abade8b25b4bfd90d8ca0d5.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001K3BG6S",
-        "itunes": "https://itunes.apple.com/us/movie/coming-to-america/id291825889",
-        "netflix": "https://www.netflix.com/title/391018"
+        "itunes": "https://itunes.apple.com/us/movie/coming-to-america/id291825889"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0094898/",
@@ -3936,6 +3946,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-01-02 03:12:07 -0500"
+  "updated_at": "2017-01-03 03:12:07 -0500"
 }
 
