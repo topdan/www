@@ -138,6 +138,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00VVXMYU4",
         "itunes": "https://itunes.apple.com/us/movie/it-follows/id982540188",
+        "netflix": null,
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3420820"
       },
       "references": {
@@ -3946,6 +3947,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-01-03 03:12:07 -0500"
+  "updated_at": "2017-01-14 03:12:07 -0500"
 }
 
