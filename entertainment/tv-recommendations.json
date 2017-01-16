@@ -11,7 +11,7 @@
     {
       "title": "Black-ish",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-3367d4d3bdb94b92c372e5d978c44ed6.jpg",
-      "latest_episode_aired_on": "2017-01-04",
+      "latest_episode_aired_on": "2017-01-11",
       "first_episode_aired_on": "2014-09-24",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -61,7 +61,7 @@
     {
       "title": "Man Seeking Woman",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4942/thumb_man-seeking-woman-98380510bd538459ef32a0119d76ed09.jpg",
-      "latest_episode_aired_on": "2017-01-04",
+      "latest_episode_aired_on": "2017-01-11",
       "first_episode_aired_on": "2015-01-14",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1227,6 +1227,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-01-15 03:12:07 -0500"
+  "updated_at": "2017-01-16 03:12:07 -0500"
 }
 
