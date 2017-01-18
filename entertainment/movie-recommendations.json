@@ -9,6 +9,18 @@
   "data_type": "Entertainment::Movie",
   "data": [
     {
+      "title": "A Monster Calls",
+      "year": 2016,
+      "release_date": "2016-10-14",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19603/thumb_a-monster-calls-2016-749c4a7f7e5d0dd333e9b89dea9c2482.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3416532/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/a_monster_calls/"
+      }
+    },
+    {
       "title": "Arrival",
       "year": 2016,
       "release_date": "2016-11-11",
@@ -41,6 +53,30 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2937696/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/everybody_wants_some/"
+      }
+    },
+    {
+      "title": "Midnight Special",
+      "year": 2016,
+      "release_date": "2016-03-18",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19518/thumb_midnight-special-2016-b135cfbeda83cd2658fbc37e6d75af7a.jpg",
+      "streams": {
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP58157?videoMode=embeddedVideo?showSpecialFeatures=false/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2649554/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/midnight_special_2015/"
+      }
+    },
+    {
+      "title": "Nocturnal Animals",
+      "year": 2016,
+      "release_date": "2016-11-18",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20944/thumb_nocturnal-animals-2016-a935f4dc0e45d59cb65adbd8b5cb477f.jpg",
+      "streams": {
+      },
+      "references": {
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/nocturnal_animals/"
       }
     },
     {
@@ -3947,6 +3983,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-01-14 03:12:07 -0500"
+  "updated_at": "2017-01-18 03:14:15 -0500"
 }
 

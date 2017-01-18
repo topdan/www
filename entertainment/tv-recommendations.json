@@ -44,7 +44,7 @@
     {
       "title": "Crazy Ex-Girlfriend",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4720/thumb_crazy-ex-girlfriend-352a0190718382785ae2174b9481bf52.jpg",
-      "latest_episode_aired_on": "2017-01-06",
+      "latest_episode_aired_on": "2017-01-13",
       "first_episode_aired_on": "2015-10-12",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -376,6 +376,21 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt5016504/",
         "wikipedia": "https://en.wikipedia.org/wiki/Preacher_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Quarry",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5252/thumb_quarry-fdf016cb5ffca430c7ea478691d371ca.jpg",
+      "latest_episode_aired_on": "2016-10-28",
+      "first_episode_aired_on": "2016-09-09",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "maxgo": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2980696/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Quarry_%28TV_series%29"
       }
     },
     {
@@ -1227,6 +1242,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-01-17 03:12:07 -0500"
+  "updated_at": "2017-01-18 03:14:15 -0500"
 }
 
