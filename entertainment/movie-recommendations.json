@@ -85,6 +85,7 @@
       "release_date": "2016-05-20",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19612/thumb_the-nice-guys-2016-89e5e5d40af0830f50d69c70e23c36b3.jpg",
       "streams": {
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP57464?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3799694/",
@@ -3983,6 +3984,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-01-18 03:14:15 -0500"
+  "updated_at": "2017-01-30 03:12:07 -0500"
 }
 
