@@ -312,6 +312,7 @@
       "release_date": "2015-10-02",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16345/thumb_the-martian-2015-6c63feab3f3f05e2c368507a4eb11e08.jpg",
       "streams": {
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39595?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3659388/",
@@ -3985,6 +3986,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-02-02 03:12:08 -0500"
+  "updated_at": "2017-02-06 03:12:07 -0500"
 }
 
