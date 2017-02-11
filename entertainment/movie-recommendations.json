@@ -56,6 +56,31 @@
       }
     },
     {
+      "title": "Green Room",
+      "year": 2016,
+      "release_date": "2016-04-29",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20012/thumb_green-room-2016-20bc6f04c6114ba0b627ef95b1fdb5fe.jpg",
+      "streams": {
+        "amazon_prime": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4062536/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/green_room_2016/"
+      }
+    },
+    {
+      "title": "La La Land",
+      "year": 2016,
+      "release_date": "2016-12-02",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20658/thumb_la-la-land-2016-da74768b17232591b6dad829e9a26e1d.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3783958/",
+        "rotten_tomatoes": "https://www.rottentomatoes.com/m/la_la_land/"
+      }
+    },
+    {
       "title": "Midnight Special",
       "year": 2016,
       "release_date": "2016-03-18",
@@ -77,6 +102,19 @@
       },
       "references": {
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/nocturnal_animals/"
+      }
+    },
+    {
+      "title": "Sing Street",
+      "year": 2016,
+      "release_date": "2016-04-15",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20038/thumb_sing-street-2016-91915bbfd086bd3bdfb41ab3199ae51b.jpeg",
+      "streams": {
+        "netflix": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3544112/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/sing_street/"
       }
     },
     {
@@ -120,6 +158,19 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2494362/",
         "rotten_tomatoes": "//www.rottentomatoes.com/m/bone_tomahawk/"
+      }
+    },
+    {
+      "title": "Crimson Peak",
+      "year": 2015,
+      "release_date": "2015-10-16",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15182/thumb_crimson-peak-2015-6abccfb058b2bf53b8baff9fbd51bc5e.jpg",
+      "streams": {
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP58492?videoMode=embeddedVideo?showSpecialFeatures=false/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2554274/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/crimson_peak/"
       }
     },
     {
@@ -3986,6 +4037,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-02-06 03:12:07 -0500"
+  "updated_at": "2017-02-11 03:12:07 -0500"
 }
 
