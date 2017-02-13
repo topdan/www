@@ -9,6 +9,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Rolling Stones",
+      "song": "She's like a Rainbow",
+      "video_url": "https://www.youtube.com/watch?v=zphAHMPtu4g",
+      "thumbnail_url": "https://img.youtube.com/vi/zphAHMPtu4g/0.jpg",
+      "added_at": "2017-02-12 19:31:23 -0500"
+    },
+    {
       "artist": "Die fabelhafte Welt der Amélie Piano",
       "song": "Comptine d'Un Autre Été",
       "video_url": "https://www.youtube.com/watch?v=H2-1u8xvk54",
@@ -930,6 +937,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2017-01-17 03:52:05 -0500"
+  "updated_at": "2017-02-13 03:52:05 -0500"
 }
 
