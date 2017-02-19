@@ -161,6 +161,19 @@
       }
     },
     {
+      "title": "Brooklyn",
+      "year": 2015,
+      "release_date": "2015-11-04",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/17124/thumb_brooklyn-2015-407e7b0400f92a0698b5c9cf1a15cc58.jpg",
+      "streams": {
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP55443?videoMode=embeddedVideo?showSpecialFeatures=false/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2381111/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/brooklyn/"
+      }
+    },
+    {
       "title": "Crimson Peak",
       "year": 2015,
       "release_date": "2015-10-16",
@@ -4037,6 +4050,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-02-11 03:12:07 -0500"
+  "updated_at": "2017-02-19 03:12:08 -0500"
 }
 
