@@ -81,7 +81,7 @@
     {
       "title": "Man Seeking Woman",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4942/thumb_man-seeking-woman-4084446dd754256ac94a110ee4975396.jpg",
-      "latest_episode_aired_on": "2017-02-08",
+      "latest_episode_aired_on": "2017-02-22",
       "first_episode_aired_on": "2015-01-14",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -410,6 +410,22 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2980696/",
         "wikipedia": "https://en.wikipedia.org/wiki/Quarry_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Red Oaks",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4724/thumb_red-oaks-f56a26e65569a309bf679abc6eb482d9.jpg",
+      "latest_episode_aired_on": "2016-11-11",
+      "first_episode_aired_on": "2015-09-14",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "https://www.amazon.com/gp/product/B00MR9WBVS",
+        "amazon_prime": "https://www.amazon.com/gp/product/B00MR9WBVS"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3973820/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Red_Oaks"
       }
     },
     {
@@ -1228,6 +1244,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-02-21 03:12:08 -0500"
+  "updated_at": "2017-02-23 03:12:08 -0500"
 }
 
