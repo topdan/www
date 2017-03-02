@@ -420,6 +420,14 @@
       }
     },
     {
+      "name": "Guillermo del Toro",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21517/thumb_1-91fb2a04d903a7ca83c8aeb621fc82ca.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0868219/"
+      }
+    },
+    {
       "name": "Guy Pearce",
       "job": "actor",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/7/thumb_1-371e5509fdfd1cb4b7bc474ab5c2e412.jpg",
@@ -1072,6 +1080,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-05-01 20:43:55 -0400",
-  "updated_at": "2016-07-17 14:34:37 -0400"
+  "updated_at": "2017-03-02 03:12:08 -0500"
 }
 

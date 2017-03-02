@@ -2387,8 +2387,7 @@
       "release_date": "2006-12-25",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16528/thumb_children-of-men-2006-7a9b7b49fd2c6366f68551229b7b7c01.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000QGAU4E",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP54591?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000QGAU4E"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0206634/",
@@ -2708,7 +2707,8 @@
       "release_date": "2004-02-27",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16800/thumb_club-dread-2004-4865c6eeacaeeff0eb33e9dfd72e572f.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000I9U8YG"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000I9U8YG",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP33495?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0331953/",
@@ -3297,7 +3297,8 @@
       "release_date": "2000-09-05",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3879/thumb_memento-2000-d961d5eebe17ca1cd75b6250d979a8a0.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B004YRSBTW"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B004YRSBTW",
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0209144/",
@@ -3460,6 +3461,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00BB8Q1RQ",
         "amazon_prime": "http://www.amazon.com/gp/product/B00BB8Q1RQ",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP58927?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "netflix": "https://www.netflix.com/title/60000410"
       },
       "references": {
@@ -3997,7 +3999,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12642/thumb_blazing-saddles-1974-803ceeeaf387e0b23052ae4be14d5459.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0014C3KN2",
-        "itunes": "https://itunes.apple.com/us/movie/blazing-saddles/id271003460"
+        "itunes": "https://itunes.apple.com/us/movie/blazing-saddles/id271003460",
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0071230/",
@@ -4050,6 +4053,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-02-19 03:12:08 -0500"
+  "updated_at": "2017-03-02 03:12:08 -0500"
 }
 
