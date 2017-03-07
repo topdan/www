@@ -79,23 +79,6 @@
       }
     },
     {
-      "title": "HUMANS",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4176/thumb_humans-494025a309eeff11f607d5d81eab674c.jpg",
-      "latest_episode_aired_on": "2017-02-13",
-      "first_episode_aired_on": "2015-06-14",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B010O43Z8U",
-        "amc_com": "http://www.amc.com/shows/humans"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt4122068/",
-        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/humans/s01/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Humans_%28TV_series%29"
-      }
-    },
-    {
       "title": "Man Seeking Woman",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4942/thumb_man-seeking-woman-4084446dd754256ac94a110ee4975396.jpg",
       "latest_episode_aired_on": "2017-03-01",
@@ -1259,6 +1242,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-03-06 03:12:08 -0500"
+  "updated_at": "2017-03-07 03:12:08 -0500"
 }
 
