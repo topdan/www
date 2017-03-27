@@ -95,6 +95,19 @@
       }
     },
     {
+      "title": "Miss Stevens",
+      "year": 2016,
+      "release_date": "2016-09-16",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20825/thumb_miss-stevens-2016-590480df41540a30d42ee3bc8ec35b6f.jpg",
+      "streams": {
+        "netflix": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2693580/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/miss_stevens/"
+      }
+    },
+    {
       "title": "Nocturnal Animals",
       "year": 2016,
       "release_date": "2016-11-18",
@@ -369,6 +382,21 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt4178092/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/the_gift_2015/"
+      }
+    },
+    {
+      "title": "The Man from U.N.C.L.E.",
+      "year": 2015,
+      "release_date": "2015-08-14",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15471/thumb_the-man-from-uncle-2015-95f74d17a0333d730a18bb0457b7beff.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B013WF1Z4O",
+        "itunes": "https://itunes.apple.com/us/movie/the-man-from-u.n.c.l.e./id1024885267",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39540?videoMode=embeddedVideo?showSpecialFeatures=false/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1638355/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/the_man_from_uncle/"
       }
     },
     {
@@ -2860,9 +2888,10 @@
       "title": "The Life Aquatic with Steve Zissou",
       "year": 2004,
       "release_date": "2004-12-10",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15269/thumb_the-life-aquatic-with-steve-zissou-2004-0690d3ebb4b517f0602417c61c8d596d.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15269/thumb_the-life-aquatic-with-steve-zissou-2004-2d55acf8ebc9d0418fb244588b9570cb.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B003QSGF0C"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B003QSGF0C",
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0362270/",
@@ -3541,6 +3570,18 @@
       }
     },
     {
+      "title": "Lock, Stock and Two Smoking Barrels",
+      "year": 1998,
+      "release_date": "1999-03-05",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12806/thumb_lock-stock-and-two-smoking-barrels-1998-802c5cd2011200e76a54d8c9a7804c9a.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0120735/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/lock_stock_and_two_smoking_barrels/"
+      }
+    },
+    {
       "title": "Rounders",
       "year": 1998,
       "release_date": "1998-09-11",
@@ -3566,6 +3607,17 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt0120609/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/big_hit/"
+      }
+    },
+    {
+      "title": "The Legend of 1900",
+      "year": 1998,
+      "release_date": null,
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21596/thumb_the-leading-information-resource-for-the-entertainment-industry-1998-5730e0bb5a1a0eb240925cc8d7313c90.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0120731/"
       }
     },
     {
@@ -4055,6 +4107,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-03-24 03:12:07 -0400"
+  "updated_at": "2017-03-27 03:12:08 -0400"
 }
 
