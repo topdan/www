@@ -178,9 +178,9 @@
       "title": "Brooklyn",
       "year": 2015,
       "release_date": "2015-11-04",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/17124/thumb_brooklyn-2015-407e7b0400f92a0698b5c9cf1a15cc58.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/17124/thumb_brooklyn-2015-d01d8c6eeece6771e3212cb75d8c0445.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP55443?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39716?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2381111/",
@@ -1260,8 +1260,7 @@
       "release_date": "2013-03-29",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9779/thumb_the-place-beyond-the-pines-2013-11ad544a917f827e29c1e495618afbd5.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00DP3M14C",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP42151?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00DP3M14C"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1817273/",
@@ -1925,7 +1924,7 @@
       "release_date": "2009-09-09",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19961/thumb_9-2009-20ffa30614f6d22ecfeba5f8e239504b.jpg",
       "streams": {
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39258?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP29624?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0472033/",
@@ -2173,10 +2172,10 @@
       "title": "Speed Racer",
       "year": 2008,
       "release_date": "2008-04-28",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12133/thumb_speed-racer-2008-ddc375152e328b93e06783ac67850f71.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12133/thumb_speed-racer-2008-991d6aac0673da6767dfecf1646d938a.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001GXYBY6",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39219?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP25717?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0811080/",
@@ -2230,7 +2229,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16156/thumb_across-the-universe-2007-e24eac51015659b7bd62f919b7b4b04b.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0016BP0PW",
-        "amazon_prime": null
+        "amazon_prime": null,
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0445922/",
@@ -3313,8 +3313,7 @@
       "release_date": "2000-03-31",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16465/thumb_high-fidelity-2000-2b2bb578c296da31e28c1af5d2f87579.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B005CNFVOA",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37871?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B005CNFVOA"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0146882/",
@@ -3968,8 +3967,9 @@
       "title": "RoboCop",
       "year": 1987,
       "release_date": "1987-07-17",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14936/thumb_robocop-1987-20d571be93e5bcbd4709a0a23b6fc251.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14936/thumb_robocop-1987-1abab5d99ceb557039e0cef714c9cfe6.jpg",
       "streams": {
+        "amazon_prime": null,
         "netflix": "https://www.netflix.com/title/17017738"
       },
       "references": {
@@ -4106,6 +4106,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-04-01 03:12:07 -0400"
+  "updated_at": "2017-04-02 03:12:07 -0400"
 }
 

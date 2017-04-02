@@ -146,7 +146,7 @@
     {
       "title": "The Middle",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-b404234ef6545cb214535f850cea91c0.jpg",
-      "latest_episode_aired_on": "2017-03-07",
+      "latest_episode_aired_on": "2017-03-14",
       "first_episode_aired_on": "2009-09-30",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -334,7 +334,7 @@
     {
       "title": "iZombie",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3879/thumb_izombie-8b70cfc7520e5e6dd998379c5a6334f1.jpg",
-      "latest_episode_aired_on": "2016-04-05",
+      "latest_episode_aired_on": "2016-04-12",
       "first_episode_aired_on": "2015-03-17",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1290,6 +1290,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-03-31 03:12:07 -0400"
+  "updated_at": "2017-04-02 03:12:07 -0400"
 }
 
