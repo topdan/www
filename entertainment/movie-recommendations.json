@@ -137,7 +137,7 @@
       "release_date": "2016-05-20",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19612/thumb_the-nice-guys-2016-89e5e5d40af0830f50d69c70e23c36b3.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP60087?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP60093?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3799694/",
@@ -3258,8 +3258,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7369/thumb_vanilla-sky-2001-247e73558b65a598a4a4ef958ba2a625.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000IZ8VDK",
-        "amazon_prime": "http://www.amazon.com/gp/product/B000IZ8VDK",
-        "netflix": "https://www.netflix.com/title/60021786"
+        "amazon_prime": "http://www.amazon.com/gp/product/B000IZ8VDK"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0259711/",
@@ -4106,6 +4105,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-04-02 03:12:07 -0400"
+  "updated_at": "2017-04-03 03:12:08 -0400"
 }
 

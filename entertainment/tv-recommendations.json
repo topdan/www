@@ -11,7 +11,7 @@
     {
       "title": "Black-ish",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-4dd4c644bcb0d842f9f19358eda2b109.jpg",
-      "latest_episode_aired_on": "2017-03-15",
+      "latest_episode_aired_on": "2017-03-29",
       "first_episode_aired_on": "2014-09-24",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -112,9 +112,25 @@
       }
     },
     {
+      "title": "Rick and Morty",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2450/thumb_rick-and-morty-d743d74ea71e01ac2b56f7d145d2547b.jpg",
+      "latest_episode_aired_on": "2017-04-01",
+      "first_episode_aired_on": "2013-12-02",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "adult_swim_com": "http://www.adultswim.com/videos/rick-and-morty/",
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00GWERQAU"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2861424/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Rick_and_Morty"
+      }
+    },
+    {
       "title": "The Expanse",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4825/thumb_the-expanse-dca237a43c13a2b8fb084fff16d7eb89.jpg",
-      "latest_episode_aired_on": "2017-03-22",
+      "latest_episode_aired_on": "2017-03-29",
       "first_episode_aired_on": "2015-11-23",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -695,22 +711,6 @@
       }
     },
     {
-      "title": "Rick and Morty",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2450/thumb_rick-and-morty-d743d74ea71e01ac2b56f7d145d2547b.jpg",
-      "latest_episode_aired_on": "2015-10-04",
-      "first_episode_aired_on": "2013-12-02",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "adult_swim_com": "http://www.adultswim.com/videos/rick-and-morty/",
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00GWERQAU"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt2861424/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Rick_and_Morty"
-      }
-    },
-    {
       "title": "Show Me a Hero",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4534/thumb_show-me-a-hero-40775079820adb804fbd6c6460ff1983.jpg",
       "latest_episode_aired_on": "2015-08-24",
@@ -1085,8 +1085,7 @@
       "unwatched_episodes_count": 0,
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001V98S2G",
-        "amazon_prime": "http://www.amazon.com/gp/product/B001V98S2G",
-        "netflix": "https://www.netflix.com/title/70140361"
+        "amazon_prime": "http://www.amazon.com/gp/product/B001V98S2G"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1235547/",
@@ -1246,8 +1245,7 @@
       "final_episode_aired_on": "2002-12-20",
       "unwatched_episodes_count": 0,
       "streams": {
-        "hulu": "http://www.hulu.com/firefly",
-        "netflix": "https://www.netflix.com/title/70202753"
+        "hulu": "http://www.hulu.com/firefly"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0303461/",
@@ -1290,6 +1288,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-04-02 03:12:07 -0400"
+  "updated_at": "2017-04-03 03:12:08 -0400"
 }
 
