@@ -637,9 +637,10 @@
       "title": "In a World...",
       "year": 2014,
       "release_date": "2013-08-09",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8838/thumb_in-a-world-2014-13b8bfe707f2636309c051e5e86bfe78.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8838/thumb_in-a-world-2014-7b1f7a4dbec02843ab01aeeb01c5a0e5.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00H89NAWQ",
+        "amazon_prime": null,
         "netflix": "https://www.netflix.com/title/70267479"
       },
       "references": {
@@ -4104,6 +4105,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-04-09 03:12:07 -0400"
+  "updated_at": "2017-04-10 03:12:07 -0400"
 }
 
