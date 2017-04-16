@@ -97,14 +97,15 @@
     },
     {
       "title": "iZombie",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3879/thumb_izombie-8b70cfc7520e5e6dd998379c5a6334f1.jpg",
-      "latest_episode_aired_on": "2017-04-04",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3879/thumb_izombie-ef11374077b7952539c60471b90ab7ed.jpg",
+      "latest_episode_aired_on": "2017-04-11",
       "first_episode_aired_on": "2015-03-17",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00UV5X1PA",
         "cwtv_com": "http://www.cwtv.com/shows/izombie",
+        "hulu": "http://www.hulu.com/izombie",
         "netflix": "https://www.netflix.com/title/80027159"
       },
       "references": {
@@ -194,7 +195,7 @@
     {
       "title": "The Middle",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-b404234ef6545cb214535f850cea91c0.jpg",
-      "latest_episode_aired_on": "2017-04-04",
+      "latest_episode_aired_on": "2017-04-11",
       "first_episode_aired_on": "2009-09-30",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1255,6 +1256,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-04-14 03:12:07 -0400"
+  "updated_at": "2017-04-16 03:12:08 -0400"
 }
 
