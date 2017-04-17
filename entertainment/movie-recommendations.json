@@ -9,6 +9,18 @@
   "data_type": "Entertainment::Movie",
   "data": [
     {
+      "title": "10 Cloverfield Lane",
+      "year": 2016,
+      "release_date": "2016-03-11",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19741/thumb_10-cloverfield-lane-2016-555f783d6ca46c5e73a5249b5794f185.jpg",
+      "streams": {
+        "amazon_prime": null
+      },
+      "references": {
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/10_cloverfield_lane/"
+      }
+    },
+    {
       "title": "A Monster Calls",
       "year": 2016,
       "release_date": "2016-10-14",
@@ -70,6 +82,19 @@
       }
     },
     {
+      "title": "Kubo and the Two Strings",
+      "year": 2016,
+      "release_date": "2016-08-19",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19629/thumb_kubo-and-the-two-strings-2016-d0b165946a826720ed2337cd46bc8d4e.jpg",
+      "streams": {
+        "netflix": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4302938/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/kubo_and_the_two_strings_2016/"
+      }
+    },
+    {
       "title": "La La Land",
       "year": 2016,
       "release_date": "2016-12-02",
@@ -105,6 +130,18 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2693580/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/miss_stevens/"
+      }
+    },
+    {
+      "title": "Moana",
+      "year": 2016,
+      "release_date": "2016-11-23",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20536/thumb_moana-2016-a9fe83c44c4847ab230be5d5ff79e76d.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3521164/",
+        "rotten_tomatoes": "https://www.rottentomatoes.com/m/moana_2016/"
       }
     },
     {
@@ -2357,6 +2394,21 @@
       }
     },
     {
+      "title": "Superbad",
+      "year": 2007,
+      "release_date": "2007-08-17",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18568/thumb_superbad-unrated-2007-7bc99d1e3f45a847966f1ce7519835b8.jpeg",
+      "streams": {
+        "encore": "http://www.encoreplay.com/Movies/Details/1708",
+        "itunes": "https://itunes.apple.com/us/movie/superbad-unrated/id323044694",
+        "netflix": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0829482/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/superbad/"
+      }
+    },
+    {
       "title": "The Darjeeling Limited",
       "year": 2007,
       "release_date": "2007-10-26",
@@ -3758,6 +3810,20 @@
       }
     },
     {
+      "title": "Before Sunrise",
+      "year": 1995,
+      "release_date": "1995-01-27",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14553/thumb_before-sunrise-1995-9b68080fef68d36cb28cbc8bbe7496bb.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001NA6096",
+        "amazon_prime": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0112471/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/before_sunrise/"
+      }
+    },
+    {
       "title": "Billy Madison",
       "year": 1995,
       "release_date": "1995-02-10",
@@ -4105,6 +4171,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-04-10 03:12:07 -0400"
+  "updated_at": "2017-04-17 03:12:07 -0400"
 }
 
