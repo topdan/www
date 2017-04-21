@@ -193,6 +193,21 @@
       }
     },
     {
+      "title": "The Leftovers",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3153/thumb_the-leftovers-866762268e6e54b0a977ee4de723c453.jpg",
+      "latest_episode_aired_on": "2017-04-16",
+      "first_episode_aired_on": "2014-06-29",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP43206?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2699128/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Leftovers_%28TV_series%29"
+      }
+    },
+    {
       "title": "The Middle",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-b404234ef6545cb214535f850cea91c0.jpg",
       "latest_episode_aired_on": "2017-04-11",
@@ -396,21 +411,6 @@
       }
     },
     {
-      "title": "Narcos",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4389/thumb_narcos-ecb71898d3981b0d882c32d80789aefb.jpg",
-      "latest_episode_aired_on": "2016-09-02",
-      "first_episode_aired_on": "2015-08-28",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "netflix": "https://www.netflix.com/title/80025172"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt2707408/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Narcos"
-      }
-    },
-    {
       "title": "Peaky Blinders",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4055/thumb_peaky-blinders-a4cc4e465872e7f25994d80a236f01c5.jpg",
       "latest_episode_aired_on": "2016-06-09",
@@ -454,22 +454,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2980696/",
         "wikipedia": "https://en.wikipedia.org/wiki/Quarry_%28TV_series%29"
-      }
-    },
-    {
-      "title": "Red Oaks",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4724/thumb_red-oaks-f56a26e65569a309bf679abc6eb482d9.jpg",
-      "latest_episode_aired_on": "2016-11-11",
-      "first_episode_aired_on": "2015-09-14",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "https://www.amazon.com/gp/product/B00MR9WBVS",
-        "amazon_prime": "https://www.amazon.com/gp/product/B00MR9WBVS"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt3973820/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Red_Oaks"
       }
     },
     {
@@ -707,21 +691,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2492296/",
         "wikipedia": "https://en.wikipedia.org/wiki/Show_Me_a_Hero"
-      }
-    },
-    {
-      "title": "The Leftovers",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3153/thumb_the-leftovers-866762268e6e54b0a977ee4de723c453.jpg",
-      "latest_episode_aired_on": "2015-12-06",
-      "first_episode_aired_on": "2014-06-29",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP43206?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt2699128/",
-        "wikipedia": "https://en.wikipedia.org/wiki/The_Leftovers_%28TV_series%29"
       }
     },
     {
@@ -1019,7 +988,6 @@
       "unwatched_episodes_count": 0,
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B002R3KQCA",
-        "amazon_prime": "http://www.amazon.com/gp/product/B002R3KQCA",
         "netflix": "https://www.netflix.com/title/70136125"
       },
       "references": {
@@ -1078,13 +1046,14 @@
     },
     {
       "title": "Scrubs",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/138/thumb_scrubs-12ef3e16fc385f0be3ac5d4a8a0348bd.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/138/thumb_scrubs-c0886ec8bbb35632966c5962d6923350.jpg",
       "latest_episode_aired_on": "2010-03-17",
       "first_episode_aired_on": "2001-10-02",
       "final_episode_aired_on": "2010-03-17",
       "unwatched_episodes_count": 0,
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B003ZCDHZA",
+        "hulu": "http://www.hulu.com/scrubs",
         "netflix": "https://www.netflix.com/title/70153393"
       },
       "references": {
@@ -1256,6 +1225,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-04-17 03:12:07 -0400"
+  "updated_at": "2017-04-21 03:12:08 -0400"
 }
 
