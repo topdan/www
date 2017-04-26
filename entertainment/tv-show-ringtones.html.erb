@@ -15,17 +15,3 @@
     </div>
   <% end %>
 </div>
-<!--
-<div id="big-list">
-  <% @current_post.data.in_groups_of(3).each do |group| %>
-    <div class="row">
-      <% group.compact.each_with_index do |data, i| %>
-      <div class="span4">
-        <h3 class="center"><%= link_to data.show, data.video_url %></h3>
-        <p class="center"><%= link_to image_tag(data.thumbnail_url, width: 240), data.video_url %></p>
-        <%= post_markdown data.description %>
-      </div>
-      <% end %>
-    </div>
-  <% end %>
-</div> -->

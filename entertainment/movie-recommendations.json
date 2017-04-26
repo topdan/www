@@ -230,7 +230,7 @@
       "release_date": "2015-10-16",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15182/thumb_crimson-peak-2015-6abccfb058b2bf53b8baff9fbd51bc5e.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP60283?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP60279?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2554274/",
@@ -3541,7 +3541,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00BB8Q1RQ",
         "amazon_prime": "http://www.amazon.com/gp/product/B00BB8Q1RQ",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP58927?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP59719?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "netflix": "https://www.netflix.com/title/60000410"
       },
       "references": {
@@ -4171,6 +4171,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-04-17 03:12:07 -0400"
+  "updated_at": "2017-04-25 03:12:09 -0400"
 }
 

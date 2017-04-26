@@ -11,7 +11,7 @@
     {
       "title": "Black-ish",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-4dd4c644bcb0d842f9f19358eda2b109.jpg",
-      "latest_episode_aired_on": "2017-03-29",
+      "latest_episode_aired_on": "2017-04-05",
       "first_episode_aired_on": "2014-09-24",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -29,7 +29,7 @@
     {
       "title": "Bob's Burgers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
-      "latest_episode_aired_on": "2017-04-02",
+      "latest_episode_aired_on": "2017-04-23",
       "first_episode_aired_on": "2011-01-09",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -408,6 +408,24 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt3322312/",
         "wikipedia": "https://en.wikipedia.org/wiki/Daredevil_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Mr. Robot",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4020/thumb_mr-robot-516ef9897a52962a6ab2fc56ef985b7b.jpg",
+      "latest_episode_aired_on": "2016-09-14",
+      "first_episode_aired_on": "2015-05-27",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00YCVCBRS",
+        "hulu": "http://www.hulu.com/mr-robot",
+        "usa_network_com": "http://www.usanetwork.com/mrrobot/videos?category=-1"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4158110/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/mr-robot/s01/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mr._Robot_%28TV_series%29"
       }
     },
     {
@@ -1225,6 +1243,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-04-23 03:12:07 -0400"
+  "updated_at": "2017-04-26 03:12:08 -0400"
 }
 
