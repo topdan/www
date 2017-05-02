@@ -2708,7 +2708,6 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0065FIHYA",
         "amazon_prime": null,
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38995?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "netflix": null
       },
       "references": {
@@ -3740,9 +3739,10 @@
       "title": "Good Will Hunting",
       "year": 1997,
       "release_date": "1997-12-05",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/2552/thumb_good-will-hunting-1997-03159784a96ab43bf770321ce9b36d28.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/2552/thumb_good-will-hunting-1997-d6a8fbe4efde042e0a62c734cb0c4c3c.jpg",
       "streams": {
         "amazon_prime": "http://www.amazon.com/gp/product/B006RXQA5I",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP60513?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/good-will-hunting/id432503534",
         "netflix": "https://www.netflix.com/title/17405997"
       },
@@ -3801,8 +3801,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00AYB12PC",
         "amazon_prime": "http://www.amazon.com/gp/product/B00AYB12PC",
-        "itunes": "https://itunes.apple.com/us/movie/scream/id425968586",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38976?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "itunes": "https://itunes.apple.com/us/movie/scream/id425968586"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0117571/",
@@ -3993,7 +3992,6 @@
       "release_date": "1989-05-19",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8642/thumb_road-house-1989-f602f2ff290eb4d23a46afaf8b22f920.jpg",
       "streams": {
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP33595?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0098206/",
@@ -4171,6 +4169,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-04-25 03:12:09 -0400"
+  "updated_at": "2017-05-02 03:12:08 -0400"
 }
 
