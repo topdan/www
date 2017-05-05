@@ -143,6 +143,14 @@
       }
     },
     {
+      "name": "Ben Wheatley",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/47899/thumb_1-8e521facad98647f830763477e717840.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm1296554/"
+      }
+    },
+    {
       "name": "Bernardo Bertolucci",
       "job": "director",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/26394/thumb_1-91b65675f0dbae51cc4c9a9aecd27bb9.jpg",
@@ -504,19 +512,19 @@
     },
     {
       "name": "Jennifer Westfeldt",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22875/thumb_1-435b05adea8a53fd57cc308a65258eab.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0922724/"
+      }
+    },
+    {
+      "name": "Jennifer Westfeldt",
       "job": "actor",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/6666/thumb_1-435b05adea8a53fd57cc308a65258eab.jpg",
       "references": {
         "imdb": "http://www.imdb.com/name/nm0922724/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162692503"
-      }
-    },
-    {
-      "name": "Jennifer Westfeldt",
-      "job": "director",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22875/thumb_1-435b05adea8a53fd57cc308a65258eab.jpg",
-      "references": {
-        "imdb": "http://www.imdb.com/name/nm0922724/"
       }
     },
     {
@@ -1080,6 +1088,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-05-01 20:43:55 -0400",
-  "updated_at": "2017-03-02 03:12:08 -0500"
+  "updated_at": "2017-05-05 09:44:27 -0400"
 }
 
