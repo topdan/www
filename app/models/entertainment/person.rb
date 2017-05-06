@@ -28,6 +28,8 @@ class Entertainment::Person < GitRecord::Embedded
       %w(actor)
     elsif director?
       %w(director)
+    else
+      raise "Unknown job for #{title.inspect}"
     end
   end
 
