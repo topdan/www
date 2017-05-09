@@ -37,8 +37,7 @@
         "adult_swim_com": "http://www.adultswim.com/videos/bobs-burgers/",
         "amazon_one_click": "http://www.amazon.com/gp/product/B004I0KVCK",
         "fox_com": "http://www.fox.com/bobs-burgers",
-        "hulu": "http://www.hulu.com/bobs-burgers",
-        "netflix": "https://www.netflix.com/title/70175658"
+        "hulu": "http://www.hulu.com/bobs-burgers"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1561755/",
@@ -1240,6 +1239,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-05-08 03:12:08 -0400"
+  "updated_at": "2017-05-09 03:12:09 -0400"
 }
 
