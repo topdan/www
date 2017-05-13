@@ -130,6 +130,21 @@
       }
     },
     {
+      "title": "Master of None",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4774/thumb_master-of-none-892ad3016354dc1c717b3f8dd14cba25.jpg",
+      "latest_episode_aired_on": "2017-05-12",
+      "first_episode_aired_on": "2015-11-06",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80049714"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4635276/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Master_of_None"
+      }
+    },
+    {
       "title": "Rick and Morty",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2450/thumb_rick-and-morty-d743d74ea71e01ac2b56f7d145d2547b.jpg",
       "latest_episode_aired_on": "2017-04-01",
@@ -660,21 +675,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt1489428/",
         "wikipedia": "https://en.wikipedia.org/wiki/Justified_%28TV_series%29"
-      }
-    },
-    {
-      "title": "Master of None",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4774/thumb_master-of-none-8392f6771d54cf03b26fe97c0eb6c322.jpg",
-      "latest_episode_aired_on": "2015-11-06",
-      "first_episode_aired_on": "2015-11-06",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "netflix": "https://www.netflix.com/title/80049714"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt4635276/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Master_of_None"
       }
     },
     {
@@ -1239,6 +1239,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-05-12 03:12:09 -0400"
+  "updated_at": "2017-05-13 03:12:08 -0400"
 }
 
