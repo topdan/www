@@ -29,7 +29,7 @@
     {
       "title": "Bob's Burgers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
-      "latest_episode_aired_on": "2017-04-30",
+      "latest_episode_aired_on": "2017-05-07",
       "first_episode_aired_on": "2011-01-09",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -97,7 +97,7 @@
     {
       "title": "iZombie",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3879/thumb_izombie-ef11374077b7952539c60471b90ab7ed.jpg",
-      "latest_episode_aired_on": "2017-05-02",
+      "latest_episode_aired_on": "2017-05-09",
       "first_episode_aired_on": "2015-03-17",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -146,7 +146,7 @@
     },
     {
       "title": "Rick and Morty",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2450/thumb_rick-and-morty-d743d74ea71e01ac2b56f7d145d2547b.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2450/thumb_rick-and-morty-e66c394e4c67ab7796711b2a51f10b31.jpg",
       "latest_episode_aired_on": "2017-04-01",
       "first_episode_aired_on": "2013-12-02",
       "final_episode_aired_on": null,
@@ -240,7 +240,7 @@
     {
       "title": "The Middle",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-b404234ef6545cb214535f850cea91c0.jpg",
-      "latest_episode_aired_on": "2017-05-02",
+      "latest_episode_aired_on": "2017-05-09",
       "first_episode_aired_on": "2009-09-30",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1239,6 +1239,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-05-13 03:12:08 -0400"
+  "updated_at": "2017-05-14 03:12:09 -0400"
 }
 
