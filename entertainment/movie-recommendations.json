@@ -1295,9 +1295,10 @@
       "title": "The Place Beyond the Pines",
       "year": 2013,
       "release_date": "2013-03-29",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9779/thumb_the-place-beyond-the-pines-2013-11ad544a917f827e29c1e495618afbd5.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9779/thumb_the-place-beyond-the-pines-2013-9f8846688cf35a37cf8f7b0cf3a64d56.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00DP3M14C"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00DP3M14C",
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1817273/",
@@ -4169,6 +4170,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-05-03 03:12:09 -0400"
+  "updated_at": "2017-05-17 03:12:09 -0400"
 }
 
