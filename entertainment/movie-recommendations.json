@@ -1773,12 +1773,13 @@
       "title": "Super",
       "year": 2011,
       "release_date": "2010-12-03",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5627/thumb_super-2011-b1a944805d826992b3cfc07f7a8c2e12.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5627/thumb_super-2011-848a9c104bb56716fbc6317efab77d5c.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B005GIS6T8",
         "netflix": "https://www.netflix.com/title/70135881"
       },
       "references": {
+        "imdb": "http://www.imdb.com/title/tt1512235/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/771240018/"
       }
     },
@@ -4170,6 +4171,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-05-17 03:12:09 -0400"
+  "updated_at": "2017-05-24 03:12:09 -0400"
 }
 
