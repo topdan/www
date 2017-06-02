@@ -355,8 +355,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16032/thumb_me-and-earl-and-the-dying-girl-2015-f54ecdbe77cbb2302e045d0f36dc8e7f.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B016887ZU0",
-        "itunes": "https://itunes.apple.com/us/movie/me-and-earl-and-the-dying-girl/id997193474",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39305?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "itunes": "https://itunes.apple.com/us/movie/me-and-earl-and-the-dying-girl/id997193474"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2582496/",
@@ -1290,11 +1289,11 @@
       "title": "The Conjuring",
       "year": 2013,
       "release_date": "2013-07-19",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9007/thumb_the-conjuring-2013-ab15052f45e82a866f72f47617820bc4.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9007/thumb_the-conjuring-2013-d89aacf6dcfbaa966688441e07a93819.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00FPH6A70",
-        "itunes": "https://itunes.apple.com/us/movie/the-conjuring/id687851264",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39441?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP42926?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "itunes": "https://itunes.apple.com/us/movie/the-conjuring/id687851264"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1457767/",
@@ -3306,10 +3305,11 @@
       "title": "Serendipity",
       "year": 2001,
       "release_date": "2001-10-05",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/17935/thumb_serendipity-2001-999cf603a92c749bcc7fb6641770062e.jpeg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/17935/thumb_serendipity-2001-7216dad7b6ba730c03665c2defa4672d.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00COH0W00",
         "amazon_prime": "http://www.amazon.com/gp/product/B00COH0W00",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP61708?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "netflix": "https://www.netflix.com/title/60021634"
       },
       "references": {
@@ -3608,7 +3608,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16033/thumb_the-sixth-sense-1999-f00d07c18f664fe8f67424eeb853bf0b.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0060D0N9O",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP58175?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "netflix": "https://www.netflix.com/title/26797528"
       },
       "references": {
@@ -3672,10 +3671,11 @@
       "title": "Rounders",
       "year": 1998,
       "release_date": "1998-09-11",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7972/thumb_rounders-1998-9e753b02a47687f63cfffc593649593f.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7972/thumb_rounders-1998-44734b3d587698e9189acae55f68623a.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00AYB18LK",
-        "amazon_prime": "http://www.amazon.com/gp/product/B00AYB18LK"
+        "amazon_prime": "http://www.amazon.com/gp/product/B00AYB18LK",
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0128442/",
@@ -4208,6 +4208,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-06-01 03:12:09 -0400"
+  "updated_at": "2017-06-02 03:12:09 -0400"
 }
 
