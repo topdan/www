@@ -180,7 +180,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4049/thumb_sense8-45d3a137697e45b8f88e0c7c8679c332.jpg",
       "latest_episode_aired_on": "2017-05-05",
       "first_episode_aired_on": "2015-06-05",
-      "final_episode_aired_on": null,
+      "final_episode_aired_on": "2017-05-05",
       "unwatched_episodes_count": 0,
       "streams": {
         "netflix": "https://www.netflix.com/title/80025744"
@@ -212,7 +212,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5207/thumb_the-get-down-94da51dc613effb806fc7a1eb0c25f39.jpg",
       "latest_episode_aired_on": "2017-04-07",
       "first_episode_aired_on": "2016-08-12",
-      "final_episode_aired_on": null,
+      "final_episode_aired_on": "2017-04-07",
       "unwatched_episodes_count": 0,
       "streams": {
       },
@@ -267,6 +267,21 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt1442464/",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Middle_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Unbreakable Kimmy Schmidt",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3842/thumb_unbreakable-kimmy-schmidt-9d1527681b68e3cd14c128900c21d8bf.jpg",
+      "latest_episode_aired_on": "2017-05-19",
+      "first_episode_aired_on": "2015-03-06",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80025384"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3339966/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Unbreakable_Kimmy_Schmidt"
       }
     },
     {
@@ -1240,6 +1255,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-06-02 03:12:09 -0400"
+  "updated_at": "2017-06-03 03:12:09 -0400"
 }
 
