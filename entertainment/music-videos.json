@@ -9,6 +9,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Robin Schulz",
+      "song": "Sugar",
+      "video_url": "https://www.youtube.com/watch?v=bvC_0foemLY",
+      "thumbnail_url": "https://img.youtube.com/vi/bvC_0foemLY/0.jpg",
+      "added_at": "2017-06-07 00:24:10 -0400"
+    },
+    {
       "artist": "Parcels",
       "song": "Gamesoflock",
       "video_url": "https://www.youtube.com/watch?v=cxhn0vNhBLU",
@@ -958,6 +965,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2017-05-24 03:52:07 -0400"
+  "updated_at": "2017-06-07 03:52:06 -0400"
 }
 
