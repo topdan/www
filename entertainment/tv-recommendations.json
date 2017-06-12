@@ -242,7 +242,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3153/thumb_the-leftovers-866762268e6e54b0a977ee4de723c453.jpg",
       "latest_episode_aired_on": "2017-05-28",
       "first_episode_aired_on": "2014-06-29",
-      "final_episode_aired_on": null,
+      "final_episode_aired_on": "2017-06-04",
       "unwatched_episodes_count": 0,
       "streams": {
         "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP43206?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
@@ -1255,6 +1255,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-06-11 03:12:09 -0400"
+  "updated_at": "2017-06-12 03:12:09 -0400"
 }
 
