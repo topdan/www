@@ -160,6 +160,21 @@
       }
     },
     {
+      "title": "Preacher",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5094/thumb_preacher-07d891c1f63ff225de413ee8ca765541.jpg",
+      "latest_episode_aired_on": "2017-06-26",
+      "first_episode_aired_on": "2016-05-22",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amc_com": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5016504/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Preacher_%28TV_series%29"
+      }
+    },
+    {
       "title": "Rick and Morty",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2450/thumb_rick-and-morty-e66c394e4c67ab7796711b2a51f10b31.jpg",
       "latest_episode_aired_on": "2017-04-01",
@@ -487,21 +502,6 @@
         "imdb": "http://www.imdb.com/title/tt2442560/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/tv/peaky-blinders/s02/",
         "wikipedia": "https://en.wikipedia.org/wiki/Peaky_Blinders_%28TV_series%29"
-      }
-    },
-    {
-      "title": "Preacher",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5094/thumb_preacher-07d891c1f63ff225de413ee8ca765541.jpg",
-      "latest_episode_aired_on": "2016-07-31",
-      "first_episode_aired_on": "2016-05-22",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amc_com": null
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt5016504/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Preacher_%28TV_series%29"
       }
     },
     {
@@ -1273,6 +1273,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-06-30 03:12:12 -0400"
+  "updated_at": "2017-07-01 03:12:13 -0400"
 }
 
