@@ -1207,9 +1207,10 @@
       "title": "Her",
       "year": 2013,
       "release_date": "2013-12-18",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12082/thumb_her-2013-80afb8f0768ae0e2be49a2ea5f339636.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12082/thumb_her-2013-9f7792435467a33f5e4f0d4395439ed8.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00KATY250"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00KATY250",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP44614?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1798709/",
@@ -1442,8 +1443,7 @@
       "release_date": "2012-10-26",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9180/thumb_cloud-atlas-2012-8e922e6e0ba352021f561401bbddf751.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00CRWJ5GO",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP41461?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00CRWJ5GO"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1371111/",
@@ -1891,9 +1891,10 @@
       "title": "Hereafter",
       "year": 2010,
       "release_date": "2010-10-22",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12329/thumb_hereafter-2010-d3608b05b25dba9c4e347ece95d05e38.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12329/thumb_hereafter-2010-f4765ca8464c1d72e7e80a5a88606313.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B004NOH9LW"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B004NOH9LW",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP32874?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1212419/",
@@ -2151,9 +2152,10 @@
       "title": "Watchmen",
       "year": 2009,
       "release_date": "2009-03-06",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12508/thumb_watchmen-2009-06934d527373da37699e085ce5136b7e.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12508/thumb_watchmen-2009-f880e341a0d5f0e501fcc5e4f34a081f.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B002EDH0FE"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B002EDH0FE",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP62895?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0409459/",
@@ -2262,9 +2264,10 @@
       "title": "The Dark Knight",
       "year": 2008,
       "release_date": "2008-07-18",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16753/thumb_the-dark-knight-2008-c0c93ad61d51d32bf3629454d723af25.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16753/thumb_the-dark-knight-2008-38b11925313eb035aa85f9b9a3236bf0.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001OGWY1W",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP63476?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/the-dark-knight/id764632601"
       },
       "references": {
@@ -2396,10 +2399,10 @@
       "title": "Shoot 'Em Up",
       "year": 2007,
       "release_date": "2007-09-07",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13213/thumb_shoot-em-up-2007-3d4e17e2dfb49f49575356af5741fabf.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13213/thumb_shoot-em-up-2007-38688122f17c5f57ca762de311faa15b.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00125JP1C",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39522?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GORO1B20505?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0465602/",
@@ -3088,9 +3091,10 @@
       "title": "Big Trouble",
       "year": 2002,
       "release_date": "2002-04-05",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/17040/thumb_big-trouble-2002-fad8a6d44f40f75d137cb1887a00bf23.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/17040/thumb_big-trouble-2002-7a25b04257bb379b1ad6b09b62e7d410.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B004LEU3RQ",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP62892?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "starz_com": "http://www.starzplay.com/Movies/Details/6231"
       },
       "references": {
@@ -3522,8 +3526,7 @@
       "release_date": "1999-07-09",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18934/thumb_american-pie-1999-8a5223a3cf2da4aaed92d79c981ed59d.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0039NCJFO",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39450?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0039NCJFO"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0163651/",
@@ -4208,6 +4211,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-07-01 03:12:13 -0400"
+  "updated_at": "2017-07-02 03:12:12 -0400"
 }
 
