@@ -4157,8 +4157,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12642/thumb_blazing-saddles-1974-803ceeeaf387e0b23052ae4be14d5459.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0014C3KN2",
-        "itunes": "https://itunes.apple.com/us/movie/blazing-saddles/id271003460",
-        "netflix": null
+        "itunes": "https://itunes.apple.com/us/movie/blazing-saddles/id271003460"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0071230/",
@@ -4211,6 +4210,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-07-02 03:12:12 -0400"
+  "updated_at": "2017-07-03 03:12:12 -0400"
 }
 
