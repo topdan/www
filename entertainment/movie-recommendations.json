@@ -1714,9 +1714,10 @@
       "title": "Butter",
       "year": 2011,
       "release_date": "2012-10-05",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1365/thumb_butter-2011-6218418b74d626fe484c5fd469486394.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1365/thumb_butter-2011-5471295ee68aae1e32c93c61997d1822.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00978SIJ6"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00978SIJ6",
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1349451/",
@@ -4210,6 +4211,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-07-03 03:12:12 -0400"
+  "updated_at": "2017-07-07 03:12:12 -0400"
 }
 
