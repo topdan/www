@@ -48,7 +48,7 @@
     {
       "title": "Casual",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4722/thumb_casual-1b0223955c0aa4e87cd4bd87f83d75af.jpg",
-      "latest_episode_aired_on": "2017-07-11",
+      "latest_episode_aired_on": "2017-07-18",
       "first_episode_aired_on": "2015-10-07",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1273,6 +1273,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-07-15 03:12:12 -0400"
+  "updated_at": "2017-07-20 03:12:13 -0400"
 }
 
