@@ -598,9 +598,10 @@
       "title": "Chef",
       "year": 2014,
       "release_date": "2014-05-09",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11164/thumb_chef-2014-80363ac895b4506d1da7682e62f47514.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11164/thumb_chef-2014-a7d4761e84b21b559e1f4434d3534562.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00O1SK8HM",
+        "amazon_prime": null,
         "itunes": "https://itunes.apple.com/us/movie/chef/id877741061",
         "netflix": "https://www.netflix.com/title/70297087"
       },
@@ -4210,6 +4211,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-07-18 03:12:12 -0400"
+  "updated_at": "2017-07-29 03:12:13 -0400"
 }
 
