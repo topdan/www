@@ -280,8 +280,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15578/thumb_dope-2015-5fa9cd783ca8597abd1e32c02af46813.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B014Z5BNTM",
-        "itunes": "https://itunes.apple.com/us/movie/dope/id999573394",
-        "netflix": null
+        "itunes": "https://itunes.apple.com/us/movie/dope/id999573394"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3850214/",
@@ -4213,6 +4212,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-08-06 03:12:13 -0400"
+  "updated_at": "2017-08-12 03:12:14 -0400"
 }
 
