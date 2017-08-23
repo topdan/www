@@ -255,20 +255,6 @@
       }
     },
     {
-      "title": "The Get Down",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5207/thumb_the-get-down-94da51dc613effb806fc7a1eb0c25f39.jpg",
-      "latest_episode_aired_on": "2017-04-07",
-      "first_episode_aired_on": "2016-08-12",
-      "final_episode_aired_on": "2017-04-07",
-      "unwatched_episodes_count": 0,
-      "streams": {
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt4592410/",
-        "wikipedia": "https://en.wikipedia.org/wiki/The_Get_Down"
-      }
-    },
-    {
       "title": "The Good Place",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5246/thumb_the-good-place-e22c06f2dc6f01f27b6d4cc289634d46.jpg",
       "latest_episode_aired_on": "2017-01-19",
@@ -1304,6 +1290,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-08-22 03:12:13 -0400"
+  "updated_at": "2017-08-23 03:12:13 -0400"
 }
 
