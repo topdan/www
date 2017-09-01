@@ -9,6 +9,17 @@
   "data_type": "Entertainment::Movie",
   "data": [
     {
+      "title": "Gifted",
+      "year": 2017,
+      "release_date": null,
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21166/thumb_gifted-2017-81053014deda1d5a2c2b646f3461d5c7.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4481414/"
+      }
+    },
+    {
       "title": "Guardians of the Galaxy Vol. 2",
       "year": 2017,
       "release_date": null,
@@ -212,7 +223,6 @@
       "release_date": "2016-05-20",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19612/thumb_the-nice-guys-2016-89e5e5d40af0830f50d69c70e23c36b3.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP59026?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3799694/",
@@ -432,7 +442,7 @@
       "title": "The Big Short",
       "year": 2015,
       "release_date": "2015-12-23",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19053/thumb_the-big-short-2015-a86d00d489481d8d1b843a80dd379104.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19053/thumb_the-big-short-2015-25b397441cf3df80419b5a95930d47c5.jpg",
       "streams": {
         "netflix": null
       },
@@ -476,7 +486,6 @@
       "release_date": "2015-10-02",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16345/thumb_the-martian-2015-6c63feab3f3f05e2c368507a4eb11e08.jpg",
       "streams": {
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39595?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3659388/",
@@ -3450,6 +3459,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7109/thumb_requiem-for-a-dream-2000-663bd6e86c248bf2e484d3d49cd605f1.jpg",
       "streams": {
         "itunes": "https://itunes.apple.com/us/movie/requiem-for-dream-directors/id281307971",
+        "netflix": null,
         "starz_com": "http://www.starzplay.com/Movies/Details/23724"
       },
       "references": {
@@ -3585,7 +3595,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00BB8Q1RQ",
         "amazon_prime": "http://www.amazon.com/gp/product/B00BB8Q1RQ",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP59719?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39944?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "netflix": "https://www.netflix.com/title/60000410"
       },
       "references": {
@@ -3761,6 +3771,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12287/thumb_contact-1997-33c6d3f1b621e366a8ae6656ac26640c.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001AH6ZWY",
+        "hulu": null,
         "netflix": null
       },
       "references": {
@@ -4079,6 +4090,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14936/thumb_robocop-1987-1abab5d99ceb557039e0cef714c9cfe6.jpg",
       "streams": {
         "amazon_prime": null,
+        "hulu": null,
         "netflix": "https://www.netflix.com/title/17017738"
       },
       "references": {
@@ -4214,6 +4226,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-08-21 03:12:13 -0400"
+  "updated_at": "2017-09-01 11:05:20 -0400"
 }
 
