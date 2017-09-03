@@ -784,6 +784,14 @@
       }
     },
     {
+      "name": "M. Night Shyamalan",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21868/thumb_1-a562d83c5a6b49c427cfe2cfdcdd3d1d.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0796117/"
+      }
+    },
+    {
       "name": "Morena Baccarin",
       "job": "actor",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/328/thumb_1-569464efd800c5acbb7323d8a2257956.jpg",
@@ -1088,6 +1096,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-05-01 20:43:55 -0400",
-  "updated_at": "2017-05-05 09:44:27 -0400"
+  "updated_at": "2017-09-03 03:12:13 -0400"
 }
 

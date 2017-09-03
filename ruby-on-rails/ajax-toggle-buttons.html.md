@@ -194,7 +194,7 @@ $(function() {
 ### [](#erb)
 ```erb
 <%# views/posts/show.html.erb %>
-<%= div_for(@post, class: post_css(@post)) do %>
+<%= div_for @post do %>
   <%= link_to_toggle_post_favorite @post %>
 <% end %>
 ```
