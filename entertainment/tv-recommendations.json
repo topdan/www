@@ -239,6 +239,24 @@
       }
     },
     {
+      "title": "South Park",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-6eabc96a74a5583c1efe11fa3fdbaf59.jpg",
+      "latest_episode_aired_on": "2017-09-13",
+      "first_episode_aired_on": "1997-08-13",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000GE42H2",
+        "comedy_central_com": "http://www.cc.com/shows/south-park/full-episodes",
+        "hulu": "http://www.hulu.com/south-park",
+        "south_park_studios": "http://www.southparkstudios.com"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0121955/",
+        "wikipedia": "https://en.wikipedia.org/wiki/South_Park"
+      }
+    },
+    {
       "title": "The Expanse",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4825/thumb_the-expanse-dca237a43c13a2b8fb084fff16d7eb89.jpg",
       "latest_episode_aired_on": "2017-04-12",
@@ -550,24 +568,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt3973820/",
         "wikipedia": "https://en.wikipedia.org/wiki/Red_Oaks"
-      }
-    },
-    {
-      "title": "South Park",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-6eabc96a74a5583c1efe11fa3fdbaf59.jpg",
-      "latest_episode_aired_on": "2016-12-07",
-      "first_episode_aired_on": "1997-08-13",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000GE42H2",
-        "comedy_central_com": "http://www.cc.com/shows/south-park/full-episodes",
-        "hulu": "http://www.hulu.com/south-park",
-        "south_park_studios": "http://www.southparkstudios.com"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt0121955/",
-        "wikipedia": "https://en.wikipedia.org/wiki/South_Park"
       }
     },
     {
@@ -1290,6 +1290,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-09-11 03:12:13 -0400"
+  "updated_at": "2017-09-14 03:12:13 -0400"
 }
 
