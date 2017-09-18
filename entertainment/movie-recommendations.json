@@ -146,8 +146,9 @@
       "title": "La La Land",
       "year": 2016,
       "release_date": "2016-12-02",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20658/thumb_la-la-land-2016-da74768b17232591b6dad829e9a26e1d.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20658/thumb_la-la-land-2016-4ede3956e9a45e37f178000e80bcdd69.jpg",
       "streams": {
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP65670?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3783958/",
@@ -4228,6 +4229,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-09-16 03:12:13 -0400"
+  "updated_at": "2017-09-18 03:12:13 -0400"
 }
 
