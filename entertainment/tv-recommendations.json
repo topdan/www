@@ -253,7 +253,7 @@
     {
       "title": "Rick and Morty",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2450/thumb_rick-and-morty-e66c394e4c67ab7796711b2a51f10b31.jpg",
-      "latest_episode_aired_on": "2017-08-27",
+      "latest_episode_aired_on": "2017-09-24",
       "first_episode_aired_on": "2013-12-02",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1334,6 +1334,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-09-25 03:12:13 -0400"
+  "updated_at": "2017-09-28 03:12:13 -0400"
 }
 
