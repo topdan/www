@@ -60,7 +60,7 @@
       "release_date": "2016-10-14",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19603/thumb_a-monster-calls-2016-5dacf4bf90c4e16a2e9a575c97d85ea8.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP65672?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP67045?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3416532/",
@@ -148,7 +148,7 @@
       "release_date": "2016-12-02",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20658/thumb_la-la-land-2016-4ede3956e9a45e37f178000e80bcdd69.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP65670?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP67099?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3783958/",
@@ -200,7 +200,7 @@
       "release_date": "2016-11-18",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20944/thumb_nocturnal-animals-2016-a935f4dc0e45d59cb65adbd8b5cb477f.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP66694?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP66696?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/nocturnal_animals/"
@@ -419,8 +419,9 @@
       "title": "Sleeping with Other People",
       "year": 2015,
       "release_date": "2015-09-11",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16695/thumb_sleeping-with-other-people-2015-3f4924f9d6c6b5bf00fdd27e67150784.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16695/thumb_sleeping-with-other-people-2015-a706fae7d9cb03a70335275d585481a1.jpg",
       "streams": {
+        "netflix": null,
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3419713"
       },
       "references": {
@@ -1305,7 +1306,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9007/thumb_the-conjuring-2013-d89aacf6dcfbaa966688441e07a93819.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00FPH6A70",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP62974?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP67748?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/the-conjuring/id687851264"
       },
       "references": {
@@ -2320,8 +2321,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16156/thumb_across-the-universe-2007-e24eac51015659b7bd62f919b7b4b04b.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0016BP0PW",
-        "amazon_prime": null,
-        "netflix": null
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0445922/",
@@ -4010,8 +4010,7 @@
       "release_date": "1991-08-21",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/919/thumb_barton-fink-1991-0097ea7e46c4700ef7ef4bb9c064d3b5.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0015IU3OE",
-        "netflix": "https://www.netflix.com/title/60000822"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0015IU3OE"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0101410/",
@@ -4228,6 +4227,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-10-02 03:12:13 -0400"
+  "updated_at": "2017-10-03 03:12:12 -0400"
 }
 
