@@ -220,6 +220,19 @@
       }
     },
     {
+      "title": "The Little Prince",
+      "year": 2016,
+      "release_date": "2016-08-05",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19533/thumb_the-little-prince-2016-b6272b9e8a5d31dcf6e19fc0671aa17e.jpg",
+      "streams": {
+        "netflix": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1754656/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/the_little_prince_2016/"
+      }
+    },
+    {
       "title": "The Nice Guys",
       "year": 2016,
       "release_date": "2016-05-20",
@@ -4227,6 +4240,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-10-03 03:12:12 -0400"
+  "updated_at": "2017-10-09 03:12:13 -0400"
 }
 
