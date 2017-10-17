@@ -57,6 +57,22 @@
       }
     },
     {
+      "title": "Bloodline",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3853/thumb_bloodline-57e207f2912ccb223b74aac7a2293c18.jpg",
+      "latest_episode_aired_on": "2017-05-26",
+      "first_episode_aired_on": "2015-03-20",
+      "final_episode_aired_on": "2017-05-26",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80010655"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3520702/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/bloodline/s01/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bloodline_%28TV_series%29"
+      }
+    },
+    {
       "title": "Bob's Burgers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
       "latest_episode_aired_on": "2017-10-01",
@@ -203,21 +219,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt4189492/",
         "wikipedia": "https://en.wikipedia.org/wiki/Man_Seeking_Woman"
-      }
-    },
-    {
-      "title": "Master of None",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4774/thumb_master-of-none-892ad3016354dc1c717b3f8dd14cba25.jpg",
-      "latest_episode_aired_on": "2017-05-12",
-      "first_episode_aired_on": "2015-11-06",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "netflix": "https://www.netflix.com/title/80049714"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt4635276/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Master_of_None"
       }
     },
     {
@@ -443,22 +444,6 @@
         "imdb": "http://www.imdb.com/title/tt2085059/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/tv/black-mirror/s02/",
         "wikipedia": "https://en.wikipedia.org/wiki/Black_Mirror_%28TV_series%29"
-      }
-    },
-    {
-      "title": "Bloodline",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3853/thumb_bloodline-57e207f2912ccb223b74aac7a2293c18.jpg",
-      "latest_episode_aired_on": "2016-05-27",
-      "first_episode_aired_on": "2015-03-20",
-      "final_episode_aired_on": "2017-05-26",
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "netflix": "https://www.netflix.com/title/80010655"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt3520702/",
-        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/bloodline/s01/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Bloodline_%28TV_series%29"
       }
     },
     {
@@ -1331,6 +1316,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-10-16 03:12:13 -0400"
+  "updated_at": "2017-10-17 03:12:13 -0400"
 }
 
