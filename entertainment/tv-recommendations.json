@@ -59,7 +59,7 @@
     {
       "title": "Bob's Burgers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
-      "latest_episode_aired_on": "2017-10-01",
+      "latest_episode_aired_on": "2017-10-22",
       "first_episode_aired_on": "2011-01-09",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -322,7 +322,7 @@
     {
       "title": "The Good Place",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5246/thumb_the-good-place-875a47f47853991c156f13f031014169.jpg",
-      "latest_episode_aired_on": "2017-10-05",
+      "latest_episode_aired_on": "2017-10-19",
       "first_episode_aired_on": "2016-09-19",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1300,6 +1300,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-10-23 03:12:13 -0400"
+  "updated_at": "2017-10-24 03:12:14 -0400"
 }
 
