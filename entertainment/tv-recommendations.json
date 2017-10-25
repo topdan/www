@@ -108,7 +108,7 @@
     {
       "title": "Crazy Ex-Girlfriend",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4720/thumb_crazy-ex-girlfriend-352a0190718382785ae2174b9481bf52.jpg",
-      "latest_episode_aired_on": "2017-10-13",
+      "latest_episode_aired_on": "2017-10-20",
       "first_episode_aired_on": "2015-10-12",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -254,6 +254,22 @@
       }
     },
     {
+      "title": "Red Oaks",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4724/thumb_red-oaks-f273bc65b2384d72b8642de420ef2bfa.jpg",
+      "latest_episode_aired_on": "2017-10-20",
+      "first_episode_aired_on": "2015-09-14",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "https://www.amazon.com/gp/product/B00MR9WBVS",
+        "amazon_prime": "https://www.amazon.com/gp/product/B00MR9WBVS"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3973820/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Red_Oaks"
+      }
+    },
+    {
       "title": "Rick and Morty",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2450/thumb_rick-and-morty-e66c394e4c67ab7796711b2a51f10b31.jpg",
       "latest_episode_aired_on": "2017-10-01",
@@ -380,6 +396,23 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt3339966/",
         "wikipedia": "https://en.wikipedia.org/wiki/Unbreakable_Kimmy_Schmidt"
+      }
+    },
+    {
+      "title": "You're The Worst",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4599/thumb_youre-the-worst-0f2a7ee27b2c065248c9b71d9f3c14ed.jpg",
+      "latest_episode_aired_on": "2017-10-18",
+      "first_episode_aired_on": "2014-07-17",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B015679KW0",
+        "fx_networks_com": "http://www.fxnetworks.com/shows/youre-the-worst/episodes",
+        "hulu": "http://www.hulu.com/youre-the-worst"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3228420/",
+        "wikipedia": "https://en.wikipedia.org/wiki/You%27re_the_Worst"
       }
     },
     {
@@ -568,22 +601,6 @@
       }
     },
     {
-      "title": "Red Oaks",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4724/thumb_red-oaks-f56a26e65569a309bf679abc6eb482d9.jpg",
-      "latest_episode_aired_on": "2016-11-11",
-      "first_episode_aired_on": "2015-09-14",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "https://www.amazon.com/gp/product/B00MR9WBVS",
-        "amazon_prime": "https://www.amazon.com/gp/product/B00MR9WBVS"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt3973820/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Red_Oaks"
-      }
-    },
-    {
       "title": "Stranger Things",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5177/thumb_stranger-things-5705aeeec12711e2751d0a8c4e3e401c.jpg",
       "latest_episode_aired_on": "2016-07-15",
@@ -658,23 +675,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt0475784/",
         "wikipedia": "https://en.wikipedia.org/wiki/Westworld_%28TV_series%29"
-      }
-    },
-    {
-      "title": "You're The Worst",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4599/thumb_youre-the-worst-e705a37d11a89576fe5a161fbcebc9d9.jpg",
-      "latest_episode_aired_on": "2016-11-09",
-      "first_episode_aired_on": "2014-07-17",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B015679KW0",
-        "fx_networks_com": "http://www.fxnetworks.com/shows/youre-the-worst/episodes",
-        "hulu": "http://www.hulu.com/youre-the-worst"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt3228420/",
-        "wikipedia": "https://en.wikipedia.org/wiki/You%27re_the_Worst"
       }
     },
     {
@@ -1300,6 +1300,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-10-24 03:12:14 -0400"
+  "updated_at": "2017-10-25 03:12:13 -0400"
 }
 
