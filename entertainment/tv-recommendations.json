@@ -206,6 +206,20 @@
       }
     },
     {
+      "title": "Mindhunter",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5715/thumb_mindhunter-01aad6399896699fd713f002f0faab69.jpg",
+      "latest_episode_aired_on": "2017-10-13",
+      "first_episode_aired_on": "2017-10-13",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5290382/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Mindhunter_%28TV_series%29"
+      }
+    },
+    {
       "title": "Mr. Robot",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4020/thumb_mr-robot-516ef9897a52962a6ab2fc56ef985b7b.jpg",
       "latest_episode_aired_on": "2017-10-18",
@@ -304,7 +318,7 @@
     {
       "title": "South Park",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-6eabc96a74a5583c1efe11fa3fdbaf59.jpg",
-      "latest_episode_aired_on": "2017-10-18",
+      "latest_episode_aired_on": "2017-10-25",
       "first_episode_aired_on": "1997-08-13",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1300,6 +1314,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-10-25 03:12:13 -0400"
+  "updated_at": "2017-10-26 03:12:14 -0400"
 }
 
