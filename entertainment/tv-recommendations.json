@@ -41,7 +41,7 @@
     {
       "title": "Black-ish",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-4dd4c644bcb0d842f9f19358eda2b109.jpg",
-      "latest_episode_aired_on": "2017-10-17",
+      "latest_episode_aired_on": "2017-10-24",
       "first_episode_aired_on": "2014-09-24",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -334,6 +334,20 @@
       }
     },
     {
+      "title": "Stranger Things",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5177/thumb_stranger-things-8676276f94fc4fd5bbf3b632d1b889f6.jpg",
+      "latest_episode_aired_on": "2017-10-27",
+      "first_episode_aired_on": "2016-07-15",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4574334/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Stranger_Things_%28TV_series%29"
+      }
+    },
+    {
       "title": "The Expanse",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4825/thumb_the-expanse-dca237a43c13a2b8fb084fff16d7eb89.jpg",
       "latest_episode_aired_on": "2017-04-12",
@@ -383,7 +397,7 @@
     {
       "title": "The Middle",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-b404234ef6545cb214535f850cea91c0.jpg",
-      "latest_episode_aired_on": "2017-10-17",
+      "latest_episode_aired_on": "2017-10-24",
       "first_episode_aired_on": "2009-09-30",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -612,20 +626,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2980696/",
         "wikipedia": "https://en.wikipedia.org/wiki/Quarry_%28TV_series%29"
-      }
-    },
-    {
-      "title": "Stranger Things",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5177/thumb_stranger-things-8676276f94fc4fd5bbf3b632d1b889f6.jpg",
-      "latest_episode_aired_on": "2016-07-15",
-      "first_episode_aired_on": "2016-07-15",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt4574334/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Stranger_Things_%28TV_series%29"
       }
     },
     {
@@ -1314,6 +1314,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-10-28 03:12:14 -0400"
+  "updated_at": "2017-10-29 03:12:13 -0400"
 }
 
