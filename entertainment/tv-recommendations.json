@@ -220,24 +220,6 @@
       }
     },
     {
-      "title": "Mr. Robot",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4020/thumb_mr-robot-516ef9897a52962a6ab2fc56ef985b7b.jpg",
-      "latest_episode_aired_on": "2017-10-18",
-      "first_episode_aired_on": "2015-05-27",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00YCVCBRS",
-        "hulu": "http://www.hulu.com/mr-robot",
-        "usa_network_com": "http://www.usanetwork.com/mrrobot/videos?category=-1"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt4158110/",
-        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/mr-robot/s01/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Mr._Robot_%28TV_series%29"
-      }
-    },
-    {
       "title": "Ozark",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5626/thumb_ozark-8b0dc9acf7e9636b27c2c6aff864426d.jpg",
       "latest_episode_aired_on": "2017-07-21",
@@ -1314,6 +1296,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-10-29 03:12:13 -0400"
+  "updated_at": "2017-10-30 03:12:13 -0400"
 }
 
