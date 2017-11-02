@@ -40,7 +40,7 @@
     },
     {
       "title": "Black-ish",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-4dd4c644bcb0d842f9f19358eda2b109.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-4b4c1228c950c1d72ba75c3463f4de6f.jpg",
       "latest_episode_aired_on": "2017-10-24",
       "first_episode_aired_on": "2014-09-24",
       "final_episode_aired_on": null,
@@ -391,6 +391,22 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt1442464/",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Middle_%28TV_series%29"
+      }
+    },
+    {
+      "title": "The Tick",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/172/thumb_the-tick-2de2324415661cb029edffbc522e86a5.jpg",
+      "latest_episode_aired_on": "2017-08-25",
+      "first_episode_aired_on": "2001-11-08",
+      "final_episode_aired_on": "2002-01-24",
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": null,
+        "netflix": "https://www.netflix.com/title/70202897"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5540054/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Tick_%282016_TV_series%29"
       }
     },
     {
@@ -1296,6 +1312,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-11-01 03:12:14 -0400"
+  "updated_at": "2017-11-02 03:12:14 -0400"
 }
 

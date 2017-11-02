@@ -305,7 +305,6 @@
       "release_date": "2015-11-04",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/17124/thumb_brooklyn-2015-d01d8c6eeece6771e3212cb75d8c0445.jpg",
       "streams": {
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39716?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2381111/",
@@ -1090,7 +1089,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11926/thumb_the-signal-2014-a43c7ed5f2056da12727ec76efaeeae0.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00OYWI5K2",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37289?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP47820?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2910814/",
@@ -2174,9 +2173,10 @@
       "title": "Up in the Air",
       "year": 2009,
       "release_date": "2009-12-04",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12644/thumb_up-in-the-air-2009-b55fc9ea04c2366af0fd70d93310aa77.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12644/thumb_up-in-the-air-2009-3b41ba9cdbf523445fff274b0eedf552.jpg",
       "streams": {
         "amazon_prime": null,
+        "hulu": null,
         "netflix": "https://www.netflix.com/title/70117902",
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3429324"
       },
@@ -2301,9 +2301,10 @@
       "title": "Speed Racer",
       "year": 2008,
       "release_date": "2008-04-28",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12133/thumb_speed-racer-2008-991d6aac0673da6767dfecf1646d938a.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12133/thumb_speed-racer-2008-782761ead73b3007c881723a5c45f4f3.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001GXYBY6"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001GXYBY6",
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0811080/",
@@ -2741,7 +2742,8 @@
       "release_date": "2005-10-21",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12235/thumb_kiss-kiss-bang-bang-2005-12088ff150f1c70265b14723d2f948fe.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B002QYSZBO"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B002QYSZBO",
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0373469/",
@@ -2780,9 +2782,10 @@
       "title": "Shopgirl",
       "year": 2005,
       "release_date": "2005-10-21",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15166/thumb_shopgirl-2005-34b6ca3b2ead73542c343c4ce75693aa.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15166/thumb_shopgirl-2005-d3cf6115cd016b098ab08d89212778a2.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B003QSDYSS",
+        "hulu": null,
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/140985"
       },
       "references": {
@@ -2878,7 +2881,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16800/thumb_club-dread-2004-4865c6eeacaeeff0eb33e9dfd72e572f.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9U8YG",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP33495?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP36256?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0331953/",
@@ -2975,10 +2978,11 @@
       "title": "Saved!",
       "year": 2004,
       "release_date": "2004-05-28",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/95/thumb_saved-2004-6362ad8d238cbdf7dfb4e556fdfe2ca2.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/95/thumb_saved-2004-c48d615c88b33451607392798aaa80d4.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000ZLLRFG",
         "amazon_prime": "http://www.amazon.com/gp/product/B000ZLLRFG",
+        "hulu": null,
         "netflix": "https://www.netflix.com/title/60033351"
       },
       "references": {
@@ -3182,9 +3186,10 @@
       "title": "Moonlight Mile",
       "year": 2002,
       "release_date": "2002-09-27",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15417/thumb_moonlight-mile-2002-70944b2eeacb2463b15ee9de74ad46dd.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15417/thumb_moonlight-mile-2002-f2f992d2134b94a8d4ab61fc8ceac1b6.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0087YNJ3G"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0087YNJ3G",
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0179098/",
@@ -3277,9 +3282,10 @@
       "title": "A Knight's Tale",
       "year": 2001,
       "release_date": "2001-05-11",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14491/thumb_a-knights-tale-2001-4deed882336fa493b6d94d35430d1996.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14491/thumb_a-knights-tale-2001-ac63c44cb234e4837991b33e37e194f3.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000RL1G32",
+        "amazon_prime": null,
         "itunes": "https://itunes.apple.com/us/movie/a-knights-tale/id531594338",
         "netflix": "https://www.netflix.com/title/60020626"
       },
@@ -3377,8 +3383,9 @@
       "title": "Shaolin Soccer",
       "year": 2001,
       "release_date": null,
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5284/thumb_shaolin-soccer-2001-665cd39496b5ca6a691f98fcae23fba3.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5284/thumb_shaolin-soccer-2001-eef4d81485219d380ecfcad6664600bf.jpg",
       "streams": {
+        "hulu": null,
         "netflix": "https://www.netflix.com/title/60022933"
       },
       "references": {
@@ -3894,10 +3901,11 @@
       "title": "Scream",
       "year": 1996,
       "release_date": "1996-12-20",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5166/thumb_scream-1996-0bafd33eea7c8e34e463ea617e43ceee.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5166/thumb_scream-1996-ce1e935a29a2714ade3066d3663278ec.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00AYB12PC",
         "amazon_prime": "http://www.amazon.com/gp/product/B00AYB12PC",
+        "hulu": null,
         "itunes": "https://itunes.apple.com/us/movie/scream/id425968586"
       },
       "references": {
@@ -3949,10 +3957,11 @@
       "title": "The Usual Suspects",
       "year": 1995,
       "release_date": "1995-08-16",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10734/thumb_the-usual-suspects-1995-5ff8b825c83a470ed4c709c424ed01d5.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10734/thumb_the-usual-suspects-1995-f00d8b92d64c9aa6ad1fc971683bce8a.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00101ZOTA",
         "encore": "http://www.encoreplay.com/Movies/Details/1872",
+        "hulu": null,
         "itunes": "https://itunes.apple.com/us/movie/the-usual-suspects/id267913118"
       },
       "references": {
@@ -4265,6 +4274,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-10-30 03:12:13 -0400"
+  "updated_at": "2017-11-02 03:12:14 -0400"
 }
 
