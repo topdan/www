@@ -141,6 +141,17 @@
       }
     },
     {
+      "title": "Hell or High Water",
+      "year": 2016,
+      "release_date": "2016-08-12",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20416/thumb_hell-or-high-water-2016-845e1008ca2953bb695e0583e710b4f1.jpg",
+      "streams": {
+      },
+      "references": {
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/hell_or_high_water/"
+      }
+    },
+    {
       "title": "High-Rise",
       "year": 2016,
       "release_date": "2016-05-13",
@@ -3914,6 +3925,19 @@
       }
     },
     {
+      "title": "Tin Cup",
+      "year": 1996,
+      "release_date": "1996-08-16",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19764/thumb_tin-cup-1996-e5b249b44f7ce723ce4f651065d79cc6.jpg",
+      "streams": {
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP64994?videoMode=embeddedVideo?showSpecialFeatures=false/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0117918/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/tin_cup/"
+      }
+    },
+    {
       "title": "Before Sunrise",
       "year": 1995,
       "release_date": "1995-01-27",
@@ -4274,6 +4298,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-11-03 03:12:13 -0400"
+  "updated_at": "2017-11-08 03:12:14 -0500"
 }
 
