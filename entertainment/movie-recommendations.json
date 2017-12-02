@@ -2946,9 +2946,10 @@
       "title": "I Heart Huckabees",
       "year": 2004,
       "release_date": "2004-10-01",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7890/thumb_i-heart-huckabees-2004-687bd141f57845e5893fa4a3a3e9851a.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7890/thumb_i-heart-huckabees-2004-fc22565dd55f5a0a5bc0276cf4bb7005.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000SW2F08",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP34220?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "starz_com": "http://www.starzplay.com/Movies/Details/23849"
       },
       "references": {
@@ -3326,9 +3327,10 @@
       "title": "crazy/beautiful",
       "year": 2001,
       "release_date": "2001-06-28",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14688/thumb_crazy-beautiful-2001-54a452440b80ec66c7190e357829dfc1.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14688/thumb_crazy-beautiful-2001-6b68964350a3fbe08c52f13fd080ab68.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B003V5HXRY"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B003V5HXRY",
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0250224/",
@@ -3858,8 +3860,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/2552/thumb_good-will-hunting-1997-d6a8fbe4efde042e0a62c734cb0c4c3c.jpg",
       "streams": {
         "amazon_prime": "http://www.amazon.com/gp/product/B006RXQA5I",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP69494?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/good-will-hunting/id432503534",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP40074?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "netflix": "https://www.netflix.com/title/17405997"
       },
       "references": {
@@ -4299,6 +4301,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-11-30 03:12:14 -0500"
+  "updated_at": "2017-12-02 03:12:13 -0500"
 }
 
