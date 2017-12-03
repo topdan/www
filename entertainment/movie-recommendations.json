@@ -58,7 +58,7 @@
       "release_date": "2017-01-27",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20708/thumb_split-2017-38e0ab6cf00091e6f7d67d1584c12d6b.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP66770?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP69566?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt4972582/",
@@ -83,7 +83,7 @@
       "release_date": "2016-10-14",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19603/thumb_a-monster-calls-2016-5dacf4bf90c4e16a2e9a575c97d85ea8.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP67044?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP67043?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3416532/",
@@ -184,7 +184,7 @@
       "release_date": "2016-12-02",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20658/thumb_la-la-land-2016-4ede3956e9a45e37f178000e80bcdd69.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP67102?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP67100?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3783958/",
@@ -2218,7 +2218,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12508/thumb_watchmen-2009-f880e341a0d5f0e501fcc5e4f34a081f.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B002EDH0FE",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP68446?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP68451?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0409459/",
@@ -2330,7 +2330,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16753/thumb_the-dark-knight-2008-38b11925313eb035aa85f9b9a3236bf0.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001OGWY1W",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP68128?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP68129?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/the-dark-knight/id764632601"
       },
       "references": {
@@ -2384,8 +2384,7 @@
       "release_date": "2007-03-02",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/1101/thumb_black-snake-moan-2007-18e03efcfb4cee3a452da9aa8c917651.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000UYJR7I",
-        "netflix": null
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000UYJR7I"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0462200/",
@@ -3561,7 +3560,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15720/thumb_unbreakable-2000-a7e1076823ab7c37ef1d1b59c0e8392c.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B003QS9TX2",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP69512?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP69525?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0217869/",
@@ -4301,6 +4300,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-12-02 03:12:13 -0500"
+  "updated_at": "2017-12-03 03:12:14 -0500"
 }
 
