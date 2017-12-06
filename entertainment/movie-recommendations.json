@@ -47,6 +47,7 @@
       "release_date": null,
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21103/thumb_guardians-of-the-galaxy-vol-2-2017-55ad7aa1c74167eb658badf953d8d0a0.jpg",
       "streams": {
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3896198/"
@@ -1354,7 +1355,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9007/thumb_the-conjuring-2013-d89aacf6dcfbaa966688441e07a93819.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00FPH6A70",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP67748?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP67752?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/the-conjuring/id687851264"
       },
       "references": {
@@ -4302,6 +4303,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-12-05 03:12:15 -0500"
+  "updated_at": "2017-12-06 03:12:14 -0500"
 }
 
