@@ -916,8 +916,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00TF874XE",
         "amazon_prime": null,
-        "itunes": "https://itunes.apple.com/us/movie/nightcrawler/id933543454",
-        "netflix": "https://www.netflix.com/title/70295182"
+        "itunes": "https://itunes.apple.com/us/movie/nightcrawler/id933543454"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2872718/",
@@ -4303,6 +4302,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-12-11 03:12:52 -0500"
+  "updated_at": "2017-12-12 03:12:13 -0500"
 }
 
