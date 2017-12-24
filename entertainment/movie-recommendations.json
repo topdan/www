@@ -4120,6 +4120,19 @@
       }
     },
     {
+      "title": "National Lampoon's Christmas Vacation",
+      "year": 1989,
+      "release_date": "1989-12-01",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/9259/thumb_national-lampoons-christmas-vacation-1989-976c630abcaf0520e688383218905d63.jpg",
+      "streams": {
+        "itunes": "https://itunes.apple.com/us/movie/national-lampoons-christmas/id296929739"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0097958/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/national_lampoons_christmas_vacation/"
+      }
+    },
+    {
       "title": "Road House",
       "year": 1989,
       "release_date": "1989-05-19",
@@ -4198,6 +4211,22 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt0091877/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/ruthless_people/"
+      }
+    },
+    {
+      "title": "Gremlins",
+      "year": 1984,
+      "release_date": "1984-06-01",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19242/thumb_gremlins-1984-5bf5638ae9136a048ec647ddfd8cd684.jpg",
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00KQ9ZW4O",
+        "amazon_prime": "http://www.amazon.com/gp/product/B00KQ9ZW4O",
+        "itunes": "https://itunes.apple.com/us/movie/gremlins/id601284107",
+        "netflix": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0087363/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/m/gremlins/"
       }
     },
     {
@@ -4302,6 +4331,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-12-12 03:12:13 -0500"
+  "updated_at": "2017-12-24 03:12:14 -0500"
 }
 
