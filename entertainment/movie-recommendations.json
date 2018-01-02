@@ -1305,7 +1305,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12082/thumb_her-2013-9f7792435467a33f5e4f0d4395439ed8.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00KATY250",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP44614?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP36931?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1798709/",
@@ -1989,7 +1989,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12329/thumb_hereafter-2010-f4765ca8464c1d72e7e80a5a88606313.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B004NOH9LW",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP32874?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP33184?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1212419/",
@@ -2085,6 +2085,7 @@
       "release_date": "2009-07-17",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15185/thumb_500-days-of-summer-2009-7f3f4702ef917e3f4dbffe19896c2334.jpg",
       "streams": {
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP29641?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/500-days-of-summer/id329619072"
       },
       "references": {
@@ -2252,7 +2253,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12508/thumb_watchmen-2009-f880e341a0d5f0e501fcc5e4f34a081f.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B002EDH0FE",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP68464?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP40130?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0409459/",
@@ -2364,8 +2365,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16753/thumb_the-dark-knight-2008-38b11925313eb035aa85f9b9a3236bf0.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001OGWY1W",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP68127?videoMode=embeddedVideo?showSpecialFeatures=false/",
-        "itunes": "https://itunes.apple.com/us/movie/the-dark-knight/id764632601"
+        "itunes": "https://itunes.apple.com/us/movie/the-dark-knight/id764632601",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MUGOROSTP29067?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0468569/",
@@ -2496,8 +2497,7 @@
       "release_date": "2007-09-07",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13213/thumb_shoot-em-up-2007-38688122f17c5f57ca762de311faa15b.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00125JP1C",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GORO1B20505?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00125JP1C"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0465602/",
@@ -2508,10 +2508,11 @@
       "title": "Stardust",
       "year": 2007,
       "release_date": "2007-08-10",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13606/thumb_stardust-2007-5e151469f1b200bbe6081722a29d5d42.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13606/thumb_stardust-2007-98848409b806206e54fc0aa6a1b0856f.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0013F1D02",
-        "amazon_prime": null
+        "amazon_prime": null,
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0486655/",
@@ -2789,7 +2790,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12235/thumb_kiss-kiss-bang-bang-2005-12088ff150f1c70265b14723d2f948fe.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B002QYSZBO",
-        "amazon_prime": null
+        "amazon_prime": null,
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP33756?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0373469/",
@@ -2831,6 +2833,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15166/thumb_shopgirl-2005-d3cf6115cd016b098ab08d89212778a2.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B003QSDYSS",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP70312?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "hulu": null,
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/140985"
       },
@@ -3220,9 +3223,10 @@
       "title": "Kissing Jessica Stein",
       "year": 2002,
       "release_date": "2002-03-13",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3411/thumb_kissing-jessica-stein-2002-242bb7d67fd919fc644cb2854c01cb31.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3411/thumb_kissing-jessica-stein-2002-d9b5576dbce0aca2c28460ea68c81bbc.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000SW16N0"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000SW16N0",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP31520?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0264761/",
@@ -3247,9 +3251,10 @@
       "title": "Punch-Drunk Love",
       "year": 2002,
       "release_date": "2002-10-11",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/4782/thumb_punch-drunk-love-2002-8669a3b44fdc27a6a78e151524524e8f.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/4782/thumb_punch-drunk-love-2002-2d07eeb45dd27b20f009fa149a451e65.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B004GJ1YCO",
+        "hulu": null,
         "netflix": "https://www.netflix.com/title/60024979"
       },
       "references": {
@@ -3276,10 +3281,11 @@
       "title": "Super Troopers",
       "year": 2002,
       "release_date": "2002-02-15",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5636/thumb_super-troopers-2002-38d10db717ef831df0277d277eca9c09.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5636/thumb_super-troopers-2002-3221997daf29b9f346011d0eff4377f7.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9VZCU",
-        "itunes": "https://itunes.apple.com/us/movie/super-troopers/id270307460"
+        "itunes": "https://itunes.apple.com/us/movie/super-troopers/id270307460",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MUGOROSTP31234?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0247745/",
@@ -3554,6 +3560,8 @@
       "release_date": "2000-10-06",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7109/thumb_requiem-for-a-dream-2000-39458ff32acda03a87f60c8bc9882ab8.jpg",
       "streams": {
+        "amazon_prime": null,
+        "hulu": null,
         "itunes": "https://itunes.apple.com/us/movie/requiem-for-dream-directors/id281307971",
         "netflix": null,
         "starz_com": "http://www.starzplay.com/Movies/Details/23724"
@@ -4104,9 +4112,10 @@
       "title": "A League of Their Own",
       "year": 1992,
       "release_date": "1992-07-01",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/389/thumb_a-league-of-their-own-1992-263af4f68bef3bb4d4b2711690ece9e9.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/389/thumb_a-league-of-their-own-1992-ad86e8e84d5c174d103f292c9b369449.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B003EYBO18"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B003EYBO18",
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0104694/",
@@ -4130,9 +4139,10 @@
       "title": "Total Recall",
       "year": 1990,
       "release_date": "1990-06-01",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14219/thumb_total-recall-1990-ce65480a5a38bc0e35f9b89a883223dd.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14219/thumb_total-recall-1990-7ac4267b78020b81cb0a8c1ca8987775.jpg",
       "streams": {
-        "encore": "http://www.encoreplay.com/Movies/Details/24481"
+        "encore": "http://www.encoreplay.com/Movies/Details/24481",
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0100802/",
@@ -4365,6 +4375,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2017-12-31 03:12:14 -0500"
+  "updated_at": "2018-01-02 03:12:13 -0500"
 }
 

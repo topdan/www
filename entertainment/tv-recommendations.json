@@ -41,7 +41,7 @@
     {
       "title": "Black-ish",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-4b4c1228c950c1d72ba75c3463f4de6f.jpg",
-      "latest_episode_aired_on": "2017-12-05",
+      "latest_episode_aired_on": "2017-12-12",
       "first_episode_aired_on": "2014-09-24",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -380,7 +380,7 @@
     {
       "title": "The Good Place",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5246/thumb_the-good-place-875a47f47853991c156f13f031014169.jpg",
-      "latest_episode_aired_on": "2017-10-26",
+      "latest_episode_aired_on": "2017-11-02",
       "first_episode_aired_on": "2016-09-19",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -411,7 +411,7 @@
     {
       "title": "The Middle",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-b404234ef6545cb214535f850cea91c0.jpg",
-      "latest_episode_aired_on": "2017-12-05",
+      "latest_episode_aired_on": "2017-12-12",
       "first_episode_aired_on": "2009-09-30",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1312,6 +1312,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2017-12-30 03:12:13 -0500"
+  "updated_at": "2018-01-02 03:12:13 -0500"
 }
 
