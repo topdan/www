@@ -139,6 +139,21 @@
       }
     },
     {
+      "title": "Future Man",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5752/thumb_future-man-c592b74482fcbec990cf416ae0ffbf65.jpg",
+      "latest_episode_aired_on": "2017-11-14",
+      "first_episode_aired_on": "2017-11-14",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "hulu": "http://www.hulu.com/future-man"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4975856/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Future_Man_%28TV_series%29"
+      }
+    },
+    {
       "title": "Game of Thrones",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/70/thumb_game-of-thrones-b2a90cb5814c833a1cafbf4826b12393.jpg",
       "latest_episode_aired_on": "2017-08-27",
@@ -409,6 +424,21 @@
       }
     },
     {
+      "title": "The Marvelous Mrs. Maisel",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5742/thumb_the-marvelous-mrs-maisel-64628c0cd8fa7d560b4835d999fb9a1d.jpg",
+      "latest_episode_aired_on": "2017-11-29",
+      "first_episode_aired_on": "2017-03-17",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5788792/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Marvelous_Mrs._Maisel"
+      }
+    },
+    {
       "title": "The Middle",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-b404234ef6545cb214535f850cea91c0.jpg",
       "latest_episode_aired_on": "2017-12-12",
@@ -439,6 +469,20 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt5540054/",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Tick_%282016_TV_series%29"
+      }
+    },
+    {
+      "title": "Travelers",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5768/thumb_travelers-d8406767527f70f3289bfde7db46177d.jpg",
+      "latest_episode_aired_on": "2017-12-26",
+      "first_episode_aired_on": "2016-10-17",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5651844/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Travelers_%28TV_series%29"
       }
     },
     {
@@ -1312,6 +1356,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-01-03 03:12:14 -0500"
+  "updated_at": "2018-01-04 03:12:14 -0500"
 }
 
