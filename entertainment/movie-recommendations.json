@@ -65,6 +65,17 @@
       }
     },
     {
+      "title": "Lady Bird",
+      "year": 2017,
+      "release_date": null,
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/22166/thumb_lady-bird-2017-131b3b7ca688fd804ed926a33d8c3fc8.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4925292/"
+      }
+    },
+    {
       "title": "Murder On The Orient Express",
       "year": 2017,
       "release_date": null,
@@ -86,6 +97,17 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt4972582/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/split_2017/"
+      }
+    },
+    {
+      "title": "Wind River",
+      "year": 2017,
+      "release_date": null,
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21832/thumb_wind-river-2017-57a74040de1112f05843d1169bff1418.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5362988/"
       }
     },
     {
@@ -4372,6 +4394,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-01-03 03:12:14 -0500"
+  "updated_at": "2018-01-05 03:12:14 -0500"
 }
 
