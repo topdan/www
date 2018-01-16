@@ -27,6 +27,25 @@
       }
     },
     {
+      "title": "Bob's Burgers",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
+      "latest_episode_aired_on": "2018-01-14",
+      "first_episode_aired_on": "2011-01-09",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "adult_swim_com": "http://www.adultswim.com/videos/bobs-burgers/",
+        "amazon_one_click": "http://www.amazon.com/gp/product/B004I0KVCK",
+        "fox_com": "http://www.fox.com/bobs-burgers",
+        "hulu": "http://www.hulu.com/bobs-burgers"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1561755/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/bob-s-burgers/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bob's_Burgers"
+      }
+    },
+    {
       "title": "Crazy Ex-Girlfriend",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4720/thumb_crazy-ex-girlfriend-352a0190718382785ae2174b9481bf52.jpg",
       "latest_episode_aired_on": "2018-01-05",
@@ -46,7 +65,7 @@
     {
       "title": "The Good Place",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5246/thumb_the-good-place-875a47f47853991c156f13f031014169.jpg",
-      "latest_episode_aired_on": "2018-01-04",
+      "latest_episode_aired_on": "2018-01-11",
       "first_episode_aired_on": "2016-09-19",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -120,25 +139,6 @@
         "imdb": "http://www.imdb.com/title/tt2085059/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/tv/black-mirror/s02/",
         "wikipedia": "https://en.wikipedia.org/wiki/Black_Mirror_%28TV_series%29"
-      }
-    },
-    {
-      "title": "Bob's Burgers",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
-      "latest_episode_aired_on": "2017-12-10",
-      "first_episode_aired_on": "2011-01-09",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "adult_swim_com": "http://www.adultswim.com/videos/bobs-burgers/",
-        "amazon_one_click": "http://www.amazon.com/gp/product/B004I0KVCK",
-        "fox_com": "http://www.fox.com/bobs-burgers",
-        "hulu": "http://www.hulu.com/bobs-burgers"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt1561755/",
-        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/bob-s-burgers/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Bob's_Burgers"
       }
     },
     {
@@ -1355,6 +1355,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-01-14 03:12:14 -0500"
+  "updated_at": "2018-01-16 03:12:14 -0500"
 }
 
