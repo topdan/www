@@ -1519,8 +1519,7 @@
       "release_date": "2013-04-05",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7350/thumb_upstream-color-2013-2a9f41e20f8ee6cac56cbd68529fdf67.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00BMTX0SC",
-        "netflix": "https://www.netflix.com/title/70265224"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00BMTX0SC"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2084989/",
@@ -4395,6 +4394,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-01-27 03:12:14 -0500"
+  "updated_at": "2018-01-29 03:12:14 -0500"
 }
 
