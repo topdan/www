@@ -2080,7 +2080,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13287/thumb_scott-pilgrim-vs-the-world-2010-5ce54ad36e3c82ac21388c99b2ce14de.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00448SE4S",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39882?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP32047?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0446029/",
@@ -2868,10 +2868,11 @@
       "title": "Sin City",
       "year": 2005,
       "release_date": "2005-04-01",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12507/thumb_sin-city-2005-364cefb4bfe57f4cfd2f0ad09422f0db.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12507/thumb_sin-city-2005-2972884726a5e9cbf5adf3075aaaf0e6.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0065FIHYA",
         "amazon_prime": null,
+        "hulu": null,
         "netflix": null
       },
       "references": {
@@ -3290,8 +3291,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12323/thumb_road-to-perdition-2002-bd2d2fa207aedcaf2333bb7a923c474f.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00DQJPFIE",
-        "itunes": "https://itunes.apple.com/us/movie/road-to-perdition/id599494712",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP31734?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "itunes": "https://itunes.apple.com/us/movie/road-to-perdition/id599494712"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0257044/",
@@ -3373,10 +3373,11 @@
       "title": "Amelie",
       "year": 2001,
       "release_date": "2001-11-02",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10159/thumb_amelie-2001-9422b5b3b87fd3cad49d9d966cf49ff8.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10159/thumb_amelie-2001-bc54bb2602d6470d799f3cad7de6c881.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B006S08RLU",
         "amazon_prime": "http://www.amazon.com/gp/product/B006S08RLU",
+        "hulu": null,
         "itunes": "https://itunes.apple.com/us/movie/amelie/id484597866",
         "netflix": "https://www.netflix.com/title/60022048"
       },
@@ -3661,9 +3662,10 @@
       "title": "American Pie",
       "year": 1999,
       "release_date": "1999-07-09",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18934/thumb_american-pie-1999-8a5223a3cf2da4aaed92d79c981ed59d.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18934/thumb_american-pie-1999-6791294da5c20c43d2b229931d308061.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0039NCJFO"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0039NCJFO",
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0163651/",
@@ -4338,9 +4340,10 @@
       "title": "Blazing Saddles",
       "year": 1974,
       "release_date": "1974-02-07",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12642/thumb_blazing-saddles-1974-803ceeeaf387e0b23052ae4be14d5459.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12642/thumb_blazing-saddles-1974-bd1c1abfaf726f3c79c4d914291e17bd.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0014C3KN2",
+        "hulu": null,
         "itunes": "https://itunes.apple.com/us/movie/blazing-saddles/id271003460"
       },
       "references": {
@@ -4394,6 +4397,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-01-29 03:12:14 -0500"
+  "updated_at": "2018-02-02 03:12:14 -0500"
 }
 
