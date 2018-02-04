@@ -11,7 +11,7 @@
     {
       "title": "Black-ish",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-4b4c1228c950c1d72ba75c3463f4de6f.jpg",
-      "latest_episode_aired_on": "2018-01-09",
+      "latest_episode_aired_on": "2018-01-16",
       "first_episode_aired_on": "2014-09-24",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -81,7 +81,7 @@
     {
       "title": "The Middle",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-b404234ef6545cb214535f850cea91c0.jpg",
-      "latest_episode_aired_on": "2018-01-09",
+      "latest_episode_aired_on": "2018-01-16",
       "first_episode_aired_on": "2009-09-30",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -158,17 +158,34 @@
     },
     {
       "title": "Comedians In Cars Getting Coffee",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4239/thumb_comedians-in-cars-getting-coffee-6bc8ce0698111617d89d2fb5466ff9ee.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4239/thumb_comedians-in-cars-getting-coffee-6ad828f32e8755e24f57632fa15d4a07.jpg",
       "latest_episode_aired_on": "2017-02-09",
       "first_episode_aired_on": "2012-07-19",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
       "streams": {
-        "comedians_cars_coffee": "http://comediansincarsgettingcoffee.com/"
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2314952/",
         "wikipedia": "https://en.wikipedia.org/wiki/Comedians_in_Cars_Getting_Coffee"
+      }
+    },
+    {
+      "title": "Fargo",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2901/thumb_fargo-854fa6669b912db1cbb4625144103a59.jpg",
+      "latest_episode_aired_on": "2017-06-14",
+      "first_episode_aired_on": "2014-04-15",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00JMJOWXG",
+        "fx_networks_com": "http://www.fxnetworks.com/shows/fargo/episodes",
+        "hulu": "http://www.hulu.com/fargo"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2802850/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fargo_%28TV_series%29"
       }
     },
     {
@@ -407,6 +424,20 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt4574334/",
         "wikipedia": "https://en.wikipedia.org/wiki/Stranger_Things_%28TV_series%29"
+      }
+    },
+    {
+      "title": "The End of the F***ing World",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5823/thumb_the-end-of-the-fing-world-6bfd23578fdcdb9566cc8cc5b0932a3f.jpg",
+      "latest_episode_aired_on": "2017-10-24",
+      "first_episode_aired_on": "2017-10-24",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt6257970/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_End_of_the_F***ing_World"
       }
     },
     {
@@ -1355,6 +1386,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-01-31 03:12:14 -0500"
+  "updated_at": "2018-02-04 03:12:14 -0500"
 }
 
