@@ -9,6 +9,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "? and the Mysterians",
+      "song": "96 Tears",
+      "video_url": "https://www.youtube.com/watch?v=XeolH-kzx4c",
+      "thumbnail_url": "https://img.youtube.com/vi/XeolH-kzx4c/0.jpg",
+      "added_at": "2018-02-06 23:03:29 -0500"
+    },
+    {
       "artist": "Feargal is the Applejack",
       "song": "Talking to Yourself",
       "video_url": "https://www.youtube.com/watch?v=tuAm24BNa_U",
@@ -986,6 +993,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2018-02-04 03:52:11 -0500"
+  "updated_at": "2018-02-07 03:52:11 -0500"
 }
 
