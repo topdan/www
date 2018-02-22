@@ -9,6 +9,17 @@
   "data_type": "Entertainment::Movie",
   "data": [
     {
+      "title": "Hostiles",
+      "year": 2018,
+      "release_date": null,
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/22529/thumb_hostiles-2018-df6eb1b34f7841f82d5c5d9cc5bba36f.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5478478/"
+      }
+    },
+    {
       "title": "Baby Driver",
       "year": 2017,
       "release_date": null,
@@ -98,6 +109,29 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt4972582/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/split_2017/"
+      }
+    },
+    {
+      "title": "The Big Sick",
+      "year": 2017,
+      "release_date": null,
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21768/thumb_the-big-sick-2017-0485ee7c5d4bc40a96aeb0dcb63ff805.jpg",
+      "streams": {
+        "amazon_prime": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5462602/"
+      }
+    },
+    {
+      "title": "The Shape of Water",
+      "year": 2017,
+      "release_date": null,
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21976/thumb_the-shape-of-water-2017-b818fd7c040b6a5f6d4aa1007257940d.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5580390/"
       }
     },
     {
@@ -4395,6 +4429,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-02-18 03:12:14 -0500"
+  "updated_at": "2018-02-22 03:12:14 -0500"
 }
 
