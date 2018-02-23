@@ -186,23 +186,6 @@
       }
     },
     {
-      "title": "Fargo",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2901/thumb_fargo-854fa6669b912db1cbb4625144103a59.jpg",
-      "latest_episode_aired_on": "2017-06-14",
-      "first_episode_aired_on": "2014-04-15",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00JMJOWXG",
-        "fx_networks_com": "http://www.fxnetworks.com/shows/fargo/episodes",
-        "hulu": "http://www.hulu.com/fargo"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt2802850/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Fargo_%28TV_series%29"
-      }
-    },
-    {
       "title": "Future Man",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5752/thumb_future-man-c592b74482fcbec990cf416ae0ffbf65.jpg",
       "latest_episode_aired_on": "2017-11-14",
@@ -1400,6 +1383,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-02-14 03:12:14 -0500"
+  "updated_at": "2018-02-23 03:12:14 -0500"
 }
 
