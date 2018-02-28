@@ -110,6 +110,22 @@
       }
     },
     {
+      "title": "The Tick",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/172/thumb_the-tick-f58f0e58390c9fb4ffb4a5dab85e273f.jpg",
+      "latest_episode_aired_on": "2018-02-23",
+      "first_episode_aired_on": "2017-08-18",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": null,
+        "netflix": "https://www.netflix.com/title/70202897"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5540054/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Tick_%282016_TV_series%29"
+      }
+    },
+    {
       "title": "Atypical",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5624/thumb_atypical-33763c1ab77ce70a2f99ba1646d59577.jpg",
       "latest_episode_aired_on": "2017-08-11",
@@ -481,22 +497,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt5788792/",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Marvelous_Mrs._Maisel"
-      }
-    },
-    {
-      "title": "The Tick",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/172/thumb_the-tick-2de2324415661cb029edffbc522e86a5.jpg",
-      "latest_episode_aired_on": "2017-08-25",
-      "first_episode_aired_on": "2017-08-18",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": null,
-        "netflix": "https://www.netflix.com/title/70202897"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt5540054/",
-        "wikipedia": "https://en.wikipedia.org/wiki/The_Tick_%282016_TV_series%29"
       }
     },
     {
@@ -1383,6 +1383,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-02-27 03:12:14 -0500"
+  "updated_at": "2018-02-28 03:12:14 -0500"
 }
 
