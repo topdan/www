@@ -297,19 +297,19 @@
     },
     {
       "name": "David Wain",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21198/thumb_1-222bd610e6e457d1c08d730a701502da.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0906476/"
+      }
+    },
+    {
+      "name": "David Wain",
       "job": "actor",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/11606/thumb_1-222bd610e6e457d1c08d730a701502da.jpg",
       "references": {
         "imdb": "http://www.imdb.com/name/nm0906476/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162745342"
-      }
-    },
-    {
-      "name": "David Wain",
-      "job": "director",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21198/thumb_1-222bd610e6e457d1c08d730a701502da.jpg",
-      "references": {
-        "imdb": "http://www.imdb.com/name/nm0906476/"
       }
     },
     {
@@ -521,19 +521,19 @@
     },
     {
       "name": "Jennifer Westfeldt",
-      "job": "director",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22875/thumb_1-435b05adea8a53fd57cc308a65258eab.jpg",
-      "references": {
-        "imdb": "http://www.imdb.com/name/nm0922724/"
-      }
-    },
-    {
-      "name": "Jennifer Westfeldt",
       "job": "actor",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/6666/thumb_1-435b05adea8a53fd57cc308a65258eab.jpg",
       "references": {
         "imdb": "http://www.imdb.com/name/nm0922724/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162692503"
+      }
+    },
+    {
+      "name": "Jennifer Westfeldt",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22875/thumb_1-435b05adea8a53fd57cc308a65258eab.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0922724/"
       }
     },
     {
@@ -962,6 +962,14 @@
       }
     },
     {
+      "name": "S. Craig Zahler",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/37767/thumb_1-2039563553e29fb77f6b15a513ef34e3.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0951975/"
+      }
+    },
+    {
       "name": "Shane Acker",
       "job": "director",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/39091/thumb_1-3f283a67cd5e2dd4fb9f3b4758a92d81.jpg",
@@ -1053,6 +1061,14 @@
       }
     },
     {
+      "name": "Taylor Sheridan",
+      "job": "actor",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/49965/thumb_1-1d4a3b4e1bde4d52f2454a25974037c2.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0792263/"
+      }
+    },
+    {
       "name": "Terry Gilliam",
       "job": "director",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22948/thumb_1-51546424d2ddaeba83d0a40c9e909b16.jpg",
@@ -1114,6 +1130,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-05-01 20:43:55 -0400",
-  "updated_at": "2018-02-22 03:12:14 -0500"
+  "updated_at": "2018-03-04 14:16:46 -0500"
 }
 
