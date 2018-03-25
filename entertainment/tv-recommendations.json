@@ -40,7 +40,7 @@
     {
       "title": "Black-ish",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-4b4c1228c950c1d72ba75c3463f4de6f.jpg",
-      "latest_episode_aired_on": "2018-03-13",
+      "latest_episode_aired_on": "2018-03-20",
       "first_episode_aired_on": "2014-09-24",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -487,7 +487,7 @@
     },
     {
       "title": "The Expanse",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4825/thumb_the-expanse-dca237a43c13a2b8fb084fff16d7eb89.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4825/thumb_the-expanse-52debe5c5f82378f94b2792c1d362fbf.jpg",
       "latest_episode_aired_on": "2017-04-12",
       "first_episode_aired_on": "2015-11-23",
       "final_episode_aired_on": null,
@@ -1370,6 +1370,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-03-24 03:12:14 -0400"
+  "updated_at": "2018-03-25 03:12:15 -0400"
 }
 
