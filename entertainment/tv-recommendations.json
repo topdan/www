@@ -40,7 +40,7 @@
     {
       "title": "Black-ish",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-4b4c1228c950c1d72ba75c3463f4de6f.jpg",
-      "latest_episode_aired_on": "2018-03-20",
+      "latest_episode_aired_on": "2018-03-27",
       "first_episode_aired_on": "2014-09-24",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -129,7 +129,7 @@
     {
       "title": "The Middle",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/298/thumb_the-middle-b404234ef6545cb214535f850cea91c0.jpg",
-      "latest_episode_aired_on": "2018-03-13",
+      "latest_episode_aired_on": "2018-03-20",
       "first_episode_aired_on": "2009-09-30",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -286,7 +286,7 @@
     {
       "title": "Legion",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5420/thumb_legion-72c3b3e41ae53bd59f08a08005068052.jpg",
-      "latest_episode_aired_on": "2017-03-22",
+      "latest_episode_aired_on": "2017-03-29",
       "first_episode_aired_on": "2017-02-08",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1353,6 +1353,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-03-27 03:12:15 -0400"
+  "updated_at": "2018-04-01 03:12:15 -0400"
 }
 
