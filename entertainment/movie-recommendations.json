@@ -339,7 +339,6 @@
       "release_date": "2016-11-18",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20944/thumb_nocturnal-animals-2016-a935f4dc0e45d59cb65adbd8b5cb477f.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP66696?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/nocturnal_animals/"
@@ -377,7 +376,6 @@
       "release_date": "2016-05-20",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19612/thumb_the-nice-guys-2016-549ea7a5f2cfd00d0c49aaca086995a7.jpg",
       "streams": {
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39937?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3799694/",
@@ -889,10 +887,11 @@
       "title": "Inherent Vice",
       "year": 2014,
       "release_date": "2015-01-09",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12245/thumb_inherent-vice-2014-55738709c9f83745b592ce5ad8f1cbd7.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12245/thumb_inherent-vice-2014-49e64c5994cb7b81eb3c8a93c4d15d2c.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00TGO68IO",
-        "itunes": "https://itunes.apple.com/us/movie/inherent-vice/id935074762"
+        "itunes": "https://itunes.apple.com/us/movie/inherent-vice/id935074762",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37746?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1791528/",
@@ -2419,10 +2418,11 @@
       "title": "Speed Racer",
       "year": 2008,
       "release_date": "2008-04-28",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12133/thumb_speed-racer-2008-782761ead73b3007c881723a5c45f4f3.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12133/thumb_speed-racer-2008-5d8a56322738daabb9f215235ce8834c.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001GXYBY6",
-        "amazon_prime": null
+        "amazon_prime": null,
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0811080/",
@@ -2649,9 +2649,10 @@
       "title": "Waitress",
       "year": 2007,
       "release_date": "2007-05-02",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12513/thumb_waitress-2007-eca065786dc674d2072d4687c92d9b14.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12513/thumb_waitress-2007-47c66e8bd2b9d2c7f2573d219afb92b3.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0011Y4A5K",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48190?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/waitress/id270021764"
       },
       "references": {
@@ -3185,7 +3186,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12986/thumb_laurel-canyon-2003-3c51159563b075617a7d351a0e25ca9a.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00170F0IE",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP32111?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP32646?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "starz_com": "http://www.starzplay.com/Movies/Details/19644"
       },
       "references": {
@@ -4442,6 +4443,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-03-28 03:12:14 -0400"
+  "updated_at": "2018-04-02 03:12:15 -0400"
 }
 
