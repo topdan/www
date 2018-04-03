@@ -69,7 +69,7 @@
       "release_date": null,
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21166/thumb_gifted-2017-474db3b5e9eb3341a43444552df0150d.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP73222?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP73220?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt4481414/"
@@ -115,7 +115,7 @@
       "release_date": "2017-01-27",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20708/thumb_split-2017-38e0ab6cf00091e6f7d67d1584c12d6b.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP69564?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP74536?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt4972582/",
@@ -288,7 +288,7 @@
       "release_date": "2016-12-02",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20658/thumb_la-la-land-2016-4ede3956e9a45e37f178000e80bcdd69.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP71679?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP74498?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3783958/",
@@ -1647,8 +1647,7 @@
       "release_date": null,
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10373/thumb_john-mulaney-new-in-town-2012-694b2ac345665ac17bd5d67bd0709b67.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0072LF8IE",
-        "netflix": "https://www.netflix.com/title/70298251"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0072LF8IE"
       },
       "references": {
       }
@@ -2112,7 +2111,6 @@
       "release_date": "2010-09-15",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13272/thumb_never-let-me-go-2010-8f84819590c08eea93e535af8dbb9cb2.jpg",
       "streams": {
-        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1334260/",
@@ -2126,7 +2124,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13287/thumb_scott-pilgrim-vs-the-world-2010-5ce54ad36e3c82ac21388c99b2ce14de.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00448SE4S",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP73989?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP73985?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0446029/",
@@ -2153,7 +2151,7 @@
       "release_date": "2009-07-17",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15185/thumb_500-days-of-summer-2009-ce823d928f837316151c3e92d34e30a1.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP72487?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP72485?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/500-days-of-summer/id329619072"
       },
       "references": {
@@ -3711,8 +3709,7 @@
       "release_date": "1999-07-09",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18934/thumb_american-pie-1999-6791294da5c20c43d2b229931d308061.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0039NCJFO",
-        "netflix": null
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0039NCJFO"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0163651/",
@@ -4142,7 +4139,6 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001EBV0OY",
         "itunes": "https://itunes.apple.com/us/movie/the-shawshank-redemption/id282875479",
-        "netflix": null,
         "starz_com": "http://www.starzplay.com/Movies/Details/1554"
       },
       "references": {
@@ -4361,8 +4357,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001N7LKI0",
         "amazon_prime": null,
-        "itunes": "https://itunes.apple.com/us/movie/caddyshack/id285871841",
-        "netflix": null
+        "itunes": "https://itunes.apple.com/us/movie/caddyshack/id285871841"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0080487/",
@@ -4443,6 +4438,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-04-02 03:12:15 -0400"
+  "updated_at": "2018-04-03 03:12:16 -0400"
 }
 
