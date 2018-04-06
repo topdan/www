@@ -462,6 +462,14 @@
       }
     },
     {
+      "name": "Isao Takahata",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/31409/thumb_1-5864c66b9cb2fb865afeefdb66a12831.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0847223/"
+      }
+    },
+    {
       "name": "Jake Gyllenhaal",
       "job": "actor",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/887/thumb_1-07ce276321dcc2d86f96f4432f9046ec.jpg",
@@ -521,19 +529,19 @@
     },
     {
       "name": "Jennifer Westfeldt",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22875/thumb_1-435b05adea8a53fd57cc308a65258eab.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0922724/"
+      }
+    },
+    {
+      "name": "Jennifer Westfeldt",
       "job": "actor",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/6666/thumb_1-435b05adea8a53fd57cc308a65258eab.jpg",
       "references": {
         "imdb": "http://www.imdb.com/name/nm0922724/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162692503"
-      }
-    },
-    {
-      "name": "Jennifer Westfeldt",
-      "job": "director",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22875/thumb_1-435b05adea8a53fd57cc308a65258eab.jpg",
-      "references": {
-        "imdb": "http://www.imdb.com/name/nm0922724/"
       }
     },
     {
@@ -1130,6 +1138,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-05-01 20:43:55 -0400",
-  "updated_at": "2018-03-04 14:16:46 -0500"
+  "updated_at": "2018-04-06 03:12:14 -0400"
 }
 
