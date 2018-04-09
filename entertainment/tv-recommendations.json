@@ -24,7 +24,7 @@
     },
     {
       "title": "Atlanta",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5227/thumb_atlanta-a49776ed62abfdddc2a51ef549b91530.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5227/thumb_atlanta-80806a2daf6e869ae5f37c8fd7dec917.jpg",
       "latest_episode_aired_on": "2018-03-29",
       "first_episode_aired_on": "2016-09-06",
       "final_episode_aired_on": null,
@@ -92,8 +92,23 @@
       }
     },
     {
+      "title": "Jessica Jones",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4773/thumb_jessica-jones-1a3dc8420d97ab6ad7024c23f770deac.jpg",
+      "latest_episode_aired_on": "2018-03-08",
+      "first_episode_aired_on": "2015-11-20",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": "https://www.netflix.com/title/80002311"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2357547/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jessica_Jones_%28TV_series%29"
+      }
+    },
+    {
       "title": "Legion",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5420/thumb_legion-72c3b3e41ae53bd59f08a08005068052.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5420/thumb_legion-815eadd51e37fea375a009cf29afb39c.jpg",
       "latest_episode_aired_on": "2018-04-03",
       "first_episode_aired_on": "2017-02-08",
       "final_episode_aired_on": null,
@@ -452,7 +467,7 @@
     {
       "title": "The Expanse",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4825/thumb_the-expanse-52debe5c5f82378f94b2792c1d362fbf.jpg",
-      "latest_episode_aired_on": "2017-04-12",
+      "latest_episode_aired_on": "2017-04-19",
       "first_episode_aired_on": "2015-11-23",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1333,6 +1348,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-04-08 03:12:14 -0400"
+  "updated_at": "2018-04-09 03:12:15 -0400"
 }
 
