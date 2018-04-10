@@ -25,7 +25,7 @@
     {
       "title": "Atlanta",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5227/thumb_atlanta-80806a2daf6e869ae5f37c8fd7dec917.jpg",
-      "latest_episode_aired_on": "2018-03-29",
+      "latest_episode_aired_on": "2018-04-05",
       "first_episode_aired_on": "2016-09-06",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -58,7 +58,7 @@
     {
       "title": "Bob's Burgers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
-      "latest_episode_aired_on": "2018-04-01",
+      "latest_episode_aired_on": "2018-04-08",
       "first_episode_aired_on": "2011-01-09",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1348,6 +1348,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-04-09 03:12:15 -0400"
+  "updated_at": "2018-04-10 03:12:15 -0400"
 }
 
