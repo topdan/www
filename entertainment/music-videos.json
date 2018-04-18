@@ -9,6 +9,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Portugal. The Man",
+      "song": "Feel It Still",
+      "video_url": "https://www.youtube.com/watch?v=pBkHHoOIIn8",
+      "thumbnail_url": "https://img.youtube.com/vi/pBkHHoOIIn8/0.jpg",
+      "added_at": "2018-04-17 20:05:37 -0400"
+    },
+    {
       "artist": "Grouplove",
       "song": "Ways to go",
       "video_url": "https://www.youtube.com/watch?v=VGvHnDeS12o",
@@ -1000,6 +1007,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2018-02-13 03:52:10 -0500"
+  "updated_at": "2018-04-18 03:52:12 -0400"
 }
 
