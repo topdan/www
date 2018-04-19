@@ -9,6 +9,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Glass Animals",
+      "song": "Youth",
+      "video_url": "https://www.youtube.com/watch?v=_ZdsmLgCVdU",
+      "thumbnail_url": "https://img.youtube.com/vi/_ZdsmLgCVdU/0.jpg",
+      "added_at": "2018-04-19 01:09:24 -0400"
+    },
+    {
       "artist": "Portugal. The Man",
       "song": "Feel It Still",
       "video_url": "https://www.youtube.com/watch?v=pBkHHoOIIn8",
@@ -1007,6 +1014,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2018-04-18 03:52:12 -0400"
+  "updated_at": "2018-04-19 03:52:12 -0400"
 }
 
