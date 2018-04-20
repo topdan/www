@@ -9,6 +9,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "The Revivalists",
+      "song": "Wish I Knew You",
+      "video_url": "https://www.youtube.com/watch?v=o0Pt7M0weUI",
+      "thumbnail_url": "https://img.youtube.com/vi/o0Pt7M0weUI/0.jpg",
+      "added_at": "2018-04-19 23:42:13 -0400"
+    },
+    {
       "artist": "Glass Animals",
       "song": "Youth",
       "video_url": "https://www.youtube.com/watch?v=_ZdsmLgCVdU",
@@ -1014,6 +1021,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2018-04-19 03:52:12 -0400"
+  "updated_at": "2018-04-20 03:52:12 -0400"
 }
 
