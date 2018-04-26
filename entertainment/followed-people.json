@@ -437,6 +437,14 @@
       }
     },
     {
+      "name": "Giuseppe Tornatore",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21451/thumb_1-4d6a67ac92565aecb26064ef819899ec.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0868153/"
+      }
+    },
+    {
       "name": "Guillermo del Toro",
       "job": "director",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21517/thumb_1-91fb2a04d903a7ca83c8aeb621fc82ca.jpg",
@@ -529,19 +537,19 @@
     },
     {
       "name": "Jennifer Westfeldt",
-      "job": "director",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22875/thumb_1-435b05adea8a53fd57cc308a65258eab.jpg",
-      "references": {
-        "imdb": "http://www.imdb.com/name/nm0922724/"
-      }
-    },
-    {
-      "name": "Jennifer Westfeldt",
       "job": "actor",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/6666/thumb_1-435b05adea8a53fd57cc308a65258eab.jpg",
       "references": {
         "imdb": "http://www.imdb.com/name/nm0922724/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162692503"
+      }
+    },
+    {
+      "name": "Jennifer Westfeldt",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22875/thumb_1-435b05adea8a53fd57cc308a65258eab.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0922724/"
       }
     },
     {
@@ -1138,6 +1146,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-05-01 20:43:55 -0400",
-  "updated_at": "2018-04-06 03:12:14 -0400"
+  "updated_at": "2018-04-26 03:12:15 -0400"
 }
 
