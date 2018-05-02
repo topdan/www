@@ -173,9 +173,9 @@
       "title": "A Monster Calls",
       "year": 2016,
       "release_date": "2016-10-14",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19603/thumb_a-monster-calls-2016-5dacf4bf90c4e16a2e9a575c97d85ea8.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19603/thumb_a-monster-calls-2016-99fcc53d7184c965450e30971d9b8fec.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP71642?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP40699?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3416532/",
@@ -286,9 +286,9 @@
       "title": "La La Land",
       "year": 2016,
       "release_date": "2016-12-02",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20658/thumb_la-la-land-2016-4ede3956e9a45e37f178000e80bcdd69.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20658/thumb_la-la-land-2016-ecbd302e4dcd8a8b741fdb2d550b0ea8.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP74499?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP40698?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3783958/",
@@ -2743,9 +2743,10 @@
       "title": "Perfume: The Story of a Murderer",
       "year": 2006,
       "release_date": "2006-12-27",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14972/thumb_perfume-the-story-of-a-murderer-2006-1eaac1b84becc5ef8965e49b06284b91.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14972/thumb_perfume-the-story-of-a-murderer-2006-78fa10a44644bd6bd57bc60b7f088fe9.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000VSYDRM"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000VSYDRM",
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0396171/",
@@ -3028,10 +3029,10 @@
       "title": "Garden State",
       "year": 2004,
       "release_date": "2004-07-28",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8141/thumb_garden-state-2004-b903dbd3b339b68628012cb786d53ca0.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8141/thumb_garden-state-2004-d2c3b7c9a09961b3b1599a7058927ec7.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9X6Q8",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP34237?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP39071?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "starz_com": "http://www.starzplay.com/Movies/Details/23546"
       },
       "references": {
@@ -3223,10 +3224,11 @@
       "title": "The Matrix Reloaded",
       "year": 2003,
       "release_date": "2003-05-07",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8220/thumb_the-matrix-reloaded-2003-ec5d1c91eb916c2425e3740de2dc577b.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8220/thumb_the-matrix-reloaded-2003-ea7bbdaa9efed7f42f7768d6414413f0.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001EC2J20",
         "amazon_prime": null,
+        "hulu": null,
         "netflix": null
       },
       "references": {
@@ -3784,6 +3786,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000HAB4KS",
         "amazon_prime": null,
+        "hulu": null,
         "netflix": null
       },
       "references": {
@@ -4441,6 +4444,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-04-29 03:12:14 -0400"
+  "updated_at": "2018-05-02 03:12:15 -0400"
 }
 
