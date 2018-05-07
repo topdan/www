@@ -9,6 +9,20 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Greta Van Fleet",
+      "song": "Highway Tune",
+      "video_url": "https://www.youtube.com/watch?v=aJg4OJxp-co",
+      "thumbnail_url": "https://img.youtube.com/vi/aJg4OJxp-co/0.jpg",
+      "added_at": "2018-05-06 14:38:06 -0400"
+    },
+    {
+      "artist": "Matt and Kim",
+      "song": "It’s Alright",
+      "video_url": "https://www.youtube.com/watch?v=PilVAqMMSnc",
+      "thumbnail_url": "https://img.youtube.com/vi/PilVAqMMSnc/0.jpg",
+      "added_at": "2018-05-06 14:37:19 -0400"
+    },
+    {
       "artist": "The Revivalists",
       "song": "Wish I Knew You",
       "video_url": "https://www.youtube.com/watch?v=o0Pt7M0weUI",
@@ -1014,6 +1028,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2018-04-29 03:52:12 -0400"
+  "updated_at": "2018-05-07 03:52:11 -0400"
 }
 
