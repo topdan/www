@@ -2511,9 +2511,10 @@
       "title": "Bridge to Terabithia",
       "year": 2007,
       "release_date": "2007-02-16",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15630/thumb_bridge-to-terabithia-2007-32a0b97d452f5c4c9efb586a38fe57fc.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15630/thumb_bridge-to-terabithia-2007-3207ce2ee744571f6827a2350f886eb0.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B003VDB9IU"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B003VDB9IU",
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0398808/",
@@ -4456,6 +4457,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-05-18 03:12:14 -0400"
+  "updated_at": "2018-05-20 03:12:14 -0400"
 }
 
