@@ -351,7 +351,7 @@
       "release_date": "2016-11-18",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20944/thumb_nocturnal-animals-2016-a935f4dc0e45d59cb65adbd8b5cb477f.jpg",
       "streams": {
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP40863?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP40909?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/nocturnal_animals/"
@@ -4457,6 +4457,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-05-20 03:12:14 -0400"
+  "updated_at": "2018-05-23 03:12:14 -0400"
 }
 
