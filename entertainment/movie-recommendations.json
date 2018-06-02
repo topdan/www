@@ -128,7 +128,6 @@
       "release_date": "2017-01-27",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20708/thumb_split-2017-38e0ab6cf00091e6f7d67d1584c12d6b.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP74537?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt4972582/",
@@ -2484,10 +2483,11 @@
       "title": "Across the Universe",
       "year": 2007,
       "release_date": "2007-09-14",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16156/thumb_across-the-universe-2007-e24eac51015659b7bd62f919b7b4b04b.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16156/thumb_across-the-universe-2007-3e80f848ded855cbb98d96038d59b322.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0016BP0PW",
-        "amazon_prime": null
+        "amazon_prime": null,
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0445922/",
@@ -2607,7 +2607,8 @@
       "release_date": "2007-07-27",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11628/thumb_sunshine-2007-f122c949da09a74d5d6b2ded554ab947.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000ZHS3E8"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000ZHS3E8",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP36411?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/sunshine/"
@@ -2860,8 +2861,9 @@
       "title": "Just Friends",
       "year": 2005,
       "release_date": "2005-11-23",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15403/thumb_just-friends-2005-6a33deb1c749f451b80b8557e2c912d1.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15403/thumb_just-friends-2005-cac864b3f8b61f8c0780beb1c77c31f4.jpg",
       "streams": {
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0433400/",
@@ -3015,8 +3017,7 @@
       "release_date": "2004-02-27",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16800/thumb_club-dread-2004-1f837e195e3e207a5c719eb6ae652d29.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000I9U8YG",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP36256?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000I9U8YG"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0331953/",
@@ -4319,10 +4320,11 @@
       "title": "The Running Man",
       "year": 1987,
       "release_date": "1987-11-13",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7975/thumb_the-running-man-1987-a1096865fa830836a7d0f2be6f65c48e.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7975/thumb_the-running-man-1987-2d2089e8ca6cb9b62c6c36ce3b3e33d0.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001LPAZL2",
-        "amazon_prime": null
+        "amazon_prime": null,
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0093894/",
@@ -4457,6 +4459,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-05-30 03:12:14 -0400"
+  "updated_at": "2018-06-02 03:12:14 -0400"
 }
 
