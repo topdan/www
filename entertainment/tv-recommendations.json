@@ -109,7 +109,7 @@
     {
       "title": "Legion",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5420/thumb_legion-815eadd51e37fea375a009cf29afb39c.jpg",
-      "latest_episode_aired_on": "2018-05-22",
+      "latest_episode_aired_on": "2018-05-29",
       "first_episode_aired_on": "2017-02-08",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -290,23 +290,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2314952/",
         "wikipedia": "https://en.wikipedia.org/wiki/Comedians_in_Cars_Getting_Coffee"
-      }
-    },
-    {
-      "title": "Fargo",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2901/thumb_fargo-854fa6669b912db1cbb4625144103a59.jpg",
-      "latest_episode_aired_on": "2017-06-14",
-      "first_episode_aired_on": "2014-04-15",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00JMJOWXG",
-        "fx_networks_com": "http://www.fxnetworks.com/shows/fargo/episodes",
-        "hulu": "http://www.hulu.com/fargo"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt2802850/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Fargo_%28TV_series%29"
       }
     },
     {
@@ -1365,6 +1348,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-06-01 03:12:14 -0400"
+  "updated_at": "2018-06-03 03:12:15 -0400"
 }
 
