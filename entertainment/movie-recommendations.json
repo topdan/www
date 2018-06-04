@@ -59,6 +59,7 @@
       "release_date": null,
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21288/thumb_blade-runner-2049-2017-46da9ccc321e46f91973abe665c04344.jpg",
       "streams": {
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP77384?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1856101/"
@@ -104,8 +105,9 @@
       "title": "Lady Bird",
       "year": 2017,
       "release_date": null,
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/22166/thumb_lady-bird-2017-131b3b7ca688fd804ed926a33d8c3fc8.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/22166/thumb_lady-bird-2017-a5ccf7ae913cc440ec4c0c7e9458692d.jpg",
       "streams": {
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt4925292/"
@@ -4459,6 +4461,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-06-03 03:12:15 -0400"
+  "updated_at": "2018-06-04 03:12:14 -0400"
 }
 
