@@ -9,6 +9,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Miike Snow",
+      "song": "Genghis Khan",
+      "video_url": "https://www.youtube.com/watch?v=P_SlAzsXa7E",
+      "thumbnail_url": "https://img.youtube.com/vi/P_SlAzsXa7E/0.jpg",
+      "added_at": "2018-06-07 00:12:50 -0400"
+    },
+    {
       "artist": "Greta Van Fleet",
       "song": "Highway Tune",
       "video_url": "https://www.youtube.com/watch?v=aJg4OJxp-co",
@@ -1028,6 +1035,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2018-05-14 03:52:10 -0400"
+  "updated_at": "2018-06-07 03:52:11 -0400"
 }
 
