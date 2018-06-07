@@ -23,6 +23,22 @@
       }
     },
     {
+      "title": "A.P. Bio",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5830/thumb_ap-bio-166484e70f32e39241dd34a3fd01b8fb.jpg",
+      "latest_episode_aired_on": "2018-04-26",
+      "first_episode_aired_on": "2018-02-01",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "hulu": "http://www.hulu.com/ap-bio",
+        "nbc_com": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt6461726/",
+        "wikipedia": "https://en.wikipedia.org/wiki/A.P._Bio"
+      }
+    },
+    {
       "title": "Atlanta",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5227/thumb_atlanta-80806a2daf6e869ae5f37c8fd7dec917.jpg",
       "latest_episode_aired_on": "2018-05-03",
@@ -75,6 +91,20 @@
       }
     },
     {
+      "title": "Brockmire",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5837/thumb_brockmire-6cf4ffd78b372397fe3b4f171f54403c.jpg",
+      "latest_episode_aired_on": "2018-05-30",
+      "first_episode_aired_on": "2017-04-05",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5722190/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Brockmire"
+      }
+    },
+    {
       "title": "Crazy Ex-Girlfriend",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4720/thumb_crazy-ex-girlfriend-352a0190718382785ae2174b9481bf52.jpg",
       "latest_episode_aired_on": "2018-02-09",
@@ -89,6 +119,23 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt4094300/",
         "wikipedia": "https://en.wikipedia.org/wiki/Crazy_Ex-Girlfriend_%28TV_series%29"
+      }
+    },
+    {
+      "title": "HUMANS",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4176/thumb_humans-494025a309eeff11f607d5d81eab674c.jpg",
+      "latest_episode_aired_on": "2018-06-05",
+      "first_episode_aired_on": "2015-06-14",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B010O43Z8U",
+        "amc_com": "http://www.amc.com/shows/humans"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4122068/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/humans/s01/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Humans_%28TV_series%29"
       }
     },
     {
@@ -119,6 +166,22 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt5114356/",
         "wikipedia": "https://en.wikipedia.org/wiki/Legion_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Splitting Up Together",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5915/thumb_splitting-up-together-c63d1d0f6b211ea21cf01f8a1a2cda05.jpg",
+      "latest_episode_aired_on": "2018-05-08",
+      "first_episode_aired_on": "2018-03-27",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "abc_com": null,
+        "hulu": "http://www.hulu.com/splitting-up-together"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt6492236/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Splitting_Up_Together"
       }
     },
     {
@@ -324,23 +387,6 @@
       }
     },
     {
-      "title": "HUMANS",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4176/thumb_humans-494025a309eeff11f607d5d81eab674c.jpg",
-      "latest_episode_aired_on": "2017-03-20",
-      "first_episode_aired_on": "2015-06-14",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B010O43Z8U",
-        "amc_com": "http://www.amc.com/shows/humans"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt4122068/",
-        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/humans/s01/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Humans_%28TV_series%29"
-      }
-    },
-    {
       "title": "Man Seeking Woman",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4942/thumb_man-seeking-woman-4084446dd754256ac94a110ee4975396.jpg",
       "latest_episode_aired_on": "2017-03-08",
@@ -383,6 +429,21 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt5071412/",
         "wikipedia": "https://en.wikipedia.org/wiki/Ozark_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Patriot",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5907/thumb_patriot-ac93f5f24354241c02633a8554eafbe0.jpg",
+      "latest_episode_aired_on": "2017-02-24",
+      "first_episode_aired_on": "2015-11-05",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4687882/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Patriot_%28TV_series%29"
       }
     },
     {
@@ -1348,6 +1409,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-06-04 03:12:14 -0400"
+  "updated_at": "2018-06-07 03:12:14 -0400"
 }
 
