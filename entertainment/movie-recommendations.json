@@ -59,7 +59,7 @@
       "release_date": null,
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21288/thumb_blade-runner-2049-2017-46da9ccc321e46f91973abe665c04344.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP77384?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP79260?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1856101/"
@@ -128,8 +128,9 @@
       "title": "Split",
       "year": 2017,
       "release_date": "2017-01-27",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20708/thumb_split-2017-38e0ab6cf00091e6f7d67d1584c12d6b.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20708/thumb_split-2017-7b64165563ee9131dfb9e542989b8270.jpg",
       "streams": {
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP40781?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt4972582/",
@@ -4462,6 +4463,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-06-16 03:12:14 -0400"
+  "updated_at": "2018-06-17 03:12:14 -0400"
 }
 
