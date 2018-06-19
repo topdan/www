@@ -9,6 +9,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "JR JR",
+      "song": "Control (Secretly Sorry)",
+      "video_url": "https://www.youtube.com/watch?v=78jJpHUzrZY",
+      "thumbnail_url": "https://img.youtube.com/vi/78jJpHUzrZY/0.jpg",
+      "added_at": "2018-06-18 09:05:11 -0400"
+    },
+    {
       "artist": "Miike Snow",
       "song": "Genghis Khan",
       "video_url": "https://www.youtube.com/watch?v=P_SlAzsXa7E",
@@ -1035,6 +1042,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2018-06-07 03:52:11 -0400"
+  "updated_at": "2018-06-19 03:52:11 -0400"
 }
 
