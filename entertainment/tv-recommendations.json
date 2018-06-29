@@ -169,6 +169,21 @@
       }
     },
     {
+      "title": "Preacher",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5094/thumb_preacher-07d891c1f63ff225de413ee8ca765541.jpg",
+      "latest_episode_aired_on": "2018-06-24",
+      "first_episode_aired_on": "2016-05-22",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amc_com": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5016504/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Preacher_%28TV_series%29"
+      }
+    },
+    {
       "title": "Sense8",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4049/thumb_sense8-0e5c406ba067ccf949f69a5f8ae3bc1d.jpg",
       "latest_episode_aired_on": "2018-06-08",
@@ -203,7 +218,7 @@
     {
       "title": "The Expanse",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4825/thumb_the-expanse-52debe5c5f82378f94b2792c1d362fbf.jpg",
-      "latest_episode_aired_on": "2018-06-20",
+      "latest_episode_aired_on": "2018-06-27",
       "first_episode_aired_on": "2015-11-23",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -476,21 +491,6 @@
         "imdb": "http://www.imdb.com/title/tt2442560/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/tv/peaky-blinders/s02/",
         "wikipedia": "https://en.wikipedia.org/wiki/Peaky_Blinders_%28TV_series%29"
-      }
-    },
-    {
-      "title": "Preacher",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5094/thumb_preacher-07d891c1f63ff225de413ee8ca765541.jpg",
-      "latest_episode_aired_on": "2017-09-11",
-      "first_episode_aired_on": "2016-05-22",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amc_com": null
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt5016504/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Preacher_%28TV_series%29"
       }
     },
     {
@@ -1394,6 +1394,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-06-28 03:12:14 -0400"
+  "updated_at": "2018-06-29 03:12:15 -0400"
 }
 
