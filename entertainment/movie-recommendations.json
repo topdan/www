@@ -1387,8 +1387,7 @@
       "release_date": "2013-12-18",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12082/thumb_her-2013-9f7792435467a33f5e4f0d4395439ed8.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00KATY250",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP36931?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00KATY250"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1798709/",
@@ -4462,6 +4461,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-06-29 03:12:15 -0400"
+  "updated_at": "2018-06-30 03:12:14 -0400"
 }
 
