@@ -2333,8 +2333,7 @@
       "release_date": "2009-03-06",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12508/thumb_watchmen-2009-f880e341a0d5f0e501fcc5e4f34a081f.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B002EDH0FE",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP40376?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B002EDH0FE"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0409459/",
@@ -2447,8 +2446,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16753/thumb_the-dark-knight-2008-38b11925313eb035aa85f9b9a3236bf0.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001OGWY1W",
-        "itunes": "https://itunes.apple.com/us/movie/the-dark-knight/id764632601",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP40373?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "itunes": "https://itunes.apple.com/us/movie/the-dark-knight/id764632601"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0468569/",
@@ -4461,6 +4459,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-06-30 03:12:14 -0400"
+  "updated_at": "2018-07-01 03:12:14 -0400"
 }
 
