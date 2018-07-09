@@ -120,6 +120,21 @@
       }
     },
     {
+      "title": "Comedians In Cars Getting Coffee",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4239/thumb_comedians-in-cars-getting-coffee-a2979c2609d35a2c966aa086da2468a7.jpg",
+      "latest_episode_aired_on": "2018-07-06",
+      "first_episode_aired_on": "2012-07-19",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2314952/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Comedians_in_Cars_Getting_Coffee"
+      }
+    },
+    {
       "title": "Crazy Ex-Girlfriend",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4720/thumb_crazy-ex-girlfriend-352a0190718382785ae2174b9481bf52.jpg",
       "latest_episode_aired_on": "2018-02-09",
@@ -354,21 +369,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt4577466/",
         "wikipedia": "https://en.wikipedia.org/wiki/Casual_%28TV_series%29"
-      }
-    },
-    {
-      "title": "Comedians In Cars Getting Coffee",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4239/thumb_comedians-in-cars-getting-coffee-6ad828f32e8755e24f57632fa15d4a07.jpg",
-      "latest_episode_aired_on": "2017-02-09",
-      "first_episode_aired_on": "2012-07-19",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "netflix": null
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt2314952/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Comedians_in_Cars_Getting_Coffee"
       }
     },
     {
@@ -1379,6 +1379,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-07-07 03:12:14 -0400"
+  "updated_at": "2018-07-09 03:12:14 -0400"
 }
 
