@@ -297,19 +297,19 @@
     },
     {
       "name": "David Wain",
-      "job": "director",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21198/thumb_1-222bd610e6e457d1c08d730a701502da.jpg",
-      "references": {
-        "imdb": "http://www.imdb.com/name/nm0906476/"
-      }
-    },
-    {
-      "name": "David Wain",
       "job": "actor",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/11606/thumb_1-222bd610e6e457d1c08d730a701502da.jpg",
       "references": {
         "imdb": "http://www.imdb.com/name/nm0906476/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162745342"
+      }
+    },
+    {
+      "name": "David Wain",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/21198/thumb_1-222bd610e6e457d1c08d730a701502da.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0906476/"
       }
     },
     {
@@ -537,19 +537,19 @@
     },
     {
       "name": "Jennifer Westfeldt",
+      "job": "director",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22875/thumb_1-435b05adea8a53fd57cc308a65258eab.jpg",
+      "references": {
+        "imdb": "http://www.imdb.com/name/nm0922724/"
+      }
+    },
+    {
+      "name": "Jennifer Westfeldt",
       "job": "actor",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/6666/thumb_1-435b05adea8a53fd57cc308a65258eab.jpg",
       "references": {
         "imdb": "http://www.imdb.com/name/nm0922724/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/celebrity/162692503"
-      }
-    },
-    {
-      "name": "Jennifer Westfeldt",
-      "job": "director",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/people/posters/22875/thumb_1-435b05adea8a53fd57cc308a65258eab.jpg",
-      "references": {
-        "imdb": "http://www.imdb.com/name/nm0922724/"
       }
     },
     {
@@ -1146,6 +1146,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-05-01 20:43:55 -0400",
-  "updated_at": "2018-04-26 03:12:15 -0400"
+  "updated_at": "2018-07-18 03:12:14 -0400"
 }
 
