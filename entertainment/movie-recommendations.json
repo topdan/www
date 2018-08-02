@@ -2381,9 +2381,10 @@
       "title": "Watchmen",
       "year": 2009,
       "release_date": "2009-03-06",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12508/thumb_watchmen-2009-f880e341a0d5f0e501fcc5e4f34a081f.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12508/thumb_watchmen-2009-f8c02fc67edefdd39e0fc545552f499c.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B002EDH0FE"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B002EDH0FE",
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0409459/",
@@ -2927,7 +2928,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B002QYSZBO",
         "amazon_prime": null,
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP33756?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP38514?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0373469/",
@@ -3119,10 +3120,10 @@
       "title": "I Heart Huckabees",
       "year": 2004,
       "release_date": "2004-10-01",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7890/thumb_i-heart-huckabees-2004-fc22565dd55f5a0a5bc0276cf4bb7005.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7890/thumb_i-heart-huckabees-2004-5d58e9585878ecbe5c6b23db1a0a05c7.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000SW2F08",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP34220?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP38868?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "starz_com": "http://www.starzplay.com/Movies/Details/23849"
       },
       "references": {
@@ -3262,10 +3263,11 @@
       "title": "Lost in Translation",
       "year": 2003,
       "release_date": "2003-09-26",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3662/thumb_lost-in-translation-2003-7e6dabe4b51aa2abe920695d35a37a67.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3662/thumb_lost-in-translation-2003-c40e7ef055f504c67e1e6c1ce3d9f18b.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001NLCBJI",
-        "amazon_prime": null
+        "amazon_prime": null,
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0335266/",
@@ -3421,8 +3423,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5636/thumb_super-troopers-2002-3221997daf29b9f346011d0eff4377f7.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9VZCU",
-        "itunes": "https://itunes.apple.com/us/movie/super-troopers/id270307460",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MUGOROSTP31234?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP49739?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "itunes": "https://itunes.apple.com/us/movie/super-troopers/id270307460"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0247745/",
@@ -3602,10 +3604,11 @@
       "title": "Vanilla Sky",
       "year": 2001,
       "release_date": "2001-12-14",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7369/thumb_vanilla-sky-2001-247e73558b65a598a4a4ef958ba2a625.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7369/thumb_vanilla-sky-2001-bd3bb30f1975de1764d51e202b55cb3e.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000IZ8VDK",
-        "amazon_prime": "http://www.amazon.com/gp/product/B000IZ8VDK"
+        "amazon_prime": "http://www.amazon.com/gp/product/B000IZ8VDK",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP80262?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0259711/",
@@ -3752,9 +3755,10 @@
       "title": "10 Things I Hate About You",
       "year": 1999,
       "release_date": "1999-03-31",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14150/thumb_10-things-i-hate-about-you-1999-85774373338843a5beecaaf4133e05c9.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14150/thumb_10-things-i-hate-about-you-1999-87e8c91c959fa6ea8c98b02b3093092d.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00FY8ARI8"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00FY8ARI8",
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0147800/",
@@ -4167,9 +4171,10 @@
       "title": "The Usual Suspects",
       "year": 1995,
       "release_date": "1995-08-16",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10734/thumb_the-usual-suspects-1995-f00d8b92d64c9aa6ad1fc971683bce8a.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10734/thumb_the-usual-suspects-1995-6fc94e6a524aedd4c21f81a3f9893219.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00101ZOTA",
+        "amazon_prime": null,
         "encore": "http://www.encoreplay.com/Movies/Details/1872",
         "hulu": null,
         "itunes": "https://itunes.apple.com/us/movie/the-usual-suspects/id267913118"
@@ -4514,6 +4519,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-07-30 03:12:15 -0400"
+  "updated_at": "2018-08-02 03:12:14 -0400"
 }
 
