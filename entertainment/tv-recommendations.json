@@ -199,7 +199,7 @@
     {
       "title": "Preacher",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5094/thumb_preacher-07d891c1f63ff225de413ee8ca765541.jpg",
-      "latest_episode_aired_on": "2018-07-22",
+      "latest_episode_aired_on": "2018-07-29",
       "first_episode_aired_on": "2016-05-22",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -309,21 +309,6 @@
       }
     },
     {
-      "title": "Unbreakable Kimmy Schmidt",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3842/thumb_unbreakable-kimmy-schmidt-9d1527681b68e3cd14c128900c21d8bf.jpg",
-      "latest_episode_aired_on": "2018-05-30",
-      "first_episode_aired_on": "2015-03-06",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "netflix": "https://www.netflix.com/title/80025384"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt3339966/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Unbreakable_Kimmy_Schmidt"
-      }
-    },
-    {
       "title": "Westworld",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5266/thumb_westworld-6e816aac4f2936634bf350378d4339d7.jpg",
       "latest_episode_aired_on": "2018-06-17",
@@ -382,6 +367,23 @@
         "imdb": "http://www.imdb.com/title/tt2085059/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/tv/black-mirror/s02/",
         "wikipedia": "https://en.wikipedia.org/wiki/Black_Mirror_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Fargo",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2901/thumb_fargo-854fa6669b912db1cbb4625144103a59.jpg",
+      "latest_episode_aired_on": "2017-06-14",
+      "first_episode_aired_on": "2014-04-15",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00JMJOWXG",
+        "fx_networks_com": "http://www.fxnetworks.com/shows/fargo/episodes",
+        "hulu": "http://www.hulu.com/fargo"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2802850/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Fargo_%28TV_series%29"
       }
     },
     {
@@ -1392,6 +1394,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-08-01 03:12:15 -0400"
+  "updated_at": "2018-08-03 03:12:14 -0400"
 }
 

@@ -80,7 +80,7 @@
       "release_date": null,
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21648/thumb_atomic-blonde-2017-b72fef5c65cb761dc6c11a1afebc9f55.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP78177?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP78158?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2406566/"
@@ -103,7 +103,7 @@
       "release_date": null,
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21288/thumb_blade-runner-2049-2017-46da9ccc321e46f91973abe665c04344.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP79260?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP79267?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1856101/"
@@ -127,7 +127,7 @@
       "release_date": null,
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21166/thumb_gifted-2017-474db3b5e9eb3341a43444552df0150d.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP78200?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP78198?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt4481414/"
@@ -4046,7 +4046,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/2552/thumb_good-will-hunting-1997-47dca06828b88817bbad246c2fdeafcb.jpg",
       "streams": {
         "amazon_prime": "http://www.amazon.com/gp/product/B006RXQA5I",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP69494?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP80400?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/good-will-hunting/id432503534",
         "netflix": "https://www.netflix.com/title/17405997"
       },
@@ -4519,6 +4519,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-08-02 03:12:14 -0400"
+  "updated_at": "2018-08-03 03:12:14 -0400"
 }
 
