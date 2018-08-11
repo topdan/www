@@ -169,6 +169,18 @@
       }
     },
     {
+      "title": "Newness",
+      "year": 2017,
+      "release_date": null,
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/22667/thumb_newness-2017-26192fcd4fa2efdf6c9f79de98f67cc4.jpg",
+      "streams": {
+        "netflix": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt6408226/"
+      }
+    },
+    {
       "title": "Split",
       "year": 2017,
       "release_date": "2017-01-27",
@@ -4519,6 +4531,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-08-09 03:12:15 -0400"
+  "updated_at": "2018-08-11 03:12:14 -0400"
 }
 
