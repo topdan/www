@@ -90,8 +90,9 @@
       "title": "Baby Driver",
       "year": 2017,
       "release_date": null,
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21555/thumb_baby-driver-2017-81e23dc286fec3cb07038f9049ba068c.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21555/thumb_baby-driver-2017-4186329656b3576020e96b3ce06c5e4c.jpg",
       "streams": {
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3890160/"
@@ -4531,6 +4532,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-08-11 03:12:14 -0400"
+  "updated_at": "2018-08-12 03:12:14 -0400"
 }
 
