@@ -9,6 +9,13 @@
   "data_type": "Entertainment::MusicVideo",
   "data": [
     {
+      "artist": "Alice Merton",
+      "song": "No Roots",
+      "video_url": "https://www.youtube.com/watch?v=PUdyuKaGQd4",
+      "thumbnail_url": "https://img.youtube.com/vi/PUdyuKaGQd4/0.jpg",
+      "added_at": "2018-08-31 02:02:53 -0400"
+    },
+    {
       "artist": "JR JR",
       "song": "Control (Secretly Sorry)",
       "video_url": "https://www.youtube.com/watch?v=78jJpHUzrZY",
@@ -1042,6 +1049,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2018-06-19 03:52:11 -0400"
+  "updated_at": "2018-08-31 03:52:12 -0400"
 }
 
