@@ -196,6 +196,21 @@
       }
     },
     {
+      "title": "Ozark",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5626/thumb_ozark-d39d0ec2825d1a6296aac38e8cbf42e0.jpg",
+      "latest_episode_aired_on": "2018-08-31",
+      "first_episode_aired_on": "2017-07-21",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "netflix": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5071412/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ozark_%28TV_series%29"
+      }
+    },
+    {
       "title": "Preacher",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5094/thumb_preacher-07d891c1f63ff225de413ee8ca765541.jpg",
       "latest_episode_aired_on": "2018-08-19",
@@ -428,21 +443,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt5290382/",
         "wikipedia": "https://en.wikipedia.org/wiki/Mindhunter_%28TV_series%29"
-      }
-    },
-    {
-      "title": "Ozark",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5626/thumb_ozark-8b0dc9acf7e9636b27c2c6aff864426d.jpg",
-      "latest_episode_aired_on": "2017-07-21",
-      "first_episode_aired_on": "2017-07-21",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "netflix": null
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt5071412/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Ozark_%28TV_series%29"
       }
     },
     {
@@ -1377,6 +1377,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-08-31 03:12:15 -0400"
+  "updated_at": "2018-09-01 03:12:15 -0400"
 }
 
