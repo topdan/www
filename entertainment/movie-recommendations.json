@@ -1365,8 +1365,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8992/thumb_about-time-2013-eada661951c5c2e703ead82f1b22da74.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00I8H7APK",
-        "itunes": "https://itunes.apple.com/us/movie/about-time/id723664694",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP36522?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP47140?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "itunes": "https://itunes.apple.com/us/movie/about-time/id723664694"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2194499/",
@@ -2266,10 +2266,10 @@
       "title": "Funny People",
       "year": 2009,
       "release_date": "2009-07-31",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12156/thumb_funny-people-2009-5441dca0d7bc538d7accb227cb1a05a8.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12156/thumb_funny-people-2009-63bf4706a5c1137a1771c3f052d4b65b.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B002U5QCJ6",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP40407?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP81589?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1201167/",
@@ -3380,7 +3380,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3411/thumb_kissing-jessica-stein-2002-d9b5576dbce0aca2c28460ea68c81bbc.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000SW16N0",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP31520?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP30754?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0264761/",
@@ -3756,9 +3756,10 @@
       "title": "Unbreakable",
       "year": 2000,
       "release_date": "2000-11-22",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15720/thumb_unbreakable-2000-a7e1076823ab7c37ef1d1b59c0e8392c.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15720/thumb_unbreakable-2000-15b739d4a3e39577c894861a8d6a4116.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B003QS9TX2"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B003QS9TX2",
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0217869/",
@@ -3855,7 +3856,6 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00BB8Q1RQ",
         "amazon_prime": "http://www.amazon.com/gp/product/B00BB8Q1RQ",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP39944?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "netflix": "https://www.netflix.com/title/60000410"
       },
       "references": {
@@ -3989,9 +3989,10 @@
       "title": "What Dreams May Come",
       "year": 1998,
       "release_date": "1998-10-02",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7494/thumb_what-dreams-may-come-1998-2fe4980af99afddd0d49ab659b3ae058.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7494/thumb_what-dreams-may-come-1998-61c9a6c611e60a1261a5168084c0ee76.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000ICXQGK"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000ICXQGK",
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0120889/",
@@ -4243,10 +4244,11 @@
       "title": "Groundhog Day",
       "year": 1993,
       "release_date": "1993-02-12",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15337/thumb_groundhog-day-1993-27e7e7648cf8723ee4012a2953accef3.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15337/thumb_groundhog-day-1993-1d0b4151cc372b48f4eb8aa5f00245df.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00170I7GG",
-        "itunes": "https://itunes.apple.com/us/movie/groundhog-day/id270870214"
+        "itunes": "https://itunes.apple.com/us/movie/groundhog-day/id270870214",
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0107048/",
@@ -4533,6 +4535,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-08-18 03:12:15 -0400"
+  "updated_at": "2018-09-02 03:12:15 -0400"
 }
 
