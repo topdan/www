@@ -1774,8 +1774,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8230/thumb_moonrise-kingdom-2012-5678f8820fe35d63839aad83b07d034d.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B009RI4FRU",
-        "hulu": null,
-        "netflix": "https://www.netflix.com/title/70228041"
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1748122/",
@@ -4536,6 +4535,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-09-17 03:12:16 -0400"
+  "updated_at": "2018-09-18 03:12:17 -0400"
 }
 
