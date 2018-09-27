@@ -270,6 +270,24 @@
       }
     },
     {
+      "title": "South Park",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-6eabc96a74a5583c1efe11fa3fdbaf59.jpg",
+      "latest_episode_aired_on": "2018-09-26",
+      "first_episode_aired_on": "1997-08-13",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000GE42H2",
+        "comedy_central_com": "http://www.cc.com/shows/south-park/full-episodes",
+        "hulu": "http://www.hulu.com/south-park",
+        "south_park_studios": "http://www.southparkstudios.com"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0121955/",
+        "wikipedia": "https://en.wikipedia.org/wiki/South_Park"
+      }
+    },
+    {
       "title": "Splitting Up Together",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5915/thumb_splitting-up-together-c63d1d0f6b211ea21cf01f8a1a2cda05.jpg",
       "latest_episode_aired_on": "2018-05-08",
@@ -503,24 +521,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2861424/",
         "wikipedia": "https://en.wikipedia.org/wiki/Rick_and_Morty"
-      }
-    },
-    {
-      "title": "South Park",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-6eabc96a74a5583c1efe11fa3fdbaf59.jpg",
-      "latest_episode_aired_on": "2017-12-06",
-      "first_episode_aired_on": "1997-08-13",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000GE42H2",
-        "comedy_central_com": "http://www.cc.com/shows/south-park/full-episodes",
-        "hulu": "http://www.hulu.com/south-park",
-        "south_park_studios": "http://www.southparkstudios.com"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt0121955/",
-        "wikipedia": "https://en.wikipedia.org/wiki/South_Park"
       }
     },
     {
@@ -1374,6 +1374,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-09-25 03:12:15 -0400"
+  "updated_at": "2018-09-27 03:12:15 -0400"
 }
 
