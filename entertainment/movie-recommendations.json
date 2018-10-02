@@ -127,9 +127,10 @@
       "title": "Gifted",
       "year": 2017,
       "release_date": null,
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21166/thumb_gifted-2017-474db3b5e9eb3341a43444552df0150d.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21166/thumb_gifted-2017-f53f4b9321cc4370318f7a5465b6130a.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP78204?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP78204?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP41041?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt4481414/"
@@ -964,11 +965,11 @@
       "title": "Inherent Vice",
       "year": 2014,
       "release_date": "2015-01-09",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12245/thumb_inherent-vice-2014-49e64c5994cb7b81eb3c8a93c4d15d2c.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12245/thumb_inherent-vice-2014-701cd27922f0d3a694679be1b0103831.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00TGO68IO",
-        "itunes": "https://itunes.apple.com/us/movie/inherent-vice/id935074762",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP37746?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP49547?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "itunes": "https://itunes.apple.com/us/movie/inherent-vice/id935074762"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1791528/",
@@ -2157,10 +2158,11 @@
       "title": "Love and Other Drugs",
       "year": 2010,
       "release_date": "2010-11-24",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13145/thumb_love-and-other-drugs-2010-d925610d64bc35f3538b464f8be5df5e.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13145/thumb_love-and-other-drugs-2010-03067ef0062c4ed9b6d5ac7dfb9967f5.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B004Q3UL2O",
-        "itunes": "https://itunes.apple.com/us/movie/love-other-drugs/id399423384"
+        "itunes": "https://itunes.apple.com/us/movie/love-other-drugs/id399423384",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP32991?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0758752/",
@@ -2862,8 +2864,9 @@
       "title": "The Illusionist",
       "year": 2006,
       "release_date": "2006-08-18",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10072/thumb_the-illusionist-2006-456c83104e99c7edd8b5b8ce8c985858.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10072/thumb_the-illusionist-2006-ec39b021a41dc3b092cb8eae122e6ae9.jpg",
       "streams": {
+        "amazon_prime": null,
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/3426719"
       },
       "references": {
@@ -2878,7 +2881,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15229/thumb_v-for-vendetta-2006-525d185af8bb0d11450d4b4cd547b6c0.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I186FW",
-        "amazon_prime": null
+        "amazon_prime": null,
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0434409/",
@@ -2987,6 +2991,7 @@
         "amazon_one_click": "http://www.amazon.com/gp/product/B003QSDYSS",
         "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP70312?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "hulu": null,
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP41039?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/140985"
       },
       "references": {
@@ -3027,9 +3032,10 @@
       "title": "The Devil's Rejects",
       "year": 2005,
       "release_date": "2005-07-22",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10972/thumb_the-devils-rejects-2005-136ca9e6f93959dcdbb52b57480cda8a.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10972/thumb_the-devils-rejects-2005-f8f846d6db0bce40750f4fa5156fb9d7.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001AL3T9C"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001AL3T9C",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP82966?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0395584/",
@@ -3067,9 +3073,10 @@
       "title": "Closer",
       "year": 2004,
       "release_date": "2004-12-03",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8080/thumb_closer-2004-5f9883a9d78fb6918c54e26a161874ca.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8080/thumb_closer-2004-c833156299fceba7d7c87becd3307d8b.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001E907I6"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001E907I6",
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0376541/",
@@ -3335,10 +3342,10 @@
       "title": "Underworld",
       "year": 2003,
       "release_date": "2003-09-19",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15218/thumb_underworld-2003-196fc01d27ed057d1a67550b3b84da5e.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15218/thumb_underworld-2003-f1c019f49108cd8be505feab108ef6c0.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000O14VAU",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP40808?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP34667?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "netflix": "https://www.netflix.com/title/60031210"
       },
       "references": {
@@ -3745,8 +3752,10 @@
       "title": "The Way of the Gun",
       "year": 2000,
       "release_date": "2000-09-08",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13116/thumb_the-way-of-the-gun-2000-8a34d85dcc3c9c8f4b6153cde26eaa15.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13116/thumb_the-way-of-the-gun-2000-3b10449edb4ff45561d230f1bf95cee5.jpg",
       "streams": {
+        "amazon_prime": null,
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0202677/",
@@ -4135,7 +4144,6 @@
       "release_date": "1996-08-16",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19764/thumb_tin-cup-1996-e5b249b44f7ce723ce4f651065d79cc6.jpg",
       "streams": {
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP40415?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0117918/",
@@ -4483,7 +4491,8 @@
         "amazon_one_click": "http://www.amazon.com/gp/product/B0014C3KN2",
         "amazon_prime": null,
         "hulu": null,
-        "itunes": "https://itunes.apple.com/us/movie/blazing-saddles/id271003460"
+        "itunes": "https://itunes.apple.com/us/movie/blazing-saddles/id271003460",
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0071230/",
@@ -4536,6 +4545,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-09-29 03:12:15 -0400"
+  "updated_at": "2018-10-02 03:12:15 -0400"
 }
 
