@@ -85,7 +85,7 @@
     {
       "title": "Ballers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4147/thumb_ballers-7829a32f167eeb5448e5be8702fd3bcb.jpg",
-      "latest_episode_aired_on": "2018-09-23",
+      "latest_episode_aired_on": "2018-09-30",
       "first_episode_aired_on": "2015-06-22",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -119,7 +119,7 @@
     {
       "title": "Bob's Burgers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
-      "latest_episode_aired_on": "2018-05-20",
+      "latest_episode_aired_on": "2018-09-30",
       "first_episode_aired_on": "2011-01-09",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1357,6 +1357,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-10-04 03:12:28 -0400"
+  "updated_at": "2018-10-05 03:12:14 -0400"
 }
 
