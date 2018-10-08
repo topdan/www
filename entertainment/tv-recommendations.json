@@ -84,7 +84,7 @@
     },
     {
       "title": "Ballers",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4147/thumb_ballers-7829a32f167eeb5448e5be8702fd3bcb.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4147/thumb_ballers-d1a3ec86b40f2516171803aae9034d23.jpg",
       "latest_episode_aired_on": "2018-09-30",
       "first_episode_aired_on": "2015-06-22",
       "final_episode_aired_on": null,
@@ -272,7 +272,7 @@
     {
       "title": "South Park",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/145/thumb_south-park-6eabc96a74a5583c1efe11fa3fdbaf59.jpg",
-      "latest_episode_aired_on": "2018-09-26",
+      "latest_episode_aired_on": "2018-10-03",
       "first_episode_aired_on": "1997-08-13",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -321,7 +321,7 @@
     },
     {
       "title": "The Good Place",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5246/thumb_the-good-place-875a47f47853991c156f13f031014169.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5246/thumb_the-good-place-69c5127c2e79b6349bf213ce6653c6a5.jpg",
       "latest_episode_aired_on": "2018-09-27",
       "first_episode_aired_on": "2016-09-19",
       "final_episode_aired_on": null,
@@ -1357,6 +1357,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-10-05 03:12:14 -0400"
+  "updated_at": "2018-10-08 03:12:15 -0400"
 }
 
