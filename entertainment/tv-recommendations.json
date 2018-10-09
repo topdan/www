@@ -322,7 +322,7 @@
     {
       "title": "The Good Place",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5246/thumb_the-good-place-69c5127c2e79b6349bf213ce6653c6a5.jpg",
-      "latest_episode_aired_on": "2018-09-27",
+      "latest_episode_aired_on": "2018-10-04",
       "first_episode_aired_on": "2016-09-19",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1357,6 +1357,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-10-08 03:12:15 -0400"
+  "updated_at": "2018-10-09 03:12:15 -0400"
 }
 
