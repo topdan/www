@@ -1181,8 +1181,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14284/thumb_the-babadook-2014-0a2f2f8924a8df9a7160cd1e6d439467.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00P596I8Y",
-        "itunes": "https://itunes.apple.com/us/movie/the-babadook/id935857788",
-        "netflix": "https://www.netflix.com/title/70300205"
+        "itunes": "https://itunes.apple.com/us/movie/the-babadook/id935857788"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2321549/",
@@ -4535,6 +4534,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-10-10 03:12:15 -0400"
+  "updated_at": "2018-10-16 03:12:15 -0400"
 }
 
