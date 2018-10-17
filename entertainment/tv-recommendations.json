@@ -83,22 +83,6 @@
       }
     },
     {
-      "title": "Ballers",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4147/thumb_ballers-d1a3ec86b40f2516171803aae9034d23.jpg",
-      "latest_episode_aired_on": "2018-09-30",
-      "first_episode_aired_on": "2015-06-22",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP46082?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt2891574/",
-        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/ballers/s01/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Ballers"
-      }
-    },
-    {
       "title": "Black-ish",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-4b4c1228c950c1d72ba75c3463f4de6f.jpg",
       "latest_episode_aired_on": "2018-05-15",
@@ -182,7 +166,7 @@
     {
       "title": "Crazy Ex-Girlfriend",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4720/thumb_crazy-ex-girlfriend-352a0190718382785ae2174b9481bf52.jpg",
-      "latest_episode_aired_on": "2018-02-16",
+      "latest_episode_aired_on": "2018-10-12",
       "first_episode_aired_on": "2015-10-12",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1357,6 +1341,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-10-16 03:12:15 -0400"
+  "updated_at": "2018-10-17 03:12:14 -0400"
 }
 
