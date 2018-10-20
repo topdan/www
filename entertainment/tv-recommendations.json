@@ -84,7 +84,7 @@
     },
     {
       "title": "Black-ish",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-4b4c1228c950c1d72ba75c3463f4de6f.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-247f119e2c63e7b98a2bd7fa0783a99c.jpg",
       "latest_episode_aired_on": "2018-05-15",
       "first_episode_aired_on": "2014-09-24",
       "final_episode_aired_on": null,
@@ -194,17 +194,18 @@
       }
     },
     {
-      "title": "Letterkenny",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/6055/thumb_letterkenny-c325b574ecccea498fe6d802faf8d3ea.jpg",
-      "latest_episode_aired_on": "2018-06-29",
-      "first_episode_aired_on": "2016-02-07",
+      "title": "Marvel's Daredevil",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3980/thumb_marvels-daredevil-6fd6e22ebfc2bf1b72016a1eec266416.jpg",
+      "latest_episode_aired_on": "2018-10-19",
+      "first_episode_aired_on": "2015-04-02",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
       "streams": {
+        "netflix": "https://www.netflix.com/title/80018294"
       },
       "references": {
-        "imdb": "http://www.imdb.com/title/tt4647692/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Letterkenny_%28TV_series%29"
+        "imdb": "http://www.imdb.com/title/tt3322312/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Daredevil_%28TV_series%29"
       }
     },
     {
@@ -687,21 +688,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt4422836/",
         "wikipedia": "https://en.wikipedia.org/wiki/Limitless_%28TV_series%29"
-      }
-    },
-    {
-      "title": "Marvel's Daredevil",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3980/thumb_marvels-daredevil-80a895118549beb253c9522480400920.jpg",
-      "latest_episode_aired_on": "2016-03-18",
-      "first_episode_aired_on": "2015-04-02",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "netflix": "https://www.netflix.com/title/80018294"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt3322312/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Daredevil_%28TV_series%29"
       }
     },
     {
@@ -1341,6 +1327,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-10-19 03:12:16 -0400"
+  "updated_at": "2018-10-20 03:12:15 -0400"
 }
 
