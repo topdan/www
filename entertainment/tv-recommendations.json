@@ -181,6 +181,19 @@
       }
     },
     {
+      "title": "Disenchantment",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/6084/thumb_disenchantment-cc68e86bfe6cf2e3344ccd851ff3d964.jpg",
+      "latest_episode_aired_on": "2018-08-17",
+      "first_episode_aired_on": "2018-08-17",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5363918/"
+      }
+    },
+    {
       "title": "Explained",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/6049/thumb_explained-37da378020e9490f6b9e325faeb5be19.jpg",
       "latest_episode_aired_on": "2018-07-18",
@@ -191,6 +204,20 @@
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt8005374/"
+      }
+    },
+    {
+      "title": "Maniac",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/6144/thumb_maniac-a5dbb7a80101d21b547e9824b89f561b.jpg",
+      "latest_episode_aired_on": "2018-09-21",
+      "first_episode_aired_on": "2018-09-21",
+      "final_episode_aired_on": "2018-09-21",
+      "unwatched_episodes_count": 0,
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5580146/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Maniac_%28miniseries%29"
       }
     },
     {
@@ -336,6 +363,21 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt5540054/",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Tick_%282016_TV_series%29"
+      }
+    },
+    {
+      "title": "Tom Clancy's Jack Ryan",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/6059/thumb_tom-clancys-jack-ryan-a4847c3e8dd64546d4fc4a722538049e.jpg",
+      "latest_episode_aired_on": "2018-08-31",
+      "first_episode_aired_on": "2018-08-31",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5057054/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jack_Ryan_%28TV_series%29"
       }
     },
     {
@@ -1312,6 +1354,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-10-24 03:12:16 -0400"
+  "updated_at": "2018-10-27 03:12:14 -0400"
 }
 
