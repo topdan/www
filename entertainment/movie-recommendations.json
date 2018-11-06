@@ -20,6 +20,17 @@
       }
     },
     {
+      "title": "Bad Times At The El Royale",
+      "year": 2018,
+      "release_date": null,
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/23237/thumb_bad-times-at-the-el-royale-2018-058306ec646c611c43bda2c9d0ba8e56.jpg",
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt6628394/"
+      }
+    },
+    {
       "title": "Hostiles",
       "year": 2018,
       "release_date": null,
@@ -4532,6 +4543,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-11-03 03:12:15 -0400"
+  "updated_at": "2018-11-06 03:12:15 -0500"
 }
 
