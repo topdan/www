@@ -789,8 +789,9 @@
       "title": "Big Hero 6",
       "year": 2014,
       "release_date": "2014-11-07",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11953/thumb_big-hero-6-2014-7d17e95cb7ea0734e97468debda52a2a.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11953/thumb_big-hero-6-2014-bcc06667c93942050e0357a6af345da3.jpg",
       "streams": {
+        "hulu": null,
         "itunes": "https://itunes.apple.com/us/movie/big-hero-6/id929423754",
         "starz_com": "http://www.starzplay.com/Movies/Details/23790"
       },
@@ -4543,6 +4544,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-11-06 03:12:15 -0500"
+  "updated_at": "2018-11-11 03:12:15 -0500"
 }
 
