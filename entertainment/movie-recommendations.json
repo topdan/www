@@ -54,6 +54,18 @@
       }
     },
     {
+      "title": "Paddington 2",
+      "year": 2018,
+      "release_date": null,
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/22431/thumb_paddington-2-2018-ec278b07b15b64687a79c360f6e8fcb1.jpg",
+      "streams": {
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP85050?videoMode=embeddedVideo?showSpecialFeatures=false/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4468740/"
+      }
+    },
+    {
       "title": "Sorry to Bother You",
       "year": 2018,
       "release_date": null,
@@ -4545,6 +4557,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-11-18 03:12:16 -0500"
+  "updated_at": "2018-11-23 03:12:16 -0500"
 }
 
