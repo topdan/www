@@ -116,7 +116,6 @@
       "release_date": null,
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21648/thumb_atomic-blonde-2017-b72fef5c65cb761dc6c11a1afebc9f55.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP86348?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2406566/"
@@ -298,7 +297,6 @@
       "release_date": "2016-10-14",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/19603/thumb_a-monster-calls-2016-99fcc53d7184c965450e30971d9b8fec.jpg",
       "streams": {
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP40699?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3416532/",
@@ -411,7 +409,6 @@
       "release_date": "2016-12-02",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20658/thumb_la-la-land-2016-ecbd302e4dcd8a8b741fdb2d550b0ea8.jpg",
       "streams": {
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP40698?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3783958/",
@@ -2188,9 +2185,10 @@
       "title": "Inception",
       "year": 2010,
       "release_date": "2010-07-16",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12212/thumb_inception-2010-8adb332c64be668de10418fc172adbbe.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12212/thumb_inception-2010-77d1e9abb833304cf946ad950e39aef3.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0047WJ12K",
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP86493?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/inception/id400763833"
       },
       "references": {
@@ -2774,8 +2772,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12513/thumb_waitress-2007-47c66e8bd2b9d2c7f2573d219afb92b3.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0011Y4A5K",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP48190?videoMode=embeddedVideo?showSpecialFeatures=false/",
-        "itunes": "https://itunes.apple.com/us/movie/waitress/id270021764"
+        "itunes": "https://itunes.apple.com/us/movie/waitress/id270021764",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP38779?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0473308/",
@@ -3627,8 +3625,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/17935/thumb_serendipity-2001-7216dad7b6ba730c03665c2defa4672d.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00COH0W00",
-        "amazon_prime": "http://www.amazon.com/gp/product/B00COH0W00",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP40418?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_prime": "http://www.amazon.com/gp/product/B00COH0W00"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0240890/",
@@ -4581,6 +4578,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-11-29 03:12:16 -0500"
+  "updated_at": "2018-12-02 03:12:15 -0500"
 }
 
