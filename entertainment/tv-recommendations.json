@@ -85,7 +85,7 @@
     {
       "title": "Black-ish",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-247f119e2c63e7b98a2bd7fa0783a99c.jpg",
-      "latest_episode_aired_on": "2018-11-27",
+      "latest_episode_aired_on": "2018-12-04",
       "first_episode_aired_on": "2014-09-24",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -287,7 +287,7 @@
     {
       "title": "Splitting Up Together",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5915/thumb_splitting-up-together-c63d1d0f6b211ea21cf01f8a1a2cda05.jpg",
-      "latest_episode_aired_on": "2018-11-27",
+      "latest_episode_aired_on": "2018-12-04",
       "first_episode_aired_on": "2018-03-27",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1356,6 +1356,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-12-07 03:12:15 -0500"
+  "updated_at": "2018-12-09 03:12:15 -0500"
 }
 
