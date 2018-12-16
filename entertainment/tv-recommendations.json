@@ -396,6 +396,20 @@
       }
     },
     {
+      "title": "Travelers",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5768/thumb_travelers-b72b2d883bab27e4ee5f7f890f9c807f.jpg",
+      "latest_episode_aired_on": "2018-12-14",
+      "first_episode_aired_on": "2016-10-17",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5651844/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Travelers_%28TV_series%29"
+      }
+    },
+    {
       "title": "Westworld",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5266/thumb_westworld-6e816aac4f2936634bf350378d4339d7.jpg",
       "latest_episode_aired_on": "2018-06-17",
@@ -593,20 +607,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2699128/",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Leftovers_%28TV_series%29"
-      }
-    },
-    {
-      "title": "Travelers",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5768/thumb_travelers-d8406767527f70f3289bfde7db46177d.jpg",
-      "latest_episode_aired_on": "2017-12-26",
-      "first_episode_aired_on": "2016-10-17",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt5651844/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Travelers_%28TV_series%29"
       }
     },
     {
@@ -1356,6 +1356,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2018-12-10 03:12:16 -0500"
+  "updated_at": "2018-12-16 03:12:16 -0500"
 }
 
