@@ -140,7 +140,6 @@
       "release_date": null,
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21288/thumb_blade-runner-2049-2017-46da9ccc321e46f91973abe665c04344.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP87909?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1856101/"
@@ -237,7 +236,6 @@
       "release_date": "2017-01-27",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20708/thumb_split-2017-7b64165563ee9131dfb9e542989b8270.jpg",
       "streams": {
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP40973?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt4972582/",
@@ -371,8 +369,9 @@
       "title": "Hell or High Water",
       "year": 2016,
       "release_date": "2016-08-12",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20416/thumb_hell-or-high-water-2016-86081d77fe29bd685880f28a86d6e506.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20416/thumb_hell-or-high-water-2016-0281cb2233691e4b9e6a13830b8df4b2.jpg",
       "streams": {
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2582782/",
@@ -773,6 +772,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14941/thumb_the-voices-2015-22dcc51f0a951fcda2ed4da1696d988b.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00T9DFQCQ",
+        "hulu": null,
         "netflix": null
       },
       "references": {
@@ -2441,7 +2441,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12508/thumb_watchmen-2009-f8c02fc67edefdd39e0fc545552f499c.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B002EDH0FE",
-        "amazon_prime": null
+        "amazon_prime": null,
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0409459/",
@@ -2551,10 +2552,11 @@
       "title": "The Dark Knight",
       "year": 2008,
       "release_date": "2008-07-18",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16753/thumb_the-dark-knight-2008-38b11925313eb035aa85f9b9a3236bf0.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16753/thumb_the-dark-knight-2008-8f4ded3450463cbd38ab5abfe8d20547.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001OGWY1W",
-        "itunes": "https://itunes.apple.com/us/movie/the-dark-knight/id764632601"
+        "itunes": "https://itunes.apple.com/us/movie/the-dark-knight/id764632601",
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0468569/",
@@ -2595,7 +2597,8 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0016BP0PW",
         "amazon_prime": null,
-        "hulu": null
+        "hulu": null,
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0445922/",
@@ -3157,7 +3160,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8141/thumb_garden-state-2004-d2c3b7c9a09961b3b1599a7058927ec7.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9X6Q8",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP39071?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "starz_com": "http://www.starzplay.com/Movies/Details/23546"
       },
       "references": {
@@ -3269,7 +3271,7 @@
       "release_date": "2004-04-09",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16977/thumb_the-girl-next-door-2004-a4cff2f25d55a1c6696e99d5a09961dc.jpg",
       "streams": {
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP33274?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP35208?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0265208/",
@@ -3298,7 +3300,7 @@
         "amazon_one_click": "http://www.amazon.com/gp/product/B007PJFFWC",
         "amazon_prime": "http://www.amazon.com/gp/product/B007PJFFWC",
         "encore": "http://www.encoreplay.com/Movies/Details/18891",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP33026?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP34709?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0319061/",
@@ -3942,9 +3944,10 @@
       "title": "The Virgin Suicides",
       "year": 1999,
       "release_date": "2000-04-21",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10144/thumb_the-virgin-suicides-1999-c4ce9e2ce03c62fd3b2dd42d1f0e5061.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10144/thumb_the-virgin-suicides-1999-fdc599de468ebc6a2f394a1d482ae468.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000NK7H1M",
+        "hulu": null,
         "showtime_anytime": "http://www.showtimeanytime.com/#/movie/112914"
       },
       "references": {
@@ -4234,7 +4237,8 @@
         "amazon_prime": null,
         "encore": "http://www.encoreplay.com/Movies/Details/1872",
         "hulu": null,
-        "itunes": "https://itunes.apple.com/us/movie/the-usual-suspects/id267913118"
+        "itunes": "https://itunes.apple.com/us/movie/the-usual-suspects/id267913118",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP32908?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0114814/",
@@ -4355,9 +4359,10 @@
       "title": "Heathers",
       "year": 1989,
       "release_date": "1988-06-01",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/2715/thumb_heathers-1989-c57c518a96497f909245557534fe8c88.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/2715/thumb_heathers-1989-65ab7138420f4864a791d6ebae91ab81.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B006MNH0DO",
+        "hulu": null,
         "netflix": "https://www.netflix.com/title/580335"
       },
       "references": {
@@ -4422,10 +4427,11 @@
       "title": "RoboCop",
       "year": 1987,
       "release_date": "1987-07-17",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14936/thumb_robocop-1987-1abab5d99ceb557039e0cef714c9cfe6.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/14936/thumb_robocop-1987-805cd93085479f7c32b2ea9fd50450d2.jpg",
       "streams": {
         "amazon_prime": null,
         "hulu": null,
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP33047?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "netflix": "https://www.netflix.com/title/17017738"
       },
       "references": {
@@ -4578,6 +4584,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2018-12-30 03:12:16 -0500"
+  "updated_at": "2019-01-02 03:12:16 -0500"
 }
 
