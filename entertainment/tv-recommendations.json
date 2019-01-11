@@ -9,6 +9,42 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "Bob's Burgers",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
+      "latest_episode_aired_on": "2019-01-06",
+      "first_episode_aired_on": "2011-01-09",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "adult_swim_com": "http://www.adultswim.com/videos/bobs-burgers/",
+        "amazon_one_click": "http://www.amazon.com/gp/product/B004I0KVCK",
+        "fox_com": "http://www.fox.com/bobs-burgers",
+        "hulu": "http://www.hulu.com/bobs-burgers"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt1561755/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/bob-s-burgers/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Bob's_Burgers"
+      }
+    },
+    {
+      "title": "You're The Worst",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4599/thumb_youre-the-worst-0f2a7ee27b2c065248c9b71d9f3c14ed.jpg",
+      "latest_episode_aired_on": "2019-01-09",
+      "first_episode_aired_on": "2014-07-17",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B015679KW0",
+        "fx_networks_com": "http://www.fxnetworks.com/shows/youre-the-worst/episodes",
+        "hulu": "http://www.hulu.com/youre-the-worst"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3228420/",
+        "wikipedia": "https://en.wikipedia.org/wiki/You%27re_the_Worst"
+      }
+    },
+    {
       "title": "Altered Carbon",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5831/thumb_altered-carbon-d14ee0c29c32c34e3f34e790596d0e66.jpg",
       "latest_episode_aired_on": "2018-02-02",
@@ -98,25 +134,6 @@
         "imdb": "http://www.imdb.com/title/tt3487356/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/tv/black-ish/",
         "wikipedia": "https://en.wikipedia.org/wiki/Black-ish"
-      }
-    },
-    {
-      "title": "Bob's Burgers",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
-      "latest_episode_aired_on": "2018-12-09",
-      "first_episode_aired_on": "2011-01-09",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "adult_swim_com": "http://www.adultswim.com/videos/bobs-burgers/",
-        "amazon_one_click": "http://www.amazon.com/gp/product/B004I0KVCK",
-        "fox_com": "http://www.fox.com/bobs-burgers",
-        "hulu": "http://www.hulu.com/bobs-burgers"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt1561755/",
-        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/bob-s-burgers/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Bob's_Burgers"
       }
     },
     {
@@ -622,23 +639,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2699128/",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Leftovers_%28TV_series%29"
-      }
-    },
-    {
-      "title": "You're The Worst",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4599/thumb_youre-the-worst-0f2a7ee27b2c065248c9b71d9f3c14ed.jpg",
-      "latest_episode_aired_on": "2017-11-15",
-      "first_episode_aired_on": "2014-07-17",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B015679KW0",
-        "fx_networks_com": "http://www.fxnetworks.com/shows/youre-the-worst/episodes",
-        "hulu": "http://www.hulu.com/youre-the-worst"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt3228420/",
-        "wikipedia": "https://en.wikipedia.org/wiki/You%27re_the_Worst"
       }
     },
     {
@@ -1371,6 +1371,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2019-01-09 03:12:15 -0500"
+  "updated_at": "2019-01-11 03:12:16 -0500"
 }
 
