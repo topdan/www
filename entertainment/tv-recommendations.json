@@ -9,6 +9,24 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "Black-ish",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-247f119e2c63e7b98a2bd7fa0783a99c.jpg",
+      "latest_episode_aired_on": "2019-01-08",
+      "first_episode_aired_on": "2014-09-24",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "abc_com": "http://abc.go.com/shows/blackish",
+        "amazon_one_click": "https://www.amazon.com/gp/product/B015OZA3FC",
+        "hulu": "http://www.hulu.com/blackish"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3487356/",
+        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/black-ish/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Black-ish"
+      }
+    },
+    {
       "title": "Bob's Burgers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
       "latest_episode_aired_on": "2019-01-06",
@@ -25,6 +43,37 @@
         "imdb": "http://www.imdb.com/title/tt1561755/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/tv/bob-s-burgers/",
         "wikipedia": "https://en.wikipedia.org/wiki/Bob's_Burgers"
+      }
+    },
+    {
+      "title": "Future Man",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5752/thumb_future-man-7efc967b24868338538dd6bd318a8860.jpg",
+      "latest_episode_aired_on": "2019-01-11",
+      "first_episode_aired_on": "2017-11-14",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "hulu": "http://www.hulu.com/future-man"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4975856/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Future_Man_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Splitting Up Together",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5915/thumb_splitting-up-together-c63d1d0f6b211ea21cf01f8a1a2cda05.jpg",
+      "latest_episode_aired_on": "2019-01-08",
+      "first_episode_aired_on": "2018-03-27",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "abc_com": null,
+        "hulu": "http://www.hulu.com/splitting-up-together"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt6492236/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Splitting_Up_Together"
       }
     },
     {
@@ -116,24 +165,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt6315640/",
         "wikipedia": "https://en.wikipedia.org/wiki/Atypical"
-      }
-    },
-    {
-      "title": "Black-ish",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-247f119e2c63e7b98a2bd7fa0783a99c.jpg",
-      "latest_episode_aired_on": "2018-12-11",
-      "first_episode_aired_on": "2014-09-24",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "abc_com": "http://abc.go.com/shows/blackish",
-        "amazon_one_click": "https://www.amazon.com/gp/product/B015OZA3FC",
-        "hulu": "http://www.hulu.com/blackish"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt3487356/",
-        "rotten_tomatoes": "http://www.rottentomatoes.com/tv/black-ish/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Black-ish"
       }
     },
     {
@@ -331,22 +362,6 @@
       }
     },
     {
-      "title": "Splitting Up Together",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5915/thumb_splitting-up-together-c63d1d0f6b211ea21cf01f8a1a2cda05.jpg",
-      "latest_episode_aired_on": "2018-12-11",
-      "first_episode_aired_on": "2018-03-27",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "abc_com": null,
-        "hulu": "http://www.hulu.com/splitting-up-together"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt6492236/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Splitting_Up_Together"
-      }
-    },
-    {
       "title": "The Expanse",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4825/thumb_the-expanse-52debe5c5f82378f94b2792c1d362fbf.jpg",
       "latest_episode_aired_on": "2018-06-27",
@@ -487,21 +502,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2802850/",
         "wikipedia": "https://en.wikipedia.org/wiki/Fargo_%28TV_series%29"
-      }
-    },
-    {
-      "title": "Future Man",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5752/thumb_future-man-c592b74482fcbec990cf416ae0ffbf65.jpg",
-      "latest_episode_aired_on": "2017-11-14",
-      "first_episode_aired_on": "2017-11-14",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "hulu": "http://www.hulu.com/future-man"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt4975856/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Future_Man_%28TV_series%29"
       }
     },
     {
@@ -1371,6 +1371,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2019-01-11 03:12:16 -0500"
+  "updated_at": "2019-01-13 03:12:15 -0500"
 }
 
