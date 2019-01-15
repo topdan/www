@@ -77,20 +77,19 @@
       }
     },
     {
-      "title": "You're The Worst",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4599/thumb_youre-the-worst-0f2a7ee27b2c065248c9b71d9f3c14ed.jpg",
-      "latest_episode_aired_on": "2019-01-09",
-      "first_episode_aired_on": "2014-07-17",
+      "title": "The Good Place",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5246/thumb_the-good-place-69c5127c2e79b6349bf213ce6653c6a5.jpg",
+      "latest_episode_aired_on": "2019-01-10",
+      "first_episode_aired_on": "2016-09-19",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B015679KW0",
-        "fx_networks_com": "http://www.fxnetworks.com/shows/youre-the-worst/episodes",
-        "hulu": "http://www.hulu.com/youre-the-worst"
+        "hulu": "http://www.hulu.com/the-good-place",
+        "nbc_com": null
       },
       "references": {
-        "imdb": "http://www.imdb.com/title/tt3228420/",
-        "wikipedia": "https://en.wikipedia.org/wiki/You%27re_the_Worst"
+        "imdb": "http://www.imdb.com/title/tt4955642/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Good_Place"
       }
     },
     {
@@ -375,22 +374,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt3230854/",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Expanse_%28TV_series%29"
-      }
-    },
-    {
-      "title": "The Good Place",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5246/thumb_the-good-place-69c5127c2e79b6349bf213ce6653c6a5.jpg",
-      "latest_episode_aired_on": "2018-12-06",
-      "first_episode_aired_on": "2016-09-19",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "hulu": "http://www.hulu.com/the-good-place",
-        "nbc_com": null
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt4955642/",
-        "wikipedia": "https://en.wikipedia.org/wiki/The_Good_Place"
       }
     },
     {
@@ -863,7 +846,7 @@
     },
     {
       "title": "True Detective",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2600/thumb_true-detective-032dd607e265f856e7794151363be20d.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2600/thumb_true-detective-907893328864246cd4e59112671388d0.jpg",
       "latest_episode_aired_on": "2015-08-10",
       "first_episode_aired_on": "2014-01-12",
       "final_episode_aired_on": null,
@@ -1371,6 +1354,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2019-01-13 03:12:15 -0500"
+  "updated_at": "2019-01-15 03:12:16 -0500"
 }
 
