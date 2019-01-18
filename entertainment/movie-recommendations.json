@@ -117,7 +117,7 @@
       "release_date": null,
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21648/thumb_atomic-blonde-2017-9f8edaab86d0b3013f3725e1973d3e04.jpg",
       "streams": {
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP41142?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP41257?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt2406566/"
@@ -4585,6 +4585,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2019-01-15 03:12:16 -0500"
+  "updated_at": "2019-01-18 03:12:15 -0500"
 }
 

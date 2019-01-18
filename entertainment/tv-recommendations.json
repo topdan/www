@@ -93,6 +93,22 @@
       }
     },
     {
+      "title": "True Detective",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2600/thumb_true-detective-907893328864246cd4e59112671388d0.jpg",
+      "latest_episode_aired_on": "2019-01-13",
+      "first_episode_aired_on": "2014-01-12",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B00KV8E0TS",
+        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP41968?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt2356777/",
+        "wikipedia": "https://en.wikipedia.org/wiki/True_Detective_%28TV_series%29"
+      }
+    },
+    {
       "title": "Altered Carbon",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5831/thumb_altered-carbon-d14ee0c29c32c34e3f34e790596d0e66.jpg",
       "latest_episode_aired_on": "2018-02-02",
@@ -845,22 +861,6 @@
       }
     },
     {
-      "title": "True Detective",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2600/thumb_true-detective-907893328864246cd4e59112671388d0.jpg",
-      "latest_episode_aired_on": "2015-08-10",
-      "first_episode_aired_on": "2014-01-12",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B00KV8E0TS",
-        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP41968?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt2356777/",
-        "wikipedia": "https://en.wikipedia.org/wiki/True_Detective_%28TV_series%29"
-      }
-    },
-    {
       "title": "Wet Hot American Summer",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4366/thumb_wet-hot-american-summer-64e2408b30f3dde756dc13a566f97e85.jpg",
       "latest_episode_aired_on": "2015-07-31",
@@ -1354,6 +1354,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2019-01-15 03:12:16 -0500"
+  "updated_at": "2019-01-18 03:12:15 -0500"
 }
 
