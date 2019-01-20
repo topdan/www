@@ -11,7 +11,7 @@
     {
       "title": "Black-ish",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-247f119e2c63e7b98a2bd7fa0783a99c.jpg",
-      "latest_episode_aired_on": "2019-01-08",
+      "latest_episode_aired_on": "2019-01-15",
       "first_episode_aired_on": "2014-09-24",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -63,7 +63,7 @@
     {
       "title": "Splitting Up Together",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5915/thumb_splitting-up-together-c63d1d0f6b211ea21cf01f8a1a2cda05.jpg",
-      "latest_episode_aired_on": "2019-01-08",
+      "latest_episode_aired_on": "2019-01-15",
       "first_episode_aired_on": "2018-03-27",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -224,23 +224,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2314952/",
         "wikipedia": "https://en.wikipedia.org/wiki/Comedians_in_Cars_Getting_Coffee"
-      }
-    },
-    {
-      "title": "Crazy Ex-Girlfriend",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4720/thumb_crazy-ex-girlfriend-352a0190718382785ae2174b9481bf52.jpg",
-      "latest_episode_aired_on": "2018-12-07",
-      "first_episode_aired_on": "2015-10-12",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "https://www.amazon.com/gp/product/B016JCJLO8",
-        "cwtv_com": "http://www.cwtv.com/shows/crazy-ex-girlfriend",
-        "hulu": "http://www.hulu.com/crazy-exgirlfriend"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt4094300/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Crazy_Ex-Girlfriend_%28TV_series%29"
       }
     },
     {
@@ -1354,6 +1337,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2019-01-18 03:12:15 -0500"
+  "updated_at": "2019-01-20 03:12:15 -0500"
 }
 
