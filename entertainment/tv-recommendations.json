@@ -79,7 +79,7 @@
     {
       "title": "The Good Place",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5246/thumb_the-good-place-69c5127c2e79b6349bf213ce6653c6a5.jpg",
-      "latest_episode_aired_on": "2019-01-10",
+      "latest_episode_aired_on": "2019-01-17",
       "first_episode_aired_on": "2016-09-19",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -106,6 +106,23 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2356777/",
         "wikipedia": "https://en.wikipedia.org/wiki/True_Detective_%28TV_series%29"
+      }
+    },
+    {
+      "title": "You're The Worst",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4599/thumb_youre-the-worst-0f2a7ee27b2c065248c9b71d9f3c14ed.jpg",
+      "latest_episode_aired_on": "2019-01-16",
+      "first_episode_aired_on": "2014-07-17",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B015679KW0",
+        "fx_networks_com": "http://www.fxnetworks.com/shows/youre-the-worst/episodes",
+        "hulu": "http://www.hulu.com/youre-the-worst"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt3228420/",
+        "wikipedia": "https://en.wikipedia.org/wiki/You%27re_the_Worst"
       }
     },
     {
@@ -1337,6 +1354,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2019-01-20 03:12:15 -0500"
+  "updated_at": "2019-01-22 03:12:16 -0500"
 }
 
