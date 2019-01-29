@@ -3681,7 +3681,7 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000IZ8VDK",
         "amazon_prime": "http://www.amazon.com/gp/product/B000IZ8VDK",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP88115?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP89193?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0259711/",
@@ -4598,6 +4598,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2019-01-27 03:12:16 -0500"
+  "updated_at": "2019-01-29 03:12:15 -0500"
 }
 
