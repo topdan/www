@@ -2732,8 +2732,7 @@
       "release_date": "2007-07-27",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11628/thumb_sunshine-2007-f122c949da09a74d5d6b2ded554ab947.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000ZHS3E8",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP36411?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000ZHS3E8"
       },
       "references": {
         "rotten_tomatoes": "http://www.rottentomatoes.com/m/sunshine/"
@@ -3681,7 +3680,8 @@
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000IZ8VDK",
         "amazon_prime": "http://www.amazon.com/gp/product/B000IZ8VDK",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP89193?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP89193?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP41253?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0259711/",
@@ -3858,9 +3858,10 @@
       "title": "American Pie",
       "year": 1999,
       "release_date": "1999-07-09",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18934/thumb_american-pie-1999-6791294da5c20c43d2b229931d308061.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18934/thumb_american-pie-1999-0a6e58cb41441abdcf9d0f9ba1ac9ff9.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0039NCJFO"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0039NCJFO",
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0163651/",
@@ -4511,10 +4512,11 @@
       "title": "Caddyshack",
       "year": 1980,
       "release_date": "1980-07-25",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7806/thumb_caddyshack-1980-b84db06f4722c8d41994d425f685204f.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7806/thumb_caddyshack-1980-c0e92080bf3ad78d5674605de4e07dd7.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001N7LKI0",
         "amazon_prime": null,
+        "hulu": null,
         "itunes": "https://itunes.apple.com/us/movie/caddyshack/id285871841"
       },
       "references": {
@@ -4598,6 +4600,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2019-01-29 03:12:15 -0500"
+  "updated_at": "2019-02-02 03:12:14 -0500"
 }
 
