@@ -117,7 +117,7 @@
       "release_date": null,
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/22553/thumb_tully-2018-72b5f68434c981e1c4c8827c6baf00d1.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP91288?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP90713?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt5610554/"
@@ -153,7 +153,7 @@
       "release_date": null,
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21288/thumb_blade-runner-2049-2017-46da9ccc321e46f91973abe665c04344.jpg",
       "streams": {
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP41207?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP41302?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1856101/"
@@ -4599,6 +4599,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2019-02-04 03:12:15 -0500"
+  "updated_at": "2019-02-18 03:12:15 -0500"
 }
 
