@@ -296,36 +296,6 @@
       }
     },
     {
-      "title": "Marvel's Daredevil",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3980/thumb_marvels-daredevil-6fd6e22ebfc2bf1b72016a1eec266416.jpg",
-      "latest_episode_aired_on": "2018-10-19",
-      "first_episode_aired_on": "2015-04-02",
-      "final_episode_aired_on": "2018-10-19",
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "netflix": "https://www.netflix.com/title/80018294"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt3322312/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Daredevil_%28TV_series%29"
-      }
-    },
-    {
-      "title": "Ozark",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5626/thumb_ozark-e16f09a377736dc37b3c0abf8ab09739.jpg",
-      "latest_episode_aired_on": "2018-08-31",
-      "first_episode_aired_on": "2017-07-21",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "netflix": null
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt5071412/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Ozark_%28TV_series%29"
-      }
-    },
-    {
       "title": "Patriot",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5907/thumb_patriot-2f2eb3a53d1fe3e348176bc4956c247b.jpg",
       "latest_episode_aired_on": "2018-11-09",
@@ -1367,6 +1337,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2019-02-24 03:12:14 -0500"
+  "updated_at": "2019-02-27 03:12:15 -0500"
 }
 
