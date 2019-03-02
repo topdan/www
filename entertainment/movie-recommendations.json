@@ -1423,7 +1423,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/8992/thumb_about-time-2013-eada661951c5c2e703ead82f1b22da74.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00I8H7APK",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP47140?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/about-time/id723664694"
       },
       "references": {
@@ -2218,8 +2217,8 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13145/thumb_love-and-other-drugs-2010-03067ef0062c4ed9b6d5ac7dfb9967f5.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B004Q3UL2O",
-        "itunes": "https://itunes.apple.com/us/movie/love-other-drugs/id399423384",
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP32991?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP33425?videoMode=embeddedVideo?showSpecialFeatures=false/",
+        "itunes": "https://itunes.apple.com/us/movie/love-other-drugs/id399423384"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0758752/",
@@ -2326,8 +2325,7 @@
       "release_date": "2009-07-31",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12156/thumb_funny-people-2009-63bf4706a5c1137a1771c3f052d4b65b.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B002U5QCJ6",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP90861?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B002U5QCJ6"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1201167/",
@@ -2569,6 +2567,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/16753/thumb_the-dark-knight-2008-8f4ded3450463cbd38ab5abfe8d20547.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001OGWY1W",
+        "hulu": null,
         "itunes": "https://itunes.apple.com/us/movie/the-dark-knight/id764632601",
         "netflix": null
       },
@@ -2759,9 +2758,10 @@
       "title": "The Darjeeling Limited",
       "year": 2007,
       "release_date": "2007-10-26",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11618/thumb_the-darjeeling-limited-2007-772c8e157d0d1a85d8d21672c708d7c8.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11618/thumb_the-darjeeling-limited-2007-1cfb68d8d2dce5d78482ffd79bf2f14d.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0016JBCJW"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0016JBCJW",
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP36398?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0838221/",
@@ -3003,8 +3003,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12235/thumb_kiss-kiss-bang-bang-2005-12088ff150f1c70265b14723d2f948fe.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B002QYSZBO",
-        "amazon_prime": null,
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP90988?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_prime": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0373469/",
@@ -3015,9 +3014,10 @@
       "title": "Layer Cake",
       "year": 2005,
       "release_date": "2005-05-13",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13206/thumb_layer-cake-2005-ed3a380b021c05e9d6b55292cae889c9.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13206/thumb_layer-cake-2005-0bce598cd645151dd76a89e1bc721c51.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00AVIQAIM",
+        "netflix": null,
         "starz_com": "http://www.starzplay.com/Movies/Details/16830"
       },
       "references": {
@@ -3199,7 +3199,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7890/thumb_i-heart-huckabees-2004-5d58e9585878ecbe5c6b23db1a0a05c7.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000SW2F08",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP38868?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "starz_com": "http://www.starzplay.com/Movies/Details/23849"
       },
       "references": {
@@ -3719,10 +3718,11 @@
       "title": "Crouching Tiger, Hidden Dragon",
       "year": 2000,
       "release_date": "2001-01-12",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11394/thumb_crouching-tiger-hidden-dragon-2000-76eb73af371b672ec7ab93510279c255.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11394/thumb_crouching-tiger-hidden-dragon-2000-91e2b43ef2fd7613751250217c1a03f6.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B006LWKG2S",
-        "encore": "http://www.encoreplay.com/Movies/Details/24146"
+        "encore": "http://www.encoreplay.com/Movies/Details/24146",
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0190332/",
@@ -3844,9 +3844,11 @@
       "title": "American Beauty",
       "year": 1999,
       "release_date": "1999-10-01",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10433/thumb_american-beauty-1999-c0a1a65957d2452fb89c90eed9b5c1dc.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10433/thumb_american-beauty-1999-9e29e39438fff23203e2666dc4bbd1f3.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B005721Y7Y"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B005721Y7Y",
+        "amazon_prime": null,
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0169547/",
@@ -3871,10 +3873,11 @@
       "title": "Office Space",
       "year": 1999,
       "release_date": "1999-02-19",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7943/thumb_office-space-1999-98bcd9fa2e32a1e4f95adaf8e9b581f4.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/7943/thumb_office-space-1999-c83c226d446ee4b71731f8872a8609e4.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9YWDO",
         "encore": "http://www.encoreplay.com/Movies/Details/24157",
+        "hulu": null,
         "itunes": "https://itunes.apple.com/us/movie/office-space/id273369330"
       },
       "references": {
@@ -3913,10 +3916,11 @@
       "title": "The Cider House Rules",
       "year": 1999,
       "release_date": "1999-12-10",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5984/thumb_the-cider-house-rules-1999-d4a60cdc6ba8a65aa00aa74e54b18092.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5984/thumb_the-cider-house-rules-1999-07f12fd486dfea8c96bf07ab24221f07.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00BB8Q1RQ",
         "amazon_prime": "http://www.amazon.com/gp/product/B00BB8Q1RQ",
+        "hulu": null,
         "netflix": "https://www.netflix.com/title/60000410"
       },
       "references": {
@@ -4570,10 +4574,11 @@
       "title": "A Clockwork Orange",
       "year": 1971,
       "release_date": "1971-12-19",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13190/thumb_a-clockwork-orange-1971-ed44e628b7263f973492eaccb5ebf60e.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/13190/thumb_a-clockwork-orange-1971-5c851196006e5ca47bc719a7dc91a8f1.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00125FBTM",
-        "amazon_prime": null
+        "amazon_prime": null,
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0066921/",
@@ -4599,6 +4604,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2019-02-27 03:12:15 -0500"
+  "updated_at": "2019-03-02 03:12:29 -0500"
 }
 
