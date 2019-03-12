@@ -9,6 +9,22 @@
   "data_type": "Entertainment::TvShow",
   "data": [
     {
+      "title": "A.P. Bio",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5830/thumb_ap-bio-166484e70f32e39241dd34a3fd01b8fb.jpg",
+      "latest_episode_aired_on": "2019-03-07",
+      "first_episode_aired_on": "2018-02-01",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "hulu": "http://www.hulu.com/ap-bio",
+        "nbc_com": null
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt6461726/",
+        "wikipedia": "https://en.wikipedia.org/wiki/A.P._Bio"
+      }
+    },
+    {
       "title": "Black-ish",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-247f119e2c63e7b98a2bd7fa0783a99c.jpg",
       "latest_episode_aired_on": "2019-02-19",
@@ -121,22 +137,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2261227/",
         "wikipedia": "https://en.wikipedia.org/wiki/Altered_Carbon_%28TV_series%29"
-      }
-    },
-    {
-      "title": "A.P. Bio",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5830/thumb_ap-bio-166484e70f32e39241dd34a3fd01b8fb.jpg",
-      "latest_episode_aired_on": "2018-05-03",
-      "first_episode_aired_on": "2018-02-01",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "hulu": "http://www.hulu.com/ap-bio",
-        "nbc_com": null
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt6461726/",
-        "wikipedia": "https://en.wikipedia.org/wiki/A.P._Bio"
       }
     },
     {
@@ -1337,6 +1337,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2019-03-11 03:12:14 -0400"
+  "updated_at": "2019-03-12 03:12:15 -0400"
 }
 
