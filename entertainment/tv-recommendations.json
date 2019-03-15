@@ -45,7 +45,7 @@
     {
       "title": "Bob's Burgers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
-      "latest_episode_aired_on": "2019-03-03",
+      "latest_episode_aired_on": "2019-03-10",
       "first_episode_aired_on": "2011-01-09",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -74,6 +74,20 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt4975856/",
         "wikipedia": "https://en.wikipedia.org/wiki/Future_Man_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Letterkenny",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/6055/thumb_letterkenny-c325b574ecccea498fe6d802faf8d3ea.jpg",
+      "latest_episode_aired_on": "2019-02-14",
+      "first_episode_aired_on": "2016-02-07",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt4647692/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Letterkenny_%28TV_series%29"
       }
     },
     {
@@ -265,20 +279,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt5761496/",
         "wikipedia": "https://en.wikipedia.org/wiki/Get_Shorty_%28TV_series%29"
-      }
-    },
-    {
-      "title": "Letterkenny",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/6055/thumb_letterkenny-c325b574ecccea498fe6d802faf8d3ea.jpg",
-      "latest_episode_aired_on": "2018-06-29",
-      "first_episode_aired_on": "2016-02-07",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt4647692/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Letterkenny_%28TV_series%29"
       }
     },
     {
@@ -1337,6 +1337,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2019-03-12 03:12:15 -0400"
+  "updated_at": "2019-03-15 03:12:14 -0400"
 }
 
