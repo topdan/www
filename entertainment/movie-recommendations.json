@@ -201,7 +201,6 @@
       "release_date": "2017-03-24",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/20695/thumb_king-arthur-legend-of-the-sword-2017-e696b2eb10b4e146c3fcc14e1e9edd61.jpg",
       "streams": {
-        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP41013?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt1972591/",
@@ -4603,6 +4602,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2019-03-03 03:12:15 -0500"
+  "updated_at": "2019-03-26 03:12:15 -0400"
 }
 
