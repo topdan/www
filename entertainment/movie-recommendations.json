@@ -225,7 +225,7 @@
       "release_date": null,
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21849/thumb_murder-on-the-orient-express-2017-1a7fca0a8cbf5e07d99f0f28f4f5c66c.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP90998?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP41392?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt3402236/"
@@ -273,7 +273,7 @@
       "release_date": null,
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/21976/thumb_the-shape-of-water-2017-b818fd7c040b6a5f6d4aa1007257940d.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP91099?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP41405?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt5580390/"
@@ -1025,7 +1025,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12245/thumb_inherent-vice-2014-701cd27922f0d3a694679be1b0103831.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B00TGO68IO",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP49547?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/inherent-vice/id935074762"
       },
       "references": {
@@ -3089,7 +3088,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10972/thumb_the-devils-rejects-2005-f8f846d6db0bce40750f4fa5156fb9d7.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001AL3T9C",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP82966?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "maxgo": "http://www.maxgo.com/#home/video&assetID=MGOROSTGP41394?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0395584/",
@@ -3396,7 +3395,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15218/thumb_underworld-2003-f1c019f49108cd8be505feab108ef6c0.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000O14VAU",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP34667?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "netflix": "https://www.netflix.com/title/60031210"
       },
       "references": {
@@ -3437,8 +3435,7 @@
       "release_date": "2002-03-13",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/3411/thumb_kissing-jessica-stein-2002-d9b5576dbce0aca2c28460ea68c81bbc.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000SW16N0",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP30754?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000SW16N0"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0264761/",
@@ -3495,7 +3492,6 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/5636/thumb_super-troopers-2002-3221997daf29b9f346011d0eff4377f7.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000I9VZCU",
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP90984?videoMode=embeddedVideo?showSpecialFeatures=false/",
         "itunes": "https://itunes.apple.com/us/movie/super-troopers/id270307460"
       },
       "references": {
@@ -3787,10 +3783,11 @@
       "title": "Snatch",
       "year": 2000,
       "release_date": "2001-01-19",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10541/thumb_snatch-2000-e1de4beedfbb54907d1d403015637e47.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/10541/thumb_snatch-2000-fe4ca47d7b77a429d9ed4c8106d2cab9.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0094M6A18",
-        "itunes": "https://itunes.apple.com/us/movie/snatch/id284156786"
+        "itunes": "https://itunes.apple.com/us/movie/snatch/id284156786",
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0208092/",
@@ -4150,10 +4147,11 @@
       "title": "The Fifth Element",
       "year": 1997,
       "release_date": "1997-05-09",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11403/thumb_the-fifth-element-1997-62646e733ca3f8d2968fcb5477dd7964.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/11403/thumb_the-fifth-element-1997-83735e165754f382c6fb3cfeedd3a3f1.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B000S6BKSC",
-        "amazon_prime": null
+        "amazon_prime": null,
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0119116/",
@@ -4291,9 +4289,10 @@
       "title": "The Shawshank Redemption",
       "year": 1994,
       "release_date": "1994-09-10",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18830/thumb_the-shawshank-redemption-1994-b2172ada39fa832da337819ff18eac79.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18830/thumb_the-shawshank-redemption-1994-5ad891545b9ccc9b6876910b3a1e7d47.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B001EBV0OY",
+        "amazon_prime": null,
         "itunes": "https://itunes.apple.com/us/movie/the-shawshank-redemption/id282875479",
         "starz_com": "http://www.starzplay.com/Movies/Details/1554"
       },
@@ -4348,9 +4347,10 @@
       "title": "Barton Fink",
       "year": 1991,
       "release_date": "1991-08-21",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/919/thumb_barton-fink-1991-0097ea7e46c4700ef7ef4bb9c064d3b5.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/919/thumb_barton-fink-1991-a6126603b93c7af46913c10b5b54cc3d.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0015IU3OE"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0015IU3OE",
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0101410/",
@@ -4529,9 +4529,10 @@
       "title": "The Jerk",
       "year": 1979,
       "release_date": "1979-01-01",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15370/thumb_the-jerk-1979-34bd084c3cec4dbc8f1d6936c7f722bc.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15370/thumb_the-jerk-1979-64c858b20ae55906d1e60a32980b6389.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B000IKQMO0"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B000IKQMO0",
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0079367/",
@@ -4559,9 +4560,10 @@
       "title": "Deliverance",
       "year": 1972,
       "release_date": "1972-07-21",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12116/thumb_deliverance-1972-37b40f7cba37a4e0d07dccbd3dd41895.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/12116/thumb_deliverance-1972-f632f50adf001ba14df75d8c8cfc7c00.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B001EBV0LW"
+        "amazon_one_click": "http://www.amazon.com/gp/product/B001EBV0LW",
+        "netflix": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0068473/",
@@ -4602,6 +4604,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2019-03-26 03:12:15 -0400"
+  "updated_at": "2019-04-02 03:12:15 -0400"
 }
 

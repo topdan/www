@@ -11,7 +11,7 @@
     {
       "title": "A.P. Bio",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5830/thumb_ap-bio-166484e70f32e39241dd34a3fd01b8fb.jpg",
-      "latest_episode_aired_on": "2019-03-21",
+      "latest_episode_aired_on": "2019-03-28",
       "first_episode_aired_on": "2018-02-01",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1323,6 +1323,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2019-03-31 03:12:15 -0400"
+  "updated_at": "2019-04-02 03:12:15 -0400"
 }
 
