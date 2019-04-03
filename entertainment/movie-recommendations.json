@@ -23,8 +23,10 @@
       "title": "A Quiet Place",
       "year": 2018,
       "release_date": null,
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/23083/thumb_a-quiet-place-2018-0947e99f16b5bb8f292216b87d24d61c.jpg",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/23083/thumb_a-quiet-place-2018-51083070b975d2cada6b8f93ed474444.jpg",
       "streams": {
+        "amazon_prime": null,
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt6644200/"
@@ -117,7 +119,7 @@
       "release_date": null,
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/22553/thumb_tully-2018-72b5f68434c981e1c4c8827c6baf00d1.jpg",
       "streams": {
-        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP90704?videoMode=embeddedVideo?showSpecialFeatures=false/"
+        "hbogo": "http://www.hbogo.com/#home/video&assetID=GOROSTGP90706?videoMode=embeddedVideo?showSpecialFeatures=false/"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt5610554/"
@@ -3857,8 +3859,7 @@
       "release_date": "1999-07-09",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/18934/thumb_american-pie-1999-0a6e58cb41441abdcf9d0f9ba1ac9ff9.jpg",
       "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B0039NCJFO",
-        "netflix": null
+        "amazon_one_click": "http://www.amazon.com/gp/product/B0039NCJFO"
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0163651/",
@@ -4221,8 +4222,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/movies/posters/15314/thumb_billy-madison-1995-a096bf9bcf9c7dd22fb3560311dbe87b.jpg",
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B0018OKR46",
-        "hulu": null,
-        "netflix": "https://www.netflix.com/title/70000782"
+        "hulu": null
       },
       "references": {
         "imdb": "http://www.imdb.com/title/tt0112508/",
@@ -4604,6 +4604,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2014-08-27 18:57:17 -0400",
-  "updated_at": "2019-04-02 03:12:15 -0400"
+  "updated_at": "2019-04-03 03:12:16 -0400"
 }
 
