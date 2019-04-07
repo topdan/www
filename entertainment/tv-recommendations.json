@@ -27,7 +27,7 @@
     {
       "title": "Black-ish",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/3426/thumb_black-ish-247f119e2c63e7b98a2bd7fa0783a99c.jpg",
-      "latest_episode_aired_on": "2019-03-26",
+      "latest_episode_aired_on": "2019-04-02",
       "first_episode_aired_on": "2014-09-24",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -74,6 +74,22 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt4975856/",
         "wikipedia": "https://en.wikipedia.org/wiki/Future_Man_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Splitting Up Together",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5915/thumb_splitting-up-together-c63d1d0f6b211ea21cf01f8a1a2cda05.jpg",
+      "latest_episode_aired_on": "2019-04-02",
+      "first_episode_aired_on": "2018-03-27",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "abc_com": null,
+        "hulu": "http://www.hulu.com/splitting-up-together"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt6492236/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Splitting_Up_Together"
       }
     },
     {
@@ -1323,6 +1339,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2019-04-05 03:12:16 -0400"
+  "updated_at": "2019-04-07 03:12:15 -0400"
 }
 
