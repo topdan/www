@@ -109,6 +109,22 @@
       }
     },
     {
+      "title": "The Tick",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/172/thumb_the-tick-c4dfc775c9eb69b6b5f012cbfb17b919.jpg",
+      "latest_episode_aired_on": "2019-04-05",
+      "first_episode_aired_on": "2017-08-18",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": null,
+        "netflix": "https://www.netflix.com/title/70202897"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5540054/",
+        "wikipedia": "https://en.wikipedia.org/wiki/The_Tick_%282016_TV_series%29"
+      }
+    },
+    {
       "title": "True Detective",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/2600/thumb_true-detective-907893328864246cd4e59112671388d0.jpg",
       "latest_episode_aired_on": "2019-02-17",
@@ -407,22 +423,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt1442464/",
         "wikipedia": "https://en.wikipedia.org/wiki/The_Middle_%28TV_series%29"
-      }
-    },
-    {
-      "title": "The Tick",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/172/thumb_the-tick-f58f0e58390c9fb4ffb4a5dab85e273f.jpg",
-      "latest_episode_aired_on": "2018-02-23",
-      "first_episode_aired_on": "2017-08-18",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": null,
-        "netflix": "https://www.netflix.com/title/70202897"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt5540054/",
-        "wikipedia": "https://en.wikipedia.org/wiki/The_Tick_%282016_TV_series%29"
       }
     },
     {
@@ -1339,6 +1339,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2019-04-07 03:12:15 -0400"
+  "updated_at": "2019-04-08 03:12:21 -0400"
 }
 
