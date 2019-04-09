@@ -11,7 +11,7 @@
     {
       "title": "A.P. Bio",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5830/thumb_ap-bio-166484e70f32e39241dd34a3fd01b8fb.jpg",
-      "latest_episode_aired_on": "2019-03-28",
+      "latest_episode_aired_on": "2019-04-04",
       "first_episode_aired_on": "2018-02-01",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -59,6 +59,20 @@
         "imdb": "http://www.imdb.com/title/tt1561755/",
         "rotten_tomatoes": "http://www.rottentomatoes.com/tv/bob-s-burgers/",
         "wikipedia": "https://en.wikipedia.org/wiki/Bob's_Burgers"
+      }
+    },
+    {
+      "title": "Brockmire",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5837/thumb_brockmire-6cf4ffd78b372397fe3b4f171f54403c.jpg",
+      "latest_episode_aired_on": "2019-04-03",
+      "first_episode_aired_on": "2017-04-05",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5722190/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Brockmire"
       }
     },
     {
@@ -213,20 +227,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt6315640/",
         "wikipedia": "https://en.wikipedia.org/wiki/Atypical"
-      }
-    },
-    {
-      "title": "Brockmire",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5837/thumb_brockmire-6cf4ffd78b372397fe3b4f171f54403c.jpg",
-      "latest_episode_aired_on": "2018-06-20",
-      "first_episode_aired_on": "2017-04-05",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt5722190/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Brockmire"
       }
     },
     {
@@ -438,6 +438,20 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt5057054/",
         "wikipedia": "https://en.wikipedia.org/wiki/Jack_Ryan_%28TV_series%29"
+      }
+    },
+    {
+      "title": "Travelers",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5768/thumb_travelers-b72b2d883bab27e4ee5f7f890f9c807f.jpg",
+      "latest_episode_aired_on": "2018-12-14",
+      "first_episode_aired_on": "2016-10-17",
+      "final_episode_aired_on": "2018-12-14",
+      "unwatched_episodes_count": 0,
+      "streams": {
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt5651844/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Travelers_%28TV_series%29"
       }
     },
     {
@@ -1339,6 +1353,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2019-04-08 03:12:21 -0400"
+  "updated_at": "2019-04-09 03:12:26 -0400"
 }
 
