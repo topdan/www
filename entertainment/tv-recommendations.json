@@ -159,7 +159,7 @@
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/4599/thumb_youre-the-worst-0f2a7ee27b2c065248c9b71d9f3c14ed.jpg",
       "latest_episode_aired_on": "2019-04-03",
       "first_episode_aired_on": "2014-07-17",
-      "final_episode_aired_on": null,
+      "final_episode_aired_on": "2019-04-03",
       "unwatched_episodes_count": 0,
       "streams": {
         "amazon_one_click": "http://www.amazon.com/gp/product/B015679KW0",
@@ -1353,6 +1353,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2019-04-16 03:12:14 -0400"
+  "updated_at": "2019-04-18 03:12:14 -0400"
 }
 
