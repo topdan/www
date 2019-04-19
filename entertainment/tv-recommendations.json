@@ -91,6 +91,22 @@
       }
     },
     {
+      "title": "Game of Thrones",
+      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/70/thumb_game-of-thrones-b1976bb7c1f8bc589dac8321e092ad66.jpg",
+      "latest_episode_aired_on": "2019-04-14",
+      "first_episode_aired_on": "2011-04-17",
+      "final_episode_aired_on": null,
+      "unwatched_episodes_count": 0,
+      "streams": {
+        "amazon_one_click": "http://www.amazon.com/gp/product/B007HNFREW",
+        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP31734?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
+      },
+      "references": {
+        "imdb": "http://www.imdb.com/title/tt0944947/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Game_of_Thrones"
+      }
+    },
+    {
       "title": "Splitting Up Together",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/5915/thumb_splitting-up-together-c63d1d0f6b211ea21cf01f8a1a2cda05.jpg",
       "latest_episode_aired_on": "2019-04-02",
@@ -500,22 +516,6 @@
       "references": {
         "imdb": "http://www.imdb.com/title/tt2802850/",
         "wikipedia": "https://en.wikipedia.org/wiki/Fargo_%28TV_series%29"
-      }
-    },
-    {
-      "title": "Game of Thrones",
-      "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/70/thumb_game-of-thrones-b1976bb7c1f8bc589dac8321e092ad66.jpg",
-      "latest_episode_aired_on": "2017-08-27",
-      "first_episode_aired_on": "2011-04-17",
-      "final_episode_aired_on": null,
-      "unwatched_episodes_count": 0,
-      "streams": {
-        "amazon_one_click": "http://www.amazon.com/gp/product/B007HNFREW",
-        "hbogo": "http://www.hbogo.com/#series/browse&assetID=GOROSTGP31734?assetType=SERIES?browseMode=browseGrid?browseID=category.INDB464/"
-      },
-      "references": {
-        "imdb": "http://www.imdb.com/title/tt0944947/",
-        "wikipedia": "https://en.wikipedia.org/wiki/Game_of_Thrones"
       }
     },
     {
@@ -1353,6 +1353,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2019-04-18 03:12:14 -0400"
+  "updated_at": "2019-04-19 03:12:14 -0400"
 }
 
