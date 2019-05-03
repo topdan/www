@@ -45,7 +45,7 @@
     {
       "title": "Bob's Burgers",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/24/thumb_bobs-burgers-325a1986f7b2c580465d632d5f983ca5.jpg",
-      "latest_episode_aired_on": "2019-04-07",
+      "latest_episode_aired_on": "2019-04-28",
       "first_episode_aired_on": "2011-01-09",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -93,7 +93,7 @@
     {
       "title": "Game of Thrones",
       "poster_url": "https://s3.amazonaws.com/cdn.topdan.com/shows/posters/70/thumb_game-of-thrones-b1976bb7c1f8bc589dac8321e092ad66.jpg",
-      "latest_episode_aired_on": "2019-04-21",
+      "latest_episode_aired_on": "2019-04-28",
       "first_episode_aired_on": "2011-04-17",
       "final_episode_aired_on": null,
       "unwatched_episodes_count": 0,
@@ -1323,6 +1323,6 @@
     "name": "Dan Cunning"
   },
   "created_at": "2016-03-13 14:41:53 -0400",
-  "updated_at": "2019-04-30 03:12:16 -0400"
+  "updated_at": "2019-05-03 03:12:15 -0400"
 }
 
