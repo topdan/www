@@ -1,0 +1,89 @@
+{
+  "title": "Biggest Finales on May 14th",
+  "description": "A list of the best TV series that ended their run on May 14th.",
+  "format": "erb",
+  "skips_description": true,
+  "uses_javascript": true,
+  "published_at": "2019-05-10 12:00:00 UTC",
+  "data_type": "Entertainment::May14Finale",
+  "data": [
+    {
+      "title": "Malcolm in the Middle",
+      "imdb_url": "http://www.imdb.com/title/tt0212671/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Malcolm_in_the_Middle",
+      "poster_filename": "malcolm-in-the-middle.jpg",
+      "date": "2006-05-14",
+      "description": "This fantastic family sitcom helped pioneer modern television, ditching the standard multi-camera sitcom for a more movie-like single-camera setup. Plus it's hilarious and introduced the world to [Bryan Cranston](https://en.wikipedia.org/wiki/Bryan_Cranston)."
+    },
+    {
+      "title": "My Name Is Earl",
+      "imdb_url": "https://www.imdb.com/title/tt0460091/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/My_Name_Is_Earl",
+      "poster_filename": "my-name-is-earl.jpg",
+      "date": "2009-05-14",
+      "description": "[Jason Lee](https://en.wikipedia.org/wiki/Jason_Lee_(actor)) plays the titled do-gooder in this feel-good sitcom set in a Texas trailer park which follows the recent lottery winner making amends for his life as a petty criminal. It's silly and stupid but shows a good heart."
+    },
+    {
+      "title": "Baywatch",
+      "imdb_url": "https://www.imdb.com/title/tt0096542/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Baywatch",
+      "poster_filename": "baywatch.jpg",
+      "date": "2001-05-14",
+      "description": "Famous for its swimsuits and cheesy plots, this series was a trailblazer for direct-to-syndication television and helped launch the careers of [Pamela Anderson](https://en.wikipedia.org/wiki/Pamela_Anderson), [Carmen Electra](https://en.wikipedia.org/wiki/Carmen_Electra), and countless others over 11 seasons."
+    },
+    {
+      "title": "Dawson's Creek",
+      "imdb_url": "http://www.imdb.com/title/tt0118300/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dawson's_Creek",
+      "poster_filename": "dawsons-creek.jpg",
+      "date": "2003-05-14",
+      "description": "The WB's flagship teen-drama set the stage for the likes of [One Tree Hill](https://en.wikipedia.org/wiki/One_Tree_Hill_(TV_series)), [Gossip Girl](https://en.wikipedia.org/wiki/Gossip_Girl), and [Riverdale](https://en.wikipedia.org/wiki/Riverdale_(2017_TV_series)). Its four leads all had successful careers upon leaving, but they'll always be best known for their time in Capeside."
+    },
+    {
+      "title": "Roswell",
+      "imdb_url": "http://www.imdb.com/title/tt0201391/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Roswell_%28TV_series%29",
+      "poster_filename": "roswell.jpg",
+      "date": "2002-05-14",
+      "description": "Recently revived by The CW, this short-lived sci-fi/teen-drama may be most known for introducing the world to [Katherine Heigl](https://en.wikipedia.org/wiki/Katherine_Heigl) of [Knocked Up](https://www.imdb.com/title/tt0478311/)."
+    },
+    {
+      "title": "Coach",
+      "imdb_url": "http://www.imdb.com/title/tt0096560/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Coach_%28TV_series%29",
+      "poster_filename": "coach.jpg",
+      "date": "1997-05-14",
+      "description": "[Craig T. Nelson](https://en.wikipedia.org/wiki/Craig_T._Nelson) has starred in several long-running television series including [Parenthood](https://en.wikipedia.org/wiki/Parenthood_(2010_TV_series)) and [The Distict](https://en.wikipedia.org/wiki/The_District), but Coach marks his longest with nine seasons coaching the fictional Minnesota State University Screaming Eagles."
+    },
+    {
+      "title": "Family Ties",
+      "imdb_url": "http://www.imdb.com/title/tt0083413/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Family_Ties",
+      "poster_filename": "family-ties.jpg",
+      "date": "1989-05-14",
+      "description": "Before making it big with [Back to the Future](https://www.imdb.com/title/tt0088763/), [Michael J. Fox](https://en.wikipedia.org/wiki/Michael_J._Fox) tackled the cultural change between the 1970s and 1980s for seven seasons playing young Republican Alex P. Keaton born to ex-hippie parents."
+    },
+    {
+      "title": "The West Wing",
+      "imdb_url": "http://www.imdb.com/title/tt0200276/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/The_West_Wing",
+      "poster_filename": "the-west-wing.jpg",
+      "date": "2006-05-14",
+      "description": "After the critically-acclaimed but eventually cancelled [Sports Night](https://en.wikipedia.org/wiki/Sports_Night), Aaron Sorkin hit big with this fast-paced ensemble drama accumulating [an absurd number of awards, including 26 Emmys](https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_The_West_Wing)."
+    },
+    {
+      "title": "Seinfeld",
+      "imdb_url": "http://www.imdb.com/title/tt0098904/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Seinfeld",
+      "poster_filename": "seinfeld.jpg",
+      "date": "1998-05-14",
+      "description": "With arguably the most famous finale of all time, Seinfeld will live on forever in popular culture and in syndication where it's made more than [$3 billion since 1995](https://www.vulture.com/2014/06/breaking-down-the-seinfeld-economy.html)."
+    }
+  ],
+  "author": {
+    "name": "Dan Cunning"
+  },
+  "created_at": "2019-05-10 12:58:06 -0400",
+  "updated_at": "2019-05-10 12:58:06 -0400"
+}
+

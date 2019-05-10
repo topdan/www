@@ -5,6 +5,13 @@
     <link>http://dan.cunning.cc/index.rss</link>
     <description>A Ruby on Rails contractor's writes about his meandering thoughts</description>
     <item>
+      <title>Biggest Finales on May 14th</title>
+      <description>A list of the best TV series that ended their run on May 14th.</description>
+      <link>http://dan.cunning.cc/entertainment/may-14-tv-series-finales.html?utm_medium=rss&amp;utm_source=feed</link>
+      <guid>http://dan.cunning.cc/entertainment/may-14-tv-series-finales.html</guid>
+      <pubDate>2019-05-10 12:00:00 UTC</pubDate>
+    </item>
+    <item>
       <title>Minimum Viable Test Suite</title>
       <description>Ensure your test suite doesn't have any important holes in coverage by enforcing a simple rule.</description>
       <link>http://dan.cunning.cc/ruby-on-rails/minimum-viable-test-suite.html?utm_medium=rss&amp;utm_source=feed</link>

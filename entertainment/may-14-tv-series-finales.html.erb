@@ -1,0 +1,26 @@
+<div class="row">
+  <div id="may-14-tv-series-finales-list" class="col-md-12">
+    <p class="intro">
+      Before television became a fierce year-around competition, seasons started in fall and ended just as schools let out for the summer, helping May 14th become the date of numerous series finales.  Here are my favorites:
+    </p>
+
+    <% @current_post.data.each do |show| %>
+      <div class="finale">
+        <%= post_image_tag show.poster_filename, alt: 'Poster', class: 'finale-poster' %>
+        <h3><%= show.title %></h3>
+        <p class="finale-date"><%= Date.parse(show.date).strftime('%B %d, %Y') %></p>
+        <div class="underline-links">
+          <%= post_markdown show.description %>
+          <p class="links"><%= link_to post_image_tag('imdb.png', alt: 'IMdb'), show.imdb_url %> <%= link_to post_image_tag('wikipedia.png', alt: 'Wikipedia'), show.wikipedia_url %></p>
+        </div>
+      </div>
+    <% end %>
+
+    <p>
+      May 14th hosts less finales in the world dominated by Netflix, HBO, and reality TV, but the major network's tent-pole shows still follow the fall to spring pattern, so there will be more. I just hope it continues to catch the good finales and not end up like poor May 16th having to host the Big Bang Theory's send-off.
+    </p>
+    <p class="alert alert-info outro center">
+      If you're bored, please watch <%= link_to 'The Big Bang Theory: What Went Wrong?', 'https://www.youtube.com/watch?v=DxFPmF1puW4' %>
+    </p>
+  </div>
+</div>
