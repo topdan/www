@@ -185,4 +185,4 @@ Of course it's just a demo. A real worker would do something useful like import 
 * Would you allow multiple progress bars on the same screen?
 * Can the user cancel the background process?
 
-All easily built on top of this initial implementation, but I'll leave them to you. Feel free to contact me with any questions or comments at [dan@topdan.com](mailto:dan@topdan.com).
+All easily built on top of this initial implementation, but I'll leave them to you. Feel free to contact me with any questions or comments at [dan@cunning.cc](mailto:dan@cunning.cc).

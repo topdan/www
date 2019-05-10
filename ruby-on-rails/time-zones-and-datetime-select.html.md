@@ -91,5 +91,5 @@ Ideally, `datetime_select` would support timezone as a piece of the datetime lik
 `Time.use_zone` makes the most sense: the model can't guarantee what the `Time.zone` value or the timestamp's timezone mean, but the controller can.
 
 ```raw
-<p class="alert alert-info center mt-4e">Have a better solution? <a href="mailto:dan@topdan.com">Let me know!</a></p>
+<p class="alert alert-info center mt-4e">Have a better solution? <a href="mailto:dan@cunning.cc">Let me know!</a></p>
 ```

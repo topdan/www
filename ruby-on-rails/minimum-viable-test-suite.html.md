@@ -71,7 +71,7 @@ Convincing your team to enforce _a minimum viable test suite_ should be easy: it
 
 ```raw
 <div class="alert alert-success">
-  <p>Let me know at <a href="mailto:dan@topdan.com">dan@topdan.com</a> what you think of minimum viable test suites:</p>
+  <p>Let me know at <a href="mailto:dan@cunning.cc">dan@cunning.cc</a> what you think of minimum viable test suites:</p>
 
   <ul class="mt-1e">
     <li>Are there existing solutions?</li>

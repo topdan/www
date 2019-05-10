@@ -60,7 +60,7 @@ The project came together pretty quickly over the last couple weeks, but I alrea
 * Integrate the uploading UX more intimately
 * Tag by people and events
 * Filter by tags into more specific albums
-* Auto-tag people via facial [recognition](https://www.topdan.com/living/past-present-and-future-of-computers.html#recognizing)
+* Auto-tag people via facial [recognition](https://dan.cunning.cc/living/past-present-and-future-of-computers.html#recognizing)
 
 ```raw
 <div class="alert alert-info mt-4e">

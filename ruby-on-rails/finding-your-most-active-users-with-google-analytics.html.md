@@ -148,9 +148,9 @@ namespace :analytics do
 
     desc 'Delivers the user activity report'
     task deliver: :environment do
-      email = 'dan@topdan.com'
+      email = 'dan@cunning.cc'
       password = 'use-two-factor-auth-instead'
-      site_name = 'www.topdan.com' # name of your Google Analytics "Property"
+      site_name = 'dan.cunning.cc' # name of your Google Analytics "Property"
 
       Garb::Session.login(email, password)
       # Garb::Session.api_key = api_key # required for 2-step authentication
