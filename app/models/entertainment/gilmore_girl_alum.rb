@@ -1,16 +1,1 @@
-module Entertainment
-
-  class GilmoreGirlAlum < GitRecord::Embedded
-
-    columns do |t|
-      t.string :name
-      t.string :imdb_url
-      t.string :job
-      t.integer :episodes_count
-      t.array :posters
-      t.string :description
-    end
-
-  end
-
-end
+<html><body>You are being <a href="https://dan.cunning.cc/app/models/entertainment/gilmore_girl_alum.rb">redirected</a>.</body></html>

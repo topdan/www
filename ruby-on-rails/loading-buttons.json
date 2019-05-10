@@ -1,16 +1,1 @@
-{
-  "title": "Loading Buttons",
-  "description": "Converting action buttons into loading buttons is a common way for AJAX applications indicate that it's waiting on the server to verify an action and respond.",
-  "format": "md",
-  "uses_javascript": true,
-  "tag_ids": [
-    "features"
-  ],
-  "published_at": "2016-07-14 12:00:00 UTC",
-  "author": {
-    "name": "Dan Cunning"
-  },
-  "created_at": "2016-07-14 16:32:41 -0400",
-  "updated_at": "2016-07-17 14:34:37 -0400"
-}
-
+<html><body>You are being <a href="https://dan.cunning.cc/ruby-on-rails/loading-buttons.json">redirected</a>.</body></html>

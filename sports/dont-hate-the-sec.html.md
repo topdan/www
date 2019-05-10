@@ -1,13 +1,1 @@
-I love following the debate of which college football conference is the best. It eerily mirrors national political debates: lots of statistics and too much [confirmation bias](http://en.wikipedia.org/wiki/Confirmation_bias). Chuck Thompson's [Why SEC Isn't As Great In Football As You Think](http://www.thepostgame.com/commentary/201208/better-without-em-northern-manifesto-southern-secession-chuck-thompson-sec-bcs) has plenty of both.
-
-Comparing records lacks subjective details, so each side will find reasons why their numbers matter more, like Republicans and Democrats arguing about the national budget. He also mentions ESPN's $2.25B deal with the SEC three times but doesn't mention [the Big 10's $1B deal, the ACC's exclusive $3B deal, or the Pac12's mixed $3B deal](http://espn.go.com/blog/playbook/dollars/post/_/id/705/). College football is big money: no matter who wins on the field, ESPN wins in the bank.
-
-He credits the SEC for Auburn's rise to #1 in 2010, but Auburn was champion because they were the only undefeated BCS conference team, not because they played an SEC schedule. Auburn is also the only undefeated BCS conference team to __not__ win the BCS championship: the second straight year a deserving SEC team was excluded from the BCS championship game. The entire SEC felt disrespected, bonded together, and blasted the "SEC, SEC, SEC!" chants other conferences now loathe. Two years later, Florida was nearly excluded in favor of a Ohio State vs Michigan rematch: more disrespect. With the support of the entire SEC, Florida annihilated Ohio State 41-14, and the BCS streak began.
-
-However, winning streaks only fuel the competition. The 2010 season saw Oregon narrowly lose to Auburn while Nebraska and Colorado left the Big 12, triggering the realignments of 2011. The SEC's perceived dominance bubbled into what it feared in 2006: a rematch between conference rivals, which no one in the country cared to watch. Only after TV ratings plummeted did ESPN and the BCS take note and start what football fans have wanted for years: a playoff system.
-
-Don't be influenced by articles written by the author of [Better Off Without 'Em: A Northern Manifesto for Southern Secession](http://chuckthompson.com/), because no matter how many numbers he uses, he can't tell the story of college football. He will only tell the story his customers want to hear. And don't blame the SEC for ruining college football: credit its major role reforming it.
-
-```raw
-<p class="alert alert-info center"><a href="/sports/college-football-conference-records/index.html">Explore the conference records for yourself</a></p>
-```
+<html><body>You are being <a href="https://dan.cunning.cc/sports/dont-hate-the-sec.html.md">redirected</a>.</body></html>

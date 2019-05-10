@@ -1,15 +1,1 @@
-{
-  "title": "Private Photo Albums",
-  "description": "Share and organize pictures with my family while balancing privacy, ownership, simplicity, and convenience.",
-  "image": "album.jpg",
-  "format": "md",
-  "featured": 4,
-  "skips_description": true,
-  "published_at": "2015-10-02 12:00:00 UTC",
-  "author": {
-    "name": "Dan Cunning"
-  },
-  "created_at": "2015-10-02 17:07:16 -0400",
-  "updated_at": "2016-07-17 14:34:37 -0400"
-}
-
+<html><body>You are being <a href="https://dan.cunning.cc/projects/private-photo-albums.json">redirected</a>.</body></html>

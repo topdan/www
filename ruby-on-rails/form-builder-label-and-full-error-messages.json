@@ -1,16 +1,1 @@
-{
-  "title": "f.label and errors.full_messages",
-  "description": "Why you should never use the explicit \"content\" parameter of label_tag or the form builder's label method.",
-  "format": "md",
-  "tag_ids": [
-    "tips"
-  ],
-  "skips_description": true,
-  "published_at": "2015-05-18 18:00:00 UTC",
-  "author": {
-    "name": "Dan Cunning"
-  },
-  "created_at": "2015-05-18 15:10:02 -0400",
-  "updated_at": "2016-07-17 14:34:37 -0400"
-}
-
+<html><body>You are being <a href="https://dan.cunning.cc/ruby-on-rails/form-builder-label-and-full-error-messages.json">redirected</a>.</body></html>
