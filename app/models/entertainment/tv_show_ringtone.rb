@@ -1,14 +1,1 @@
-module Entertainment
-
-  class TvShowRingtone < GitRecord::Embedded
-
-    columns do |t|
-      t.string :show
-      t.string :video_url
-      t.string :thumbnail_url
-      t.text :description
-    end
-
-  end
-
-end
+<html><body>You are being <a href="https://dan.cunning.cc/app/models/entertainment/tv_show_ringtone.rb">redirected</a>.</body></html>

@@ -1,13 +1,1 @@
-{
-  "title": "Smart is Overrated",
-  "description": "Being smart is better than being stupid, but smart shouldn't be the first word you want applied to you. How did smart get so important? How can it work against you? What other traits are more important?",
-  "format": "erb",
-  "featured": 5,
-  "published_at": "2012-03-19 03:00:00 UTC",
-  "author": {
-    "name": "Dan Cunning"
-  },
-  "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2016-07-17 14:34:37 -0400"
-}
-
+<html><body>You are being <a href="https://dan.cunning.cc/living/smart-is-overrated.json">redirected</a>.</body></html>

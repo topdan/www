@@ -1,17 +1,1 @@
-{
-  "title": "Protecting Yourself from Malicious params",
-  "description": "The issues and solutions to making your application's handling of user parameters secure by default, before Ruby on Rails offered an out-of-the-box solution..",
-  "format": "md",
-  "skips_description": true,
-  "tag_ids": [
-    "archive",
-    "gems"
-  ],
-  "published_at": "2012-03-14 18:00:00 UTC",
-  "author": {
-    "name": "Dan Cunning"
-  },
-  "created_at": "2013-10-22 17:42:25 -0400",
-  "updated_at": "2016-07-24 16:55:33 -0400"
-}
-
+<html><body>You are being <a href="https://dan.cunning.cc/ruby-on-rails/param-accessible.json">redirected</a>.</body></html>

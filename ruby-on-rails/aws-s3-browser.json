@@ -1,17 +1,1 @@
-{
-  "title": "Browsing Files & Directories in S3",
-  "description": "Amazon's S3 makes storing files easy but viewing directories isn't intuitive. Let me explain how you can emulate a file structure using Plain-Old-Ruby-Objects.",
-  "format": "md",
-  "tag_ids": [
-    "web-services"
-  ],
-  "uses_javascript": true,
-  "skips_description": true,
-  "published_at": "2015-09-19 14:12:03 -0400",
-  "author": {
-    "name": "Dan Cunning"
-  },
-  "created_at": "2015-09-19 14:12:25 -0400",
-  "updated_at": "2016-07-17 14:34:37 -0400"
-}
-
+<html><body>You are being <a href="https://dan.cunning.cc/ruby-on-rails/aws-s3-browser.json">redirected</a>.</body></html>
