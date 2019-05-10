@@ -753,8 +753,8 @@
     {
       "artist": "Cameron Michael",
       "song": "The Manhattan Project",
-      "video_url": "http://vimeo.com/43580167",
-      "thumbnail_url": "http://b.vimeocdn.com/ts/302/675/302675962_150.jpg",
+      "video_url": "https://vimeo.com/43580167",
+      "thumbnail_url": "https://i.vimeocdn.com/video/302675962.jpg?mw=240&mh=140&q=70",
       "added_at": "2013-01-01 15:35:43 -0500"
     },
     {
