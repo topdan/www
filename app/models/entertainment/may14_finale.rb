@@ -1,0 +1,1 @@
+<html><body>You are being <a href="https://dan.cunning.cc/app/models/entertainment/may14_finale.rb">redirected</a>.</body></html>
