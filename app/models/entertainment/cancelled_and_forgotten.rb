@@ -1,0 +1,1 @@
+<html><body>You are being <a href="https://dan.cunning.cc/app/models/entertainment/cancelled_and_forgotten.rb">redirected</a>.</body></html>
